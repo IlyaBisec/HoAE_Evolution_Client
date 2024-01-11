@@ -11,8 +11,8 @@
   <VideoScaleY>100</VideoScaleY>
  </LeibzigDemo>
  <SVOpt>
-  <ScreenSizeX>1920</ScreenSizeX>
-  <ScreenSizeY>1080</ScreenSizeY>
+  <ScreenSizeX>1024</ScreenSizeX>
+  <ScreenSizeY>768</ScreenSizeY>
   <SoundVolume>47</SoundVolume>
   <MusicVolume>19</MusicVolume>
   <D></D>
@@ -28,7 +28,7 @@
   <RazduplingTimeForDemo>20000</RazduplingTimeForDemo>
   <SelectionType>Round</SelectionType>
   <IsometricMode>false</IsometricMode>
-  <DrawReflectedTerrain>true</DrawReflectedTerrain>
+  <DrawReflectedTerrain>false</DrawReflectedTerrain>
   <DrawReflectedModels>true</DrawReflectedModels>
   <DrawWater>true</DrawWater>
   <DrawEffects>true</DrawEffects>
@@ -39,18 +39,18 @@
   <Draw2DShadows>true</Draw2DShadows>
   <DrawRoads>true</DrawRoads>
   <DrawTrees>true</DrawTrees>
-  <DrawBumpOnLandcape>true</DrawBumpOnLandcape>
+  <DrawBumpOnLandcape>false</DrawBumpOnLandcape>
   <DrawHQWater>true</DrawHQWater>
-  <HQShaders>true</HQShaders>
-  <DrawSpritesIn2Pass>true</DrawSpritesIn2Pass>
-  <DrawBumpOnUnits>true</DrawBumpOnUnits>
+  <HQShaders>false</HQShaders>
+  <DrawSpritesIn2Pass>false</DrawSpritesIn2Pass>
+  <DrawBumpOnUnits>false</DrawBumpOnUnits>
   <GameSpeedAutoAdjustment>false</GameSpeedAutoAdjustment>
   <DialogAdditionViewTime>8000</DialogAdditionViewTime>
   <Antialiasing>
-   <Enabled>true</Enabled>
+   <Enabled>false</Enabled>
   </Antialiasing>
   <TrueColor>
-   <Enabled>true</Enabled>
+   <Enabled>false</Enabled>
    <D></D>
    <ShowDeviceProperties>false</ShowDeviceProperties>
   </TrueColor>
@@ -88,7 +88,7 @@
  <ShowFPS>true</ShowFPS>
  <HintDebugMode>false</HintDebugMode>
  <StartMode>Perspective</StartMode>
- <ShadowQuality>0</ShadowQuality>
+ <ShadowQuality>2</ShadowQuality>
  <AnimQuality>0</AnimQuality>
  <ShowChat>false</ShowChat>
  <ShowRecListTime>0</ShowRecListTime>
