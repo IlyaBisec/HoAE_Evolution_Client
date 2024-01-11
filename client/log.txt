@@ -1,145 +1,145 @@
 **********************************************************************************
-*    Logger session start: Wed Jan 10 20:39:44
+*    Logger session start: Thu Jan 11 18:02:35
 **********************************************************************************
 
-20:39:45 | Warning  | Duplicate TextID: #MM_Multi_hint
-20:39:45 | Warning  | Duplicate TextID: #SM_GameName
-20:39:45 | Warning  | Duplicate TextID: CHAT_IG_BACK_BUTTON_TEXT
-20:39:45 | Warning  | Duplicate TextID: CHAT_CANCEL_BUTTON_TEXT
-20:39:45 | Warning  | Duplicate TextID: IG_CANCEL
-20:39:45 | Warning  | Duplicate TextID: CHAT_IG_BACK_BUTTON_TEXT
-20:39:45 | Warning  | Duplicate TextID: IG_BACK
-20:39:45 | Warning  | Duplicate TextID: #LifeRegen
-20:39:45 | Warning  | Duplicate TextID: #ManaRegen
-20:39:45 | Warning  | Duplicate TextID: #AttackRate
-20:39:45 | Warning  | Duplicate TextID: #AttackRadius
-20:39:45 | Warning  | Duplicate TextID: #MotionSpeed
-20:39:45 | Warning  | Duplicate TextID: #SpellPower
-20:39:45 | Warning  | Duplicate TextID: #Bottle31.NAME
-20:39:45 | Warning  | Duplicate TextID: #Elhant
-20:39:45 | Warning  | Duplicate TextID: #Draelnor
-20:39:45 | Warning  | Duplicate TextID: #Lana
-20:39:45 | Warning  | Duplicate TextID: #Lich
-20:39:45 | Warning  | Duplicate TextID: #Nekros
-20:39:45 | Warning  | Duplicate TextID: #Warlord
-20:39:45 | Warning  | Duplicate TextID: #M1Alchemist
-20:39:45 | Warning  | Duplicate TextID: #M1Ent
-20:39:45 | Warning  | Duplicate TextID: #M1Archer
-20:39:45 | Warning  | Duplicate TextID: #M1Soldier
-20:39:45 | Warning  | Duplicate TextID: #M2Druid
-20:39:45 | Warning  | Duplicate TextID: #M2Hunter
-20:39:45 | Warning  | Duplicate TextID: #M2Forester
-20:39:45 | Warning  | Duplicate TextID: #M2Soldier
-20:39:45 | Warning  | Duplicate TextID: #M2Commander1
-20:39:45 | Warning  | Duplicate TextID: #M2Commander2
-20:39:45 | Warning  | Duplicate TextID: #M2Commander3
-20:39:45 | Warning  | Duplicate TextID: #M2Dweller
-20:39:45 | Warning  | Duplicate TextID: #M2Centaur
-20:39:45 | Warning  | Duplicate TextID: #M3Goblin
-20:39:45 | Warning  | Duplicate TextID: #M4DruidKey
-20:39:45 | Warning  | Duplicate TextID: #M4High_Druid
-20:39:45 | Warning  | Duplicate TextID: #M4DruidControl
-20:39:45 | Warning  | Duplicate TextID: #M4Ent
-20:39:45 | Warning  | Duplicate TextID: #M4DruidAcid
-20:39:45 | Warning  | Duplicate TextID: #M4ShopKeeper
-20:39:45 | Warning  | Duplicate TextID: #M5Fairy
-20:39:45 | Warning  | Duplicate TextID: #M5High_Druid
-20:39:45 | Warning  | Duplicate TextID: #M5Druid1
-20:39:45 | Warning  | Duplicate TextID: #M5Druid2
-20:39:45 | Warning  | Duplicate TextID: #M5Elder
-20:39:45 | Warning  | Duplicate TextID: #M6Elder1
-20:39:45 | Warning  | Duplicate TextID: #M6Elder2
-20:39:45 | Warning  | Duplicate TextID: #M6Elder3
-20:39:45 | Warning  | Duplicate TextID: #M6Elder4
-20:39:45 | Warning  | Duplicate TextID: #M6Fairy
-20:39:45 | Warning  | Duplicate TextID: #M6Druid
-20:39:45 | Warning  | Duplicate TextID: #M6MageShopkeeper
-20:39:45 | Warning  | Duplicate TextID: #M6Dwarf
-20:39:45 | Warning  | Duplicate TextID: #M6Elf1
-20:39:45 | Warning  | Duplicate TextID: #M6Elf2
-20:39:45 | Warning  | Duplicate TextID: #M6Ent
-20:39:45 | Warning  | Duplicate TextID: #M6Soldier
-20:39:45 | Warning  | Duplicate TextID: #M7Centaur1
-20:39:45 | Warning  | Duplicate TextID: #M7Centaur2
-20:39:45 | Warning  | Duplicate TextID: #M7plusFairy
-20:39:45 | Warning  | Duplicate TextID: #M7plusSoldier
-20:39:45 | Warning  | Duplicate TextID: #M7plusCentaur
-20:39:45 | Warning  | Duplicate TextID: #M7plusDryad
-20:39:45 | Warning  | Duplicate TextID: #M7plusDruid
-20:39:45 | Warning  | Duplicate TextID: #M8Elf
-20:39:45 | Warning  | Duplicate TextID: #M8Elder
-20:39:45 | Warning  | Duplicate TextID: #M8Druid
-20:39:45 | Warning  | Duplicate TextID: #M8Dryad
-20:39:45 | Warning  | Duplicate TextID: #M9Dwarf1
-20:39:45 | Warning  | Duplicate TextID: #M9Dwarf2
-20:39:45 | Warning  | Duplicate TextID: #M9Dwarf3
-20:39:45 | Warning  | Duplicate TextID: #M9DwarfChief
-20:39:45 | Warning  | Duplicate TextID: #M10Dwarf1
-20:39:45 | Warning  | Duplicate TextID: #M10Dwarf2
-20:39:45 | Warning  | Duplicate TextID: #M10Children
-20:39:45 | Warning  | Duplicate TextID: #M10Elf
-20:39:45 | Warning  | Duplicate TextID: #M10Elder
-20:39:45 | Warning  | Duplicate TextID: #M11DwarfSoldier1
-20:39:45 | Warning  | Duplicate TextID: #M11DwarfSoldier2
-20:39:45 | Warning  | Duplicate TextID: #M11DwarfSoldier3
-20:39:45 | Warning  | Duplicate TextID: #M11Dwarf1
-20:39:45 | Warning  | Duplicate TextID: #M11Dwarf2
-20:39:45 | Warning  | Duplicate TextID: #M11DwarfCaptain
-20:39:45 | Warning  | Duplicate TextID: #M11Artificial
-20:39:45 | Warning  | Duplicate TextID: #M11DwarfKing
-20:39:45 | Warning  | Duplicate TextID: #M12IceMage1
-20:39:45 | Warning  | Duplicate TextID: #M12DeathMage
-20:39:45 | Warning  | Duplicate TextID: #M12IceGolem
-20:39:45 | Warning  | Duplicate TextID: #M12YetiChief
-20:39:45 | Warning  | Duplicate TextID: #M12Enchantress
-20:39:45 | Warning  | Duplicate TextID: #M12IceMage2
-20:39:45 | Warning  | Duplicate TextID: #M12Gremlin
-20:39:45 | Warning  | Duplicate TextID: #M13Cleric
-20:39:45 | Warning  | Duplicate TextID: #M13Priest
-20:39:45 | Warning  | Duplicate TextID: #M13Priest2
-20:39:45 | Warning  | Duplicate TextID: #M13TorGilong
-20:39:45 | Warning  | Duplicate TextID: #M13Slave
-20:39:45 | Warning  | Duplicate TextID: #M13Mechanic
-20:39:45 | Warning  | Duplicate TextID: #M14MainPriest
-20:39:45 | Warning  | Duplicate TextID: #M14SolSoldier
-20:39:45 | Warning  | Duplicate TextID: #AuraNecromancy.NAME
-20:39:45 | Warning  | Duplicate TextID: #AuraNecromancy
-20:39:45 | Warning  | Duplicate TextID: #Lower_damage.NAME
-20:39:45 | Warning  | Duplicate TextID: #Lower_damage
-20:39:45 | Warning  | Duplicate TextID: #Lower_damage.NAME
-20:39:45 | Warning  | Duplicate TextID: #Lower_damage
-20:39:45 | Warning  | Duplicate TextID: #Explosion.NAME
-20:39:45 | Warning  | Duplicate TextID: #Explosion
-20:39:45 | Warning  | Duplicate TextID: #UA_IceGolem_Degeneration.NAME
-20:39:45 | Warning  | Duplicate TextID: #UA_IceGolem_Degeneration
-20:39:45 | Warning  | Duplicate TextID: #UA_IceGolem_Regeneration.NAME
-20:39:45 | Warning  | Duplicate TextID: #UA_IceGolem_Regeneration
-20:39:45 | Warning  | Duplicate TextID: #UW_Poison.NAME
-20:39:45 | Warning  | Duplicate TextID: #UW_Poison
-20:39:45 | Warning  | Duplicate TextID: #AuraTransformation1.NAME
-20:39:45 | Warning  | Duplicate TextID: #AuraTransformation1
-20:39:47 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.FirstLoadingType0
-20:39:47 | Warning  | VariableExchangeReference: member "Visible" not found in class TextureViewer for variable $IGP.LoadingRace
-20:39:47 | Warning  | VariableExchangeReference: member "Visible" not found in class TextureViewer for variable $IGP.LoadingRace
-20:39:47 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.FirstLoadingType1
-20:39:47 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.MainMenuStarted
-20:39:47 | Error    | Invalid file Missiions\MultiMiss.txt
-20:39:48 | Error    | stonlist.rsr,0 : [AUTOBORN] : Incorrect parameters
-20:39:48 | Error    | stonlist.rsr : Unknown sprite ID :ST200
-20:39:48 | Error    | stonlist.rsr,0 : [AUTOBORN] : Incorrect parameters
-20:39:48 | Error    | stonlist.rsr : Unknown sprite ID :ST201
-20:39:48 | Error    | stonlist.rsr,0 : [AUTOBORN] : Incorrect parameters
-20:39:48 | Error    | stonlist.rsr : Unknown sprite ID :ST202
-20:39:48 | Warning  | TheoVorb: attempting to query non-playing stream [0]
-20:39:48 | Warning  | TheoVorb: attempting to query non-playing stream [0]
-20:39:49 | Warning  | TheoVorb: attempting to query non-playing stream [0]
-20:39:49 | Warning  | TheoVorb: attempting to query non-playing stream [0]
-20:39:52 | Warning  | TheoVorb: attempting to stop non-playing stream [0]
-20:39:52 | Warning  | TheoVorb: attempting to stop non-playing stream [0]
-20:39:52 | Warning  | TheoVorb: attempting to query non-playing stream [0]
-20:39:52 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.LoadingRace
-20:39:52 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.isLocalization0
-20:39:53 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.isLocalization1
-20:39:53 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.LoadingRace
-20:39:53 | Warning  | TheoVorb: attempting to query non-playing stream [0]
-20:39:53 | Warning  | TheoVorb: attempting to query non-playing stream [0]
+18:02:37 | Warning  | Duplicate TextID: #MM_Multi_hint
+18:02:37 | Warning  | Duplicate TextID: #SM_GameName
+18:02:37 | Warning  | Duplicate TextID: CHAT_IG_BACK_BUTTON_TEXT
+18:02:37 | Warning  | Duplicate TextID: CHAT_CANCEL_BUTTON_TEXT
+18:02:37 | Warning  | Duplicate TextID: IG_CANCEL
+18:02:37 | Warning  | Duplicate TextID: CHAT_IG_BACK_BUTTON_TEXT
+18:02:37 | Warning  | Duplicate TextID: IG_BACK
+18:02:37 | Warning  | Duplicate TextID: #LifeRegen
+18:02:37 | Warning  | Duplicate TextID: #ManaRegen
+18:02:37 | Warning  | Duplicate TextID: #AttackRate
+18:02:37 | Warning  | Duplicate TextID: #AttackRadius
+18:02:37 | Warning  | Duplicate TextID: #MotionSpeed
+18:02:37 | Warning  | Duplicate TextID: #SpellPower
+18:02:37 | Warning  | Duplicate TextID: #Bottle31.NAME
+18:02:37 | Warning  | Duplicate TextID: #Elhant
+18:02:37 | Warning  | Duplicate TextID: #Draelnor
+18:02:37 | Warning  | Duplicate TextID: #Lana
+18:02:37 | Warning  | Duplicate TextID: #Lich
+18:02:37 | Warning  | Duplicate TextID: #Nekros
+18:02:37 | Warning  | Duplicate TextID: #Warlord
+18:02:37 | Warning  | Duplicate TextID: #M1Alchemist
+18:02:37 | Warning  | Duplicate TextID: #M1Ent
+18:02:37 | Warning  | Duplicate TextID: #M1Archer
+18:02:37 | Warning  | Duplicate TextID: #M1Soldier
+18:02:37 | Warning  | Duplicate TextID: #M2Druid
+18:02:37 | Warning  | Duplicate TextID: #M2Hunter
+18:02:37 | Warning  | Duplicate TextID: #M2Forester
+18:02:37 | Warning  | Duplicate TextID: #M2Soldier
+18:02:37 | Warning  | Duplicate TextID: #M2Commander1
+18:02:37 | Warning  | Duplicate TextID: #M2Commander2
+18:02:37 | Warning  | Duplicate TextID: #M2Commander3
+18:02:37 | Warning  | Duplicate TextID: #M2Dweller
+18:02:37 | Warning  | Duplicate TextID: #M2Centaur
+18:02:37 | Warning  | Duplicate TextID: #M3Goblin
+18:02:37 | Warning  | Duplicate TextID: #M4DruidKey
+18:02:37 | Warning  | Duplicate TextID: #M4High_Druid
+18:02:37 | Warning  | Duplicate TextID: #M4DruidControl
+18:02:37 | Warning  | Duplicate TextID: #M4Ent
+18:02:37 | Warning  | Duplicate TextID: #M4DruidAcid
+18:02:37 | Warning  | Duplicate TextID: #M4ShopKeeper
+18:02:37 | Warning  | Duplicate TextID: #M5Fairy
+18:02:37 | Warning  | Duplicate TextID: #M5High_Druid
+18:02:37 | Warning  | Duplicate TextID: #M5Druid1
+18:02:37 | Warning  | Duplicate TextID: #M5Druid2
+18:02:37 | Warning  | Duplicate TextID: #M5Elder
+18:02:37 | Warning  | Duplicate TextID: #M6Elder1
+18:02:37 | Warning  | Duplicate TextID: #M6Elder2
+18:02:37 | Warning  | Duplicate TextID: #M6Elder3
+18:02:37 | Warning  | Duplicate TextID: #M6Elder4
+18:02:37 | Warning  | Duplicate TextID: #M6Fairy
+18:02:37 | Warning  | Duplicate TextID: #M6Druid
+18:02:37 | Warning  | Duplicate TextID: #M6MageShopkeeper
+18:02:37 | Warning  | Duplicate TextID: #M6Dwarf
+18:02:37 | Warning  | Duplicate TextID: #M6Elf1
+18:02:37 | Warning  | Duplicate TextID: #M6Elf2
+18:02:37 | Warning  | Duplicate TextID: #M6Ent
+18:02:37 | Warning  | Duplicate TextID: #M6Soldier
+18:02:37 | Warning  | Duplicate TextID: #M7Centaur1
+18:02:37 | Warning  | Duplicate TextID: #M7Centaur2
+18:02:37 | Warning  | Duplicate TextID: #M7plusFairy
+18:02:37 | Warning  | Duplicate TextID: #M7plusSoldier
+18:02:37 | Warning  | Duplicate TextID: #M7plusCentaur
+18:02:37 | Warning  | Duplicate TextID: #M7plusDryad
+18:02:37 | Warning  | Duplicate TextID: #M7plusDruid
+18:02:37 | Warning  | Duplicate TextID: #M8Elf
+18:02:37 | Warning  | Duplicate TextID: #M8Elder
+18:02:37 | Warning  | Duplicate TextID: #M8Druid
+18:02:37 | Warning  | Duplicate TextID: #M8Dryad
+18:02:37 | Warning  | Duplicate TextID: #M9Dwarf1
+18:02:37 | Warning  | Duplicate TextID: #M9Dwarf2
+18:02:37 | Warning  | Duplicate TextID: #M9Dwarf3
+18:02:37 | Warning  | Duplicate TextID: #M9DwarfChief
+18:02:37 | Warning  | Duplicate TextID: #M10Dwarf1
+18:02:37 | Warning  | Duplicate TextID: #M10Dwarf2
+18:02:37 | Warning  | Duplicate TextID: #M10Children
+18:02:37 | Warning  | Duplicate TextID: #M10Elf
+18:02:37 | Warning  | Duplicate TextID: #M10Elder
+18:02:37 | Warning  | Duplicate TextID: #M11DwarfSoldier1
+18:02:37 | Warning  | Duplicate TextID: #M11DwarfSoldier2
+18:02:37 | Warning  | Duplicate TextID: #M11DwarfSoldier3
+18:02:37 | Warning  | Duplicate TextID: #M11Dwarf1
+18:02:37 | Warning  | Duplicate TextID: #M11Dwarf2
+18:02:37 | Warning  | Duplicate TextID: #M11DwarfCaptain
+18:02:37 | Warning  | Duplicate TextID: #M11Artificial
+18:02:37 | Warning  | Duplicate TextID: #M11DwarfKing
+18:02:37 | Warning  | Duplicate TextID: #M12IceMage1
+18:02:37 | Warning  | Duplicate TextID: #M12DeathMage
+18:02:37 | Warning  | Duplicate TextID: #M12IceGolem
+18:02:37 | Warning  | Duplicate TextID: #M12YetiChief
+18:02:37 | Warning  | Duplicate TextID: #M12Enchantress
+18:02:37 | Warning  | Duplicate TextID: #M12IceMage2
+18:02:37 | Warning  | Duplicate TextID: #M12Gremlin
+18:02:37 | Warning  | Duplicate TextID: #M13Cleric
+18:02:37 | Warning  | Duplicate TextID: #M13Priest
+18:02:37 | Warning  | Duplicate TextID: #M13Priest2
+18:02:37 | Warning  | Duplicate TextID: #M13TorGilong
+18:02:37 | Warning  | Duplicate TextID: #M13Slave
+18:02:37 | Warning  | Duplicate TextID: #M13Mechanic
+18:02:37 | Warning  | Duplicate TextID: #M14MainPriest
+18:02:37 | Warning  | Duplicate TextID: #M14SolSoldier
+18:02:37 | Warning  | Duplicate TextID: #AuraNecromancy.NAME
+18:02:37 | Warning  | Duplicate TextID: #AuraNecromancy
+18:02:37 | Warning  | Duplicate TextID: #Lower_damage.NAME
+18:02:37 | Warning  | Duplicate TextID: #Lower_damage
+18:02:37 | Warning  | Duplicate TextID: #Lower_damage.NAME
+18:02:37 | Warning  | Duplicate TextID: #Lower_damage
+18:02:37 | Warning  | Duplicate TextID: #Explosion.NAME
+18:02:37 | Warning  | Duplicate TextID: #Explosion
+18:02:37 | Warning  | Duplicate TextID: #UA_IceGolem_Degeneration.NAME
+18:02:37 | Warning  | Duplicate TextID: #UA_IceGolem_Degeneration
+18:02:37 | Warning  | Duplicate TextID: #UA_IceGolem_Regeneration.NAME
+18:02:37 | Warning  | Duplicate TextID: #UA_IceGolem_Regeneration
+18:02:37 | Warning  | Duplicate TextID: #UW_Poison.NAME
+18:02:37 | Warning  | Duplicate TextID: #UW_Poison
+18:02:37 | Warning  | Duplicate TextID: #AuraTransformation1.NAME
+18:02:37 | Warning  | Duplicate TextID: #AuraTransformation1
+18:02:40 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.FirstLoadingType0
+18:02:40 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.FirstLoadingType1
+18:02:40 | Warning  | VariableExchangeReference: member "Visible" not found in class TextureViewer for variable $IGP.LoadingRace
+18:02:40 | Warning  | VariableExchangeReference: member "Visible" not found in class TextureViewer for variable $IGP.LoadingRace
+18:02:41 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.MainMenuStarted
+18:02:41 | Error    | Invalid file Missiions\MultiMiss.txt
+18:02:42 | Error    | stonlist.rsr,0 : [AUTOBORN] : Incorrect parameters
+18:02:42 | Error    | stonlist.rsr : Unknown sprite ID :ST200
+18:02:42 | Error    | stonlist.rsr,0 : [AUTOBORN] : Incorrect parameters
+18:02:42 | Error    | stonlist.rsr : Unknown sprite ID :ST201
+18:02:42 | Error    | stonlist.rsr,0 : [AUTOBORN] : Incorrect parameters
+18:02:42 | Error    | stonlist.rsr : Unknown sprite ID :ST202
+18:02:42 | Warning  | TheoVorb: attempting to query non-playing stream [0]
+18:02:42 | Warning  | TheoVorb: attempting to query non-playing stream [0]
+18:02:43 | Warning  | TheoVorb: attempting to query non-playing stream [0]
+18:02:43 | Warning  | TheoVorb: attempting to query non-playing stream [0]
+18:02:47 | Warning  | TheoVorb: attempting to stop non-playing stream [0]
+18:02:47 | Warning  | TheoVorb: attempting to stop non-playing stream [0]
+18:02:47 | Warning  | TheoVorb: attempting to query non-playing stream [0]
+18:02:47 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.LoadingRace
+18:02:47 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.LoadingRace
+18:02:47 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.isLocalization0
+18:02:47 | Warning  | VariableExchangeReference: member "Visible" not found in class DialogsDesk for variable $IGP.isLocalization1
+18:02:47 | Warning  | TheoVorb: attempting to query non-playing stream [0]
+18:02:47 | Warning  | TheoVorb: attempting to query non-playing stream [0]
