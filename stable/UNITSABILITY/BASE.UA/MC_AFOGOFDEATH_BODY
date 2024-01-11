@@ -1,0 +1,32 @@
+<NewAbility>
+ <Name>MC_aFogOfDeath_Body</Name>
+ <FileID>Interf3\Ability\spells</FileID>
+ <SpriteID>13</SpriteID>
+ <EffectFileID>Interf3\Ability\spells</EffectFileID>
+ <EffectSpriteID>13</EffectSpriteID>
+ <HintName>#SPELL_FOGOFDEATH.NAME</HintName>
+ <Hint>#SPELL_FOGOFDEATH</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>200</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnEndEffectErase>true</OnEndEffectErase>
+</NewAbility>

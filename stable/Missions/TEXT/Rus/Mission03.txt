@@ -1,0 +1,45 @@
+#M03D01S02P01    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t25.ogg]Стрелы не берут его. Быть может, меч окажется лучшим оружием против этой твари?
+
+#M03D02S01P01    [Elhant][Normal][Missions\SOUND\MISSION03\m03_t01.ogg]Кажется, здесь есть всё необходимое, чтобы разбить лагерь.
+#M03D02S01P02    [Elhant][Normal][Missions\SOUND\MISSION03\m03_t02.ogg]Интересно, что же эти феи умеют строить?
+
+#M03D02S02P01    [Elhant][Normal][Missions\SOUND\MISSION03\m03_t20.ogg]Меч? Что ж, испытаю его в бою!
+
+#M03D03S01P01    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t03.ogg]Нежить! Быстро же они меня учуяли!..
+                                                                     
+#M03D03S01P02    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t04.ogg]Опять гости с кладбища!
+#M03D03S01P03    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t05.ogg]Нежить. Кто же направляет её сюда с кладбища?
+#M03D03S01P04    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t06.ogg]Видимо, от них не избавиться, не уничтожив кладбище:
+#M03D03S01P05    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t07.ogg]Снова они! Надо, наконец, покончить с кладбищем!
+
+#M03D04S02P01    [Lich][Defiance][Missions\SOUND\MISSION03\m03_t15.ogg]Ты пришел поклониться мне, смертный?
+#M03D04S03P01    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t16.ogg]Так вот кто повелевает здешней нежитью! Сейчас я очищу эту землю от скверны!
+#M03D04S04P01    [Lich][Defiance][Missions\SOUND\MISSION03\m03_t17.ogg]Ну что ж, попробуй.
+
+#M03D05S01P01    [Lich][Angry][Missions\SOUND\MISSION03\m03_t18.ogg]Можешь радоваться, смертный... но под землёй тебе меня не победить!
+                                                                      
+#M03D05S05P01    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t19.ogg]И под землёй тебе не скрыться от меня, прислужник зла!
+
+#M03D07S01P02    [Lich][Angry][Missions\SOUND\MISSION03\m03_t21.ogg]Тебе не победить! Повелитель Праха защищает меня!
+#M03D07S02P01    [Elhant][Rage][Missions\SOUND\MISSION03\m03_t22.ogg]Все твои прислужники мертвы, а вслед за ними умрёшь и ты!
+#M03D07S03P01    [Lich][Defiance][Missions\SOUND\MISSION03\m03_t23.ogg]Глупец, я давно уж мёртв!
+#M03D07S03P02    [Lich][Angry][Missions\SOUND\MISSION03\m03_t24.ogg]Ты можешь уничтожить это тело, но дух мой воплотится в новом, ведь земли вокруг полны мертвецов!
+
+#M03D11S01P01    [M3Goblin][Angry][Missions\SOUND\MISSION03\m03_t08.ogg]Это наша земля! 
+#M03D11S01P02    [M3Goblin][Angry][Missions\SOUND\MISSION03\m03_t09.ogg]Убирайтесь отсюда!
+
+#M03HINT1P01     [Elhant][Angry][Missions\SOUND\MISSION03\m03_t10.ogg]Шаманы гоблинов умеют оживлять мёртвых сородичей. Их нужно уничтожать первыми! 
+                                                                      
+#M03HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION03\m03_t11.ogg]Интересно, зачем им понадобились знамёна: Неужели здесь замешана какая-то магия?
+#M03HINT2P02     [Elhant][Normal][Missions\SOUND\MISSION03\m03_t12.ogg]Стоит попробовать уничтожать знаменосцев первыми, вдруг это уменьшит сопротивление остальных?
+                                                                      
+#M03HINT3P01     [Elhant][Angry][Missions\SOUND\MISSION03\m03_t13.ogg]Урсы! Я слышал, их называют мохнатыми убийцами. Но говорят ещё, в каждой стае есть вожак.
+#M03HINT3P02     [Elhant][Normal][Missions\SOUND\MISSION03\m03_t14.ogg]Если с ним будет покончено, остальные ослабнут...
+
+
+#M03HINT1	У вас ограниченное количество железа. Чтобы добыть больше - постройте железное дерево!
+#M03HINT2	Убивая вождей, вы повергаете противника в панику!
+#M03HINT3	Шаманы поднимают умерших соратников!
+#M03HINT4	Флагоносцы повышают защиту своим скелетам! Постарайтесь убивать их первыми!
+#M03HINT6	Поднимая уровень, выбирайте защиту от того оружия, от которого чаще страдаете!
+

@@ -1,0 +1,43 @@
+#M05D01S01P01    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t01.ogg]What happened here?
+#M05D01S02P01    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t02.ogg]The druids said that the fishermen who lived on this bank could help me reach the pegasuses' island.
+#M05D01S03P01    [M5Fairy][Normal][Missions\SOUND\MISSION05\m05_t03.ogg]We were always friends with the fishermen...
+#M05D01S03P02    [M5Fairy][Fear][Missions\SOUND\MISSION05\m05_t04.ogg]The village was recently attacked by the undead. They burned all the houses and slew everyone... By some miracle we managed to save ourselves.
+#M05D01S04P01    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t05.ogg]But I must reach the pegasuses!
+#M05D01S04P02    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t06.ogg]If I protect you, will you help me rebuild the village?
+#M05D01S05P01    [M5Fairy][Normal][Missions\SOUND\MISSION05\m05_t07.ogg]Of course we will help! But be aware, warrior: lots of our enemies prowl around here...
+                                                            
+#M05D02S01P01    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t16.ogg]How did you get here? The lake is seized by the powers of Darkness!
+#M05D02S02P01    [Elhant][Suprised][Missions\SOUND\MISSION05\m05_t17.ogg]Fairies built ships for me, and we destroyed the hostile fleet.
+#M05D02S02P02    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t18.ogg]The waters of your lake are free from filth, and I want you to help me. 
+#M05D02S03P01    [M5Druid1][Normal][Missions\SOUND\MISSION05\m05_t19.ogg]Do you realize who you are standing in front of? Who are you speaking to so defiantly?
+#M05D02S03P02    [M5Druid1][Normal][Missions\SOUND\MISSION05\m05_t20.ogg]Beseech us to help, but demand it not! Be humbled. Especially because you haven't cleansed the lake from filth yet.
+#M05D02S04P01    [Elhant][Angry][Missions\SOUND\MISSION05\m05_t21.ogg]But the enemy fleet is annihilated!
+#M05D02S05P01    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t22.ogg]You have delivered us from one trouble, but there is another.
+#M05D02S05P02    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t23.ogg]On the far bank of the lake the undead have erected a temple of the dark power.
+#M05D02S05P03    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t24.ogg]Now it corrupts the lake and the shallow waters are transformed into rotten swamps...
+#M05D02S06P01    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t25.ogg]I do not have time to see to it! I have to return!
+#M05D02S07P01    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t26.ogg]Count on our assistance only when you purge the entire lake...
+#M05D02S08P01    [Elhant][Angry][Missions\SOUND\MISSION05\m05_t27.ogg]I am not asking for help for myself but the whole Sylvan folk!
+#M05D02S09P01    [M5Druid1][Normal][Missions\SOUND\MISSION05\m05_t28.ogg]Listen respectfully and don't interrupt when you speak to druids!
+#M05D02S10P01    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t29.ogg]You have to demolish what is inside the dark temple.
+#M05D02S10P02    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t30.ogg]We don't know what is concealed within its walls, but we sense a powerful magic there.
+#M05D02S10P03    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t31.ogg]It is the magic that rises the dead. It drives everyone who lives nearby the lake insane.
+#M05D02S10P04    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t32.ogg]Even the pegasuses perceive its power and fret. A little more time and they will go mad.
+#M05D02S10P05    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t33.ogg]Destroy the temple and we will help your people. You said that the fairies awaited you on the bank?
+#M05D02S10P06    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t34.ogg]We can teach them to built pegasus stalls, and the winged horses raised there will help you to vanquish the undead.
+
+#M05D06S01P01    [M5Druid2][Angry][Missions\SOUND\MISSION05\m05_t11.ogg]Go back from whence you came, fiends! You will not defeat me!
+
+#M05D07S01P01    [M5Druid2][Normal][Missions\SOUND\MISSION05\m05_t12.ogg]You should not worry. I can easily cope with them myself!
+#M05D07S01P02    [M5Druid2][Normal][Missions\SOUND\MISSION05\m05_t13.ogg]I don't want to be ungrateful, warrior. Here, take this spell.
+
+#M05D07S03P01    [M2Commander2][Normal][Missions\SOUND\MISSION05\m05_t15.ogg]This is the island we are searching for! The Pegasuses live here!
+                                                            
+#M05HINT1P01     [Elhant][Normal][Missions\SOUND\MISSION05\m05_t08.ogg]The Lord of the Undead continually sends new forces against me.
+#M05HINT1P02     [Elhant][Normal][Missions\SOUND\MISSION05\m05_t09.ogg]Skeletons, zombies, mummies - and now ghosts and those creatures on horses...
+#M05HINT1P03     [Elhant][Suprised][Missions\SOUND\MISSION05\m05_t10.ogg]Could it be that the enemy sensed that I was a threat to him?
+
+#M05HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION05\m05_t14.ogg]I don't like high waters. No, sailing is not for me. I prefer walking on the solid ground.
+                                                           
+#M05HINT3P01     [Elhant][Normal][Missions\SOUND\MISSION05\m05_t35.ogg]What happened to the once splendid heaven? The whole bank is now seized by the undead!
+#M05HINT3P02     [Elhant][Angry][Missions\SOUND\MISSION05\m05_t36.ogg]The enemy becomes more and more dangerous and impudent. He is erecting his own towers and castles...

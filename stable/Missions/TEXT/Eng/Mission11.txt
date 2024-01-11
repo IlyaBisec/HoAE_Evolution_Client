@@ -1,0 +1,84 @@
+#M11D01S01P01    [M11Dwarf2][Normal][Missions\SOUND\MISSION11\m11_t03.ogg]The Sols have reached the island. Beat them down!
+
+
+#M11D02S02P01    [M11DwarfCaptain][Pride][Missions\SOUND\MISSION11\m11_t04.ogg]We thank you for your help, stranger. Where are you from?
+#M11D02S03P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t05.ogg]I have come here from a distant island in search of the Gems of Power. Do you know where I can find them?
+#M11D02S04P01    [M11DwarfCaptain][Pride][Missions\SOUND\MISSION11\m11_t06.ogg]No, I've never heard of any Gems.
+#M11D02S04P02    [M11DwarfCaptain][Pride][Missions\SOUND\MISSION11\m11_t07.ogg]We're from the frontier troops. We were attacked by the Sols' flying vessels. Our captain stayed on the neighbouring island.
+#M11D02S05P01    [M11DwarfCaptain][Pride][Missions\SOUND\MISSION11\m11_t08.ogg]Take us there, tall one. We need to speak to him. Maybe he can help you in your search.
+#M11D02S06P02    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t09.ogg]Fine, let us set sail.
+
+
+#M11D03S01P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t10.ogg]What has brought you to our shores, stranger?
+#M11D03S02P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t11.ogg]I was told that your nation possesses one of the Gems of Power. Do you know where I can find it?
+#M11D03S03P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t12.ogg]I've heard about the Gem, but I have never seen it. You must get to our Ruler...
+#M11D03S03P02    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t13.ogg]Be warned though, Sols have attacked our lands.
+#M11D03S04P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t14.ogg]Sols? What are they?
+
+#M11D03S05P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t15.ogg]A malicious tribe that lives on a flying island named Shambala.
+#M11D03S05P02    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t16.ogg]It hangs in the air not far from our capital. The Sols fly down in their vessels.
+#M11D03S05P03    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t17.ogg]You can't get there in ships like yours. They will annihilate it.
+#M11D03S05P04    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t18.ogg]We can supply you with cannons from our arks.
+#M11D03S06P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t19.ogg]Cannons? What's that?
+#M11D03S07P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t20.ogg]They are machines that can strike your foe with heavy iron balls from a great distance. They will make your way to the capital easier.
+#M11D03S08P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t21.ogg]I understand. Let's go!
+#M11D03S09P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t22.ogg]No, apparently, just cannons will be not enough. There are too many Sols. We have to fortify the ships' hulls.
+#M11D03S09P02    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t23.ogg]There are craftsmen on the neighbouring island who can help you with this.
+
+
+#M11D04S01P01    [M11Dwarf1][Pride][Missions\SOUND\MISSION11\m11_t25.ogg]We would have died without your help, stranger! How can we help you in return?
+#M11D04S02P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t26.ogg]Can you increase the strength of my ships?
+#M11D04S03P01    [M11Dwarf1][Pride][Missions\SOUND\MISSION11\m11_t27.ogg]We can and it won't take long.
+
+#M11D05S01P01    [M11DwarfSoldier1][Pride][Missions\SOUND\MISSION11\m11_t30.ogg]Sols are attacking our capital!
+#M11D05S01P02    [M11DwarfSoldier2][Pride][Missions\SOUND\MISSION11\m11_t31.ogg]Burn down their vessels! Fire!
+#M11D05S01P03    [M11DwarfSoldier3][Pride][Missions\SOUND\MISSION11\m11_t32.ogg]Quick, turn their right flank!   
+
+
+    
+#M11D06S01P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t33.ogg]Are you the lord of these lands? Tell me, do you possess the Gem of Power?
+#M11D06S02P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t34.ogg]Why would you need the gem, stranger?
+#M11D06S03P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t35.ogg]The Undead ruled by Necros Norron have risen from their graves on our island.
+#M11D06S04P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t36.ogg]I have learned that only the Crown of Elements with the Gems can destroy him.
+
+
+#M11D06S04P02    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t37.ogg]So have you found the Crown?! We believed it was just a legend...
+#M11D06S05P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t38.ogg]The Great Octon flew away from our shores long long ago, and I never thought that it would be found.
+#M11D06S06P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t39.ogg]You must know that the Gem is the very reason why Sols attacked us.
+
+#M11D06S07P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t40.ogg]Do they want to take possession of it?
+#M11D06S07P02    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t41.ogg]Yes. Shambala, their flying island, still hovers nearby.
+#M11D06S08P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t42.ogg]If they've come for the Gem, you'd better give it to me! 
+#M11D06S09P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t43.ogg]As soon as I leave here, the Sols will chase me and leave you in peace.
+#M11D06S09P02    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t44.ogg]Your words make sense, Tall Ranger. Where will you sail next? 
+#M11D06S09P03    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t45.ogg]I shall find the rest of the Gems. Do you know where can I find them?
+
+
+
+#M11D06S09P04    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t46.ogg]One belongs to the Cryo race. Their people live in Brita - the lands far to the north. Sadly, the Sols possess the other. 
+#M11D06S09P05    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t47.ogg]If you try to sail to Brita, the Shambala will try to destroy your ships.
+#M11D06S09P06    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t48.ogg]I will give you the Gem and an ark with a crew. They will take you to the northerners. 
+#M11D06S10P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t49.ogg]Answer one more question, stranger.
+#M11D06S10P02    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t50.ogg]A long time ago, a large group of my people escorted Great Octon and the Crown of Elements away from our shores.
+#M11D06S11P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t51.ogg]If you have truly found it, so you may know something of our kins' lot.
+#M11D06S11P02    [Elhant][Suprised][Missions\SOUND\MISSION11\m11_t52.ogg]Yes, I have seen them and spoken with them. The Dwarf tribe lives under World Mountain, which towers above the very heart of my island.
+
+
+
+#M11D06S11P03    [Elhant][Angry][Missions\SOUND\MISSION11\m11_t53.ogg]The Undead have invaded our lands now and your race is in peril.
+#M11D06S11P04    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t54.ogg]If this is true, we must help them to return to their fatherland.
+#M11D06S11P05    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t55.ogg]A new ark has been recently built in the dockyard; it is huge and can lift many dwarfs into the air at once.
+#M11D06S11P06    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t56.ogg]We will send it to your island and save our brothers. I bestow our Gem to you, stranger, and warn you:
+#M11D06S11P07    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t57.ogg]Beware of the Sols! Their wizards will sense immediately that you have this treasure aboard.
+
+
+	
+#M11D07S01P01     [Elhant][Pride][Missions\SOUND\MISSION11\m11_t01.ogg]I thought the expanse of Atlans was immense, but how small it eventually turned out to be. 
+#M11D07S01P02     [Elhant][Suprised][Missions\SOUND\MISSION11\m11_t02.ogg]Vast lands across the ocean, isles, different cultures, different people... And it seems that none of them can live in peace together. Just like us. 
+
+#M11D07S02P01     [Elhant][Pride][Missions\SOUND\MISSION11\m11_t28.ogg]The Dwarfs are excellent craftmen.
+#M11D07S02P02     [Elhant][Suprised][Missions\SOUND\MISSION11\m11_t29.ogg]With a new weapon and a sturdy ship, such a strong warrior as I am will be able to reach the capital in seconds!
+
+#M11D07S03P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t24.ogg]The Damned Sols are here too! Faster, we must help the artificers! 
+
+

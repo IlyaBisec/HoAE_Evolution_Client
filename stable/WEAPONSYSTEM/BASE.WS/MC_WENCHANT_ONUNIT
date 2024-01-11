@@ -1,0 +1,37 @@
+<WeaponModificator>
+ <Name>MC_wEnchant_OnUnit</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <DrawOne>
+     <Anim>
+      <ModelID>Models\Effects\MagicCard\Enchant\MagicheskoeOruzhieUn.c2m</ModelID>
+     </Anim>
+    </DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <Event>
+    <TimePeriod>
+     <StartTime>
+      <Value>
+       <Op>
+        <NumericalConst>
+         <Value>
+          <Value>20000</Value>
+         </Value>
+        </NumericalConst>
+       </Op>
+      </Value>
+     </StartTime>
+    </TimePeriod>
+   </Event>
+   <WeaponModificators>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

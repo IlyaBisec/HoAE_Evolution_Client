@@ -1,0 +1,26 @@
+<ua_Chest>
+ <Name>ChestMC</Name>
+ <ClassType>Image</ClassType>
+ <FileID>Interf3\items2</FileID>
+ <SpriteID>31</SpriteID>
+ <GroundMD>
+  <UnitType>IteIPot(IT)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_Invisibility>
+   <Conditions>
+    <umc_LiveBody>
+     <Not>true</Not>
+    </umc_LiveBody>
+   </Conditions>
+   <Invisibility>true</Invisibility>
+  </mod_Invisibility>
+ </Modificators>
+</ua_Chest>

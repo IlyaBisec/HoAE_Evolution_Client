@@ -1,0 +1,29 @@
+<WeaponModificator>
+ <Name>Priziv</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <BirthNewUnit>
+     <UT>
+      <UnitType>DruHAma(DR)</UnitType>
+     </UT>
+     <UnitLife>
+      <Value>
+       <Op>
+        <NumericalConst>
+         <Value>
+          <Value>250</Value>
+         </Value>
+        </NumericalConst>
+       </Op>
+      </Value>
+     </UnitLife>
+    </BirthNewUnit>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

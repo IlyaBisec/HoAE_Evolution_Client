@@ -1,0 +1,16 @@
+<WeaponModificator>
+ <Name>MC_wLandmine_Sound_Explosion</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <PlaySomeSound>
+     <SoundID>M_Landmine_Explosion</SoundID>
+    </PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

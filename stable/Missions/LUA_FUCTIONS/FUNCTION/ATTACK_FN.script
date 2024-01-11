@@ -1,0 +1,98 @@
+
+--[[ USE FOR STORE ATTACK FUNCTIONS ]]--
+--[[ ALL COMMAND GIVE ONCE 			]]--
+
+function	GROUP_ATTACK_GROUP( paramData )
+	
+	if ( paramData==nil ) then
+		return 0;
+	end;
+	
+	_gAttack	= GROUP(paramData:GET("gAttack"));
+	_gTarget	= GROUP(paramData:GET("gTarget"));
+		
+	if ( _gAttack==nil or _gTarget==nil ) then
+		return 0;
+	end;
+	
+	_gAttack:AttackGroup_NearestOB(_gTarget);
+
+	return 1;
+	
+end;
+
+function	GROUP_ATTACK_NODE( paramData )
+	
+	if ( paramData==nil ) then
+		return 0;
+	end;
+	
+	_gGroup = GROUP(paramData:GET("gGroup"));
+	_nNode	= NODE(paramData:GET("nNode"));
+	
+	if ( _gGroup==nil or _nNode==nil ) then
+		return 0;
+	end;
+	
+	_gTarget = CLASS.GROUP();
+	_gTarget:AddEnemyUnitsInZone(_gGroup.Nat,_nNode.x,_nNode.y,_nNode.R,false);
+	if ( _gTarget.N>0 ) then
+		_gGroup:AttackGroup_NearestOB(_gTarget);
+	end;
+	_gTarget:RemAllUnits();
+	
+	return 1;
+end;
+
+function 	ADD_STORM(paramData)
+	_Group 	= GROUP(paramData:GET("gGroup"));
+	if ( _Group~=nil ) then
+		AddTomahawks(_Group,_Group.Nat,true,0,0,0);
+	end;
+	return 1;
+end;
+
+function	GROUP_ATTACK_00( paramData )
+
+	if (paramData==nil) then return 0 end;
+	_gAttacker = GROUP(paramData:GET("gAttaker"));
+	_gTarget	 = GROUP(paramData:GET("gTarget"));	 --[[ необязательно ]]--
+	_iPower	 = INT(paramData:GET("iPower"));	 --[[ необязательно ]]--
+	
+	if (_gAttacker~=nil) then
+		_gAttacker:AttackEnemy00(_gTarget,_iPower.Value);
+		return 1;
+	end;
+	
+	return 0;
+	
+end;
+
+function	GROUP_EXPLORING_MAP( paramData )
+	if (paramData==nil) then return 0 end;
+	_gGroup = GROUP(paramData:GET("gGroup"));
+	
+	if ( _gGroup~=nil ) then
+		_gGroup:ExploringMAP();
+		return 1;
+	end;
+	
+	return 0;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

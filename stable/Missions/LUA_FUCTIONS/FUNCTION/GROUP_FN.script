@@ -1,0 +1,134 @@
+
+function	RemoveUnitsInZoneToGroup( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gSrceGR = GROUP(paramData:GET("srceGR"));
+	_gDestGR = GROUP(paramData:GET("destGR"));
+	_nTrnsND =  NODE(paramData:GET("trnsND"));
+	if ( _gSrceGR~=nil and _gDestGR~=nil and _nTrnsND~=nil ) then
+		return _gSrceGR:RemoveUnitsInZoneToCGroup(_nTrnsND,_gDestGR);
+	end;
+	return 0;
+end;
+
+function	GROUP_AddSelected( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGR = GROUP(paramData:GET("Group"));
+	_iNT = INT(paramData:GET("Nation"));
+	if ( _gGR~=nil and _iNT~=nil ) then 
+		_gGR:AddSelectedUnits(_iNT.Value);
+		return 1;
+	end;
+	return 0;
+end;
+
+function	GROUP_AddInZone( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGR = GROUP(paramData:GET("Group"));
+	_iNT = INT(paramData:GET("Nation"));
+	_nND = NODE(paramData:GET("Node"));
+	_bADD= BOOL(paramData:GET("Add"));
+	if ( _gGR~=nil and _iNT~=nil and _nND~=nil and _bADD~=nil ) then 
+		_gGR:AddUnitsInZone(_iNT.Value,_nND.x,_nND.y,_nND.R,_bADD.Value);
+		return 1;
+	end;
+	return 0;
+end;
+
+function	GROUP_AddTypeInZone( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGR = GROUP(paramData:GET("Group"));
+	_iNT = INT(paramData:GET("Nation"));
+	_iTP = INT(paramData:GET("UnitType"));
+	_nND = NODE(paramData:GET("Node"));
+	_bADD= BOOL(paramData:GET("Add"));
+	if ( _gGR~=nil and _iNT~=nil and _nND~=nil and _bADD~=nil and _iTP~=nil ) then 
+		_gGR:AddUnitsTypeInZone(_iNT.Value,_iTP.Value,_nND.x,_nND.y,_nND.R,_bADD.Value);
+		return 1;
+	end;
+	return 0;
+end;
+
+function	GROUP_FreeFromFSM( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGR = paramData:GET("Group");
+	if ( _gGR~=nil ) then
+		FSM.FreeSO_pVAR(_gGR);
+		GROUP(_gGR).AIGuard = false;
+		return 1;
+	end;
+	return 0;
+end;
+
+function	GROUP_SetLockType( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGR = GROUP(paramData:GET("Group"));
+	_iLT = INT(paramData:GET("LockType"));
+	if ( _gGR~=nil and _iLT~=nil ) then
+		_gGR:SetLockType( _iLT.Value );
+		return 1;
+	end;
+	return 0;
+end;
+
+function	GROUP_PutRandFormation( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGR = GROUP(paramData:GET("Group"));
+	_gND =  NODE(paramData:GET("Node"));
+	_iNI = 	 INT(paramData:GET("Nation"));
+	_iUT =   INT(paramData:GET("UnitType"));
+	_iMinN = INT(paramData:GET("minN"));
+	_iMaxN = INT(paramData:GET("maxN"));
+	if ( _gGR~=nil   and 
+		 _gND~=nil   and 
+		 _iNI~=nil   and 
+		 _iUT~=nil   and 
+		 _iMinN~=nil and 
+		 _iMaxN~=nil 
+		) 
+	then
+		_UN = Rando( _iMaxN.Value - _iMinN.Value ) + _iMinN.Value;
+		return OPER.PutRandFormation_lua	( 	_gGR		,
+												_iNI.Value	,
+												_iUT.Value	,
+												_UN			,
+												_gND.x		,
+												_gND.y		,
+												_gND.R		
+											 );
+	end;
+	return 0;
+end;
+
+function	GROUP_GetNationAmout( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGR = GROUP(paramData:GET("Group"));
+	_iNI = 	 INT(paramData:GET("Nation"));
+	if ( _gGR~=nil and _iNI~=nil ) then
+		return _gGR:GetNationAmout( _iNI.Value );
+	end;
+	return 0;
+end;
+
+function	GROUP_RemoveAllUnits( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGR = GROUP(paramData:GET("Group"));
+	if ( _gGR~=nil and _gGR.N>0 ) then
+		_gGR:RemAllUnits();
+		return 1;
+	end;
+	return 0;
+end;
+
+function	NATION_ClearSelection( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_iNI = 	 INT(paramData:GET("Nation"));
+	if ( _iNI~=nil and 0<=_iNI.Value and _iNI.Value<8 ) then
+		OPER.ClearSelection_lua(_iNI.Value);
+	end;
+	return 0;
+end;
+
+
+
+
+

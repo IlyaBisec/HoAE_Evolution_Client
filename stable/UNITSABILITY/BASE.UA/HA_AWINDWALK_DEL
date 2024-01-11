@@ -1,0 +1,25 @@
+<NewAbility>
+ <Name>HA_aWindWalk_Del</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <UnCast>
+  <ClassRef.UnitAbility>
+   <ClassName>NewAbility</ClassName>
+   <RefName>HeroAuraWindWalk</RefName>
+  </ClassRef.UnitAbility>
+  <ClassRef.UnitAbility>
+   <ClassName>NewAbility</ClassName>
+   <RefName>HA_aWindWalk_OnHero</RefName>
+  </ClassRef.UnitAbility>
+ </UnCast>
+</NewAbility>

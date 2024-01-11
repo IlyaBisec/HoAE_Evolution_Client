@@ -1,0 +1,23 @@
+<ShowBuildStage>
+ <Name>BuildStage</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <BuildStageModel>Models\Scaffold\ScaffoldM.C2M</BuildStageModel>
+ <BuildStageAnimation>Models\Scaffold\ScaffoldA.C2M</BuildStageAnimation>
+ <BuildStageDestructionModel>Models\Scaffold\ScaffoldM.C2M</BuildStageDestructionModel>
+ <BuildStageDestructionAnimation>Models\Scaffold\ScaffoldA.C2M</BuildStageDestructionAnimation>
+ <InverseOrder>true</InverseOrder>
+ <ModelScale>1.100000</ModelScale>
+ <ExtraZScale>1.500000</ExtraZScale>
+ <MinStage>0.219048</MinStage>
+</ShowBuildStage>

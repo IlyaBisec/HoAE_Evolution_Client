@@ -1,0 +1,26 @@
+<DialogsSystem>
+ <ChildDialogs>
+  <TextureViewer>
+   <TextureID>Interf3\loading\loadingIntro_01good.DDS</TextureID>
+   <Smooth>true</Smooth>
+   <LU>1024.000000</LU>
+   <LV>768.000000</LV>
+   <Width>1024</Width>
+   <Height>768</Height>
+  </TextureViewer>
+  <TextButton>
+   <Message>ICCONN</Message>
+   <ActiveFont>SmallWhiteFont</ActiveFont>
+   <PassiveFont>SmallWhiteFont</PassiveFont>
+   <DisabledFont>WindowText</DisabledFont>
+   <Align>Center</Align>
+   <x>490</x>
+   <y>669</y>
+   <Width>64</Width>
+   <Height>11</Height>
+  </TextButton>
+ </ChildDialogs>
+ <Width>-1</Width>
+ <Height>0</Height>
+ <Source>Dialogs\InternetConnect.DialogsSystem.xml</Source>
+</DialogsSystem>

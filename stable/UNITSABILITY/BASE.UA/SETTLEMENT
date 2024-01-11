@@ -1,0 +1,22 @@
+<ua_Settlement>
+ <Name>Settlement</Name>
+ <FileID>Interf3\items3</FileID>
+ <SpriteID>82</SpriteID>
+ <EffectFileID>Interf3\items3</EffectFileID>
+ <EffectSpriteID>82</EffectSpriteID>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</ua_Settlement>

@@ -1,0 +1,17 @@
+<uaFlyBodyParams>
+ <Name>MS_RepWyv</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <AngleX_modulator>0.350000</AngleX_modulator>
+ <AngleY_modulator>0.750000</AngleY_modulator>
+</uaFlyBodyParams>

@@ -1,0 +1,16 @@
+<WeaponModificator>
+ <Name>MC_wHurricane_Sound</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <PlaySomeSound>
+     <SoundID>M_Hurricane</SoundID>
+    </PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

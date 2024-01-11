@@ -1,0 +1,13 @@
+<ua_SingleUnitAI>
+ <Name>suAI_CUrse_n6</Name>
+ <CastingRadius>600</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aCurse</RefName>
+   </UA>
+   <MinTargetAmount>6</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

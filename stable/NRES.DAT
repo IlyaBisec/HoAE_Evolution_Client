@@ -1,0 +1,103 @@
+[RESTYPES]
+Wood     0 500000 WOOD
+Gold     1 500000 GOLD
+Stone    2 500000 STONE
+Food     3 500000 FOOD
+Iron     4 500000 IRON
+COAL     5 500000 COAL
+Money    6 500000 MONEY
+[WEAPONS]
+#GENSHIELD      6
+piercing        1 12    O
+chopping        2 9     O
+crushing        0 7     O
+magical         3 11    O
+MEDIK           13 13   -
+[UNITKINDS]
+UNIT
+BUILDING
+WALL
+TOWER
+[MEDIA]
+DEFAULT
+WATER
+STONE
+GRASS
+IRON
+WOOD
+FOOD
+WOOD&STONE
+BOAT
+BUILDING
+STENA
+FLASH
+BOLOTO
+[CONST]
+ALLBOIDS 50
+HUNGRY 6
+BSPEED 8
+SHOTLINE 0 8 2 GOLD SHOTLINE3
+SHOTLINE 1 8 1 IRON SHOTLINE2
+SHOTLINE 2 8 0 WOOD SHOTLINE1
+DAMAGEFALL 100 90 80 74 67 56 47 42 35 32 27 23 16 14 12 10 10 10 10 10 10 5 5 5 5 5 5 5 5 5 5 5
+UNITS/FARM 15
+RES/UNIT   FOOD 0  
+FREE_ORDER Dismiss_Formation
+SET_DEST   11 2 Rally_Point Set_concentration_point
+STAND_GROUND Stand_Ground_ON
+NOT_STAND_GROUND   Stand_Ground_OFF
+STAND_GROUND_ORDER Stand_Ground_ON
+ORDERS_LIST SPISOK
+ENABLE_ATTACK 6 2 Attack_ON
+DISABLE_ATTACK -1 0 Attack_OFF
+GO&ATTACK 1 1 Go_With_Attack
+UNLOAD_ICON VISADKA
+IDLE_PEASANT 2 0 KRST_SVB
+IDLE_MINE 3 0 SHT_SVB
+STOP_ICON Cancel
+FILLFORM Add_Formation
+DECFORM Dec_Formation
+INCFORM Inc_Formation
+DOGUARD Guard_ON
+NOGUARD Guard_OFF
+PATROL Patrol
+ATTACKGROUND Attack_Ground 13
+ADDRANGE 100
+ADDPAUSE 100
+UN?GROUP 14 Make_Group_Formation_OFF Make_Group_Formation_ON
+SHOTMYUNITS -1 0 Friendly_Fire_ON
+KEEPMYUNITS -1 0 Friendly_Fire_OFF
+ARMATTACK 4 2 Arm_attack_ON 
+ANYATTACK -1 0 Arm_attack_OFF
+FEARMAX 60
+Default_StandTiring   0
+Default_RestTiring    0
+Default_MotionTiring  0
+Default_AttackTiring  0
+Default_PAttackTiring 0
+Default_UAttackTiring 0
+KARTECH FireKartech_Cannon 7 1
+PREKARTECH PreKartech_Cannon 6 1
+GRENADE 7 2 Guard_ON
+TreeHeight 150
+[SOUNDS]
+ALARM  ALARM
+SEA    600 1 SEA
+FIELD  300 1 FIELD
+FOREST 200 1 FIELD
+[ORDERICONS]
+[END]
+/DAMAGEFALL 100 95 90 80 70 60 50 48 45 40 35 30 28 25 22 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
+/DAMAGEFALL 100 87 75 70 65 60 55 50 47 45 43 40 37 35 25 15 10 9 8 7 6 5 5 5 5 5 5 5 5 5 5 5
+/DAMAGEFALL 100 94 88 82 76 70 64 58 52 46 40 34 28 22 16 11 10 9 8 7 6 5 5 5 5 5 5 5 5 5 5 5
+/DAMAGEFALL 100 94 88 82 76 70 64 58 52 46 40 34 28 25 25 25 25 25 25 25 25 5 5 5 5 5 5 5 5 5 5 5
+LINE   9 0 0 Formation_Line Assume_Rank_Formation
+SQUARE 9 1 0 Formation_Square Assume_Column_Formation
+KARE   9 2 0 Formation_Kare Assume_Square_Formation
+MOVE   9 3 0 Formation_Kare Assume_Square_Formation
+PRUS   9 2 0 Formation_Kavalery_C Assume_HR_P_Formation
+TRI    9 1 0 Formation_Kavalery_Klin Assume_HR_TRI_Formation
+SHER   9 0 0 Formation_Kavalery_Line Assume_HR_LINE_Formation
+PRUS2  9 2 0 Formation_Kavalery_C Assume_HR_P_Formation
+TRI2   9 1 0 Formation_Kavalery_Klin Assume_HR_TRI_Formation
+SHER2  9 0 0 Formation_Kavalery_Line Assume_HR_LINE_Formation

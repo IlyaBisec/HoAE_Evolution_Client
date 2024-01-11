@@ -1,0 +1,21 @@
+<NewAbility>
+ <Name>QuestItemsPearl4_Ability</Name>
+ <Visible>false</Visible>
+ <FileID>Interf3\Ability\goods_quest</FileID>
+ <SpriteID>5</SpriteID>
+ <EffectFileID>Interf3\Ability\goods_quest</EffectFileID>
+ <EffectSpriteID>5</EffectSpriteID>
+ <HintName>#Pearl4.NAME</HintName>
+ <Hint>#Pearl4</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

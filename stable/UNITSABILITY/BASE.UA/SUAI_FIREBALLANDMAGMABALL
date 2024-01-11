@@ -1,0 +1,20 @@
+<ua_SingleUnitAI>
+ <Name>suAI_FireBallAndMagmaBall</Name>
+ <CastingRadius>1000</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MagicCardFireBall1</RefName>
+   </UA>
+   <MinTargetAmount>1</MinTargetAmount>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aMagmaBall</RefName>
+   </UA>
+   <MinTargetAmount>5</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

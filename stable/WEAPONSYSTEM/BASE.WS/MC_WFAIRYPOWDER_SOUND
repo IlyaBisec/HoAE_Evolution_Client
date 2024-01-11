@@ -1,0 +1,16 @@
+<WeaponModificator>
+ <Name>MC_wFairyPowder_Sound</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <PlaySomeSound>
+     <SoundID>M_FairyPowder</SoundID>
+    </PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

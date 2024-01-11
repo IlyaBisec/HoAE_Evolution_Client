@@ -1,0 +1,843 @@
+[MEMBERS]
+Arc(ZD) Arc
+Arc_01(ZD) Arc_01
+I_House_D01_1(ZD) I_House_D01_1
+I_House_D01_2(ZD) I_House_D01_2
+I_House_D01_3(ZD) I_House_D01_3
+I_Kolodec01_01(ZD) I_Kolodec01_01
+I_Kolodec01_02(ZD) I_Kolodec01_02
+I_Naves01_01(ZD) I_Naves01_01
+I_Naves01_02(ZD) I_Naves01_02
+I_Naves02_01(ZD) I_Naves02_01
+I_Naves02_02(ZD) I_Naves02_02
+Oktons_grave(ZD) Oktons_grave
+Column02(ZD) Column02
+Column02_-90(ZD) Column02_-90
+Column02_90(ZD) Column02_90
+Nastill_01(ZD) Nastill_01
+Nastill_01_-90(ZD) Nastill_01_-90
+Nastill_01_90(ZD) Nastill_01_90
+Nastill_02(ZD) Nastill_02
+Nastill_02_-90(ZD) Nastill_02_-90
+Nastill_02_90(ZD) Nastill_02_90
+Column01(ZD) Column01
+Column01_-90(ZD) Column01_-90
+Column01_90(ZD) Column01_90
+hause_01(ZD) hause_01
+hause_01_-90(ZD) hause_01_-90
+hause_01_90(ZD) hause_01_90
+well(ZD) well
+well_-90(ZD) well_-90
+well_90(ZD) well_90
+HW_Besedka01(ZD) HW_Besedka01
+HW_Besedka02(ZD) HW_Besedka02
+HW_House01(ZD) HW_House01
+GiantMooshroomA(ZD) GiantMooshroomA
+GiantMooshroomB(ZD) GiantMooshroomB
+GiantMooshroomII(ZD) GiantMooshroomII
+GiantMooshroomIIA(ZD) GiantMooshroomIIA
+GiantMooshroomIIB(ZD) GiantMooshroomIIB
+GiantMooshroomIII(ZD) GiantMooshroomIII
+GiantMooshroomIIIA(ZD) GiantMooshroomIIIA
+GiantMooshroomIIIB(ZD) GiantMooshroomIIIB
+GiantMooshroomIV(ZD) GiantMooshroomIV
+GiantMooshroomV(ZD) GiantMooshroomV
+GiantMooshroomVA(ZD) GiantMooshroomVA
+GiantMooshroomVB(ZD) GiantMooshroomVB
+GiantMooshroomVII(ZD) GiantMooshroomVII
+house2(ZD) house2
+Refugies_Camp_0061(ZD) Refugies_Camp_0061
+Refugies_Camp_0022(ZD) Refugies_Camp_0022
+Refugies_Camp_0021(ZD) Refugies_Camp_0021
+NUArchway000(ZD) NUArchway000
+NUArchway001(ZD) NUArchway001
+NUArchway002(ZD) NUArchway002
+NUArchway003(ZD) NUArchway003
+NUArchway004(ZD) NUArchway004
+NUArchway007(ZD) NUArchway007
+NUArchway008(ZD) NUArchway008
+NUArchway009(ZD) NUArchway009
+NUArchway010(ZD) NUArchway010
+NUArchway011(ZD) NUArchway011
+NUArchway012(ZD) NUArchway012
+NUArchway013(ZD) NUArchway013
+NUArchway014(ZD) NUArchway014
+NUArchway015(ZD) NUArchway015
+NUCrypt001(ZD) NUCrypt001
+NUCrypt002(ZD) NUCrypt002
+NUGrave001(ZD) NUGrave001
+NUGrave002(ZD) NUGrave002
+NUGrave003(ZD) NUGrave003
+NUGrave004(ZD) NUGrave004
+NUGrave005(ZD) NUGrave005
+NUGrave006(ZD) NUGrave006
+NUGrave007(ZD) NUGrave007
+NUGrave008(ZD) NUGrave008
+NUGrave009(ZD) NUGrave009
+NUGrave010(ZD) NUGrave010
+NUShrine001(ZD) NUShrine001
+NUShrine002(ZD) NUShrine002
+NUTower001(ZD) NUTower001
+NUTower002(ZD) NUTower002
+NUTower003(ZD) NUTower003
+NUWell001(ZD) NUWell001
+Sol_Column_001(ZD) Sol_Column_001
+Sol_Column_0021(ZD) Sol_Column_0021
+Sol_Column_0022(ZD) Sol_Column_0022
+Sol_Column_003(ZD) Sol_Column_003
+Sol_Column_004(ZD) Sol_Column_004
+Sol_Column_006(ZD) Sol_Column_006
+Sol_Column_007(ZD) Sol_Column_007
+Sol_Column_008(ZD) Sol_Column_008
+Sol_Sphinx_001(ZD) Sol_Sphinx_001
+Sol_Sphinx_002(ZD) Sol_Sphinx_002
+Sol_Sphinx_003(ZD) Sol_Sphinx_003
+Sol_Sphinx_004(ZD) Sol_Sphinx_004
+Sol_Stairs_001(ZD) Sol_Stairs_001
+Sol_Stairs_002(ZD) Sol_Stairs_002
+Sol_Stairs_003(ZD) Sol_Stairs_003
+SpiderDenNecro(ZD) SpiderDenNecro
+SpiderTerrain(ZD) SpiderTerrain
+SpiderTerrain2(ZD) SpiderTerrain2
+1_Tombe_01(ZD) 1_Tombe_01
+2_Tombe_01(ZD) 2_Tombe_01
+3_Tombe_01(ZD) 3_Tombe_01
+4_Tombe_01(ZD) 4_Tombe_01
+Altar_of_Knowledge(ZD) Altar_of_Knowledge
+BearChief_House(ZD) BearChief_House
+BearChief_House90(ZD) BearChief_House90
+Br_house(ZD) Br_house
+Br_house90(ZD) Br_house90
+Chest_008(ZD) Chest_008
+deux_archers_droit(ZD) deux_archers_droit
+deux_archers_droit2(ZD) deux_archers_droit2
+driada_Statuja(ZD) driada_Statuja
+Elven_Tavern_001(ZD) Elven_Tavern_001
+Geroi_archer_droit(ZD) Geroi_archer_droit
+Geroi_archer_droit2(ZD) Geroi_archer_droit2
+Health_Shrine_Nature(ZD) Health_Shrine_Nature
+Hideout_001(ZD) Hideout_001
+kentavr_st_01(ZD) kentavr_st_01
+kentavr_st_01mirror(ZD) kentavr_st_01mirror
+kolodets_R1(ZD) kolodets_R1
+Large_Teleporter_001(ZD) Large_Teleporter_001
+Large_Teleporter_002(ZD) Large_Teleporter_002
+Lighthouse_Druids(ZD) Lighthouse_Druids
+LoreShrineNatureFinal01(ZD) LoreShrineNatureFinal01
+LoreShrineNatureFinal02(ZD) LoreShrineNatureFinal02
+orc_altar(ZD) orc_altar
+orc_banner(ZD) orc_banner
+orc_culttree(ZD) orc_culttree
+orc_shamanhouse(ZD) orc_shamanhouse
+pavillion_01(ZD) pavillion_01
+pavillion_coin01(ZD) pavillion_coin01
+pavillion_coin02(ZD) pavillion_coin02
+pavillion_coin03(ZD) pavillion_coin03
+pavillion_coin04(ZD) pavillion_coin04
+pikener_droit(ZD) pikener_droit
+pikener_gauche(ZD) pikener_gauche
+Port_cimetiere03(ZD) Port_cimetiere03
+Refugies_Camp_002(ZD) Refugies_Camp_002
+Refugies_Camp_004(ZD) Refugies_Camp_004
+Refugies_Camp_006(ZD) Refugies_Camp_006
+rotonda_m02(ZD) rotonda_m02
+Small_Teleporter_001(ZD) Small_Teleporter_001
+Small_Teleporter_002(ZD) Small_Teleporter_002
+stolb_cimetiere03(ZD) stolb_cimetiere03
+TOUR_01(ZD) TOUR_01
+TOUR_HAUT_02(ZD) TOUR_HAUT_02
+TrainingGround(ZD) TrainingGround
+OrcBBar(ZD) OrcBBar 
+OrcBCul(ZD) OrcBCul
+OrcBFir(ZD) OrcBFir
+OrcBHou(ZD) OrcBHou
+GnoBHs1(ZD) GnoBHs1
+GnoBHs2(ZD) GnoBHs2
+GnoBTo1(ZD) GnoBTo1
+GnoBTo2(ZD) GnoBTo2
+GobBAlt(ZD) GobBAlt
+GobBFir(ZD) GobBFir
+GobBGa1(ZD) GobBGa1
+GobBGa2(ZD) GobBGa2
+GobBHut(ZD) GobBHut
+GobBSha(ZD) GobBSha
+GobBSol(ZD) GobBSol
+Garpies(ZD) Garpies
+Artf_Seller_house(ZD) Artf_Seller_house
+Elven_Hut_001(ZD) Elven_Hut_001
+Elven_Hut_002(ZD) Elven_Hut_002
+Elven_Hut_003(ZD) Elven_Hut_003
+ScoarchedHut001(ZD) ScoarchedHut001
+ScoarchedHut002(ZD) ScoarchedHut002
+Gate_001(ZD) Gate_001
+Gate_002(ZD) Gate_002
+ResourseMerchant(ZD) ResourseMerchant
+Shipyard001(ZD) Shipyard001
+TOur_Vent_droit_R(ZD) TOur_Vent_droit_R
+TOur_Vent_R(ZD) TOur_Vent_R
+CaveHouse001(ZD) CaveHouse001
+CaveHouse002(ZD) CaveHouse002
+CaveHouse003(ZD) CaveHouse003
+CaveHouse004(ZD) CaveHouse004
+CaveHouse007(ZD) CaveHouse007
+CaveHouse008(ZD) CaveHouse008
+CaveHouse009(ZD) CaveHouse009
+CaveHouse010(ZD) CaveHouse010
+CaveHouse013(ZD) CaveHouse013
+CaveHouse014(ZD) CaveHouse014
+CaveHouse017(ZD) CaveHouse017
+CaveHouse024(ZD) CaveHouse024
+CaveHouse025(ZD) CaveHouse025
+CaveHouse026(ZD) CaveHouse026
+CaveHouse028(ZD) CaveHouse028
+CaveHouse029(ZD) CaveHouse029
+CaveHouse030(ZD) CaveHouse030
+CaveHouse031(ZD) CaveHouse031
+CaveHouse032(ZD) CaveHouse032
+Wagon_A_001(ZD) Wagon_A_001
+Wagon_A_002(ZD) Wagon_A_002
+Wagon_B_001(ZD) Wagon_B_001
+Wagon_B_002(ZD) Wagon_B_002
+Barrels_A_001(ZD) Barrels_A_001
+Well_A_001(ZD) Well_A_001
+Well_B_001(ZD) Well_B_001
+Well_C_001(ZD) Well_C_001
+Wheelbarrow_A_001(ZD) Wheelbarrow_A_001
+Wheelbarrow_A_002(ZD) Wheelbarrow_A_002
+BlendmenHut001(ZD) BlendmenHut001
+BlendmenHut002(ZD) BlendmenHut002
+BlendmenHut003(ZD) BlendmenHut003
+Crypt_Gnoll_001(ZD) Crypt_Gnoll_001
+CryptOrcs001(ZD) CryptOrcs001
+Kobold_Camp_Dweller_Hut_2(ZD) Kobold_Camp_Dweller_Hut_2
+Kobold_Camp_Shaman_Lair_Map(ZD) Kobold_Camp_Shaman_Lair_Map
+Kobold_Camp_Warchif_Adobe_Map(ZD) Kobold_Camp_Warchif_Adobe_Map
+Kobold_Camp_Warrior_Pit(ZD) Kobold_Camp_Warrior_Pit
+Kobold_Camp_Warrior_Quater(ZD) Kobold_Camp_Warrior_Quater
+Kobold_Camp_Watching_Tower(ZD) Kobold_Camp_Watching_Tower
+Kobold_Totem_001(ZD) Kobold_Totem_001
+Kobold_Totem_002(ZD) Kobold_Totem_002
+Kobold_Totem_003(ZD) Kobold_Totem_003
+Kobold_Totem_004(ZD) Kobold_Totem_004
+troll_house(ZD) troll_house
+ElvenTowerCrushed001(ZD) ElvenTowerCrushed001
+ElveTowerCrushed002(ZD) ElveTowerCrushed002
+Ruins0011(ZD) Ruins0011
+Ruins0012(ZD) Ruins0012
+Ruins0013(ZD) Ruins0013
+Ruins0014(ZD) Ruins0014
+Ruins0015(ZD) Ruins0015
+Ruins0016(ZD) Ruins0016
+Ruins0021(ZD) Ruins0021
+Ruins0022(ZD) Ruins0022
+Ruins0023(ZD) Ruins0023
+Ruins0024(ZD) Ruins0024
+Ruins0031(ZD) Ruins0031
+Ruins0032(ZD) Ruins0032
+Ruins0033(ZD) Ruins0033
+Ruins0034(ZD) Ruins0034
+Ruins0041(ZD) Ruins0041
+Ruins0042(ZD) Ruins0042
+Ruins0043(ZD) Ruins0043
+Ruins0051(ZD) Ruins0051
+Ruins0052(ZD) Ruins0052
+Ruins0053(ZD) Ruins0053
+Ruins0054(ZD) Ruins0054
+RuinsElvenCityCrushed006(ZD) RuinsElvenCityCrushed006
+RuinsElvenCityCrushed0062(ZD) RuinsElvenCityCrushed0062
+RuinsElvenCityCrushed008(ZD) RuinsElvenCityCrushed008
+RuinsElvenCityCrushed0091(ZD) RuinsElvenCityCrushed0091
+RuinsElvenCityCrushed0092(ZD) RuinsElvenCityCrushed0092
+RuinsElvenCityCrushed010(ZD) RuinsElvenCityCrushed010
+RuinsElvenCityCrushed011(ZD) RuinsElvenCityCrushed011
+RuinsElvenCityCrushed012(ZD) RuinsElvenCityCrushed012
+NecroTower001(ZD) NecroTower001
+livre_necro_droit_R(ZD) livre_necro_droit_R
+livre_necro_gauche_R(ZD) livre_necro_gauche_R
+Hideout_002(ZD) Hideout_002
+Hideout_003(ZD) Hideout_003
+Undead_Large_Teleporter_001(ZD) Undead_Large_Teleporter_001
+Undead_Large_Teleporter_002(ZD) Undead_Large_Teleporter_002
+Undead_Small_Teleporter_001(ZD) Undead_Small_Teleporter_001
+Undead_Small_Teleporter_002(ZD) Undead_Small_Teleporter_002
+Grave_001(ZD) Grave_001
+Hollow_Trunk_001(ZD) Hollow_Trunk_001
+Necro_Tavern_001(ZD) Necro_Tavern_001
+1Puits_gauche_R(ZD) 1Puits_gauche_R
+1Puits_right_R(ZD) 1Puits_right_R
+2Puits_plein_L(ZD) 2Puits_plein_L
+2Puits_plein_R(ZD) 2Puits_plein_R
+3Puits_gauche_R(ZD) 3Puits_gauche_R
+Lighthouse_001(ZD) Lighthouse_001
+Sol_Adobe_001(ZD) Sol_Adobe_001
+Sol_Adobe_002(ZD) Sol_Adobe_002
+Sol_Adobe_003(ZD) Sol_Adobe_003
+Sol_Adobe_004(ZD) Sol_Adobe_004
+Sol_Barracs_002(ZD) Sol_Barracs_002
+Sol_Barracs_003(ZD) Sol_Barracs_003
+Sol_Shipyard_001(ZD) Sol_Shipyard_001
+Sol_Shipyard_003(ZD) Sol_Shipyard_003
+Sol_Tample_001(ZD) Sol_Tample_001
+Sol_Tample_003(ZD) Sol_Tample_003
+Sol_Tower_001(ZD) Sol_Tower_001
+Skeleton1(ZZ)  Skeleton1
+Skeleton2(ZZ)  Skeleton2
+Skeleton3(ZZ)  Skeleton3
+Skeleton4(ZZ)  Skeleton4
+corpse1(ZZ) corpse1
+GraveT03_-90(ZZ) GraveT03_-90
+LightT02_0(ZZ)   LightT02_0
+LightT01_0(ZZ)   LightT01_0
+GraveT03_0(ZZ)   GraveT03_0
+GraveT02_-90(ZZ) GraveT02_-90
+GraveT02_0(ZZ)   GraveT02_0
+GraveT01_90(ZZ)  GraveT01_90
+GraveT01_0(ZZ)   GraveT01_0
+CrossT08_-45(ZZ) CrossT08_-45
+CrossT08_45(ZZ)  CrossT08_45
+CrossT08_0(ZZ)   CrossT08_0
+CrossT07_-45(ZZ) CrossT07_-45
+CrossT07_45(ZZ)  CrossT07_45
+CrossT07_0(ZZ)   CrossT07_0
+CrossT06_-45(ZZ) CrossT06_-45
+CrossT06_45(ZZ)  CrossT06_45
+CrossT06_0(ZZ)   CrossT06_0
+CrossT05_-45(ZZ) CrossT05_-45
+CrossT05_60(ZZ)  CrossT05_60
+CrossT05_45(ZZ)  CrossT05_45
+CrossT05_0(ZZ)   CrossT05_0
+CrossT04_-45(ZZ) CrossT04_-45
+CrossT04_45(ZZ)  CrossT04_45
+CrossT04_0(ZZ)   CrossT04_0
+CrossT03_-60(ZZ) CrossT03_-60
+CrossT03_-45(ZZ) CrossT03_-45
+CrossT03_45(ZZ)  CrossT03_45
+CrossT03_0(ZZ)   CrossT03_0
+CrossT02_90(ZZ)  CrossT02_90
+CrossT02_0(ZZ)   CrossT02_0
+CrossT01_-90(ZZ) CrossT01_-90
+CrossT01_90(ZZ)  CrossT01_90
+CrossT01_0(ZZ)   CrossT01_0
+IceBWat(ZZ)	 IceBWat
+IceBAtt1(ZZ)	 IceBAtt1
+IceBAtt2(ZZ)	 IceBAtt2
+IceBDef1(ZZ)	 IceBDef1
+IceBDef2(ZZ)	 IceBDef2
+IceBKno1(ZZ)	 IceBKno1
+IceBKno2(ZZ)	 IceBKno2
+IceBTav(ZZ)	 IceBTav
+SolAltar001(ZD) SolAltar001
+SolAltar002(ZD) SolAltar002
+SolAltar003(ZD) SolAltar003
+SolColumn001(ZD) SolColumn001
+SolColumn002(ZD) SolColumn002 
+SolColumn003(ZD) SolColumn003 
+SolColumn004(ZD) SolColumn004 
+SolColumn005(ZD) SolColumn005 
+SolColumn006(ZD) SolColumn006 
+SolColumn007(ZD) SolColumn007 
+SolColumn008(ZD) SolColumn008 
+SolColumn009(ZD) SolColumn009 
+SolColumn010(ZD) SolColumn010 
+SolColumn011(ZD) SolColumn011 
+SolColumn012(ZD) SolColumn012 
+SolColumn013(ZD) SolColumn013 
+SolColumn014(ZD) SolColumn014 
+SolGate001(ZD) SolGate001 
+SolGate002(ZD) SolGate002 
+SolGate003(ZD) SolGate003 
+SolGate004(ZD) SolGate004 
+SolGate005(ZD) SolGate005 
+SolGate006(ZD) SolGate006 
+SolGate007(ZD) SolGate007 
+SolGate008(ZD) SolGate008 
+SolGrave001(ZD) SolGrave001 
+SolGrave002(ZD) SolGrave002 
+SolGrave003(ZD) SolGrave003 
+SolGrave004(ZD) SolGrave004 
+SolGrave005(ZD) SolGrave005 
+SolGrave006(ZD) SolGrave006 
+SolGrave007(ZD) SolGrave007 
+SolGrave008(ZD) SolGrave008 
+SolMainShrine001(ZD) SolMainShrine001 
+SolMainShrine002(ZD) SolMainShrine002 
+SolMainShrine003(ZD) SolMainShrine003 
+SolMainShrine004(ZD) SolMainShrine004 
+SolShrine001(ZD) SolShrine001 
+SolShrine002(ZD) SolShrine002 
+SolStairs001(ZD) SolStairs001 
+SolStairs002(ZD) SolStairs002 
+SolStairs003(ZD) SolStairs003 
+SolStairs004(ZD) SolStairs004 
+SolStatue001(ZD) SolStatue001 
+SolStatue002(ZD) SolStatue002 
+SolStatue003(ZD) SolStatue003 
+SolStatue004(ZD) SolStatue004 
+SolStatue005(ZD) SolStatue005 
+SolStatue006(ZD) SolStatue006 
+SolWell001(ZD) SolWell001 
+I_House_D01_01_destruction(ZD) I_House_D01_01_destruction
+I_Drova02(ZD) I_Drova02
+I_Drova01(ZD) I_Drova01
+I_Arc_02(ZD) I_Arc_02
+I_Arc_01(ZD) I_Arc_01
+Castle_of_Ice_Main(ZD) Castle_of_Ice_Main
+house01(ZD) house01
+house01_02(ZD) house01_02
+house02(ZD) house02
+house02_02(ZD) house02_02
+house02_03(ZD) house02_03
+house02_04(ZD) house02_04
+I_House_D01_02_destruction(ZD) I_House_D01_02_destruction
+I_Sani01(ZD) I_Sani01
+I_Sani02(ZD) I_Sani02
+I_Tower_T01_01(ZD) I_Tower_T01_01
+I_Tower_T01_02(ZD) I_Tower_T01_02
+I_Tower_T01_03(ZD) I_Tower_T01_03
+I_Tower_T02_(ZD) I_Tower_T02_
+Nastill01(ZD) Nastill01
+Nastill01_02(ZD) Nastill01_02
+
+[COUNTRY]
+ZD 439
+#Besedka
+HW_Besedka01(ZD) HW_Besedka01
+HW_Besedka02(ZD) HW_Besedka02
+HW_House01(ZD) HW_House01
+#Milytary_camp
+Refugies_Camp_0061(ZD) 
+Refugies_Camp_0022(ZD) 
+Refugies_Camp_0021(ZD) 
+Refugies_Camp_002(ZD) /94
+Refugies_Camp_004(ZD)
+Refugies_Camp_006(ZD)
+TrainingGround(ZD)
+#Orc_base
+OrcBBar(ZD)
+OrcBCul(ZD)
+OrcBFir(ZD)
+orc_altar(ZD)
+orc_banner(ZD)
+orc_culttree(ZD)
+orc_shamanhouse(ZD)
+OrcBHou(ZD)
+#Gnoll_base
+GnoBHs1(ZD)
+GnoBHs2(ZD)	
+GnoBTo1(ZD)
+GnoBTo2(ZD)
+#Goblin_base
+GobBAlt(ZD)
+GobBFir(ZD)
+GobBGa1(ZD)
+GobBGa2(ZD)
+GobBHut(ZD)
+GobBSha(ZD)
+GobBSol(ZD)
+#Urza_base
+BearChief_House(ZD)
+BearChief_House90(ZD)
+Br_house(ZD)
+Br_house90(ZD)
+#Lairs
+Garpies(ZD) /28
+troll_house(ZD)
+#Quest_Houses
+Elven_Hut_001(ZD) /35
+Elven_Hut_002(ZD)
+Elven_Hut_003(ZD)
+Elven_Tavern_001(ZD) /97
+#Burned_Houses
+ScoarchedHut001(ZD)
+ScoarchedHut002(ZD)
+#Gates
+Gate_001(ZD)
+Gate_002(ZD)
+#Shoreline_Buildings
+Shipyard001(ZD)
+Lighthouse_Druids(ZD)
+TOur_Vent_droit_R(ZD)
+TOur_Vent_R(ZD)
+#Underground_Buildings  	
+CaveHouse001(ZD) /47
+CaveHouse002(ZD)
+CaveHouse003(ZD)
+CaveHouse004(ZD)
+CaveHouse007(ZD)
+CaveHouse008(ZD)
+CaveHouse009(ZD)
+CaveHouse010(ZD)
+CaveHouse013(ZD)
+CaveHouse014(ZD)
+CaveHouse017(ZD)
+CaveHouse024(ZD)
+CaveHouse025(ZD)
+CaveHouse026(ZD)
+CaveHouse028(ZD)
+CaveHouse029(ZD)
+CaveHouse030(ZD)
+CaveHouse031(ZD)
+CaveHouse032(ZD)
+#Wagons&Barrels
+Wagon_A_001(ZD)
+Wagon_A_002(ZD)
+Wagon_B_001(ZD)
+Wagon_B_002(ZD)
+Wheelbarrow_A_001(ZD)
+Wheelbarrow_A_002(ZD)	
+Barrels_A_001(ZD) /71
+#Wells
+Well_A_001(ZD)
+Well_B_001(ZD)
+Well_C_001(ZD)
+kolodets_R1(ZD)
+#Blindman_base
+BlendmenHut001(ZD) /85
+BlendmenHut002(ZD)
+BlendmenHut003(ZD)
+#Kobold_base
+Kobold_Camp_Dweller_Hut_2(ZD) /92
+Kobold_Camp_Shaman_Lair_Map(ZD)
+Kobold_Camp_Warchif_Adobe_Map(ZD)
+Kobold_Camp_Warrior_Pit(ZD)
+Kobold_Camp_Warrior_Quater(ZD)
+Kobold_Camp_Watching_Tower(ZD)
+Kobold_Totem_001(ZD)
+Kobold_Totem_002(ZD)
+Kobold_Totem_003(ZD)
+Kobold_Totem_004(ZD)		
+#Powerups
+Altar_of_Knowledge(ZD) /19
+Health_Shrine_Nature(ZD) /26
+LoreShrineNatureFinal01(ZD) /38
+LoreShrineNatureFinal02(ZD)
+#Statues
+deux_archers_droit(ZD) /40
+deux_archers_droit2(ZD)
+driada_Statuja(ZD)
+Geroi_archer_droit(ZD)
+Geroi_archer_droit2(ZD)
+kentavr_st_01(ZD)
+kentavr_st_01mirror(ZD)
+pikener_droit(ZD)  /47
+pikener_gauche(ZD)
+#Graveyard
+1_Tombe_01(ZD) 
+2_Tombe_01(ZD)
+3_Tombe_01(ZD)
+4_Tombe_01(ZD) 
+#Portals
+Large_Teleporter_001(ZD) /54
+Large_Teleporter_002(ZD)
+Small_Teleporter_001(ZD)
+Small_Teleporter_002(ZD)
+#Ruins_type1
+rotonda_m02(ZD) /29
+Port_cimetiere03(ZD)
+TOUR_01(ZD)
+TOUR_HAUT_02(ZD)
+pavillion_01(ZD)           /33
+pavillion_coin01(ZD)
+pavillion_coin02(ZD)
+pavillion_coin03(ZD)
+pavillion_coin04(ZD)
+stolb_cimetiere03(ZD)
+#Ruins_Type2
+ElvenTowerCrushed001(ZD) /58
+ElveTowerCrushed002(ZD)
+Ruins0011(ZD) /62
+Ruins0012(ZD)
+Ruins0013(ZD)
+Ruins0014(ZD)
+Ruins0015(ZD)
+Ruins0016(ZD)
+Ruins0021(ZD)
+Ruins0022(ZD)
+Ruins0023(ZD)
+Ruins0024(ZD)
+Ruins0031(ZD)
+Ruins0032(ZD)
+Ruins0033(ZD)
+Ruins0034(ZD)
+Ruins0041(ZD)
+Ruins0042(ZD)
+Ruins0043(ZD)
+Ruins0051(ZD)
+Ruins0052(ZD)
+Ruins0053(ZD)
+Ruins0054(ZD)
+RuinsElvenCityCrushed006(ZD)
+RuinsElvenCityCrushed0062(ZD)
+RuinsElvenCityCrushed008(ZD)
+RuinsElvenCityCrushed0091(ZD)
+RuinsElvenCityCrushed0092(ZD)
+RuinsElvenCityCrushed010(ZD)
+RuinsElvenCityCrushed011(ZD)
+RuinsElvenCityCrushed012(ZD)
+#Garbage
+house2(ZD)
+Hideout_001(ZD)
+Artf_Seller_house(ZD)
+ResourseMerchant(ZD)
+Crypt_Gnoll_001(ZD)
+CryptOrcs001(ZD)
+Chest_008(ZD) /99
+#Powerups(UD)
+livre_necro_droit_R(ZD)
+livre_necro_gauche_R(ZD)
+2Puits_plein_L(ZD)
+2Puits_plein_R(ZD)
+#Hideouts(UD)
+Hideout_002(ZD)
+Hideout_003(ZD)
+Hollow_Trunk_001(ZD)
+Grave_001(ZD)
+SpiderDenNecro(ZD)
+SpiderTerrain(ZD)
+SpiderTerrain2(ZD)
+#Portals(UD)
+Undead_Large_Teleporter_001(ZD)
+Undead_Large_Teleporter_002(ZD)
+Undead_Small_Teleporter_001(ZD)
+Undead_Small_Teleporter_002(ZD)
+#Wells(UD)
+1Puits_gauche_R(ZD)
+1Puits_right_R(ZD)
+3Puits_gauche_R(ZD)
+#Archways(UD)
+NUArchway000(ZD)
+NUArchway001(ZD)
+NUArchway002(ZD)
+NUArchway003(ZD)
+NUArchway004(ZD)
+NUArchway007(ZD)
+NUArchway008(ZD)
+NUArchway009(ZD)
+NUArchway010(ZD)
+NUArchway011(ZD)
+NUArchway012(ZD)
+NUArchway013(ZD)
+NUArchway014(ZD)
+NUArchway015(ZD)
+#Crypts(UD)
+NUCrypt001(ZD)
+NUCrypt002(ZD)
+NUGrave001(ZD)
+NUGrave002(ZD)
+NUGrave003(ZD)
+NUGrave004(ZD)
+NUGrave005(ZD)
+NUGrave006(ZD)
+NUGrave007(ZD)
+NUGrave008(ZD)
+NUGrave009(ZD)
+NUGrave010(ZD)
+NUShrine001(ZD)
+NUShrine002(ZD)
+NUWell001(ZD)
+#Columns(UD)
+NUTower001(ZD)
+NUTower002(ZD)
+NUTower003(ZD)
+#Graves(UD)
+GraveT03_-90(ZZ) 
+GraveT03_0(ZZ)   
+GraveT02_-90(ZZ) 
+GraveT02_0(ZZ)   
+GraveT01_90(ZZ)  
+GraveT01_0(ZZ)   
+CrossT08_-45(ZZ) 
+CrossT08_45(ZZ)  
+CrossT08_0(ZZ)   
+CrossT07_-45(ZZ) 
+CrossT07_45(ZZ)  
+CrossT07_0(ZZ)   
+CrossT06_-45(ZZ) 
+CrossT06_45(ZZ)  
+CrossT06_0(ZZ)   
+CrossT05_-45(ZZ) 
+CrossT05_60(ZZ)  
+CrossT05_45(ZZ)  
+CrossT05_0(ZZ)   
+CrossT04_-45(ZZ) 
+CrossT04_45(ZZ)  
+CrossT04_0(ZZ)   
+CrossT03_-60(ZZ) 
+CrossT03_-45(ZZ) 
+CrossT03_45(ZZ)  
+CrossT03_0(ZZ)   
+CrossT02_90(ZZ)  
+CrossT02_0(ZZ)   
+CrossT01_-90(ZZ) 
+CrossT01_90(ZZ)  
+CrossT01_0(ZZ)   
+#Misc_Buildings(UD)
+NecroTower001(ZD)
+Necro_Tavern_001(ZD)
+Lighthouse_001(ZD)
+#Candles
+LightT02_0(ZZ)   
+LightT01_0(ZZ)   
+#Corpses
+Skeleton1(ZZ)
+Skeleton2(ZZ)
+Skeleton3(ZZ)
+Skeleton4(ZZ)
+corpse1(ZZ)
+#solo
+Sol_Adobe_001(ZD)
+Sol_Adobe_002(ZD)
+Sol_Adobe_003(ZD)
+Sol_Adobe_004(ZD)
+Sol_Barracs_002(ZD)
+Sol_Barracs_003(ZD)
+Sol_Shipyard_001(ZD)
+Sol_Shipyard_003(ZD)
+Sol_Tample_001(ZD)
+Sol_Tample_003(ZD)
+Sol_Tower_001(ZD)
+Sol_Stairs_001(ZD)
+Sol_Stairs_002(ZD)
+Sol_Stairs_003(ZD)
+Sol_Sphinx_001(ZD)
+Sol_Sphinx_002(ZD)
+Sol_Sphinx_003(ZD)
+Sol_Sphinx_004(ZD)
+Sol_Column_001(ZD)
+Sol_Column_0021(ZD)
+Sol_Column_0022(ZD)
+Sol_Column_003(ZD)
+Sol_Column_004(ZD)
+Sol_Column_006(ZD)
+Sol_Column_007(ZD)
+Sol_Column_008(ZD)
+#ice
+IceBWat(ZZ)
+IceBAtt1(ZZ)
+IceBAtt2(ZZ)
+IceBDef1(ZZ)
+IceBDef2(ZZ)
+IceBKno1(ZZ)
+IceBKno2(ZZ)
+IceBTav(ZZ)
+#toadstools
+GiantMooshroomA(ZD)
+GiantMooshroomB(ZD)
+GiantMooshroomII(ZD)
+GiantMooshroomIIA(ZD)
+GiantMooshroomIIB(ZD)
+GiantMooshroomIII(ZD)
+GiantMooshroomIIIA(ZD)
+GiantMooshroomIIIB(ZD)
+GiantMooshroomIV(ZD)
+GiantMooshroomV(ZD)
+GiantMooshroomVA(ZD)
+GiantMooshroomVB(ZD)
+GiantMooshroomVII(ZD)
+#temp
+Column01(ZD)
+Column01_-90(ZD)
+Column01_90(ZD)
+hause_01(ZD)
+hause_01_-90(ZD)
+hause_01_90(ZD)
+well(ZD)
+well_-90(ZD)
+well_90(ZD)
+Column02(ZD)
+Column02_-90(ZD)
+Column02_90(ZD)
+Nastill_01(ZD)
+Nastill_01_-90(ZD)
+Nastill_01_90(ZD)
+Nastill_02(ZD)
+Nastill_02_-90(ZD)
+Nastill_02_90(ZD)
+Arc(ZD)
+Arc_01(ZD)
+I_House_D01_1(ZD)
+I_House_D01_2(ZD)
+I_House_D01_3(ZD)
+I_Kolodec01_01(ZD)
+I_Kolodec01_02(ZD)
+I_Naves01_01(ZD)
+I_Naves01_02(ZD)
+I_Naves02_01(ZD)
+I_Naves02_02(ZD)
+Oktons_grave(ZD)
+#solo
+SolAltar001(ZD)
+SolAltar002(ZD)
+SolAltar003(ZD)
+SolColumn001(ZD)
+SolColumn002(ZD)
+SolColumn003(ZD)
+SolColumn004(ZD)
+SolColumn005(ZD)
+SolColumn006(ZD)
+SolColumn007(ZD)
+SolColumn008(ZD)
+SolColumn009(ZD)
+SolColumn010(ZD)
+SolColumn011(ZD)
+SolColumn012(ZD)
+SolColumn013(ZD)
+SolColumn014(ZD)
+SolGate001(ZD)
+SolGate002(ZD)
+SolGate003(ZD)
+SolGate004(ZD)
+SolGate005(ZD)
+SolGate006(ZD)
+SolGate007(ZD)
+SolGate008(ZD)
+SolGrave001(ZD)
+SolGrave002(ZD)
+SolGrave003(ZD)
+SolGrave004(ZD)
+SolGrave005(ZD)
+SolGrave006(ZD)
+SolGrave007(ZD)
+SolGrave008(ZD)
+SolMainShrine001(ZD)
+SolMainShrine002(ZD)
+SolMainShrine003(ZD)
+SolMainShrine004(ZD)
+SolShrine001(ZD)
+SolShrine002(ZD)
+SolStairs001(ZD)
+SolStairs002(ZD)
+SolStairs003(ZD)
+SolStairs004(ZD)
+SolStatue001(ZD)
+SolStatue002(ZD)
+SolStatue003(ZD)
+SolStatue004(ZD)
+SolStatue005(ZD)
+SolStatue006(ZD)
+SolWell001(ZD)
+#ice2pack
+I_House_D01_01_destruction(ZD)
+I_Drova02(ZD)
+I_Drova01(ZD)
+I_Arc_02(ZD)
+I_Arc_01(ZD)
+Castle_of_Ice_Main(ZD)
+#sol_ice3pack
+house01(ZD) house01
+house01_02(ZD) house01_02
+house02(ZD) house02
+house02_02(ZD) house02_02
+house02_03(ZD) house02_03
+house02_04(ZD) house02_04
+Nastill01(ZD) Nastill01
+Nastill01_02(ZD) Nastill01_02
+I_House_D01_02_destruction(ZD) I_House_D01_02_destruction
+I_Sani01(ZD) I_Sani01
+I_Sani02(ZD) I_Sani02
+I_Tower_T01_01(ZD) I_Tower_T01_01
+I_Tower_T01_02(ZD) I_Tower_T01_02
+I_Tower_T01_03(ZD) I_Tower_T01_03
+I_Tower_T02_(ZD) I_Tower_T02_
+
+[END]

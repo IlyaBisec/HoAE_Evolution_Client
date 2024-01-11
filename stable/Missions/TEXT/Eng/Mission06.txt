@@ -1,0 +1,132 @@
+
+
+#M06D02S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t02.ogg]Chief! We need wood for the military camp.
+#M06D02S02P01    [M6Elder1][Normal][Missions\SOUND\MISSION06\m06_t03.ogg]But haven't we been chopping trees for several days already? Harpies have settled there!	
+#M06D02S03P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t04.ogg]And you can't get rid of them?
+#M06D02S04P01    [M6Elder1][Normal][Missions\SOUND\MISSION06\m06_t05.ogg]We're simple wood-cutters, not warriors...
+#M06D02S05P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t06.ogg]I will help you.
+#M06D02S05P02    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t07.ogg]But then you must deliver as much wood as we need!
+#M06D02S06P01    [M6Elder1][Normal][Missions\SOUND\MISSION06\m06_t08.ogg]Agreed, Ranger.
+
+
+#M06D16S03P01    [M6Fairy][][Missions\SOUND\MISSION06\m06_t09.ogg]The forest has been seized by harpies! Help us!	
+#M06D22S01P01    [M6Fairy][][Missions\SOUND\MISSION06\m06_t12.ogg]Thank you, sweet Ranger! The harpies are dead, and the forest is freed at last!
+
+#M06D03S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t13.ogg]The harpies are dead! Send the carts.
+
+#M06D03S02P01    [M6Elder1][Normal][Missions\SOUND\MISSION06\m06_t14.ogg]We are preparing them right now. Remember that the path is unsafe - you will need guards.
+#M06D24S01P01    [Warlord][][Missions\SOUND\MISSION06\m06_t15.ogg]One of the carts didn't reach us! We must strengthen the guards.
+
+
+
+#M06D04S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t16.ogg]Are you the chief of this village? Our warriors need food.
+#M06D04S02P01    [M6Elder2][Normal][Missions\SOUND\MISSION06\m06_t17.ogg]We can't help you with anything! I'm sorry. Our gardens have been captured by the cyclops.
+#M06D04S03P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t18.ogg]If I take care of the cyclops, will you send us the carts?
+#M06D04S04P01    [M6Elder2][Normal][Missions\SOUND\MISSION06\m06_t19.ogg]Yes that seems fare.
+
+#M06D23S01P01    [Elhant][Suprised][Missions\SOUND\MISSION06\m06_t20.ogg]That wasn't hard.
+
+#M06D05S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t21.ogg]All the cyclops are dead! Time to send the carts.
+#M06D05S02P01    [M6Elder2][Normal][Missions\SOUND\MISSION06\m06_t22.ogg]We are ready! But don't forget, it needs to be protected.
+
+
+
+
+#M06D06S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t23.ogg]Honourable Chief! We are in desperate need of some the crystals you have been extracting.
+#M06D06S02P01    [M6Elder3][Normal][Missions\SOUND\MISSION06\m06_t24.ogg]Hah! We need them too! There is one thing standing between us: stone-eaters have settled near the mines.
+#M06D06S02P02    [M6Elder3][Normal][Missions\SOUND\MISSION06\m06_t25.ogg]They consume the crystals, soon there will be no magic stones at all.
+#M06D06S03P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t26.ogg]I'll attend to the stone eaters and you will deliver to Monfor's camp as many crystals as we need! These stone eaters... They have crunched their last crystal!
+#M06D06S04P01    [M6Elder3][Normal][Missions\SOUND\MISSION06\m06_t27.ogg]We  could supply you with the crystals... but only if you set the mines free of every single monster! Every one!
+
+#M06D21S01P01    [Elhant][Suprised][Missions\SOUND\MISSION06\m06_t28.ogg]Truly Atlans is rich in different creatures. There are even those that enjoy eating stones and crystals!
+#M06D21S01P02    [Elhant][][Missions\SOUND\MISSION06\m06_t29.ogg]The magic doesn't seem to affect them much
+
+#M06D21S01P03    [M6Soldier][][Missions\SOUND\MISSION06\m06_t30.ogg]The mines have been liberated. Time to get back to the village.
+
+
+
+#M06D07S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t31.ogg]All the stone-eaters are dead! Send the carts.
+#M06D07S02P01    [M6Elder3][Normal][Missions\SOUND\MISSION06\m06_t32.ogg]I'll order my people to load the carts with crystals. But don't forget, Ranger: both cargo and carts must be well protected on their way!
+
+
+
+
+
+#M06D08S01P01    [M6Elder4][Normal][Missions\SOUND\MISSION06\m06_t33.ogg]Ranger! I beg you, save us!
+#M06D08S02P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t34.ogg]What happened, old man?
+#M06D08S02P02    [M6Elder4][Normal][Missions\SOUND\MISSION06\m06_t35.ogg]Ghouls are about to attack the village! They will slaughter us all!
+#M06D08S03P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t36.ogg]I understand, but I also need something from you.
+#M06D08S04P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t37.ogg]Promise that when I kill the beasts, you will send a cart with iron to the camp of Chief Monfor!
+#M06D08S05P01    [M6Elder4][Normal][Missions\SOUND\MISSION06\m06_t38.ogg]Yes, of course! We will send as much iron as they need, don't doubt it!
+#M06D08S06P01    [M5Fairy][Normal][Missions\SOUND\MISSION06\m06_t39.ogg]Valiant elf, we are ready to aid you!
+
+#M06D14S02P01    [Elhant][][Missions\SOUND\MISSION06\m06_t40.ogg]All the ghouls are dead. We can return triumphant!
+
+#M06D09S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t41.ogg]The ghouls will trouble you no more.
+#M06D09S02P01    [M6Elder4][Normal][Missions\SOUND\MISSION06\m06_t42.ogg]Thank you, brave warrior! The carts are ready to be dispatched. Guard it on its way.
+
+#M06D15S01P01    [Elder2][][Missions\SOUND\MISSION06\m06_t43.ogg]Be careful, the forests are swarming with urses.
+#M06D15S03P01    [Elder2][][Missions\SOUND\MISSION06\m06_t44.ogg]They are watching over the treasures that are hidden in the caches.
+#M06D15S04P01    [Elhant][][Missions\SOUND\MISSION06\m06_t45.ogg]Thank you for the information, old man.
+
+
+
+
+
+
+#M06D10S01P01    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t46.ogg]Warrior! Our cart has been attacked by the flame hounds. Help us, I pray! Help us!
+#M06D10S02P01    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t47.ogg]What are flame hounds? I've never heard of such a thing.
+#M06D10S03P01    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t48.ogg]Demons, the masters of the flame hounds, live in the depths of the earth.
+#M06D10S04P01    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t49.ogg]They attacked the undead and caused legions of zombies to come out to the surface.
+#M06D10S04P02    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t50.ogg]Demons are not often found here - they don't like the sunlight, but one of their scouts attacked us.
+#M06D10S04P03    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t51.ogg]I didn't know that demons were the reason for the war between the undead and the Sylvan folk! I will look into what happened there...
+
+
+#M06D11S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t52.ogg]The flame monsters are dead.
+#M06D11S02P01    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t53.ogg]Thank you, warrior! As a reward for your help, I'll teach you a mighty spell.
+#M06D11S02P02    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t54.ogg]Perhaps some goods in my shop may be of use to you?
+
+
+
+#M06D12S01P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t57.ogg]Warrior, help!
+#M06D12S02P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t58.ogg]Who are you? I've never seen anyone like you!
+#M06D12S03P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t59.ogg]My name is Zarga... my tribe inhabits the caves under World Mountain.
+#M06D12S03P02	 [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t60.ogg]We set off for an expedition many years ago, but orcs attacked us. Killed us all... I'm wounded and will not hold out for long.
+#M06D12S03P03    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t61.ogg]Orcs have driven away our machines. Stop the brutes before they ruin everything!..
+#M06D12S03P04    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t62.ogg]Machines? What does this word mean?
+#M06D12S04P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t63.ogg]I don't know how to explain it to you, forest warden.
+#M06D12S05P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t64.ogg]These... these are the iron demons that can fulfil any task of its master.
+#M06D12S06P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t65.ogg]Orcs went to the north, follow them... and destroy them, I beg you!..
+
+
+#M06D12S07P01    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t68.ogg]These demons look very odd... I've never seen anything like this.
+
+
+#M06D12S08P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t66.ogg]Astonishing. Dwarfs who dwell under World Mountain and command the iron demons...
+#M06D12S08P02    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t67.ogg]Good. First of all, I need to run down the Orcs!
+
+
+
+
+#M06D19S01P01    [M6Ent][][Missions\SOUND\MISSION06\m06_t70.ogg]Rannnnnnger. Forrrrrrests. Full of corrrrrrpses. They arrrrrre killing. My brother Treeeeeeessssssss.
+#M06D19S02P01    [Elhant][][Missions\SOUND\MISSION06\m06_t71.ogg]I'm sorry, great Ent. Your tribe is living in hard times. You should leave these lands.
+#M06D19S03P01    [M6Ent][][Missions\SOUND\MISSION06\m06_t72.ogg]I'm afrrrraid. Yoooooou arrrrrrree. Right. Weeeee. Shaaal. Leeeeeave..
+
+
+#M06D18S02P01    [M6Elf1][][Missions\SOUND\MISSION06\m06_t73.ogg]The cemetery where our ancestors lie has been captured by the undead! 
+#M06D18S02P02    [M6Elf1][][Missions\SOUND\MISSION06\m06_t74.ogg]Purge it of filth, Ranger!
+
+#M06D17S01P01    [M6Elf2][][Missions\SOUND\MISSION06\m06_t75.ogg]You've saved us from a fate which is worse than death.
+#M06D17S02P01    [Elhant][][Missions\SOUND\MISSION06\m06_t76.ogg]Go to the southeast. Our camp is there. You will be safe.
+
+
+#M06D25S01P01    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t10.ogg]I have encountered harpies before, in the south. They are vile beasts. 
+#M06D25S01P02    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t11.ogg]Their poison is even capable of interrupting a spell's effect... but worst of all - is their awful smell!
+
+#M06D25S02P01    [Elhant][Suprised][Missions\SOUND\MISSION06\m06_t55.ogg]What kind of strange small peoples are these? From far away I took them for children... but they have beards!
+#M06D25S02P02    [Elhant][][Missions\SOUND\MISSION06\m06_t56.ogg]There are too many things in this world still unknown to me...
+
+#M06D25S03P01    [Elhant][][Missions\SOUND\MISSION06\m06_t68.ogg]These demons look very odd... I've never seen anything like this.
+
+#M06D25S03P02    [Elhant][][Missions\SOUND\MISSION06\m06_t69.ogg]Orcs! But what are these strange animals with them? Iron creatures... Orcs can do a lot of harm with allies like these!
+#M06D25S04P01    [Elhant][][Missions\SOUND\MISSION06\m06_t01.ogg]We have to deliver wood, food, iron and crystals to the camp!

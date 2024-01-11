@@ -1,0 +1,123 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+
+--[[****************************************]]--
+--[[ Produce states of any type "ST_***_PR" ]]--
+--[[****************************************]]--
+
+--[[ ST_BEGIN_PR - prepare for produce      ]]--
+
+--[[
+	Использует параметры
+	"iUnitType"	- тип производимого юнита
+	"iUnitNUM"	- кол-во юнитов для производсва
+]]--
+function ST_BEGIN_PR_00( C_OBJ, msg )
+	local	_par	= C_OBJ:GET_PARAMS();
+	if ( msg.str == "MSG_ENTER" ) then
+		local _iUT = INT(_par:GET("iUnitType"));
+		local _iUN = INT(_par:GET("iUnitNUM"));
+		if ( _iUT==nil or _iUN==nil ) then 
+			C_OBJ.next_STATE	= "ST_IDLE";
+			C_OBJ.FSC			= true;
+			return 1;
+		end;
+		local	_gBarak = GROUP(C_OBJ:GET_OBJ());
+		_gBarak:Produce(_iUT.Value,_iUN.Value);
+		C_OBJ.next_STATE	= "ST_PRODUCE";
+		C_OBJ.FSC			= true;
+	end;
+	return 1;
+end;
+
+--[[ ST_PRODUCE - control produse state     ]]--
+function ST_PRODUCE_00( C_OBJ, msg )
+	local	_gBarak = GROUP(C_OBJ:GET_OBJ());
+	local	_par	= C_OBJ:GET_PARAMS();
+	local	_gUnits = GROUP(_par:GET("gGroup"));
+	if 		( msg.str == "MSG_NEW_UNIT" )	then
+		if (msg:GET_PARAMS()==nil) then return 0 end;
+		local __GID = INT(msg:GET_PARAMS():GET("inewGID"));
+		if ( __GID==nil ) then return 0 end;
+		_gUnits:AddUnitByGID(__GID.Value);
+		_gUnits.NMASK = _gBarak.NMASK;
+		return 1;
+	elseif 	( msg.str == "MSG_UPDATE" ) then
+		local _iUN = INT(_par:GET("iUnitNUM"));
+		if ( _gBarak.NO_ORDERS_NUM==_gBarak.N and _gUnits.Ready==true ) then 
+			C_OBJ.next_STATE	= "ST_END_PR";
+			C_OBJ.FSC			= true;
+		end;
+		return 1;
+	end;
+	return 1;
+end;
+
+--[[ ST_END_PR - some operation on produced units ]]--
+function ST_END_PR_00( C_OBJ, msg )
+	local	_par	= C_OBJ:GET_PARAMS();
+	local	_gUnits = GROUP(_par:GET("gGroup"));
+	if 		( msg.str == "MSG_UPDATE" 	) then
+		if ( _gUnits.Ready == true ) then
+			C_OBJ.next_STATE	= "ST_IDLE";
+			C_OBJ.FSC			= true;
+		end;
+		return 1;
+	elseif 	( msg.str == "MSG_EXIT" 	) then
+		local _iNewNat = INT(_par:GET("iNewNation"));
+		local _iNewOwner= INT(_par:GET("iNewOwnerNation"));
+		if ( _iNewNat~=nil ) then
+			_gUnits:SetNation(_iNewNat.Value);
+		elseif ( _iNewOwner~=nil ) then
+			_gUnits.NMASK = GetNationNMASK(_iNewOwner.Value);
+			AddTomahawks(_gUnits,_iNewOwner.Value,true,0,0,0);
+		end;
+		_gUnits:RemAllUnits();
+		return 1;
+	end;
+	return 1;
+end;
+
+function ST_END_PR_01( C_OBJ, msg )
+	local	_gBarak = GROUP(C_OBJ:GET_OBJ());
+	local	_par	= C_OBJ:GET_PARAMS();
+	local	_gUnits = GROUP(_par:GET("gGroup"));
+	if 		( msg.str == "MSG_UPDATE" 	) then
+		if ( _gUnits.Ready == true ) then
+			C_OBJ.next_STATE	= "ST_IDLE";
+			C_OBJ.FSC			= true;
+		end;
+		return 1;
+	elseif 	( msg.str == "MSG_EXIT" 	) then
+		local _iNewNat = INT(_par:GET("iVillageOwner"));
+		--[[_gUnits:SetNation(_iNewNat.Value);]]--
+		_gUnits.NMASK = GetNationNMASK(_iNewNat.Value);
+		AddTomahawks(_gUnits,_iNewNat.Value,true,0,0,0);
+		local _iTimer = INT(_par:GET("iWaitTime"));
+		--[[_iNewNat.Value = _gBarak.Nat;]]--
+		FSM.SendMsg( "MSG_ORDER", _iTimer.Value, C_OBJ.Name, C_OBJ.Name );
+		return 1;
+	end;
+	return 1;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

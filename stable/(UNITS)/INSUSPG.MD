@@ -1,0 +1,93 @@
+NAME InsUSpG
+ICON U_FrnOf17
+ICONEX 0 0 interf3\UnitPortrets\Insect_back 0
+ICONANM 0 0 interf3\UnitPortrets\Insect_back 1 29 1
+ICONANM 0 0 interf3\UnitPortrets\Insect 0 0 0
+!STAND          1 0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_stand1.C2M
+ADDHDIR #STAND 0 128
+!REST          60 0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_stand1.C2M
+ADDHDIR #REST 0 128
+!REST          60 0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_stand2.C2M
+ADDHDIR #REST 0 128
+!MOTION_L      24 0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_walk1.C2M
+ADDHDIR #MOTION_L 0 128
+!PSTAND        1  0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_attack1.C2M
+ADDHDIR #PSTAND 0 128 
+!ATTACK        40 0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_attack1.C2M
+ADDHDIR #ATTACK 0 128
+!DEATH         60 0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_death1.C2M
+ADDHDIR #DEATH 0 128
+SOUND 1 #DEATH death_spider
+!DEATH         75 0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_death2.C2M
+ADDHDIR #DEATH 0 128
+SOUND 1 #DEATH death_spider
+!CASTPREPARE   20 0.20 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_attack1.C2M
+ADDHDIR #CASTPREPARE 0 128
+!CASTDIRECT   1 0.20 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_attack1.C2M
+ADDHDIR #CASTDIRECT 0 128
+GEOMETRY 1 14 30
+SPEEDSCALE 125
+DAMAGE   0 45
+LIFE     500
+RECTANGLE 0 2 50 55
+ATTACK_RADIUS 0 0 60
+ATTACK_PAUSE 0 0
+SEARCH_ENEMY_RADIUS 500
+DET_RADIUS 0 0 7000
+MATHERIAL 1 BODY
+CANKILL 3 BODY BUILDING WOOD 
+PRICE 2 FOOD 200 COAL 500
+WEAPONKIND 0 crushing
+WEAPON 0 UW_wSpiderSlow
+BUILDSTAGES 3600
+VISION 1
+STANDGROUND
+INFO 0 28
+VES 30
+MOTIONSTYLE SINGLESTEP
+ROTATE 12
+MOVEBREAK #MOTION_L
+BREAKANIMATION #REST
+BREAKANIMATION #PSTAND
+BREAKANIMATION #STAND
+ADDSHOTRADIUS 24
+PROTECTION 3 crushing 10 magical 15 piercing 2
+SETACTIVEPOINT0 #ATTACK 17
+CANSTORM
+EXPA 225
+ABILITY Drop_BottleDropMajor
+ABLDROP Drop_BottleDropMajor 3
+ABILITY Drop_ItemDropMinor
+ABLDROP Drop_ItemDropMinor 10
+ABILITY Drop_ItemDropMajor
+ABLDROP Drop_ItemDropMajor 1
+COLLISION 32
+SELTYPE SelBig 1 1                                                                   
+*ROTATEATPLACE      1 150 0.2 Models\Units\InsUSpG\InsUSpGM.C2M Models\Units\InsUSpG\InsUSpGA_turn1.C2M 0 1.0 0.0
+ADDHDIR #ROTATEATPLACE 0 -64
+RPLACESPEED         1000
+KILLERAWARD             GOLD 100
+KILLERAWARDRANDOM       GOLD 25
+
+ABILITY UA_aSpider
+//ABILITY UA_aSpiderNet
+
+LOWCOLLISION
+ZPOINTS 20 20
+CANTCAPTURE
+CYLINDER 33 45
+LIKE2DONMINIMAP
+USAGE COSTLY
+UNITRADIUS 20
+NO_HUNGRY
+/SOUND 10 #MOTION_L move_humanoids
+/SOUNDFRAME2 #MOTION_L 22 move_humanoids
+SOUND 1 #DEATH death_spider
+SOUND 17 #ATTACK attack_spider_big
+!TEMP  1 40 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP 0 0 0 1 0
+SOUND 15 #TEMP punch_spider_big
+ShadowScaleX 2.5
+ShadowScaleY 2.0
+TFACTOR FF6F6F6F
+[END]

@@ -1,0 +1,19 @@
+<NewAbility>
+ <Name>UW_aIceDrake_Fake</Name>
+ <ClassType>Image</ClassType>
+ <FileID>Interf3\Ability\auras_crealzy</FileID>
+ <SpriteID>3</SpriteID>
+ <HintName>#AuraIceBreath.NAME</HintName>
+ <Hint>#AuraIceBreath</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

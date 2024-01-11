@@ -1,0 +1,34 @@
+<_3D_shooter_simulator>
+ <Name>3dshooter</Name>
+ <ShopPrice>56</ShopPrice>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MinDistance>200</MinDistance>
+ <MaxDistance>1600</MaxDistance>
+ <Damage>80</Damage>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>Tank_shot</RefName>
+ </Weapon>
+ <WholeObjectModel>Models\Units\TecUAbr\TecUAbrM.c2m</WholeObjectModel>
+ <ShootAnimation>Models\Units\TecUAbr\TecUAbrA_shot.C2M</ShootAnimation>
+ <WholeShootTime>200</WholeShootTime>
+ <TimeOfShooting>100</TimeOfShooting>
+ <TotalRechargeTime>2000</TotalRechargeTime>
+ <BulletsAmount>1</BulletsAmount>
+ <RotateAnimation>Models\Units\TecUAbr\TecUAbrA_rotate.C2M</RotateAnimation>
+ <ShootAngleDifference>92</ShootAngleDifference>
+ <RotationSpeed>300</RotationSpeed>
+ <LiftAnimation>Models\Units\TecUAbr\TecUAbrA_up.C2M</LiftAnimation>
+ <ShootDirectionNodeName>konec</ShootDirectionNodeName>
+ <LiftSpeed>500</LiftSpeed>
+</_3D_shooter_simulator>

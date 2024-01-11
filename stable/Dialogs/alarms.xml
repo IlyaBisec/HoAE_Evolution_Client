@@ -1,0 +1,13 @@
+<AlarmOptions>
+ <AttackAlarm>
+  <Texture>Textures\alarm.DDS</Texture>
+  <Sound>ALARMS</Sound>
+  <Interval_ms>20000</Interval_ms>
+  <Duration_ms>6000</Duration_ms>
+  <PulsingCount>3</PulsingCount>
+  <Rotation>4.026273</Rotation>
+  <MaxPulsingRadius>80</MaxPulsingRadius>
+  <StartPulsingColor>FFFFFFFF</StartPulsingColor>
+  <FinalPulsingColor>01FFFFFF</FinalPulsingColor>
+ </AttackAlarm>
+</AlarmOptions>

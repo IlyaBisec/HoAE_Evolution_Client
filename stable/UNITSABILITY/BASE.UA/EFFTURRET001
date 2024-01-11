@@ -1,0 +1,33 @@
+<ExtraShootingElement>
+ <Name>EffTurret001</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>Poison</RefName>
+ </Weapon>
+ <WholeObjectModel>Models\Units\EffUFlo\EffUFloM.c2m</WholeObjectModel>
+ <ShootAnimation>Models\Units\EffUFlo\EffUFloA_attack_up.c2m</ShootAnimation>
+ <WholeShootTime>1800</WholeShootTime>
+ <TimeOfShooting>1200</TimeOfShooting>
+ <TotalRechargeTime>1800</TotalRechargeTime>
+ <RotateAnimation>Models\Units\EffUFlo\EffUFloA_attack_rotate.C2M</RotateAnimation>
+ <CentralShootAngle>64</CentralShootAngle>
+ <ShootAngleDifference>128</ShootAngleDifference>
+ <RotationSpeed>200</RotationSpeed>
+ <TowerCenterX>1</TowerCenterX>
+ <TowerCenterY>1</TowerCenterY>
+ <TowerCenterZ>125</TowerCenterZ>
+ <CannonRadius>10</CannonRadius>
+</ExtraShootingElement>

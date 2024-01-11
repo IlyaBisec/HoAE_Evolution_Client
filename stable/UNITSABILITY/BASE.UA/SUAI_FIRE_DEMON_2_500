@@ -1,0 +1,14 @@
+<ua_SingleUnitAI>
+ <Name>suAI_fire_demon_2_500</Name>
+ <CastingRadius>500</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MagicCardFireBall1</RefName>
+   </UA>
+   <MinTargetAmount>1</MinTargetAmount>
+   <CastingDelay>1</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

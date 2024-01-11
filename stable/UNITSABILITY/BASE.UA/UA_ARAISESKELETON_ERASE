@@ -1,0 +1,27 @@
+<NewAbility>
+ <Name>UA_aRaiseSkeleton_Erase</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>255</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnEndEffectErase>true</OnEndEffectErase>
+ <EndEffectIfEnemyNearRadius>0</EndEffectIfEnemyNearRadius>
+</NewAbility>

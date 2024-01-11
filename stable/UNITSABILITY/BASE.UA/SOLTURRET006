@@ -1,0 +1,33 @@
+<ExtraShootingElement>
+ <Name>SolTurret006</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MaxDistance>100</MaxDistance>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_Zeppelin</RefName>
+ </Weapon>
+ <WholeObjectModel></WholeObjectModel>
+ <ShootAnimation></ShootAnimation>
+ <WholeShootTime>1000</WholeShootTime>
+ <TimeOfShooting>100</TimeOfShooting>
+ <TotalRechargeTime>2000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <CentralShootAngle>192</CentralShootAngle>
+ <ShootAngleDifference>10</ShootAngleDifference>
+ <RotationSpeed>10000</RotationSpeed>
+ <TowerCenterX>189</TowerCenterX>
+ <TowerCenterY>-60</TowerCenterY>
+ <CannonRadius>1</CannonRadius>
+</ExtraShootingElement>

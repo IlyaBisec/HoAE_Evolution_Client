@@ -1,0 +1,35 @@
+<NewAbility>
+ <Name>mod_Invisibility</Name>
+ <ClassType>Image</ClassType>
+ <SpriteID>2</SpriteID>
+ <Aura>true</Aura>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_Invisibility>
+   <Invisibility>true</Invisibility>
+  </mod_Invisibility>
+ </Modificators>
+ <Radius>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>10</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </Radius>
+ <FriendlyTarget>true</FriendlyTarget>
+ <TargetMaxAmount>1</TargetMaxAmount>
+</NewAbility>

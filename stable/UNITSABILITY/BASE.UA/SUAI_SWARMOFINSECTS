@@ -1,0 +1,13 @@
+<ua_SingleUnitAI>
+ <Name>suAI_SwarmOfInsects</Name>
+ <CastingRadius>600</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MagicCardSwarmOfInsects</RefName>
+   </UA>
+   <MinTargetAmount>4</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

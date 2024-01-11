@@ -1,0 +1,33 @@
+<NewAbility>
+ <Name>MC_aFireRing_Stun</Name>
+ <ClassType>Effect</ClassType>
+ <Visible>false</Visible>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>800</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <Modificators>
+  <mod_MotionSpeed>
+   <Trap>true</Trap>
+   <Stun>true</Stun>
+  </mod_MotionSpeed>
+ </Modificators>
+</NewAbility>

@@ -1,0 +1,35 @@
+<NewAbility>
+ <Name>UW_aBash</Name>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>3</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>3</EffectSpriteID>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <Modificators>
+  <mod_MotionSpeed>
+   <Trap>true</Trap>
+   <Stun>true</Stun>
+  </mod_MotionSpeed>
+ </Modificators>
+</NewAbility>

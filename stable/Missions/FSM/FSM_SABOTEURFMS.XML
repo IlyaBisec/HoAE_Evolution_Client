@@ -1,0 +1,13 @@
+<be_CFSM>
+ <Name>FSM_SABOTEUR</Name>
+ <FileName>Missions\LUA_FUCTIONS\FSM\FMS_DIABLO.script</FileName>
+ <FunctionName>FSM_SABOTEUR</FunctionName>
+ <Params>
+  <be_CBasePrametr>
+   <ParamName>AREAID</ParamName>
+   <ParamType>INT</ParamType>
+   <ParamName>AREAID</ParamName>
+   <ParamType>INT</ParamType>
+  </be_CBasePrametr>
+ </Params>
+</be_CFSM>

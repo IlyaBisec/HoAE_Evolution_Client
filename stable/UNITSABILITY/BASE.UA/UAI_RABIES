@@ -1,0 +1,21 @@
+<NewAbility>
+ <Name>UAI_Rabies</Name>
+ <ClassType>Image</ClassType>
+ <Visible>false</Visible>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_SearchVictim>
+   <Type>Rabies</Type>
+  </mod_SearchVictim>
+ </Modificators>
+</NewAbility>

@@ -1,0 +1,5 @@
+<UnitModificatorConditionArray>
+ <umc_Summon>
+  <Not>false</Not>
+ </umc_Summon>
+</UnitModificatorConditionArray>

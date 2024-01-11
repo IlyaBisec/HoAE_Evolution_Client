@@ -1,0 +1,11 @@
+<MainMenu>
+ <Main>		  dialogs\mm\Ma_Main.DialogsSystem.xml		</Main>
+ <F12game>	  dialogs\mm\Ma_F12game.DialogsSystem.xml	</F12game>
+ <F1game>	  dialogs\mm\Ma_F1.DialogsSystem.xml		</F1game>
+ <EndGameMessage> dialogs\mm\M_EndGame.DialogsSystem.xml	</EndGameMessage>
+ <MultiRoom>      dialogs\mm\MultiRoom.DialogsSystem.xml	</MultiRoom>
+ <HeroesUpgrades> dialogs\mm\HeroesUpgrades.DialogsSystem.xml	</HeroesUpgrades>
+ <NoCD> 	  dialogs\mm\NoCD.DialogsSystem.xml		</NoCD>
+ <MemLimit> 	  dialogs\mm\MemLimit.DialogsSystem.xml		</MemLimit>
+ <DemoScreen>	  dialogs\mm\DemoScreen.DialogsSystem.xml	</DemoScreen>
+</MainMenu>

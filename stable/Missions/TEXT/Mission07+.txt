@@ -1,0 +1,35 @@
+#M7+D01S01    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t01.ogg]Что произошло? Где все? Если друид не настроил порталы, нас всех разбросало по разным местам!
+#M7+D01S02    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t02.ogg]На севере я вижу вершину Горы Мира. Нужно идти туда.
+#M7+D02S01    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t03.ogg]Смотрите, это Эльхант! Он тоже выжил!
+#M7+D02S02    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t04.ogg]Мы с тобой, следопыт!
+#M7+D02S03    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t05.ogg]Эльхант! Рады тебя видеть!
+#M7+D02S04    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t06.ogg]Это следопыт!
+#M7+D02S05    [M7plusCentaur][Normal][Missions\SOUND\MISSION07p\m07p_t07.ogg]Это тот самый эльф, который командовал обороной!
+#M7+D02S06    [M7plusCentaur][Normal][Missions\SOUND\MISSION07p\m07p_t08.ogg]Следопыт! Мы отступаем к городу в горах. Ты знаешь, как нам попасть туда?
+#M7+D02S07    [M7plusDruid][Normal][Missions\SOUND\MISSION07p\m07p_t09.ogg]Это же Эльхант! Я не привык подчиняться воинам, но сейчас почту за благо перейти под его начало...
+#M7+D02S08    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t10.ogg]Эльхант, куда нам идти теперь?
+#M7+D02S09    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t11.ogg]Следопыт тоже жив!
+#M7+D02S10    [M7plusDryad][Normal][Missions\SOUND\MISSION07p\m07p_t12.ogg]Эльхант, это ты!.. Леса в опасности, давай объединим наши силы.
+#M7+D03S01    [Draelnor][Suprised][Missions\SOUND\MISSION07p\m07p_t13.ogg]Хвала Лесу, вы тоже живы! Нас с Монфором и небольшим отрядом забросило ближе к Горе Мира.
+#M7+D03S02    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t14.ogg]Там была нежить, но воины прорвались к городу Звенящей Воды.
+#M7+D03S03    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t15.ogg]Где Лана?
+#M7+D03S04    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t16.ogg]Дочь воеводы ушла вместе с ними.
+#M7+D03S05    [Elhant][Angry][Missions\SOUND\MISSION07p\m07p_t17.ogg]Я видел, как некроманты поднимают павших воинов и превращают их в нежить.
+#M7+D03S06    [Elhant][Angry][Missions\SOUND\MISSION07p\m07p_t18.ogg]Значит все сражения бессмысленны? Ведь каждый убитый солдат лишь усиливает мощь врага...
+#M7+D03S07    [Draelnor][Suprised][Missions\SOUND\MISSION07p\m07p_t19.ogg]О Великий Лес! Наконец кто-то, кроме меня, понял это!
+#M7+D03S08    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t20.ogg]Я пытался доказать всю бессмысленность сражений воеводе, но он не слушал меня...
+#M7+D03S09    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t21.ogg]Мы поссорились, и я возвращаюсь к себе.
+#M7+D03S10    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t22.ogg]Нет, погоди, друид! Вижу, Монфор опять ошибается, а ты прав. Мы должны искать другой путь!
+#M7+D03S11    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t23.ogg]Скажи, что нам делать?
+#M7+D03S12    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t24.ogg]Попробуй спросить совета у Оракула в Ущелье Ветров. Но помни: Оракул разговаривает не со всеми.
+#M7+D03S13    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t25.ogg]И даже если он станет отвечать, ему можно задать не более трёх вопросов.
+#M7+D03S14    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t26.ogg]Сейчас мне нужно провести солдат в город Звенящей Воды. Оттуда я сразу же отправлюсь к Оракулу.
+#M7+D03S15    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t27.ogg]Между этим лесом и городом большой отряд нежити.
+#M7+D03S16    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t28.ogg]Я миновал его, воспользовавшись заклинанием невидимости, но вам пройти будет тяжело.
+#M7+D03S17    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t29.ogg]Предоставь нежить мне. Скажи, где найти тебя, если в том будет нужда?
+#M7+D03S18    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t30.ogg]Я живу у истоков реки Коры.
+#M7+D03S19    [Elhant][Suprised][Missions\SOUND\MISSION07p\m07p_t31.ogg]Прими мою благодарность, старик. Я обязательно разыщу тебя, если мне понадобится твой совет.
+#M7+D04S01    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t32.ogg]На севере - войска нежити. Мне нужна ваша помощь, чтобы отстроить лагерь и пробиться к городу.
+#M7+D04S02    [M7plusFairy][Normal][Missions\SOUND\MISSION07p\m07p_t33.ogg]Мы тоже хотим вернуться в город! Конечно мы поможем тебе, воин!
+#M7+D05S01    [Lana][Glad][Missions\SOUND\MISSION07p\m07p_t34.ogg]Эльхант, ты жив!.. Я уже не надеялась увидеть тебя, но все же уговорила отца отправить отряд на поиски.
+#M7+D05S02    [Lana][Normal][Missions\SOUND\MISSION07p\m07p_t35.ogg]Скоро в городе состоится совет, идём быстрее!

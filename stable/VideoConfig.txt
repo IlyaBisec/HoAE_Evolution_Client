@@ -1,0 +1,1 @@
+RefreshRateBias=85;

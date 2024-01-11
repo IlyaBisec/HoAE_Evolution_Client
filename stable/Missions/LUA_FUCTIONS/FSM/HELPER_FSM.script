@@ -1,0 +1,246 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FUNCTION\\HELPER_FN.script");
+
+--[[ Use for check general param for FSM ]]--
+function	CheckParams( C_OBJ, state, msg )
+	if ( C_OBJ==nil or state==nil or msg==nil ) then
+		return false;
+	end;
+	local	_object	= C_OBJ:GET_OBJ();
+	local	_par 	= C_OBJ:GET_PARAMS();
+	if ( _object==nil or _par==nil )	then 
+		return false;
+	end;
+	return true;
+end;
+
+function	ProcMsgFree( msg, curSTATE )
+	if 		( msg.str == "MSG_IS_FREE" 	)	then
+			if ( msg:GET_PARAMS()==nil ) then return 0 end;
+			local _msg_par = msg:GET_PARAMS();
+			if ( BOOL(_msg_par:GET("bFREE"))==nil ) then return 0 end;
+			BOOL(_msg_par:GET("bFREE")).Value = curSTATE;
+			return 1;
+	end;
+	return 0;
+end;
+
+function	GetNationNMASK( Nat )
+	if ( Nat==0 ) then return 1   end;
+	if ( Nat==1 ) then return 2   end;
+	if ( Nat==2 ) then return 4   end;
+	if ( Nat==3 ) then return 8   end;
+	if ( Nat==4 ) then return 16  end;
+	if ( Nat==5 ) then return 32  end;
+	if ( Nat==6 ) then return 64  end;
+	if ( Nat==7 ) then return 128 end;
+	return 255;
+end;
+
+function 	SafeSetParamToSO( VarName, soParams, inParams )
+	if ( VarName==nil or soParams==nil or inParams==nil ) then
+		return 0;
+	end;
+	if ( inParams:GET(VarName)~=nil ) then
+		soParams:SET(VarName,inParams:GET(VarName));
+	else
+		soParams:SET(VarName,nil);
+	end;
+	return 1;
+end;
+
+function	SafeClearArray( array )
+	if ( array==nil ) then return 0 end;
+	local N = array:SIZE();
+	if ( N==0 ) then return 1 end;
+	for i = 1, N, 1 do
+		array:DEL(i);
+	end;
+	return 1;
+end;
+
+function 	GetSafeNODE( arrNode, id )
+	local node = nil;
+	if ( arrNode~=nil ) then
+		local NN = arrNode:SIZE();
+		if 		( id <= 0 ) then 
+			node = NODE( arrNode:GET( NN ) );
+		elseif 	( id > NN ) then 
+			node = NODE( arrNode:GET( 1 ) );
+		else 
+			node = NODE( arrNode:GET( id ) );
+		end;
+	end;
+	return node;
+end;
+
+function	GetNearestNodeID( arrNode, x, y )
+	local id = -1;
+	if ( arrNode~=nil ) then
+		local NN = arrNode:SIZE();
+		local curD = 0;
+		local minD = -1;
+		local node = nil;
+		while ( NN > 0 ) do
+			node = NODE( arrNode:GET( NN ) );
+			curD = math.sqrt( (node.x-x)*(node.x-x) + (node.y-y)*(node.y-y) );
+			if ( curD < minD or minD == -1 ) then
+				minD = curD;
+				id = NN;
+			end;
+			NN = NN - 1;
+		end;
+	end;
+	return id;
+end;
+
+function	GetNearestNodeIDOnWay( arrNode, x, y, delta, circle )
+	local id = GetNearestNodeID( arrNode, x, y );
+	local node = NODE( arrNode:GET( id ) );
+	if ( math.sqrt( (node.x-x)*(node.x-x) + (node.y-y)*(node.y-y) )<=delta ) then
+		if ( id+1<=arrNode:SIZE() ) then
+			id = id + 1;
+		elseif ( circle==true ) then
+			id = 1;
+		end;
+	else
+		v1 = vector(node.x-x,node.y-y);
+		nextID = id;
+		if ( id+1<=arrNode:SIZE() ) then
+			nextID = id+1;
+			_node = NODE( arrNode:GET( nextID ) );
+		elseif ( circle==true ) then
+			nextID = 1;
+			_node = NODE( arrNode:GET( nextID ) );
+		end;
+		if ( _node~=nil ) then
+			v2 = vector(_node.x-x,_node.y-y);
+			if ( DOT(v1,v2)<0 ) then
+				id = nextID;
+			end;
+		end;
+	end;
+	return id;
+end;
+
+function	LinkNodeToGroup( Node, Group )
+	if ( Node==nil or Group==nil ) then return 0 end;
+	Node.x = Group.Xc;
+	Node.y = Group.Yc;
+	return 1;
+end;
+
+function	LinkNodeToGroup00( Node, Group, Node10, Node00, Node01 )
+	if ( Node==nil or Group==nil or Node10==nil or Node00==nil or Node10==nil ) then return 0 end;
+	local x10 = Node10.x  - Node00.x;
+	local y10 = Node10.y  - Node00.y;
+	local x01 = Node01.x  - Node00.x;
+	local y01 = Node01.y  - Node00.y;
+	local x2  = Group.Xc - Node00.x;
+	local y2  = Group.Yc - Node00.y;
+	local a10 = ( x10 * x2 + y10 * y2 ) / ( x10 * x10 + y10 * y10 );
+	local a01 = ( x01 * x2 + y01 * y2 ) / ( x01 * x01 + y01 * y01 );
+	
+	local x1 = x10;
+	local y1 = y10;
+	local a  = a10;
+	if ( a < a01 ) then
+		a = a01;
+		x1 = x01;
+		y1 = y01;
+	end;
+	
+	if 		( a < 0 ) then 
+		a = 0;
+	elseif 	( a > 1 ) then
+		a = 1;
+	end;
+	
+	Node.x = x1*a + Node00.x;
+	Node.y = y1*a + Node00.y;
+	return 1;
+end;
+
+function	GroupCheckPosArray( _group, _arrPos )
+	if ( _group==nil or _arrPos==nil ) then return false end;
+	local OK = true;
+	local arrN = _arrPos:SIZE();
+	local grpN = _group.N;
+	local node = nil;
+	local Xi   = 0;
+	local Yi   = 0;
+	while ( grpN > 0 and OK == true ) do
+		grpN = grpN - 1;
+		Xi = _group:GetXi(grpN);
+		Yi = _group:GetYi(grpN);
+		local tOK = false;
+		for i = 1, arrN, 1 do
+			node = NODE(_arrPos:GET(i));
+			if ( math.sqrt( (node.x-Xi)*(node.x-Xi) + (node.y-Yi)*(node.y-Yi) )<250 ) then
+				tOK = true;
+				break;
+			end;
+		end;
+		OK = tOK;
+	end;
+	return OK;
+end;
+
+function	SO_GROUP_IS_DEAD( C_OBJ )
+	local	_group 	= GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil )	then return true end;
+	if ( _group.N == 0 ) then 
+		FSM.FreeSO_pVAR(_group);
+		(C_OBJ:GET_PARAMS()):CLEAR();
+		return true;
+	end;
+	return false;
+end;
+
+function	isFriend( pGRP, iNation )
+	if ( pGRP==nil or pGRP.N<=0 or iNation<0 or iNation>=8 ) then return false end;
+	return bAND( pGRP.NMASK, GetNationNMASK(iNation) );
+end;
+
+--[[
+	- Только для производства юнитов
+]]--
+--[[ 
+	Подсчитать кол-во юнитов в массиве TypeNumber -
+	просто sum( TypeNumber, i ) где i = 1,3,5,... 
+]]--
+function	Get_arrTN_UnitNumberSum( arrTN )
+	local sum = 0;
+	if ( arrTN~=nil and arrTN:SIZE()>0 ) then
+		for i = 1, ( arrTN:SIZE() / 2 ), 1 do
+			sum = sum + (INT(arrTN:GET(2*i))).Value;
+		end;
+	end;
+	return sum;
+end;
+
+--[[
+	- Алгоритмы выбора подходящей цели
+]]--
+function	AL_AST_RATE( ENEMY_T_ALPD, iPrivMinRate ) --[[ Поиск слабейшего ]]--
+	local iAreaID = -1;
+	if ( ENEMY_T_ALPD~=nil ) then
+		local _ALPD = nil;
+		local _iMinUDP = iPrivMinRate;
+		local _iALPD_ID = -1;
+		for _iEnAS = 0,ENEMY_T_ALPD.N-1,1 do
+			_ALPD = ENEMY_T_ALPD:getALPD(_iEnAS);
+			if ( _ALPD~=nil and ( _iMinUDP==-1 or _iMinUDP>_ALPD.UDP ) ) then
+				_iMinUDP = _ALPD.UDP;
+				_iALPD_ID = _iEnAS;
+			end;
+		end;
+		if ( _iALPD_ID~=-1 ) then
+			_ALPD = ENEMY_T_ALPD:getALPD(_iALPD_ID);
+			iAreaID = _ALPD.minAST_AID;
+		end;
+	end;
+	return iAreaID;
+end;
+
+

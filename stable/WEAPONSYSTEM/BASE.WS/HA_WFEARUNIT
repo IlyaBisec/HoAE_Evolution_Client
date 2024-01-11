@@ -1,0 +1,26 @@
+<WeaponModificator>
+ <Name>HA_wFearUnit</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <MassBirthNew>
+     <Probability>
+      <Value>
+       <Op>
+        <NumericalConst>
+         <Value>
+          <Value>100</Value>
+         </Value>
+        </NumericalConst>
+       </Op>
+      </Value>
+     </Probability>
+    </MassBirthNew>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

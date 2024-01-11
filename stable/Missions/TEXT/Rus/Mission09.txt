@@ -1,0 +1,58 @@
+
+#M09D07S01P01    [M9Dwarf1][Pride][Missions\SOUND\MISSION09\m09_t03.ogg]На наше селение напала нежить. Пришелец, помоги нам!
+
+#M09D07S03P01    [Elhant][Normal][Missions\SOUND\MISSION09\m09_t01.ogg]Мне больше по душе лесной простор... здесь совсем не то. Надо найти Корону и побыстрее возвращаться.
+#M09D07S03P02    [Elhant][Glad][Missions\SOUND\MISSION09\m09_t02.ogg]Вот это да! Целый город карликов под Горой Мира! Как много тайн хранят пещеры Атланса...
+
+#M09D07S04P01    [Elhant][Normal][Missions\SOUND\MISSION09\m09_t28.ogg]Так вот из-за кого нежить поднялась на поверхность? Наверняка это сильный противник... но я не привык отступать!
+#M09D07S04P02    [Elhant][Pride][Missions\SOUND\MISSION09\m09_t29.ogg]Я сражался с рыцарями смерти, призраками, мертвецами и ходячими скелетами, и не испугаюсь этих огненных чудовищ! 
+
+
+
+#M09D05S01P01    [M9Dwarf2][Pride][Missions\SOUND\MISSION09\m09_t04.ogg]Здесь, рядом, наши шахты! Недавно в штольню ворвалось огромное одноглазое чудовище, и теперь оно не позволяет рудокопам выйти наружу.
+#M09D05S01P02    [M9Dwarf2][Normal][Missions\SOUND\MISSION09\m09_t05.ogg]Спаси их, воин!
+
+#M09D06S01P01    [M9Dwarf3][Normal][Missions\SOUND\MISSION09\m09_t06.ogg]Циклоп чуть было не убил нас... Спасибо тебе, пришелец!
+
+
+
+
+#M09D01S01P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t07.ogg]Благодарю тебя, воин. Я вижу, ты пришел с поверхности, ведь такие как ты не живут в наших пещерах. 
+
+
+#M09D01S02P01    [Elhant][Normal][Missions\SOUND\MISSION09\m09_t08.ogg]Я ищу Корону Стихий. Ты не знаешь, где она?
+
+#M09D01S03P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t09.ogg]Корона! Из-за неё мы некогда прибыли на этот остров, а теперь она - причина войны между нежитью и лавовыми демонами!
+#M09D01S04P01    [Elhant][Pride][Missions\SOUND\MISSION09\m09_t10.ogg]Так где мне найти её?
+#M09D01S05P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t11.ogg]Много лет минуло с тех пор, как мы утратили древние знания о Короне.
+#M09D01S05P02    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t12.ogg]Я не ведаю, где именно она сокрыта, но покажу тебе направление.
+
+
+
+
+#M09D02S01P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t13.ogg]Вот здесь мы жили раньше. Но с тех пор как лавовые демоны напали на нежить, нам пришлось несладко...
+
+#M09D02S02P01    [Elhant][Pride][Missions\SOUND\MISSION09\m09_t14.ogg]Ты проведёшь меня дальше?
+#M09D02S03P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t15.ogg]Нет, мне надо возвращаться в селение. Твой путь - в глубину подземелий. 
+#M09D02S03P02    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t16.ogg]Но будь осторожен: место, где властвуют демоны, близко.
+
+
+
+
+#M09D04S01P01    [Elhant][Pride][Missions\SOUND\MISSION09\m09_t17.ogg]Ты можешь рассказать мне о Короне что-нибудь ещё?
+#M09D04S01P02    [M9DwarfChief][Pride][Missions\SOUND\MISSION09\m09_t18.ogg]Это произошло давно, о тех временах остались лишь смутные легенды. 
+#M09D04S01P03    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t19.ogg]Наши предки сопровождали великого мага Октона из земель далеко на востоке. 
+#M09D04S01P04    [M9DwarfChief][Pride][Missions\SOUND\MISSION09\m09_t20.ogg]Его преследовал Некрос Чермор, желающий завладеть Короной.
+#M09D04S01P05    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t21.ogg]Великий маг пал от руки Некроса, но успел спрятать свое сокровище в пещерах.
+#M09D04S01P06    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t22.ogg]Перед смертью он наложил на Некроса проклятие чёрного бессмертия, и тот стал Повелителем Праха, живым мертвецом.
+#M09D04S01P07    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t23.ogg]Наши праотцы нашли Октона и похоронили его на вершине Горы Мира.  
+#M09D04S01P08    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t24.ogg]Некрос все эти долгие годы поднимал мертвецов и посылал их в глубины пещер, силясь отыскать спрятанную Корону.
+#M09D04S01P09    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t25.ogg]В конце концов, нежить добралась до рубежа, за которым начинались владения лавовых демонов.
+#M09D04S01P10    [M9DwarfChief][Pride][Missions\SOUND\MISSION09\m09_t26.ogg]Так демоны узнали, что есть некто, претендующий на владычество в подземном мире, и начали войну.
+#M09D04S01P11    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t27.ogg]Это Они вытеснили мёртвые легионы Некроса на поверхность.
+
+
+
+
+#M09D03S01P01    [Elhant][Angry][Missions\SOUND\MISSION09\m09_t30.ogg]Это самое зловещее место подземелий. Корона... она где-то недалеко!
+

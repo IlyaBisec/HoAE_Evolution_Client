@@ -1,0 +1,36 @@
+<NewAbility>
+ <Name>ICM_aBottle7_Enemy</Name>
+ <ClassType>Effect</ClassType>
+ <EffectFileID>Interf3\Ability\bottles_affect</EffectFileID>
+ <EffectSpriteID>3</EffectSpriteID>
+ <HintName>#Bottle7</HintName>
+ <Hint>#Bottle7</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1300</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <IgnoreMagicImmunity>true</IgnoreMagicImmunity>
+ <Modificators>
+  <mod_Invisibility>
+   <Detector>true</Detector>
+  </mod_Invisibility>
+ </Modificators>
+</NewAbility>

@@ -1,0 +1,39 @@
+<NewAbility>
+ <Name>UA_aCanon</Name>
+ <ClassType>Image</ClassType>
+ <SoundExecute>NONE</SoundExecute>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_Plymorph>
+   <Conditions>
+    <umc_TimePeriod></umc_TimePeriod>
+   </Conditions>
+   <NewType>
+    <UnitType>DruSBo10(DR)</UnitType>
+   </NewType>
+   <ReInitAbilities>true</ReInitAbilities>
+   <Permanent>true</Permanent>
+  </mod_Plymorph>
+ </Modificators>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <Duration>8000</Duration>
+   <Place>Target units</Place>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\HeroPreobretenie\HeroPreobretenie.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\HeroPreobretenie\HeroPreobretenie.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

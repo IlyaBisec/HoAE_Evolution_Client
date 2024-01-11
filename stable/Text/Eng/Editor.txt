@@ -1,0 +1,193 @@
+#STARTRES Starting Resources
+#STARTRES_H Select the Resources to start out with
+#VICTCOND Victory Conditions
+#MAPSIZE Map Size
+#NPLAYERS Players
+#PRESET Terrain Preset
+#NEWPRESET New
+#EDITPRESET Edit
+#DELPRESET Delete
+#CLEAR Clear
+#NEWPRESET_H Add new terrain
+#EDITPRESET_H Edit Preset Terrain
+#DELPRESET_H Delete Preset Terrain
+#CLEAR_H Clear
+#GENERATE Generate
+#CANCEL Cancel
+#RANDOM_PARAM Random Map Parameters
+#DESIGNED_MAP Design Map
+#LAND_TYPE Land Type
+#LAND_TYPE_H Select the desired land type
+#RANDOMIZE Generate
+#TRANSFER Transfer
+#RND_VALUE Seed Value
+#MAPGENERATOR Map Generator
+
+#TEXTURIZE Texturize
+#MapHeightEditor Height Editor
+#PENHEIGHT ¬˚ÒÓÚ‡ ÔÂ‡
+#PENPAREMS œ‡‡ÏÂÚ˚ ÔÂ‡
+#PEN_RADIUS Pen Radius
+#PEN_WIDTH Pen Width
+#PEN_CURVATURE  Ë‚ËÁÌ‡ ÔÂ‡
+#FRACTALMODULATION Fractal Modulation
+#FRACTALFREQ Fractal Frequency
+#PERFORMTEXTURING Texturing
+
+$EHIN_0 {C FFFFFFFF}Mouse Moving Mode {C FF4A8E18}(Q)
+$EHIN_1 {C FFFFFFFF}Coloring Mode {C FF4A8E18}(Hold SPACE to spawn a color mixing tool)
+$EHIN_2 {C FFFFFFFF}Tree Mode {C FF4A8E18}(F8)
+$EHIN_3 {C FFFFFFFF}Stone Mode {C FF4A8E18}(F4)
+$EHIN_4 {C FFFFFFFF}Erase Trees, Stones and 3d effects on map {C FF4A8E18}(N)
+$EHIN_5 {C FFFFFFFF}Set Streams {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_6 {C FFFFFFFF}Set Water {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_7 {C FFFFFFFF}Clear Water {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_8 {C FFFFFFFF}Set Waves {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_9 {C FFFFFFFF}Remove Waves {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_10 {C FFFFFFFF}Raise Or Lower Hills {C FF4A8E18}(Press and hold LMB to raise terrain or Press and hold RMB to lower terrain or to generate water: after adjusting height, use Ctrl+X to generate water/plateau)
+$EHIN_11 {C FFFFFFFF}Raise Or Lower Plain {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_12 {C FFFFFFFF}Smoothing Mode {C FF4A8E18}(S)
+$EHIN_13 {C FFFFFFFF}Create Plateau {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_14 {C FFFFFFFF}Draw Roads
+$EHIN_15 {C FFFFFFFF}Paste Terrain Pattern {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_16 {C FFFFFFFF}Lift Blocking Mode {C FF4A8E18}(Ctrl+S to switch)
+$EHIN_17 {C FFFFFFFF}Set Additional Blocking {C FF4A8E18}(Ctrl+S to switch)
+$EHIN_18 {C FFFFFFFF}Set Default Blocking {C FF4A8E18}(Ctrl+S to switch)
+$EHIN_19 {C FFFFFFFF}Place Units {C FF4A8E18}(P)
+$EHIN_20 {C FFFFFFFF}Create Mission Zone {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_21 {C FFFFFFFF}Create Mission Group {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN_22* {C FFFFFFFF}Surface Editor {C FF4A8E18}(Use G to access advanced Surface Generator)
+$EHIN_23* {C FFFFFFFF}Terrain Editor {C FF4A8E18}(X)
+$EHIN_24* {C FFFFFFFF}Refresh Blocking or Path Finding System {C FF4A8E18}(Ctrl+X)
+$EHIN_25* {C FFFFFFFF}Toggle 3D Or 2D Mode
+$EHIN_26* {C FFFFFFFF}Map Starting Parameters
+$EHIN_27* {C FFFFFFFF}Toggle Peace Or War Mode {C FF4A8E18}(W)
+
+$EHIN__0 {C FFFFFFFF}Edit relief {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN__1 {C FFFFFFFF}Surface Editor {C FF4A8E18}(Use G to access advanced Surface Generator and to prevent crashes)
+$EHIN__2 {C FFFFFFFF}Refresh Blocking or Path Finding System {C FF4A8E18}(Ctrl+X)
+$EHIN__3 {C FFFFFFFF}Toggle 3D Or 2D Mode
+$EHIN__4 {C FFFFFFFF}Map Starting Parameters
+$EHIN__5 {C FFFFFFFF}Toggle Peace Or War Mode {C FF4A8E18}(W)
+$EHIN__6 {C FFFFFFFF}Add Shadow {C FFFF0505}(Disabled in 3d Terrain)
+$EHIN__7 {C FFFFFFFF}Facturing mode {C FF4A8E18}(Hold SPACE to spawn Facture List, can also be accessed by hotkey F)
+
+ED_ROADEDITOR Road Editor
+
+#ARE_YOU_SURE_TO_DELETE Are you sure you want to delete?
+#DELETE Delete
+$TE_HN1 Add Trees
+$TE_HN2 Add Water
+$TE_HN3 Add Hills
+$TE_HN4 Add Smoothing Zones
+$TE_HN5 Edit Hill Height
+$TE_HN6 Undo (Z)
+
+ED_TLSHOW Show Toolbox (CTRL-T)
+ED_TOPSHOW Show Tool Options (CTRL-O)
+ED_HDR00 Select Current Colour
+ED_HDR01 Select Unit
+ED_HDR02 Select Object
+ED_HDR03 Edit Relief
+ED_HDR04 Select Color
+ED_HDR05 Select Facture
+ED_HDR06 Set/Clear Water (Disabled in 3d terrain)
+ED_HDR07 Set Waves (Disabled in 3d terrain)
+ED_HDR08 Clear Waves (Disabled in 3d terrain)
+ED_HDR09 Erase Objects
+ED_PARM01 Brush Radius (1-9)
+ED_PARM02 Coast Width (CTRL 1-9)
+ED_PARM03 Brightness (1-9)
+ED_PARM04 Darkness (1-9)
+
+œ≈’Œ“¿ Infantry
+ ¿¬¿À≈–»ﬂ Cavalry
+¿–“»ÀÀ≈–»ﬂ Artillery
+‘ÀŒ“ Navy
+«ƒ¿Õ»ﬂ Buildings
+EDTP_01 Min. height:
+EDTP_02 Max. height:
+EDTP_03 Min. angle:
+EDTP_04 Max. angle:
+EDTP_05 Cur. height:
+EDTX_S0 Textures set #%d
+$#HIHDR Select action:
+$#ACTION Action:
+$#HEIGHT Height/Width:
+AIPARM AI Parameters
+SCDLL Scenario DLL path:
+$PLAYER%D Player #%d
+$PLAYERALL All Players
+NEWMPHDR Create New Map
+SELMSZ Select map size:
+SEL_MS0 Normal
+SEL_MS1 Big
+SEL_MS2 Huge
+
+@ID::&StdBorder::TestBorder Preview Border
+@HINT::&StdBorder::TestBorder Preview Border
+@ID::&StdBorder::AutoCreateXCYC_byOuterMargin Recreate border by outer Dimensions
+@HINT::&StdBorder::AutoCreateXCYC_byOuterMargin Recreate border by outer Dimensions
+@ID::&StdBorder::AutoCreateXCYC_byInnerMargin Recreate border by inner Dimensions
+@HINT::&StdBorder::AutoCreateXCYC_byInnerMargin Recreate border by inner Dimensions
+@ENUMHINT::&StdBorder::AutoCreateXCYC_byInnerMargin Recreate border by inner Dimensions
+@CLASSID::&StdBorder::AutoCreateXCYC_byInnerMargin Recreate border by inner Dimensions
+
+INTF_CROOM_VIC Victory
+GI_UNITS Units
+GI_BLD Buildings
+RA_Lean Lean
+RA_Medium Medium
+RA_Rich Rich
+RA_Normal Normal
+RA_Thousands Thousands
+RA_Millions Millions
+RT_Plane Plain
+RT_Low_mountains Low Mountains
+RT_High_mountains High Mountains
+RT_Highlands Highlands
+RT_Plateaus Plateaus
+LT_Land Land
+LT_Mediterranean Mediterranean
+LT_Peninsulas Peninsulas
+LT_Islands Islands
+LT_Continents Continents
+LT_Continent Continent
+
+MS_Land Land
+MS_Islands Island
+
+#MR_Army0 Casual Play
+#MR_Army1 Many Peasants
+
+#CreateFormation Create Formation
+
+#Village Village
+#City City
+#Empire Empire
+
+#Credits Credits
+#Info INFO
+
+VC_KillTownCenter Town centers
+VC_Score Scores
+VC_Mines Mines
+VC_AnnihilateHero Heroes
+
+RM_StartPos Troops
+RM_StartRes Resources
+RM_VictRule Victory conditions
+RM_TimeLimit Time limit
+RM_MapSize Map size
+RM_FogOfWar Fog of war
+VC_NoTimeLimit Unlimited
+
+MS_Small Small
+MS_Normal Normal
+
+MS_FogOff Off
+MS_FogOn On
+
+FASTMOD Fast Mode
+SLOWMOD Slow Mode
+RNDMUS Random Music

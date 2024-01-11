@@ -1,0 +1,93 @@
+NAME GiaUHam
+ICON U_FrnOf17
+ICONEX 0 0 interf3\UnitPortrets\Gaint_back 0
+ICONANM 0 0 interf3\UnitPortrets\Gaint_back 1 29 1
+ICONANM 0 0 interf3\UnitPortrets\Gaint 1 1 0
+!STAND          1 0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_stand1.C2M
+ADDHDIR #STAND 0 128
+!REST          60 0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_stand1.C2M
+ADDHDIR #REST 0 128
+!REST          90 0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_stand2.C2M
+ADDHDIR #REST 0 128
+!MOTION_L      30 0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_walk1.C2M
+ADDHDIR #MOTION_L 0 128
+!PSTAND        1  0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_attack1.C2M
+ADDHDIR #PSTAND 0 128 
+!ATTACK        50 0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_attack1.C2M
+ADDHDIR #ATTACK 0 128
+SETACTIVEPOINT0 #ATTACK 26
+SOUND 27 #ATTACK hit_hammer
+!TEMP  1 50 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP 0 0 0 1 0
+SOUND2 27 #TEMP attack_hammer 25
+!TEMP1 1 50 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP1 0 0 0 1 0
+SOUND 22 #TEMP1 stroke_hammer
+!ATTACK        40 0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_attack2.C2M
+ADDHDIR #ATTACK 0 128
+SETACTIVEPOINT0 #ATTACK 19
+SOUND 19 #ATTACK hit_hammer
+!TEMP 1 40 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP 0 0 0 1 0
+SOUND 13 #TEMP stroke_hammer
+!TEMP1  1 40 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP1 0 0 0 1 0
+SOUND2 19 #TEMP1 attack_hammer 25
+!DEATH         70 0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_death1.C2M
+ADDHDIR #DEATH 0 128
+SOUND 10 #DEATH death_hammer
+!DEATH         70 0.24  Models\Units\GiaUHam\GiaUHamM.C2M Models\Units\GiaUHam\GiaUHamA_death2.C2M
+ADDHDIR #DEATH 0 128
+SOUND 10 #DEATH death_hammer
+GEOMETRY 1 14 40
+SPEEDSCALE 200
+DAMAGE   0 80
+LIFE     2500
+RECTANGLE 0 0 40 90
+ATTACK_RADIUS 0 0 110
+ATTACK_PAUSE 0 0
+SEARCH_ENEMY_RADIUS 800
+DET_RADIUS 0 0 8000
+MATHERIAL 1 BODY
+CANKILL 3 BODY BUILDING WOOD 
+PRICE 1 FOOD 0
+WEAPONKIND 0 crushing
+WEAPON 0 UW_Splash50
+BUILDSTAGES 600
+VISION 5
+STANDGROUND
+VES 30
+MOTIONSTYLE SINGLESTEP
+ROTATE 4
+MOVEBREAK #MOTION_L
+BREAKANIMATION #REST
+BREAKANIMATION #PSTAND
+BREAKANIMATION #STAND
+ADDSHOTRADIUS 20
+PROTECTION 4 chopping 12 magical 12 piercing 12 crushing 0
+UNITRADIUS 32
+CANSTORM
+VISITORMASK 1
+PLACEINTRANSPORT 25
+EXPA  1500
+ABILITY Drop_ItemDropMajor
+ABLDROP Drop_ItemDropMajor 10
+ABILITY Drop_BottleDropRelic
+ABLDROP Drop_BottleDropRelic 5
+COLLISION 32
+SELTYPE SelBig 1 1
+KILLERAWARD             GOLD 666
+KILLERAWARDRANDOM       GOLD 166
+SPEEDSCALE 150
+LOWCOLLISION
+ZPOINTS 60 60
+CYLINDER 30 70
+CANTCAPTURE
+USAGE COSTLY
+NO_HUNGRY
+SOUND 14 #MOTION_L medium_step
+SOUNDFRAME2 #MOTION_L 29
+DAMAGEONBUILDINGMULTIPLICATOR 5
+TFACTOR FF76726A
+NOCOLLISION
+[END]

@@ -1,0 +1,27 @@
+<ua_SingleUnitAI>
+ <Name>ua_Fire_ring_1</Name>
+ <CastingRadius>300</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aFireRing_1</RefName>
+   </UA>
+   <MinTargetAmount>6</MinTargetAmount>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aFireRing_2</RefName>
+   </UA>
+   <MinTargetAmount>5</MinTargetAmount>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aFireRing_3</RefName>
+   </UA>
+   <MinTargetAmount>1</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

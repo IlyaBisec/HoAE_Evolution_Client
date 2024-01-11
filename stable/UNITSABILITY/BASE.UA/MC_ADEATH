@@ -1,0 +1,30 @@
+<NewAbility>
+ <Name>MC_aDeath</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <IgnoreMagicImmunity>true</IgnoreMagicImmunity>
+ <Modificators>
+  <mod_Life>
+   <Operand>
+    <Operator>=</Operator>
+    <Operand>
+     <Value>
+      <Op>
+       <NumericalConst></NumericalConst>
+      </Op>
+     </Value>
+    </Operand>
+   </Operand>
+  </mod_Life>
+ </Modificators>
+</NewAbility>

@@ -1,0 +1,14 @@
+<ua_DropPackage>
+ <Name>ua_DropPackage_Null</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</ua_DropPackage>

@@ -1,0 +1,205 @@
+byte	Trigg(byte ID);
+void	SetTrigg		(byte ID,byte Val);
+word	WTrigg			(byte ID);
+void	SetWTrigg		(byte ID,word Val);
+void	RunTimer		(byte ID, int Long, bool trueTime);
+void	RunTimer		(byte ID,int Long);
+bool	TimerDone		(byte ID);
+bool	TimerDoneFirst	(byte ID);
+bool	TimerIsEmpty	(byte ID);
+void	FreeTimer		(byte ID);
+int	GetTime			(byte ID);
+int	GetGlobalTime	();
+int	GetAnimTime		();
+bool	NationIsErased	(byte Nat);
+int	vdf_GetAmountOfSettlements(byte Owner,	int ResType, bool CheckUpgrades, int Level); 
+int	GetBrigadsAmount0(byte NI);
+
+int	GET.UnitsAmount(int nat,int x,int y,int R)
+int	GET.EnemyUnitsAmount(int mynat,int x,int y,int R)
+int	GET.GetAmount_lua(int nat,bool buildings)
+int	GET.GetUnitsAmount2_lua(int nat,int UT,int x,int y,int R)
+int	GET.GetTotalAmount1_lua(int nat,int UT)
+int	GET.GetReadyAmount_lua(int nat,int UT)
+int	GET.GetResource_lua(int nat,int resid)
+int	GET.GetDiff_lua(int nat)
+int	GET.Trigg_lua(int trigid)
+int	GET.ogSTOP_lua(int canal)
+int	GET.CameraSTOP_lua()
+int	GET.GetLMode_lua()
+int	GET.CheckButton_lua(int vkid)
+int	GET.GetFormationType_lua(be_CGROUP* pGrp)
+int	GET.TestFillingAbility_lua(be_CGROUP* pGrp)
+int	GET.CInStandGround_lua(be_CGROUP* pGrp,int AllBrigades)
+int	GET.VillageOwner_lua(const char* vilname)
+int	GET.GetNofBrigInNode_lua(int nat,int x,int y,int R)
+int	GET.LoadingCoplite_lua(be_CGROUP* pvGrp)
+
+int	OPER.SelectAll_lua(int nat)
+int	OPER.SelectUnits_lua(int nat,int x,int y,int R,bool add)
+void	OPER.ClearSelection_lua(byte Nat)
+int	OPER.ChangeAS_lua(int nat,int state)
+int	OPER.SelSendTo_lua(int nat,int x,int y,int dir,int type)
+int	OPER.ChangeFriends_lua(int nat, int state)
+int	OPER.SetFriends_lua(int nat0,int nat1)
+int	OPER.SetLightSpot_lua(int x,int y,int R,int index)
+int	OPER.ClearLightSpot_lua(int index)
+int	OPER.SetStartPoint_lua(int x,int y)
+int	OPER.ShowVictory_lua(int nat,const char* TextID)
+int	OPER.LooseGame_lua(int nat,const char* TextID)
+int	OPER.SavePosition_lua(be_CGROUP* pGrp,vvPOINT2D* pPos)
+int	OPER.SavePositionArr_lua(be_CGROUP* pGrp,vvPOINT_SET* pPosArr)
+int	OPER.SetResource_lua(int nat,int resID,int Amount)
+int	OPER.AddRessource_lua(int nat,int resID,int Amount)
+int	OPER.ActivateTacticalAI_lua(int nat)
+int	OPER.StartAIEx_lua(int nat,const char* file,int lend,int mony,int res,int diff)
+int	OPER.SetAIEnableState_lua(int nat,bool state)
+int	OPER.ShowDialog_lua(vvDIALOG* pDLG)
+int	OPER.AddTextToDlg_lua(vvDIALOG* pDLG,vvTEXT* pTXT)
+int	OPER.ClearDialog_lua(vvDIALOG* pDLG)
+int	OPER.SetScrollLimit_lua(vvPOINT2D* pPosLT,vvPOINT2D* pPosRB,bool LockAroud)
+int	OPER.GetUTypeByName_lua(const char* UTName)
+int	OPER.PutNewSquad_lua(be_CGROUP* pGRP,int nat,int uType,int size,int x,int y,int dir)
+int	OPER.GetFormationID_lua(const char* formID)
+int	OPER.PutNewFormation_lua(be_CGROUP* pGRP,int nat,int uType,int form,int x,int y,int dir)
+int	OPER.SetUnitStateCII_lua(be_CGROUP* pGrp,bool shtiki,bool Fire,bool LI,bool LII,bool LIII)
+int	OPER.GroupHoldPOS_AI_lua(be_CGROUP* pGRP,int x,int y,const char* FNane)
+int	OPER.SetTired_lua(be_CGROUP* pGRP,int VAL)
+int	OPER.KillNatinInPOS_lua(int nat,int x,int y,int R)
+
+void	FSM.SendMsg(const char* name, const char* sender, const char* receiver)
+
+newNode = CLASS.NODE()
+newNode = CLASS.NODE(int x,int y)
+newNode = CLASS.NODE(int x,int y,int R)
+newNode = CLASS.NODE(int x,int y,int R,int Dir)
+newNode = CLASS.NODE(int x,int y,int R,int Dir,int SegmFR)
+
+bool	NODE:SetName(const char* _Name)
+int	NODE.x	//<< get, set >>
+int	NODE.y	//<< get, set >>
+int	NODE.R	//<< get, set >>
+int	NODE.Dir	//<< get, set >>
+int	NODE.SegmFR	//<< get, set >>
+be_CNODE*	NODE:GetNode(const char* nodeName)
+be_CNODE*	NODE:GetNode(const int nodeID)
+
+newGroup	= CLASS.GROUP()
+newGroup	= CLASS.GROUP(const char* name)
+
+int	GROUP.N			//<< get >>
+int	GROUP.HP			//<< get, set >>
+bool	GROUP.SearchEnemy		//<< get, set >>
+bool	GROUP.UnderAttack		//<< get, set >>
+int	GROUP.NO_ORDERS_NUM	//<< get >>
+int	GROUP.MOVE_NUM		//<< get >>
+int	GROUP.ATTACK_NUM		//<< get >>
+int	GROUP.Xc			//<< get >>
+int	GROUP.Yc			//<< get >>
+byte	GROUP.Nat			//<< get >>
+UnitState	GROUP:GetORDER()
+void	GROUP:ClearOrders
+UnitState	GROUP:GetUnitORDER(int uid)
+void	GROUP:RemoveDeadUnits()
+void	GROUP:RemAllUnits()
+void	GROUP:RemUnitsByNation(int NI)
+int	GROUP:RemoveNUnitsToCGroup(be_CGROUP* pGR,int N)
+void	GROUP:AddSelectedUnits(byte NI)
+void	GROUP:AddUnitsInZone(byte NI,int x,int y,int R,bool _add)
+void	GROUP:AddEnemyUnitsInZone(int Nat,int x,int y,int R,bool _add)
+char*	GROUP:GetName()
+int	GROUP:KillUnits(int N)
+int	GROUP:EraseUnits(int N)
+void	GROUP:SetNation(byte NI)
+void	GROUP:SendTo(int x,int y,int dir,int type)
+void	GROUP:SendToPosition(vvPOINT_SET* pPosArr)
+void	GROUP:ChangeDirection(int dir,int type)
+bool	GROUP:SetAgresiveST(int stID)
+void	GROUP:SetInStandGround()
+void	GROUP:ChengeFormation(int formID)
+void	GROUP:SelectUnits(bool add)
+void	GROUP:SelectUnitsInZone(int x,int y,int R,bool add)
+void	GROUP:TakeRess(int RessID)
+void	GROUP:TakeFood()
+void	GROUP:TakeWood()
+void	GROUP:TakeStone()
+int	GROUP:UnitNumByType(int UnitType, int Nat)
+int	GROUP:UnitNumTotal()
+int	GROUP:UnitNumInZone(int x, int y, int R)
+int	GROUP:GetDirection()
+byte	GROUP:GetNation()
+int	GROUP:GetAgresiveState()
+//bool	GROUP:GetBrigadeList(bool checkCOM,LinearArray<int,_int>* pBrigList=NULL)
+int	GROUP:GetAmountOfNewUnits(bool clearList)
+int	GROUP:GetAmountOfRemUnits(bool clearList)
+bool	GROUP:GetIsTired()
+int	GROUP:GetNInside(bool Max)
+int	GROUP:GetLeaveAbility()
+int	GROUP:GetNofBRLoadedGun()
+bool	GROUP:ChekPosition(vvPOINT_SET* pPosArr)
+void	GROUP:AttackGroup_NearestOB(be_CGROUP* pEnemyGroup)
+bool	GROUP:IsGRPAttackMe(be_CGROUP* pGRP)
+
+UnitState:
+	CLASS.GROUP._NO_ORDERS
+	CLASS.GROUP._MOVE
+	CLASS.GROUP._ATTACK
+	CLASS.GROUP._SOME_ORDER
+	CLASS.GROUP._BRIG_ORDER
+	
+void	VariableBase:SetRandomPower(const int power)
+char*	VariableBase.Name			//<< get, set >>
+
+newInt	= CLASS.INT()
+newInt	= CLASS.INT(const char* Name)
+int	INT.Value				//<< get, set >>
+	
+newBool	= CLASS.BOOL()
+newBool	= CLASS.BOOL(const char* Name)
+bool	BOOL.Value				//<< get, set >>
+
+newDword	= CLASS.DWORD()
+newDword	= CLASS.DWORD(const char* Name)
+DWORD	DWORD.Value				//<< get, set >>
+	
+newFloat	= CLASS.FLOAT()
+newFloat	= CLASS.FLOAT(const char* Name)
+float	FLOAT.Value				//<< get, set >>
+
+newArray	= CLASS.ARRAY()
+newArray	= CLASS.ARRAY(const char* Name)
+void	ARRAY:ADD(be_CVariableBase* val)
+void	ARRAY:DEL(int pos)
+int	ARRAY:SIZE()
+be_CVariableBase*	ARRAY:GET(int pos)
+
+char*	MSG.str				//<< get, set >>
+be_CParamList*	MSG:GET_PARAMS()
+
+char*	SMARTOBJ.next_STATE		//<< get, set >>
+char*	SMARTOBJ.STATE			//<< get, set >>
+bool	SMARTOBJ.FSC			//<< get, set >>
+be_CVariableBase*	SMARTOBJ:GET_OBJ()
+be_CParamList*	SMARTOBJ:GET_PARAMS()
+
+be_CBOOL*	BOOL(be_CVariableBase* _obj)
+be_CDWORD*	DWORD(be_CVariableBase* _obj)
+be_CINT*	INT(be_CVariableBase* _obj)
+be_CFLOAT*	FLOAT(be_CVariableBase* _obj)
+be_CGROUP*	GROUP(be_CVariableBase* _obj)
+be_CNODE*	NODE(be_CVariableBase* _obj)
+be_CARRAY*	ARRAY(be_CVariableBase* _obj)
+
+void	ADD_FN(const char* fn_name)
+void	ADD_FN_PARAM(const char* fn_name, const char* par_type, const char* par_name)
+
+be_CVariableBase*	PARAM_LIST:GET(const char* Name)
+be_CGROUP*	PARAM_LIST:CreateParam_GROUP(const char* Name)
+be_CNODE*	PARAM_LIST:CreateParam_NODE(const char* Name)
+be_CFLOAT*	PARAM_LIST:CreateParam_FLOAT(const char* Name)
+be_CINT*	PARAM_LIST:CreateParam_INT(const char* Name)
+be_CDWORD*	PARAM_LIST:CreateParam_DWORD(const char* Name)
+be_CBOOL*	PARAM_LIST:CreateParam_BOOL(const char* Name)
+be_CARRAY*	PARAM_LIST:CreateParam_ARRAY(const char* Name)
+
+

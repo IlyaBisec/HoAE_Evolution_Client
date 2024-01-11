@@ -1,0 +1,18 @@
+<NewAbility>
+ <Name>UA_ClayGolem_Slow_Button</Name>
+ <FileID>Interf3\Ability\auras_gnomy</FileID>
+ <EffectFileID>Interf3\Ability\auras_gnomy</EffectFileID>
+ <HintName>#AuraMud.NAME</HintName>
+ <Hint>#AuraMud</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

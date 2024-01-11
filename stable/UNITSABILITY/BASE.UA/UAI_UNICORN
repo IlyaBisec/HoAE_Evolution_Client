@@ -1,0 +1,14 @@
+<ua_SingleUnitAI>
+ <Name>UAI_Unicorn</Name>
+ <CastingRadius>600</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>UnitAbilityUnicornAttackBonus</RefName>
+   </UA>
+   <MinTargetAmount>15</MinTargetAmount>
+   <CastingDelay>20000</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

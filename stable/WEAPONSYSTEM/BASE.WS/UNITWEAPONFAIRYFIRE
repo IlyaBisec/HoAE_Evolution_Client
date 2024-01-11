@@ -1,0 +1,31 @@
+<WeaponModificator>
+ <Name>UnitWeaponFairyFire</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <DrawOne></DrawOne>
+    <BalisticMotion></BalisticMotion>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <Event>
+    <TargetReached>
+     <TargetPointDistance>3</TargetPointDistance>
+    </TargetReached>
+   </Event>
+   <WeaponModificators>
+    <SelfMurder></SelfMurder>
+    <MakeDamage>
+     <InRadius>50</InRadius>
+     <MaxUnits>5</MaxUnits>
+     <OnlyEnemyUnits>true</OnlyEnemyUnits>
+     <DamageBuilding>true</DamageBuilding>
+    </MakeDamage>
+    <BirthNewAbility></BirthNewAbility>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

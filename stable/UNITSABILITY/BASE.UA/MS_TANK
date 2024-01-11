@@ -1,0 +1,26 @@
+<uaFlyBodyParams>
+ <Name>MS_Tank</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Acceleration>0.400000</Acceleration>
+ <BreakModulator>5.000000</BreakModulator>
+ <WireLength>15.000000</WireLength>
+ <AirFriction>5.000000</AirFriction>
+ <Gravity>260.000000</Gravity>
+ <AngleX_modulator>-0.200000</AngleX_modulator>
+ <AngleY_modulator>-0.150000</AngleY_modulator>
+ <DontAllowStrafe>true</DontAllowStrafe>
+ <AllowBackMotion>true</AllowBackMotion>
+ <TankStyleAnimation>true</TankStyleAnimation>
+ <MotionNoiseStrength>0.800000</MotionNoiseStrength>
+</uaFlyBodyParams>

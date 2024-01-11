@@ -1,0 +1,47 @@
+<NewAbility>
+ <Name>UA_Earthmage</Name>
+ <FileID>Interf3\Ability\auras_neutral</FileID>
+ <EffectFileID>Interf3\Ability\auras_neutral</EffectFileID>
+ <HintName>#AuraEarthStrike.NAME</HintName>
+ <Hint>#AuraEarthStrike</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>3000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnDieDeleteEffect>true</OnDieDeleteEffect>
+ <Modificators>
+  <mod_MotionSpeed>
+   <Trap>true</Trap>
+   <Stun>true</Stun>
+  </mod_MotionSpeed>
+ </Modificators>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <Place>Target units</Place>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\MagicCard\FlashToStone\Okmenenie_Un.c2m</ModelID>
+    <ReflectionID>Models\Effects\MagicCard\FlashToStone\Okmenenie_Un.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

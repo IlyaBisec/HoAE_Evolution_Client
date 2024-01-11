@@ -1,0 +1,74 @@
+#M04D02S01P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t15.ogg]Old man, I have to talk to the druids. How can I reach them?
+#M04D02S02P01    [M4DruidKey][Normal][Missions\SOUND\MISSION04\m04_t16.ogg]What do you want to talk with them about?
+#M04D02S03P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t17.ogg]Don't you know? We are being attacked by the undead!
+#M04D02S03P02    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t18.ogg]Enemies are using magic, and we can't cope with common weapons alone!
+#M04D02S04P01    [M4DruidKey][Sadness][Missions\SOUND\MISSION04\m04_t19.ogg]I had the key from the Gates, but it was stolen from me!
+#M04D02S04P02    [M4DruidKey][Normal][Missions\SOUND\MISSION04\m04_t20.ogg]I'm too old and weak to search for it in the forest.
+#M04D02S04P03    [M4DruidKey][Normal][Missions\SOUND\MISSION04\m04_t21.ogg]If you want to reach the druids - find the key, ranger.
+
+#M04D03S03P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t34.ogg]Who are you and how did you manage to pass the guardians of the Gates?
+#M04D03S04P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t35.ogg]My name is Elhant. I am a ranger. The undead are pressing us, and Monfor's army is retreating.
+#M04D03S04P02    [Elhant][Angry][Missions\SOUND\MISSION04\m04_t36.ogg]The enemies possess a powerful magic and we cannot cope with it with the mere might of  our weapons.
+#M04D03S04P03    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t37.ogg]You have to help us, Druid.
+#M04D03S05P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t38.ogg]Druids are asked, not ordered. We are aware of the darkness gathering above Atlans.
+#M04D03S05P02    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t39.ogg]You should know, ranger, that even our Grove has been desecrated, as the enemy has got here too. 
+#M04D04S01P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t40.ogg]The gravedigger has settled on the forest edge. Decay sprawls from him, killing everything around.
+#M04D04S01P02    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t41.ogg]Kill the gravedigger, and then we'll help you.
+#M04D04S02P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t42.ogg]I don't have time for this!
+#M04D04S02P02    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t43.ogg]If you are powerful sorcerers, then why don't you take care of the gravedigger yourselves?
+#M04D04S03P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t44.ogg]Our magic is powerless against the spawns of Ash. 
+#M04D04S04P01    [Elhant][Angry][Missions\SOUND\MISSION04\m04_t45.ogg]If it's the only chance to make you help the Sylvan folk, I'll kill the gravedigger.
+#M04D04S04P02    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t46.ogg]Where is it?
+#M04D04S05P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t47.ogg]Here are the magical gates, through which you will be able to get to the abode of the gravedigger and back.
+#M04D04S05P02    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t48.ogg]I will teach you a spell,  Ranger, which summons the forest dryads. They will help you in fight.
+
+#M04D05S02P01    [Elhant][Suprised][Missions\SOUND\MISSION04\m04_t52.ogg]The gravedigger has been taken care of. Now do what you promised..
+#M04D05S03P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t53.ogg]We will teach you how to call upon the celestial light, ranger.
+#M04D05S03P02    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t54.ogg]The undead dwell in darkness and fear the light. It will weaken them.
+#M04D05S03P03    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t55.ogg]This is not enough to defeat your enemies alone. You will need the help of pegasuses.
+#M04D05S04P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t56.ogg]Where can I find them?
+#M04D05S05P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t57.ogg]They inhabit the islands amidst the large lake that is to the east of here.
+#M04D05S07P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t58.ogg]In order to shorten your journey, I shall create a portal which will transport you to the fisherman's village on the banks of the lake.
+#M04D05S09P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t59.ogg]The local residents will give you a boat on which you will reach the islands.
+
+#M04D06S01P01    [M4DruidControl][Despair][Missions\SOUND\MISSION04\m04_t29.ogg]They're out of control, I can no longer command them!
+#M04D06S01P02    [M4DruidControl][Despair][Missions\SOUND\MISSION04\m04_t30.ogg]Warrior, quick! Help kill the beasts!
+
+#M04D07S01P01    [M4DruidControl][Gladness][Missions\SOUND\MISSION04\m04_t31.ogg]My gratitude to you, warrior. Take this bow - may it help you in the battles.
+
+#M04D08S01P01    [M4Ent][Normal][Missions\SOUND\MISSION04\m04_t12.ogg]Sssssstop! Only the one. Whooooo possessssssessss. The keeeyyyy. May passssss.
+#M04D08S02P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t13.ogg]But I need to talk to the druids!
+#M04D08S03P01    [M4Ent][Normal][Missions\SOUND\MISSION04\m04_t14.ogg]Noooooo. Entrance to the Groooooove. Without. Keeeyyyy!
+
+#M04D09S02P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t24.ogg]Here it is! Open the Gates!
+#M04D09S03P01    [M4Ent][Normal][Missions\SOUND\MISSION04\m04_t25.ogg]Well passsssss. Ssssmall elf. Passsssssssssss.
+
+#M04D10S01P01    [M4DruidAcid][Fear][Missions\SOUND\MISSION04\m04_t01.ogg]Warrior, be watchful! I barely managed to break away from the rats which breed in the forest.
+#M04D10S01P02    [M4DruidAcid][Fear][Missions\SOUND\MISSION04\m04_t02.ogg]They are now attacking in swarms.
+#M04D10S01P03    [M4DruidAcid][Fear][Missions\SOUND\MISSION04\m04_t03.ogg]Accept this spell: it will help you deal with the beasts.
+
+#M04D11S01P01    [M4ShopKeeper][Normal][Missions\SOUND\MISSION04\m04_t08.ogg]At last a worthy customer!
+#M04D11S01P02    [M4ShopKeeper][Normal][Missions\SOUND\MISSION04\m04_t09.ogg]Take a look, warrior: among my goods I have a magical key - bartered it from the goblins!
+#M04D11S03P03    [M4ShopKeeper][Normal][Missions\SOUND\MISSION04\m04_t10.ogg]It is rather expensive, but I can trade it...  for the hammerer's gloves.
+#M04D11S03P04    [M4ShopKeeper][Normal][Missions\SOUND\MISSION04\m04_t11.ogg]I've seen them on the hands of one of the orcs that live to the north of here.
+
+#M04D12S01P01    [Elhant][Suprised][Missions\SOUND\MISSION04\m04_t26.ogg]I've got the gloves and I'm ready to exchange it for the key.
+#M04D12S02P01    [M4ShopKeeper][Gladness][Missions\SOUND\MISSION04\m04_t27.ogg]At last! Well, a bargain is a bargain, elf. Take your key.
+
+#M04HINT1P01     [Elhant][Angry][Missions\SOUND\MISSION04\m04_t04.ogg]No, I don't like magic. I am a warrior, and my weapon is the sword and bow!
+#M04HINT1P02     [Elhant][Suprised][Missions\SOUND\MISSION04\m04_t05.ogg]Huummm, the spell could turn out to be useful. The rats can swell to quite a size. What if I can't cope with them all with my common weapon?
+
+#M04HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t06.ogg]In the domains of my homeland, there are no trolls, even though father told me about them.
+#M04HINT2P02     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t07.ogg]I'd have to study all the creatures inhabiting Atlans if I want to deal with the undead.
+
+#M04HINT3P01     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t22.ogg]The elfs here consider us southerners to be savages. They look down on us...
+#M04HINT3P02     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t23.ogg]Well, I'll prove that I am better than them! I will save our people from the undead myself!
+
+#M04HINT4P01     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t28.ogg]And I have already met these beasts! Stupid, malicious and strong... but they fear magic.
+
+#M04HINT5P01     [Elhant][Angry][Missions\SOUND\MISSION04\m04_t32.ogg]I have no sympathy for druids. These complacent old men consider themselves to be wisest and despise us warriors...
+#M04HINT5P02     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t33.ogg]But I will banish the undead from the island!
+
+#M04HINT6P01     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t49.ogg]Each day the undead legions grow more and more! New beasts, dangerous creatures...
+#M04HINT6P02     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t50.ogg]Who's ruling them? It isn't possible that they started to crawl from the ground by themselves!
+#M04HINT6P03     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t51.ogg]If only I knew where the root of evil is hiding... 

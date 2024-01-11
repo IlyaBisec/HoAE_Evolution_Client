@@ -1,0 +1,34 @@
+<NewAbility>
+ <Name>MC_aFireRing_Model</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>60000000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <Effect>
+    <ModelID>Models\Effects\MagicCard\Fire_Aura\VolnaFierSpark.c2m</ModelID>
+    <ReflectionID>Models\Effects\MagicCard\Fire_Aura\VolnaFierSpark.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

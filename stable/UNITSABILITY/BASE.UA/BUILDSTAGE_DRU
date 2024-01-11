@@ -1,0 +1,22 @@
+<ShowBuildStage>
+ <Name>BuildStage_Dru</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <BuildStageModel>Models\Scaffold\Scaffold_Dru\Scaffold2M.C2M</BuildStageModel>
+ <BuildStageAnimation>Models\Scaffold\Scaffold_Dru\Scaffold2A.C2M</BuildStageAnimation>
+ <BuildStageDestructionModel>Models\Scaffold\Scaffold_Dru\Scaffold2M.C2M</BuildStageDestructionModel>
+ <BuildStageDestructionAnimation>Models\Scaffold\Scaffold_Dru\Scaffold2DA.C2M</BuildStageDestructionAnimation>
+ <ConstantProportions>true</ConstantProportions>
+ <ModelScale>1.400000</ModelScale>
+ <MinStage>0.100000</MinStage>
+</ShowBuildStage>

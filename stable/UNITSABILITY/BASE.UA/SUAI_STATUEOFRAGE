@@ -1,0 +1,13 @@
+<ua_SingleUnitAI>
+ <Name>suAI_StatueOfRage</Name>
+ <CastingRadius>600</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aStatueOfRage</RefName>
+   </UA>
+   <MinTargetAmount>6</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

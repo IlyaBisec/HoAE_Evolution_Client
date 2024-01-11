@@ -1,0 +1,84 @@
+[MEMBERS]
+EffLightningEye(EF) 	EffLightningEye
+EffPolymorphBoar(EF) 	EffPolymorphBoar
+EffPolymorphDrake(EF) 	EffPolymorphDrake
+EffSeed(EF) 		EffSeed
+EffSeedM(EF) 		EffSeedM
+EffSeedShell(EF) 	EffSeedShell
+EffStatueOfRage(EF) 	EffStatueOfRage
+EffIceSphere(EF)        EffIceSphere 
+EffBTow(EF)  		EffBTow
+EffBApl(EF)		EffBApl
+EffGolem(EF)		EffGolem
+EffDry(EF)		EffDry
+EffDummy(EF)		EffDummy
+EffSkel(EF)		EffSkel
+EffLandmine(EF)		EffLandmine
+EffCen(EF)		EffCen
+EffWall(EF)		EffWall
+EffTre(EF)		EffTre
+EffPik(EF)		EffPik
+EffDru(EF)		EffDru
+EffSummon(EF)		EffSummon
+EffTow(EF)		EffTow
+EffLich(EF)		EffLich
+EffSkelE(EF)		EffSkelE
+EffSkelD(EF)		EffSkelD
+EffAirSupport(EF)       EffAirSupport
+EffArc(EF)		EffArc
+EffSpark(EF)		EffSpark
+EffUSpi(EF)             EffUSpi
+EffRuneOfFire(EF)       EffRuneOfFire
+EffPortal(EF)		EffPortal
+Spell1-9(EF)		Spell1-9
+Spell10-18(EF)		Spell10-18
+Spell19-27(EF)		Spell19-27
+Spell28-36(EF)		Spell28-36
+Spell37-45(EF)		Spell37-45
+Spell46-54(EF)		Spell46-54
+Spell55-63(EF)		Spell55-63
+Spell64-68(EF)		Spell64-68
+[COUNTRY]
+EFFECTS 41
+#units
+EffLightningEye(EF) 	
+EffPolymorphBoar(EF) 	
+EffPolymorphDrake(EF) 	
+EffSeed(EF)
+EffSeedM(EF)
+EffSeedShell(EF)
+EffStatueOfRage(EF) 	
+EffIceSphere(EF)
+EffBTow(EF) 	
+EffBApl(EF)
+EffGolem(EF)
+EffWall(EF)
+EffDummy(EF)
+EffSkel(EF)
+EffLandmine(EF)
+EffCen(EF)
+EffDry(EF)
+EffTre(EF)
+EffPik(EF)
+EffDru(EF)
+EffSummon(EF)
+EffTow(EF)
+EffLich(EF)
+EffSkelE(EF)
+EffSkelD(EF)
+EffAirSupport(EF)
+EffArc(EF)
+EffSpark(EF)
+EffUSpi(EF)
+EffRuneOfFire(EF)
+EffPortal(EF)
+#Spells
+Spell1-9(EF)
+Spell10-18(EF)
+Spell19-27(EF)
+Spell28-36(EF)
+Spell37-45(EF)
+Spell46-54(EF)
+Spell55-63(EF)
+Spell64-68(EF)
+[END]

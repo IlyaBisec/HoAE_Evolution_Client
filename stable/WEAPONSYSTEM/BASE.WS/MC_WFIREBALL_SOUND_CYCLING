@@ -1,0 +1,14 @@
+<WeaponModificator>
+ <Name>MC_wFireball_Sound_Cycling</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <PlaySomeSound></PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

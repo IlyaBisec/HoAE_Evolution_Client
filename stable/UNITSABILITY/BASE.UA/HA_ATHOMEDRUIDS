@@ -1,0 +1,18 @@
+<ua_AtHome>
+ <HomeLand>Druids</HomeLand>
+ <Name>HA_AtHomeDruids</Name>
+ <Visible>false</Visible>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</ua_AtHome>

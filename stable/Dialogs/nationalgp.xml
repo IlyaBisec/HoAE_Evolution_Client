@@ -1,0 +1,36 @@
+<GpNationConvertor>
+ <Files>
+  <NatGPArray>
+   <Nats>
+    <OneGPFile>
+     <ID>Interf3\InGame\druids_borders</ID>
+    </OneGPFile>
+    <OneGPFile>
+     <ID>Interf3\InGame\necromants_borders</ID>
+    </OneGPFile>
+    <OneGPFile>
+     <ID>Interf3\InGame\dwarfes_borders</ID>
+    </OneGPFile>
+    <OneGPFile>
+     <ID>Interf3\InGame\ices_borders</ID>
+    </OneGPFile>
+   </Nats>
+  </NatGPArray>
+  <NatGPArray>
+   <Nats>
+    <OneGPFile>
+     <ID>Interf3\InGame\druids_win_lose</ID>
+    </OneGPFile>
+    <OneGPFile>
+     <ID>Interf3\InGame\necromants_win_lose</ID>
+    </OneGPFile>
+    <OneGPFile>
+     <ID>Interf3\InGame\dwarfes_win_lose</ID>
+    </OneGPFile>
+    <OneGPFile>
+     <ID>Interf3\InGame\ices_win_lose</ID>
+    </OneGPFile>
+   </Nats>
+  </NatGPArray>
+ </Files>
+</GpNationConvertor>

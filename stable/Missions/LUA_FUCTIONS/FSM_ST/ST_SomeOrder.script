@@ -1,0 +1,206 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+
+--[[****************************************]]--
+--[[ Order states of any type "ST_ORDER"  	]]--
+--[[****************************************]]--
+
+--[[
+	Обрабатывает приказ на покупку села
+	Использует параметрs 
+		"iVillageOwner"	- текущий владелец
+		"iResType"		- тип ресурса
+		"iPrice"		- цена продажы
+	Сообщение должно содержать :
+		"iNewOwner"	- новый владелец
+]]--
+function	ST_ORDER_00( C_OBJ, msg )
+	local	_gBarak = GROUP(C_OBJ:GET_OBJ());
+	local	_par	= C_OBJ:GET_PARAMS();
+	if ( msg.str == "MSG_SET_OWNER" ) then
+		local _iOwner = INT(_par:GET("iVillageOwner"));
+		if ( _iOwner.Value == _gBarak.Nat ) then
+			local _iNewOvner = INT(msg:GET_PARAMS():GET("iNewOwner"));
+			if (_iNewOvner ~= nil ) then
+				_iOwner.Value = _iNewOvner.Value;
+			else
+				_iOwner.Value = GET.GetNation_lua( msg.sender );
+			end;
+			local _iResType  = INT(_par:GET("iResType"));
+			local _iPrice    = INT(_par:GET("iPrice"));
+			if ( _iPrice~=nil and _iResType~=nil ) then
+				if ( GET.GetResource_lua(_iOwner.Value,_iResType.Value)>=_iPrice.Value ) then 
+					OPER.AddRessource_lua( _iOwner.Value, _iResType.Value, -(_iPrice.Value) );
+					_gBarak.NMASK = GetNationNMASK(_iOwner.Value); 
+					if ( _par:GET("gTrader")~=nil ) then
+						local _gTrader = GROUP(_par:GET("gTrader"));
+						_gTrader.NMASK = _gBarak.NMASK;
+					end; 
+					FSM.SendMsg( "MSG_ORDER", C_OBJ.Name, C_OBJ.Name );
+				else
+					_iOwner.Value = _gBarak.Nat;
+				end;
+			end;
+		end;
+		return 1;
+	end;
+	return 1;
+end;
+
+--[[
+Description:
+	- Используем различные функции поиска для AreaID
+]]--
+function	FINDE_USE_AST_RATE( C_OBJ, strAreaID )
+	local _group = GROUP(C_OBJ:GET_OBJ());
+	local _par   = C_OBJ:GET_PARAMS();
+	if ( _par==nil or _group==nil ) then return 0 end;
+	local AreaID = INT(_par:GET("AREAID"));
+	if ( AreaID~=nil and AreaID.Value == -1 ) then
+		local iNewAreaID = FindeEnemyAreaID( _group, 1 );
+		if ( iNewAreaID~=-1 ) then
+			AreaID.Value = iNewAreaID;
+			return 1;
+		end;
+	end;
+	return 0;
+end;
+
+--[[
+Description:
+	- Решаем что нам делать используя strAREAID как параметр для следования
+	  в нужную позицию. Выбор простой - идти, атаковать случайных встреченных,
+	  по прибытии уничтожить всеж.
+]]--
+function	ST_SABOTEUR_STEP_00( C_OBJ, msg, strAREAID, strMOVE, strATTACK, strTERMINATE )
+	local _group 	= GROUP(C_OBJ:GET_OBJ());
+	local _par = C_OBJ:GET_PARAMS();
+	
+	if 		( msg.str == "MSG_ENTER"  ) then
+		--[[ Страховка на слечай безделия ]]--
+		if ( _par:GET("l_itick")~=nil ) then 
+			value = INT(_par:GET("l_itick"));
+		else
+			value = _par:CreateParam_INT("l_itick");
+		end;
+		value.Value = 10;
+		--[[ Решаем что делать ]]--
+		local l_newOrder = "Empty";
+		if ( _group.UnderAttack == true ) then
+			l_newOrder = "ATTACK";
+		else
+			value = INT(_par:GET(strAREAID));
+			if ( value~=nil and value.Value~=-1 ) then
+				--[[ Есть точка следования ]]--
+				l_x = GetAreaX( value.Value, 0);
+				l_y = GetAreaY( value.Value, 0);
+				if ( l_x~=-1 and l_y~=-1 ) then
+					EnemyUnitsAroundNum  = _group:GetEnemyUnitsAroundN( 1000 + (_group.N/50)*100 );
+					EnemyUnitsAroundNumS = _group:GetEnemyUnitsAroundN( 400 + (_group.N/50)*50 );
+					destLastD = NORMA(_group.Xc,l_x*64+32,_group.Yc,l_y*64+32);
+					if ( ( destLastD <= 600 and EnemyUnitsAroundNum > 0 ) ) then
+						l_newOrder = "TERMINATE";
+					elseif  ( EnemyUnitsAroundNumS>0 or _group.UnderAttack == true ) then
+						l_newOrder = "ATTACK";
+					elseif 	( _group.UnderAttack == false and destLastD > 600 ) then
+						l_newOrder = "MOVE";
+					end;
+				elseif ( _group.UnderAttack == true ) then
+					l_newOrder = "ATTACK";
+				end;
+			end;
+		end;
+		--[[ Отдаем приказ к действию ]]--
+		if ( l_newOrder == "MOVE" or l_newOrder == "TERMINATE" ) then
+			--[[ Расчитать новую точку следования ]]--
+			if ( _par:GET("l_x")~=nil ) then 
+				value = INT(_par:GET("l_x"));
+			else
+				value = _par:CreateParam_INT("l_x");
+			end;
+			value.Value = l_x;
+			if ( _par:GET("l_y")~=nil ) then 
+				value = INT(_par:GET("l_y"));
+			else
+				value = _par:CreateParam_INT("l_y");
+			end;
+			value.Value = l_y;
+		end;
+		if 		( l_newOrder == "MOVE" ) then
+			C_OBJ.next_STATE	= strMOVE;
+			C_OBJ.FSC			= true;
+		elseif 	( l_newOrder == "ATTACK" ) then
+			EnY = _group:CheckAttackPossibilityXYR(_group.Xc,_group.Yc,600+(_group.N/50)*100);
+			if ( EnY==true ) then
+				C_OBJ.next_STATE	= strATTACK;
+				C_OBJ.FSC			= true;
+			end;
+		elseif 	( l_newOrder == "TERMINATE" ) then
+			EnY = _group:CheckAttackPossibilityXYR(_group.Xc,_group.Yc,1500);
+			if ( EnY==true ) then
+				if ( _par:GET("l_R")~=nil ) then 
+					value = INT(_par:GET("l_R"));
+				else
+					value = _par:CreateParam_INT("l_R");
+					value.Value = 1500;
+				end;
+				C_OBJ.next_STATE	= strTERMINATE;
+				C_OBJ.FSC			= true;
+			end;
+		end;
+		return 1;
+	elseif	( msg.str == "MSG_UPDATE" ) then
+		--[[ Нечего делать, просто ждем чегото ]]--
+		value = INT(_par:GET("l_itick"));
+		if ( value.Value == 0 ) then
+			FSM.SendMsg( "MSG_ENTER", C_OBJ.Name, C_OBJ.Name );
+		else
+			value.Value = value.Value - 1;
+		end;
+		--[[ Что-то произошло -> действуем ]]--
+		value = INT(_par:GET(strAREAID));
+		if ( _group.UnderAttack == true or value.Value ~= -1 ) then
+			FSM.SendMsg( "MSG_ENTER", C_OBJ.Name, C_OBJ.Name );
+			return 1;
+		end;
+		return 1;
+	elseif 	( msg.str == "MSG_EXIT"   ) then
+		--[[ Ничего не нужно, все сделанно ]]--
+	end;
+	return 1;
+end;
+
+--[[
+Description:
+	- Выбор цели для следования и уничтожения
+]]--
+function 	FindeEnemyAreaID( pGRP, iPower )
+	local AreaID = -1;
+	if ( pGRP==nil or pGRP.N<=0 ) then return AreaID end;
+	local GRP_ALPD = AREA_LIST_POWER_DATA();
+	if ( GRP_ALPD:create( pGRP )==true ) then
+		local _iMyLockType	= pGRP.LockType;
+		local ENEMY_T_ALPD  = TOTAL_ALPD(_iMyLockType,pGRP.Nat,1);
+		local iPrivMinRate = -1;
+		for _iEnNat = 0, 7, 1 do 
+			if ( isFriend( pGRP, _iEnNat )==false ) then
+				if ( ENEMY_T_ALPD:create(_iMyLockType,_iEnNat,iPower)==true ) then
+					AreaID = AL_AST_RATE( ENEMY_T_ALPD, iPrivMinRate );
+				end;
+			end;
+		end;
+	end;
+	return AreaID;
+end;
+
+
+
+
+
+
+
+
+
+
+
+

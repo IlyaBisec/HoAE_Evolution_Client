@@ -1,0 +1,31 @@
+<NewAbility>
+ <Name>MC_aStorm_Stun</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>4000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <Modificators>
+  <mod_MotionSpeed>
+   <Trap>true</Trap>
+   <Stun>true</Stun>
+  </mod_MotionSpeed>
+ </Modificators>
+</NewAbility>

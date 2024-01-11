@@ -1,0 +1,32 @@
+<NewAbility>
+ <Name>MC_aRiseOfUndeads_EraseBody</Name>
+ <ClassType>Effect</ClassType>
+ <Visible>false</Visible>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>200</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnEndEffectCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>MC_wRiseOfUndeads_Visual</RefName>
+ </OnEndEffectCreateWeapon>
+ <OnEndEffectErase>true</OnEndEffectErase>
+</NewAbility>

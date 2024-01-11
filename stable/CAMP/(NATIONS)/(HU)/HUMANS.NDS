@@ -1,0 +1,19 @@
+[MEMBERS]
+HumUMaA(HU)   HumUMaA
+HumUMaE(HU)   HumUMaE
+HumUMaF(HU)   HumUMaF
+HumUMaW(HU)   HumUMaW
+
+[ENABLED]
+HumUMaA(HU)
+HumUMaE(HU)
+HumUMaF(HU)
+HumUMaW(HU)
+[COUNTRY]
+HUMANS 5
+#units
+HumUMaA(HU)
+HumUMaE(HU)
+HumUMaF(HU)
+HumUMaW(HU)
+[END]

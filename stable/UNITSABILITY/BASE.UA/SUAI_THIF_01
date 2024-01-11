@@ -1,0 +1,9 @@
+<ua_SingleUnitAI>
+ <Name>suAI_Thif_01</Name>
+ <CastingRadius>100</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <MinTargetAmount>1</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

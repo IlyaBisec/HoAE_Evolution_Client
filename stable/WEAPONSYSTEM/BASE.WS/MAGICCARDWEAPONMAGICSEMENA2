@@ -1,0 +1,35 @@
+<WeaponModificator>
+ <Name>MagicCardWeaponMagicSemena2</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <BirthNewUnit>
+     <UT>
+      <UnitType>EffSeed(EF)</UnitType>
+     </UT>
+     <UnitLife>
+      <Value>
+       <Op>
+        <NumericalConst>
+         <Value>
+          <Value>200</Value>
+         </Value>
+        </NumericalConst>
+       </Op>
+      </Value>
+     </UnitLife>
+     <AdditionalAbilites>
+      <ClassRef.UnitAbility>
+       <ClassName>NewAbility</ClassName>
+       <RefName>MagicCardMagicSemena2</RefName>
+      </ClassRef.UnitAbility>
+     </AdditionalAbilites>
+    </BirthNewUnit>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

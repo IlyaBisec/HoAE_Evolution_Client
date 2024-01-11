@@ -1,0 +1,32 @@
+<NewAbility>
+ <Name>MC_aGolem_Erase</Name>
+ <FileID>Interf3\Ability\spells</FileID>
+ <SpriteID>6</SpriteID>
+ <EffectFileID>Interf3\Ability\spells</EffectFileID>
+ <EffectSpriteID>6</EffectSpriteID>
+ <HintName>#SPELL_BONEGOLEM.NAME</HintName>
+ <Hint>#SPELL_BONEGOLEM</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>255</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnEndEffectErase>true</OnEndEffectErase>
+</NewAbility>

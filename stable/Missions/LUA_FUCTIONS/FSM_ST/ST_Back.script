@@ -1,0 +1,91 @@
+--[[***********************************]]--
+--[[ Back states of any type "ST_BACK" ]]--
+--[[***********************************]]--
+
+--[[ Simple Back -> react on enemy in zone or archers ]]--
+--[[ USE :
+		C_OBJ	- current smart object
+		msg		- current message
+		_group	- controled group
+		_zone	- zone for guard
+		_addR	- aditional R for serch archers
+]]--
+function ST_BACK_00( C_OBJ, msg )
+	local _group	= GROUP(C_OBJ:GET_OBJ());
+	local _par		= C_OBJ:GET_PARAMS();
+	local _zone		= NODE(_par:GET("GuardNode"));
+	local _addR		= INT(_par:GET("iAddR"));
+	local _SecuredGroup = GROUP(_par:GET("SecuredGroup"));
+	if 		( msg.str == "MSG_ENTER" 	)	then
+		_group.SearchEnemy = false;
+		--[[ Send to pos Array ]]--
+		_group:SendTo(_zone.x,_zone.y,512,0);
+		local arrGrpPos = ARRAY(_par:GET("arrGrpPos"));
+		local arrN		= arrGrpPos:SIZE();
+		local grpN		= _group.N;
+		local node		= nil;
+		local NNN = grpN;
+		if ( NNN>arrN ) then NNN=arrN end;
+		for i = 1, NNN, 1 do
+			node = NODE(arrGrpPos:GET( i ));
+			_group:SendToI( node.x, node.y, node.Dir, 0, i-1 );
+		end;
+		return 1;
+	elseif 	( msg.str == "MSG_UPDATE" 	)	then
+		local _Nat 			= _group.Nat;
+		local arrGrpPos 	= ARRAY(_par:GET("arrGrpPos"));
+		local _EnN_R 		= GET.EnemyUnitsAmount(_Nat,_zone.x,_zone.y,_zone.R);
+		local _EnN_addR 	= GET.EnemyUnitsAmount(_Nat,_zone.x,_zone.y,_zone.R+_addR.Value);
+		local _En_YES_R     = _group:CheckAttackPossibilityXYR(_zone.x,_zone.y,_zone.R+_addR.Value);
+		local _En_YES_addR  = _group:CheckAttackPossibilityXYR(_zone.x,_zone.y,_zone.R+_addR.Value*2);
+		if ( ( _EnN_R>0 or ( _group.UnderAttack==true and _EnN_addR>0 ) ) and _En_YES_R==true )then
+				C_OBJ.next_STATE	= "ST_ATTACK";
+				C_OBJ.FSC			= true;
+				return 1;
+		elseif  ( _SecuredGroup~=nil and _SecuredGroup.UnderAttack==true and _En_YES_addR==true ) then
+				C_OBJ.next_STATE	= "ST_ATTACK";
+				C_OBJ.FSC			= true;
+				return 1;
+		elseif 	( _group.NO_ORDERS_NUM==_group.N ) then
+			if (  GroupCheckPosArray( _group, arrGrpPos )==true ) then
+				C_OBJ.next_STATE	= "ST_IDLE";
+				C_OBJ.FSC			= true;
+			else
+				FSM.SendMsg( "MSG_ENTER", C_OBJ.Name, C_OBJ.Name );
+			end;
+			return 1;
+		end;
+		return 1;
+	end;
+	return 1;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

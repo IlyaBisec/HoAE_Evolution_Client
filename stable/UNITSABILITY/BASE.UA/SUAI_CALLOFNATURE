@@ -1,0 +1,14 @@
+<ua_SingleUnitAI>
+ <Name>suAI_CallofNature</Name>
+ <CastingRadius>700</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aCallOfNature</RefName>
+   </UA>
+   <MinTargetAmount>2</MinTargetAmount>
+   <CastingDelay>1</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

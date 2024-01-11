@@ -1,0 +1,18 @@
+<uaFlyBodyParams>
+ <Name>MS_SolShip</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Acceleration>0.100000</Acceleration>
+ <BreakModulator>20.000000</BreakModulator>
+ <AngleX_modulator>0.300000</AngleX_modulator>
+</uaFlyBodyParams>

@@ -1,0 +1,33 @@
+<NewAbility>
+ <Name>MC_aAcid_DeadBody</Name>
+ <Visible>false</Visible>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>256</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnEndEffectErase>true</OnEndEffectErase>
+ <EndEffectIfEnemyNearRadius>0</EndEffectIfEnemyNearRadius>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <Duration>1500</Duration>
+   <Place>Target units</Place>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Acid\!acid_postfx.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

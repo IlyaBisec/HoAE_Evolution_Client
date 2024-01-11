@@ -1,0 +1,21 @@
+<NewAbility>
+ <Name>UA_aScream</Name>
+ <ClassType>Image</ClassType>
+ <SoundExecute>NONE</SoundExecute>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <OnDieCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UA_wScream</RefName>
+ </OnDieCreateWeapon>
+</NewAbility>

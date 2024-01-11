@@ -1,0 +1,92 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FUNCTION\\HELPER_FN.script");
+
+function ST_MOVE_00( C_OBJ, msg, strX, strY, strNextSTATE )
+	local _group	= GROUP(C_OBJ:GET_OBJ());
+	local _par		= C_OBJ:GET_PARAMS();
+	if 		( msg.str == "MSG_ENTER" 		)	then
+		--[[ Не обрабатываем пустую группу ]]--
+		if ( _group==nil or _group.N<=0 ) then
+			C_OBJ.next_STATE	= strNextSTATE;
+			C_OBJ.FSC			= true;
+			return 1;
+		end;
+		--[[ Страховка: не успели сдвинуться с места ]]--
+		if ( _par:GET("l_itick")~=nil ) then 
+			value = INT(_par:GET("l_itick"));
+		else
+			value = _par:CreateParam_INT("l_itick");
+		end;
+		value.Value = 3;
+		--[[ Готовим объект к использованию ]]--
+		_group.SearchEnemy = false;
+		FSM.SendMsg( "MSG_SEND", C_OBJ.Name, C_OBJ.Name );
+		return 1;
+	elseif 	( msg.str == "MSG_SEND" 	)	then
+		--[[ Получаем позиция следования (x,y) ]]--
+		l_x = INT(_par:GET(strX));
+		l_y = INT(_par:GET(strY));
+		if ( l_x==nil or l_y==nil ) then
+			C_OBJ.next_STATE	= strNextSTATE;
+			C_OBJ.FSC			= true;
+		end;
+		--[[ Сохраняем позицию текущего движения ]]--
+		if ( _par:GET("l_LocalDestNode")~=nil ) then 
+			l_DestNode = NODE(_par:GET("l_LocalDestNode"));
+		else
+			l_DestNode = _par:CreateParam_NODE("l_LocalDestNode");
+		end;
+		--[[ Посылам группу к позиции (x,y) ]]--
+		_group:SendSmartlyTo(l_x.Value,l_y.Value,5,l_DestNode);
+		return 1;
+	elseif 	( msg.str == "MSG_UPDATE" 	)	then
+		--[[ Системная обработка приказа идти ]]--
+		value = INT(_par:GET("l_itick"));
+		--[[ Получаем локальные следования (x,y) ]]--
+		l_DestNode = NODE(_par:GET("l_LocalDestNode"));
+		l_x = INT(_par:GET(strX));
+		l_y = INT(_par:GET(strY));
+		--[[ Нормально выходим по достижении нужной позиции ]]--
+		if ( NORMA(_group.Xc,l_x.Value*64+32,_group.Yc,l_y.Value*64+32)<=500 ) then
+			C_OBJ.next_STATE	= strNextSTATE;
+			C_OBJ.FSC			= true;
+			return 1;
+		end;
+		--[[ Нужно отдать приказ заново если кто-то стоит без дела ]]--
+		if ( _group.NO_ORDERS_NUM>0 and value.Value==0 ) then
+			if ( NORMA(_group.Xc,l_DestNode.x,_group.Yc,l_DestNode.y)<=200 ) then
+				FSM.SendMsg( "MSG_SEND", C_OBJ.Name, C_OBJ.Name );
+				return 1;
+			end;
+		end;
+		if ( value.Value>0 ) then 
+			value.Value = value.Value - 1;
+		end;
+		--[[ Аварийно выходим если нас атаковали ]]--
+		EnemyUnitsAroundNumS = _group:GetEnemyUnitsAroundN( 400 + (_group.N/50)*50 );
+		if ( _group.UnderAttack == true or EnemyUnitsAroundNumS>0 ) then
+			local EnY = _group:CheckAttackPossibilityXYR(_group.Xc,_group.Yc,600+(_group.N/50)*100);
+			if ( EnY==true ) then
+				C_OBJ.next_STATE	= strNextSTATE;
+				C_OBJ.FSC			= true;
+				return 1;
+			end;
+		end;
+		--[[ Аварийно выходим смена позиции следования ]]--
+		value = INT(_par:GET("AREAID"));
+		local l_gx = GetAreaX( value.Value, 0);
+		local l_gy = GetAreaY( value.Value, 0);
+		if ( l_gx~=l_x.Value or l_gy~=l_y.Value ) then
+			C_OBJ.next_STATE	= strNextSTATE;
+			C_OBJ.FSC			= true;
+			return 1;
+		end;
+		return 1;
+	elseif	( msg.str == "MSG_EXIT" 	)	then
+		if ( _group~=nil and _group.N>0 ) then
+			_group.SearchEnemy = true;
+		end;
+		return 1;
+	end;
+	return 1;
+end;

@@ -1,0 +1,11 @@
+
+function	MISS03_SetLivingSpace( paramData )
+	if ( paramData~=nil ) then return 0 end;
+	_NAT	= INT(paramData:GET("iNation"));
+	_LS		= INT(paramData:GET("iLivingSpace"));
+	_SET	= BOOL(paramData:GET("bSET"));
+	if ( _LS~=nil and _NAT~=nil and _SET~=nil ) then
+		return OPER.SetAddFarms(_NAT.Value,_LS.Value,_SET.Value);
+	end;
+	return 0;
+end;

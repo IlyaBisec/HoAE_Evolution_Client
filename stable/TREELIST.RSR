@@ -1,0 +1,738 @@
+[WORKTRANSFORM]
+[FIRETRANSFORM]
+[TIMETRANSFORM]
+[SOURCES]
+//ObjectID	Resource_Type	Amount_of_resource/unit_of_work	Radius_of_work
+//Resource	type:		
+//WOOD,GOLD,STONE,FOOD,NONE,REMOVE			
+D00     FOOD	1      48
+D01     WOOD	1      24
+D09     WOOD	1      24
+D11     WOOD	1      24
+D37     WOOD	1      24
+D45     WOOD	1      24
+D47     WOOD	1      24
+D49     WOOD	1      24
+D56     WOOD	1      24
+D217    WOOD	1      24
+D222    WOOD	1      24
+D230    WOOD	1      24
+D242    WOOD	1      24
+D02     WOOD	1      24
+D73	WOOD	1      24
+D74     WOOD    1      24
+D75     WOOD    1      24
+D76     WOOD    1      24
+D77     WOOD    1      24
+D78     WOOD    1      24
+D79     WOOD    1      24
+D80     WOOD    1      24
+D81     WOOD    1      24
+D82     WOOD    1      24
+D83     WOOD    1      24
+D84     WOOD    1      24
+D85     WOOD    1      24
+D86     WOOD    1      24
+D87     WOOD    1      24
+D88     WOOD    1      24
+D71	WOOD	1      24
+D72     WOOD    1      24
+D89     FOOD    1      24
+D90     WOOD    1      24
+D91     WOOD    1      24
+D92     WOOD    1      24
+D93     WOOD    1      24
+D94     WOOD    1      24
+D95     WOOD    1      24
+D96     WOOD    1      24
+D97     WOOD    1      24
+D98     WOOD    1      24
+D99     WOOD    1      24
+D100    WOOD    1      24
+D101    WOOD    1      24
+D102    WOOD    1      24
+D103    WOOD    1      24
+D104    WOOD    1      24
+D105    WOOD    1      24
+D106    WOOD    1      24
+D107    WOOD    1      24
+D108    WOOD    1      24
+D109    WOOD    1      24
+D110    WOOD    1      24
+D111    WOOD    1      24
+D112    WOOD    1      24
+D113    WOOD    1      24
+D114    WOOD    1      24
+D301    WOOD	1      24
+D302    WOOD	1      24
+D303    WOOD	1      24
+D304    WOOD	1      24
+D306    WOOD	1      24
+D307    WOOD	1      24
+D308    WOOD	1      24
+D309    WOOD	1      24
+D310    WOOD	1      24
+D311    WOOD	1      24
+D312    WOOD	1      24
+D313    WOOD	1      24
+D314    WOOD	1      24
+D315    WOOD	1      24
+D316    WOOD    1      24
+D317    WOOD    1      24
+D318    WOOD    1      24
+D319    WOOD    1      24
+D000    FOOD	1     220
+                
+[SECTIONS]
+#FirTree1_CoDU 4 D301 D302 D303 D304
+#FirTree2_C1DU 4 D316 D317 D318 D319
+#Tree_C2D 10 D306 D307 D308 D309 D310 D311 D312 D313 D314 D315
+#ALL 18 D301 D302 D303 D304 D306 D307 D308 D309 D310 D311 D312 D313 D314 D315 D316 D317 D318 D319
+#Field 2 D00 D000
+#SuperMine 1 D230
+[MODEL]
+D01 Models\trees_bb\Druids\D_Type02_bb_cm.c2m 0 0 0.8 200 FF606060
+D09 Models\trees_bb\Druids\D_Type05_01_bb_cm.c2m 0 0 0.8 200 FF606060
+D11 Models\trees_bb\Druids\D_Type03_bb_cm.c2m 0 0 0.8 200 FF606060
+D37 Models\trees_bb\Druids\D_Type06_bb_cm.c2m 0 0 0.8 200 FF606060
+D45 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.3 200 FF8080A0
+D73 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D74 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D75 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D76 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D77 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D78 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D79 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D80 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D81 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D82 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D83 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D84 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D85 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 2.5 180 FF8080A0
+D86 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 2.5 180 FF8080A0
+D87 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 2.5 180 FF8080A0
+D88 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 2.5 180 FF8080A0
+D71 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D72 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D89 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D90 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D91 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D92 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D93 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D94 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D95 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D96 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D97 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D98 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D99 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D100 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D101 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D102 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D103 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D104 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D105 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D106 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D107 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D108 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D109 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D110 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D111 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D112 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D113 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+D114 Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 0 0 0.5 180 FF8080A0
+
+D301 Models\trees_bb\Druids\D_Type02_bb_cm.c2m 0 0 0.8 200 FF606060
+D302 Models\trees_bb\Druids\D_Type03_bb_cm.c2m 0 0 0.8 200 FF606060
+D303 Models\trees_bb\Druids\D_Type05_01_bb_cm.c2m 0 0 0.8 200 FF606060
+D304 Models\trees_bb\Druids\D_Type06_bb_cm.c2m 0 0 0.8 200 FF606060
+D306 Models\trees_bb\Druids\New15_bb_cm.c2m 0 0 0.45 200 FF454545
+D307 Models\trees_bb\Druids\New16_bb_cm.c2m 0 0 0.45 200 FF454545
+D308 Models\trees_bb\Druids\New17_bb_cm.c2m 0 0 0.45 200 FF454545
+D309 Models\trees_bb\Druids\New18_bb_cm.c2m 0 0 0.45 200 FF454545
+D310 Models\trees_bb\Druids\New19_bb_cm.c2m 0 0 0.45 200 FF454545
+D311 Models\trees_bb\Druids\New20_bb_cm.c2m 0 0 0.45 200 FF454545
+D312 Models\trees_bb\Druids\New21_bb_cm.c2m 0 0 0.4 200 FF454545
+D313 Models\trees_bb\Druids\New22_bb_cm.c2m 0 0 0.4 200 FF454545
+D314 Models\trees_bb\Druids\New23_bb_cm.c2m 0 0 0.4 200 FF454545
+D315 Models\trees_bb\Druids\New27_bb_cm.c2m 0 0 0.4 200 FF454545
+D316 Models\trees_bb\Druids\New28_bb_cm.c2m 0 0 0.4 200 FF606060
+D317 Models\trees_bb\Druids\New29_bb_cm.c2m 0 0 0.4 200 FF606060
+D318 Models\trees_bb\Druids\New30_bb_cm.c2m 0 0 0.4 200 FF606060
+D319 Models\trees_bb\Druids\New31_Ntr_bb_cm.c2m 0 0 0.4 200 FF606060
+
+[MODS]
+//treeID LandID Model Scale Rotation Color RiseTime DeathTime Shader ShaderRiseVar ShaderDeathVar
+
+D01 Druids    Models\trees_bb\Druids\D_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2500 DruidTrees D01 D00 3.0
+D01 Mechanics Models\trees_bb\Mechanics\M_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2500 DruidTrees D01 D00 3.0
+D01 Neytral   Models\trees_bb\Druids\D_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2600 DruidTrees D01 D00 3.0
+D01 Necro     Models\trees_bb\Undeads\N_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2300 NecroTrees D01 D00 3.0
+D01 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2500 DruidTrees D01 D00 3.0
+
+D11 Druids    Models\trees_bb\Druids\D_Type03_bb_cm.c2m 0.8 224 FF606060 22000 2400 DruidTrees D02 D00 3.0
+D11 Mechanics Models\trees_bb\Mechanics\M_Type03_bb_cm.c2m 0.8 224 FF606060 21000 2500 DruidTrees D02 D00 3.0
+D11 Neytral   Models\trees_bb\Druids\D_Type03_bb_cm.c2m 0.8 224 FF606060 19000 2300 DruidTrees D02 D00 3.0
+D11 Necro     Models\trees_bb\Undeads\N_Type03_bb_cm.c2m 0.8 224 FF606060 18000 2200 NecroTrees D02 D00 3.0
+D11 Ice       Models\trees_bb\Ice\I_Type03_bb_cm.c2m 0.8 224 FF606060 23000 2600 DruidTrees D02 D00 3.0
+
+D09 Druids    Models\trees_bb\Druids\D_Type05_01_bb_cm.c2m 0.8 224 FF606060 21000 2500 DruidTrees D02 D00 3.0
+D09 Mechanics Models\trees_bb\Mechanics\M_Type05_01_bb_cm.c2m 0.8 224 FF606060 24000 2400 DruidTrees D45 D00 3.0
+D09 Neytral   Models\trees_bb\Druids\D_Type05_01_bb_cm.c2m 0.8 224 FF606060 20000 2300 DruidTrees D37 D00 3.0
+D09 Necro     Models\trees_bb\Undeads\N_Type05_01_bb_cm.c2m 0.8 224 FF606060 25000 2200 NecroTrees D45 D00 3.0
+D09 Ice       Models\trees_bb\Ice\I_Type05_01_bb_cm.c2m 0.8 224 FF606060 23000 2200 DruidTrees D56 D00 3.0
+
+D37 Druids    Models\trees_bb\Druids\D_Type06_bb_cm.c2m 0.8 224 FF606060 23000 2600 DruidTrees D230 D00 2.0
+D37 Mechanics Models\trees_bb\Mechanics\M_Type06_bb_cm.c2m 0.8 224 FF606060 20500 2400 DruidTrees D11 D00 2.0
+D37 Neytral   Models\trees_bb\Druids\D_Type06_bb_cm.c2m 0.8 224 FF606060 28000 2300 DruidTrees D230 D00 2.0
+D37 Necro     Models\trees_bb\Undeads\N_Type06_bb_cm.c2m 0.8 224 FF606060 28000 2200 NecroTrees D11 D00 2.0
+D37 Ice       Models\trees_bb\Ice\I_Type06_bb_cm.c2m 0.8 224 FF606060 28000 2100 DruidTrees D222 D00 2.0
+
+D45 Druids    Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D45 Mechanics Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D45 Neytral   Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D45 Necro     Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D45 Ice       Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+
+D71 Druids    Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D71 Mechanics Models\trees_bb\Mechanics\New15_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D71 Neytral   Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D71 Necro     Models\trees_bb\Undeads\New15_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D71 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D72 Druids    Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D72 Mechanics Models\trees_bb\Mechanics\New15_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D72 Neytral   Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D72 Necro     Models\trees_bb\Undeads\New15_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D72 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D73 Druids    Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D73 Mechanics Models\trees_bb\Mechanics\New15_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D73 Neytral   Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D73 Necro     Models\trees_bb\Undeads\New15_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D73 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D74 Druids    Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D74 Mechanics Models\trees_bb\Mechanics\New15_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D74 Neytral   Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D74 Necro     Models\trees_bb\Undeads\New15_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D74 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D75 Druids    Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D75 Mechanics Models\trees_bb\Mechanics\New15_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D75 Neytral   Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D75 Necro     Models\trees_bb\Undeads\New15_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D75 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D76 Druids    Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D76 Mechanics Models\trees_bb\Mechanics\New15_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D76 Neytral   Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D76 Necro     Models\trees_bb\Undeads\New15_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D76 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D77 Druids    Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D77 Mechanics Models\trees_bb\Mechanics\New16_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D77 Neytral   Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D77 Necro     Models\trees_bb\Undeads\New16_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D77 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D78 Druids    Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D78 Mechanics Models\trees_bb\Mechanics\New16_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D78 Neytral   Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D78 Necro     Models\trees_bb\Undeads\New16_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D78 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D79 Druids    Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D79 Mechanics Models\trees_bb\Mechanics\New16_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D79 Neytral   Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D79 Necro     Models\trees_bb\Undeads\New16_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D79 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D80 Druids    Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D80 Mechanics Models\trees_bb\Mechanics\New16_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D80 Neytral   Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D80 Necro     Models\trees_bb\Undeads\New16_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D80 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D81 Druids    Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D81 Mechanics Models\trees_bb\Mechanics\New17_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D81 Neytral   Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D81 Necro     Models\trees_bb\Undeads\New17_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D81 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D82 Druids    Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D82 Mechanics Models\trees_bb\Mechanics\New17_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D82 Neytral   Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D82 Necro     Models\trees_bb\Undeads\New17_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D82 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D83 Druids    Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D83 Mechanics Models\trees_bb\Mechanics\New17_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D83 Neytral   Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D83 Necro     Models\trees_bb\Undeads\New17_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D83 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D84 Druids    Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D84 Mechanics Models\trees_bb\Mechanics\New17_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D84 Neytral   Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D84 Necro     Models\trees_bb\Undeads\New17_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D84 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D85 Druids    Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D85 Mechanics Models\trees_bb\Mechanics\New18_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D85 Neytral   Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D85 Necro     Models\trees_bb\Undeads\New18_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D85 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D86 Druids    Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D86 Mechanics Models\trees_bb\Mechanics\New18_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D86 Neytral   Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D86 Necro     Models\trees_bb\Undeads\New18_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D86 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D87 Druids    Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D87 Mechanics Models\trees_bb\Mechanics\New18_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D87 Neytral   Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D87 Necro     Models\trees_bb\Undeads\New18_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D87 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D88 Druids    Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D88 Mechanics Models\trees_bb\Mechanics\New18_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D88 Neytral   Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D88 Necro     Models\trees_bb\Undeads\New18_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D88 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D89 Druids    Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D89 Mechanics Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D89 Neytral   Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D89 Necro     Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D89 Ice       Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+
+D90 Druids    Models\trees_bb\Druids\New07_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D90 D00 1.2
+D90 Mechanics Models\trees_bb\Druids\New07_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D90 D00 1.2
+D90 Neytral   Models\trees_bb\Druids\New07_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D90 D00 1.2
+D90 Necro     Models\trees_bb\Druids\New07_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D90 D00 1.2
+D90 Ice       Models\trees_bb\Druids\New07_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D90 D00 1.2
+
+D91 Druids    Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D91 Mechanics Models\trees_bb\Mechanics\New19_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D91 Neytral   Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D91 Necro     Models\trees_bb\Undeads\New19_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D91 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+
+D92 Druids    Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D92 Mechanics Models\trees_bb\Mechanics\New19_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D92 Neytral   Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D92 Necro     Models\trees_bb\Undeads\New19_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D92 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+
+D93 Druids    Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D93 Mechanics Models\trees_bb\Mechanics\New19_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D93 Neytral   Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D93 Necro     Models\trees_bb\Undeads\New19_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D93 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+
+D94 Druids    Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D94 Mechanics Models\trees_bb\Mechanics\New19_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D94 Neytral   Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D94 Necro     Models\trees_bb\Undeads\New19_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D94 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+
+D95 Druids    Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D95 Mechanics Models\trees_bb\Mechanics\New20_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D95 Neytral   Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D95 Necro     Models\trees_bb\Undeads\New20_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D95 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+
+D96 Druids    Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D96 Mechanics Models\trees_bb\Mechanics\New20_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D96 Neytral   Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D96 Necro     Models\trees_bb\Undeads\New20_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D96 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+
+D97 Druids    Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D97 Mechanics Models\trees_bb\Mechanics\New20_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D97 Neytral   Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D97 Necro     Models\trees_bb\Undeads\New20_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D97 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+
+D98 Druids    Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D98 Mechanics Models\trees_bb\Mechanics\New20_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D98 Neytral   Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D98 Necro     Models\trees_bb\Undeads\New20_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D98 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+
+D99 Druids    Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D99 Mechanics Models\trees_bb\Mechanics\New21_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D99 Neytral   Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D99 Necro     Models\trees_bb\Undeads\New21_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D99 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+
+D100 Druids    Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D100 Mechanics Models\trees_bb\Mechanics\New21_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D100 Neytral   Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D100 Necro     Models\trees_bb\Undeads\New21_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D100 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+
+D101 Druids    Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D101 Mechanics Models\trees_bb\Mechanics\New21_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D101 Neytral   Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D101 Necro     Models\trees_bb\Undeads\New21_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D101 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+
+D102 Druids    Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D102 Mechanics Models\trees_bb\Mechanics\New21_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D102 Neytral   Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D102 Necro     Models\trees_bb\Undeads\New21_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D102 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+
+D103 Druids    Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D103 Mechanics Models\trees_bb\Mechanics\New22_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D103 Neytral   Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D103 Necro     Models\trees_bb\Undeads\New22_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D103 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D104 Druids    Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D104 Mechanics Models\trees_bb\Mechanics\New22_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D104 Neytral   Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D104 Necro     Models\trees_bb\Undeads\New22_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D104 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D105 Druids    Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D105 Mechanics Models\trees_bb\Mechanics\New22_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D105 Neytral   Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D105 Necro     Models\trees_bb\Undeads\New22_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D105 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D106 Druids    Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D106 Mechanics Models\trees_bb\Mechanics\New22_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D106 Neytral   Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D106 Necro     Models\trees_bb\Undeads\New22_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D106 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D107 Druids    Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D107 Mechanics Models\trees_bb\Mechanics\New23_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D107 Neytral   Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D107 Necro     Models\trees_bb\Undeads\New23_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D107 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+                                                                                           
+D108 Druids    Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D108 Mechanics Models\trees_bb\Mechanics\New23_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D108 Neytral   Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D108 Necro     Models\trees_bb\Undeads\New23_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D108 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D109 Druids    Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D109 Mechanics Models\trees_bb\Mechanics\New23_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D109 Neytral   Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D109 Necro     Models\trees_bb\Undeads\New23_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D109 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D110 Druids    Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D110 Mechanics Models\trees_bb\Mechanics\New23_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D110 Neytral   Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D110 Necro     Models\trees_bb\Undeads\New23_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D110 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D111 Druids    Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D107 D00 1.2
+D111 Mechanics Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D107 D00 1.2
+D111 Neytral   Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D107 D00 1.2
+D111 Necro     Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D107 D00 1.2
+D111 Ice       Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D107 D00 1.2
+
+D112 Druids    Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D108 D00 1.2
+D112 Mechanics Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D108 D00 1.2
+D112 Neytral   Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D108 D00 1.2
+D112 Necro     Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D108 D00 1.2
+D112 Ice       Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D108 D00 1.2
+                                       
+D113 Druids    Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D109 D00 1.2
+D113 Mechanics Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D109 D00 1.2
+D113 Neytral   Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D109 D00 1.2
+D113 Necro     Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D109 D00 1.2
+D113 Ice       Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D109 D00 1.2
+                                                                                        
+D114 Druids    Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D114 Mechanics Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D114 Neytral   Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D114 Necro     Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+D114 Ice       Models\trees_bb\Ice\New15_Sn_bb_cm.c2m 4.0 256 FF606060 23000 2600 DruidTrees D110 D00 1.2
+
+D301 Druids    Models\trees_bb\Druids\D_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2500 DruidTrees D01 D00 3.0
+D301 Mechanics Models\trees_bb\Mechanics\M_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2500 DruidTrees D01 D00 3.0
+D301 Neytral   Models\trees_bb\Druids\D_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2600 DruidTrees D01 D00 3.0
+D301 Necro     Models\trees_bb\Undeads\N_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2300 NecroTrees D01 D00 3.0
+D301 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.8 224 FF606060 20000 2500 DruidTrees D01 D00 3.0
+
+D302 Druids    Models\trees_bb\Druids\D_Type03_bb_cm.c2m 0.8 224 FF606060 22000 2400 DruidTrees D02 D00 3.0
+D302 Mechanics Models\trees_bb\Mechanics\M_Type03_bb_cm.c2m 0.8 224 FF606060 21000 2500 DruidTrees D02 D00 3.0
+D302 Neytral   Models\trees_bb\Druids\D_Type03_bb_cm.c2m 0.8 224 FF606060 19000 2300 DruidTrees D02 D00 3.0
+D302 Necro     Models\trees_bb\Undeads\N_Type03_bb_cm.c2m 0.8 224 FF606060 18000 2200 NecroTrees D02 D00 3.0
+D302 Ice       Models\trees_bb\Ice\I_Type03_bb_cm.c2m 0.8 224 FF606060 23000 2600 DruidTrees D02 D00 3.0
+
+D303 Druids    Models\trees_bb\Druids\D_Type05_01_bb_cm.c2m 0.8 224 FF606060 21000 2500 DruidTrees D02 D00 3.0
+D303 Mechanics Models\trees_bb\Mechanics\M_Type05_01_bb_cm.c2m 0.8 224 FF606060 24000 2400 DruidTrees D45 D00 3.0
+D303 Neytral   Models\trees_bb\Druids\D_Type05_01_bb_cm.c2m 0.8 224 FF606060 20000 2300 DruidTrees D37 D00 3.0
+D303 Necro     Models\trees_bb\Undeads\N_Type05_01_bb_cm.c2m 0.8 224 FF606060 25000 2200 NecroTrees D45 D00 3.0
+D303 Ice       Models\trees_bb\Ice\I_Type05_01_bb_cm.c2m 0.8 224 FF606060 23000 2200 DruidTrees D56 D00 3.0
+
+D304 Druids    Models\trees_bb\Druids\D_Type06_bb_cm.c2m 0.8 224 FF606060 23000 2600 DruidTrees D230 D00 2.0
+D304 Mechanics Models\trees_bb\Mechanics\M_Type06_bb_cm.c2m 0.8 224 FF606060 20500 2400 DruidTrees D11 D00 2.0
+D304 Neytral   Models\trees_bb\Druids\D_Type06_bb_cm.c2m 0.8 224 FF606060 28000 2300 DruidTrees D230 D00 2.0
+D304 Necro     Models\trees_bb\Undeads\N_Type06_bb_cm.c2m 0.8 224 FF606060 28000 2200 NecroTrees D11 D00 2.0
+D304 Ice       Models\trees_bb\Ice\I_Type06_bb_cm.c2m 0.8 224 FF606060 28000 2100 DruidTrees D222 D00 2.0
+
+D306 Druids    Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D306 Mechanics Models\trees_bb\Mechanics\New15_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D306 Neytral   Models\trees_bb\Druids\New15_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D306 Necro     Models\trees_bb\Undeads\New15_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D306 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D307 Druids    Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D307 Mechanics Models\trees_bb\Mechanics\New16_M_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D307 Neytral   Models\trees_bb\Druids\New16_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D307 Necro     Models\trees_bb\Undeads\New16_N_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D307 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 224 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D308 Druids    Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D308 Mechanics Models\trees_bb\Mechanics\New17_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D308 Neytral   Models\trees_bb\Druids\New17_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D308 Necro     Models\trees_bb\Undeads\New17_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+D308 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D73 D00 2.0
+
+D309 Druids    Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D309 Mechanics Models\trees_bb\Mechanics\New18_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D309 Neytral   Models\trees_bb\Druids\New18_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D309 Necro     Models\trees_bb\Undeads\New18_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+D309 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D74 D00 4.0
+
+D310 Druids    Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D310 Mechanics Models\trees_bb\Mechanics\New19_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D310 Neytral   Models\trees_bb\Druids\New19_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D310 Necro     Models\trees_bb\Undeads\New19_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+D310 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D75 D00 4.0
+
+D311 Druids    Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D311 Mechanics Models\trees_bb\Mechanics\New20_M_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D311 Neytral   Models\trees_bb\Druids\New20_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D311 Necro     Models\trees_bb\Undeads\New20_N_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+D311 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.45 48 FF606060 23000 2600 DruidTrees D76 D00 4.0
+
+D312 Druids    Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D312 Mechanics Models\trees_bb\Mechanics\New21_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D312 Neytral   Models\trees_bb\Druids\New21_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D312 Necro     Models\trees_bb\Undeads\New21_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+D312 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D77 D00 2.0
+
+D313 Druids    Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D313 Mechanics Models\trees_bb\Mechanics\New22_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D313 Neytral   Models\trees_bb\Druids\New22_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D313 Necro     Models\trees_bb\Undeads\New22_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D313 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D314 Druids    Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D314 Mechanics Models\trees_bb\Mechanics\New23_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D314 Neytral   Models\trees_bb\Druids\New23_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D314 Necro     Models\trees_bb\Undeads\New23_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D314 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D315 Druids    Models\trees_bb\Druids\New27_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D315 Mechanics Models\trees_bb\Mechanics\New27_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D315 Neytral   Models\trees_bb\Druids\New27_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D315 Necro     Models\trees_bb\Undeads\New27_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D315 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D316 Druids    Models\trees_bb\Druids\New28_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D316 Mechanics Models\trees_bb\Mechanics\New28_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D316 Neytral   Models\trees_bb\Druids\New28_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D316 Necro     Models\trees_bb\Undeads\New28_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D316 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D317 Druids    Models\trees_bb\Druids\New29_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D317 Mechanics Models\trees_bb\Mechanics\New29_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D317 Neytral   Models\trees_bb\Druids\New29_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D317 Necro     Models\trees_bb\Undeads\New29_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D317 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D318 Druids    Models\trees_bb\Druids\New30_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D318 Mechanics Models\trees_bb\Mechanics\New30_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D318 Neytral   Models\trees_bb\Druids\New30_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D318 Necro     Models\trees_bb\Undeads\New30_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D318 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+
+D319 Druids    Models\trees_bb\Druids\New31_Ntr_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D319 Mechanics Models\trees_bb\Mechanics\New31_M_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D319 Neytral   Models\trees_bb\Druids\New31_Ntr_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D319 Necro     Models\trees_bb\Undeads\New31_N_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+D319 Ice       Models\trees_bb\Ice\I_Type02_bb_cm.c2m 0.4 48 FF606060 23000 2600 DruidTrees D78 D00 2.0
+                                                                
+[LOCK]
+[AUTOBORN]
+[GROUND]
+[SHOTSHIELD]
+/#Sprite Radius %Chance to block shot
+[FASTSPRITE]
+[AMPLITUDE]
+D01 120
+D09 120
+D11 120
+D37 120
+D45 120
+D47 120
+D49 120
+D56 120
+D217 120
+D222 120
+D230 120
+D242 120
+D02 120
+D73 120
+D74 120
+D75 120
+D76 120
+D77 120
+D78 120
+D79 120
+D80 120
+D81 120
+D82 120
+D83 120
+D84 120
+D85 120
+D86 120
+D87 120
+D88 120
+D71 120
+D72 120
+D301 120
+D302 120 
+D303 120 
+D304 120 
+D306 120 
+D307 120 
+D308 120 
+D309 120 
+D310 120 
+D311 120 
+D312 120 
+D313 120 
+D314 120 
+D315 120 
+D316 120 
+D317 120 
+D318 120 
+D319 120 
+[LQSHADOW]
+D01  4 160 200
+D11  5 120 160
+D09  4 120 200
+D37  3 110 110
+D301 4 160 200
+D302 5 120 160
+D303 4 120 200
+D304 3 110 110
+D306 7 400 450
+D307 6 400 450
+D308 6 400 450
+D309 7 100 100
+D310 6 100 100
+D311 7 100 100
+D312 6 180 250
+D313 7 100 140  
+D314 6 160 250
+D315 7 400 450
+D316 4 300 450
+D317 5 300 450
+D318 4 300 450 
+D319 5 210 250
+[NATSOUND]
+D301 ambient_druids 30 Druids
+D302 ambient_druids 30 Druids
+D303 ambient_druids 30 Druids
+D304 ambient_druids 30 Druids
+D306 ambient_druids 30 Druids
+D307 ambient_druids 30 Druids
+D308 ambient_druids 30 Druids
+D309 ambient_druids 30 Druids
+D310 ambient_druids 30 Druids
+D311 ambient_druids 30 Druids
+D312 ambient_druids 30 Druids
+D313 ambient_druids 30 Druids
+D314 ambient_druids 30 Druids
+D315 ambient_druids 30 Druids
+D316 ambient_druids 30 Druids
+D317 ambient_druids 30 Druids
+D318 ambient_druids 30 Druids
+D319 ambient_druids 30 Druids
+D301 ambient_undeads 30 Necro
+D302 ambient_undeads 30 Necro
+D303 ambient_undeads 30 Necro
+D304 ambient_undeads 30 Necro
+D306 ambient_undeads 30 Necro
+D307 ambient_undeads 30 Necro
+D308 ambient_undeads 30 Necro
+D309 ambient_undeads 30 Necro
+D310 ambient_undeads 30 Necro
+D311 ambient_undeads 30 Necro
+D312 ambient_undeads 30 Necro
+D313 ambient_undeads 30 Necro
+D314 ambient_undeads 30 Necro
+D315 ambient_undeads 30 Necro
+D316 ambient_undeads 30 Necro
+D317 ambient_undeads 30 Necro
+D318 ambient_undeads 30 Necro	
+D319 ambient_undeads 30 Necro
+D301 ambient_mechanics 30 Mechanics
+D302 ambient_mechanics 30 Mechanics
+D303 ambient_mechanics 30 Mechanics
+D304 ambient_mechanics 30 Mechanics
+D306 ambient_mechanics 30 Mechanics
+D307 ambient_mechanics 30 Mechanics
+D308 ambient_mechanics 30 Mechanics
+D309 ambient_mechanics 30 Mechanics
+D310 ambient_mechanics 30 Mechanics
+D311 ambient_mechanics 30 Mechanics
+D312 ambient_mechanics 30 Mechanics
+D313 ambient_mechanics 30 Mechanics
+D314 ambient_mechanics 30 Mechanics
+D315 ambient_mechanics 30 Mechanics
+D316 ambient_mechanics 30 Mechanics
+D317 ambient_mechanics 30 Mechanics
+D318 ambient_mechanics 30 Mechanics
+D319 ambient_mechanics 30 Mechanics
+D301 ambient_ice 30 Ice
+D302 ambient_ice 30 Ice
+D303 ambient_ice 30 Ice
+D304 ambient_ice 30 Ice
+D306 ambient_ice 30 Ice
+D307 ambient_ice 30 Ice
+D308 ambient_ice 30 Ice
+D309 ambient_ice 30 Ice
+D310 ambient_ice 30 Ice
+D311 ambient_ice 30 Ice
+D312 ambient_ice 30 Ice
+D313 ambient_ice 30 Ice
+D314 ambient_ice 30 Ice
+D315 ambient_ice 30 Ice
+D316 ambient_ice 30 Ice
+D317 ambient_ice 30 Ice
+D318 ambient_ice 30 Ice
+D319 ambient_ice 30 Ice
+D301 ambient_druids 30 Neytral
+D302 ambient_druids 30 Neytral
+D303 ambient_druids 30 Neytral
+D304 ambient_druids 30 Neytral
+D306 ambient_druids 30 Neytral
+D307 ambient_druids 30 Neytral
+D308 ambient_druids 30 Neytral
+D309 ambient_druids 30 Neytral
+D310 ambient_druids 30 Neytral
+D311 ambient_druids 30 Neytral
+D312 ambient_druids 30 Neytral
+D313 ambient_druids 30 Neytral
+D314 ambient_druids 30 Neytral
+D315 ambient_druids 30 Neytral
+D316 ambient_druids 30 Neytral
+D317 ambient_druids 30 Neytral
+D318 ambient_druids 30 Neytral
+D319 ambient_druids 30 Neytral
+[END]

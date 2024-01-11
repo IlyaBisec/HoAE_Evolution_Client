@@ -1,0 +1,34 @@
+<NewBonus>
+ <Money>
+  <MoneyAward></MoneyAward>
+ </Money>
+ <Money2>
+  <Resource>Money</Resource>
+ </Money2>
+ <Name>DialogBuilding</Name>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>19</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>19</EffectSpriteID>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\UzabBilding\UzabBilding.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\UzabBilding\UzabBilding.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewBonus>

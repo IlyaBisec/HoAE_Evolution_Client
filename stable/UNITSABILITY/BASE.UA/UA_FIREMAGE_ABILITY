@@ -1,0 +1,19 @@
+<NewAbility>
+ <Name>UA_Firemage_Ability</Name>
+ <ClassType>Image</ClassType>
+ <FileID>Interf3\Ability\auras_neutral</FileID>
+ <SpriteID>1</SpriteID>
+ <HintName>#AuraFlameStrike.NAME</HintName>
+ <Hint>#AuraFlameStrike</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

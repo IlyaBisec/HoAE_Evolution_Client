@@ -1,0 +1,30 @@
+NAME DruBBasMis
+MESSAGE bastion
+ICON U_FrnOf17
+BUILDING
+LIFE 5000
+PROTECTION 4 piercing 15 magical 0 chopping 15 crushing 0
+BUILDSTAGES 100
+MATHERIAL 1 BUILDING
+RECTANGLE 0 45 150 100
+3DBARS 1 -90 0 90 90 60 
+LONGDEATH
+SELFTRANSFORM
+PRICE 1 WOOD 0
+NOFARM
+BUILDPOINTS   56   9 0 9 1 9 2 9 3 9 4 9 5 8 6 7 7 6 8 5 9 4 9 3 9 2 9 1 9    -9 0 -9 1 -9 2 -9 3 -9 4 -9 5 -8 6 -7 7 -6 8 -5 9 -4 9 -3 9 -2 9 -1 9     9 -0 9 -1 9 -2 9 -3 9 -4 9 -5 8 -6 7 -7 6 -8 5 -9 4 -9 3 -9 2 -9 1 -9    -9 -0 -9 -1 -9 -2 -9 -3 -9 -4 -9 -5 -8 -6 -7 -7 -6 -8 -5 -9 -4 -9 -3 -9 -2 -9 -1 -9
+VES 15
+ADDSHOTRADIUS 100
+ABILITY BuildStage_Dru
+EXPA 10
+KILLERAWARD             GOLD 4
+KILLERAWARDRANDOM       GOLD 1
+SELECT_SOUND interface_click
+BORN_SOUND building_ready
+DEATH_SOUND building_death
+FORMFACTOR 256
+CYLINDER 50 70
+PortretDisable True
+[END]
+
+

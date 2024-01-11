@@ -1,0 +1,45 @@
+<NewAbility>
+ <Name>UA_aTower_Speed</Name>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>25</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>25</EffectSpriteID>
+ <Hint>+50% attack speed</Hint>
+ <Button>true</Button>
+ <UnlimitedAmount>false</UnlimitedAmount>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Permanent>true</Permanent>
+ <Modificators>
+  <mod_AttackRate>
+   <Operand>
+    <Operand>
+     <Value>
+      <Op>
+       <NumericalConst>
+        <Value>
+         <Value>20</Value>
+        </Value>
+       </NumericalConst>
+      </Op>
+     </Value>
+    </Operand>
+    <OperandType>Percent</OperandType>
+    <Percent>From Curent</Percent>
+   </Operand>
+  </mod_AttackRate>
+ </Modificators>
+ <eWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_wTower_Speed</RefName>
+ </eWeapon>
+</NewAbility>

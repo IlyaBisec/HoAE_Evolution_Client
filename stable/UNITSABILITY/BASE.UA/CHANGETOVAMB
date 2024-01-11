@@ -1,0 +1,26 @@
+<ChangeMDAbiliti>
+ <Name>ChangeToVamB</Name>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>10</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>10</EffectSpriteID>
+ <HintName>#To_Bat_Vampire.NAME</HintName>
+ <Hint>#To_Bat_Vampire</Hint>
+ <GroundMD>
+  <UnitType>DruHAma(DR)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</ChangeMDAbiliti>

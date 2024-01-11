@@ -1,0 +1,143 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+
+--[[****************************************]]--
+--[[ Global states of any type "ST_GLOBAL"  ]]--
+--[[****************************************]]--
+
+--[[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]--
+--[[		  FOR ATTACKS		       ]]--
+--[[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]--
+
+function ST_GLOBAL_00( C_OBJ, msg )
+	local _group	= GROUP(C_OBJ:GET_OBJ());
+	local _par		= C_OBJ:GET_PARAMS();
+	if 		( msg.str == "MSG_ENTER" 	)	then
+		--[[ Parameter GUARDED ZONE ]]--
+		if ( _par:GET("GuardNode") == nil ) then
+			local _zone = _par:CreateParam_NODE("GuardNode");
+			local zR = 500;
+			if ( _par:GET("R") ~= nil ) then zR = INT(_par:GET("R")).Value end;
+			_zone.x = _group.Xc; 
+			_zone.y = _group.Yc;
+			_zone.R = zR;
+		end;
+		if ( _par:GET("iAddR") == nil ) then
+			local addR = _par:CreateParam_INT("iAddR");
+			addR.Value = 500;
+		end;
+		--[[ Parametr bGuardZone ]]--
+		if ( _par:GET("bGuardZone") == nil ) then 
+			local bGuardZone = _par:CreateParam_BOOL("bGuardZone");
+			bGuardZone.Value = false;
+		end;
+		--[[ Parameter ENEMY GROUP ]]--
+		if (_par:GET("EnemyGroup") == nil ) then
+			_par:CreateParam_GROUP("EnemyGroup");
+		end;
+		--[[ MarkDelay ]]--
+		_CurDelay = _par:CreateParam_INT("CurDelay");
+		_MarkTime = INT(_par:GET("MarkDelay"));
+		if ( _CurDelay~=nil and _MarkTime~=nil ) then
+			_CurDelay.Value = _MarkTime.Value;
+		end;
+		--[[ Составляем масив позиций ]]--
+		local NewPos    = BOOL(_par:GET("bNewPos"));
+		if ( NewPos==nil ) then
+			NewPos = CLASS.BOOL();
+			NewPos.Value = true;
+		end;
+		local arrGrpPos = ARRAY(_par:GET("arrGrpPos"));
+		if ( arrGrpPos==nil ) then
+			arrGrpPos = _par:CreateParam_ARRAY("arrGrpPos");
+			NewPos.Value = true;
+		elseif ( NewPos.Value == true ) then
+			SafeClearArray( arrGrpPos );
+		end;
+		if ( NewPos.Value == true ) then
+			local arrParams = arrGrpPos:GetParmList();
+			local node = nil;
+			local UN = _group.N;
+			for i = 1, UN , 1 do
+				node = arrParams:CreateParam_NODE( tostring(i) );
+				node.x 		= _group:GetXi(i-1);
+				node.y 		= _group:GetYi(i-1);
+				node.R 		= 0;
+				node.Dir	= _group:GetDIRi(i-1);
+			end;
+		end;
+		NewPos.Value = false;
+		--[[ GO in next state ]]--			
+		C_OBJ.next_STATE	= "ST_IDLE";
+		C_OBJ.FSC			= true;
+	end;
+	return 1;
+end;
+
+
+
+--[[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]--
+--[[		  FOR BUILDINGS		       ]]--
+--[[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]--
+
+--[[ ST_GLOBAL - for prepare to produce units ]]--
+--[[
+	Создает локальную группу 						  - "gGroup"
+	Создает локальную переменную для владельца		  - "iVillageOwner"
+	Выставляет RallyPoint для барраков если есть нода - "nRallyPoint"
+]]--
+function ST_GLOBAL_B_00( C_OBJ, msg )
+	local	_gBarak = GROUP(C_OBJ:GET_OBJ());
+	local	_par	= C_OBJ:GET_PARAMS();
+	if 		( msg.str == "MSG_ENTER" 	)	then
+		--[[ Group for store prodused units ]]--
+		if ( _par:GET("gGroup")==nil ) then
+			local _gUnits = _par:CreateParam_GROUP("gGroup");
+		end;
+		--[[ Set Rally Point ]]--
+		local	_nRP	= NODE(_par:GET("nRallyPoint"));
+		if ( _nRP~=nil ) then 
+			_gBarak:SetRallyPoint(_nRP.x,_nRP.y);
+		end; 
+		--[[ Create and set owner ]]--
+		if ( _par:GET("iVillageOwner")==nil ) then
+			local _iOwner = INT(_par:CreateParam_INT("iVillageOwner"));
+			_iOwner.Value = _gBarak.Nat;
+		else
+			local _iOwner = INT(_par:GET("iVillageOwner"));
+			_iOwner.Value = _gBarak.Nat;
+		end;
+		--[[ Set mask for trader ]]--
+		if ( _par:GET("gTrader")~=nil ) then
+			local _gTrader = GROUP(_par:GET("gTrader"));
+			_gTrader.NMASK = 255;
+		end;
+		--[[ Set NMASK - freandly for all ]]--
+		_gBarak.NMASK = 255;
+		--[[ GO in next state ]]--
+		C_OBJ.next_STATE	= "ST_IDLE";
+		C_OBJ.FSC			= true;
+	end;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

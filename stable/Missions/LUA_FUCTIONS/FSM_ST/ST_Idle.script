@@ -1,0 +1,147 @@
+
+--[[***********************************]]--
+--[[ Idle states of any type "ST_IDLE" ]]--
+--[[***********************************]]--
+
+--[[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]--
+--[[			FOR UNITS			   ]]--
+--[[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]--
+
+--[[ Simple Idle -> react on enemy if it attack me ]]--
+--[[ USE :
+		"GuardNode"	- guarded position
+		"iAddR"		- additional radius
+]]--
+function ST_IDLE_00( C_OBJ, msg )
+	local _group		= GROUP(C_OBJ:GET_OBJ());
+	local _par			= C_OBJ:GET_PARAMS();
+	local _zone			= NODE(_par:GET("GuardNode"));
+	local _addR			= INT(_par:GET("iAddR"));
+	local _bGuardZone 	= BOOL(_par:GET("bGuardZone"));
+	local _Nat	 		= _group.Nat;
+	if 		( msg.str == "MSG_ENTER" )		then
+		_group.SearchEnemy = false;
+		_group.AIGuard	   = true;
+		return 1;
+	elseif	( msg.str == "MSG_UPDATE" 	)	then
+		--[[ јтакуем если недруг начинает строить р€дом здани€ ]]--
+		if ( GET.GetEnemyBuildindsAmount(_Nat,_zone.x,_zone.y,_zone.R)>0 ) then
+			if ( _group:CheckAttackPossibilityXYR(_zone.x,_zone.y,_zone.R+_addR.Value*2)==true ) then
+				C_OBJ.next_STATE	= "ST_ATTACK";
+				C_OBJ.FSC			= true;
+				return 1;
+			end;
+		end;
+		--[[ ------------------------------------------------- ]]--
+		if ( _bGuardZone.Value == false ) then 
+			if ( 	_group.UnderAttack==true and GET.EnemyUnitsAmount(_Nat,_zone.x,_zone.y,_zone.R+_addR.Value*2)>0 ) then
+				if ( _group:CheckAttackPossibilityXYR(_zone.x,_zone.y,_zone.R+_addR.Value*2)==true ) then
+					C_OBJ.next_STATE	= "ST_ATTACK";
+					C_OBJ.FSC			= true;
+					return 1;
+				end;
+			end;
+		end;
+		if ( _bGuardZone.Value == true ) then
+			if ( 	GET.EnemyUnitsAmount(_Nat,_zone.x,_zone.y,_zone.R)>0 or	_group.UnderAttack==true ) then
+				if ( _group:CheckAttackPossibilityXYR(_zone.x,_zone.y,_zone.R+_addR.Value*2)==true ) then
+					C_OBJ.next_STATE	= "ST_ATTACK";
+					C_OBJ.FSC			= true;
+					return 1;
+				end;
+			end;
+		end;
+		if ( _par:GET("SecuredGroup")~=nil ) then
+			_SecuredGroup = GROUP(_par:GET("SecuredGroup"));
+			if ( _SecuredGroup.UnderAttack==true ) then
+				if ( _group:CheckAttackPossibilityXYR(_zone.x,_zone.y,_zone.R+_addR.Value*2)==true ) then
+					C_OBJ.next_STATE	= "ST_ATTACK";
+					C_OBJ.FSC			= true;
+					return 1;
+				end;
+			end;
+		end;
+		if ( _par:GET("MarkDelay")~=nil ) then
+			_MarkDelay = INT(_par:GET("MarkDelay"));
+			if ( _MarkDelay.Value~=-1 ) then
+				_CurDelay = INT(_par:GET("CurDelay"));
+				_CurDelay.Value = _CurDelay.Value - 1;
+				if ( _CurDelay.Value<=0 ) then
+					_CurDelay.Value = (INT(_par:GET("MarkDelay"))).Value;
+					_group:MarkTime(_zone.x,_zone.y,_zone.R,20);
+				end;
+			end;
+		end;        
+	end;                
+	return 1;
+end;
+
+--[[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]--
+--[[		  FOR BUILDINGS		       ]]--
+--[[~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~]]--
+
+--[[ Wait for order - begin produse units ]]--
+function ST_IDLE_B_00( C_OBJ, msg )
+	if	( msg.str == "MSG_ORDER" 	)	then
+		local	_par	= C_OBJ:GET_PARAMS();
+		if (msg:GET_PARAMS()==nil) then return 0 end;
+		local _msg_par 	= msg:GET_PARAMS();
+		local _iUT 		= INT(_msg_par:GET("iUnitType"));
+		local _iUN 		= INT(_msg_par:GET("iUnitNUM"));
+		local _iNewNat 	= INT(_msg_par:GET("iNewNation"));
+		local _iNewOwner= INT(_msg_par:GET("iNewOwnerNation"));
+		if ( _iUT==nil or _iUN==nil or (_iNewNat==nil and _iNewOwner==nil) ) then return 0 end;
+		(_par:CreateParam_INT("iUnitType")).Value 	= _iUT.Value;
+		(_par:CreateParam_INT("iUnitNUM")).Value 	= _iUN.Value;
+		if (_iNewNat==nil) then
+			(_par:CreateParam_INT("iNewNation")).Value 	= -1;
+		else
+			(_par:CreateParam_INT("iNewNation")).Value 	= _iNewNat.Value;
+		end;
+		if (_iNewOwner==nil) then
+			(_par:CreateParam_INT("iNewOwnerNation")).Value 	= -1;
+		else
+			(_par:CreateParam_INT("iNewOwnerNation")).Value 	= _iNewOwner.Value;
+		end;
+		C_OBJ.next_STATE	= "ST_BEGIN_PR";
+		C_OBJ.FSC			= true;
+		return 1;
+	end;
+	return 1;
+end;
+
+function ST_IDLE_B_01( C_OBJ, msg )
+	if	( msg.str == "MSG_ORDER" 	)	then
+		C_OBJ.next_STATE	= "ST_BEGIN_PR";
+		C_OBJ.FSC			= true;
+	end;
+	return 1;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

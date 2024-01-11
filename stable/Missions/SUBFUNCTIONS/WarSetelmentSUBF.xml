@@ -1,0 +1,434 @@
+<be_CSUBFUNCTION>
+ <Name>g_sfSetelmentNNN</Name>
+ <AbilityList>
+  <AblName>
+   <AbilityName>DialogButton</AbilityName>
+   <ItemDrop>0</ItemDrop>
+   <Name>Employ</Name>
+   <be_Process>
+    <CallingFunctionName>pfSetEnableAbility</CallingFunctionName>
+    <InArgList>
+     <be_CBasePrametr>
+      <ParamName>l_bEnable</ParamName>
+      <ParamType>BOOL</ParamType>
+      <UniveraslParam>
+       <GlobalReference>l_gFree</GlobalReference>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_strAbilName</ParamName>
+      <ParamType>STR</ParamType>
+      <UniveraslParam>
+       <Local>true</Local>
+       <GlobalReference>be_CSTR 8158 2005:9:28:12:14:4</GlobalReference>
+       <LocalObject>
+        <be_CSTR>
+         <Name>be_CSTR 8158 2005:9:28:12:14:4</Name>
+         <Value>Employ</Value>
+        </be_CSTR>
+       </LocalObject>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_gGroup</ParamName>
+      <ParamType>GROUP</ParamType>
+      <UniveraslParam>
+       <GlobalReference>l_gBaraks</GlobalReference>
+      </UniveraslParam>
+     </be_CBasePrametr>
+    </InArgList>
+   </be_Process>
+   <be_LeftClick>
+    <CallingFunctionName>pfClick_TryEmploySetelment</CallingFunctionName>
+    <InArgList>
+     <be_CBasePrametr>
+      <ParamName>l_bFree</ParamName>
+      <ParamType>BOOL</ParamType>
+      <UniveraslParam>
+       <GlobalReference>l_gFree</GlobalReference>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_strAbilName</ParamName>
+      <ParamType>STR</ParamType>
+      <UniveraslParam>
+       <Local>true</Local>
+       <GlobalReference>be_CSTR 7084 2005:9:28:14:18:9</GlobalReference>
+       <LocalObject>
+        <be_CSTR>
+         <Name>be_CSTR 7084 2005:9:28:14:18:9</Name>
+         <Value>Employ</Value>
+        </be_CSTR>
+       </LocalObject>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_gGuard</ParamName>
+      <ParamType>GROUP</ParamType>
+      <UniveraslParam>
+       <GlobalReference>l_gGuard</GlobalReference>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_iMoneyCost</ParamName>
+      <ParamType>INT</ParamType>
+      <UniveraslParam>
+       <Local>true</Local>
+       <GlobalReference>be_CINT 7923 2005:9:28:14:18:23</GlobalReference>
+       <LocalObject>
+        <be_CINT>
+         <Name>be_CINT 7923 2005:9:28:14:18:23</Name>
+         <Value>-1000</Value>
+        </be_CINT>
+       </LocalObject>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_gBraks</ParamName>
+      <ParamType>GROUP</ParamType>
+      <UniveraslParam>
+       <GlobalReference>l_gBaraks</GlobalReference>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_nRallyPoint</ParamName>
+      <ParamType>NODE</ParamType>
+      <UniveraslParam>
+       <Local>true</Local>
+       <GlobalReference>be_CNODE 7840 2005:9:28:14:18:33</GlobalReference>
+       <LocalObject>
+        <be_CNODE>
+         <Name>be_CNODE 7840 2005:9:28:14:18:33</Name>
+         <x>5300</x>
+         <y>5000</y>
+        </be_CNODE>
+       </LocalObject>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_arrTypeNumber</ParamName>
+      <ParamType>ARRAY</ParamType>
+      <UniveraslParam>
+       <Local>true</Local>
+       <GlobalReference>be_CARRAY 7835 2005:9:28:14:18:42</GlobalReference>
+       <LocalObject>
+        <be_CARRAY>
+         <Name>be_CARRAY 7835 2005:9:28:14:18:42</Name>
+         <ValuesArray>
+          <be_CBasePrametr>
+           <ParamName>UnitType00</ParamName>
+           <ParamType>UnitType</ParamType>
+           <UniveraslParam>
+            <Local>true</Local>
+            <GlobalReference>be_CUnitType 7966 2005:9:28:14:18:55</GlobalReference>
+            <LocalObject>
+             <be_CUnitType>
+              <Name>be_CUnitType 7966 2005:9:28:14:18:55</Name>
+              <Value>OrcUOrc(OR)</Value>
+             </be_CUnitType>
+            </LocalObject>
+           </UniveraslParam>
+           <ParamName>UnitType00</ParamName>
+           <ParamType>UnitType</ParamType>
+           <UniveraslParam>
+            <Local>true</Local>
+            <GlobalReference>be_CUnitType 7966 2005:9:28:14:18:55</GlobalReference>
+            <LocalObject>
+             <be_CUnitType>
+              <Name>be_CUnitType 7966 2005:9:28:14:18:55</Name>
+              <Value>OrcUOrc(OR)</Value>
+             </be_CUnitType>
+            </LocalObject>
+           </UniveraslParam>
+          </be_CBasePrametr>
+          <be_CBasePrametr>
+           <ParamName>UnitNumber00</ParamName>
+           <ParamType>INT</ParamType>
+           <UniveraslParam>
+            <Local>true</Local>
+            <GlobalReference>be_CINT 7970 2005:9:28:14:19:12</GlobalReference>
+            <LocalObject>
+             <be_CINT>
+              <Name>be_CINT 7970 2005:9:28:14:19:12</Name>
+              <Value>20</Value>
+             </be_CINT>
+            </LocalObject>
+           </UniveraslParam>
+           <ParamName>UnitNumber00</ParamName>
+           <ParamType>INT</ParamType>
+           <UniveraslParam>
+            <Local>true</Local>
+            <GlobalReference>be_CINT 7970 2005:9:28:14:19:12</GlobalReference>
+            <LocalObject>
+             <be_CINT>
+              <Name>be_CINT 7970 2005:9:28:14:19:12</Name>
+              <Value>20</Value>
+             </be_CINT>
+            </LocalObject>
+           </UniveraslParam>
+          </be_CBasePrametr>
+         </ValuesArray>
+        </be_CARRAY>
+       </LocalObject>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_iWaitTime</ParamName>
+      <ParamType>INT</ParamType>
+      <UniveraslParam>
+       <Local>true</Local>
+       <GlobalReference>be_CINT 7953 2005:9:28:14:19:25</GlobalReference>
+       <LocalObject>
+        <be_CINT>
+         <Name>be_CINT 7953 2005:9:28:14:19:25</Name>
+         <Value>60000</Value>
+        </be_CINT>
+       </LocalObject>
+      </UniveraslParam>
+     </be_CBasePrametr>
+     <be_CBasePrametr>
+      <ParamName>l_iNewNation</ParamName>
+      <ParamType>INT</ParamType>
+      <UniveraslParam>
+       <Local>true</Local>
+       <GlobalReference>be_CINT 7954 2005:9:28:14:19:32</GlobalReference>
+       <LocalObject>
+        <be_CINT>
+         <Name>be_CINT 7954 2005:9:28:14:19:32</Name>
+         <Value>-1</Value>
+        </be_CINT>
+       </LocalObject>
+      </UniveraslParam>
+     </be_CBasePrametr>
+    </InArgList>
+   </be_LeftClick>
+  </AblName>
+ </AbilityList>
+ <InArgList>
+  <be_CBasePrametr>
+   <ParamName>l_bInit</ParamName>
+   <ParamType>BOOL</ParamType>
+   <UniveraslParam>
+    <Local>true</Local>
+    <GlobalReference>be_CBOOL 7394 2005:9:28:8:6:4</GlobalReference>
+    <LocalObject>
+     <be_CBOOL>
+      <Name>be_CBOOL 7394 2005:9:28:8:6:4</Name>
+      <Value>true</Value>
+     </be_CBOOL>
+    </LocalObject>
+   </UniveraslParam>
+   <ParamName>l_bInit</ParamName>
+   <ParamType>BOOL</ParamType>
+   <UniveraslParam>
+    <Local>true</Local>
+    <GlobalReference>be_CBOOL 7394 2005:9:28:8:6:4</GlobalReference>
+    <LocalObject>
+     <be_CBOOL>
+      <Name>be_CBOOL 7394 2005:9:28:8:6:4</Name>
+      <Value>true</Value>
+     </be_CBOOL>
+    </LocalObject>
+   </UniveraslParam>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>l_gGuard</ParamName>
+   <ParamType>GROUP</ParamType>
+   <UniveraslParam>
+    <GlobalReference>g_gGuard00</GlobalReference>
+   </UniveraslParam>
+   <ParamName>l_gGuard</ParamName>
+   <ParamType>GROUP</ParamType>
+   <UniveraslParam>
+    <GlobalReference>g_gGuard00</GlobalReference>
+   </UniveraslParam>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>l_gR</ParamName>
+   <ParamType>INT</ParamType>
+   <UniveraslParam>
+    <Local>true</Local>
+    <GlobalReference>be_CINT 7388 2005:9:28:8:7:5</GlobalReference>
+    <LocalObject>
+     <be_CINT>
+      <Name>be_CINT 7388 2005:9:28:8:7:5</Name>
+      <Value>500</Value>
+     </be_CINT>
+    </LocalObject>
+   </UniveraslParam>
+   <ParamName>l_gR</ParamName>
+   <ParamType>INT</ParamType>
+   <UniveraslParam>
+    <Local>true</Local>
+    <GlobalReference>be_CINT 7388 2005:9:28:8:7:5</GlobalReference>
+    <LocalObject>
+     <be_CINT>
+      <Name>be_CINT 7388 2005:9:28:8:7:5</Name>
+      <Value>500</Value>
+     </be_CINT>
+    </LocalObject>
+   </UniveraslParam>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>l_iAddR</ParamName>
+   <ParamType>INT</ParamType>
+   <UniveraslParam>
+    <Local>true</Local>
+    <GlobalReference>be_CINT 7327 2005:9:28:8:7:19</GlobalReference>
+    <LocalObject>
+     <be_CINT>
+      <Name>be_CINT 7327 2005:9:28:8:7:19</Name>
+      <Value>500</Value>
+     </be_CINT>
+    </LocalObject>
+   </UniveraslParam>
+   <ParamName>l_iAddR</ParamName>
+   <ParamType>INT</ParamType>
+   <UniveraslParam>
+    <Local>true</Local>
+    <GlobalReference>be_CINT 7327 2005:9:28:8:7:19</GlobalReference>
+    <LocalObject>
+     <be_CINT>
+      <Name>be_CINT 7327 2005:9:28:8:7:19</Name>
+      <Value>500</Value>
+     </be_CINT>
+    </LocalObject>
+   </UniveraslParam>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>l_ablInitialAbility</ParamName>
+   <ParamType>UnitAbility</ParamType>
+   <UniveraslParam>
+    <GlobalReference>ShopDialog</GlobalReference>
+   </UniveraslParam>
+   <ParamName>l_ablInitialAbility</ParamName>
+   <ParamType>UnitAbility</ParamType>
+   <UniveraslParam>
+    <GlobalReference>ShopDialog</GlobalReference>
+   </UniveraslParam>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>l_gBaraks</ParamName>
+   <ParamType>GROUP</ParamType>
+   <UniveraslParam>
+    <GlobalReference>g_gBaraks00</GlobalReference>
+   </UniveraslParam>
+   <ParamName>l_gBaraks</ParamName>
+   <ParamType>GROUP</ParamType>
+   <UniveraslParam>
+    <GlobalReference>g_gBaraks00</GlobalReference>
+   </UniveraslParam>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>l_gFree</ParamName>
+   <ParamType>BOOL</ParamType>
+   <UniveraslParam>
+    <Local>true</Local>
+    <GlobalReference>be_CBOOL 7794 2005:9:28:12:6:21</GlobalReference>
+    <LocalObject>
+     <be_CBOOL>
+      <Name>be_CBOOL 7794 2005:9:28:12:6:21</Name>
+      <Value>true</Value>
+     </be_CBOOL>
+    </LocalObject>
+   </UniveraslParam>
+   <ParamName>l_gFree</ParamName>
+   <ParamType>BOOL</ParamType>
+   <UniveraslParam>
+    <Local>true</Local>
+    <GlobalReference>be_CBOOL 7794 2005:9:28:12:6:21</GlobalReference>
+    <LocalObject>
+     <be_CBOOL>
+      <Name>be_CBOOL 7794 2005:9:28:12:6:21</Name>
+      <Value>true</Value>
+     </be_CBOOL>
+    </LocalObject>
+   </UniveraslParam>
+  </be_CBasePrametr>
+ </InArgList>
+ <BODY>
+  <FirstOperand>
+   <be_CComment>
+    <Comment>Init some date before process start, call once.</Comment>
+   </be_CComment>
+   <be_CBaseBinaryStatement>
+    <Modificator>if (...) then ...</Modificator>
+    <FirstOperand>
+     <lvCGetValue>
+      <TypeID>Triger</TypeID>
+      <Value>l_bInit</Value>
+     </lvCGetValue>
+    </FirstOperand>
+    <SecondOperand>
+     <lvCSetValue>
+      <Variable>l_bInit</Variable>
+     </lvCSetValue>
+     <be_CComment>
+      <Comment>Set guard behaviour for setelment guard group.</Comment>
+     </be_CComment>
+     <be_CRefParamFunction>
+      <CallingFunctionName>ACF_GuardZone00</CallingFunctionName>
+      <InArgList>
+       <be_CBasePrametr>
+        <ParamName>Object</ParamName>
+        <ParamType>GROUP</ParamType>
+        <UniveraslParam>
+         <GlobalReference>l_gGuard</GlobalReference>
+        </UniveraslParam>
+       </be_CBasePrametr>
+       <be_CBasePrametr>
+        <ParamName>bGuardZone</ParamName>
+        <ParamType>BOOL</ParamType>
+        <UniveraslParam>
+         <Local>true</Local>
+         <GlobalReference>be_CBOOL 7543 2005:9:28:8:10:17</GlobalReference>
+         <LocalObject>
+          <be_CBOOL>
+           <Name>be_CBOOL 7543 2005:9:28:8:10:17</Name>
+          </be_CBOOL>
+         </LocalObject>
+        </UniveraslParam>
+       </be_CBasePrametr>
+       <be_CBasePrametr>
+        <ParamName>R</ParamName>
+        <ParamType>INT</ParamType>
+        <UniveraslParam>
+         <GlobalReference>l_gR</GlobalReference>
+        </UniveraslParam>
+       </be_CBasePrametr>
+       <be_CBasePrametr>
+        <ParamName>iAddR</ParamName>
+        <ParamType>INT</ParamType>
+        <UniveraslParam>
+         <GlobalReference>l_iAddR</GlobalReference>
+        </UniveraslParam>
+       </be_CBasePrametr>
+      </InArgList>
+     </be_CRefParamFunction>
+     <be_CComment>
+      <Comment>Add initial ability for buildings in setelment.</Comment>
+     </be_CComment>
+     <be_CRefParamFunction>
+      <CallingFunctionName>ABIL_AddCarryAbility</CallingFunctionName>
+      <InArgList>
+       <be_CBasePrametr>
+        <ParamName>Ability</ParamName>
+        <ParamType>UnitAbility</ParamType>
+        <UniveraslParam>
+         <GlobalReference>l_ablInitialAbility</GlobalReference>
+        </UniveraslParam>
+       </be_CBasePrametr>
+       <be_CBasePrametr>
+        <ParamName>Group</ParamName>
+        <ParamType>GROUP</ParamType>
+        <UniveraslParam>
+         <GlobalReference>l_gBaraks</GlobalReference>
+        </UniveraslParam>
+       </be_CBasePrametr>
+      </InArgList>
+     </be_CRefParamFunction>
+    </SecondOperand>
+   </be_CBaseBinaryStatement>
+  </FirstOperand>
+ </BODY>
+</be_CSUBFUNCTION>

@@ -1,0 +1,106 @@
+#MISSIONSTART The Undead Attack (video)
+#MISSION01 The City of Dawn
+#MISSION02 Hardstone's Vicinities
+#MISSION03 Accursed Cemetery
+#MISSION04 Evergreen Grove
+#MISSION05 Pegasus Lake
+#MISSION06 In Search for Resources
+#MISSION07 Defending the Camp
+#MISSION07+ The Path to World Mountain
+#MISSION08 Oracle
+#MISSION09 Seeking for the Crown
+#MISSION10 Wise Draelnor
+#MISSION11 The Land of Mechnicians
+#MISSION12 Roads to the City of Frosts
+#MISSION13 Shambala
+#MISSION14 Universum
+#MISSION15 The Great Ritual
+#MISSIONFINAL Catastrophe (video)
+
+
+#Elhant Elhant
+#Draelnor Draelnor
+#Lana Lana
+#Lich Archlich
+#Nekros Necros
+#Warlord Monfor
+#M1Alchemist Alchemist
+#M1Ent Old Ash
+#M1Archer Archer
+#M1Soldier Soldier
+#M2Druid Druid
+#M2Hunter Hunter
+#M2Forester Old forester
+#M2Soldier Soldier
+#M2Commander1 Squad commander
+#M2Commander2 Squad commander
+#M2Commander3 Squad commander
+#M2Dweller Dweller
+#M2Centaur Centaur
+#M3Goblin Goblin
+#M4DruidKey Keeper of the Key
+#M4High_Druid Tonmir
+#M4DruidControl Druid
+#M4Ent Gate keeper
+#M4DruidAcid Druid
+#M4ShopKeeper Merchant
+#M5Fairy Fairy
+#M5High_Druid High Druid
+#M5Druid1 Druid assistant
+#M5Druid2 Mage-merchant
+#M5Elder Elf
+#M6Elder1 Chief
+#M6Elder2 Chief
+#M6Elder3 Chief
+#M6Elder4 Chief
+#M6Fairy Fairy
+#M6Druid Druid
+#M6MageShopkeeper Shopkeeper
+#M6Dwarf Dwarf
+#M6Elf1 Elf
+#M6Elf2 Elf
+#M6Ent Ent
+#M6Soldier Soldier
+#M7Centaur1 Centaur
+#M7Centaur2 Centaur
+#M7plusFairy Fairy
+#M7plusSoldier Soldier
+#M7plusCentaur Centaur
+#M7plusDryad Dryad
+#M7plusDruid Druid
+#M8Elf Ferry guard
+#M8Elder Village defender
+#M8Druid Druid
+#M8Dryad Dryad
+#M9Dwarf1 Dwarf messenger
+#M9Dwarf2 Dwarf miner
+#M9Dwarf3 Dwarf
+#M9DwarfChief Dwarf chief
+#M10Dwarf1 Dwarf
+#M10Dwarf2 Dwarf
+#M10Children Child
+#M10Elf Soldier
+#M10Elder Druid
+#M11DwarfSoldier1 Dwarf warrior
+#M11DwarfSoldier2 Dwarf warrior
+#M11DwarfSoldier3 Dwarf warrior
+#M11Dwarf1 Dwarf mechanician
+#M11Dwarf2 Sailor mechanician
+#M11DwarfCaptain Dwarf captain
+#M11Artificial Artificer
+#M11DwarfKing Dwarf regent
+#M12IceMage1 The Cryo mage
+#M12DeathMage Practitioner
+#M12IceGolem Ice golem
+#M12YetiChief Yeti tribal chief
+#M12Enchantress Enchantress
+#M12IceMage2 Sorcerer
+#M12Gremlin Gremlin
+#M13Cleric Priest
+#M13Priest Priest
+#M13Priest2 Priest
+#M13TorGilong Tor Gilong
+#M13Slave Slave
+#M13Mechanic Dwarf
+#M14MainPriest High Priest
+#M14SolSoldier Sol guard

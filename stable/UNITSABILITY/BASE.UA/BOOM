@@ -1,0 +1,42 @@
+<NewAbility>
+ <Name>boom</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>700</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <Blocking>
+  <ClassRef.UnitAbility>
+   <ClassName>NewAbility</ClassName>
+   <RefName>boom</RefName>
+  </ClassRef.UnitAbility>
+ </Blocking>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <Duration>1200</Duration>
+   <Place>Target units</Place>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Popadenie\Popadenie.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\Popadenie\Popadenie.c2m</ReflectionID>
+    <AddHeight>25</AddHeight>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

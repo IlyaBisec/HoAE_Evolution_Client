@@ -1,0 +1,19 @@
+<be_CFSM>
+ <Name>FSM_CloudDialog</Name>
+ <FileName>Missions\LUA_FUCTIONS\FSM\FSM_CloudDialog.script</FileName>
+ <FunctionName>FSM_CloudDialog</FunctionName>
+ <Params>
+  <be_CBasePrametr>
+   <ParamName>DialogArr</ParamName>
+   <ParamType>ARRAY</ParamType>
+   <ParamName>DialogArr</ParamName>
+   <ParamType>ARRAY</ParamType>
+  </be_CBasePrametr>
+ </Params>
+ <HendledMSG>
+  <be_CMSG_FROMUSER>
+   <Name>msg_RunDialog</Name>
+   <msgName>MSG_RUN</msgName>
+  </be_CMSG_FROMUSER>
+ </HendledMSG>
+</be_CFSM>

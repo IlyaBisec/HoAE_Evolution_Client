@@ -1,0 +1,74 @@
+NAME UndBGor
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+
+ICONEX 0 0 interf3\PortretsBuilding\UndSou 0
+ICONANM 0 0 interf3\PortretsBuilding\UndSou 1 111 1
+
+LOCATION -0 -0 800 800
+!STANDLO      1 1.75 Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m
+!BUILDLO_0    1 1.75 Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m
+!BUILDLO_1    1 1.75 Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m
+!BUILDLO_2    1 1.75 Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m
+!BUILDLO_3    1 1.75 Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m Models\Bld\UNDED\SM_Gorge_of_Souls\512x512\SM_Gorge_of_Souls.c2m
+MOVEXY #STANDLO   -14 3
+MOVEXY #BUILDLO_0 -14 3
+MOVEXY #BUILDLO_1 -14 3
+MOVEXY #BUILDLO_2 -14 3
+MOVEXY #BUILDLO_3 -14 3
+ADDHDIR #STANDLO -20 160
+ADDHDIR #BUILDLO_0 -20 160
+ADDHDIR #BUILDLO_1 -20 160
+ADDHDIR #BUILDLO_2 -20 160
+ADDHDIR #BUILDLO_3 -20 160
+BORNPOINTS3 3 -10 -20 -35    5 24 0   93 114 0
+GEOMETRY 1 199 32
+LIFE     4000
+PRICE 2 STONE 500 GOLD 500
+BUILDSTAGES 65
+PROTECTION 3 piercing 15 magical 0 chopping 15
+RECTANGLE    0 60 100 120
+MATHERIAL 1 BUILDING
+EXPLMEDIA BUILDING 5
+BUILDBAR    -12 0 12 0
+3DBARS 2  -20 20 24 17 120  20 -7 24 17 120
+SELECT_SOUND AKA
+ORDER_SOUND AKA
+BORN_SOUND   AKA
+INFO 3 8
+COSTPERCENT 300
+VISION 0
+ADDSHOTRADIUS 125
+ROUNDLOCK 6
+TFACTOR FFA1A4AD
+SELTYPE SelBigBuilding 1.4 1.4
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_undead
+DEATH_SOUND building_death
+UPG_SOUND upgrade_undead
+CYLINDER 70 90
+ARTPLACE 3 60
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+FORMFACTOR 482
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.3
+ShadowScaleY 1.0
+!TEMP5 180 1.0 Models\Effects\MagicCard\UndeadZona\UndeadZona.c2m Models\Effects\MagicCard\UndeadZona\UndeadZona.c2m
+MOVEXY  #TEMP5 0 0
+ADDHDIR #TEMP5 0 160
+ANMEXT #STANDLO #TEMP5 0 0 0 1.0 2000
+!TEMP 250 0.57 Models\Scaffold\Scaffold_Und_Eff\UndeatStroit4.c2m Models\Scaffold\Scaffold_Und_Eff\UndeatStroit4.c2m
+MOVEXY  #TEMP 35 -30
+ANMEXT #BUILDLO #TEMP  0 0 0 1.0 5000
+ANMEXT #BUILDLO_0 #TEMP  0 0 0 1.0 5000
+ANMEXT #BUILDLO_1 #TEMP  0 0 0 1.0 5000
+ANMEXT #BUILDLO_2 #TEMP  0 0 0 1.0 5000
+ANMEXT #BUILDLO_3 #TEMP  0 0 0 1.0 5000
+[END]

@@ -1,0 +1,515 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Idle.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Produce.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Global.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_SomeOrder.script");
+
+--[[
+Строит отряд размером "iUnitNUM", юнитов типа "iUnitType" 
+в группу <<"gGroup">> и прекрашивает их в цвет "iNewNation"
+]]--
+function	FSM_ProduseUnits_00( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	
+	local	_gBarak = GROUP(C_OBJ:GET_OBJ());
+	if ( _gBarak==nil or _gBarak.N==0 )	then return 0 end;
+	
+	if 		( state == "ST_GLOBAL" 	)	then
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		ST_GLOBAL_B_00( C_OBJ, msg );
+		return 1;
+	elseif	( state == "ST_IDLE" 	)	then	--[[ Wait any command 				]]--
+		if (ProcMsgFree( msg, true )==1) then return 1 end;
+		ST_IDLE_B_00( C_OBJ, msg );
+		return 1;
+	elseif 	( state == "ST_BEGIN_PR" )	then	--[[ Prepare params for produse 	]]--
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		ST_BEGIN_PR_00( C_OBJ, msg );
+		return 1;
+	elseif 	( state == "ST_PRODUCE" )	then	--[[ Produse units 					]]--
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		ST_PRODUCE_00( C_OBJ, msg );
+		return 1;
+	elseif 	( state == "ST_END_PR" )	then	--[[ Prosess use prepare command 	]]--
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		ST_END_PR_00( C_OBJ, msg );
+		return 1;
+	end;
+	return 0;
+end;
+
+--[[
+	USE DEFF PARAMS:
+		"gTrader"		- продавец 
+		"nRallyPoint"	- точка сбора для бараков
+		"iResType"		- тип ресурса
+		"iPrice"		- цена покупки
+		"iUnitType"		- тип прозводимых юнитов
+		"iUnitNUM"		- кол-во прозводимых юнитов
+		"iWaitTime"		- задержка между производством
+]]--
+function	FSM_ProduseUnits_01( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	
+	local	_gBarak = GROUP(C_OBJ:GET_OBJ());
+	if ( _gBarak==nil or _gBarak.N==0 )	then return 0 end;
+	
+	if 		( state == "ST_GLOBAL" 	)	then
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		ST_GLOBAL_B_00( C_OBJ, msg );
+		return 1;
+	elseif	( state == "ST_IDLE" 	)	then	--[[  ]]--
+		if (ProcMsgFree( msg, true )==1) then return 1 end;
+		ST_ORDER_00( C_OBJ, msg );
+		ST_IDLE_B_01( C_OBJ, msg );
+		return 1;
+	elseif 	( state == "ST_BEGIN_PR" )	then	--[[  ]]--
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		ST_BEGIN_PR_00( C_OBJ, msg );
+		return 1;
+	elseif 	( state == "ST_PRODUCE" )	then	--[[  ]]--
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		ST_PRODUCE_00( C_OBJ, msg );
+		return 1;
+	elseif 	( state == "ST_END_PR" )	then	--[[  ]]--
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		ST_END_PR_01( C_OBJ, msg );
+		return 1;
+	end;
+	return 0;
+end;
+
+--[[
+	DESCR:
+		Как только активируется то начинает производить юнитов с
+		задержкой во времени "iWaitTime" в соответствии с масивом 
+		типов и кол-вом в "arrTN" выставляя им маску соответствующую
+		нации "iOwnerNat", юниты собираются в точке "nRallyPoint"
+	CONTROLED OBJECT:
+		Baraks			- группа зданий для производства	!!!	-GLOBAL
+	USE PARAMS:
+		"iOwnerNat"		- нация купившего					!!!
+		"nRallyPoint"	- точка сбора для бараков			!!!
+		"arrTN"			- масив: (тип юнита,кол-во)			!!!	-GLOBAL
+		"iWaitTime"		- задержка между производством		!!!
+	ITERNAL PARM:
+		"gGroup"		- группа в которую производим юнитов
+]]--
+
+--[[
+	ACTION:
+		CommandID = 0;
+		Группа отправляется в бой по команде AddStorm(...)
+]]--
+function	ACF_ProduseUnits_02( paramData )
+	if ( paramData==nil ) then return 0 end;
+	value 		= paramData:CreateParam_INT("iCommandID");
+	value.Value	= 0;
+	return AFC_ProduseUnits_02_local( paramData );
+end;
+--[[
+	ACTION:
+		CommandID = 1;
+		Группа скидует себя в группу "g_gDestGroup" и ничего не делает
+]]--
+function	ACF_ProduseUnits_03( paramData )
+	if ( paramData==nil ) then return 0 end;
+	value 		= paramData:CreateParam_INT("iCommandID");
+	value.Value	= 1;
+	return AFC_ProduseUnits_02_local( paramData );
+end;
+
+--[[
+ADDITION:
+		UpdateGuard = true
+		Во время ничего не делания - обновляем охрану.
+		Активна поумолчанию, наличие группы охраны обязательно!!!
+]]--
+function	AFC_ProduseUnits_02_local( paramData )
+	if ( paramData==nil ) then return 0 end;
+	local 	_gGroup = paramData:GET("Object");
+	local 	_iON	= paramData:GET("iOwnerNat");
+	local	_nRP	= paramData:GET("nRallyPoint");
+	local	_arrTN	= paramData:GET("arrTN");
+	local	_iWT	= paramData:GET("iWaitTime");
+	local   _bAct	= paramData:GET("g_bActive");
+	local	_iCom 	= paramData:GET("iCommandID");
+	if (_gGroup==nil or _iON==nil or _arrTN==nil or _iWT==nil or _iCom==nil ) then 
+		return 0;
+	end;
+	GROUP(_gGroup).AIGuard = true;
+	--[[-------------------------------------------]]--
+	if ( FSM.CheckObjectFSM( _gGroup.Name, "FSM_PRODUCE_02" )==true ) then return 1 end;
+	--[[ Get free or create new SO ]]--
+	local _soObject = FSM.GET_SO("FSM_PRODUCE_02");
+	if ( _soObject==nil ) then return 0 end;
+	--[[ Get SO params ]]--
+	local soParam = _soObject:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	_soObject:SET_OBJ(_gGroup.Name);
+	--[[ Fill params for SO ]]--
+	local value = nil;
+	
+	value = soParam:CreateParam_INT("iOwnerNat");
+	soParam:SET("iOwnerNat",_iON);
+--[[value.Value = INT(_iON).Value;]]--
+	
+	value = soParam:CreateParam_INT("iMyStartNat");
+	value.Value = GROUP(_gGroup).Nat;
+	
+	if ( _nRP~=nil ) then
+		value = soParam:CreateParam_NODE("nRallyPoint");
+		value.x = NODE(_nRP).x;
+		value.y = NODE(_nRP).y;
+	end;
+	
+	value = soParam:CreateParam_INT("iWaitTime");
+	soParam:SET("iWaitTime",_iWT);
+--[[value.Value = INT(_iWT).Value;]]--
+	
+	soParam:CreateParam_ARRAY("arrTN");
+	soParam:SET("arrTN",_arrTN);
+	
+	value = soParam:CreateParam_BOOL("g_bActive");
+	value.Value = true;
+	if ( _bAct~=nil ) then
+		soParam:SET("g_bActive",_bAct);
+	end;
+	
+	value = soParam:CreateParam_INT("iCommandID");
+	value.Value = INT(_iCom).Value;
+	
+	if ( INT(_iCom).Value == 1 ) then
+		value = paramData:GET("g_gDestGroup");
+		if ( value~=nil ) then
+			--[[ Добавим g_gDestGroup в список параметров для FSM ]]--
+			soParam:CreateParam_BOOL("g_gDestGroup");
+			soParam:SET("g_gDestGroup",value);
+		end;
+	end;
+	
+	--[[-------------------------------------------]]--
+	
+	--[[ Run new dialog ]]--
+	_soObject.STATE = "ST_GLOBAL";
+	FSM.SendMsg( "MSG_ENTER", _soObject.Name, _soObject.Name );
+	
+	--[[-------------------------------------------]]--
+	--[[ Change Guard ]]--
+	local 	_gGuard = GROUP(paramData:GET("g_gGuard"));
+	if ( _gGuard~=nil ) then
+		--[[ Set new Guard MASK ]]--
+		local _iOwnerNMASK = GetNationNMASK( INT(_iON).Value );
+		local _iMyStartNat = INT(soParam:GET("iMyStartNat"));
+		if ( INT(_iON).Value~=_iMyStartNat.Value ) then
+			_iOwnerNMASK = _iOwnerNMASK+GetNationNMASK(_iMyStartNat.Value);
+		end;
+		_gGuard.NMASK = _iOwnerNMASK;
+		_gGuard:ClearOrders();
+		--[[ Set for Guard -> guard zone ]]--
+		local _soGuard = FSM.FindSObyName( _gGuard.Name );
+		if ( _soGuard==nil ) then
+			paramData = PARAM_LIST();
+			value = paramData:CreateParam_BOOL("bGuardZone");		value.Value = false;
+			value = paramData:CreateParam_INT("R");					value.Value = 500;
+			value = paramData:CreateParam_INT("iAddR");				value.Value = 500;
+			paramData:CreateParam_GROUP("SecuredGroup");			paramData:SET("SecuredGroup",_gGroup);
+			ACF_GuardZone00_local( _gGuard, paramData );
+		end;
+		_soGuard = FSM.FindSObyName( _gGuard.Name );
+		if ( _soGuard~=nil ) then
+			value = BOOL( (_soGuard:GET_PARAMS()).GET("bGuardZone") );
+			if ( value~=nil ) then
+				value.Value = false;
+			end;
+		end;
+	end;
+	--[[-------------------------------------------]]--
+	--[[ Try activate guard group support ]]--
+	local _UpdateGuard =  paramData:GET("UpdateGuard");
+	if ( _gGuard~=nil and ( _UpdateGuard==nil or _UpdateGuard.Value==true ) ) then
+		--[[ Add guard group ref to FSM param ]]--
+		soParam:CreateParam_GROUP("gGuardGroup");
+		soParam:SET("gGuardGroup",_gGuard);		
+		--[[ Create guard group units data array ]]--
+		local _arrTN_GG = soParam:CreateParam_ARRAY("arrTN_GG");
+		_gGuard:FillTN_array(_arrTN_GG);
+	end;
+	--[[-------------------------------------------]]--
+	
+	return 1;
+end;
+
+function	FSM_ProduseUnits_02( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	
+	local	_gBarak = GROUP(C_OBJ:GET_OBJ());
+	if ( _gBarak==nil or _gBarak.N==0 )	then return 0 end;
+	
+	local	_par	= C_OBJ:GET_PARAMS();
+	if ( _par==nil )	then return 0 end;
+	
+	--[[ Каждый раз проверяем маску и ставим правильную ]]--
+	local _iMyStartNat = INT(_par:GET("iMyStartNat"));
+	local _iOwner = INT(_par:GET("iOwnerNat"));
+	if ( _iMyStartNat~=nil and _iOwner~=nil ) then
+		if ( _iMyStartNat.Value ~= _iOwner.Value ) then
+			local _iOwnerNMASK = GetNationNMASK( _iOwner.Value );
+			if ( _iOwner.Value~=128 ) then
+				_iOwnerNMASK = _iOwnerNMASK+128;
+			end;
+			if ( _gBarak~=nil ) then 
+				_gBarak.NMASK = _iOwnerNMASK;
+				_gBarak:SetNation(_iOwner.Value);
+				_gBarak:DisableCapturability();
+			end;
+			local _gGuard = GROUP(_par:GET("gGuardGroup"));
+			if ( _gGuard~=nil ) then 
+				_gGuard.NMASK = _iOwnerNMASK;
+			end;
+			local	_gUnits = GROUP(_par:GET("gGroup"));
+			if ( _gUnits~=nil ) then 
+				_gUnits.NMASK = _iOwnerNMASK;
+			end;
+			_iMyStartNat.Value = _iOwner.Value;
+		end;
+	end;
+	
+	--[[ Only for TEST - save current STATE ]]--
+	value  = STR(_par:GET("strSTATE"));
+	if ( value~=nil ) then
+		value.Value = state;
+	end;
+	
+	local _ggTick = INT(_par:GET("GG_Tick"));
+	if ( _ggTick~=nil ) then
+		if ( _ggTick.Value<=0 ) then
+			--[[ Send message for try support gurd group ]]--
+			if ( state=="ST_IDLE" and (STR(_par:GET("strPRODUCE_TYPE"))).Value~="ORDER" ) then 
+				(STR(_par:GET("strPRODUCE_TYPE"))).Value = "SUPPORT_GG";
+			end;
+			_ggTick.Value = 10;
+		else
+			_ggTick.Value = _ggTick.Value - 1;
+		end;
+	end;
+	
+	--[[ Повторить приказ по созданию юнитов ]]--
+	if	( msg.str=="MSG_ORDER" and state~="ST_IDLE" )	then
+		FSM.SendMsg( "MSG_ORDER", 1000, C_OBJ.Name, C_OBJ.Name );
+		return 1;
+	end;
+		
+--[[-------------------------------------------------------]]--	
+	if 		( state == "ST_GLOBAL" 	)	then
+		if 		( msg.str == "MSG_ENTER" 	)	then
+			--[[ Group for store prodused units ]]--
+			_par:CreateParam_GROUP("gGroup");
+			--[[ Set Rally Point ]]--
+			local	_nRP	= NODE(_par:GET("nRallyPoint"));
+			if ( _nRP~=nil ) then
+				_gBarak:SetRallyPoint(_nRP.x,_nRP.y);
+			end;
+			--[[ Set Barak NMASK ot iOwnerNat ]]--
+			local _iOwner = INT(_par:GET("iOwnerNat"));
+			local _iOwnerNMASK = GetNationNMASK( _iOwner.Value );
+			local _iMyStartNat = INT(_par:GET("iMyStartNat"));
+			if ( _iOwner.Value~=_iMyStartNat.Value ) then
+				_iOwnerNMASK = _iOwnerNMASK+GetNationNMASK(_iMyStartNat.Value);
+			end;
+			_gBarak.NMASK = _iOwnerNMASK;
+			--[[ Set value for store produce type - for PLAYER or fro GUARD ]]--
+			value = _par:CreateParam_STR("strPRODUCE_TYPE");
+			value.Value = "UNKNOWN";
+			--[[ Create ticker for corect delta time for support guard group ]]--
+			value = _par:CreateParam_INT("GG_Tick");
+			value.Value = 150;
+			
+			--[[ Only for TEST - save current STATE ]]--
+			value  = _par:CreateParam_STR("strSTATE");
+			value.Value = "ST_GLOBAL";
+			
+			--[[ Не теряем статус активности ]]--
+			value = _par:CreateParam_BOOL("bStartBStatus");
+			_bAct = BOOL(_par:GET("g_bActive"));
+			value.Value = _bAct.Value;
+			
+			--[[ GO in next state ]]--
+			C_OBJ.next_STATE	= "ST_IDLE";
+			C_OBJ.FSC			= true;
+			FSM.SendMsg( "MSG_ORDER", 1000, C_OBJ.Name, C_OBJ.Name );
+		end;
+		return 1;
+--[[-------------------------------------------------------]]--	
+	elseif	( state == "ST_IDLE" 	)	then
+		value = STR(_par:GET("strPRODUCE_TYPE"));
+		if ( value~=nil and value.Value=="SUPPORT_GG" ) then
+			local _arrTN = ARRAY(_par:GET("arrTN_GG"));
+			local _gGuard = GROUP(_par:GET("gGuardGroup"));
+			if ( _arrTN~=nil and _gGuard~=nil ) then
+				if ( Get_arrTN_UnitNumberSum(_arrTN)~=_gGuard.N  ) then
+					_ggTick.Value = 1000;
+					--[[ Создаем новую схему обработки - пополняем группу охраны ]]--
+					if ( _par:GET("arrTN_SGG")==nil ) then
+						_arrTN_SGG = _par:CreateParam_ARRAY("arrTN_SGG");
+					end;
+					_gGuard:FillDIFF_TN_array(_arrTN,_arrTN_SGG,_gBarak.N);
+					--[[ Переходим в состояние производства ]]--
+					C_OBJ.next_STATE	= "ST_BEGIN_PR";
+					C_OBJ.FSC			= true;
+				end;
+			end;
+		end;
+			
+		_bAct = _par:GET("g_bActive");
+		if	( msg.str == "MSG_ORDER" 	)	then
+			if ( _bAct~=nil ) then
+				if ( BOOL(_bAct).Value==false ) then
+					FSM.SendMsg( "MSG_ORDER", 1000, C_OBJ.Name, C_OBJ.Name );
+					return 1;
+				end;
+			end;
+			value.Value="ORDER";
+			C_OBJ.next_STATE	= "ST_BEGIN_PR";
+			C_OBJ.FSC			= true;
+		end;
+		
+		--[[ Порверяем статус активности, возможно стиит начать строительство ]]--
+		local _oldStatus = BOOL(_par:GET("bStartBStatus"));
+		if ( _bAct~=nil and _oldStatus~=nil ) then
+			if ( _oldStatus.Value==false and BOOL(_bAct).Value==true ) then
+				FSM.SendMsg( "MSG_ORDER", 1000, C_OBJ.Name, C_OBJ.Name );
+			end;
+			_oldStatus.Value = BOOL(_bAct).Value;
+			return 1;
+		end;
+		--[[ **************************************************************** ]]--
+		
+		return 1;
+--[[-------------------------------------------------------]]--	
+	elseif 	( state == "ST_BEGIN_PR" )	then
+		if ( msg.str == "MSG_ENTER" ) then
+			local _iUT = nil;
+			local _iUN = nil;
+			local _arrTN = ARRAY(_par:GET("arrTN"));
+			--[[ use suport ]]--
+			value = STR(_par:GET("strPRODUCE_TYPE"));
+			if ( value~=nil and value.Value=="SUPPORT_GG" ) then
+				_arrTN = ARRAY(_par:GET("arrTN_SGG"));
+			end;
+			--[[ ********** ]]--
+			local _arrN  = _arrTN:SIZE()/2;
+			for i = 1,_arrN,1 do
+				_iUT = INT(_arrTN:GET(2*i-1));
+				_iUN = INT(_arrTN:GET(2*i));
+				_gBarak:Produce(_iUT.Value,_iUN.Value);
+			end;
+			C_OBJ.next_STATE	= "ST_PRODUCE";
+			C_OBJ.FSC			= true;
+		end;
+		return 1;
+--[[-------------------------------------------------------]]--	
+	elseif 	( state == "ST_PRODUCE" )	then
+		local	_gUnits = GROUP(_par:GET("gGroup"));
+		if 		( msg.str == "MSG_NEW_UNIT" )	then
+			local __GID = INT(msg:GET_PARAMS():GET("inewGID"));
+			_gUnits:AddUnitByGID(__GID.Value);
+			_gUnits.NMASK = _gBarak.NMASK;
+			_gUnits:DeleteItemDrops();
+			return 1;
+		elseif 	( msg.str == "MSG_UPDATE" ) then
+			if ( _gBarak.NO_ORDERS_NUM==_gBarak.N and _gUnits.Ready==true ) then 
+				C_OBJ.next_STATE	= "ST_END_PR";
+				C_OBJ.FSC			= true;
+			end;
+			return 1;
+		end;
+		return 1;
+--[[-------------------------------------------------------]]--	
+	elseif 	( state == "ST_END_PR" )	then
+		local	_gUnits = GROUP(_par:GET("gGroup"));
+		if 		( msg.str == "MSG_UPDATE" 	) then
+			if ( _gUnits.Ready == true ) then
+				C_OBJ.next_STATE	= "ST_IDLE";
+				C_OBJ.FSC			= true;
+			end;
+			return 1;
+		elseif 	( msg.str == "MSG_EXIT" 	) then
+			_gUnits:DeleteItemDrops();
+			local _iOwner = INT(_par:GET("iOwnerNat"));
+			--[[ Если мы строили юнитов для guard group ]]--
+			value = STR(_par:GET("strPRODUCE_TYPE"));
+			if ( value~=nil and value.Value=="SUPPORT_GG" ) then
+				value.Value = "UNKNOWN";
+				_ggTick.Value = 150;
+				local _gGuard = GROUP(_par:GET("gGuardGroup"));
+				local _reStartGuard = false;
+				if ( _gGuard.N<=0 ) then	_reStartGuard = true end;
+				_gUnits:RemoveNUnitsToCGroup(_gGuard,_gUnits.N);
+				local _iON = _par:GET("iOwnerNat");
+				local _iOwnerNMASK = GetNationNMASK( INT(_iON).Value );
+				local _iMyStartNat = INT(_par:GET("iMyStartNat"));
+				if ( INT(_iON).Value~=_iMyStartNat.Value ) then
+					_iOwnerNMASK = _iOwnerNMASK+GetNationNMASK(_iMyStartNat.Value);
+				end;
+				_gGuard.NMASK = _iOwnerNMASK;
+				if ( _reStartGuard==true ) then
+					--[[ Set new Guard MASK ]]--
+					_gGuard:ClearOrders();
+					--[[ Set for Guard -> guard zone ]]--
+					local _soGuard = FSM.FindSObyName( _gGuard.Name );
+					if ( _soGuard==nil ) then
+						paramData = PARAM_LIST();
+						value = paramData:CreateParam_BOOL("bGuardZone");		value.Value = false;
+						value = paramData:CreateParam_INT("R");					value.Value = 500;
+						value = paramData:CreateParam_INT("iAddR");				value.Value = 500;
+						paramData:CreateParam_GROUP("SecuredGroup");			paramData:SET("SecuredGroup",C_OBJ:GET_OBJ());
+						value = paramData:CreateParam_NODE("GuardNode");
+						value.x = _gBarak.Xc; 
+						value.y = _gBarak.Yc;
+						value.R = 500;
+						ACF_GuardZone00_local( _gGuard, paramData );
+					end;
+				end;
+				return 1;
+			end;
+			--[[ На основании флага - решаем что делать с группой ]]--
+			_iCom = INT(_par:GET("iCommandID"));
+			if ( _iCom~=nil ) then
+				if 		( _iCom.Value == 0 ) then 
+					AddStorm(_gUnits,_iOwner.Value,0,true);
+				elseif 	( _iCom.Value == 1 ) then
+					_destGroup = GROUP(_par:GET("g_gDestGroup"));
+					if ( _destGroup~=nil ) then
+						_gUnits:RemoveNUnitsToCGroup(_destGroup,_gUnits.N);
+					end;
+				end;
+			end;
+			--[[ ------------------------------------------------ ]]--
+			local _iTimer = INT(_par:GET("iWaitTime"));
+			value.Value = "UNKNOWN";
+			FSM.SendMsg( "MSG_ORDER", _iTimer.Value, C_OBJ.Name, C_OBJ.Name );
+			return 1;
+		end;
+		return 1;
+--[[-------------------------------------------------------]]--	
+	end;
+	return 0;
+end;
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+

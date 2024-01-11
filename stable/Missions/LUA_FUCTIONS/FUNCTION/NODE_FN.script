@@ -1,0 +1,11 @@
+
+function	NODE_CHENGE_NMASK( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_iNT = INT(paramData:GET("Nation"));
+	_nND = NODE(paramData:GET("Node"));
+	_iNM = INT(paramData:GET("NMask"));
+	if ( _iNT~=nil and _nND~=nil and _iNM~=nil ) then
+		return ChengeNMaskInNode(_iNT.Value,_iNM.Value,_nND);
+	end;
+	return 0;
+end;

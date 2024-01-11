@@ -1,0 +1,16 @@
+<WeaponModificator>
+ <Name>MC_wIceSphere_Sound</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <PlaySomeSound>
+     <SoundID>M_IceSphere</SoundID>
+    </PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

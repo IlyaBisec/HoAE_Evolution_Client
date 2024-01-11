@@ -1,0 +1,212 @@
+--[[***************************************]]--
+--[[ Attack states of any type "ST_ATTACK" ]]--
+--[[***************************************]]--
+
+--[[ Simple Attack -> attack enemy in zones ]]--
+--[[ USE :
+		C_OBJ	- current smart object
+		msg		- current message
+		_group	- controled group
+		_enemy 	- enemy group
+		_zone	- zone for guard
+		_addR	- aditional R for serch archers
+]]--
+function ST_ATTACK_00( C_OBJ, msg )
+	local _group	= GROUP(C_OBJ:GET_OBJ());
+	local _par		= C_OBJ:GET_PARAMS();
+	local _zone		= NODE(_par:GET("GuardNode"));
+	local _addR		= INT(_par:GET("iAddR"));
+	local _enemy	= GROUP(_par:GET("EnemyGroup"));
+	local _Nat 			= _group.Nat;
+	if 		( msg.str == "MSG_ENTER" 		)	then
+		_group.SearchEnemy = true;
+		_group.AIGuard	   = false;
+		_enemy:RemAllUnits();
+		FSM.SendMsg( "MSG_CREATE_EN", C_OBJ.Name, C_OBJ.Name );
+		return 1;
+	elseif 	( msg.str == "MSG_CREATE_EN" 	)	then
+		_enemy:AddEnemyUnitsInZone(_Nat,_zone.x,_zone.y,_zone.R+_addR.Value*2,false);
+		if ( _enemy.N > 0 ) then
+			if ( 	_enemy:GetAmountOfNewUnits(true)>0 or 
+					_enemy:GetAmountOfRemUnits(true)>0 or
+					_group.NO_ORDERS_NUM>0 
+			) then
+				FSM.SendMsg( "MSG_ATTACK_EN", C_OBJ.Name, C_OBJ.Name );
+			end;
+		end;
+		return 1;
+	elseif 	( msg.str == "MSG_ATTACK_EN" 	) 	then
+		--[[ перераспредилить цели для аттаки ]]--
+		_group:AttackGroup_NearestOB(_enemy);
+		return 1;
+	elseif	( msg.str == "MSG_UPDATE" 		)	then
+		local EnN = GET.EnemyUnitsAmount(_Nat,_zone.x,_zone.y,_zone.R+_addR.Value*2);
+		local EbN = GET.GetEnemyBuildindsAmount(_Nat,_zone.x,_zone.y,_zone.R+_addR.Value*2);
+		local EnY = _group:CheckAttackPossibilityXYR(_zone.x,_zone.y,_zone.R+_addR.Value*2);
+		if ( ( EnN==0 and EbN==0 ) or EnY==false ) then
+			C_OBJ.next_STATE	= "ST_BACK";
+			C_OBJ.FSC			= true;
+		elseif ( ( EnN~=_enemy.N and EbN~=_enemy.N ) or _group.NO_ORDERS_NUM>0 ) then
+			FSM.SendMsg( "MSG_CREATE_EN", C_OBJ.Name, C_OBJ.Name );
+		end;
+		return 1;
+	elseif	( msg.str == "MSG_EXIT" 	)	then
+		_group.UnderAttack = false;
+		if  ( _par:GET("SecuredGroup")~=nil ) then
+			_SecuredGroup = GROUP(_par:GET("SecuredGroup"));
+			_SecuredGroup.UnderAttack = false;
+		end;
+		_enemy:RemAllUnits();
+		return 1;
+	end;
+	return 1;
+end;
+
+function ST_ATTACK_00_01( C_OBJ, msg, strX, strY, strR, strAREAID, strNextSTATE )
+	local _group	= GROUP(C_OBJ:GET_OBJ());
+	local _par		= C_OBJ:GET_PARAMS();
+	local _x		= (INT(_par:GET(strX))).Value*64+32;
+	local _y		= (INT(_par:GET(strY))).Value*64+32;
+	local _R		= (INT(_par:GET(strR))).Value;
+	if ( _par:GET("EnemyGroup")==nil ) then 
+		_par:CreateParam_GROUP("EnemyGroup");
+	end;
+	local _enemy	= GROUP(_par:GET("EnemyGroup"));
+	local _Nat 			= _group.Nat;
+	if 		( msg.str == "MSG_ENTER" 		)	then
+		_group.SearchEnemy = true;
+		_group.AIGuard	   = false;
+		_enemy:RemAllUnits();
+		FSM.SendMsg( "MSG_CREATE_EN", C_OBJ.Name, C_OBJ.Name );
+		--[[ Запоминаем текущую AreaID для атаки ]]--
+		local value = INT(_par:GET("curAREAID"));
+		if ( value==nil ) then
+			value = _par:CreateParam_INT("curAREAID");
+		end;
+		value.Value = ( INT( _par:GET( strAREAID ) ) ).Value;
+		return 1;
+	elseif 	( msg.str == "MSG_CREATE_EN" 	)	then
+		_enemy:AddEnemyUnitsInZone(_Nat,_x,_y,_R,false);
+		if ( _enemy.N > 0 ) then
+			if ( 	_enemy:GetAmountOfNewUnits(true)>0 or 
+					_enemy:GetAmountOfRemUnits(true)>0 or
+					_group.NO_ORDERS_NUM>0 
+			) then
+				FSM.SendMsg( "MSG_ATTACK_EN", C_OBJ.Name, C_OBJ.Name );
+			end;
+		end;
+		return 1;
+	elseif 	( msg.str == "MSG_ATTACK_EN" 	) 	then
+		--[[ перераспредилить цели для аттаки ]]--
+		_group:AttackGroup_NearestOB(_enemy);
+		return 1;
+	elseif	( msg.str == "MSG_UPDATE" 		)	then
+		--[[ Аварийно выходим - смена позиции атаки ]]--
+		if ( (INT(_par:GET(strAREAID))).Value ~= INT(_par:GET("curAREAID")).Value ) then
+			C_OBJ.next_STATE	= strNextSTATE;
+			C_OBJ.FSC			= true;
+			return 1;
+		end;
+		--[[ ************************************** ]]--
+		local EnN = GET.EnemyUnitsAmount(_Nat,_x,_y,_R);
+		local EbN = GET.GetEnemyBuildindsAmount(_Nat,_x,_y,_R);
+		local EnY = _group:CheckAttackPossibilityXYR(_x,_y,_R);
+		if ( ( EnN==0 and EbN==0 ) or EnY==false ) then
+			C_OBJ.next_STATE	= strNextSTATE;
+			C_OBJ.FSC			= true;
+		elseif ( ( EnN~=_enemy.N and EbN~=_enemy.N ) or _group.NO_ORDERS_NUM>0 ) then
+			FSM.SendMsg( "MSG_CREATE_EN", C_OBJ.Name, C_OBJ.Name );
+		end;
+		return 1;
+	elseif	( msg.str == "MSG_EXIT" 	)	then
+		_group.UnderAttack = false;
+		_enemy:RemAllUnits();
+		( INT( _par:GET( strAREAID ) ) ).Value = -1;
+		return 1;
+	end;
+	return 1;
+end;
+
+
+
+--[[ Simple Attack -> attack nearest enemy ]]--
+--[[ USE :
+		C_OBJ	- current smart object
+		msg		- current message
+		_group	- controled group
+]]--
+--[[
+Description:
+	-	Просто атакуем всех кто рядом. После переходим в
+		заддоное состояние.
+]]--
+function ST_ATTACK_01( C_OBJ, msg, strNextSTATE )
+	local _group	= GROUP(C_OBJ:GET_OBJ());
+	local _par		= C_OBJ:GET_PARAMS();
+	if 		( msg.str == "MSG_ENTER" 		)	then
+		--[[ Не обрабатываем пустую группу ]]--
+		if ( _group==nil or _group.N<=0 ) then
+			FSM.SendMsg( "MSG_EXIT", C_OBJ.Name, C_OBJ.Name );
+			return 1;
+		end;
+		--[[ Готовим объект к использованию ]]--
+		_group.SearchEnemy = true;
+		--[[ Добавим задержку на поиск врага (def == 5) ]]--
+		if ( _par:GET("l_ticker")==nil ) then
+			_par:CreateParam_INT("l_ticker");
+		end;
+		INT(_par:GET("l_ticker")).Value = 0;
+		return 1;
+	elseif 	( msg.str == "MSG_UPDATE" 	)	then
+		local l_ticker = INT(_par:GET("l_ticker"));
+		if ( l_ticker.Value == 0 ) then
+			local _OverOrder = CLASS.GROUP._MOVE + CLASS.GROUP._SOME_ORDER + CLASS.GROUP._BRIG_ORDER;
+			_group:idAttackEnemy(_OverOrder);
+			--[[ Выходим из состояния: 
+				 - Все погибли
+				 - Нет врагов
+			]]--
+			if ( _group.N<=0 or _group:GetEnemyUnitsAroundN( 1000 + (_group.N/100)*100 )<=0 ) then
+				C_OBJ.next_STATE	= strNextSTATE;
+				C_OBJ.FSC			= true;
+				return 1;
+			end;
+		end;
+		l_ticker.Value = l_ticker.Value + 1;
+		if ( l_ticker.Value > 5  ) then
+			l_ticker.Value = 0;
+		end;
+		return 1;
+	elseif	( msg.str == "MSG_EXIT" 	)	then
+		if ( _group~=nil and _group.N>0 ) then
+			_group.SearchEnemy = false;
+			_group.UnderAttack = false;
+		end;
+		return 1;
+	end;
+	return 1;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

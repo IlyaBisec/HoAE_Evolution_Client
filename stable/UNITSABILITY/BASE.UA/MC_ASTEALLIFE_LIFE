@@ -1,0 +1,17 @@
+<NewAbility>
+ <Name>MC_aStealLife_Life</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewAbility>

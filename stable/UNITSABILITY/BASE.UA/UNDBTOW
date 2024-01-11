@@ -1,0 +1,32 @@
+<ExtraShootingElement>
+ <Name>UndBTow</Name>
+ <Type>Ability</Type>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MinDistance>200</MinDistance>
+ <MaxDistance>1000</MaxDistance>
+ <Damage>5</Damage>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>und_tow</RefName>
+ </Weapon>
+ <WholeObjectModel></WholeObjectModel>
+ <ShootAnimation></ShootAnimation>
+ <WholeShootTime>20</WholeShootTime>
+ <TimeOfShooting>10</TimeOfShooting>
+ <TotalRechargeTime>1000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <ShootAngleDifference>256</ShootAngleDifference>
+ <RotationSpeed>10000</RotationSpeed>
+ <TowerCenterZ>135</TowerCenterZ>
+ <CannonRadius>10</CannonRadius>
+</ExtraShootingElement>

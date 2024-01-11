@@ -1,0 +1,34 @@
+<NewAbility>
+ <Name>WA_DrLeech_fear</Name>
+ <FileID>Interf3\Ability\auras_dead_creatures</FileID>
+ <SpriteID>1</SpriteID>
+ <EffectFileID>Interf3\Ability\auras_dead_creatures</EffectFileID>
+ <EffectSpriteID>1</EffectSpriteID>
+ <HintName>#AuraCloudofFear.NAME</HintName>
+ <Hint>#AuraCloudofFear</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <Modificators>
+  <mod_Fear></mod_Fear>
+ </Modificators>
+</NewAbility>

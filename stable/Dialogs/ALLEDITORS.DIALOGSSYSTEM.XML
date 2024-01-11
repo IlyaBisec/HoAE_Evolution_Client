@@ -1,0 +1,51 @@
+<DialogsSystem>
+ <HintX>20</HintX>
+ <HintY>20</HintY>
+ <ChildDialogs>
+  <DialogsDesk>
+   <ChildDialogs>
+    <ListDesk>
+     <Border>StandartBorder</Border>
+     <EnableVerticalScroller>true</EnableVerticalScroller>
+     <marginX>2</marginX>
+     <marginY>2</marginY>
+     <Element>
+      <VitButton>
+       <Message>123</Message>
+       <FontPassive>SpecialYellowFont</FontPassive>
+       <FontOver>SpecialWhiteFont</FontOver>
+       <OneSprited>true</OneSprited>
+       <GP_File>Interf3\InGame\_common_selectline</GP_File>
+       <SpritePassive0>-1</SpritePassive0>
+       <v_Actions>
+        <va_ListItem>
+         <Name>List Item</Name>
+        </va_ListItem>
+       </v_Actions>
+       <Width>260</Width>
+       <Height>25</Height>
+      </VitButton>
+     </Element>
+     <v_Actions>
+      <va_ListDesk>
+       <Name>List Desk</Name>
+      </va_ListDesk>
+     </v_Actions>
+     <Name>LIST</Name>
+     <x>20</x>
+     <y>19</y>
+     <Width>264</Width>
+     <Height>368</Height>
+    </ListDesk>
+   </ChildDialogs>
+   <Width>308</Width>
+   <Height>402</Height>
+  </DialogsDesk>
+ </ChildDialogs>
+ <Width>1</Width>
+ <Height>1</Height>
+ <Color>00000000</Color>
+ <ScaleX>0.000000</ScaleX>
+ <ScaleY>0.000000</ScaleY>
+ <Source>Dialogs\ALLEDITORS.DialogsSystem.xml</Source>
+</DialogsSystem>

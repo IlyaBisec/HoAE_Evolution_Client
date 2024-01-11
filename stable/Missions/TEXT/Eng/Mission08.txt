@@ -1,0 +1,45 @@
+#M08D01S01P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t04.ogg]Hey, guard! I need to get to the opposite shore.
+#M08D01S02P01    [M8Elf][Normal][Missions\SOUND\MISSION08\m08_t05.ogg]The village has been beset by the goblins, we can't let anyone pass.
+#M08D01S02P02    [M8Elf][Normal][Missions\SOUND\MISSION08\m08_t06.ogg]The residents may need the boat at any moment to secure their retreat.
+
+#M08D01S02P03    [M8Elf][Normal][Missions\SOUND\MISSION08\m08_t07.ogg]This boat will stay ashore while goblins are nearby.
+
+#M08D01S03P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t12.ogg]Guard! I need to get to the opposite shore.
+#M08D01S04P01    [M8Elf][Normal][Missions\SOUND\MISSION08\m08_t13.ogg]Take the boat, Ranger..
+
+#M08D02S01P01    [M8Elder][Normal][Missions\SOUND\MISSION08\m08_t08.ogg]Warrior, help us! Goblins have attacked our village!
+
+#M08D03S01P01    [M8Elder][Normal][Missions\SOUND\MISSION08\m08_t09.ogg]Thank you, warrior, for saving us! Take these items as a sign of gratitude: they will help you in battles.
+#M08D03S02P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t10.ogg]I'm seeking the Oracle. The druid said that he lived in the Ravine of the Winds.
+#M08D03S03P01    [M8Elder][Normal][Missions\SOUND\MISSION08\m08_t11.ogg]The Ravine can be reached via the foothills, but they are swarming with evil. There is another way though, through the lake.
+
+#M08D04S01P01    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t14.ogg]Greetings. I see you are a strong and brave warrior. Anyone else couldn't even approach our lands.
+#M08D04S01P02    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t15.ogg]Do you want to help me? I study the dragons of the mountains and I need one of their eggs.
+#M08D04S01P03    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t16.ogg]There is a nest of these creatures. Due north from here.
+#M08D04S02P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t17.ogg]I have a very little time to help you, Druid.
+#M08D04S03P01    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t18.ogg]I will reward you, Ranger.  Ahead lie dangerous lands, full of enemies, and with my help you'll be able to traverse them with ease.
+
+#M08D05S02P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t19.ogg]Old man, I've brought you your dragon's egg.
+#M08D05S03P01    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t20.ogg]Thank you, Ranger! It will help me with my research. Here, take this cloak. It will provide good resistance against the enemy's magic.
+#M08D05S04P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t21.ogg]I hurry to the Ravine of the Winds. How can I get there?
+#M08D05S05P01    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t22.ogg]There are two roads that lead to the Ravine.
+#M08D05S05P02    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t23.ogg]The northern one - through the foothills; you've been there, but there are l perilous monsters along the way.
+#M08D05S05P03    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t24.ogg]The eastern road heads to the mountain gates. They are guarded by elfs, who will let you through.
+
+#M08D06S01P01    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t27.ogg]Gnolls live not far away from here and they are nothing but trouble.
+#M08D06S01P02    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t28.ogg]They attacked again. Now we are going to strike at them. Join us, Ranger!
+#M08D06S01P03    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t29.ogg]With your help we'll deal with those monsters much faster.
+#M08D06S02P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t30.ogg]I'm in a hurry to visit the Oracle in the Ravine of the Winds.
+#M08D06S03P01    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t31.ogg]You're free to make up your own mind, but be aware: the mountain gates won't open until we slay all the gnolls.
+
+#M08D07S02P01    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t32.ogg]The gates are open! You can move on.
+
+#M08HINT1P01     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t01.ogg]Humm, Interesting, what does this Oracle look like?
+#M08HINT1P02     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t02.ogg]My father told me once that one of them lived in the Scrapian Ruins, but orcs later destroyed it.
+#M08HINT1P03     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t03.ogg]No one knows where these creatures came from, and most of them are relics.
+
+#M08HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t25.ogg]Two new spells! It seems that I am unwittingly turning into a mage:
+#M08HINT2P02     [Elhant][Suprised][Missions\SOUND\MISSION08\m08_t26.ogg]I must remember now not to turn into a bearded bore like the druids...
+
+#M08HINT3P01     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t33.ogg]The mountains seem to be darker and more mysterious. the Oracle... perhaps it is somewhere nearby? 
+                                                           

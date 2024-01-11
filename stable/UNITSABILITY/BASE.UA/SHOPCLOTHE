@@ -1,0 +1,30 @@
+<NewMagazine>
+ <ShopCategory>Clothe</ShopCategory>
+ <Name>ShopClothe</Name>
+ <FileID>Interf3\items3</FileID>
+ <SpriteID>4</SpriteID>
+ <EffectFileID>Interf3\items3</EffectFileID>
+ <EffectSpriteID>4</EffectSpriteID>
+ <HintName>#HintShopItems.NAME</HintName>
+ <Hint>#HintShopItems</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\UzabBilding\UzabBilding.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewMagazine>

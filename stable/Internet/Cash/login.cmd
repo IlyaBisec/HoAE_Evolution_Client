@@ -1,0 +1,1 @@
+GW|LW_new|LW_file&Internet/Cash/log.cml|LW_time&30000&LogError.cml|login&%s

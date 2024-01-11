@@ -1,0 +1,33 @@
+<WeaponModificator>
+ <Name>Arrow2</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <FollowUnit></FollowUnit>
+    <BalisticMotion>
+     <ConstSpeed>500</ConstSpeed>
+     <SetTargetHieghtOnGround>true</SetTargetHieghtOnGround>
+    </BalisticMotion>
+    <DrawOne></DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <Event>
+    <TargetReached>
+     <TargetPointDistance>3</TargetPointDistance>
+    </TargetReached>
+   </Event>
+   <WeaponModificators>
+    <MakeDamage>
+     <InRadius>20</InRadius>
+     <MaxUnits>1</MaxUnits>
+     <DamageBuilding>true</DamageBuilding>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

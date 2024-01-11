@@ -1,0 +1,507 @@
+\\QUEST
+#QuestItemsBug.NAME Bug
+#QuestItemsBug Bug
+#QuestItemsOrb.NAME Eye of Hartualon
+#QuestItemsOrb Eye of Hartualon
+#QuestItemsFlask.NAME Flask with water
+#QuestItemsFlask Flask with water
+#QuestItemsVint.NAME Screw
+#QuestItemsVint Screw
+#QuestItemsKey.NAME Key
+#QuestItemsKey Key
+#QuestItemsEgg.NAME Dragon egg
+#QuestItemsEgg Dragon egg
+#Key1.NAME Key
+#Key1 Key
+#Key2.NAME Key
+#Key2 Key
+#Key3.NAME Key
+#Key3 Key
+#Pearl1.NAME Gem of mechanics
+#Pearl1 Gem of mechanics
+#Pearl2.NAME Gem of coldness
+#Pearl2 Gem of coldness
+#Pearl3.NAME Gem of heat
+#Pearl3 Gem of heat
+#Pearl4.NAME Gem of death
+#Pearl4 Gem of death
+
+\\ Головные уборы(8)
+
+#Helm1.NAME Hunter's hat
+#Helm1 Hunter's hat
+#Helm2.NAME Steel helmet
+#Helm2 Steel helmet
+#Helm3.NAME Orc's helmet
+#Helm3 Orc's helmet
+#Helm4.NAME Eagle helmet
+#Helm4 Eagle helmet
+#Helm5.NAME Snake's hoop
+#Helm5 Snake's hoop
+#Helm6.NAME Dragon's helmet
+#Helm6 Dragon's helmet
+#Helm7.NAME Crown of Lament
+#Helm7 Crown of Lament
+#Helm8.NAME Mask of Death
+#Helm8 Mask of Death
+
+\\ Броня(8)
+
+#Armor1.NAME Leather jacket
+#Armor1 Leather jacket
+#Armor2.NAME Chain mail
+#Armor2 Chain mail
+#Armor3.NAME Druid's toga
+#Armor3 Druid's toga
+#Armor4.NAME Elven chain mail
+#Armor4 Elven chain mail
+#Armor5.NAME Sorcerer's robe
+#Armor5 Sorcerer's robe
+#Armor6.NAME Bjorn's full armor
+#Armor6 Bjшrn's full armor
+#Armor7.NAME Living armor
+#Armor7 Living armor
+#Armor8.NAME Midnight Cuirass
+#Armor8 Midnight Cuirass
+
+\\ Плащи(8)
+
+#Cloak1.NAME Apprentice's cloak
+#Cloak1 Apprentice's cloak
+#Cloak2.NAME Ranger's cloak
+#Cloak2 Ranger's cloak
+#Cloak3.NAME Scout's cloak
+#Cloak3 Scout's cloak
+#Cloak4.NAME Necromancer's cloak
+#Cloak4 Necromancer's cloak
+#Cloak5.NAME Life Champion's cloak
+#Cloak5 Life Champion's cloak
+#Cloak6.NAME Cloak of great rains
+#Cloak6 Cloak of great rains
+#Cloak7.NAME Ancient cloak
+#Cloak7 Ancient cloak
+#Cloak8.NAME Cloak of invisibility
+#Cloak8 Cloak of invisibility
+
+\\ Перчатки(8)
+
+#Gloves1.NAME Leather gloves
+#Gloves1 Leather gloves
+#Gloves2.NAME Archer's gloves
+#Gloves2 Archer's gloves
+#Gloves3.NAME Armored gloves
+#Gloves3 Armored gloves
+#Gloves4.NAME Gloves of bear's might
+#Gloves4 Gloves of bear's might
+#Gloves5.NAME Alchemist's gloves
+#Gloves5 Alchemist's gloves
+#Gloves6.NAME Hammerer's gauntlets
+#Gloves6 Hammerer's gauntlets
+#Gloves7.NAME Spider's gloves
+#Gloves7 Spider's gloves
+#Gloves8.NAME Fire touch
+#Gloves8 Fire touch
+
+\\ Обувь(8)
+
+#Boots1.NAME Wanderer's boots
+#Boots1 Wanderer's boots
+#Boots2.NAME Heavy boots
+#Boots2 Heavy boots
+#Boots3.NAME Orc's boots
+#Boots3 Orc's boots
+#Boots4.NAME Cheetah skin shoes
+#Boots4 Cheetah skin shoes
+#Boots5.NAME Druid's shoes
+#Boots5 Druid's shoes
+#Boots6.NAME Dragon's shoes
+#Boots6 Dragon's shoes
+#Boots7.NAME Forest warrior's boots
+#Boots7 Forest warrior's boots
+#Boots8.NAME Irneate sandals
+#Boots8 Irneate sandals
+
+\\ Пояса(8)
+
+#Belt1.NAME Leather belt
+#Belt1 Leather belt
+#Belt2.NAME Bone belt
+#Belt2 Bone belt
+#Belt3.NAME Ranger's belt
+#Belt3 Ranger's belt
+#Belt4.NAME Black legion belt
+#Belt4 Black legion belt
+#Belt5.NAME Belt of endurance
+#Belt5 Belt of endurance
+#Belt6.NAME Snake's belt
+#Belt6 Snake's belt
+#Belt7.NAME Belt of Crystal Lake
+#Belt7 Belt of Crystal Lake
+#Belt8.NAME Giant Lord's Belt
+#Belt8 Giant Lord's Belt
+
+\\ Медальоны(8)
+
+#Medalion1.NAME Necklace of pearls
+#Medalion1 Necklace of pearls
+#Medalion2.NAME Protective amulet
+#Medalion2 Protective amulet
+#Medalion3.NAME Bear's fang
+#Medalion3 Bear's fang
+#Medalion4.NAME Leprechaun's medallion
+#Medalion4 Leprechaun's medallion
+#Medalion5.NAME Crystal of knowledge
+#Medalion5 Crystal of knowledge
+#Medalion6.NAME Silver star
+#Medalion6 Silver star
+#Medalion7.NAME Sorcerer's talisman
+#Medalion7 Sorcerer's talisman
+#Medalion8.NAME Dragon's eye
+#Medalion8 Dragon's eye
+
+\\ Браслеты(16)
+
+#Bracelet1.NAME Leather bracer
+#Bracelet1 Leather bracer
+#Bracelet2.NAME Shaman's bracer
+#Bracelet2 Shaman's bracer
+#Bracelet3.NAME Centaur's bracer
+#Bracelet3 Centaur's bracer
+#Bracelet4.NAME Enhanced bracelet
+#Bracelet4 Enhanced bracelet
+#Bracelet5.NAME Bone bracelet
+#Bracelet5 Bone bracelet
+#Bracelet6.NAME Fairy's bracelet
+#Bracelet6 Fairy's bracelet
+#Bracelet7.NAME Bracer of defense
+#Bracelet7 Bracer of defense
+#Bracelet8.NAME Troll's blood bracelet
+#Bracelet8 Troll's blood bracelet
+#Bracelet9.NAME Bracelet with spikes
+#Bracelet9 Bracelet with spikes
+#Bracelet10.NAME Sorcerer's bracelet
+#Bracelet10 Sorcerer's bracelet
+#Bracelet11.NAME Rune bracer
+#Bracelet11 Rune bracer
+#Bracelet12.NAME Druid's bracelet
+#Bracelet12 Druid's bracelet
+#Bracelet13.NAME Lightning bracelet
+#Bracelet13 Lightning bracelet
+#Bracelet14.NAME Obsidian bracelet
+#Bracelet14 Obsidian bracelet
+#Bracelet15.NAME White Tower bracelet
+#Bracelet15 White Tower bracelet
+#Bracelet16.NAME Unicorn's bracelet
+#Bracelet16 Unicorn's bracelet
+
+\\ Кольца(32)
+
+#Ring1.NAME Wedding ring
+#Ring1 Wedding ring
+#Ring2.NAME Silver ring
+#Ring2 Silver ring
+#Ring3.NAME Ring with ruby
+#Ring3 Ring with ruby
+#Ring4.NAME Ring with sapphire
+#Ring4 Ring with sapphire
+#Ring5.NAME Ring with topaz
+#Ring5 Ring with topaz
+#Ring6.NAME Apprentice's ring
+#Ring6 Apprentice's ring
+#Ring7.NAME Ring with skull
+#Ring7 Ring with skull
+#Ring8.NAME Orc's ring
+#Ring8 Orc's ring
+#Ring9.NAME Dead man's ring
+#Ring9 Dead man's ring
+#Ring10.NAME Troll's ring
+#Ring10 Troll's ring
+#Ring11.NAME Lich's ring
+#Ring11 Lich's ring
+#Ring12.NAME Stone ring
+#Ring12 Stone ring
+#Ring13.NAME Ring of regeneration
+#Ring13 Ring of regeneration
+#Ring14.NAME Ring of memory
+#Ring14 Ring of memory
+#Ring15.NAME Ring of protection
+#Ring15 Ring of protection
+#Ring16.NAME Warrior's ring
+#Ring16 Warrior's ring
+#Ring17.NAME Ring of magi
+#Ring17 Ring of magi
+#Ring18.NAME Lapis-lazuli ring
+#Ring18 Lapis-lazuli ring
+#Ring19.NAME Berserker's ring
+#Ring19 Berserker's ring
+#Ring20.NAME Ring of luck
+#Ring20 Ring of luck
+#Ring21.NAME Bone ring
+#Ring21 Bone ring
+#Ring22.NAME Black ring
+#Ring22 Black ring
+#Ring23.NAME Ring of wind power
+#Ring23 Ring of wind power
+#Ring24.NAME Wanderer's ring
+#Ring24 Wanderer's ring
+#Ring25 Master bowman's ring
+#Ring26.NAME Battle mage's ring
+#Ring26 Battle mage's ring
+#Ring27.NAME Ring of magic
+#Ring27 Ring of magic
+#Ring28.NAME Ring of life
+#Ring28 Ring of life
+#Ring29.NAME Ring of power
+#Ring29 Ring of power
+#Ring30.NAME Ring {C FFE28B00}Flame rim
+#Ring30 Flame rim
+#Ring31.NAME Obsidian ring {C FF9400C7}Soul catcher
+#Ring31 {C FFFFFFFF}Enemies affected by {C FF9400C7}Soulcatcher {C FFFFFFFF}will grant him a portion of their life force upon death (+50 health, +50 mana).
+#SoulCatcher.NAME {C FF9400C7}Soulcatcher
+#SoulCatcher Enemies affected by the hero will grant him a portion of their life force upon death (+50 health, +50 mana).
+#Ring32 Ring {C FFEE1010}Dragon's heart
+
+\\ Луки(Следопыт)(8)
+
+#Weapon1.NAME Long hunter's bow
+#Weapon1 Long hunter's bow
+#Weapon2.NAME Elven yew-bow
+#Weapon2 Elven yew-bow
+#Weapon3.NAME Ancient bow
+#Weapon3 Ancient bow
+#Weapon4.NAME Whalebone
+#Weapon4 Whalebone
+#Weapon5.NAME Ranger's bow
+#Weapon5 Ranger's bow
+#Weapon6.NAME Sniper's bow
+#Weapon6 Sniper's bow
+#Weapon7.NAME Death avenger
+#Weapon7 Death avenger
+#Weapon8.NAME Enthralled wind
+#Weapon8 Enthralled wind
+
+\\ Клинки(для Эльханта в кампании)(8)
+
+#WeaponMelee1.NAME Elven long sword
+#WeaponMelee1 Elven long sword
+#WeaponMelee2.NAME Elven saber
+#WeaponMelee2 Elven saber
+#WeaponMelee3.NAME Balanced sword
+#WeaponMelee3 Balanced sword
+#WeaponMelee4.NAME Enhanced blade
+#WeaponMelee4 Enhanced blade
+#WeaponMelee5.NAME Master's sword
+#WeaponMelee5 Master's sword
+#WeaponMelee6.NAME Saber of dragon bone
+#WeaponMelee6 Saber of dragon bone
+#WeaponMelee7.NAME Rune sword
+#WeaponMelee7 Rune sword
+#WeaponMelee8.NAME Ak'lail's liana sprout
+#WeaponMelee8 Ak'lail's liana sprout
+
+\\ Копья(Амазонка)(8)
+
+#DruHamaWeaponMelee1.NAME Centaur's spear
+#DruHamaWeaponMelee2.NAME Spear of dead tree
+#DruHamaWeaponMelee3.NAME Infantry spear
+#DruHamaWeaponMelee4.NAME Ent's spear
+#DruHamaWeaponMelee5.NAME Amazon's spear
+#DruHamaWeaponMelee6.NAME Enhanced spear
+#DruHamaWeaponMelee7.NAME Retribution
+#DruHamaWeaponMelee8.NAME Seal-ring of fate
+
+\\ Посохи(Друид)(8)
+
+#DruStaffWeapon1.NAME Oak staff
+#DruStaffWeapon2.NAME Willow staff
+#DruStaffWeapon3.NAME Ash tree staff
+#DruStaffWeapon4.NAME Ent's staff
+#DruStaffWeapon5.NAME Druid's staff
+#DruStaffWeapon6.NAME Staff of elements
+#DruStaffWeapon7.NAME Spirits staff
+#DruStaffWeapon8.NAME Forest might
+
+\\ Косы(Рыцарь Смерти)(8)
+
+#UndScytheWeapon1.NAME Old scythe
+#UndScytheWeapon2.NAME Dead man's sickle
+#UndScytheWeapon3.NAME Naginata
+#UndScytheWeapon4.NAME Black scythe
+#UndScytheWeapon5.NAME Demon's tongue
+#UndScytheWeapon6.NAME Madman's scythe
+#UndScytheWeapon7.NAME Naginata of fury
+#UndScytheWeapon8.NAME Grim Reaper
+
+\\ Когти(Вампир)(8)
+
+#UndClawsWeapon1.NAME Ghoul's claws
+#UndClawsWeapon2.NAME Wolfhound's claws
+#UndClawsWeapon3.NAME Bear's claws
+#UndClawsWeapon4.NAME Poisonous claws
+#UndClawsWeapon5.NAME Manticore's claws
+#UndClawsWeapon6.NAME Demon's claws
+#UndClawsWeapon7.NAME Dragon's claws
+#UndClawsWeapon8.NAME Death clutch
+
+\\ Жезлы(Лич)(8)
+
+#UndRodWeapon1.NAME Bone wand
+#UndRodWeapon2.NAME Skull rod
+#UndRodWeapon3.NAME Necromancer's wand
+#UndRodWeapon4.NAME Rune wand
+#UndRodWeapon5.NAME Obsidian wand
+#UndRodWeapon6.NAME Dragon's wand
+#UndRodWeapon7.NAME Wand of anger
+#UndRodWeapon8.NAME Murrain
+
+\\ Эликсиры(одноразовые)(34)
+
+#Bottle1 Mana potion
+#Bottle2 Health potion
+#Bottle3 Restoration potion
+#Bottle4 Regeneration potion
+#Bottle5 Meditation potion
+#Bottle6 Speed potion
+#Bottle7 Eyesight potion
+#Bottle8 Potion of agility
+#Bottle9 Bottle with poison
+#Bottle10 Mana brew
+#Bottle11 Health brew
+#Bottle12 Restoration brew
+#Bottle13 Regeneration brew
+#Bottle14 Meditation brew
+#Bottle15 Invisibility brew
+#Bottle16 Stoneskin brew
+#Bottle17 Alchemist's fire
+#Bottle18 Mana elixir
+#Bottle19 Health elixir
+#Bottle20 Restoration elixir
+#Bottle21 Regeneration elixir
+#Bottle22 Meditation elixir
+#Bottle23 Invulnerability elixir
+#Bottle24 Detonating elixir
+#Bottle25 Brew of knowledge
+#Bottle26 Warrior's brew
+#Bottle27 Magic brew
+#Bottle28 Brew of life
+#Bottle29 Brew of endurance
+#Bottle30 Berserker's brew
+#Bottle31 Adds 1 life
+#Bottle32 Elixir of preciptancy
+#Bottle33 Elixir of clairvoyance
+#Bottle34 Veteran's elixir
+#Bottle1.NAME Mana potion
+#Bottle2.NAME Health potion
+#Bottle3.NAME Restoration potion
+#Bottle4.NAME Regeneration potion
+#Bottle5.NAME Meditation potion
+#Bottle6.NAME Speed potion
+#Bottle7.NAME Eyesight potion
+#Bottle8.NAME Potion of agility
+#Bottle9.NAME Bottle with poison
+#Bottle10.NAME Mana brew
+#Bottle11.NAME Health brew
+#Bottle12.NAME Restoration brew
+#Bottle13.NAME Regeneration brew
+#Bottle14.NAME Meditation bred
+#Bottle15.NAME Invisibility brew
+#Bottle16.NAME Stoneskin brew
+#Bottle17.NAME Alchemist's fire
+#Bottle18.NAME Mana elixir
+#Bottle19.NAME Health elixir
+#Bottle20.NAME Restoration elixir
+#Bottle21.NAME Regeneration elixir
+#Bottle22.NAME Meditation elixir
+#Bottle23.NAME Invulnerability elixir
+#Bottle24.NAME Detonating elixir
+#Bottle25.NAME Brew of knowledge
+#Bottle26.NAME Warrior's brew
+#Bottle27.NAME Magic brew
+#Bottle28.NAME Brew of life
+#Bottle29.NAME Brew of endurance
+#Bottle30.NAME Berserker's brew
+#Bottle31.NAME Elixir of immortality
+#Bottle32.NAME Elixir of preciptancy
+#Bottle33.NAME Elixir of clairvoyance
+#Bottle34.NAME Veteran's elixir
+#BottleDM2.NAME Detonating mixture
+#BottleDM2 Detonating mixture
+#BottleDM5.NAME Detonating mixture
+#BottleDM5 Detonating mixture
+#BottleHP50.NAME Potion of health
+#BottleHP50 Potion of health
+#BottleHP100.NAME Potion of health
+#BottleHP100 Potion of health 
+
+
+#IceHArcWeapon1.NAME Wizard's rod
+#IceHArcWeapon2.NAME Shaman's staff
+#IceHArcWeapon3.NAME Apprentice's wand
+#IceHArcWeapon4.NAME Sorcerer's staff
+#IceHArcWeapon5.NAME Conjurer's staff
+#IceHArcWeapon6.NAME Mage's staff
+#IceHArcWeapon7.NAME Warlock's staff
+#IceHArcWeapon8.NAME Archmage staff
+
+#IceHBarWeapon1.NAME Warrior's swords
+#IceHBarWeapon2.NAME Short-swords
+#IceHBarWeapon3.NAME Fine swords
+#IceHBarWeapon4.NAME Enhanced swords
+#IceHBarWeapon5.NAME Chieftain's blades
+#IceHBarWeapon6.NAME Night blades
+#IceHBarWeapon7.NAME Kindred brothers
+#IceHBarWeapon8.NAME Swords of insanity
+
+#IceHValWeapon1.NAME Wind
+#IceHValWeapon2.NAME Night
+#IceHValWeapon3.NAME Hail
+#IceHValWeapon4.NAME Thunderstorm
+#IceHValWeapon5.NAME Hurricane
+#IceHValWeapon6.NAME Tornado
+#IceHValWeapon7.NAME Gale
+#IceHValWeapon8.NAME Lightning
+
+#MecHArtWeapon1.NAME Blacksmith's hammer
+#MecHArtWeapon2.NAME Battle hammer
+#MecHArtWeapon3.NAME Maul
+#MecHArtWeapon4.NAME Master's hammer
+#MecHArtWeapon5.NAME Giant's hammer
+#MecHArtWeapon6.NAME Thunder clap
+#MecHArtWeapon7.NAME Techno-hammer
+#MecHArtWeapon8.NAME Hammer of Mountain Kings
+
+#MecHEnfWeapon1.NAME Marksman's musket
+#MecHEnfWeapon2.NAME Old musket
+#MecHEnfWeapon3.NAME Hunting musket
+#MecHEnfWeapon4.NAME Sniper musket
+#MecHEnfWeapon5.NAME Incrusted musket
+#MecHEnfWeapon6.NAME Hand gun
+#MecHEnfWeapon7.NAME Machine gun
+#MecHEnfWeapon8.NAME Musket of Mechanius
+
+#MecHGeoWeapon1.NAME Copper scepter
+#MecHGeoWeapon2.NAME Bronze scepter
+#MecHGeoWeapon3.NAME Iron scepter
+#MecHGeoWeapon4.NAME Silver scepter
+#MecHGeoWeapon5.NAME Golden scepter
+#MecHGeoWeapon6.NAME Ruby scepter
+#MecHGeoWeapon7.NAME Emerald scepter
+#MecHGeoWeapon8.NAME Mithril scepter
+
+//Типы оружия
+#Treasure_Weapon_1.NAME 1st level weapon
+#Treasure_Weapon_1 1st level weapon - cheaper than mud
+#Treasure_Weapon_2.NAME 2nd level weapon
+#Treasure_Weapon_2 2nd level weapon - cheap junk
+#Treasure_Weapon_3.NAME 3rd level weapon
+#Treasure_Weapon_3 3rd level weapon - novice's choice
+#Minor_Weapon_1.NAME 4th level weapon
+#Minor_Weapon_1 4th level weapon is efficient to fight with
+#Minor_Weapon_2.NAME 5th level weapon
+#Minor_Weapon_2 5th level weapon - usual weapon
+#Major_Weapon_1.NAME 6th level weapon
+#Major_Weapon_1 6th level weapon - optimum
+#Major_Weapon_2.NAME 7th level weapon
+#Major_Weapon_2 7th level weapon - watch out: don't lose it!
+#Relic_Weapon.NAME 8th level weapon
+#Relic_Weapon 8th level weapon - won't find better than this

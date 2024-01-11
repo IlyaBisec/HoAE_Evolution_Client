@@ -1,0 +1,13 @@
+<ua_SingleUnitAI>
+ <Name>suAI_Fear</Name>
+ <CastingRadius>500</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MagicCardFear</RefName>
+   </UA>
+   <MinTargetAmount>10</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

@@ -1,0 +1,35 @@
+#M15D01S01P1    [Lana][Sad][Missions\SOUND\MISSION15\m15_t01.ogg]Эльхант, ты вернулся! Отец... мой отец погиб.
+#M15D01S01P2    [Lana][Sad][Missions\SOUND\MISSION15\m15_t02.ogg]Нежить теснит наши войска и вот-вот прорвётся к долине, где укрылись мирные жители!
+#M15D01S02      [Elhant][Angry][Missions\SOUND\MISSION15\m15_t03.ogg]Я уже здесь. Мы выстроим крепкую оборону.
+#M15D01S03      [Draelnor][Suprised][Missions\SOUND\MISSION15\m15_t04.ogg]Ты добыл Жемчужины, следопыт?
+#M15D01S04      [Elhant][Angry][Missions\SOUND\MISSION15\m15_t05.ogg]Да, они со мной. Возьми их, мудрый. Не хватает лишь той, что у Некроса.
+#M15D01S05P1    [Draelnor][Normal][Missions\SOUND\MISSION15\m15_t06.ogg]Когда я приду к могиле, Некрос обязательно попытается прорваться к ней. Ты должен будешь завладеть его Жемчужиной.
+#M15D01S05P2    [Draelnor][Normal][Missions\SOUND\MISSION15\m15_t07.ogg]Признаюсь, надежда на успех видится мне небольшой.
+#M15D01S06P1    [Elhant][Normal][Missions\SOUND\MISSION15\m15_t08.ogg]Механики прислали огромный ковчег, чтобы забрать своих родичей, обитающих в подземельях.
+#M15D01S06P2    [Elhant][Normal][Missions\SOUND\MISSION15\m15_t09.ogg]Нас осталось немного, и он сможет поднять всех. Лана, скажи капитану механиков, чтобы они приняли на борт и эльфов!
+#M15D01S07      [Lana][Normal][Missions\SOUND\MISSION15\m15_t10.ogg]Хорошо, Эльхант.
+#M15D01S08      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t11.ogg]Друид, поспеши к могиле, а я буду сдерживать нежить! 
+
+#M15D04S01      [Lana][Normal][Missions\SOUND\MISSION15\m15_t12.ogg]Капитан согласен взять на борт эльфов. Его ковчег опустился возле вершины.
+#M15D04S02      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t13.ogg]Организуй отступление, пока я сдерживаю врага!
+
+#M15D06S02      [Elhant][Rage][Missions\SOUND\MISSION15\m15_t16.ogg]Это ты, Некрос? Теперь ты заплатишь за страдания моего народа!
+#M15D06S03      [Nekros][Normal][Missions\SOUND\MISSION15\m15_t17.ogg]Тебе так не терпится умереть, эльф? Так и быть, я исполню твоё желание.
+#M15D06S04      [Elhant][Rage][Missions\SOUND\MISSION15\m15_t18.ogg]Тебе конец, повелитель нежити!
+#M15D06S05      [Nekros][Normal][Missions\SOUND\MISSION15\m15_t19.ogg]Знай, что смертному не дано уничтожить меня.
+
+#M15D07S01      [Nekros][Normal][Missions\SOUND\MISSION15\m15_t20.ogg]Каждая новая смерть делает меня сильнее, глупец.
+
+#M15D07S02      [Elhant][Angry][Missions\SOUND\MISSION15\m15_t21.ogg]Жемчужина Повелителя Праха у меня. Нужно скорее отнести её друиду!
+
+#M15D08S01      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t22.ogg]Вот последняя Жемчужина! Начинай ритуал!
+#M15D08S02      [Draelnor][Normal][Missions\SOUND\MISSION15\m15_t23.ogg]Тебе удалось справиться с Некросом Чермором! Не позволяй нежити разрушить могилу, пока я не закончу ритуал!
+#M15D08S03      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t24.ogg]Воины, отступайте к вершине, не рискуйте жизнями!
+#M15D08S04      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t25.ogg]Там ковчег гномов, он примет вас! Я справлюсь с нежитью в одиночку!
+
+#M15D09S02      [Draelnor][Normal][Missions\SOUND\MISSION15\m15_t27.ogg]Ритуал почти завершён! Сейчас нежить будет уничтожена!
+
+#M15HINT1P01     [Elhant][Normal][Missions\SOUND\MISSION15\m15_t14.ogg]Она отважна и сильна. Она... да, она нравится мне. Однако сейчас нет времени ни на что, кроме битвы!
+#M15HINT1P02     [Elhant][Normal][Missions\SOUND\MISSION15\m15_t15.ogg]Я только хочу, чтобы Лана выжила в этом побоище..
+
+#M15HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION15\m15_t26.ogg]Время пришло! Теперь либо нежити придет конец - либо все мы погибнем!

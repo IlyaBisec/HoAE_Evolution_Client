@@ -1,0 +1,24 @@
+<NewAbility>
+ <Name>ICM_sMedalion8</Name>
+ <ClassType>Effect</ClassType>
+ <EffectFileID>Interf3\Ability\goods_amulets</EffectFileID>
+ <EffectSpriteID>2</EffectSpriteID>
+ <HintName>#Medalion8.NAME</HintName>
+ <Hint>#Medalion8</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_Invisibility>
+   <Detector>true</Detector>
+  </mod_Invisibility>
+ </Modificators>
+</NewAbility>

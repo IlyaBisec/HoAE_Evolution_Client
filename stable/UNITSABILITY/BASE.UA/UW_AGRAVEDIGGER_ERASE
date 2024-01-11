@@ -1,0 +1,36 @@
+<NewAbility>
+ <Name>UW_aGravedigger_Erase</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>20000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnDieCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_wGravedigger_Visual</RefName>
+ </OnDieCreateWeapon>
+ <OnDieDeleteEffect>true</OnDieDeleteEffect>
+ <OnEndEffectCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_wGravedigger_Visual</RefName>
+ </OnEndEffectCreateWeapon>
+ <OnEndEffectDie>true</OnEndEffectDie>
+</NewAbility>

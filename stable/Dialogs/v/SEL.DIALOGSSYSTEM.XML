@@ -1,0 +1,14 @@
+<DialogsSystem>
+ <HintFont>SmallWhiteFont1</HintFont>
+ <HintX>20</HintX>
+ <HintY>5</HintY>
+ <HintLX>256</HintLX>
+ <HintLY>0</HintLY>
+ <HintAligningX>Left</HintAligningX>
+ <RightAlign>AbsoluteRightAlign</RightAlign>
+ <RightAlignParam>0.000000</RightAlignParam>
+ <BottomAlign>AbsoluteBottomAlign</BottomAlign>
+ <BottomAlignParam>0.000000</BottomAlignParam>
+ <Color>00000000</Color>
+ <Source>Dialogs\v\SEL.DialogsSystem.xml</Source>
+</DialogsSystem>

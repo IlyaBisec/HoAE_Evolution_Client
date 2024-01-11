@@ -1,0 +1,31 @@
+<NewMagazine>
+ <ShopCategory>Bottle</ShopCategory>
+ <Name>ShopBottle</Name>
+ <FileID>Interf3\items2</FileID>
+ <SpriteID>4</SpriteID>
+ <EffectFileID>Interf3\items2</EffectFileID>
+ <EffectSpriteID>4</EffectSpriteID>
+ <HintName>#HintShopBottle.NAME</HintName>
+ <Hint>#HintShopBottle</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\UzabBilding\UzabBilding.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\UzabBilding\UzabBilding.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewMagazine>

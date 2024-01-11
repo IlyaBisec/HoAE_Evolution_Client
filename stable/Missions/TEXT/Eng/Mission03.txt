@@ -1,0 +1,44 @@
+#M03D01S02P01    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t25.ogg]My arrows have no affect on him. Would my sword be a better weapon against this fiend?
+
+#M03D02S01P01    [Elhant][Normal][Missions\SOUND\MISSION03\m03_t01.ogg]It seems everything we need to set up a camp is here.
+#M03D02S01P02    [Elhant][Normal][Missions\SOUND\MISSION03\m03_t02.ogg]Interesting, what can these fairies build?
+
+#M03D02S02P01    [Elhant][Normal][Missions\SOUND\MISSION03\m03_t20.ogg]Sword? Well, I'll put this sword through its paces in battle!
+
+#M03D03S01P01    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t03.ogg]Undead! They were quick to sense my presence!
+                                                                     
+#M03D03S01P02    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t04.ogg]Guests from the cemetery have arrived! Ha!
+#M03D03S01P03    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t05.ogg]The undead. Who's is controlling them from the cemetery?
+#M03D03S01P04    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t06.ogg]There is no way we can be rid of them without destroying the graveyard...
+#M03D03S01P05    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t07.ogg]They're back! We must finish off the graveyard once and for all!
+
+#M03D04S02P01    [Lich][Defiance][Missions\SOUND\MISSION03\m03_t15.ogg]Eeeehuh, Have you come to bow before me, mortal fool?
+#M03D04S03P01    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t16.ogg]So, you are the scum who rules over the undead here! I will cleanse this land of your filth!
+#M03D04S04P01    [Lich][Defiance][Missions\SOUND\MISSION03\m03_t17.ogg]You are welcome to try. Eeeehuh. Mor-tal.
+
+#M03D05S01P01    [Lich][Angry][Missions\SOUND\MISSION03\m03_t18.ogg]You can rejoice, mor-tal... but you can not defeat me beneath the earth!
+                                                                      
+#M03D05S05P01    [Elhant][Angry][Missions\SOUND\MISSION03\m03_t19.ogg]The ground will be no escape! Evil!
+
+#M03D07S01P02    [Lich][Angry][Missions\SOUND\MISSION03\m03_t21.ogg]No! You will not succeed! The dark Lord of Ashes protects me! Protects meeeee!
+#M03D07S02P01    [Elhant][Rage][Missions\SOUND\MISSION03\m03_t22.ogg]All your servants are dead, and you are next!
+#M03D07S03P01    [Lich][Defiance][Missions\SOUND\MISSION03\m03_t23.ogg]Fool, Eeehuh-huh-huh!  I am already dead!
+#M03D07S03P02    [Lich][Angry][Missions\SOUND\MISSION03\m03_t24.ogg]You can destroy this body, but my spirit will re-incarnate! Move to another vessel. Eeehuh! Another host! Look around you the land here is full of corpses! Eeehuhhahahahahaah! 
+
+#M03D11S01P01    [M3Goblin][Angry][Missions\SOUND\MISSION03\m03_t08.ogg]Ackackk! Our land! Our land! This -ackk! Is our land! 
+#M03D11S01P02    [M3Goblin][Angry][Missions\SOUND\MISSION03\m03_t09.ogg]Go! Go! Ah-ack! Gone! Ack! Get - ack! Out! Out! Out!
+
+#M03HINT1P01     [Elhant][Angry][Missions\SOUND\MISSION03\m03_t10.ogg]The shamans are capable to resurrecting dead goblins. They should be eliminated first!
+                                                                      
+#M03HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION03\m03_t11.ogg]Interesting, why do they need those banners... Is it possible that some sort magic is involved?
+#M03HINT2P02     [Elhant][Normal][Missions\SOUND\MISSION03\m03_t12.ogg]We should try eliminating the  banner bearers first. Maybe it will diminish the resistance of the others?
+                                                                      
+#M03HINT3P01     [Elhant][Angry][Missions\SOUND\MISSION03\m03_t13.ogg]Ursus! I've heard  they are called vicious killers before. It's also said that each pack has its own leader.
+#M03HINT3P02     [Elhant][Normal][Missions\SOUND\MISSION03\m03_t14.ogg]If he is done with, the others will become weaker...
+
+
+#M03HINT1	You have a limited supply of iron. Build the Iron shrub to mine more!
+#M03HINT2	By killing the chiefs, you spread panic among the enemies!
+#M03HINT3	Shamans are raising the dead goblins!
+#M03HINT4	Banner bearers increase defense of skeleton warriors! Try to kill them first!
+#M03HINT6	When selecting level up enhancement, try choosing the defense from the weapon you suffer the most!

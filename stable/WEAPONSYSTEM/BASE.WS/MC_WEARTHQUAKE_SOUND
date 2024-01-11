@@ -1,0 +1,14 @@
+<WeaponModificator>
+ <Name>MC_wEarthquake_Sound</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <PlaySomeSound></PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

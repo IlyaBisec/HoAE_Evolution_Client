@@ -1,0 +1,28 @@
+<NewAbility>
+ <Name>UA_aRaiseSkeleton_Die</Name>
+ <SoundExecute>NONE</SoundExecute>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>180000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnEndEffectDie>true</OnEndEffectDie>
+</NewAbility>

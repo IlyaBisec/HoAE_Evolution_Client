@@ -1,0 +1,21 @@
+<NewAbility>
+ <Name>MC_aSeeds_Centaur</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_Plymorph>
+   <NewType>
+    <UnitType>DruUCen(DR)</UnitType>
+   </NewType>
+  </mod_Plymorph>
+ </Modificators>
+</NewAbility>

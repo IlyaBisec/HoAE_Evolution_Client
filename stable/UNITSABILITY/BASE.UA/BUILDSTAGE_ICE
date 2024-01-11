@@ -1,0 +1,19 @@
+<ShowBuildStage>
+ <Name>BuildStage_Ice</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <BuildStageModel>Models\Scaffold\Scaffold_Ice\IceScaffoldM.C2M</BuildStageModel>
+ <BuildStageAnimation>Models\Scaffold\Scaffold_Ice\IceScaffoldA.C2M</BuildStageAnimation>
+ <ConstantProportions>true</ConstantProportions>
+ <MinStage>0.100000</MinStage>
+</ShowBuildStage>

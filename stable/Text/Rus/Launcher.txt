@@ -1,0 +1,15 @@
+
+#LAUNCHER_GAMETITLE	Герои Уничтоженных Империй
+
+#LAUNCHER_TEXT1		Выберете частоту обновления экрана:
+#LAUNCHER_TEXT2		Внимание! Некоторые из режимов могут не поддерживаться вашим дисплеем. Если у вас проблемы с запуском игры на частоте по умолчанию, выберете "60 Герц (Безопасный режим)".
+
+#LAUNCHER_DEFAULTRR	Частота обновления по умолчанию
+#LAUNCHER_SAFEMODE	Безопасный режим
+#LAUNCHER_HERTZ		Герц
+
+#LAUNCHER_LAUNCH	Запустить игру
+#LAUNCHER_CANCEL	Отмена
+
+
+// During parsing all separators will be replaced by space!

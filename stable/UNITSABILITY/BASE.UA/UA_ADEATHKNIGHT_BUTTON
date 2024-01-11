@@ -1,0 +1,19 @@
+<NewAbility>
+ <Name>UA_aDeathKnight_Button</Name>
+ <ClassType>Image</ClassType>
+ <FileID>Interf3\Ability\auras_dead_creatures</FileID>
+ <SpriteID>2</SpriteID>
+ <HintName>#AuraDeathblow.NAME</HintName>
+ <Hint>#AuraDeathblow</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

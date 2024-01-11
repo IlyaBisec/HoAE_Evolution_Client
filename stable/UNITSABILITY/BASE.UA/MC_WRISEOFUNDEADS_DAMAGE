@@ -1,0 +1,31 @@
+<NewAbility>
+ <Name>MC_wRiseOfUndeads_Damage</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <EndEffectIfEnemyNearRadius>0</EndEffectIfEnemyNearRadius>
+ <Modificators>
+  <mod_Damage>
+   <Operand>
+    <Operand>
+     <Value>
+      <Op>
+       <NumericalConst></NumericalConst>
+      </Op>
+     </Value>
+    </Operand>
+   </Operand>
+  </mod_Damage>
+ </Modificators>
+</NewAbility>

@@ -1,0 +1,25 @@
+<be_CFSM>
+ <Name>FSM_GUARD</Name>
+ <FileName>Missions\LUA_FUCTIONS\FSM\FSM_GuardZone.script</FileName>
+ <FunctionName>FSM_GuardZone_00</FunctionName>
+ <Params>
+  <be_CBasePrametr>
+   <ParamName>bGuardZone</ParamName>
+   <ParamType>BOOL</ParamType>
+   <ParamName>bGuardZone</ParamName>
+   <ParamType>BOOL</ParamType>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>R</ParamName>
+   <ParamType>INT</ParamType>
+   <ParamName>R</ParamName>
+   <ParamType>INT</ParamType>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>iAddR</ParamName>
+   <ParamType>INT</ParamType>
+   <ParamName>iAddR</ParamName>
+   <ParamType>INT</ParamType>
+  </be_CBasePrametr>
+ </Params>
+</be_CFSM>

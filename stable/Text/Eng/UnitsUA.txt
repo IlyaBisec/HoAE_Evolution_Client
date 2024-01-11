@@ -1,0 +1,1145 @@
+\\ ======================----------------------------------------             NEUTRAL UNITS               -----------------------------------------==============================
+                            
+(UNITS)\DRUHWAR.MD Overlord
+(UNITS)\DRUHFAT.MD Monfor
+(UNITS)\BIRUENC.MD Wizard
+(UNITS)\BIRUMAG.MD Mage
+(UNITS)\BIRUSHA.MD Shaman
+(UNITS)\BIRUSOR.MD Witch doctor 
+(UNITS)\DEVUDAE.MD Demon
+(UNITS)\DEVUDEV.MD Devil
+(UNITS)\DEVULES.MD Lesser demon
+(UNITS)\DRAUDRB.MD Blue dragon
+(UNITS)\DRAUDRG.MD Green dragon
+(UNITS)\DRAUDRR.MD Red dragon
+(UNITS)\DRAUDRR1.MD Red dragon
+(UNITS)\DRCUCHI.MD Draconide chieftain
+(UNITS)\DRCUDRA.MD Draconide
+(UNITS)\DEVUHEL.MD Hell hound
+(UNITS)\DRCUWAR.MD Draconide warrior
+(UNITS)\DWAUENC.MD Dwarfen magician
+(UNITS)\DWAUWAR.MD Dwarfen warrior
+(UNITS)\DWAURIF.MD Dwarfen shooter
+(UNITS)\ELEUSTO.MD Stone spirit
+(UNITS)\GIAUCYC.MD Cyclops
+(UNITS)\GIAUHAM.MD Giant hammerer
+(UNITS)\GIAULOR.MD Thunder lord
+(UNITS)\GIAUMIN.MD Minotaur
+(UNITS)\GIAUOGR.MD Ogre
+(UNITS)\GIAUTHR.MD Giant thrower
+(UNITS)\GIAUTRO.MD Troll
+(UNITS)\GNOUCHI.MD Gnoll chieftain
+(UNITS)\GNOUGNO.MD Gnoll
+(UNITS)\GOBUCHI.MD Goblin chieftain
+(UNITS)\GOBUGOB.MD Goblin
+(UNITS)\GOBUSHA.MD Goblin shaman
+(UNITS)\GOBUWAR.MD Goblin warrior
+(UNITS)\HUMUMAA.MD Air magus
+(UNITS)\HUMUMAE.MD Earth magus
+(UNITS)\HUMUMAF.MD Fire magus
+(UNITS)\HUMUMAW.MD Water magus
+(UNITS)\SOLUSCO.MD Giant scorpion
+(UNITS)\INSUSPG.MD Spider
+(UNITS)\INSUSPH.MD Gigantic spider
+(UNITS)\INSUSPI.MD Spiderling
+(UNITS)\KOBUSHA.MD Kobold shaman
+(UNITS)\KOBUWAR.MD Kobold warrior
+(UNITS)\MONUHAR.MD Harpy
+(UNITS)\MONURAP.MD Plague rat
+(UNITS)\MO01RAP.MD Plague rat
+(UNITS)\MONURAT.MD Rat
+(UNITS)\MO01RAT.MD Rat
+(UNITS)\MO02RAT.MD Rat
+(UNITS)\MOM1RAT.MD Rat
+(UNITS)\MONUSPH.MD Sphinx
+(UNITS)\ORCUORC.MD Orc
+(UNITS)\ORCURID.MD Orc rider
+(UNITS)\ORCUSHA.MD Orc shaman
+(UNITS)\REPUBAS.MD Basilisk
+(UNITS)\REPUHYD.MD Hydra
+(UNITS)\REPULIC.MD Crystal lizard
+(UNITS)\REPULIG.MD Giant lizard
+(UNITS)\REPUSAL.MD Salamander
+(UNITS)\REPUWYV.MD Wyvern
+(UNITS)\UDEUBAN.MD Banshee
+(UNITS)\UDEUBON.MD Bone terror
+(UNITS)\UDEUGHO.MD Ghoul
+(UNITS)\UDEUGRA.MD Gravedigger
+(UNITS)\URZUCHI.MD Ursa chief
+(UNITS)\URZUURZ.MD Ursanoid
+(UNITS)\REPUWYR.MD Wirm
+(UNITS)\BLIUBLI.MD Blind-man
+(UNITS)\BLIUCHI.MD Blind-man chief
+(UNITS)\INSUARG.MD Gigantic spider
+(UNITS)\ORCUCHI.MD Orc chief
+(UNITS)\REPUSTO.MD Stone-eater
+(UNITS)\EFFECTS\EFFPOLYMORPHDRAKE.MD Drakemorph
+(UNITS)\UNM6NEC.MD Necrolyte
+(UNITS)\MISGNOL.MD Gnoll chieftain
+(UNITS)\MISURS1.MD Ursa chieftain
+(UNITS)\ORM1CHI.MD Orc chieftain
+(UNITS)\UNM1NEC.MD Necromancer
+(UNITS)\SOLUSCB.MD Giant scorpion
+(UNITS)\SOLUSCZ.MD Giant scorpion
+(UNITS)\SOLHPRO.MD Tor Gilong
+(UNITS)\UDEUGRN.MD Gravedigger
+(UNITS)\UNM1WEH.MD Werewolf human
+(UNITS)\UNM1WEH.MD.HINT While in human form werewolves can inflict piercing damage at a distance but are less effective in close combat due to inability to regenerate
+(UNITS)\UNDUSK2.MD Skeleton
+(UNITS)\UNDUSK2.MD.HINT Death warrior: has low life quantity, inflicts chopping damage, has good defense against piercing weapons
+(UNITS)\UNDHNEC.MD Necros
+(UNITS)\UDEUIMP.MD Imp
+(UNITS)\UDEUIMP.MD.HINT Imp
+(UNITS)\MISUWEH.MD Werewolf human
+(UNITS)\MISUWEH.MD.HINT While in human form werewolves can inflict piercing damage at a distance but are less effective in close combats due to inability to regenerate
+(UNITS)\DWAUDWA.MD Dwarf miner
+(UNITS)\DWAUDWA.MD.HINT This slogger spends most of his life in the underground tunnels, collecting minerals
+
+
+\\ ===========================---------------------------------          ELVES (THE SYLVAN FOLK)         -------------------------------------===========================
+
+(UNITS)\DRUHELH.MD Elhant
+(UNITS)\DRUHELH.MD.HINT Rangers are the wardens of the forests, who do not wish to part with their weapons even in times of peace and tranquility. All rangers are master bowmen, plus these warriors are used to fighting the enemy single-handedly and are ready to challenge even the most fearsome of enemies
+(UNITS)\DRUHAMA.MD Amazon
+(UNITS)\DRUHAMA.MD.HINT Atlans Amazons are a clan of elves in which mostly women grow up to be skillful warriors. From the early childhood they are taught to handle spears and there is no foe more dangerous than an infuriated Amazon
+(UNITS)\DRUHLANA.MD Lana
+(UNITS)\DRUHLANA.MD.HINT Atlans Amazons are a clan of elves in which mostly women grow up to be skillful warriors. From the early childhood they are taught to handle spears and there is no foe more dangerous than an infuriated Amazon 
+(UNITS)\DRUHARC.MD Ranger
+(UNITS)\DRUHARC.MD.HINT Rangers are the wardens of the forests, who do not wish to part with their weapons even in times of peace and tranquillity. All rangers are master bowmen, plus these warriors are used to fighting the enemy single-handedly and are ready to challenge even the most fearsome of enemies
+(UNITS)\DRUHDRU.MD Druid
+(UNITS)\DRUHDRU.MD.HINT Druids are the great solons and mages conjuring the powers of nature. They seldom interfere in conflicts and piously revere the balance of the natural world. But if the druid starts off on the path of war, then there is a serious danger hanging over the whole world
+(UNITS)\DRUHTAN.MD Ton'mir
+(UNITS)\DRUSBO1.MD Trianoor
+(UNITS)\DRUSBO1.MD.HINT Light, high-speed vessel used for scouting and exploration
+(UNITS)\DRUSBO2.MD Amera
+(UNITS)\DRUSBO2.MD.HINT Elven battleship with experienced crew and good armament
+(UNITS)\DRUSSAI.MD Harton
+(UNITS)\DRUSSAI.MD.HINT Transport ship capable of transporting the dwellers of the forest through water barriers
+
+\\ UNITS AND DESCRIPTIONS:
+(UNITS)\DRUUARC.MD Elf archer
+(UNITS)\DRUUARC.MD.HINT Forest archer: medium training speed, inflicts piercing damage from a large distance in long-range combat
+(UNITS)\DRUUCEN.MD Centaur 
+(UNITS)\DRUUCEN.MD.HINT Bellicose man-horse: very fast warrior, inflicts crushing damage, has good defense against chopping weapons
+(UNITS)\DRUUDRU.MD Druid
+(UNITS)\DRUUDRU.MD.HINT Guardian of nature and equilibrium: slowly trained, inflicts magical damage that reduces the enemy's attack, defense and movement speeds
+(UNITS)\DRUUDRY.MD Dryad
+(UNITS)\DRUUDRY.MD.HINT Tree spirit: highly trained, inflicts crushing damage, has good defense against piercing damage and high magical resistance
+(UNITS)\DRUUFAI.MD Fairy
+(UNITS)\DRUUFAI.MD.HINT Winged forest fairy: medium training speed, can accumulate resources and construct buildings
+(UNITS)\DRUUGRI.MD Griffin
+(UNITS)\DRUUGRI.MD.HINT No one is equal to him in air fights
+(UNITS)\DRUUPEG.MD Pegasus
+(UNITS)\DRUUPEG.MD.HINT A fast air warrior who inflicts extensive magical damage in long-range combat and is highly resistant to magic
+(UNITS)\DRUUPIK.MD Elf pikeman
+(UNITS)\DRUUPIK.MD.HINT A warrior of the Four Winds Forest: a universal warrior, medium training speed, inflicts piercing damage
+(UNITS)\DRUUTRE.MD Ent
+(UNITS)\DRUUTRE.MD.HINT Tree defender: a powerful siege warrior, heavily protected but extremely slow; can engulf enemies with its roots, inflicts crushing damage to several enemies at a time
+(UNITS)\DRUUUNI.MD Unicorn
+(UNITS)\DRUUUNI.MD.HINT Mystical totem of the elves: a strong and powerful creature, inflicts extensive magical damage in close combat, its aura increases the morale of elven troops
+=======
+\\ BUILDINGS
+(UNITS)\DRUBHAL.MD Fairy tree
+(UNITS)\DRUBHAL.MD.HINT Summons Fairies and Dryads. Provides 50 living places
+(UNITS)\DRUBACA.MD Forest academy
+(UNITS)\DRUBACA.MD.HINT Allows you to perform ceremonies and upgrades
+(UNITS)\DRUBHOU.MD Dwelling
+(UNITS)\DRUBHOU.MD.HINT Provides 25 living places
+(UNITS)\DRUBAPL.MD Apple tree
+(UNITS)\DRUBAPL.MD.HINT Allows fairies to gather food
+(UNITS)\DRUBCRY.MD Crystal sapling
+(UNITS)\DRUBCRY.MD.HINT Allows fairies to collect the crystals (can only grow on crystal mines)
+(UNITS)\DRUBORE.MD Iron shrub
+(UNITS)\DRUBORE.MD.HINT Allows fairies to mine the ore (can only grow on ore deposits)
+(UNITS)\DRUBALT.MD Altar
+(UNITS)\DRUBCEN.MD Centaur stable
+(UNITS)\DRUBCEN.MD.HINT Summons Centaurs. Provides 35 living places
+(UNITS)\DRUBELF.MD Elf house
+(UNITS)\DRUBELF.MD.HINT Trains Elf archers and Elf pikemen. Provides 75 living places
+(UNITS)\DRUBGRI.MD Griffin nest
+(UNITS)\DRUBGRI.MD.HINT Summons griffins
+(UNITS)\DRUBPEG.MD Pegasus stall
+(UNITS)\DRUBPEG.MD.HINT Summons pegasuses
+(UNITS)\DRUBSHI.MD Shipyard
+(UNITS)\DRUBSHI.MD.HINT Creates fleet
+(UNITS)\DRUBSTO.MD Cromlech
+(UNITS)\DRUBSTO.MD.HINT Teaches druids
+(UNITS)\DRUBTOW.MD Tower
+(UNITS)\DRUBTOW.MD.HINT Attacks enemy ground and air units, inflicts splash magic damage 
+(UNITS)\DRUBTO1.MD Tower
+(UNITS)\DRUBTO1.MD.HINT Attacks enemy ground and air units, inflicts splash magic damage
+(UNITS)\DRUBTO2.MD Tower
+(UNITS)\DRUBTO2.MD.HINT Attacks enemy ground and air units, inflicts splash magic damage
+(UNITS)\DRUBTO3.MD Tower                                                                                                                                             
+(UNITS)\DRUBTO3.MD.HINT Attacks enemy ground and air units, inflicts splash magic damage
+(UNITS)\DRUBTRE.MD Sacred grove
+(UNITS)\DRUBTRE.MD.HINT Summons ents and unicorns
+(UNITS)\DRUBBAS.MD Forest bastion
+(UNITS)\DRUBGAT.MD Forest gates
+(UNITS)\DRUBGAT.MD.HINT Opens a passageway for forest warriors
+(UNITS)\DRUBTWW.MD Forest wall
+(UNITS)\DRUBWAL.MD Forest wall
+(UNITS)\DRUBWAL.MD.HINT Blocks the enemy's way
+
+
+\\ ===========================---------------------------------          THE UNDEAD (THE LEGIONS OF UNDEAD)             --------------------------====================
+
+
+(UNITS)\UNDHKNI.MD Death knight
+(UNITS)\UNDHKNI.MD.HINT Death knights are the undead warriors, who had been very bloodthirsty while alive, distinguished themselves through utter cruelty and died a violent death. The spirit of these warriors can't leave the dead bodies for a very long time, doomed to suffer their death again and again
+(UNITS)\UNDHLIC.MD Lichlord
+(UNITS)\UNDHLIC.MD.HINT Necromancers who have passed the ceremony of cadaverous conversion become liches. During the ritual the necromancer is turned into the living undead, his flesh dies leaving only bare bones. After the rite, the powers of the thing that used to be a necromancer increase tenfold
+(UNITS)\UNDHVAM.MD Vampiress
+(UNITS)\UNDHVAM.MD.HINT Vampires are a special type of the undead, made of people who were unlucky to have survived after being bitten by another vampire. The lord of the vampires is the most gory and influential of his kin. In their lust for power, vampires don't shy away from anything. That's why a vampire lord lays his path to the throne along and over the corpses of his congeners
+(UNITS)\UNDSTRA.MD Black ferry
+(UNITS)\UNDSTRA.MD.HINT A ship that transports dead warriors over the seas
+(UNITS)\UNDSGAL.MD Galley
+(UNITS)\UNDSGAL.MD.HINT Sunken galleys of the ancient empires serve the necromancers well by performing reconnaissance and operations
+(UNITS)\UNDSGHO.MD Ghost ship
+(UNITS)\UNDSGHO.MD.HINT A heavy necromancer battleship with unparalleled firepower
+(UNITS)\UNDSXXX.MD Flying Dutchman
+(UNITS)\UNDSXXX.MD.HINT A powerful necromancer battleship
+(UNITS)\UNDUCAT.MD Catapult
+(UNITS)\UNDUCAT.MD.HINT An outshooting siege machine made out of a dead tree
+(UNITS)\UNDUDRB.MD Bone dragon
+(UNITS)\UNDUDRB.MD.HINT A fast flying creature with good defense against piercing damage
+(UNITS)\UNDUDRL.MD Dracolich
+(UNITS)\UNDUDRL.MD.HINT Strong flying creature magically created from dragon's bones, attacks by magic, can cast fear on enemies; good defense against piercing damage
+(UNITS)\UNDUGHO.MD Ghost
+(UNITS)\UNDUGHO.MD.HINT Souls of the dead who haven't found serenity: extremely high learning speed, attacks at a distance by magic, good defense from all kinds of damage but low health points
+(UNITS)\UNDUKNI.MD Death knight
+(UNITS)\UNDUKNI.MD.HINT A dead horseman: fast heavy cavalry of the undead, high learning speed, inflicts damage with chopping weapons in close combat, good defense characteristics especially against magic and crushing weapons
+(UNITS)\UNDULIC.MD Lich
+(UNITS)\UNDULIC.MD.HINT A Necromage who went through a transformation ceremony: inflicts damage by magic at a large distance, has an aura that decreases the enemy's armor, good defense from magic and piercing damage
+(UNITS)\UNDUMUM.MD Mummy
+(UNITS)\UNDUMUM.MD.HINT A very fast warrior of the undead, inflicts crushing damage in close combat, has good defense against piercing wounds and can easily withstanding magic
+(UNITS)\UNDUNEC.MD Necromancer
+(UNITS)\UNDUNEC.MD.HINT A death magic servant: can erect buildings, gather resources; inflicts extensive magical damage in close combat
+(UNITS)\UNDUSKC.MD Skeleton-captain
+(UNITS)\UNDUSKC.MD.HINT Dead commander: a strong warrior who inflicts crushing damage in close combat. Has an aura that increases the skeleton's defense
+(UNITS)\UNDUSKE.MD Skeleton
+(UNITS)\UNDUSKE.MD.HINT Death warrior: has low life quantity, inflicts chopping damage, has good defense against piercing damage
+(UNITS)\UNDUVAB.MD Bat
+(UNITS)\UNDUVAB.MD.HINT Vampires may turn into bats, which allows them to move fast through any obstacles. Well-defended from magic and penetrating damage. Vampires cannot attack while in a bat form
+(UNITS)\UNDUVAM.MD Vampire
+(UNITS)\UNDUVAM.MD.HINT A bloodthirsty dead person: inflicts extensive damage with piercing weapons, can turn into a bat, has good defense against piercing damage and resistance to magic, recuperates upon damaging the enemy
+(UNITS)\UNDUWEH.MD Werewolf-human
+(UNITS)\UNDUWEH.MD.HINT While in human form werewolves can inflict piercing damage at a distance but are less resistant in close combat due to inability to regenerate
+(UNITS)\UNDUWEW.MD Werewolf
+(UNITS)\UNDUWEW.MD.HINT A very fast warrior of the undead, inflicts crushing damage, able to regenerate and take on a human form
+(UNITS)\UNDUZOM.MD Zombie
+(UNITS)\UNDUZOM.MD.HINT Reanimated dead warrior: a slow but powerful warrior of the undead who has high attack rate and inflicts extensive crushing damage
+(UNITS)\UNDUZO1.MD Zombie
+(UNITS)\UNDUZO1.MD.HINT Reanimated dead warrior: a slow but powerful warrior of the undead who has high attack rate and inflicts extensive crushing damage
+
+
+\\ THE UNDEAD BUILDINGS
+(UNITS)\UNDBALT.MD Altar
+(UNITS)\UNDBCEM.MD Graveyard
+(UNITS)\UNDBCEM.MD.HINT Raises skeletons and skeleton captains. Adds 100 residences
+(UNITS)\UNDBCE2.MD Graveyard
+(UNITS)\UNDBCE2.MD.HINT Raises skeletons and skeleton captains. Adds 100 residences 
+(UNITS)\UNDBCHA.MD Crypt
+(UNITS)\UNDBCHA.MD.HINT Raises mummies and zombies. Adds 200 residences
+(UNITS)\UNDBDRA.MD Dragon gorge
+(UNITS)\UNDBDRA.MD.HINT Creates bone dragons and dracoliches
+(UNITS)\UNDBGOR.MD Souls defile
+(UNITS)\UNDBGOR.MD.HINT Creates ghosts
+(UNITS)\UNDBHOU.MD Grave
+(UNITS)\UNDBHOU.MD.HINT Adds 25 residences
+(UNITS)\UNDBLIC.MD Necromancy fortress
+(UNITS)\UNDBLIC.MD.HINT Trains the necromancers. Inflicts magic damage. Adds 75 residences
+(UNITS)\UNDBLI2.MD Necromancy citadel
+(UNITS)\UNDBLI2.MD.HINT Trains the necromancers. Inflicts splash magic damage
+(UNITS)\UNDBLI3.MD Necromancy stronghold
+(UNITS)\UNDBLI3.MD.HINT Trains the necromancers. Inflicts splash magic damage
+(UNITS)\UNDBSHI.MD Shipwreck
+(UNITS)\UNDBSHI.MD.HINT Makes the fleet
+(UNITS)\UNDBSTO.MD Moonstone
+(UNITS)\UNDBSTO.MD.HINT Makes werewolves
+(UNITS)\UNDBTOW.MD Necromancer's tower
+(UNITS)\UNDBTOW.MD.HINT Inflicts magical damage on enemy ground and air units
+(UNITS)\UNDBWOR.MD Necromancer's works
+(UNITS)\UNDBWOR.MD.HINT Creates catapults
+(UNITS)\UNDBCAS.MD Skull castle
+(UNITS)\UNDBCAS.MD.HINT Creates death knights
+(UNITS)\UNDBVAM.MD Deserted mansion
+(UNITS)\UNDBVAM.MD.HINT Creates vampires
+(UNITS)\UNDBLIH.MD Lich tower
+(UNITS)\UNDBLIH.MD.HINT Creates lichs and allows them to perform dark ceremonies
+(UNITS)\UNDBGOL.MD Haunted gold mine
+(UNITS)\UNDBGOL.MD.HINT Allows the necromancers to mine gold
+(UNITS)\UNDBORE.MD Haunted iron mine
+(UNITS)\UNDBORE.MD.HINT Allows the necromancers to mine iron
+(UNITS)\UNDBCRY.MD Haunted crystal mine
+(UNITS)\UNDBCRY.MD.HINT Allows the necromancers to collect the crystals
+(UNITS)\UNDBWAL.MD Bone wall
+(UNITS)\UNDBWAL.MD.HINT Blocks the enemy's way 
+(UNITS)\UNDBTWW.MD Bone wall
+(UNITS)\UNDBGAT.MD Gates of darkness
+(UNITS)\UNDBGAT.MD.HINT Opens the way for the undead
+(UNITS)\UNDBBAS.MD Bastion of darkness
+
+
+\\ ===========================---------------------------------          THE CRYO RACE                ----------------------------======================
+
+
+(UNITS)\ICEHARC.MD Archmage
+(UNITS)\ICEHARC.MD.HINT Archmage is the true disciple of the cold magic guild. It took decades for him to master his abilities and now he has truly perfected this art
+(UNITS)\ICEHBAR.MD Barbarian
+(UNITS)\ICEHBAR.MD.HINT Barbarian are warriors from one of the Northern savage tribes. Barbarians are extremely strong and skillful warriors, who are well-known and are rather feared far beyond the bounds of the Ice Empire. These warriors are known for their denial of armor
+(UNITS)\ICEHVAL.MD Valkyrie
+(UNITS)\ICEHVAL.MD.HINT Valkyries are the elite of the Ice Empire. No one becomes a valkyrie; they are born that way. Legends say that valkyries can be born only in families with the blood of gods running in their veins
+(UNITS)\ICEUBAL.MD Ballistae
+(UNITS)\ICEUBAL.MD.HINT A powerful siege weapon. A ballistae shell strikes everyone on its way
+(UNITS)\ICEUCON.MD Conjurer
+(UNITS)\ICEUCON.MD.HINT A Northern mage who magically inflicts damage at a distance on several enemies and is able to freeze the enemy during attacks
+(UNITS)\ICEUDRA.MD Ice drake
+(UNITS)\ICEUDRA.MD.HINT A powerful flying creature who magically inflicts damage on a multitude of enemies and has good defense against penetrating wounds; can freeze the enemy during attacks
+(UNITS)\ICEUENC.MD Enchantress
+(UNITS)\ICEUENC.MD.HINT A representative of the female branch of the guild of cold magic: magically inflicts damage at a distance on several enemies, can hypnotize the enemy depriving him of willpower for a while. Able to fight melee
+(UNITS)\ICEUGOL.MD Ice golem
+(UNITS)\ICEUGOL.MD.HINT An ice giant: a slow but very powerful creature who thaws outside the Cryo race territory but recuperates in snow fields
+(UNITS)\ICEUGRE.MD Gremlin
+(UNITS)\ICEUGRE.MD.HINT Constructs and repairs buildings, procure resources
+(UNITS)\ICEUMAM.MD Mammoth
+(UNITS)\ICEUMAM.MD.HINT A powerful siege creature who inflicts extensive crushing damage and can trample the enemy
+(UNITS)\ICEUCHA.MD Snowy chariot
+(UNITS)\ICEUCHA.MD.HINT Has a high defense level against penetrating damage, can crush the enemy; able to move only on icy surfaces
+(UNITS)\ICEUSPI.MD Cold spirit
+(UNITS)\ICEUSPI.MD.HINT An elemental member of the cold elements who possesses excellent defense against physical damage. Able to regenerate
+(UNITS)\ICEUYEC.MD Yeti tribal chief
+(UNITS)\ICEUYEC.MD.HINT Increases the strength of yetis and inflicts extensive crushing damage
+(UNITS)\ICEUYET.MD Yeti
+(UNITS)\ICEUYET.MD.HINT A quickly trained ice warrior who inflicts extensive damage with crushing weapons in close combat
+(UNITS)\ICEUYOT.MD Yotun
+(UNITS)\ICEUYOT.MD.HINT A snow giant: powerful support warrior who inflicts extreme magical damage on several enemies at a distance. Has regenerative ability
+(UNITS)\ICESSHP.MD Drakkar
+(UNITS)\ICESSHP.MD.HINT A universal ship that can ferry the troops and fight at sea
+
+\\ ÇÄÀÍÈß ÊÐÈÀËÜÖÅÂ
+(UNITS)\ICEBHOU.MD Gremlins abode
+(UNITS)\ICEBHOU.MD.HINT Trains gremlins. Provides 75 living places
+(UNITS)\ICEBDEE.MD Pen
+(UNITS)\ICEBDEE.MD.HINT Provides for food inflow
+(UNITS)\ICEBACA.MD Palace of knowledge
+(UNITS)\ICEBACA.MD.HINT Allows to learn various charms and perform upgrades
+(UNITS)\ICEBDRA.MD Ice cave
+(UNITS)\ICEBDRA.MD.HINT Creates ice drakes and mammoths
+(UNITS)\ICEBCIT.MD Ice temple
+(UNITS)\ICEBCIT.MD.HINT Trains enchantresses and conjurers. Provides 35 living places
+(UNITS)\ICEBTOW.MD Tower of Frost
+(UNITS)\ICEBTOW.MD.HINT Attacks enemy with ice arrows
+(UNITS)\ICEBGOR.MD Yeti lair
+(UNITS)\ICEBGOR.MD.HINT Creates yeti and yeti tribal chiefs. Provides 50 living places
+(UNITS)\ICEBWOR.MD Craftsmen guild
+(UNITS)\ICEBWOR.MD.HINT Makes ballistae and ice golems
+(UNITS)\ICEBSTO.MD Warehouse
+(UNITS)\ICEBSTO.MD.HINT Place for storing trees and stones
+(UNITS)\ICEBCRY.MD Crystal pit
+(UNITS)\ICEBCRY.MD.HINT Allows to collect crystals
+(UNITS)\ICEBGOL.MD Gold pit
+(UNITS)\ICEBGOL.MD.HINT Allows to mine gold
+(UNITS)\ICEBORE.MD Iron pit
+(UNITS)\ICEBORE.MD.HINT Allows to mine ore
+(UNITS)\ICEBCAS.MD Ice fortress
+(UNITS)\ICEBCAS.MD.HINT Creates yotuns and cold spirits
+(UNITS)\ICEBSHI.MD Ice dockyards
+(UNITS)\ICEBSHI.MD.HINT Makes drakkars
+(UNITS)\ICEBWAL.MD Ice wall
+(UNITS)\ICEBWAL.MD.HINT Blocks the enemy's way
+(UNITS)\ICEBTWW.MD Ice wall
+(UNITS)\ICEBTWW.MD.HINT Blocks the enemy's way
+(UNITS)\ICEBGAT.MD Ice gates
+(UNITS)\ICEBGAT.MD.HINT Opens a passageway for ice warriors
+(UNITS)\ICEBBAS.MD Ice gates
+(UNITS)\ICEBBAS.MD.HINT Blocks the enemy's way
+
+
+
+\\ ===========================---------------------------------          DWARVEN NATION        -----------------------------===========================
+
+
+(UNITS)\MECHART.MD Artificer
+(UNITS)\MECHART.MD.HINT Artificers are the most skillful craft workers. The title is actually very hard to obtain, only the most adept and proficient experts of mechanisms and artifacts receive the title of artificer
+(UNITS)\MECHENF.MD Enforcer
+(UNITS)\MECHENF.MD.HINT Enforcer is a heavy-weapon warrior who uses various mechanical elimination tools. His favorite weapon is a "Fireshot"
+(UNITS)\MECHGEO.MD Geomancer
+(UNITS)\MECHGEO.MD.HINT Geomancers are the conjurers of the earth. When mechanicians need to dig out a new tunnel or create a cave, they ask geomancers; they can order the earth, which will listen to them. Geomancers are the best of all mages, the true masters of material magic
+(UNITS)\MECSIRO.MD Ironclad
+(UNITS)\MECSIRO.MD.HINT A heavy-weapon battleship
+(UNITS)\MECSTRI.MD Catamaran
+(UNITS)\MECSTRI.MD.HINT A fast battleship
+(UNITS)\MECSTRA.MD Iron ferry
+(UNITS)\MECSTRA.MD.HINT  A carrier that can ferry the troops and machinery
+(UNITS)\MECUDWW.MD Dwarf militia
+(UNITS)\MECUDWW.MD.HINT A dwarf worker who mines minerals and constructs buildings
+(UNITS)\MECURIF.MD Dwarf marksman
+(UNITS)\MECURIF.MD.HINT A strong outshooting warrior who uses crystals for shooting and has an ability to fight in melees
+(UNITS)\MECUCAN.MD Steam cannon
+(UNITS)\MECUCAN.MD.HINT A slow machine that inflicts extensive crushing damage on territories from a large distance
+(UNITS)\MECUGOG.MD Clay golem
+(UNITS)\MECUGOG.MD.HINT A slow and heavy unit who inflicts crushing damage to lots of surrounding enemies, has regenerative abilities, slows the enemy down and decreases their defense
+(UNITS)\MECUGOI.MD Iron golem
+(UNITS)\MECUGOI.MD.HINT A slow and heavy unit who inflicts extensive damage with chopping weapons and has a high level of defense against physical damage. Immune to magic
+(UNITS)\MECUGOS.MD Steam golem
+(UNITS)\MECUGOS.MD.HINT A slow and heavy unit who inflicts splash magic damage, has a medium level of defense against all kinds of damage. Immune to magic
+(UNITS)\MECUMAC.MD Steam machine
+(UNITS)\MECUMAC.MD.HINT A self-propelled mounting that can shoot the enemy from a large distance and crush the enemy's infantry
+(UNITS)\MECUSKY.MD Ornitopter
+(UNITS)\MECUSKY.MD.HINT A fast boat-plane that can attack flying targets and bomb enemy buildings
+(UNITS)\MECUZEP.MD Zeppelin
+(UNITS)\MECUZEP.MD.HINT A heavy bomber that inflicts extensive damage on enemy ground forces
+
+\\ DWARVEN BUILDINGS
+(UNITS)\MECBACA.MD Sage tower
+(UNITS)\MECBACA.MD.HINT Invention of new technologies
+(UNITS)\MECBAIR.MD Aircraft workshop
+(UNITS)\MECBAIR.MD.HINT Makes ornitopters and zeppelins
+(UNITS)\MECBALT.MD Altar
+(UNITS)\MECBBLA.MD Blacksmith
+(UNITS)\MECBBLA.MD.HINT Provides improvements for dwarf marksmen and golems
+(UNITS)\MECBBOI.MD Boiler workshop
+(UNITS)\MECBBOI.MD.HINT Makes steam cannons and steam machines
+(UNITS)\MECBFAR.MD Pig farm
+(UNITS)\MECBFAR.MD.HINT Provides food
+(UNITS)\MECBGOG.MD Clay workshop
+(UNITS)\MECBGOG.MD.HINT Creates golems
+(UNITS)\MECBGOS.MD Steam plant
+(UNITS)\MECBGOS.MD.HINT Creates clay and steam golems
+(UNITS)\MECBGOI.MD Iron factory
+(UNITS)\MECBGOI.MD.HINT Creates clay, steam and iron golems
+(UNITS)\MECBHOU.MD Dwarf place
+(UNITS)\MECBHOU.MD.HINT Trains dwarf militia. Adds 75 residences
+(UNITS)\MECBLAB.MD Alchemist lab
+(UNITS)\MECBLAB.MD.HINT Transforms different types of resources
+(UNITS)\MECBSHI.MD Shipyard
+(UNITS)\MECBSHI.MD.HINT Creates fleet
+(UNITS)\MECBSHO.MD Shooting grounds
+(UNITS)\MECBSHO.MD.HINT Trains dwarf marksmen. Add 50 residences
+(UNITS)\MECBSTO.MD Storage
+(UNITS)\MECBSTO.MD.HINT Place for storing trees and stones
+(UNITS)\MECBTOC.MD Thunder tower
+(UNITS)\MECBTOC.MD.HINT A high-capacity defense construction that inflicts crushing damage on territories
+(UNITS)\MECBTOW.MD Musketeer tower
+(UNITS)\MECBTOW.MD.HINT A defense construction
+(UNITS)\MECBCRY.MD Crystal mine
+(UNITS)\MECBCRY.MD.HINT A mine for crystal extraction
+(UNITS)\MECBGOL.MD Gold mine
+(UNITS)\MECBGOL.MD.HINT A mine for gold extraction
+(UNITS)\MECBORE.MD Iron mine
+(UNITS)\MECBORE.MD.HINT A mine for iron extraction
+(UNITS)\MECBMIN.MD Mine
+(UNITS)\MECBMIN.MD.HINT A mine filled with flammable sand. If stepped on by the enemy, the mine will explode and inflict extensive damage to its surroundings. The mine is invisible to the opposing party
+(UNITS)\MECBWAL.MD Wall
+(UNITS)\MECBWAL.MD.HINT Blocks the enemy's way
+(UNITS)\MECBTWW.MD Wall
+(UNITS)\MECBTWW.MD.HINT Blocks the enemy's way
+(UNITS)\MECBGAT.MD Mechanical gates
+(UNITS)\MECBGAT.MD.HINT Lets own troops pass through
+(UNITS)\MECBBAS.MD Wall
+(UNITS)\MECBBAS.MD.HINT Blocks the enemy's way
+
+\\ ===========================---------------------------------          SOLS            ------------------------=============================
+
+
+(UNITS)\SOLHARC.MD Archbishop
+(UNITS)\SOLHGLA.MD Gladiator
+(UNITS)\SOLHPYR.MD Flame master
+(UNITS)\SOLUCAT.MD Flame catapult
+(UNITS)\SOLUCHA.MD Chariot
+(UNITS)\SOLUCHF.MD Flame chariot
+(UNITS)\SOLUCLE.MD Cleric
+(UNITS)\SOLUDRA.MD Flame dragon
+(UNITS)\SOLUFLY.MD Air-fly
+(UNITS)\SOLUPRI.MD Priest
+(UNITS)\SOLUSLA.MD Slave
+(UNITS)\SOLUSPH.MD Sphinx
+(UNITS)\SOLUTAS.MD Overseer
+(UNITS)\UNDUGOL.MD Summoned Bone Golem
+
+
+(UNITS)\EFFECTS\EFFDRY.MD Summoned dryad
+(UNITS)\EFFECTS\EFFCEN.MD Summoned centaur
+(UNITS)\EFFECTS\EFFWALL.MD Poisonous flower
+(UNITS)\EFFECTS\EFFTRE.MD Summoned ent
+(UNITS)\EFFECTS\EFFSKEL.MD Summoned skeleton
+(UNITS)\EFFECTS\EFFLICH.MD Master lich
+(UNITS)\EFFECTS\EFFTOW.MD Holy tower
+(UNITS)\EFFECTS\EFFAIRSUPPORT.MD Dragon
+(UNITS)\EFFECTS\EFFARC.MD Summoned elf archer
+(UNITS)\EFFECTS\EFFSUMMON.MD Rat
+(UNITS)\EFFECTS\EFFUSPI.MD Summoned genie
+(UNITS)\EFFECTS\EFFBTOW.MD Summoned tower
+(UNITS)\EFFECTS\EFFSEEDM.MD.HINT Magic mine
+(UNITS)\EFFECTS\EFFSEEDM.MD Magic mine
+(UNITS)\EFFECTS\EFFSEED.MD.HINT Magic seeds
+(UNITS)\EFFECTS\EFFSEED.MD Magic seeds
+(UNITS)\EFFECTS\EFFSTATUEOFRAGE.MD.HINT Statue of outrage
+(UNITS)\EFFECTS\EFFSTATUEOFRAGE.MD Statue of outrage
+
+
+\\ Äîìèêè â ìèññèÿõ
+(UNITS)\TOWER_BIG.MD Tower
+(UNITS)\TOWER_BIG.MD.HINT Attacks enemy ground and air forces and inflicts splash magic damage
+
+(UNITS)\ICEBALT.MD Altar
+(UNITS)\ICEBALT.MD.HINT Allows to train strong and numerous units. The costs of many summoned units increases correspondingly to their number under player's control
+(UNITS)\DRUBALT.MD.HINT Allows to train strong and numerous units. The costs of many summoned units increases correspondingly to their number under player's control
+(UNITS)\UNDBALT.MD.HINT Allows to train strong and numerous units. The costs of many summoned units increases correspondingly to their number under player's control
+(UNITS)\MECBALT.MD.HINT Allows to train strong and numerous units. The costs of many summoned units increases correspondingly to their number under player's control
+(UNITS)\SUMUBAN.MD Banshee
+(UNITS)\SUMURAT.MD Rat
+(UNITS)\SUMURATS.MD Small rat
+(UNITS)\SUMUHAR.MD Harpy
+(UNITS)\SUMUDAE.MD Demon
+(UNITS)\SUMUDRC.MD Draconide javeliner
+(UNITS)\SUMUMAE.MD Battle fire mage
+(UNITS)\SUMURID.MD Orc-rider
+(UNITS)\SUMUBAN.MD.HINT Very strong spirit, banshee's scream inflicts damage on large area
+(UNITS)\SUMURAT.MD.HINT Weak rats with low costs
+(UNITS)\SUMURATS.MD.HINT Fast small rats capable of rushing to the enemy's rears to kill weak workers
+(UNITS)\SUMUHAR.MD.HINT Strong unit, has the ability to silence enemy's spellcasting and significantly reduce enemy's hero mana restoration
+(UNITS)\SUMUDAE.MD.HINT Strong melee unit, has a chance to inflict double damage
+(UNITS)\SUMUDRC.MD.HINT Weak range soldier with a spear. In large quantities these are capable of inflicting great damage to the enemy. The basis of tactics is Hit and Run
+(UNITS)\SUMUMAE.MD.HINT Strong mage with good damage, has a chance to scare enemies
+(UNITS)\SUMURID.MD.HINT Fast ocr riding a boar, the poison these brutes use has a quick and sudden effect almost paralyzing the enemy for a moment
+
+\\ =================----------------------------   UPGRADES  ----------------------------======================
+
+MAINUN {FC12}{C FFFFCB2B}\Cover with Darkness {FC10}{C FFFFFFFF}\Upgrade Fortress to Citadel
+MAINUN2 {FC12}{C FFFFCB2B}\Embrace with Death {FC10}{C FFFFFFFF}Upgrade Citadel to Stronghold
+UndUNec(UN)S {FC12}{C FFFFCB2B}\Black Lightning ceremony {FC10}{C FFFFFFFF}\+50% to stone mining speed
+UndBTow(UN)S {FC12}{C FFFFCB2B}\Crystals of Darkness ceremony {FC10}{C FFFFFFFF}\+50% to the tower rate of fire
+UndUCat(UN)R {FC12}{C FFFFCB2B}\Fire Skull ceremony {FC10}{C FFFFFFFF}\+15% to catapult shooting range
+UndUCat(UN)L {FC12}{C FFFFCB2B}\Dead Tree ceremony {FC10}{C FFFFFFFF}\+150% of catapult durability
+UndBTow(UN)R {FC12}{C FFFFCB2B}\Poison Crystals ceremony {FC10}{C FFFFFFFF}\+35% to the tower shooting range
+UndUNec(UN)ABILITY {FC12}{C FFFFCB2B}\Necromancy ceremony {FC10}{C FFFFFFFF}\Necromancer's passive ability to raise skeletons once in 2 minutes
+UndBLi2(UN)A {FC12}{C FFFFCB2B}\Plague Crystals ceremony {FC10}{C FFFFFFFF}\+2 to the damage inflicted by Necromancy towers and buildings
+UndUAll(UN)T {FC12}{C FFFFCB2B}\Rebirth ceremony {FC10}{C FFFFFFFF}\+50% to alignment speed of all troops
+UndBAll(UN)D {FC12}{C FFFFCB2B}\Black Marble ceremony {FC10}{C FFFFFFFF}\+5 to defense of all buildings 
+UndUAll(UN)H {FC12}{C FFFFCB2B}\Reanimation ceremony {FC10}{C FFFFFFFF}\+50 health points to all warriors of the undead
+UndSAll(UN)S {FC12}{C FFFFCB2B}\Death Wind ceremony {FC10}{C FFFFFFFF}\+50% to the fleet speed 
+UndSAll(UN)T {FC12}{C FFFFCB2B}\Sea Abyss ceremony {FC10}{C FFFFFFFF}\-75% from the fleet construction time
+UndSAll(UN)P {FC12}{C FFFFCB2B}\Ghostly Fleet ceremony {FC10}{C FFFFFFFF}\+5 to defense of all ships
+UndUKni(UN)T {FC12}{C FFFFCB2B}\Ceremony of the Knights {FC10}{C FFFFFFFF}\+40% to the Death Knight initiation speed 
+UndBCry(UN)INSIDE {FC12}{C FFFFCB2B}\Dig ancient catacombs {FC10}{C FFFFFFFF}\More Necromancers can work in the mine
+UndUNec(UN)ABILITY {FC12}{C FFFFCB2B}\Necromagic Ritual {FC10}{C FFFFFFFF}\Passive ability of necromancers to rise skeletons once per /*2*/ minutes
+UndUNec(UN)L {FC12}{C FFFFCB2B}\Perform the Ritual of Strong Flesh {FC10}{C FFFFFFFF}\+20 to health of necromancers
+SUPER(UN)1 {FC12}{C FFFFCB2B}\Make a sacrifice to the dark powers! {FC10}{C FFFFFFFF}\All units receive \+1 to attack \+1 to defense \movement speed /*+7%*/
+
+DruUTre(DR)SHIELD1 {FC12}{C FFFFCB2B}\Summon the Earth Power {FC10}{C FFFFFFFF}\Defense +5
+DruBFai(DR)W {FC12}{C FFFFCB2B}\Perform the Forest Spirit ceremony {FC10}{C FFFFFFFF}\+50% to log cutting
+DruBTow(DR)A1 {FC12}{C FFFFCB2B}\Master the Clear Stream magic {FC10}{C FFFFFFFF}\+2 to tower damage
+DruBAll(DR)D1 {FC12}{C FFFFCB2B}\Perform the Root Force ceremony {FC10}{C FFFFFFFF}\+5 to defense of all buildings
+DruUFai(DR)A1 {FC12}{C FFFFCB2B}\Perform the Star Light ceremony {FC10}{C FFFFFFFF}\+3 to damage of the Fairies
+DruUFai(DR)S {FC12}{C FFFFCB2B}\Perform the Moon Dance ceremony {FC10}{C FFFFFFFF}\+50% to the Fairy's traveling speed
+DruBTow(DR)L {FC12}{C FFFFCB2B}\Master the Impregnability magic {FC10}{C FFFFFFFF}\+65% to tower durability
+DruUCen(DR)C {FC12}{C FFFFCB2B}\Sign an agreement with Centaurs from the Wind tribe {FC10}{C FFFFFFFF}\-35% cost from the Centaur's rate per visit
+DruUAll(DR)H {FC12}{C FFFFCB2B}\Drink from Clear Spring {FC10}{C FFFFFFFF}\Restores 50 health points for all warriors of the Forest Folk
+DruBTow(DR)P1 {FC12}{C FFFFCB2B}\Install the Fire crystal {FC10}{C FFFFFFFF}\+3 to the attack of this tower
+DruBTow(DR)P2 {FC12}{C FFFFCB2B}\Install the crystal of the Winds {FC10}{C FFFFFFFF}\+1000 to the shooting range of this tower
+DruBTow(DR)P3 {FC12}{C FFFFCB2B}\Braid the tower with iron lianas {FC10}{C FFFFFFFF}\+5000 to tower durability
+DruSShp(DR)R {FC12}{C FFFFCB2B}\Charm the ship ballistae {FC10}{C FFFFFFFF}\+40% to the fleet shooting distance
+DruSShp(DR)C {FC12}{C FFFFCB2B}\Reveal the secret of the ancient shipbuilders {FC10}{C FFFFFFFF}\Fleet construction price -35%
+DruSShp(DR)P {FC12}{C FFFFCB2B}\Appeal to sea fairies {FC10}{C FFFFFFFF}\All friendly ships close to the shipyards are gradually being restored
+DruBCry(DR)INSIDE {FC12}{C FFFFCB2B}\Grow a new branch {FC10}{C FFFFFFFF}\More fairies can gather resources
+DruUDru(DR)ATTACK1 {FC12}{C FFFFCB2B}\Summon the Power of Forest {FC10}{C FFFFFFFF}\Attack +2
+SUPER(DR)1 {FC12}{C FFFFCB2B}\Call upon the mighty forest! {FC10}{C FFFFFFFF}\All units receive \+1 to attack \+1 to defense \movement speed /*+7%*/
+
+MecURif(ME)T1 {FC12}{C FFFFCB2B}\Conduct an additional levy {FC10}{C FFFFFFFF}\+25% to the Dwarf marksmen's learning speed
+MecURif(ME)R1 {FC12}{C FFFFCB2B}\Equip the shooting grounds with grounds for long-range shooting {FC10}{C FFFFFFFF}\+50% to the Dwarf marksmen's shooting range
+MecUAll(ME)D1 {FC12}{C FFFFCB2B}\Distribute new equipment to golem-makers {FC10}{C FFFFFFFF}\+5 to defense of all Golems
+MecUDww(ME)W {FC12}{C FFFFCB2B}\Increase the pay for all loggers {FC10}{C FFFFFFFF}\+50% to log cutting)
+MecUDww(ME)S {FC12}{C FFFFCB2B}\Increase the pay for stone dressers {FC10}{C FFFFFFFF}\+50% to stone quarrying
+MecBTow(ME)S {FC12}{C FFFFCB2B}\Buy new muskets {FC10}{C FFFFFFFF}\(+50% to this tower's rate of fire
+MecBGoG(ME)C {FC12}{C FFFFCB2B}\Equip the boiler workshop {FC10}{C FFFFFFFF}\Upgrade to Iron factory
+MecBGoS(ME)C {FC12}{C FFFFCB2B}\Install a blast furnace {FC10}{C FFFFFFFF}\Upgrade to Steam plant
+MecURif(ME)%1 {FC12}{C FFFFCB2B}\Replace the musket fuse with a spark device {FC10}{C FFFFFFFF}\+10% to damage on Dwarf marksmen
+MecURif(ME)%2 {FC12}{C FFFFCB2B}\Hold the firing competition {FC10}{C FFFFFFFF}\+12% to damage on Dwarf marksmen
+MecURif(ME)%3 {FC12}{C FFFFCB2B}\Improve the flammable sand formula {FC10}{C FFFFFFFF}\+15% to the damage on Dwarf marksmen
+MecBTow(ME)R {FC12}{C FFFFCB2B}\Improve the tower architecture {FC10}{C FFFFFFFF}\+35% to shooting range of all towers
+MecUMac(ME)L {FC12}{C FFFFCB2B}\Reinforce the steam machine frame {FC10}{C FFFFFFFF}\+100% to Steam machine durability
+MecUMac(ME)S {FC12}{C FFFFCB2B}\Improve capsulation of the boiler {FC10}{C FFFFFFFF}\+250% to Steam machine speed
+MecUAll(ME)H {FC12}{C FFFFCB2B}\Perform a physical {FC10}{C FFFFFFFF}\Restore 50 health of Dwarfs
+MecUCan(ME)R {FC12}{C FFFFCB2B}\Upgrade the steam cannons {FC10}{C FFFFFFFF}\+35% to the steam cannon shooting range
+MecSShp(ME)L {FC12}{C FFFFCB2B}\Install additional armor on battleships {FC10}{C FFFFFFFF}\+350 catamaran and iron-clad life
+MecSShp(ME)A {FC12}{C FFFFCB2B}\Equip the fleet with explosives {FC10}{C FFFFFFFF}\+5 to catamaran and iron-clad damage
+MecSShp(ME)S {FC12}{C FFFFCB2B}\Buy quick-firers for the fleet {FC10}{C FFFFFFFF}\+25% to catamaran and iron-clad rate of fire
+MecBCry(ME)INSIDE {FC12}{C FFFFCB2B}\Explore a new minefield {FC10}{C FFFFFFFF}\More dwarfs can work in the mine
+SUPER(ME)1 {FC12}{C FFFFCB2B}\Perform an ultimate research! {FC10}{C FFFFFFFF}\All units receive \+1 to attack \+1 to defense \movement speed /*+7%*/
+
+IceUDra(IC)S {FC12}{C FFFFCB2B}\Learn Ice Wind sorcery {FC10}{C FFFFFFFF}\Ice drake movement speed +50%
+IceUDra(IC)A {FC12}{C FFFFCB2B}\Learn Freezing Breath sorcery {FC10}{C FFFFFFFF}\Ice drake damage +5
+IceUMam(IC)L {FC12}{C FFFFCB2B}\Master Iron Hide charms {FC10}{C FFFFFFFF}\Mammoth HP +1350
+IceUGre(IC)A {FC12}{C FFFFCB2B}\Make enchanted bows {FC10}{C FFFFFFFF}\Gremlin damage +15
+IceUAll(IC)L {FC12}{C FFFFCB2B}\Recite the Great Winter spell {FC10}{C FFFFFFFF}\+25% to health of all ice warriors
+IceUMag(IC)A {FC12}{C FFFFCB2B}\Write the Great Treatise of Conjurers {FC10}{C FFFFFFFF}\Increases conjurer's training speed twofold
+IceUYet(IC)S {FC12}{C FFFFCB2B}\Hold the Day of the Great Hunt {FC10}{C FFFFFFFF}\Yeti speed +30%
+IceBMin(IC)D {FC12}{C FFFFCB2B}\Reinforce mines with blocks of ice {FC10}{C FFFFFFFF}\Mine defense +12
+IceUAll(IC)H {FC12}{C FFFFCB2B}\Cast ice healing spell {FC10}{C FFFFFFFF}\Replenishes health of ice warriors
+IceUYot(IC)D {FC12}{C FFFFCB2B}\Forge the Great Armor {FC10}{C FFFFFFFF}\Yotun defense +10
+IceBCry(IC)INSIDE {FC12}{C FFFFCB2B}\Expand mine {FC10}{C FFFFFFFF}\More gremlins can work in the mine
+IceUMag(IC){FC12}{C FFFFCB2B}\A Write the Great Treatise of Conjurers {FC10}{C FFFFFFFF}\Increase the speed of Enchantresses and Conjurers training by 60%
+SUPER(IC)1 {FC12}{C FFFFCB2B}\Embrace the power of cold! {FC10}{C FFFFFFFF}\All units receive \+1 to attack \+1 to defense \movement speed /*+7%*/
+
+
+\\ Skeletons
+UndUSke(UN)ATTACK1 {FC12}{C FFFFCB2B}\Arm skeletons with battleaxes {FC10}{C FFFFFFFF}\Attack +1
+UndUSke(UN)ATTACK2 {FC12}{C FFFFCB2B}\Sharpen the axe blades {FC10}{C FFFFFFFF}\Attack +2
+UndUSke(UN)ATTACK3 {FC12}{C FFFFCB2B}\Pay for the death blow ceremony {FC10}{C FFFFFFFF}\Attack +3
+UndUSke(UN)SHIELD1 {FC12}{C FFFFCB2B}\Reinforce the helmets {FC10}{C FFFFFFFF}\Defense +1
+UndUSke(UN)SHIELD2 {FC12}{C FFFFCB2B}\Reinforce skeletons with metal parts {FC10}{C FFFFFFFF}\Defense +2
+UndUSke(UN)SHIELD3 {FC12}{C FFFFCB2B}\Perform the Stone Bones ceremony {FC10}{C FFFFFFFF}\Defense +3
+
+\\ Zombies
+UndUZom(UN)ATTACK1 {FC12}{C FFFFCB2B}\Perform the Wicked Force ceremony {FC10}{C FFFFFFFF}\Attack +4
+UndUZom(UN)ATTACK2 {FC12}{C FFFFCB2B}\Perform the Cadaveric Poison ceremony {FC10}{C FFFFFFFF}\Attack +3
+UndUZom(UN)ATTACK3 {FC12}{C FFFFCB2B}\Perform the Decomposition ceremony {FC10}{C FFFFFFFF}\Attack +2
+UndUZom(UN)SHIELD1 {FC12}{C FFFFCB2B}\Perform the Stone Flesh ceremony {FC10}{C FFFFFFFF}\Defense +3
+UndUZom(UN)SHIELD2 {FC12}{C FFFFCB2B}\Perform the Iron Skin ceremony {FC10}{C FFFFFFFF}\Defense +2
+UndUZom(UN)SHIELD3 {FC12}{C FFFFCB2B}\Perform the Tomb Decay ceremony {FC10}{C FFFFFFFF}\Defense +1
+
+\\ Mummy
+UndUMum(UN)ATTACK1 {FC12}{C FFFFCB2B}\Perform the Evil Eye ritual {FC10}{C FFFFFFFF}\Attack +2
+UndUMum(UN)ATTACK2 {FC12}{C FFFFCB2B}\Perform the Final Curse ritual {FC10}{C FFFFFFFF}\Attack +4
+UndUMum(UN)ATTACK3 {FC12}{C FFFFCB2B}\Perform the Touch of Death ritual {FC10}{C FFFFFFFF}\Attack +6
+UndUMum(UN)SHIELD1 {FC12}{C FFFFCB2B}\Perform the ritual of Embalmment {FC10}{C FFFFFFFF}\Defense +1
+UndUMum(UN)SHIELD2 {FC12}{C FFFFCB2B}\Apply Death runes to bandages {FC10}{C FFFFFFFF}\Defense +2
+UndUMum(UN)SHIELD3 {FC12}{C FFFFCB2B}\Perform the ritual of Immortality {FC10}{C FFFFFFFF}\Defense +3
+
+\\ Werewolf in human form
+UndUWeH(UN)ATTACK1 {FC12}{C FFFFCB2B}\Forge new bolts {FC10}{C FFFFFFFF}\Attack +2
+UndUWeH(UN)ATTACK2 {FC12}{C FFFFCB2B}\Replace crossbow prod {FC10}{C FFFFFFFF}\Attack +3
+UndUWeH(UN)ATTACK3 {FC12}{C FFFFCB2B}\Replace drawing mechanism {FC10}{C FFFFFFFF}\Attack +4
+
+\\ Werewolf in wolf form
+UndUWeW(UN)ATTACK1 {FC12}{C FFFFCB2B}\Pay for the Full Moon ritual {FC10}{C FFFFFFFF}\Attack +2
+UndUWeW(UN)ATTACK2 {FC12}{C FFFFCB2B}\Pay for the Hunger ritual {FC10}{C FFFFFFFF}\Attack +4
+UndUWeW(UN)ATTACK3 {FC12}{C FFFFCB2B}\Pay for the Wild Hunt ritual {FC10}{C FFFFFFFF}\Attack +6
+UndUWeW(UN)SHIELD1 {FC12}{C FFFFCB2B}\Perform the Call of the Night ritual {FC10}{C FFFFFFFF}\Defense +1
+UndUWeW(UN)SHIELD2 {FC12}{C FFFFCB2B}\Perform the ritual of Shadows {FC10}{C FFFFFFFF}\Defense +2
+UndUWeW(UN)SHIELD3 {FC12}{C FFFFCB2B}\Perform the ritual of Invulnerability {FC10}{C FFFFFFFF}\Defense +3
+ 
+\\ Vampire
+UndUVam(UN)ATTACK1 {FC12}{C FFFFCB2B}\Perform the ritual of Thirst {FC10}{C FFFFFFFF}\Attack +2 \Defense +2
+UndUVam(UN)ATTACK2 {FC12}{C FFFFCB2B}\Perform the Blood ritual {FC10}{C FFFFFFFF}\Attack +2 \Defense +2
+UndUVam(UN)ATTACK3 {FC12}{C FFFFCB2B}\Perform the Midnight ritual {FC10}{C FFFFFFFF}\Attack +2 \Defense +2
+
+\\ Ghost
+UndUGho(UN)ATTACK1 {FC12}{C FFFFCB2B}\Perform the ritual of the Lost Souls {FC10}{C FFFFFFFF}\Attack +1 \Defense +1 \Health +1
+UndUGho(UN)ATTACK2 {FC12}{C FFFFCB2B}\Perform the Chill of the Grave ritual {FC10}{C FFFFFFFF}\Attack +1 \Defense +1 \Health +1
+UndUGho(UN)ATTACK3 {FC12}{C FFFFCB2B}\Perform the ritual of Eternal Sorrow {FC10}{C FFFFFFFF}\Attack +3 \Defense +3 \Health +3
+
+\\ Dracolich
+UndUDrL(UN)ATTACK1 {FC12}{C FFFFCB2B}\Perform the Breath of Death ritual {FC10}{C FFFFFFFF}\Attack +5
+
+\\ Catapult 
+UndUCat(UN)ATTACK1 {FC12}{C FFFFCB2B}\Buy new ammunition {FC10}{C FFFFFFFF}\Attack +2
+UndUCat(UN)ATTACK2 {FC12}{C FFFFCB2B}\Pay for a drawing mechanism upgrade {FC10}{C FFFFFFFF}\Attack +4
+UndUCat(UN)ATTACK3 {FC12}{C FFFFCB2B}\Pay for the Death by Fire ritual {FC10}{C FFFFFFFF}\Attack +6
+UndUCat(UN)SHIELD1 {FC12}{C FFFFCB2B}\Mount additional spikes onto wheels and body {FC10}{C FFFFFFFF}\Defense +2
+UndUCat(UN)SHIELD2 {FC12}{C FFFFCB2B}\Reinforce catapult frame {FC10}{C FFFFFFFF}\Defense +3
+UndUCat(UN)SHIELD3 {FC12}{C FFFFCB2B}\Mount additional armor {FC10}{C FFFFFFFF}\Defense +4
+
+\\ Elf Archer 
+DruUArc(DR)ATTACK1 {FC12}{C FFFFCB2B}\Forge new arrowheads {FC10}{C FFFFFFFF}\Attack +3
+DruUArc(DR)ATTACK2 {FC12}{C FFFFCB2B}\Reinforce bow with metal strips {FC10}{C FFFFFFFF}\Attack +3
+DruUArc(DR)ATTACK3 {FC12}{C FFFFCB2B}\Make enchanted arrowheads {FC10}{C FFFFFFFF}\Attack +4
+DruUArc(DR)SHIELD1 {FC12}{C FFFFCB2B}\Self-defense training exercise {FC10}{C FFFFFFFF}\Defense +1
+DruUArc(DR)SHIELD2 {FC12}{C FFFFCB2B}\Thicken leather armor {FC10}{C FFFFFFFF}\Defense +2
+DruUArc(DR)SHIELD3 {FC12}{C FFFFCB2B}\Make troll-hide helmets {FC10}{C FFFFFFFF}\Defense +3
+
+\\ Elf Pikeman 
+DruUPik(DR)ATTACK1 {FC12}{C FFFFCB2B}\Train warriors {FC10}{C FFFFFFFF}\Attack +5
+DruUPik(DR)ATTACK2 {FC12}{C FFFFCB2B}\Issue extra rations to pikemen {FC10}{C FFFFFFFF}\Attack +5
+DruUPik(DR)ATTACK3 {FC12}{C FFFFCB2B}\Learn the secret tactics used by warriors from the Wood of the Four Winds {FC10}{C FFFFFFFF}\Attack +5
+DruUPik(DR)SHIELD1 {FC12}{C FFFFCB2B}\Reinforce helmet {FC10}{C FFFFFFFF}\Defense +1
+DruUPik(DR)SHIELD2 {FC12}{C FFFFCB2B}\Make new chainmail {FC10}{C FFFFFFFF}\Defense +2
+DruUPik(DR)SHIELD3 {FC12}{C FFFFCB2B}\Make enchanted shields {FC10}{C FFFFFFFF}\Defense +3
+
+\\ Centaur 
+DruUCen(DR)ATTACK1 {FC12}{C FFFFCB2B}\Perform the Rite of the Great Hunt {FC10}{C FFFFFFFF}\Attack +1
+DruUCen(DR)ATTACK2 {FC12}{C FFFFCB2B}\Perform the Rite of the Force of Wind {FC10}{C FFFFFFFF}\Attack +2
+DruUCen(DR)ATTACK3 {FC12}{C FFFFCB2B}\Perform the Rite of the War Spirits {FC10}{C FFFFFFFF}\Attack +3
+DruUCen(DR)SHIELD1 {FC12}{C FFFFCB2B}\Enchant bracers {FC10}{C FFFFFFFF}\Defense +2
+DruUCen(DR)SHIELD2 {FC12}{C FFFFCB2B}\Enchant protective circlet {FC10}{C FFFFFFFF}\Defense +2
+DruUCen(DR)SHIELD3 {FC12}{C FFFFCB2B}\Issue rings of defense to centaurs {FC10}{C FFFFFFFF}\Defense +2
+ 
+\\ Dryad
+DruUDry(DR)ATTACK1 {FC12}{C FFFFCB2B}\Perform the Rite of the Great Willow {FC10}{C FFFFFFFF}\Attack +2
+DruUDry(DR)ATTACK2 {FC12}{C FFFFCB2B}\Perform the Rite of the Strength of Oak {FC10}{C FFFFFFFF}\Attack +4
+DruUDry(DR)ATTACK3 {FC12}{C FFFFCB2B}\Perform the Rite of the Tree of Life {FC10}{C FFFFFFFF}\Attack +8
+DruUDry(DR)SHIELD1 {FC12}{C FFFFCB2B}\The song of Bronze Bark {FC10}{C FFFFFFFF}\Defense +1
+DruUDry(DR)SHIELD2 {FC12}{C FFFFCB2B}\The song of Silver Bark {FC10}{C FFFFFFFF}\Defense +2
+DruUDry(DR)SHIELD3 {FC12}{C FFFFCB2B}\The song of Steel Bark {FC10}{C FFFFFFFF}\Defense +3
+ 
+\\ Dwarf Militia 
+MecUDww(ME)D1 {FC12}{C FFFFCB2B}\Make chainmail for the militia {FC10}{C FFFFFFFF}\Defense +8
+
+\\ Dwarf Marksman
+MecURif(ME)A1 {FC12}{C FFFFCB2B}\Increase fire powder load {FC10}{C FFFFFFFF}\Shooting +1
+MecURif(ME)A2 {FC12}{C FFFFCB2B}\Issue explosive bullets to marksmen {FC10}{C FFFFFFFF}\Shooting +2
+MecURif(ME)A3 {FC12}{C FFFFCB2B}\Mount optical sights on muskets {FC10}{C FFFFFFFF}\Shooting +2
+MecURif(ME)A4 {FC12}{C FFFFCB2B}\Conduct hand-to-hand combat training exercise {FC10}{C FFFFFFFF}\Melee attack +2
+MecURif(ME)A5 {FC12}{C FFFFCB2B}\Hire a hand-to-hand combat master {FC10}{C FFFFFFFF}\Melee attack +2
+MecURif(ME)A6 {FC12}{C FFFFCB2B}\Hold hand-to-hand combat tournament {FC10}{C FFFFFFFF}\Melee attack +5
+
+MecURif(ME)D1 {FC12}{C FFFFCB2B}\Make stronger gauntlets {FC10}{C FFFFFFFF}\Defense +2
+MecURif(ME)D2 {FC12}{C FFFFCB2B}\Issue new helmets to riflemen {FC10}{C FFFFFFFF}\Defense +2
+MecURif(ME)D3 {FC12}{C FFFFCB2B}\Issue new chainmail to riflemen {FC10}{C FFFFFFFF}\Defense +5
+
+\\ Steam Machine 
+MecUMac(ME)A1 {FC12}{C FFFFCB2B}\Equip turret with a rifled barrel {FC10}{C FFFFFFFF}\Attack +5
+MecUMac(ME)A2 {FC12}{C FFFFCB2B}\Equip side cannons with rifled barrels {FC10}{C FFFFFFFF}\Attack +10
+MecUMac(ME)A3 {FC12}{C FFFFCB2B}\Equip machine with explosive shells {FC10}{C FFFFFFFF}\Attack +15
+MecUMac(ME)D1 {FC12}{C FFFFCB2B}\Buy new armor {FC10}{C FFFFFFFF}\Defense +3
+MecUMac(ME)D2 {FC12}{C FFFFCB2B}\Pay for the best mechanicians {FC10}{C FFFFFFFF}\Defense +3
+MecUMac(ME)D3 {FC12}{C FFFFCB2B}\Buy additional armor plates {FC10}{C FFFFFFFF}\Defense +3
+
+\\ Clay Golem 
+MecUGoG(ME)A1 {FC12}{C FFFFCB2B}\Increase weight of golem's arms {FC10}{C FFFFFFFF}\Attack +2
+MecUGoG(ME)A2 {FC12}{C FFFFCB2B}\Reinforce fists with stone {FC10}{C FFFFFFFF}\Attack +2
+MecUGoG(ME)A3 {FC12}{C FFFFCB2B}\Replace wooden arm "bones" with stone {FC10}{C FFFFFFFF}\Attack +2
+MecUGoG(ME)L1 {FC12}{C FFFFCB2B}\Buy a new type of clay {FC10}{C FFFFFFFF}\Machine strength +750
+MecUGoG(ME)L2 {FC12}{C FFFFCB2B}\Pay for golem heat treatment {FC10}{C FFFFFFFF}\Machine strength +750
+MecUGoG(ME)L3 {FC12}{C FFFFCB2B}\Add adhesive to clay {FC10}{C FFFFFFFF}\Machine strength +750
+
+\\ Steam Golem
+MecUGoS(ME)A1 {FC12}{C FFFFCB2B}\Boiler upgrade {FC10}{C FFFFFFFF}\Attack +3
+MecUGoS(ME)A2 {FC12}{C FFFFCB2B}\Upgrade the steam generation system {FC10}{C FFFFFFFF}\Attack +3
+MecUGoS(ME)A3 {FC12}{C FFFFCB2B}\Increase power generator capacity {FC10}{C FFFFFFFF}\Attack +3
+MecUGoS(ME)D1 {FC12}{C FFFFCB2B}\Equip golem with new armor {FC10}{C FFFFFFFF}\Defense +3
+MecUGoS(ME)D2 {FC12}{C FFFFCB2B}\Upgrade golem "skeleton" {FC10}{C FFFFFFFF}\Defense +5
+MecUGoS(ME)D3 {FC12}{C FFFFCB2B}\Equip golem with a self-defense system {FC10}{C FFFFFFFF}\Defense +7
+
+\\ Iron Golem 
+MecUGoI(ME)A1 {FC12}{C FFFFCB2B}\Use special steel for axes {FC10}{C FFFFFFFF}\Attack +16
+MecUGoI(ME)A2 {FC12}{C FFFFCB2B}\Install an automatic axe sharpening system {FC10}{C FFFFFFFF}\Attack +16
+MecUGoI(ME)A3 {FC12}{C FFFFCB2B}\Upgrade golem arm gearing {FC10}{C FFFFFFFF}\Attack +16
+MecUGoI(ME)D1 {FC12}{C FFFFCB2B}\Mount an energy shield on the golem {FC10}{C FFFFFFFF}\Defense +4
+MecUGoI(ME)D2 {FC12}{C FFFFCB2B}\Increase shield power supply {FC10}{C FFFFFFFF}\Defense +4
+MecUGoI(ME)D3 {FC12}{C FFFFCB2B}\Crystallization of golem armor {FC10}{C FFFFFFFF}\Defense +4
+
+\\ Conjurer
+IceUCon(IC)ATTACK1 {FC12}{C FFFFCB2B}\Issue magical bracers to conjurers {FC10}{C FFFFFFFF}\Attack +3
+IceUCon(IC)ATTACK2 {FC12}{C FFFFCB2B}\Issue magical rings to conjurers {FC10}{C FFFFFFFF}\Attack +3
+IceUCon(IC)ATTACK3 {FC12}{C FFFFCB2B}\Issue màãical staves to conjurers {FC10}{C FFFFFFFF}\Attack +4
+IceUCon(IC)SHIELD1 {FC12}{C FFFFCB2B}\Issue a stone skin elixir to conjurers {FC10}{C FFFFFFFF}\Defense +1
+IceUCon(IC)SHIELD2 {FC12}{C FFFFCB2B}\Issue an iron skin elixir to conjurers {FC10}{C FFFFFFFF}\Defense +2
+IceUCon(IC)SHIELD3 {FC12}{C FFFFCB2B}\Issue a steel skin elixir to conjurers {FC10}{C FFFFFFFF}\Defense +3
+
+\\ Enchantress
+IceUEnc(IC)A1 {FC12}{C FFFFCB2B}\Learn cold charms {FC10}{C FFFFFFFF}\Attack +2
+IceUEnc(IC)A2 {FC12}{C FFFFCB2B}\Learn ice charms {FC10}{C FFFFFFFF}\Attack +3
+IceUEnc(IC)A3 {FC12}{C FFFFCB2B}\Learn freezing charms {FC10}{C FFFFFFFF}\Attack +4
+IceUEnc(IC)D1 {FC12}{C FFFFCB2B}\Issue protective amulets to enchantresses {FC10}{C FFFFFFFF}\Defense +2
+IceUEnc(IC)D2 {FC12}{C FFFFCB2B}\Issue magical tiaras to enchantresses {FC10}{C FFFFFFFF}\Defense +3
+IceUEnc(IC)D3 {FC12}{C FFFFCB2B}\Issue magical robes to enchantresses {FC10}{C FFFFFFFF}\Defense +4
+IceUEnc(IC)A4 {FC12}{C FFFFCB2B}\Encrust staves with pearls {FC10}{C FFFFFFFF}\Enchantress melee attack +2
+IceUEnc(IC)A5 {FC12}{C FFFFCB2B}\Ornament staves' tops with gold {FC10}{C FFFFFFFF}\Enchantress melee attack +4
+IceUEnc(IC)A6 {FC12}{C FFFFCB2B}\Top staves with Ice Sapphires {FC10}{C FFFFFFFF}\Enchantress melee attack +6
+
+\\ Yeti
+IceUYet(IC)ATTACK1 {FC12}{C FFFFCB2B}\Issue extra rations to yetis {FC10}{C FFFFFFFF}\Attack +2
+IceUYet(IC)ATTACK2 {FC12}{C FFFFCB2B}\Hold hand-to-hand combat tournament {FC10}{C FFFFFFFF}\Attack +3
+IceUYet(IC)ATTACK3 {FC12}{C FFFFCB2B}\Organize a ritual mammoth hunt {FC10}{C FFFFFFFF}\Attack +4
+IceUYet(IC)SHIELD1 {FC12}{C FFFFCB2B}\Reinforce leggings with magical metal {FC10}{C FFFFFFFF}\Defense +1
+IceUYet(IC)SHIELD2 {FC12}{C FFFFCB2B}\Reinforce bracers with magical metal {FC10}{C FFFFFFFF}\Defense +2
+IceUYet(IC)SHIELD3 {FC12}{C FFFFCB2B}\Reinforce cape with magical metal {FC10}{C FFFFFFFF}\Defense +3
+
+#LEVELUP_HP_1 Increase health by 30 points
+#LEVELUP_HP_2 Increase health by 55 points
+#LEVELUP_HP_3 Increase health by 70 points
+#LEVELUP_LETPASS Skip selection to enable full list of enhancements on next level-up
+#LEVELUP_ATTACK_1 Increase attack value by 1
+#LEVELUP_ATTACK_2 Increase attack value by 2
+#LEVELUP_ATTACK_3 Increase attack value by 3
+#LEVELUP_RANGE_1 Increase attack range by 30
+#LEVELUP_RANGE_2 Increase attack range by 55
+#LEVELUP_RANGE_3 Increase attack range by 70
+#LEVELUP_SPEED_1 Add 4% to movement speed
+#LEVELUP_SPEED_2 Add 6% to movement speed
+#LEVELUP_SPEED_3 Add 8% to movement speed
+#LEVELUP_FSPEED_1 Add 6% to attack rate
+#LEVELUP_FSPEED_2 Add 9% to attack rate
+#LEVELUP_FSPEED_3 Add 12% to attack rate
+#LEVELUP_PARMOR_1 Increase defense against piercing damage by 1
+#LEVELUP_PARMOR_2 Increase defense against piercing damage by 2
+#LEVELUP_PARMOR_3 Increase defense against piercing damage by 3
+#LEVELUP_CHARMOR_1 Increase defense against chopping damage by 1
+#LEVELUP_CHARMOR_2 Increase defense against chopping damage by 2
+#LEVELUP_CHARMOR_3 Increase defense against chopping damage by 3
+#LEVELUP_MARMOR_1 Increase magic resistance by 1
+#LEVELUP_MARMOR_2 Increase magic resistance by 2
+#LEVELUP_MARMOR_3 Increase magic resistance by 3
+#LEVELUP_CARMOR_1 Increase defense against crushing damage by 1
+#LEVELUP_CARMOR_2 Increase defense against crushing damage by 2
+#LEVELUP_CARMOR_3 Increase defense against crushing damage by 3
+#LEVELUP_LREGEN_1 Increase health regeneration by 2
+#LEVELUP_LREGEN_2 Increase health regeneration by 3
+#LEVELUP_LREGEN_3 Increase health regeneration by 4
+#LEVELUP_MREGEN_1 Increase mana restoration by 1
+#LEVELUP_MREGEN_2 Increase mana restoration by 2
+#LEVELUP_MREGEN_3 Increase mana restoration by 3
+#LEVELUP_MANA_1 Increase mana pool by 20
+#LEVELUP_MANA_2 Increase mana pool by 40
+#LEVELUP_MANA_3 Increase mana pool by 60
+#LEVELUP_RANGE_1 Increase attack range by 45
+#LEVELUP_RANGE_2 Increase attack range by 60
+#LEVELUP_RANGE_3 Increase attack range by 75
+#LEVELUP_VISION_1 Increase range of view by 1
+#LEVELUP_VISION_2 Increase range of view by 2
+#LEVELUP_VISION_3 Increase range of view by 3
+
+#FromBase from base value
+#FromCurrent from current value
+
+FEAR_RNDM0 Aaaaa... 
+FEAR_RNDM1 We will die!!! Retreat...
+FEAR_RNDM2 Oh no!
+FEAR_RNDM3 There are too many of them!
+FEAR_RNDM4 They will kill me!
+FEAR_RNDM5 They are too strong!
+FEAR_RNDM6 I don't want to die!
+FEAR_RNDM7 Save yourselves!
+
+\\=================================-------------------------------------- SPELLS --------------===============================
+
+#MC_aSummonPeasants Left click - hero summons workers to build a base, but the hero turns into a statue for 30 minutes (game type - RTS). Right click on the card to convert it to coins (game type - RPG)
+#MC_aSummonPeasants.NAME Rally workers
+#SPELL_STONESKIN Hero turns the skin of his warriors into the stone, slowing them, but increasing their defenses (spell duration and radius increase with level) 
+#SPELL_STONESKIN.NAME Stone skin
+#SPELL_ANTIMAGIC Hero removes all magic effects and protects his warriors from enemy sorcery, increasing magic resistance by 20 and making them immune to spells (spell duration and radius increase with level)
+#SPELL_ANTIMAGIC.NAME Antimagic
+#SPELL_FROST Hero freezes enemy units inflicting small amount of damage to them; while the flying creatures fall down to the ground and sustain high damage. Frozen units are surrounded by a thick lump of ice, which increases their defense values, but makes them immobile (defense value and damage inflicted increase with level)
+#SPELL_FROST.NAME Frost
+#SPELL_BERSERK This spell drives friendly warriors into a battle trance: their power increases (+50% to attack value), but in this state units pay little attention to defense (-25% to defense values) (spell duration and radius increase with level)
+#SPELL_BERSERK.NAME Berserk
+#SPELL_EARTHQUAKE Hero casts an earthquake, which destroys structures and slows movement of land warriors inflicting small damage (spell radius and damage increase with level)
+#SPELL_EARTHQUAKE.NAME Earthquake
+#SPELL_POLYMORPH This spell can turn the enemy unit into a pig or morph the hero into a mighty dragon. Terrified pig moves fast but is very vulnerable (spell duration and dragon parameters increase with level)
+#SPELL_POLYMORPH.NAME Polymorph
+#SPELL_INVISIBILITY Hero casts this spell to make the group of warriors invisible. Invisibility lasts until the warrior attacks or casts a spell, or until the time elapses. Enchanted warriors do not attack without an order (spell duration increases with level; on high levels invisibility lasts even when warrior attacks)
+#SPELL_INVISIBILITY.NAME Invisibility
+#SPELL_LIGHTNINGEYE Hero summons a magic eye, which hangs above the land and attacks enemies around with lightning bolts. The eye detects invisible enemies (spell duration and damage inflicted increase with level)
+#SPELL_LIGHTNINGEYE.NAME Eye of lightning
+#SPELL_BONEGOLEM This spell creates a powerful golem out of the bones of dead warriors (golem's parameters increase with level)
+#SPELL_BONEGOLEM.NAME Bone golem
+#SPELL_ABSORPTION This spell removes all magic effects in the targeted area. Magic energy that generated spells returns to the mage; damage inflicted by units with magic weapons reduces twice (spell radius increases with level)
+#SPELL_ABSORPTION.NAME Absorb magic
+#SPELL_THEFT This spell creates a spectral chain between the hero and the enemy structure. With this chain, hero steals resources from enemy's stores (stealing speed increases with level)
+#SPELL_THEFT.NAME Theft
+#SPELL_DECEIVEDEATH Hero makes a group of warriors invulnerable. However, when the spell lapses warriors will lose the most of their health
+#SPELL_DECEIVEDEATH.NAME Deceive Death
+#SPELL_STATUEOFOUTRAGE The caster creates a magical statue that attracts the attention of all enemy warriors in its vicinity. They run towards the statue and attack it, ignoring orders (statue strength increases with levels)
+#SPELL_STATUEOFOUTRAGE.NAME Statue of Outrage
+#SPELL_WHITEMAGIC All friendly warriors around the hero are healed while all enemies receive damage. The hero loses a large part of his health and may even die (damage and healing increase with levels)
+#SPELL_WHITEMAGIC.NAME White magic
+#SPELL_SUMMONILLUSIONS A mirror image of a warrior, controlled by the caster, is created next to the original. The illusion resembles the warrior in every way but inflicts less damage (the number of illusions a hero can summon increases with levels)
+#SPELL_SUMMONILLUSIONS.NAME Summon illusions
+#SPELL_FLAMEAURA When this spell is cast, the warrior is immediately enveloped in an aura of flame that inflicts damage to nearby enemies (the duration and power of this spell increase with levels)
+#SPELL_FLAMEAURA.NAME Flame aura
+#SPELL_CLAIRVOYANCE This spell allows the caster to look at the distant lands and detect invisible troops (spell duration and range increase with levels)
+#SPELL_CLAIRVOYANCE.NAME Clairvoyance
+#SPELL_LASTBREATH When the warrior on whom the spell is cast dies or when the spell ends his body explodes, inflicting damage to nearby enemies and infecting unlucky warriors with disease (the blast radius and force increase with levels) 
+#SPELL_LASTBREATH.NAME Last breath
+#SPELL_PETRIFICATION Turns warriors into statues that are unable to move or attack but receive a defense bonus. If this spell is cast on a building it stops functioning; flying creatures fall to the ground suffering serious damage (spell duration and range increase with levels)
+#SPELL_PETRIFICATION.NAME Petrification
+#SPELL_SPHERESOFMAGMA By casting this spell the hero creates a ball of fiery magma that rolls away from him in a targeted direction. The sphere crushes warriors in its path and deals a lot of damage if it hits a building. After a certain amount of time the sphere explodes sowing panic among the enemy
+#SPELL_SPHERESOFMAGMA.NAME Sphere of magma
+#SPELL_TRAP The hero binds warriors together using spectral chains. The chained warriors are unable to move and receive minor damage but can still attack. Pulls in flying units (spell duration and range increase with levels)
+#SPELL_TRAP.NAME Snare
+#SPELL_FIRESTORM When this spell is cast the ground starts to burn, scorching enemy warriors and setting fire to buildings located in the area of effect (spell damage increases with levels)
+#SPELL_FIRESTORM.NAME Fire storm
+#SPELL_FOGOFDEATH The hero utters a magic formula and a noxious fog begins to swirl above the ground, poisoning all living warriors. Corpses gradually come alive under the fog. Warriors that have left the mist continue to lose life for a while (damage dealt increases with levels)
+#SPELL_FOGOFDEATH.NAME Formula of Death
+#SPELL_CELESTIALLIGHT The hero calls to the heavens and a pillar of light strikes the ground, destroying the undead and healing his troops (damage and healing increase with levels, at higher levels resurrects friendly troops)
+#SPELL_CELESTIALLIGHT.NAME Celestial light
+#SPELL_FIREBALL The hero summons a ball of fire that explodes, inflicting damage to enemy warriors in the target area. The explosion temporarily stuns those who were too close to the epicenter. Stuns units located close to the explosion (damage, stun period and range increase with levels)
+#SPELL_FIREBALL.NAME Fire ball
+#SPELL_NECROSIS A spell that kills a group of enemies and turns them into zombies. If the spell is applied to undead they begin to take orders from the spellcaster. This spell also restores the damaged flesh of undead warriors (spell range increases with levels)
+#SPELL_NECROSIS.NAME Necrosis
+#SPELL_FIREWAVE A circular wave of fire moves away from the conjurer, burning everyone it touches (spell damage increases with levels)
+#SPELL_FIREWAVE.NAME Fire wave
+#SPELL_ACID A stream of acid erupts from the hero's hands. The acid corrodes warriors' armor and weapons, halving their defenses and attack (spell duration and damage increase with levels)
+#SPELL_ACID.NAME Acid
+#SPELL_RUNEOFFIRE The hero creates an invisible trap on the ground. If an enemy steps on it the trap explodes, inflicting damage to all nearby enemies. If the trap is detected it can be destroyed (damage and range increase with levels)
+#SPELL_RUNEOFFIRE.NAME Fire rune
+#SPELL_LIFESTEAL The hero steals life from nearby enemies (the speed at which hit points are stolen increases with levels)
+#SPELL_LIFESTEAL.NAME Life steal
+#SPELL_TORNADO The spell creates a tornado which randomly moves across the ground. The tornado destroys warriors in its path (spell duration increases with levels)
+#SPELL_TORNADO.NAME Tornado
+#SPELL_DECAY A noxious mist begins to swirl above corpses surrounding the spellcaster, inflicting damage to enemies and healing friendly undead. Corpses gradually vaporize (spell damage/healing increase with levels)
+#SPELL_DECAY.NAME Decay
+#SPELL_HURRICANE A powerful hurricane that damages buildings and flying creatures. Slows down enemies and stops them from shooting (spell damage increases with levels)
+#SPELL_HURRICANE.NAME Hurricane
+#SPELL_THUNDERSTORM A thunderstorm breaks out around the hero, slowing down flying enemies significantly and halving the attack of shooting units. Bolts of lightning strike down at enemies from time to time, inflicting damage and stunning them (spell duration and damage increase with levels)
+#SPELL_THUNDERSTORM.NAME Thunderstorm
+#SPELL_EARTHFIST The spell causes earth to take the shape of a fist that descends from the sky. The fist strikes down at the surface, injuring and briefly stunning warriors who had the misfortune of being in the area. The fist can destroy buildings (spell damage increases with levels)
+#SPELL_EARTHFIST.NAME Earth fist
+#SPELL_ICESPHERE The hero releases a sphere of ice that sends cold and spikes of ice at enemies, slowing them down and inflicting damage (spell damage and range increase with levels)
+#SPELL_ICESPHERE.NAME Ice sphere
+#SPELL_FRACTURE The ground parts and a bottomless abyss opens up at the designated spot, swallowing up all warriors who stood in the area. The abyss is also impassable for non-flying creatures. When the spell ends the abyss disappears (the area covered by the abyss increases with levels)
+#SPELL_FRACTURE.NAME Fracture
+#SPELL_POISONOUSWAVE A wave of noxious mist spreads from the conjurer. The wave poisons warriors in its way, inflicting damage over time and halving their attack and defense (damage increases with levels)
+#SPELL_POISONOUSWAVE.NAME Poisonous wave
+#SPELL_SICCATION The caster creates a magical clot resembling a lens in the sky that sets fire to enemy warriors, paralyzing them and inflicting serious damage
+#SPELL_SICCATION.NAME Siccativus
+#SPELL_LIGHTNINGSTORM A bolt of lightning strikes from the heavens, inflicting damage to enemy troops. Electrical discharges spread from the point where it struck damaging all enemies in their way (damage increases with levels)
+#SPELL_LIGHTNINGSTORM.NAME Lightning storm
+#SPELL_SUMMON The hero summons several warriors to his aid. (the number, strength, HPs and defense of the summoned creatures increases with levels)
+#SPELL_SUMMON.NAME Summon
+#SPELL_CONTROL The enemy begins to take orders from the spellcaster for the duration of the spell (duration increases with levels)
+#SPELL_CONTROL.NAME Control
+#SPELL_RAISEDEAD Calls skeletons to the spellcaster's aid. Some of the corpses on the battlefield come alive and become the walking dead (the strength and number of summoned undead creatures increases with levels)
+#SPELL_RAISEDEAD.NAME Raise dead
+#SPELL_CALLOFNATURE The hero summons forest folk (the number of summoned creatures increases with levels)
+#SPELL_CALLOFNATURE.NAME Call of nature
+#SPELL_PLANTWALL Carnivorous plants that spit thorns at enemies spring from the ground in the designated area. The thorns poison enemy troops, slow them down and inflict damage (the plants' HPs and defense increase with levels)
+#SPELL_PLANTWALL.NAME Plant wall
+#SPELL_GENIESUMMON The caster summons a genie that lives on the hero's life force (the genie's characteristics increase with levels)
+#SPELL_GENIESUMMON.NAME Genie summon
+#SPELL_GHOSTLYTOWER The spell creates a tower in the designated area. The tower attacks enemies and detects invisible units.  The tower is strengthened with every enemy that dies near it (the tower's characteristics and spell duration increase with levels
+#SPELL_GHOSTLYTOWER.NAME Ghostly tower
+#SPELL_TREEOFLIFE This spell plants a magical tree in the ground that heals nearby friendly warriors and slows down enemies. The tree's effects become stronger as the conjurer's power increases and very powerful trees can resurrect the fallen
+#SPELL_TREEOFLIFE.NAME Tree of life
+#SPELL_DIVINECALL The hero summons flying creatures. Their number and power depend on the hero's level
+#SPELL_DIVINECALL.NAME Divine call
+#SPELL_MAGICSEEDS The hero throws magical seeds on the ground. The seeds sprout for some time and then turn into warriors. After the flowers bloom they turn into natural mines (the number of sprouts increase with level)
+#SPELL_MAGICSEEDS.NAME Miraculous seeds
+#SPELL_INFECTION Infects enemy warriors with a mysterious disease, causing them to weaken and become lethargic. An infected warrior gradually infects those around him. Affected enemies become much slower (the time required for units to be cured of the disease increases with levels)
+#SPELL_INFECTION.NAME Infection
+#SPELL_FAIRYDUST Some golden dust appears in the hero's hand. The hero then blows the dust onto his warriors, allowing them to fly for a short time. Enemies that come in contact with the dust are lifted into the air and hover there helplessly for a while (spell duration increases with levels)
+#SPELL_FAIRYDUST.NAME Fairy dust
+#SPELL_PERSTILENCE A huge swarm of various insects descends upon the battlefield at the hero's beckoning, stinging enemies, slowing them down and inflicting damage (spell damage increases with levels) 
+#SPELL_PERSTILENCE.NAME Pestilence
+#SPELL_ASTRAL The caster creates a portal between the material and astral planes in the designated area. All creatures in the area become temporarily ethereal, rendering them unable to attack or cast spells (spell duration and range increase with levels)
+#SPELL_ASTRAL.NAME Astral
+#SPELL_CURSE Enemy troops affected by the curse lose 25% of their defenses and are unable to use their weapons effectively (attack -50%) (spell duration and range increase with levels)
+#SPELL_CURSE.NAME Curse
+#SPELL_FEAR Enemy warriors affected by this spell become temporarily uncontrollable and flee from the hero in panic (spell duration increases with levels)
+#SPELL_FEAR.NAME Fear
+#SPELL_BLINDNESS Blinds the enemy warrior making him unable to attack (spell duration increases with levels)
+#SPELL_BLINDNESS.NAME Blindness
+#SPELL_MINE The hero places a mine, which becomes invisible and arms itself after five seconds. The mine can be destroyed if magically detected (damage increases with levels)
+#SPELL_MINE.NAME Mine
+#SPELL_GRENADE The hero throws a grenade that deals magical damage to all nearby enemy warriors (spell damage increases with levels)
+#SPELL_GRENADE.NAME Grenade
+#SPELL_MAGICWEAPON Warriors' weapons temporarily become magical, which allows them to inflict more damage to the enemies (duration increases with level)
+#SPELL_MAGICWEAPON.NAME Magic weapon
+#SPELL_ICEARROW Hero fires an ice arrow, which slows and damages enemies on its way (damage inflicted by arrow and spell range increase with level)
+#SPELL_ICEARROW.NAME Ice arrow
+#SPELL_GENIESUMMON_DELETE Hero sets genie free
+#SPELL_GENIESUMMON_DELETE.NAME Release genie
+
+\\ ==============================------------------------------       AURAS        -----------------------------================================
+#HeroRun Run - considerably increases movement speed for a while
+#HeroRunFighter Run - considerably increases movement speed for a while (warriors quickly restore their running ability)
+#HeroRunRanger Run - considerably increases movement speed for a while (rangers can run for longer distances)
+#HeroRunWizard Run - considerably increases movement speed for a while (mages slowly restore their running ability)
+\\ Amazon
+#AuraRetribution.NAME Retribution Aura
+#AuraRetribution Amazon retaliates the units that attack her inflicting 60% of the damage dealt. Lasts for 20 seconds, recharges in 40 seconds, affects only amazon
+#AuraEquilibrium.NAME Equilibrium
+#AuraEquilibrium All units under the influence of this ability around the amazon cannot cast spells. Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds, ignores magic immunity (single use)
+#AuraHeroism.NAME Heroism
+#AuraHeroism The allied units around the hero receive bonus to attack rate (+25%), attack power (1, adds 1 per 4 levels), and penalty to defense parameters (-1, and -1 per 4 hero's levels). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 (single use)
+
+\\ Ranger
+#AuraTrueshot.NAME Wind Arrows
+#AuraTrueshot Wind blows from behind the army allowing arrows to fly faster and further but reducing attack speed (+3 to damage, +120 to shooting range, -33% from attack rate)
+#AuraLightwalk.NAME Light Walk 
+#AuraLightwalk The hero becomes invisible if near the trees. Adds bonus to defense from piercing weapons (2, adds 1 per 7 levels). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds 40 (single use)
+
+\\ Druid
+#AuraInsects.NAME Insects
+#AuraInsects The enemies around the druid start losing health (1HP per second). Reduces power (-3, and -1 per 6 hero's levels) and defense from all weapons (-2, and -1 per 6 hero's levels). Lasts for 20 seconds, radius 150 points (5 points per level), recharges in 40 seconds (aura)
+
+\\ Death Knight
+#AuraAbsorption.NAME Absorption
+#AuraAbsorption All allied units around the hero lose 20 HP - Death knight receives 10 HP for each unit. Radius 150 points (adds 5 point per level), recharges in 40 seconds (single use)
+#AuraFear.NAME Fear
+#AuraFear Death Knight has a 25% chance to make enemy units scatter in fear. Lasts for 20 seconds, recharges in 40 seconds (single use)
+#AuraDarkarmor.NAME Dark Armor
+#AuraDarkarmor Adds +35% to defense parameters of friendly warriors. Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (single use)
+
+\\ Vampiress
+#AuraVampirism.NAME Vampirism
+#AuraVampirism Friendly units heal themselves by inflicting damage on the enemy (15% of damage dealt). Lasts for 20 seconds, radius 150 points (5 points per level), recharges in 40 seconds (aura)
+#AuraBloodlust.NAME Bloodlust
+#AuraBloodlust Hero receives bonuses to attack rate (+40%), movement speed (+20%), and attack power (+60%) for 2 seconds after strike. Lasts for 20 seconds, recharges in 40 seconds (single use)
+
+\\ Necromancer
+#AuraNecromancy.NAME Necormancy Aura
+#AuraNecromancy Lichlord becomes surrounded with the aura of dark magic that turns every dead warrior into a skeleton with bonuses to health points (1, adds 1 per 5 levels), defense (1, adds 1 per 5 levels), attack power (1, adds 1 per 5 levels), and unlimited existence time. Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (aura)
+
+\\ Barbarian
+#AuraFury.NAME Aura of Fury
+#AuraFury Allied units receive bonuses to attack rate (30, adds 1 per 5 levels), movement speed (30, adds 1 per 5 levels), and penalty to defense from all weapons (-1, and -1 per 5 hero's levels). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (single use)
+#AuraIce.NAME Ice Aura
+#AuraIce Enemies receive penalty to attack rate (-10, and -1 per 3 hero's levels), movement speed (-10, and -1 per 3 hero's levels), defense from all weapons (-1, and -1 per 5 hero's levels). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges 40 seconds (aura)
+#AuraDestriction.NAME Aura of Destruction
+#AuraDestriction Allied units near the barbarian start inflicting crushing damage. Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (aura)
+
+\\ Valkyrie
+#AuraThunder.NAME Thunderstorm Aura
+#AuraThunder Enemies around the valkyrie receive damage (3, and 1 per 5 hero's levels 2 times a second). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (aura)
+#AuraWind.NAME Aura of Gale
+#AuraWind Allied units receive bonuses to movement speed (+25%), defense from piercing weapons (1, adds 1 per 7 levels). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (single use)
+
+\\ Archmage
+#AuraTransformation.NAME Transformation of Energies
+#AuraTransformation Hero loses health regeneration ability (-5, and -1 per 5 hero's levels), but greatly improves mana restoration (5, adds 1 per 5 levels). Recharges in 1 second (aura)
+
+\\ Geomancer
+#AuraEarthPower.NAME Earth Power
+#AuraEarthPower Enemies lose defense ability (-25% to defense parameters), and movement speed (-10, and -1 per 7 hero's levels). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (aura)
+
+\\ Artificer
+#AuraOverhaul.NAME Hammer's Rage
+#AuraOverhaul Allied units receive bonus to attack rate (+35%). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (single use)
+#AuraJamming.NAME Jamming
+#AuraJamming Enemies inflict less damage (-25%). Lasts for 20 seconds, radius 150 point (adds 5 point per level), recharges in 40 seconds (aura)
+
+\\ Enforcer
+#AuraDynamite.NAME Dynamite
+#AuraDynamite Enemies around the enforcer lose health (-10, and -1 per 6 hero's levels). Radius 150 points (adds 5 point per level), recharges in 40 seconds  (single use)
+#AuraSmokeScreen.NAME Smoke Screen
+#AuraSmokeScreen Enemy's ranged units inflict less damage (-1, and -1 per 5 hero's levels). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (aura)
+#AuraGasStrike.NAME Gas Strike
+#AuraGasStrike Enemies near the enforcer start losing health (-5, and -1 per 5 levels). Lasts for 20 seconds, radius 150 points (adds 5 points per level), recharges in 40 seconds (aura)
+
+\\ Units
+#AuraWordofIce.NAME Word of ice
+#AuraWordofIce Slows down affected enemies by 33%. The effect lasts for 1.5 seconds
+#AuraHypnosis.NAME Hypnosis
+#AuraHypnosis There is a chance of hypnotizing up to 5 enemy units on every attack. Hypnotized units will not move for 0.5 seconds
+#AuraTrample.NAME Trample
+#AuraTrample Able to trample enemy's infantry, slicing through their ranks
+#AuraBrotherhood.NAME Brotherhood of Yeti
+#AuraBrotherhood Adds 10 health points to all yetis and yeti chiefs in the area. Aura effects are cumulative
+#AuraIceBreath.NAME Ice breath
+#AuraIceBreath Slows down affected enemies by 33%. The effect lasts for 1.5 seconds
+#UA_IceGolem_Degeneration.NAME Heating
+#UA_IceGolem_Degeneration Loses 10 health points every 2 seconds
+#UA_IceGolem_Regeneration.NAME Cooling
+#UA_IceGolem_Regeneration Restores 20 health points per second (only when on snow)
+#AuraPowerofSnows.NAME Power of snows
+#AuraPowerofSnows Regenerates 10 health points every 3 seconds
+#AuraMagicImmune.NAME Magic immune
+#AuraMagicImmune Makes the creature immune to all magic effects
+#AuraAutorepair.NAME Auto-repair
+#AuraAutorepair Regenerates 20 health points per second (only on own territory)
+#AuraMud.NAME Mud
+#AuraMud Slows down all attacked units by 75%
+#AuraCloudofFear.NAME Cloud of fear
+#AuraCloudofFear Creates a 15% chance of striking fear into the attacked units
+#AuraDeathblow.NAME Deathblow
+#AuraDeathblow 15% chance to attack twice in a row
+#AuraImmunity.NAME Vulnerability aura
+#AuraImmunity The aura reduces defense of all enemy units in the area of the aura by 1 point. Aura effects are cumulative
+#AuraBonePower.NAME Bone power
+#AuraBonePower Increases defense of skeletons in the area of the aura by 1 point. Aura effects are cumulative
+#AuraVampirism1.NAME Vampirism
+#AuraVampirism1 Very high speed and defense parameters, flies, unable to attack
+#AuraVampirism2.NAME Vampirism
+#AuraVampirism2 Melee unit becomes capable of stealing life from enemy. Transfers 15% of the enemy's maximum health points to unit with each attack
+#AuraTransformation1.NAME Transformation
+#AuraTransformation1 High movement speed, melee unit with good health regeneration 
+#AuraTransformation2.NAME Transformation
+#AuraTransformation2 Shooter, defenseless in melee combat
+#AuraFortitude.NAME Fortitude
+#AuraFortitude Regenerates 4 health points per second
+#AuraIreofNature.NAME Ire of nature
+#AuraIreofNature Increases attack values of all friendly units in the area by 2 points. Aura effects are cumulative
+#AuraRoots.NAME Roots
+#AuraRoots Entangles all enemies around Ent with roots. Tangled units will not move for 10 seconds
+#AuraMightofUrsa.NAME Might of Ursa
+#AuraMightofUrsa Gives ursas in the area 50 health points and adds 3 points to attack value. Aura effects are cumulative
+#AuraWoundHealing.NAME Wounds healing
+#AuraWoundHealing Restores 50 health points of friendly units
+#AuraOrcsFury.NAME Orcs fury
+#AuraOrcsFury All orcs affected by the aura have their attack increased by 2 points. Aura effects are cumulative
+#AuraPlague.NAME Plague
+#AuraPlague The bitten unit's attack is reduced by 3 points and movement speed falls by 33%. The effect lasts for 60 seconds
+
+#AuraRevenge.NAME Spider's revenge
+#AuraRevenge After the spider's death the remaining spiders' movement speed increases by 200% and attack rate by 100%. The effect lasts for 20 seconds
+#AuraDemise.NAME Poisonous demise
+#AuraDemise When the spider dies nearby enemies lose 50 health points
+#AuraWindStrike.NAME Wind strike
+#AuraWindStrike Reduces movement speed by 75 points and attack rate by 50. The effect lasts for 3 seconds.
+#AuraEarthStrike.NAME Earth strike
+#AuraEarthStrike Stuns unit, depriving it from the possibility to move and attack. Probability to stun unit for 3 seconds - 20%
+#AuraIceStrike.NAME Ice strike
+#AuraIceStrike Halves defense and attack values for 3 seconds
+#AuraFlameStrike.NAME Flame strike
+#AuraFlameStrike Scorches the enemies. Probability of causing fear 50%
+#AuraRuse.NAME Goblins ruse
+#AuraRuse All goblins in the area receive +1 to attack value. If goblin chieftain dies, goblins will panic. Aura effects are cumulative
+#AuraRaiseDead.NAME Raise dead
+#AuraRaiseDead The aura resurrects dead goblins
+#AuraTricks.NAME Gnolls tactics
+#AuraTricks All gnolls in the area receive +2 to attack. If gnoll chieftain dies, gnolls will panic. Aura effects are cumulative
+#AuraRunePower.NAME Rune power
+#AuraRunePower All dwarves in the area receive +3 to attack and +2 to defense values
+#AuraHarpy.NAME Stranglehold
+#AuraHarpy Breaks concentration and stops the enemy from casting spells, also reduces mana regeneration by 30 (if regeneration is less than 30 the amount of mana will gradually decrease); lasts for 60 seconds
+#AuraHellhound.NAME Hellfire
+#AuraHellhound The enemy hero loses 30 points of mana from every hit he takes
+#AuraBasiliskPetrify.NAME Basilisk's gaze
+#AuraBasiliskPetrify Turns the enemy into a stone statue; lasts for 15 seconds
+#AuraGravedigger.NAME Cadaverous gloom
+#AuraGravedigger Turns killed enemies into the undead, partly replenishes health from killed enemies
+#ABILITY_FLAMEAURA When this spell is cast the warrior is immediately enveloped in an aura of flame that inflicts damage to nearby enemies
+#ABILITY_FLAMEAURA.NAME Flame Aura
+#PushAll.Name Tramples enemies
+#PushAll Destroys enemy's infantry on the way
+#Lower_damage.NAME Anger of Trees
+#Lower_damage The enemy attacked by the druid becomes weaker and loses his defense abilities (-3 from attack, -2 from defense values)
+
+#Explosion.NAME Shellshock
+#Explosion Shellshock (-20% to movement and attack rate)
+
+#Bottle9_Slow.NAME Poisoned
+#Bottle9_Slow Reduces movement speed by 20% and deals 1 damage 2.5 times per second. Lasts for 8 seconds. Effect is cumulative
+#UW_aSpiderSlow.NAME Poisoned
+#UW_aSpiderSlow Reduces movement speed by 25% and deals 1 damage 4 times per second. Lasts for 1.5 seconds. The effect is cumulative
+#UW_aSlow.NAME Poisoned
+#UW_aSlow Reduces movement speed by 75%, lasts for 0.75 seconds
+#UW_Poison.NAME Poisoned
+#UW_Poison Reduces movement speed by 7% and deals 1 damage 5 times per second. Lasts for 6 seconds. The effect is cumulative
+
+#Altar_attack.NAME Attack bonus
+#Altar_attack Increases units attack by 5
+#Altar_defence.NAME Defense bonus
+#Altar_defence Increases units defense by 5
+#Altar_regeneration.NAME Regeneration
+#Altar_regeneration Increases health and mana restoration five-fold
+#Altar_rage.NAME Rage
+#Altar_rage Increases hero's movement and attack speed by 50%
+#Bonus_fontain.NAME Fontain
+#Bonus_fontain Restores hero's 300 health points and 120 mana points
+(UNITS)\EFFECTS\EFFLANDMINE.MD Mine
+(UNITS)\EFFECTS\EFFLANDMINE.MD.HINT A mine packed with fire powder. Explodes when stepped on by an enemy dealing serious damage to all nearby units. The mine is invisible to the enemy
+(UNITS)\EFFECTS\EFFRUNEOFFIRE.MD Rune of fire
+(UNITS)\EFFECTS\EFFRUNEOFFIRE.MD.HINT Invisible trap. If an enemy steps on it the trap explodes dealing damage to all nearby enemies. If the trap is detected it can be destroyed (damage and explosion radius increase with levels)
+(UNITS)\EFFECTS\EFFLIGHTNINGEYE.MD Eye of lightning
+(UNITS)\EFFECTS\EFFLIGHTNINGEYE.MD.HINT The mage summons a magic eye, which hovers above ground and attacks enemies with lightning bolts. The eye detects invisible enemies (spell duration, range and damage increase with levels)
+(UNITS)\EFFECTS\EFFBAPL.MD Tree of life
+(UNITS)\EFFECTS\EFFBAPL.MD.HINT The mage summons a magical tree that heals nearby friendly warriors and slows down enemies. The tree's effects become stronger as the conjurer's power increases and very powerful trees can resurrect the fallen
+
+#a_Venom.HINT Ancient poison
+#a_Venom Reduces the regeneration of hero's life by 40, inflict 4 damage 10 times on units; ignores defense and immunity
+
+#To_Vampire.NAME Transform
+#To_Vampire Transform to Vampire
+#To_Bat_Vampire.NAME Transform
+#To_Bat_Vampire Transform to Bat
+#UA_aRaiseSkeleton.NAME Animate dead
+#UA_aRaiseSkeleton Spellcaster performs a ritual of raising skeletons from the ground
+#ToArcher.NAME Transform
+#ToArcher Transform to Werewolf
+#AuraTransformation1.NAME Transform
+#AuraTransformation1 Transform to Werewolf-human

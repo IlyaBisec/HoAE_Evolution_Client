@@ -1,0 +1,19 @@
+<ShowBuildStage>
+ <Name>BuildStage_Und</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <BuildStageModel>Models\Scaffold\Scaffold_Und_V2\UndScaffoldM1.C2M</BuildStageModel>
+ <BuildStageAnimation>Models\Scaffold\Scaffold_Und_V2\UndScaffoldA1.C2M</BuildStageAnimation>
+ <ConstantProportions>true</ConstantProportions>
+ <ModelScale>1.100000</ModelScale>
+</ShowBuildStage>

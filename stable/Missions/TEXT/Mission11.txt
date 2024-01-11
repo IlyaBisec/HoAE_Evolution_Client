@@ -1,0 +1,84 @@
+#M11D01S01P01    [M11Dwarf2][Normal][Missions\SOUND\MISSION11\m11_t03.ogg]Солы добрались до этого острова. Бей их!
+
+
+#M11D02S02P01    [M11DwarfCaptain][Pride][Missions\SOUND\MISSION11\m11_t04.ogg]Мы благодарим тебя за помощь, чужеземец. Откуда ты?
+#M11D02S03P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t05.ogg]Я прибыл сюда с далекого острова, чтобы разыскать Жемчужины Силы. Ты знаешь, где найти их?
+#M11D02S04P01    [M11DwarfCaptain][Pride][Missions\SOUND\MISSION11\m11_t06.ogg]Нет, я не слышал ни о каких Жемчужинах.
+#M11D02S04P02    [M11DwarfCaptain][Pride][Missions\SOUND\MISSION11\m11_t07.ogg]Мы из пограничного отряда, на нас напали летающие лодки солов, и наш капитан остался на соседнем острове.
+#M11D02S05P01    [M11DwarfCaptain][Pride][Missions\SOUND\MISSION11\m11_t08.ogg]Доставь нас туда и поговори с ним - возможно, он сможет помочь тебе в поисках.
+#M11D02S06P02    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t09.ogg]Хорошо, мы поплывем туда.
+
+
+#M11D03S01P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t10.ogg]Для чего ты приплыл к нашим берегам, чужеземец?
+#M11D03S02P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t11.ogg]Мне сказали, что у вашего народа находится одна из Жемчужины Силы. Ты знаешь, где мне найти её?
+#M11D03S03P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t12.ogg]Я слышал о Жемчужине, хотя никогда и не видел её. Тебе нужно добраться до нашего Правителя... 
+#M11D03S03P02    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t13.ogg]Но учти, недавно наши земли были атакованы солами!
+#M11D03S04P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t14.ogg]Кто они такие?
+
+#M11D03S05P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t15.ogg]Злобное племя, обитающее на летающем острове под названием Шамбала. 
+#M11D03S05P02    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t16.ogg]Он завис неподалёку от нашей столицы, а солы спустились на своих летающих лодках.
+#M11D03S05P03    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t17.ogg]Теперь туда не добраться на кораблях, подобных твоим: враги уничтожат их.
+#M11D03S05P04    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t18.ogg]Мы снабдим тебя пушками с наших ковчегов.
+#M11D03S06P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t19.ogg]Пушками? А что это такое?
+#M11D03S07P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t20.ogg]Это машины, которые поражают врагов на расстоянии тяжёлыми железными ядрами. С ними тебе легче будет добраться до нашей столицы.
+#M11D03S08P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t21.ogg]Я понял тебя. Поспешим же!
+#M11D03S09P01    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t22.ogg]Нет, пожалуй, одних пушек не хватит... солов слишком много. Придется укрепить борта кораблей.
+#M11D03S09P02    [M11Artificial][Pride][Missions\SOUND\MISSION11\m11_t23.ogg]На соседнем острове живут мастера, которые смогут тебе в этом помочь.
+
+
+#M11D04S01P01    [M11Dwarf1][Pride][Missions\SOUND\MISSION11\m11_t25.ogg]Чужеземец, без твоей помощи мы бы погибли! Скажи, что мы можем сделать для тебя?
+#M11D04S02P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t26.ogg]Можете ли вы усилить прочность моих кораблей?
+#M11D04S03P01    [M11Dwarf1][Pride][Missions\SOUND\MISSION11\m11_t27.ogg]Конечно. Это не займёт много времени.
+
+#M11D05S01P01    [M11DwarfSoldier1][Pride][Missions\SOUND\MISSION11\m11_t30.ogg]Солы атакуют нашу столицу!
+#M11D05S01P02    [M11DwarfSoldier2][Pride][Missions\SOUND\MISSION11\m11_t31.ogg]Надо сжечь все их лодки! Огонь!
+#M11D05S01P03    [M11DwarfSoldier3][Pride][Missions\SOUND\MISSION11\m11_t32.ogg]Быстрее, обходи их с правого фланга! 
+
+
+    
+#M11D06S01P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t33.ogg]Ты правитель этих земель? Скажи, у тебя ли Жемчужина Силы?
+#M11D06S02P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t34.ogg]Для чего тебе нужна Жемчужина, чужеземец?
+#M11D06S03P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t35.ogg]На нашем острове из могил восстали мертвецы, и правит ими Некрос Чермор. 
+#M11D06S04P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t36.ogg]Я узнал, что лишь Корона Стихий вместе с Жемчужинами может уничтожить его.
+
+
+#M11D06S04P02    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t37.ogg]Так вы нашли Корону?! Мы полагали все это лишь легенда...
+#M11D06S05P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t38.ogg]Великий Октон улетел от наших берегов давным-давно, и не думал я, что она когда-нибудь найдётся...
+#M11D06S06P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t39.ogg]Так знай: именно из-за Жемчужины солы напали на нас.
+
+#M11D06S07P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t40.ogg]Они хотят завладеть ею?
+#M11D06S07P02    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t41.ogg]Истинно так. Шамбала, их летающий остров, всё ещё кружит неподалёку
+#M11D06S08P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t42.ogg]Если они прилетели за Жемчужиной, то лучше отдай её мне!
+#M11D06S09P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t43.ogg]Как только я покину эти земли, солы отправятся в погоню за мной и оставят вас в покое.
+#M11D06S09P02    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t44.ogg]В твоих словах есть смысл. Но куда ты собираешься плыть дальше? 
+#M11D06S09P03    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t45.ogg]За остальными Жемчужинами. Где я могу найти их?
+
+
+
+#M11D06S09P04    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t46.ogg]Одна находится у криальцев. Их народ живет в Брите - землях, лежащих далеко на севере. Ещё одна - у солов.  
+#M11D06S09P05    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t47.ogg]Но до криальцев тебе не доплыть: Шамбала уничтожит твои корабли.
+#M11D06S09P06    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t48.ogg]Я дам тебе нашу Жемчужину и ковчег с командой. Они быстро доставят тебя к северянам. 
+#M11D06S10P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t49.ogg]Ответь ещё на один мой вопрос, чужеземец.
+#M11D06S10P02    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t50.ogg]Давным-давно большая экспедиция механиков сопровождала великого Октона, увозившего от наших берегов Корону Стихий. 
+#M11D06S11P01    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t51.ogg]Если ты нашел её, то можешь что-то знать и о судьбе наших родичей...
+#M11D06S11P02    [Elhant][Suprised][Missions\SOUND\MISSION11\m11_t52.ogg]Да, я видел их и разговаривал с ними. Племя гномов живет под Горой Мира, что высится в центре моего острова. 
+
+
+
+#M11D06S11P03    [Elhant][Angry][Missions\SOUND\MISSION11\m11_t53.ogg]Сейчас на наших землях появилась нежить, и твои соплеменники в опасности.
+#M11D06S11P04    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t54.ogg]Раз так, мы поможем им вернуться на родину.
+#M11D06S11P05    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t55.ogg]На верфях недавно был построен новый ковчег; он столь велик, что может поднять в воздух множество гномов!
+#M11D06S11P06    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t56.ogg]Мы отправим его к твоему острову и спасём наших братьев. Вверяю тебе нашу Жемчужину, чужеземец, и предупреждаю:
+#M11D06S11P07    [M11DwarfKing][Pride][Missions\SOUND\MISSION11\m11_t57.ogg]Берегись солов! Их маги сразу определят, что сокровище теперь у тебя.
+
+
+	
+#M11D07S01P01     [Elhant][Pride][Missions\SOUND\MISSION11\m11_t01.ogg]Я считал просторы Атланса неизмеримыми, но как же на самом деле он мал! 
+#M11D07S01P02     [Elhant][Suprised][Missions\SOUND\MISSION11\m11_t02.ogg]Огромные земли за океаном, острова, иные народы... И, кажется, они так же, как и мы, не живут в мире друг с другом. 
+
+#M11D07S02P01     [Elhant][Pride][Missions\SOUND\MISSION11\m11_t28.ogg]Карлики - отличные мастера! 
+#M11D07S02P02     [Elhant][Suprised][Missions\SOUND\MISSION11\m11_t29.ogg]С новым оружием и крепкими бортами кораблей такой сильный воин, как я, быстро доберётся до их столицы!
+
+#M11D07S03P01    [Elhant][Pride][Missions\SOUND\MISSION11\m11_t24.ogg]И здесь проклятые солы! Быстрее, надо помочь мастерам!
+
+

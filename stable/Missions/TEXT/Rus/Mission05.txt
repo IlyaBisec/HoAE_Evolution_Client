@@ -1,0 +1,43 @@
+#M05D01S01P01    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t01.ogg]Что здесь произошло?
+#M05D01S02P01    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t02.ogg]Друиды сказали, на этом берегу живут рыбаки, которые помогут мне добраться до острова пегасов.
+#M05D01S03P01    [M5Fairy][Normal][Missions\SOUND\MISSION05\m05_t03.ogg]Мы всегда дружили с рыбаками...
+#M05D01S03P02    [M5Fairy][Fear][Missions\SOUND\MISSION05\m05_t04.ogg]Недавно на селение напала нежить - она сожгла дома и убила всех... Мы сами спаслись лишь чудом.
+#M05D01S04P01    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t05.ogg]Но мне обязательно нужно добраться до пегасов!
+#M05D01S04P02    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t06.ogg]Если я буду защищать вас, вы поможете отстроить деревню?
+#M05D01S05P01    [M5Fairy][Normal][Missions\SOUND\MISSION05\m05_t07.ogg]Конечно, мы поможем! Но знай, воин: вокруг бродит множество врагов...
+                                                            
+#M05D02S01P01    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t16.ogg]Как ты добрался сюда? Ведь озеро захвачено силами Тьмы!
+#M05D02S02P01    [Elhant][Suprised][Missions\SOUND\MISSION05\m05_t17.ogg]Феи построили для меня корабли и мы уничтожили неприятельский флот.
+#M05D02S02P02    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t18.ogg]Воды вашего озера свободны от скверны и я хочу, чтобы вы помогли мне. 
+#M05D02S03P01    [M5Druid1][Normal][Missions\SOUND\MISSION05\m05_t19.ogg]Знаешь ли ты, кто перед тобой, что говоришь столь дерзко?
+#M05D02S03P02    [M5Druid1][Normal][Missions\SOUND\MISSION05\m05_t20.ogg]Моли нас о помощи, а не требуй её! Тем более, что от скверны ты озеро ещё не очистил.
+#M05D02S04P01    [Elhant][Angry][Missions\SOUND\MISSION05\m05_t21.ogg]Но ведь вражеский флот уничтожен!
+#M05D02S05P01    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t22.ogg]Ты избавил нас лишь от одной беды, но есть и другая.
+#M05D02S05P02    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t23.ogg]На противоположном берегу нежить возвела храм тёмной силы.
+#M05D02S05P03    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t24.ogg]Теперь он отравляет воду, и мелководья превращаются в гнилые болота...
+#M05D02S06P01    [Elhant][Normal][Missions\SOUND\MISSION05\m05_t25.ogg]У меня нет времени заниматься этим! Я должен возвращаться!
+#M05D02S07P01    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t26.ogg]Рассчитывай на нашу помощь только тогда, когда очистишь всё озеро...
+#M05D02S08P01    [Elhant][Angry][Missions\SOUND\MISSION05\m05_t27.ogg]Но помощь нужна не мне, а всему лесному народу!
+#M05D02S09P01    [M5Druid1][Normal][Missions\SOUND\MISSION05\m05_t28.ogg]Слушай почтительно и не перебивай, когда разговариваешь с друидами!
+#M05D02S10P01    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t29.ogg]Ты должен уничтожить то, что хранится в тёмном храме.
+#M05D02S10P02    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t30.ogg]Мы не знаем, что скрыто в его стенах, но чувствуем там могущественную магию.
+#M05D02S10P03    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t31.ogg]Это она оживляет мертвецов, она сводит с ума всех, кто обитает у озера.
+#M05D02S10P04    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t32.ogg]Даже пегасы ощущают её силу и беспокоятся; ещё немного, и они обезумеют.
+#M05D02S10P05    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t33.ogg]Уничтожь храм, и мы поможем твоему народу. Ты говорил, на берегу тебя ожидают феи?
+#M05D02S10P06    [M5High_Druid][Normal][Missions\SOUND\MISSION05\m05_t34.ogg]Что ж, мы обучим их строить стойла для пегасов, и взращённые там крылатые кони помогут тебе справиться с нежитью.
+
+#M05D06S01P01    [M5Druid2][Angry][Missions\SOUND\MISSION05\m05_t11.ogg]Возвращайтесь туда, откуда пришли, твари! Вам не победить меня!
+
+#M05D07S01P01    [M5Druid2][Normal][Missions\SOUND\MISSION05\m05_t12.ogg]Ты напрасно беспокоился: я с лёгкостью справился бы и сам!
+#M05D07S01P02    [M5Druid2][Normal][Missions\SOUND\MISSION05\m05_t13.ogg]Но я не хочу быть неблагодарным, так что возьми это заклинание, воин.
+
+#M05D07S03P01    [M2Commander2][Normal][Missions\SOUND\MISSION05\m05_t15.ogg]Это тот самый остров, который мы ищем! Пегасы живут здесь!
+                                                            
+#M05HINT1P01     [Elhant][Normal][Missions\SOUND\MISSION05\m05_t08.ogg]Повелитель нежити посылает против меня всё новые войска.
+#M05HINT1P02     [Elhant][Normal][Missions\SOUND\MISSION05\m05_t09.ogg]Скелеты, зомби, мумии; теперь ещё призраки и эти существа верхом на лошадях...
+#M05HINT1P03     [Elhant][Suprised][Missions\SOUND\MISSION05\m05_t10.ogg]Неужели враг почуял, что я опасен для него?
+
+#M05HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION05\m05_t14.ogg]Не люблю большую воду. Нет, плавание - не для меня. Я предпочитаю ходить по твёрдой земле.
+                                                           
+#M05HINT3P01     [Elhant][Normal][Missions\SOUND\MISSION05\m05_t35.ogg]Что стало с некогда прекрасным краем? Весь берег теперь занят нежитью!
+#M05HINT3P02     [Elhant][Angry][Missions\SOUND\MISSION05\m05_t36.ogg]Враг становится всё более опасным и наглым. Он уже возводит свои башни и замки...

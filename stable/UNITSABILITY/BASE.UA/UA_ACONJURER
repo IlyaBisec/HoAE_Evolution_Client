@@ -1,0 +1,16 @@
+<NewAbility>
+ <Name>UA_aConjurer</Name>
+ <Visible>false</Visible>
+ <FileID>Interf3\abil</FileID>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

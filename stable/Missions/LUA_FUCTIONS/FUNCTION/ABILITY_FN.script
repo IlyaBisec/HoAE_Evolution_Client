@@ -1,0 +1,261 @@
+--[[]]--
+function	ABIL_AddCarryAbility( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_ability = ABILITY(paramData:GET("Ability"));
+	_group   = GROUP(paramData:GET("Group"));
+	
+	NAA = 0;
+	if ( _ability~=nil and _group~=nil ) then
+		UN = _group.N;
+		while ( UN > 0 ) do
+			UN = UN - 1;
+			if ( OPER.AddCarryAbility( _group:GetGIDi(UN), _ability )==true ) then
+				NAA = NAA + 1;
+			end;
+		end;
+	end;
+	
+	return NAA;
+end;
+
+function	ABIL_DelCarryAbility_ptr( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_ability = ABILITY(paramData:GET("Ability"));
+	_group   = GROUP(paramData:GET("Group"));
+	
+	NAA = 0;
+	if ( _ability~=nil and _group~=nil ) then
+		UN = _group.N;
+		while ( UN > 0 ) do
+			UN = UN - 1;
+			if ( OPER.DeleteCarryAbility_ptr( _group:GetGIDi(UN), _ability )==true ) then
+				NAA = NAA + 1;
+			end;
+		end;
+	end;
+	
+	return NAA;
+end;
+
+function	ABIL_DelCarryAbility_str( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_ability = STR(paramData:GET("Ability"));
+	_group   = GROUP(paramData:GET("Group"));
+	
+	NAA = 0;
+	if ( _ability~=nil and _group~=nil ) then
+		UN = _group.N;
+		while ( UN > 0 ) do
+			UN = UN - 1;
+			if ( OPER.DeleteCarryAbility_str( _group:GetGIDi(UN), _ability.Value )==true ) then
+				NAA = NAA + 1;
+			end;
+		end;
+	end;
+	
+	return NAA;
+end;
+
+function	ABIL_DetectCarryAbility( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_ability = ABILITY(paramData:GET("Ability"));
+	_group   = GROUP(paramData:GET("Group"));
+
+	NAA = 0;
+	if ( _ability~=nil and _group~=nil ) then
+		UN = _group.N;
+		while ( UN > 0 ) do
+			UN = UN - 1;
+			if ( OPER.DetectCarryAbility( _group:GetGIDi(UN), _ability )==true ) then
+				NAA = NAA + 1;
+			end;
+		end;
+	end;
+	
+	return NAA;
+end;
+
+function	ABIL_SetAbilityState( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_group   	= GROUP(paramData:GET("Group"));
+	_ablName	= STR(paramData:GET("AblName"));
+	_state		= INT(paramData:GET("State"));
+	
+	if ( _group~=nil and _ablName~=nil and _state~=nil ) then
+		OPER.SetAblState( _group, _ablName.Value, _state.Value );
+	end;
+	
+	return 0;
+end;
+
+function	ABIL_GetAbilityState( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_group   	= GROUP(paramData:GET("Group"));
+	_ablName	= STR(paramData:GET("AblName"));
+	_state		= INT(paramData:GET("State"));
+	
+	if ( _group~=nil and _ablName~=nil and _state~=nil ) then
+		return OPER.GetAblState( _group, _ablName.Value );
+	end;
+	
+	return 0;
+end;
+
+function	ABIL_GetOwnerNation( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_Nation		= INT(paramData:GET("Nation"));
+	
+	if ( _Nation~=nil ) then
+		_Nation.Value = GET.GetAblOBNation();
+	end;
+	
+	return 1;
+end;
+
+function	ABIL_TryExecute( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_ability = ABILITY(paramData:GET("Ability"));
+	_caster  = GROUP(paramData:GET("Caster"));
+	_target  = GROUP(paramData:GET("Target"));
+	_node	 = NODE(paramData:GET("Node"));
+	
+	if ( _ability==nil or _caster==nil ) then return 0 end;
+	
+	__x = 0;
+	__y = 0;
+	__t = nil;
+	
+	if ( _node~=nil ) then
+		__x = _node.x;
+		__y = _node.y;
+	end;
+	
+	if ( _target~=nil ) then
+		__t = _target;
+	end;
+	
+	return OPER.AblExecute(_ability,_caster,_target,__x,__y);
+end;
+  
+function	ABIL_TeleportHero( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gNextGate = GROUP(paramData:GET("gDestGate"));
+	if ( _gNextGate==nil or _gNextGate.N<=0 ) then return 0 end;
+		
+	_gHero = CLASS.GROUP("gHero");
+	GET.GetAbilityActivatorObject(_gHero);
+	_gDestNode = CLASS.NODE( _gNextGate.Xc-100, _gNextGate.Yc+100 );
+	OPER.TeleportGroup(_gHero,_gDestNode,512,0,0);
+
+	return 1;
+end;
+
+function	ABIL_Click_Teleport( paramData )
+	_gGate = CLASS.GROUP("gGate");
+	GET.GetAbilityOwnerObject(_gGate);
+	if ( _gGate.N<=0 ) then return 0 end;
+	_gHero = CLASS.GROUP("gHero");
+	GET.GetAbilityActivatorObject(_gHero);
+	if ( _gHero.N<=0 ) then return 0 end;
+	
+	_uHero = UNIT();
+	_uGate = UNIT();
+	_uHero.ID = _gHero:GetGID(0);
+	_uGate.ID = _gGate:GetGID(0);
+		
+	_uHero:GoToContainer( _uGate );
+	
+	return 1;
+end;
+
+function	ABIL_Process_Teleport( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGate = CLASS.GROUP("gGate");
+	GET.GetAbilityOwnerObject(_gGate);
+	_uGate = UNIT();
+	_uGate.ID = _gGate:GetGID(0);
+	if ( _uGate:GetInsideAmount()>0 ) then
+		_uHero = UNIT();
+		_uHero.ID = _uGate:GetInsideUnitID(0);
+		if ( _uHero:IsBusy()==false and _uHero:IsStand()==true ) then
+			_gDestGate = GROUP(paramData:GET("gDestGate"));
+			if ( _gDestGate~=nil and _gDestGate.N>0 ) then
+				_uHero.HIDDEN=true;
+		--[[	_uHero:RemoveMeFromExactContainer(_uGate);	]]--
+				_uHero:RemoveMeFromContainer();
+				_uGate.ID = _gDestGate:GetGID(0);
+				_uHero:InsertToContainer(_uGate);
+				_uHero.HIDDEN=false;
+				_uGate:PushOutExactUnit(_uHero);
+			end;
+		end;
+		return 1;
+	end;
+
+	return 0;
+end;
+
+function	WEAPON_CreateNew( paramData )
+	if ( paramData==nil ) then return 0 end;
+	l_WeaponMod = paramData:GET("WeaponMod");
+	l_SrcNode	= NODE(paramData:GET("SrcNode"));
+	l_DstNode	= NODE(paramData:GET("DstNode"));
+	
+	if ( l_WeaponMod~=nil and l_SrcNode~=nil and l_DstNode~=nil ) then
+		OPER.CreateNewActiveWeapon(	l_WeaponMod.Name,
+									-1,
+									l_SrcNode.x,l_SrcNode.y,
+									-1,
+									l_DstNode.x,l_DstNode.y
+								   );
+		return 1;
+	end;
+	
+	return 0;
+end;
+
+function	WEAPON_CreateNew_ID( paramData )
+	if ( paramData==nil ) then return 0 end;
+	l_WeaponMod = paramData:GET("WeaponMod");
+	l_SrcNode	= NODE(paramData:GET("SrcNode"));
+	l_DstNode	= NODE(paramData:GET("DstNode"));
+	l_SrcGroup	= INT(paramData:GET("SrcGrp"));
+	l_DstGroup	= INT(paramData:GET("DstGrp"));
+	
+	if ( l_WeaponMod~=nil and l_SrcNode~=nil and l_DstNode~=nil ) then
+		l_srcID = -1;
+		if ( l_SrcGroup~=nil ) then l_srcID=l_SrcGroup:GetGID(0) end;
+		l_dstID = -1;
+		if ( l_DstGroup~=nil ) then l_dstID=l_DstGroup:GetGID(0) end;
+		OPER.CreateNewActiveWeapon(	l_WeaponMod.Name,
+									l_srcID,
+									l_SrcNode.x,l_SrcNode.y,
+									l_dstID,
+									l_DstNode.x,l_DstNode.y
+								   );
+		return 1;
+	end;
+	
+	return 0;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+

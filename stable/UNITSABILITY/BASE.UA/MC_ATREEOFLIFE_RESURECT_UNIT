@@ -1,0 +1,33 @@
+<NewAbility>
+ <Name>MC_aTreeOfLife_Resurect_Unit</Name>
+ <ClassType>Effect</ClassType>
+ <Visible>false</Visible>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>100</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <Modificators>
+  <mod_MotionSpeed>
+   <Trap>true</Trap>
+   <Stun>true</Stun>
+  </mod_MotionSpeed>
+ </Modificators>
+</NewAbility>

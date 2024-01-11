@@ -1,0 +1,31 @@
+<be_CFSM>
+ <Name>FSM_PRODUCE_02</Name>
+ <FileName>Missions\LUA_FUCTIONS\FSM\FSM_ProduseUnits.script</FileName>
+ <FunctionName>FSM_ProduseUnits_02</FunctionName>
+ <Params>
+  <be_CBasePrametr>
+   <ParamName>iOwnerNat</ParamName>
+   <ParamType>INT</ParamType>
+   <ParamName>iOwnerNat</ParamName>
+   <ParamType>INT</ParamType>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>nRallyPoint</ParamName>
+   <ParamType>NODE</ParamType>
+   <ParamName>nRallyPoint</ParamName>
+   <ParamType>NODE</ParamType>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>arrTN</ParamName>
+   <ParamType>ARRAY</ParamType>
+   <ParamName>arrTN</ParamName>
+   <ParamType>ARRAY</ParamType>
+  </be_CBasePrametr>
+  <be_CBasePrametr>
+   <ParamName>iWaitTime</ParamName>
+   <ParamType>INT</ParamType>
+   <ParamName>iWaitTime</ParamName>
+   <ParamType>INT</ParamType>
+  </be_CBasePrametr>
+ </Params>
+</be_CFSM>

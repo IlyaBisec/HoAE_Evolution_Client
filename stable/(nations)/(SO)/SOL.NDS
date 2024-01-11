@@ -1,0 +1,67 @@
+[MEMBERS]
+SolHArc(SO)  SolHArc
+SolHGla(SO)  SolHGla
+SolHPyr(SO)  SolHPyr
+SolUCat(SO)  SolUCat
+SolUCha(SO)  SolUCha
+SolUChF(SO)  SolUChF
+SolUCle(SO)  SolUCle
+SolUDra(SO)  SolUDra
+SolUFly(SO)  SolUFly
+SolUPri(SO)  SolUPri
+SolUSco(SO)  SolUSco
+SolUSla(SO)  SolUSla
+SolUSph(SO)  SolUSph
+SolUTas(SO)  SolUTas
+SolUScB(SO)  SolUScB
+SolHPro(SO)  SolHPro
+SolUScZ(SO)  SolUScZ
+SolUGo1(SO)  SolUGo1
+SolUGo2(SO)  SolUGo2
+SolUGo3(SO)  SolUGo3
+[ENABLED]
+
+SolHArc(SO)
+SolHGla(SO)
+SolHPyr(SO)
+SolUCat(SO)
+SolUCha(SO)
+SolUChF(SO)
+SolUCle(SO)
+SolUDra(SO)
+SolUFly(SO)
+SolUPri(SO)
+SolUSco(SO)
+SolUSla(SO)
+SolUSph(SO)
+SolUTas(SO)
+SolUScB(SO)
+SolHPro(SO)
+SolUScZ(SO)
+
+[COUNTRY]
+SOL 23
+#heroes
+SolHArc(SO)
+SolHGla(SO)
+SolHPyr(SO)
+#units
+SolUCat(SO)
+SolUCha(SO)
+SolUChF(SO)
+SolUCle(SO)
+SolUDra(SO)
+SolUFly(SO)
+SolUPri(SO)
+SolUSco(SO)
+SolUSla(SO)
+SolUSph(SO)
+SolUTas(SO)
+SolUScB(SO)
+#mission
+SolHPro(SO)
+SolUScZ(SO)
+SolUGo1(SO)
+SolUGo2(SO)
+SolUGo3(SO)
+[END]

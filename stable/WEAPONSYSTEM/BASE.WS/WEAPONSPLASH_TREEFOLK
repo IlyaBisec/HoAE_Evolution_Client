@@ -1,0 +1,18 @@
+<WeaponModificator>
+ <Name>WeaponSplash_treefolk</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <Jump></Jump>
+    <MakeDamage>
+     <InRadius>40</InRadius>
+     <OnlyEnemyUnits>true</OnlyEnemyUnits>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

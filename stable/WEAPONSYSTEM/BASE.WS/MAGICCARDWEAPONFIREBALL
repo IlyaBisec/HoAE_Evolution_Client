@@ -1,0 +1,31 @@
+<WeaponModificator>
+ <Name>MagicCardWeaponFireBall</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <DrawOne>
+     <Anim>
+      <ModelID>Models\Effects\MagicCard\FireBall\FireBall_eBullet.c2m</ModelID>
+     </Anim>
+    </DrawOne>
+    <BalisticMotion>
+     <SetTargetHieghtOnGround>true</SetTargetHieghtOnGround>
+    </BalisticMotion>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <Event>
+    <TargetReached></TargetReached>
+   </Event>
+   <WeaponModificators>
+    <ChangeModificator>
+     <NewWeaponModificator>MagicCardWeaponFireball1</NewWeaponModificator>
+    </ChangeModificator>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

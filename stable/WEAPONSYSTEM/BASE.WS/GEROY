@@ -1,0 +1,32 @@
+<WeaponModificator>
+ <Name>Geroy</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <FollowUnit></FollowUnit>
+    <Motion></Motion>
+    <DrawOne></DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <WeaponModificators>
+    <MakeDamage>
+     <InRadius>60</InRadius>
+     <MaxUnits>100</MaxUnits>
+     <OnlyEnemyUnits>true</OnlyEnemyUnits>
+     <DamageBuilding>true</DamageBuilding>
+     <PushUnitsForce>1000</PushUnitsForce>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <WeaponModificators>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

@@ -1,0 +1,14 @@
+<TextButton>
+ <Message>{ITM} {ITF} GROUPS</Message>
+ <cActive>FF2E2317</cActive>
+ <cPassive>FF2E2317</cPassive>
+ <cDisabled>FF2E2317</cDisabled>
+ <ActiveFont>SmallYellowFont</ActiveFont>
+ <PassiveFont>SmallWhiteFont1</PassiveFont>
+ <DisabledFont>SmallGrayFont1</DisabledFont>
+ <x>316</x>
+ <y>346</y>
+ <Width>93</Width>
+ <Height>12</Height>
+ <Source>Missions\GRAPHICS\TOOLS\Dialog\ToolsTree_Item.TextButton.Dialogs.xml</Source>
+</TextButton>

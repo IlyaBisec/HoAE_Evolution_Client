@@ -1,0 +1,28 @@
+<NewBonus>
+ <Name>DialogObject</Name>
+ <SpriteID>1</SpriteID>
+ <EffectSpriteID>1</EffectSpriteID>
+ <SoundExecute>NONE</SoundExecute>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Voprosnik\Vosklitcanie.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\Voprosnik\Vosklitcanie.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewBonus>

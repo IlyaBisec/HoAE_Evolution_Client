@@ -1,0 +1,35 @@
+#M15D01S01P1    [Lana][Sad][Missions\SOUND\MISSION15\m15_t01.ogg]Elhant, you are back! My... My father died.
+#M15D01S01P2    [Lana][Sad][Missions\SOUND\MISSION15\m15_t02.ogg]The Undead push back our troops and will soon break their way into the valley, the last shelter for the citizens.
+#M15D01S02      [Elhant][Angry][Missions\SOUND\MISSION15\m15_t03.ogg]I am here now, Lana. We will build up a stong defense line.
+#M15D01S03      [Draelnor][Suprised][Missions\SOUND\MISSION15\m15_t04.ogg]Have you found the Gems, Ranger?
+#M15D01S04      [Elhant][Angry][Missions\SOUND\MISSION15\m15_t05.ogg]Yes, I have them with me. Take them, Sage. Only the one that belongs to Necros is missing.
+#M15D01S05P1    [Draelnor][Normal][Missions\SOUND\MISSION15\m15_t06.ogg]When I come to the grave, Necros will try to cut his way to it for sure. You must take his Gem from him.
+#M15D01S05P2    [Draelnor][Normal][Missions\SOUND\MISSION15\m15_t07.ogg]The chances of us succeeding are slim.
+#M15D01S06P1    [Elhant][Normal][Missions\SOUND\MISSION15\m15_t08.ogg]The Mechanics have sent a large ark to transport their relatives from the dungeons.
+#M15D01S06P2    [Elhant][Normal][Missions\SOUND\MISSION15\m15_t09.ogg]There are only a few of us left and it can easily lift us. Lana, tell the mechanicians's captain to take the elves aboard as well!
+#M15D01S07      [Lana][Normal][Missions\SOUND\MISSION15\m15_t10.ogg]Okay, Elhant.
+#M15D01S08      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t11.ogg]Druid, make haste to the tomb and I shall hold back the Undead! 
+
+#M15D04S01      [Lana][Normal][Missions\SOUND\MISSION15\m15_t12.ogg]The captain agreed to take the elves on board. His ark has landed at the peak.
+#M15D04S02      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t13.ogg]Secure the retreat, while I keep back the enemy!
+
+#M15D06S02      [Elhant][Rage][Missions\SOUND\MISSION15\m15_t16.ogg]Is it that you, Necros? You must pay for the suffering of my people!
+#M15D06S03      [Nekros][Normal][Missions\SOUND\MISSION15\m15_t17.ogg]Are you so eager to die, elf? So be it, I'll fulfill your wish. 
+#M15D06S04      [Elhant][Rage][Missions\SOUND\MISSION15\m15_t18.ogg]Your life ends here, Master of the Undead!
+#M15D06S05      [Nekros][Normal][Missions\SOUND\MISSION15\m15_t19.ogg]Know that mortals cannot kill me. Fool.
+
+#M15D07S01      [Nekros][Normal][Missions\SOUND\MISSION15\m15_t20.ogg]Ranger, you are a fool. Each new death only makes me stronger.
+
+#M15D07S02      [Elhant][Angry][Missions\SOUND\MISSION15\m15_t21.ogg]The Lord of Ashes' Gem is mine. I must take it to the druid.
+
+#M15D08S01      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t22.ogg]Here is the last Gem! You can begin the ritual!
+#M15D08S02      [Draelnor][Normal][Missions\SOUND\MISSION15\m15_t23.ogg]You killed Necros Horron! I shall begin. You must stop the undead from destorying the tomb before I finish.
+#M15D08S03      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t24.ogg]Warriors, retreat to the higher ground, don't risk your lives!
+#M15D08S04      [Elhant][Normal][Missions\SOUND\MISSION15\m15_t25.ogg]The mechanics' ark will be waiting for you, it will take you on board! I will deal with the undead alone! Go!
+
+#M15D09S02      [Draelnor][Normal][Missions\SOUND\MISSION15\m15_t27.ogg]The ritual is almost complete! Now the undead will be eliminated 
+
+#M15HINT1P01     [Elhant][Normal][Missions\SOUND\MISSION15\m15_t14.ogg]She is brave and strong. She.. yes, I like her. I must not think of this now, the battle lies ahead! 
+#M15HINT1P02     [Elhant][Normal][Missions\SOUND\MISSION15\m15_t15.ogg]I just want Lana to survive this massacre... 
+
+#M15HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION15\m15_t26.ogg]The time has come! Either it is the end of the Undead, or we will all die!

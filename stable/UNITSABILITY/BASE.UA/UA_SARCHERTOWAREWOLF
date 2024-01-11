@@ -1,0 +1,26 @@
+<NewAbility>
+ <Name>UA_sArcherToWarewolf</Name>
+ <ClassType>Image</ClassType>
+ <System>true</System>
+ <Button>true</Button>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <Duration>3000</Duration>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Volk\Volk.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\Volk\Volk.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

@@ -1,0 +1,11 @@
+<DLDLG>
+#exec(LW_time&100&upload.cml\00)
+#block(upload.cml,l_g):GW|LW_file&Internet/Cash/download.cml\00
+#end(l_g)
+#ebox[%D](x:496,y:362,w:338,h:50)
+#font(BC14,BC14,BC14)
+#ctxt[%T](%D[x:0,y:26,w:306,h:20],{},"Загрузка ")
+#txt[%C](%D[x:%T,y:26,w:100,h:20],{},"<!percent!> %")
+#pan[%V](%D[x:0,y:0,w:<!percent!>%,h:11],12)
+#exec(LW_upload)
+<DLDLG>

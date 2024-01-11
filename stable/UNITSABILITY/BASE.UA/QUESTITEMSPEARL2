@@ -1,0 +1,28 @@
+<NewItem>
+ <Clothe>true</Clothe>
+ <CanNotBeClothe>true</CanNotBeClothe>
+ <TypeClothe>Ring</TypeClothe>
+ <Name>QuestItemsPearl2</Name>
+ <FileID>Interf3\Ability\goods_quest</FileID>
+ <SpriteID>7</SpriteID>
+ <FileID_Inv>Interf3\Ability\goods_inventory_quest</FileID_Inv>
+ <EffectFileID>Interf3\Ability\goods_quest</EffectFileID>
+ <EffectSpriteID>7</EffectSpriteID>
+ <HintName>#Pearl2.NAME</HintName>
+ <Hint>#Pearl2</Hint>
+ <GroundMD>
+  <UnitType>DropO2(IT)</UnitType>
+ </GroundMD>
+ <Amount>1</Amount>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewItem>

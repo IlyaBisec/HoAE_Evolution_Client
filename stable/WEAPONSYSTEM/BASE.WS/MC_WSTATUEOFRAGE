@@ -1,0 +1,27 @@
+<WeaponModificator>
+ <Name>MC_wStatueOfRage</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <BirthNewUnit>
+     <UT>
+      <UnitType>EffStatueOfRage(EF)</UnitType>
+     </UT>
+     <AdditionalAbilites>
+      <ClassRef.UnitAbility>
+       <ClassName>NewAbility</ClassName>
+       <RefName>MC_aStatueOfRage</RefName>
+      </ClassRef.UnitAbility>
+     </AdditionalAbilites>
+    </BirthNewUnit>
+    <PlaySomeSound>
+     <SoundID>M_StatueOfRage_Start</SoundID>
+    </PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

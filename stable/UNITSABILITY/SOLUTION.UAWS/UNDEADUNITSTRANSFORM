@@ -1,0 +1,32 @@
+<OneClassFolder>
+ <Name>UndeadUnitsTransform</Name>
+ <Items>
+  <OneClassItem></OneClassItem>
+  <OneClassItem></OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>ChangeMDAbiliti</ClassName>
+    <RefName>ChangeToVam</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>ChangeMDAbiliti</ClassName>
+    <RefName>UnitAbilityArcherToWarewolf</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>ChangeMDAbiliti</ClassName>
+    <RefName>HA_ChangeShape</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem></OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>NewAbility</ClassName>
+    <RefName>UA_sArcherToWarewolf</RefName>
+   </Item>
+  </OneClassItem>
+ </Items>
+</OneClassFolder>

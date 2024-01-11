@@ -1,0 +1,13 @@
+<ua_SingleUnitAI>
+ <Name>suAl_FireRing</Name>
+ <CastingRadius>30</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aFireRing</RefName>
+   </UA>
+   <MinTargetAmount>3</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

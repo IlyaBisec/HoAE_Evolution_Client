@@ -1,0 +1,1 @@
+GW|open&join_pl_cmd.dcml\00&VE_PLAYER=%s\00

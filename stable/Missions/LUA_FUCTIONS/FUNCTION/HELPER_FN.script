@@ -1,0 +1,26 @@
+
+--[[ USE FOR STORE COMMON FUNCTIONS ]]--
+
+function 	NORMA(x1,x2,y1,y2)
+	return math.sqrt( (x1-x2)*(x1-x2) + (y1-y2)*(y1-y2) );
+end;
+
+function	DOT(vec1,vec2)
+	return	vec1.x*vec2.x+vec1.y*vec2.y;
+end;
+
+class	'vector'
+function	vector:__init(_x,_y)
+	self.x = _x;
+	self.y = _y;
+end;
+function	vector:NORMA()
+	return math.sqrt( self.x*self.x + self.y*self.y );
+end;
+function	vector:NORMALIZE()
+	local Norma = self:NORMA();
+	if ( Norma==0 ) then return 0 end;
+	self.x = self.x/Norma;
+	self.y = self.y/Norma;
+	return 1;
+end;

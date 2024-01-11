@@ -1,0 +1,12 @@
+#M14D01S01P01    [Elhant][Normal][Missions\SOUND\Mission14\m14_t01.ogg]Прошло много времени с тех пор, как я отплыл из Атланса. 
+#M14D01S01P02    [Elhant][Normal][Missions\SOUND\Mission14\m14_t02.ogg]Наверняка силы нежити уже теснят эльфов, вскоре враг захватит могилу Октона... 
+#M14D01S01P03    [Elhant][Normal][Missions\SOUND\Mission14\m14_t03.ogg]Надо спешить! Теперь любое промедление подобно смерти!
+
+#M14D04S01P01    [M14SolSoldier][Pride][Missions\SOUND\Mission14\m14_t04.ogg]Охрана, сюда! Чужак пробрался в пирамиду!
+
+
+#M14D02S01P01    [M14MainPriest][Pride][Missions\SOUND\Mission14\m14_t05.ogg]О нечестивец, пробравшийся в святая святых моего народа! Я не знаю, зачем ты пришёл, но здесь твоя жизнь завершится!
+#M14D02S01P02    [Elhant][Rage][Missions\SOUND\Mission14\m14_t06.ogg]Я пришел за Жемчужинами. Отдай их мне.
+#M14D02S01P03    [M14MainPriest][Pride][Missions\SOUND\Mission14\m14_t07.ogg]Ха-ха-ха! Ну что ж, наглец! Приди и возьми!
+
+

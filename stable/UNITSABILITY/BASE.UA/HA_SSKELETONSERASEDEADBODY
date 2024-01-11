@@ -1,0 +1,26 @@
+<NewAbility>
+ <Name>HA_sSkeletonsEraseDeadBody</Name>
+ <FileID>Interf3\Ability\auras_common</FileID>
+ <SpriteID>1</SpriteID>
+ <EffectFileID>Interf3\Ability\auras_common</EffectFileID>
+ <EffectSpriteID>1</EffectSpriteID>
+ <HintName>#AuraNecromancy.NAME</HintName>
+ <Hint>#AuraNecromancy</Hint>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <OnEndEffectCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>HA_wSkeletons</RefName>
+ </OnEndEffectCreateWeapon>
+ <OnEndEffectErase>true</OnEndEffectErase>
+</NewAbility>

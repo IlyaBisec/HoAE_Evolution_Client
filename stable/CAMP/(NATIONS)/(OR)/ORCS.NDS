@@ -1,0 +1,52 @@
+[MEMBERS]
+OrcUOrc(OR)  OrcUOrc
+OrcURid(OR)  OrcURid
+OrcUSha(OR)  OrcUSha
+OrcUChi(OR)  OrcUChi
+OrcBBar(OR)  OrcBBar
+OrcBCul(OR)  OrcBCul
+OrcBFir(OR)  OrcBFir
+OrcBHou(OR)  OrcBHou
+Or01Sha(OR)  Or01Sha
+OrM1Sha(MI)  OrM1Sha	
+OrM1Chi(MI)  OrM1Chi
+
+[FIXED_PRODUCE]
+[ENABLED]
+
+OrcUOrc(OR)
+OrcURid(OR)
+OrcUSha(OR)
+OrcUChi(OR)
+OrcBBar(OR)
+OrcBCul(OR)
+OrcBFir(OR)
+OrcBHou(OR)
+
+[UPGRADE]
+OrcUAll(OR)T SHIT2  #POSITION 2 2 #LEVEL 1 OrcUAll(OR)T #COST 1 GOLD 0 #TIME 20
+        BUILD GRP 2 OrcUOrc(OR) OrcUSha(OR) -50%
+
+[UPGRADEPLACE]
+OrcBBar(OR) 1
+OrcUAll(OR)T
+
+[UPGRADEENABLE]
+OrcUAll(OR)T
+
+[COUNTRY]
+ORCS 13
+#units
+OrcUOrc(OR)
+OrcURid(OR)
+OrcUSha(OR)
+OrcUChi(OR)
+#buildings
+OrcBBar(OR)
+OrcBCul(OR)
+OrcBFir(OR)
+OrcBHou(OR)
+#nodrop
+OrM1Sha(MI)
+OrM1Chi(MI)
+[END]

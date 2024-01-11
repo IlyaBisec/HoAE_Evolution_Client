@@ -1,0 +1,35 @@
+<ExtraShootingElement>
+ <Name>DruTurret021</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MinDistance>500</MinDistance>
+ <MaxDistance>1400</MaxDistance>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>3d_arrow_Ship</RefName>
+ </Weapon>
+ <WholeObjectModel></WholeObjectModel>
+ <ShootAnimation></ShootAnimation>
+ <WholeShootTime>5000</WholeShootTime>
+ <TimeOfShooting>30</TimeOfShooting>
+ <TotalRechargeTime>5000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <CentralShootAngle>64</CentralShootAngle>
+ <ShootAngleDifference>18</ShootAngleDifference>
+ <RotationSpeed>20000</RotationSpeed>
+ <TowerCenterX>516</TowerCenterX>
+ <TowerCenterY>936</TowerCenterY>
+ <TowerCenterZ>848</TowerCenterZ>
+ <CannonRadius>1</CannonRadius>
+</ExtraShootingElement>

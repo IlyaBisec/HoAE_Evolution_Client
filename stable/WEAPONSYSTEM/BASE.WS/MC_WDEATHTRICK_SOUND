@@ -1,0 +1,16 @@
+<WeaponModificator>
+ <Name>MC_wDeathTrick_Sound</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <PlaySomeSound>
+     <SoundID>M_DeathTrick</SoundID>
+    </PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

@@ -1,0 +1,20 @@
+<NewAbility>
+ <Name>UA_aGnollChief_FearStarter</Name>
+ <ClassType>Effect</ClassType>
+ <Visible>false</Visible>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <OnDieCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UA_wGnollChief</RefName>
+ </OnDieCreateWeapon>
+</NewAbility>

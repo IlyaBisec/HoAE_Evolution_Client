@@ -1,0 +1,22 @@
+<ua_SingleUnitAI>
+ <Name>suAI_fire_demon_1_500</Name>
+ <CastingRadius>500</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aFireRing</RefName>
+   </UA>
+   <MinTargetAmount>3</MinTargetAmount>
+   <CastingDelay>1</CastingDelay>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aMagmaBall0</RefName>
+   </UA>
+   <MinTargetAmount>3</MinTargetAmount>
+   <CastingDelay>1</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

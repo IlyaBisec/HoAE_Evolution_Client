@@ -1,0 +1,16 @@
+<WeaponModificator>
+ <Name>3d_bullet_2</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <BirthNew>
+     <NewWeaponModificator>3d_tank_l</NewWeaponModificator>
+    </BirthNew>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

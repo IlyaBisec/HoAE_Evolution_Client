@@ -1,0 +1,25 @@
+<NewAbility>
+ <Name>MagicCardSwarmOfInsects1</Name>
+ <Visible>false</Visible>
+ <GroundMD>
+  <UnitType>IteIPot(IT)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewAbility>

@@ -1,0 +1,34 @@
+<NewAbility>
+ <Name>HA_aBalance_OnUnit</Name>
+ <ClassType>Effect</ClassType>
+ <EffectFileID>Interf3\Ability\auras_common</EffectFileID>
+ <EffectSpriteID>8</EffectSpriteID>
+ <HintName>#AuraEquilibrium.NAME</HintName>
+ <Hint>#AuraEquilibrium</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <IgnoreMagicImmunity>true</IgnoreMagicImmunity>
+ <Modificators>
+  <mod_Silence></mod_Silence>
+ </Modificators>
+</NewAbility>

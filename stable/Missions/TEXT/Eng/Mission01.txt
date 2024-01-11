@@ -1,0 +1,46 @@
+#M01D01S01    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t01.ogg]Stop! Now is the time to fight, not flee!
+#M01D01S02    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t02.ogg]If you wish to fight fairly! Follow me!
+#M01D01S03    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t03.ogg]Warriors, your families are dying! We need to cover the citizens' retreat!
+#M01D01S04    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t04.ogg]Stop! Together we can hold back the hordes of undead!
+#M01D01S05    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t06.ogg]Are there any braves left among you? Join me!
+#M01D01S06    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t05.ogg]Don't fall back! Where is your pride?
+#M01D02S01    [M1Archer][Normal][Missions\SOUND\MISSION01\m01_t13.ogg]Back away, ranger! The undead are behind us!
+#M01D02S02    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t14.ogg]What of the villagers?
+#M01D02S03    [M1Archer][Normal][Missions\SOUND\MISSION01\m01_t15.ogg]They are retreating.
+#M01D02S04    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t16.ogg]Take the defense in the watch tower. I'll go to the city and cover citizens' withdrawal.
+#M01D02S05    [M1Archer][Normal][Missions\SOUND\MISSION01\m01_t17.ogg]Aye! But we won't be able to hold out for long...
+#M01D03S01    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t23.ogg]Help! Save me!
+#M01D03S02    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t27.ogg]Help! My laboratory! The Goblins have attacked!
+#M01D03S03P1    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t28.ogg]You are brave, elf! Thanks to you, the vile golbins barely reached me and my potions.
+#M01D03S03P2    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t29.ogg]I shall leave these restless places soon, but now my Alchemy is at your service.
+#M01D03S03P3    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t30.ogg]Choose! Here are the finest goods and the best prices in all Atlans!
+#M01D04S01    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t34.ogg]Corrrrrpses. Baaaack. Baaaack. To. The. Deeeeeep. Rooooots.
+#M01D04S02    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t35.ogg]Undead are attacking Old Ash! Quick to his aid!
+#M01D05S01P1    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t36.ogg]Thaaank. Yoooou. Smaaall. Elvvvves!
+#M01D05S01P2    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t37.ogg]Theeese. Unnndead. Shooould be. Rotting in the soil. Annnd nourishing the treeeees. Nooot roaming the fooorest. With axxxes. Ahh... Times...
+#M01D05S02    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t38.ogg]Any other day I'd be glad to talk with you, Old Ash, but not today! I've not the time!
+#M01D05S03P1    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t39.ogg]Alwaaaysss in a... Huuuuuuurrrrrrrryyyyyyy. Smaaall folk...
+#M01D05S03P2    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t40.ogg]Heeere. Taaake my.  Boooough. Innn. Reeeward. It will. Avvvail yooouuu...
+#M01D05S04    [Elhant][Glad][Missions\SOUND\MISSION01\m01_t41.ogg]What should I do with it? Hey! It's stirring! This... It's, it's a bow! Thank you, Old Ash!
+#M01D06S01P1    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t42.ogg]That Amazon was right. There are too many of them: we can't hold the undead back.
+#M01D06S01P2    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t43.ogg]Warriors! You fought well! Now you must take care of your lives.
+#M01D06S01P3    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t44.ogg]Retreat to the forest, and I'll try to keep the corpses at bay!
+#M01D07S01P1    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t18.ogg]Walking corpses, that should be rotting in the soil.. now they've risen to the surface and are attacking the living!  
+#M01D07S01P2    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t19.ogg]This has never happened before. We've battled with orcs, goblins and gnolls. These are dangerous beasts - but they are alive, just like us! 
+#M01D07S01P3    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t20.ogg]And these spawns of darkness... no, I won't fear them. I, Elhant, the son of Alvar!
+#M01D07S02P1    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t21.ogg]It is of those potions traded by the alchemist.
+#M01D07S02P2    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t22.ogg]Our warriors often use these. Maybe someone lost it in the chaos of the retreat.
+#M01D07S03P1    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t24.ogg]Alchemists... I've always disliked them. 
+#M01D07S03P2    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t25.ogg]Greedy for money and gold, grey-bearded old men with skin corroded with the foul-smelling gas - how many of them are in these regions?
+#M01D07S03P3    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t26.ogg]Although there is a beneficial side: some useful potions can be bought in these stores...
+#M01D07S04P1    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t31.ogg]These walking corpses are uglier than skeletons.
+#M01D07S04P2    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t32.ogg]Those have only bare bones, and these - worm-eaten flesh, and rotten sunken eyes.
+#M01D07S04P3    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t33.ogg]But even they won't scare me! I'm not afraid of you, spawns of darkness!
+#M01D08S01    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t45.ogg]This watch tower should provide enough cover for me to ward them off.
+#M01D09S01    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t11.ogg]I'm with you, ranger!
+#M01D09S02    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t09.ogg]Let's stop the enemy together!
+#M01D09S03    [M1Soldier][Normal][Missions\SOUND\MISSION02\m02_t69.ogg]We'll go with you, ranger!
+#M01D09S04    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t10.ogg]Lead on!
+#M01D09S05    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t12.ogg]Save the people!
+#M01D10S01    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t07.ogg]We were ordered to retreat! You're not our commander, stranger!
+#M01D10S02    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t08.ogg]No, there are too many of the enemy!

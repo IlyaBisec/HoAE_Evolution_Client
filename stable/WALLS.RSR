@@ -1,0 +1,392 @@
+[SECTIONS]
+#empty 0
+#MagicCard 4 E01 E02 E03 E04
+#Ef1 15 E05 E06 E07 E08 E09 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19
+#Ef2 22 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41
+#Ef3 11 E42 E43 E44 E45 E46 E47 E48 E49 E50 E51 E52
+#Ef4 28 E53 E54 E55 E56 E57 E58 E59 E60 E61 E62 E63 E64 E65 E66 E67 E68 E69 E70 E71 E72 E73 E74 E75 E76 E77 E78 E79 E80
+#Ef5 20 E81 E82 E83 E84 E85 E86 E87 E88 E89 E90 E91 E92 E93 E94 E95 E96 E97 E98 E99 E100 
+#Ef6 20 E101 E102 E103 E104 E105 E106 E107 E108 E109 E110 E111 E112 E113 E114 E115 E116 E117 E118 E119 E120 
+#Ef7 20 E121 E122 E123 E124 E125 E126 E127 E128 E129 E130 E131 E132 E133 E134 E135 E136 E137 E138 E139 E140 
+#Ef8 20 E141 E142 E143 E144 E145 E146 E147 E148 E149 E150 E151 E152 E153 E154 E155 E156 E157 E158 E159 E160 
+#Ef9 20 E161 E162 E163 E164 E165 E166 E167 E168 E169 E170 E171 E172 E173 E174 E175 E176 E177 E178 E179 E180 
+#Ef10 20 E181 E182 E183 E184 E185 E186 E187 E188 E189 E190 E191 E192 E193 E194 E195 E196 E197 E198 E199 E200 
+#Ef11 20 E201 E202 E203 E204 E205 E206 E207 E208 E209 E210 E211 E212 E213 E214 E215 E216 E217 E218 E219 E220 
+#Ef12 20 E221 E222 E223 E224 E225 E226 E227 E228 E229 E230 E231 E232 E233 E234 E235 E236 E237 E238 E239 E240 
+#Ef13 20 E241 E242 E243 E244 E245 E246 E247 E248 E249 E250 E251 E252 E253 E254 E255 E256 E257 E258 E259 E260 
+#Ef14 20 E261 E262 E263 E264 E265 E266 E267 E268 E269 E270 E271 E272 E273 E274 E275 E276 E277 E278 E279 E280 
+#Ef15 20 E281 E282 E283 E284 E285 E286 E287 E288 E289 E290 E291 E292 E293 E294 E295 E296 E297 E298 E299 E300 
+#Ef16 11 E301 E302 E303 E304 E305 E306 E307 E308 E309 E310 E311
+#All_Effects 311 E01 E02 E03 E04 E05 E06 E07 E08 E09 E10 E11 E12 E13 E14 E15 E16 E17 E18 E19 E20 E21 E22 E23 E24 E25 E26 E27 E28 E29 E30 E31 E32 E33 E34 E35 E36 E37 E38 E39 E40 E41 E42 E43 E44 E45 E46 E47 E48 E49 E50 E51 E52 E53 E54 E55 E56 E57 E58 E59 E60 E61 E62 E63 E64 E65 E66 E67 E68 E69 E70 E71 E72 E73 E74 E75 E76 E77 E78 E79 E80 E81 E82 E83 E84 E85 E86 E87 E88 E89 E90 E91 E92 E93 E94 E95 E96 E97 E98 E99 E100 E101 E102 E103 E104 E105 E106 E107 E108 E109 E110 E111 E112 E113 E114 E115 E116 E117 E118 E119 E120 E121 E122 E123 E124 E125 E126 E127 E128 E129 E130 E131 E132 E133 E134 E135 E136 E137 E138 E139 E140 E141 E142 E143 E144 E145 E146 E147 E148 E149 E150 E151 E152 E153 E154 E155 E156 E157 E158 E159 E160 E161 E162 E163 E164 E165 E166 E167 E168 E169 E170 E171 E172 E173 E174 E175 E176 E177 E178 E179 E180 E181 E182 E183 E184 E185 E186 E187 E188 E189 E190 E191 E192 E193 E194 E195 E196 E197 E198 E199 E200 E201 E202 E203 E204 E205 E206 E207 E208 E209 E210 E211 E212 E213 E214 E215 E216 E217 E218 E219 E220 E221 E222 E223 E224 E225 E226 E227 E228 E229 E230 E231 E232 E233 E234 E235 E236 E237 E238 E239 E240 E241 E242 E243 E244 E245 E246 E247 E248 E249 E250 E251 E252 E253 E254 E255 E256 E257 E258 E259 E260 E261 E262 E263 E264 E265 E266 E267 E268 E269 E270 E271 E272 E273 E274 E275 E276 E277 E278 E279 E280 E281 E282 E283 E284 E285 E286 E287 E288 E289 E290 E291 E292 E293 E294 E295 E296 E297 E298 E299 E300 E301 E302 E303 E304 E305 E306 E307 E308 E309 E310 E311
+#Weapons 0
+#PreHistoric 0
+[CONNECTOR]
+[AUTOBORN]
+[MODEL]
+
+E01 Models\Effects\OnMap\fire_onmap1.c2m 0 0 1.0 0 FF808080
+E02 Models\Effects\OnMap\magicglow1.c2m  0 0 1.0 0 FF808080
+E03 Models\Effects\OnMap\smoke1.c2m      0 0 1.0 0 FF808080
+E04 Models\Effects\OnMap\smokebig1.c2m   0 0 1.0 0 FF808080
+E05 Models\Effects\OnMap\acid1.c2m             0 0 1.0 0 FF808080
+E06 Models\Effects\OnMap\acid2.c2m             0 0 1.0 0 FF808080
+E07 Models\Effects\OnMap\acid3.c2m             0 0 1.0 0 FF808080
+E08 Models\Effects\OnMap\Fire1.c2m             0 0 1.0 0 FF808080
+E09 Models\Effects\OnMap\Fire_smoke1.c2m       0 0 1.0 0 FF808080
+E10 Models\Effects\OnMap\lightningSplash1.c2m  0 0 1.0 0 FF808080
+E11 Models\Effects\OnMap\MagicBall1.c2m        0 0 1.0 0 FF808080
+E12 Models\Effects\OnMap\MagicGlow2.c2m        0 0 1.0 0 FF808080
+E13 Models\Effects\OnMap\magicglow3.c2m        0 0 1.0 0 FF808080
+E14 Models\Effects\OnMap\MagicSplash1.c2m      0 0 1.0 0 FF808080
+E15 Models\Effects\OnMap\MagicSplash2.c2m      0 0 1.0 0 FF808080
+E16 Models\Effects\OnMap\MagicSplash3.c2m      0 0 1.0 0 FF808080
+E17 Models\Effects\OnMap\MagicSplash4.c2m      0 0 1.0 0 FF808080
+E18 Models\Effects\OnMap\Smoke2.c2m            0 0 1.0 0 FF808080
+E19 Models\Effects\OnMap\Sparks1.c2m           0 0 1.0 0 FF808080
+E20 Models\Effects\OnMap\BlueFire1.c2m         0 0 1.0 0 FF808080
+E21 Models\Effects\OnMap\Fire2.c2m             0 0 1.0 0 FF808080
+E22 Models\Effects\OnMap\Fire3.c2m             0 0 1.0 0 FF808080
+E23 Models\Effects\OnMap\Fire4.c2m             0 0 1.0 0 FF808080
+E24 Models\Effects\OnMap\Fire5.c2m             0 0 1.0 0 FF808080
+E25 Models\Effects\OnMap\FireAura1.c2m         0 0 1.0 0 FF808080
+E26 Models\Effects\OnMap\FireAura2.c2m         0 0 1.0 0 FF808080
+E27 Models\Effects\OnMap\FireAura3.c2m         0 0 1.0 0 FF808080
+E28 Models\Effects\OnMap\MagicShield.c2m       0 0 1.0 0 FF808080
+E29 Models\Effects\OnMap\MagicSpash6.c2m       0 0 1.0 0 FF808080
+E30 Models\Effects\OnMap\MagicSplash1slow.c2m  0 0 1.0 0 FF808080
+E31 Models\Effects\OnMap\MagicSplash2slow.c2m  0 0 1.0 0 FF808080
+E32 Models\Effects\OnMap\MagicSplash3slow.c2m  0 0 1.0 0 FF808080
+E33 Models\Effects\OnMap\MagicSplash4slow.c2m  0 0 1.0 0 FF808080
+E34 Models\Effects\OnMap\MagicSplash5.c2m      0 0 1.0 0 FF808080
+E35 Models\Effects\OnMap\MagicSplash6.c2m      0 0 1.0 0 FF808080
+E36 Models\Effects\OnMap\Smoke2slow.c2m        0 0 1.0 0 FF808080
+E37 Models\Effects\OnMap\Smoke3.c2m            0 0 1.0 0 FF808080
+E38 Models\Effects\OnMap\Smoke4.c2m            0 0 1.0 0 FF808080
+E39 Models\Effects\OnMap\Smoke5.c2m            0 0 1.0 0 FF808080
+E40 Models\Effects\OnMap\Smokebig2.c2m         0 0 1.0 0 FF808080
+E41 Models\Effects\OnMap\Sparks2.c2m           0 0 1.0 0 FF808080
+E42 Models\Effects\OnMap\Svetlyaki\svetlyaki.c2m  0 0 1.0 0 FF808080
+E43 Models\Effects\OnMap\Global_Smock\global_smock.c2m 0 0 1.0 0 FF808080
+E44 Models\Effects\OnMap\Vodovorot\vodovorot.c2m       0 0 1.0 0 FF808080
+E45 Models\Effects\OnMap\Geizer\breafgeizer.c2m        0 0 1.0 0 FF808080
+E46 Models\Effects\OnMap\Geizer\geizer.c2m             0 0 1.0 0 FF808080
+E47 Models\Effects\OnMap\Geizer\geizer2.c2m            0 0 1.0 0 FF808080
+E48 Models\Effects\OnMap\Geizer\geizer3.c2m            0 0 1.0 0 FF808080
+E49 Models\Effects\OnMap\Kapli_V_Vodu\kapli_v_vodu.c2m 0 0 1.0 0 FF808080
+E50 Models\Effects\OnMap\Katusha\katusha.c2m           0 0 1.0 0 FF808080
+E51 Models\Effects\OnMap\Pesok\pesok.c2m               0 0 1.0 0 FF808080
+E52 Models\Effects\OnMap\RalzomMagma\RazlomMagma.c2m       0 0 1.0 0 FF808080
+E53 Models\Effects\MagicCard\Sfera_Magma\Sfera_Mag.c2m 0 0 1.0 0 FF808080
+E54 Models\Effects\MagicCard\Sfera_Magma\Sfera_Magma.c2m 0 0 1.0 0 FF808080
+E55 Models\Effects\MagicCard\Sfera_Magma\Sfera_MagmaAn.c2m 0 0 1.0 0 FF808080
+E56 Models\Effects\MagicCard\Sfera_Magma\Sfera_MagmaEf.c2m 0 0 1.0 0 FF808080
+E57 Models\Effects\MagicCard\Sfera_Magma\Sfera_MagmaTek.c2m 0 0 1.0 0 FF808080
+E58 Models\Effects\MagicCard\Shit_Strel\Shit_Strel.c2m 0 0 1.0 0 FF808080
+E59 Models\Effects\MagicCard\StatueOfRage\StatueOfRage_aUnit.c2m 0 0 1.0 0 FF808080
+E60 Models\Effects\MagicCard\StatueOfRage\StatueOfRage_mUnit.c2m 0 0 1.0 0 FF808080
+E61 Models\Effects\MagicCard\StatueOfRage\statue_of_rage_11.c2m 0 0 1.0 0 FF808080
+E62 Models\Effects\MagicCard\StoneSkin\StoneSkin_aSymbol.c2m 0 0 1.0 0 FF808080
+E63 Models\Effects\MagicCard\StoneSkin\StoneSkin_eArea.c2m 0 0 1.0 0 FF808080
+E64 Models\Effects\MagicCard\StoneSkin\StoneSkin_eSymbol.c2m 0 0 1.0 0 FF808080
+E65 Models\Effects\MagicCard\StoneSkin\StoneSkin_eUnit.c2m 0 0 1.0 0 FF808080
+E66 Models\Effects\MagicCard\StoneSkin\StoneSkin_mSymbol.c2m 0 0 1.0 0 FF808080
+E67 Models\Effects\MagicCard\StrelaIce\StrelaIce.c2m 0 0 1.0 0 FF808080
+E68 Models\Effects\MagicCard\StrelaIce\StrelaIceVZ.c2m 0 0 1.0 0 FF808080
+E69 Models\Effects\MagicCard\Tornado\tornado.c2m 0 0 1.0 0 FF808080
+E70 Models\Effects\MagicCard\Tornado\tornado_demo.c2m 0 0 1.0 0 FF808080
+E71 Models\Effects\MagicCard\Tuman_Deth\Tuman_Deth.c2m 0 0 1.0 0 FF808080
+E72 Models\Effects\MagicCard\Tuman_Deth\Tuman_DethUN.c2m 0 0 1.0 0 FF808080
+E73 Models\Effects\MagicCard\Vortex\Vortex_eTarget.c2m 0 0 1.0 0 FF808080
+E74 Models\Effects\MagicCard\Vortex\Vortex_eTarget2.c2m 0 0 1.0 0 FF808080
+E75 Models\Effects\MagicCard\Vortex\Vortex_eTarget3.c2m 0 0 1.0 0 FF808080
+E76 Models\Effects\MagicCard\Vsevidenie\Vsevidenie.c2m 0 0 1.0 0 FF808080
+E77 Models\Effects\MagicCard\Vzdoh\Vzdoh.c2m 0 0 1.0 0 FF808080
+E78 Models\Effects\MagicCard\Vzdoh\VzdohVZ.c2m 0 0 1.0 0 FF808080
+E79 Models\Effects\Weapons\Acid\!acid_blow_01.c2m 0 0 1.0 0 FF808080
+E80 Models\Effects\Weapons\Acid\!acid_postfx.c2m 0 0 1.0 0 FF808080
+E81 Models\Effects\Weapons\Acid\!acid_trail.c2m 0 0 1.0 0 FF808080
+E82 Models\Effects\Weapons\air_magic\magik_air_01.c2m 0 0 1.0 0 FF808080
+E83 Models\Effects\Weapons\air_magic\magik_air_ball_01.c2m 0 0 1.0 0 FF808080
+E84 Models\Effects\Weapons\Chih-Pih\Chih-Pih.c2m 0 0 1.0 0 FF808080
+E85 Models\Effects\Weapons\DrBTow\DruidBashnyaSHar.c2m 0 0 1.0 0 FF808080
+E86 Models\Effects\Weapons\DrBTow\DruidBashnyaVz.c2m 0 0 1.0 0 FF808080
+E87 Models\Effects\Weapons\Drg_Blck\ChernDragonPar.c2m 0 0 1.0 0 FF808080
+E88 Models\Effects\Weapons\Drg_Blck\ChernDragonPlamya.c2m 0 0 1.0 0 FF808080
+E89 Models\Effects\Weapons\Drg_Blck\ChernDragonStart.c2m 0 0 1.0 0 FF808080
+E90 Models\Effects\Weapons\Drg_Blck\ChernDragonVzriv.c2m 0 0 1.0 0 FF808080
+E91 Models\Effects\Weapons\Drg_Fire\Drgons_Fire.c2m 0 0 1.0 0 FF808080
+E92 Models\Effects\Weapons\Drg_Fire\Drgons_FireStart.c2m 0 0 1.0 0 FF808080
+E93 Models\Effects\Weapons\Drg_Fire\Drgons_FireVzriv.c2m 0 0 1.0 0 FF808080
+E94 Models\Effects\Weapons\Drg_Fire\Drgons_Par.c2m 0 0 1.0 0 FF808080
+E95 Models\Effects\Weapons\Drg_Green\GrenDragonPar.c2m 0 0 1.0 0 FF808080
+E96 Models\Effects\Weapons\Drg_Green\GrenDragonPlamya.c2m 0 0 1.0 0 FF808080
+E97 Models\Effects\Weapons\Drg_Green\GrenDragonStart.c2m 0 0 1.0 0 FF808080
+E98 Models\Effects\Weapons\Drg_Green\GrenDragonVzriv.c2m 0 0 1.0 0 FF808080
+E99 Models\Effects\Weapons\Drg_Ice\iceDrgons_FirePar.c2m 0 0 1.0 0 FF808080
+E100 Models\Effects\Weapons\Drg_Ice\iceDrgons_FireStart.c2m 0 0 1.0 0 FF808080
+E101 Models\Effects\Weapons\Drg_Ice\iceDrgons_FireStart2.c2m 0 0 1.0 0 FF808080
+E102 Models\Effects\Weapons\Drg_Ice\iceDrgons_FireVzrivTEk.c2m 0 0 1.0 0 FF808080
+E103 Models\Effects\Weapons\Drg_Ice\iceDrgons_Struya.c2m 0 0 1.0 0 FF808080
+E104 Models\Effects\Weapons\Drg_Ice\iceDrgons_Struya_1.c2m 0 0 1.0 0 FF808080
+E105 Models\Effects\Weapons\Drg_Ice\iceDrgons_Vzriv.c2m 0 0 1.0 0 FF808080
+E106 Models\Effects\Weapons\Drg_Ice\par.c2m 0 0 1.0 0 FF808080
+E107 Models\Effects\Weapons\Drg_Ice\Razogrev4.c2m 0 0 1.0 0 FF808080
+E108 Models\Effects\Weapons\Drg_Ice\Razogrev5.c2m 0 0 1.0 0 FF808080
+E109 Models\Effects\Weapons\fire_ball\fire_ball_01.c2m 0 0 1.0 0 FF808080
+E110 Models\Effects\Weapons\fire_ball\fire_ball_bah_01.c2m 0 0 1.0 0 FF808080
+E111 Models\Effects\Weapons\fire_fairy\enchanting_ball_01.c2m 0 0 1.0 0 FF808080
+E112 Models\Effects\Weapons\fire_fairy\enchanting_ball_20.c2m 0 0 1.0 0 FF808080
+E113 Models\Effects\Weapons\fire_fairy\fire_fairy_ball_01.c2m 0 0 1.0 0 FF808080
+E114 Models\Effects\Weapons\Fly_Energy_1\Fly_Energy_1.c2m 0 0 1.0 0 FF808080
+E115 Models\Effects\Weapons\Fly_Energy_1\Fly_Energy_1F.c2m 0 0 1.0 0 FF808080
+E116 Models\Effects\Weapons\Fly_Energy_1\Fly_Energy_1FVzriv.c2m 0 0 1.0 0 FF808080
+E117 Models\Effects\Weapons\Fly_Energy_2\Fly_Energy_2.c2m 0 0 1.0 0 FF808080
+E118 Models\Effects\Weapons\Fly_Energy_2\Fly_Energy_2w.c2m 0 0 1.0 0 FF808080
+E119 Models\Effects\Weapons\G_Tree\G_TreeF.c2m 0 0 1.0 0 FF808080
+E120 Models\Effects\Weapons\G_Tree\G_TreeFU.c2m 0 0 1.0 0 FF808080
+E121 Models\Effects\Weapons\G_Tree\G_TreeTek.c2m 0 0 1.0 0 FF808080
+E122 Models\Effects\Weapons\ice_arch_mage\ise_arch_mage_01.c2m 0 0 1.0 0 FF808080
+E123 Models\Effects\Weapons\Iluzion\Iluzion.c2m 0 0 1.0 0 FF808080
+E124 Models\Effects\Weapons\Katapult\UndedKatapult_Sn.c2m 0 0 1.0 0 FF808080
+E125 Models\Effects\Weapons\Katapult\UndedKatapult_Vz.c2m 0 0 1.0 0 FF808080
+E126 Models\Effects\Weapons\Kopie\Kopie.c2m 0 0 1.0 0 FF808080
+E127 Models\Effects\Weapons\Korni\korni.c2m 0 0 1.0 0 FF808080
+E128 Models\Effects\Weapons\Korni\Korni2.c2m 0 0 1.0 0 FF808080
+E129 Models\Effects\Weapons\Korni\KorniAn2.c2m 0 0 1.0 0 FF808080
+E130 Models\Effects\Weapons\Leech\Cherep.c2m 0 0 1.0 0 FF808080
+E131 Models\Effects\Weapons\Leech\CherepM.c2m 0 0 1.0 0 FF808080
+E132 Models\Effects\Weapons\Leech\CherepM_An.c2m 0 0 1.0 0 FF808080
+E133 Models\Effects\Weapons\Leech\CherepShleif.c2m 0 0 1.0 0 FF808080
+E134 Models\Effects\Weapons\Leech\CherepVzriv.c2m 0 0 1.0 0 FF808080
+E135 Models\Effects\Weapons\lich_king\Jezl_final_04.c2m 0 0 1.0 0 FF808080
+E136 Models\Effects\Weapons\lich_king\Vzmah_11.c2m 0 0 1.0 0 FF808080
+/E137 Models\Effects\Weapons\Mech_Enforcer_tekUm\Mech_Enforcer_StvolUm.c2m 0 0 1.0 0 FF808080
+/E138 Models\Effects\Weapons\Mech_Enforcer_tekUm\Mech_Enforcer_VzUm.c2m 0 0 1.0 0 FF808080
+E139 Models\Effects\Weapons\Popadenie\Popadenie.c2m 0 0 1.0 0 FF808080
+E140 Models\Effects\Weapons\Rifle\Mech_EnforcerPopadenie.c2m 0 0 1.0 0 FF808080
+E141 Models\Effects\Weapons\Rifle\Mech_EnforcerStvol.c2m 0 0 1.0 0 FF808080
+E142 Models\Effects\Weapons\Rifle\test.c2m 0 0 1.0 0 FF808080
+E143 Models\Effects\Weapons\stone_magic\stone_magic_01.c2m 0 0 1.0 0 FF808080
+E144 Models\Effects\Weapons\stone_magic\stone_magic_final_01.c2m 0 0 1.0 0 FF808080
+E145 Models\Effects\Weapons\stone_spirit\stone_spirit_100.c2m 0 0 1.0 0 FF808080
+E146 Models\Effects\Weapons\stone_spirit\stone_spirit_30.c2m 0 0 1.0 0 FF808080
+E147 Models\Effects\Weapons\stone_spirit\stone_spirit_40.c2m 0 0 1.0 0 FF808080
+E148 Models\Effects\Weapons\stone_spirit\stone_spirit_50.c2m 0 0 1.0 0 FF808080
+E149 Models\Effects\Weapons\stone_spirit\stone_spirit_60.c2m 0 0 1.0 0 FF808080
+E150 Models\Effects\Weapons\stone_spirit\stone_spirit_70.c2m 0 0 1.0 0 FF808080
+E151 Models\Effects\Weapons\stone_spirit\stone_spirit_80.c2m 0 0 1.0 0 FF808080
+E152 Models\Effects\Weapons\stone_spirit\stone_spirit_90.c2m 0 0 1.0 0 FF808080
+E153 Models\Effects\Weapons\Strela\Strela_01.c2m 0 0 1.0 0 FF808080
+E154 Models\Effects\Weapons\water_magic\water_ball_01.c2m 0 0 1.0 0 FF808080
+E155 Models\Effects\Weapons\water_magic\water_ball_final_01.c2m 0 0 1.0 0 FF808080
+E156 Models\Effects\Weapons\yotun\magic_03.c2m 0 0 1.0 0 FF808080
+E157 Models\Effects\Weapons\yotun\magic_ball_07.c2m 0 0 1.0 0 FF808080
+E158 Models\Effects\Weapons\yotun\magic_ball_contact_01.c2m 0 0 1.0 0 FF808080
+E159 Models\Effects\_PreHistoric\acid_blow_01.c2m 0 0 1.0 0 FF808080
+E160 Models\Effects\_PreHistoric\acid_trail.c2m 0 0 1.0 0 FF808080
+E161 Models\Effects\_PreHistoric\arrow.c2m 0 0 1.0 0 FF808080
+E162 Models\Effects\_PreHistoric\arrowtrace.c2m 0 0 1.0 0 FF808080
+E163 Models\Effects\_PreHistoric\arrow_heavy.c2m 0 0 1.0 0 FF808080
+E164 Models\Effects\_PreHistoric\black_smoke.c2m 0 0 1.0 0 FF808080
+E165 Models\Effects\_PreHistoric\blizzard.c2m 0 0 1.0 0 FF808080
+E166 Models\Effects\_PreHistoric\buildings_final_fade.c2m 0 0 1.0 0 FF808080
+E167 Models\Effects\_PreHistoric\bulk.c2m 0 0 1.0 0 FF808080
+E168 Models\Effects\_PreHistoric\bullet_building_hit.c2m 0 0 1.0 0 FF808080
+E169 Models\Effects\_PreHistoric\bullet_ground_hit.c2m 0 0 1.0 0 FF808080
+E170 Models\Effects\_PreHistoric\bullet_splash.c2m 0 0 1.0 0 FF808080
+E171 Models\Effects\_PreHistoric\charged.c2m 0 0 1.0 0 FF808080
+E172 Models\Effects\_PreHistoric\death_fog.c2m 0 0 1.0 0 FF808080
+E173 Models\Effects\_PreHistoric\dust_medium.c2m 0 0 1.0 0 FF808080
+E174 Models\Effects\_PreHistoric\dust_small.c2m 0 0 1.0 0 FF808080
+E175 Models\Effects\_PreHistoric\explode.c2m 0 0 1.0 0 FF808080
+E176 Models\Effects\_PreHistoric\FAERBOOL.c2m 0 0 1.0 0 FF808080
+E177 Models\Effects\_PreHistoric\FAERBOOL1.c2m 0 0 1.0 0 FF808080
+E178 Models\Effects\_PreHistoric\FAERBOOL2.c2m 0 0 1.0 0 FF808080
+E179 Models\Effects\_PreHistoric\FAERBOOL3.c2m 0 0 1.0 0 FF808080
+E180 Models\Effects\_PreHistoric\FAERBOOLss.c2m 0 0 1.0 0 FF808080
+E181 Models\Effects\_PreHistoric\fire1.c2m 0 0 1.0 0 FF808080
+E182 Models\Effects\_PreHistoric\fireball_2test.c2m 0 0 1.0 0 FF808080
+E183 Models\Effects\_PreHistoric\fireball_trace.c2m 0 0 1.0 0 FF808080
+E184 Models\Effects\_PreHistoric\firestorm.c2m 0 0 1.0 0 FF808080
+E185 Models\Effects\_PreHistoric\fire_ball1.c2m 0 0 1.0 0 FF808080
+E186 Models\Effects\_PreHistoric\fire_ball2.c2m 0 0 1.0 0 FF808080
+E187 Models\Effects\_PreHistoric\fire_exp1.c2m 0 0 1.0 0 FF808080
+E188 Models\Effects\_PreHistoric\fire_exp1a.c2m 0 0 1.0 0 FF808080
+E189 Models\Effects\_PreHistoric\fire_exp2.c2m 0 0 1.0 0 FF808080
+E190 Models\Effects\_PreHistoric\fire_exp3.c2m 0 0 1.0 0 FF808080
+E191 Models\Effects\_PreHistoric\fire_exp4_smokey.c2m 0 0 1.0 0 FF808080
+E192 Models\Effects\_PreHistoric\fire_meteor.c2m 0 0 1.0 0 FF808080
+E193 Models\Effects\_PreHistoric\fire_nova.c2m 0 0 1.0 0 FF808080
+E194 Models\Effects\_PreHistoric\FLAME_SMOCK1.c2m 0 0 1.0 0 FF808080
+E195 Models\Effects\_PreHistoric\FLAME_SMOCK1_1.c2m 0 0 1.0 0 FF808080
+E196 Models\Effects\_PreHistoric\FLAME.c2m 0 0 1.0 0 FF808080
+E197 Models\Effects\_PreHistoric\FLAME00.c2m 0 0 1.0 0 FF808080
+E198 Models\Effects\_PreHistoric\flameburn.c2m 0 0 1.0 0 FF808080
+E199 Models\Effects\_PreHistoric\flash_exp.c2m 0 0 1.0 0 FF808080
+E200 Models\Effects\_PreHistoric\frost_nova.c2m 0 0 1.0 0 FF808080
+E201 Models\Effects\_PreHistoric\gaseous_bolt.c2m 0 0 1.0 0 FF808080
+E202 Models\Effects\_PreHistoric\kamni.c2m 0 0 1.0 0 FF808080
+E203 Models\Effects\_PreHistoric\lighting_01.c2m 0 0 1.0 0 FF808080
+E204 Models\Effects\_PreHistoric\lighting_02.c2m 0 0 1.0 0 FF808080
+E205 Models\Effects\_PreHistoric\lighting_splash.c2m 0 0 1.0 0 FF808080
+//E206 Models\Effects\_PreHistoric\lightning.c2m 0 0 1.0 0 FF808080
+//E207 Models\Effects\_PreHistoric\magic_fx_01.c2m 0 0 1.0 0 FF808080
+//E208 Models\Effects\_PreHistoric\magic_lightingshot.c2m 0 0 1.0 0 FF808080
+//E209 Models\Effects\_PreHistoric\magic_lightingshot_2small.c2m 0 0 1.0 0 FF808080
+//E210 Models\Effects\_PreHistoric\necro_coil.c2m 0 0 1.0 0 FF808080
+//E211 Models\Effects\_PreHistoric\POss.c2m 0 0 1.0 0 FF808080
+//E212 Models\Effects\_PreHistoric\POss2.c2m 0 0 1.0 0 FF808080
+//E213 Models\Effects\_PreHistoric\POss3.c2m 0 0 1.0 0 FF808080
+//E214 Models\Effects\_PreHistoric\POss5.c2m 0 0 1.0 0 FF808080
+//E215 Models\Effects\_PreHistoric\rays.c2m 0 0 1.0 0 FF808080
+//E216 Models\Effects\_PreHistoric\rrr.c2m 0 0 1.0 0 FF808080
+//E217 Models\Effects\_PreHistoric\schepki.c2m 0 0 1.0 0 FF808080
+//E218 Models\Effects\_PreHistoric\ship_foam.c2m 0 0 1.0 0 FF808080
+//E219 Models\Effects\_PreHistoric\smoke_03.c2m 0 0 1.0 0 FF808080
+//E220 Models\Effects\_PreHistoric\sparks.c2m 0 0 1.0 0 FF808080
+E221 Models\Effects\_PreHistoric\sparks1.c2m 0 0 1.0 0 FF808080
+E222 Models\Effects\_PreHistoric\sparks_01.c2m 0 0 1.0 0 FF808080
+E223 Models\Effects\_PreHistoric\sparks_01.c2m 0 0 1.0 0 FF808080
+E224 Models\Effects\_PreHistoric\splash.c2m 0 0 1.0 0 FF808080
+E225 Models\Effects\_PreHistoric\splash_ripple.c2m 0 0 1.0 0 FF808080
+E226 Models\Effects\_PreHistoric\splash_ripples.c2m 0 0 1.0 0 FF808080
+E227 Models\Effects\_PreHistoric\splash_small.c2m 0 0 1.0 0 FF808080
+E228 Models\Effects\_PreHistoric\static_charge.c2m 0 0 1.0 0 FF808080
+E229 Models\Effects\_PreHistoric\static_charge_02.c2m 0 0 1.0 0 FF808080
+E230 Models\Effects\_PreHistoric\static_charge_02a.c2m 0 0 1.0 0 FF808080
+E231 Models\Effects\_PreHistoric\strel.c2m 0 0 1.0 0 FF808080
+E232 Models\Effects\_PreHistoric\strel1.c2m 0 0 1.0 0 FF808080
+E233 Models\Effects\_PreHistoric\strel1.c2m 0 0 1.0 0 FF808080
+E234 Models\Effects\_PreHistoric\test.c2m 0 0 1.0 0 FF808080
+E235 Models\Effects\_PreHistoric\test_iceblast.c2m 0 0 1.0 0 FF808080
+E236 Models\Effects\_PreHistoric\trax.c2m 0 0 1.0 0 FF808080
+E237 Models\Effects\_PreHistoric\voronka1.c2m 0 0 1.0 0 FF808080
+E238 Models\Effects\_PreHistoric\vortex.c2m 0 0 1.0 0 FF808080
+E239 Models\Effects\_PreHistoric\Vzriv2.c2m 0 0 1.0 0 FF808080
+E240 Models\Effects\_PreHistoric\Vzriv3.c2m 0 0 1.0 0 FF808080
+E241 Models\Effects\_PreHistoric\vzriv5.c2m 0 0 1.0 0 FF808080
+E242 Models\Effects\_PreHistoric\waterfall.c2m 0 0 1.0 0 FF808080
+E243 Models\Effects\_PreHistoric\waterfall1.c2m 0 0 1.0 0 FF808080
+E244 Models\Effects\_PreHistoric\waves.c2m 0 0 1.0 0 FF808080
+E245 Models\Effects\_PreHistoric\waves1.c2m 0 0 1.0 0 FF808080
+E246 Models\Effects\_PreHistoric\!From_Shura\!acid_blow_01.c2m 0 0 1.0 0 FF808080
+E247 Models\Effects\_PreHistoric\!From_Shura\!acid_postfx.c2m 0 0 1.0 0 FF808080
+E248 Models\Effects\_PreHistoric\!From_Shura\!acid_trail.c2m 0 0 1.0 0 FF808080
+E249 Models\Effects\_PreHistoric\!From_Shura\!alchemic_fire.c2m 0 0 1.0 0 FF808080
+E250 Models\Effects\_PreHistoric\!From_Shura\!alchemic_fire_shot.c2m 0 0 1.0 0 FF808080
+E251 Models\Effects\_PreHistoric\!From_Shura\!aura.c2m 0 0 1.0 0 FF808080
+E252 Models\Effects\_PreHistoric\!From_Shura\!auraheroizm.c2m 0 0 1.0 0 FF808080
+E253 Models\Effects\_PreHistoric\!From_Shura\!aura_fire.c2m 0 0 1.0 0 FF808080
+E254 Models\Effects\_PreHistoric\!From_Shura\!aura_mdef.c2m 0 0 1.0 0 FF808080
+E255 Models\Effects\_PreHistoric\!From_Shura\!aura_thorns.c2m 0 0 1.0 0 FF808080
+E256 Models\Effects\_PreHistoric\!From_Shura\!aura_thorns2.c2m 0 0 1.0 0 FF808080
+E257 Models\Effects\_PreHistoric\!From_Shura\!au_black.c2m 0 0 1.0 0 FF808080
+E258 Models\Effects\_PreHistoric\!From_Shura\!chains_area.c2m 0 0 1.0 0 FF808080
+E259 Models\Effects\_PreHistoric\!From_Shura\!disenchant.c2m 0 0 1.0 0 FF808080
+E260 Models\Effects\_PreHistoric\!From_Shura\!dis_unit.c2m 0 0 1.0 0 FF808080
+E261 Models\Effects\_PreHistoric\!From_Shura\!frost_unit.c2m 0 0 1.0 0 FF808080
+E262 Models\Effects\_PreHistoric\!From_Shura\!heal_bottle.c2m 0 0 1.0 0 FF808080
+E263 Models\Effects\_PreHistoric\!From_Shura\!heal_unit.c2m 0 0 1.0 0 FF808080
+E264 Models\Effects\_PreHistoric\!From_Shura\!heroizm_aura.c2m 0 0 1.0 0 FF808080
+E265 Models\Effects\_PreHistoric\!From_Shura\!invisibility.c2m 0 0 1.0 0 FF808080
+E266 Models\Effects\_PreHistoric\!From_Shura\!lightin_eye.c2m 0 0 1.0 0 FF808080
+E267 Models\Effects\_PreHistoric\!From_Shura\!magic_lightingshot.c2m 0 0 1.0 0 FF808080
+E268 Models\Effects\_PreHistoric\!From_Shura\!magic_lightingshot_2small.c2m 0 0 1.0 0 FF808080
+E269 Models\Effects\_PreHistoric\!From_Shura\!mana_bottle.c2m 0 0 1.0 0 FF808080
+E270 Models\Effects\_PreHistoric\!From_Shura\!mana_drain.c2m 0 0 1.0 0 FF808080
+E271 Models\Effects\_PreHistoric\!From_Shura\!mdef_au2.c2m 0 0 1.0 0 FF808080
+E272 Models\Effects\_PreHistoric\!From_Shura\!m_shield.c2m 0 0 1.0 0 FF808080
+E273 Models\Effects\_PreHistoric\!From_Shura\!shield.c2m 0 0 1.0 0 FF808080
+E274 Models\Effects\_PreHistoric\!From_Shura\!shield_2.c2m 0 0 1.0 0 FF808080
+E275 Models\Effects\_PreHistoric\ef\ef_Dozhd_Ognya_03.c2m 0 0 1.0 0 FF808080
+E276 Models\Effects\_PreHistoric\ef\ef_FierBollM_06.c2m 0 0 1.0 0 FF808080
+E277 Models\Effects\_PreHistoric\ef\ef_Golova_Berserk.c2m 0 0 1.0 0 FF808080
+E278 Models\Effects\_PreHistoric\ef\ef_Ice_03.c2m 0 0 1.0 0 FF808080
+E279 Models\Effects\_PreHistoric\ef\ef_Koltso_Para2.c2m 0 0 1.0 0 FF808080
+E280 Models\Effects\_PreHistoric\ef\ef_Manezh.c2m 0 0 1.0 0 FF808080
+E281 Models\Effects\_PreHistoric\ef\ef_Obmorozhenie.c2m 0 0 1.0 0 FF808080
+E282 Models\Effects\_PreHistoric\ef\ef_Sfera_Nakrivaet.c2m 0 0 1.0 0 FF808080
+E283 Models\Effects\_PreHistoric\ef\ef_Sharovaya_Molniya.c2m 0 0 1.0 0 FF808080
+E284 Models\Effects\_PreHistoric\ef\ef_Shar_Molnii3.c2m 0 0 1.0 0 FF808080
+E285 Models\Effects\_PreHistoric\ef\ef_Smock_Tek.c2m 0 0 1.0 0 FF808080
+E286 Models\Effects\_PreHistoric\ef\Pushka_Vistrel_01.c2m 0 0 1.0 0 FF808080
+E287 Models\Effects\_PreHistoric\ef\Roketa_Kongriva_06.c2m 0 0 1.0 0 FF808080
+E288 Models\Effects\_PreHistoric\ef\stone_skin.c2m 0 0 1.0 0 FF808080
+E289 Models\Effects\_PreHistoric\ef\stone_skin_anim.c2m 0 0 1.0 0 FF808080
+E290 Models\Effects\_PreHistoric\ef\AntiMagiya\AntiMagiya.c2m 0 0 1.0 0 FF808080
+E291 Models\Effects\_PreHistoric\ef\KamKozha\KamKozhaEF.c2m 0 0 1.0 0 FF808080
+E292 Models\Effects\_PreHistoric\ef\KamKozha\KamKozhNU.c2m 0 0 1.0 0 FF808080
+E293 Models\Effects\_PreHistoric\ef\KamKozha\RadiusKamKozha.c2m 0 0 1.0 0 FF808080
+E294 Models\Effects\_PreHistoric\ef\KamKozha\Stone_Skin12.c2m 0 0 1.0 0 FF808080
+E295 Models\Effects\_PreHistoric\ef\KamKozha\Stone_Skin12An.c2m 0 0 1.0 0 FF808080
+E296 Models\Effects\_PreHistoric\expa\Stone_Skin.c2m 0 0 1.0 0 FF808080
+E297 Models\Effects\_PreHistoric\expa\Stone_Skin12.c2m 0 0 1.0 0 FF808080
+E298 Models\Effects\_PreHistoric\expa\Stone_Skin12An.c2m 0 0 1.0 0 FF808080
+E299 Models\Effects\_PreHistoric\_Markevich\ef_Dozhd_Ognya_03.c2m 0 0 1.0 0 FF808080
+E300 Models\Effects\_PreHistoric\_Markevich\ef_FierBollM_06.c2m 0 0 1.0 0 FF808080
+E301 Models\Effects\_PreHistoric\_Markevich\ef_Golova_Berserk.c2m 0 0 1.0 0 FF808080
+E302 Models\Effects\_PreHistoric\_Markevich\ef_Ice_03.c2m 0 0 1.0 0 FF808080
+E303 Models\Effects\_PreHistoric\_Markevich\ef_Koltso_Para2.c2m 0 0 1.0 0 FF808080
+E304 Models\Effects\_PreHistoric\_Markevich\ef_Manezh.c2m 0 0 1.0 0 FF808080
+E305 Models\Effects\_PreHistoric\_Markevich\ef_Manezh2.c2m 0 0 1.0 0 FF808080
+E306 Models\Effects\_PreHistoric\_Markevich\ef_Obmorozhenie.c2m 0 0 1.0 0 FF808080
+E307 Models\Effects\_PreHistoric\_Markevich\ef_Obmorozhenie2.c2m 0 0 1.0 0 FF808080
+E308 Models\Effects\_PreHistoric\_Markevich\ef_Sfera_Nakrivaet.c2m 0 0 1.0 0 FF808080
+E309 Models\Effects\_PreHistoric\_Markevich\ef_Sharovaya_Molniya.c2m 0 0 1.0 0 FF808080
+E310 Models\Effects\_PreHistoric\_Markevich\ef_Shar_Molnii3.c2m 0 0 1.0 0 FF808080
+E311 Models\Effects\_PreHistoric\_Markevich\ef_Smock_Tek.c2m 0 0 1.0 0 FF808080
+[FIXH]
+[ALIGNING]
+[AUTODEEP]
+[EDITZ]
+E01
+E02
+E03
+E04
+E05
+E06
+E07
+E08
+E09
+E10
+E11
+E12
+E13
+E14
+E15
+E16
+E17
+E18
+E19
+E20
+E21
+E22
+E23
+E24
+E25
+E26
+E27
+E28
+E29
+E30
+E31
+E32
+E33
+E34
+E35
+E36
+E37
+E38
+E39
+E40
+E41
+E42
+E43
+E44
+E45
+E46
+E47
+E48
+E49
+E50
+[END]

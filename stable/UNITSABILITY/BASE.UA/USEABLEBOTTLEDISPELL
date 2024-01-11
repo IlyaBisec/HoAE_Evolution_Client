@@ -1,0 +1,36 @@
+<NewItem>
+ <SelfTarget>true</SelfTarget>
+ <Name>UseableBottleDispell</Name>
+ <FileID>Interf3\items2</FileID>
+ <SpriteID>24</SpriteID>
+ <FileID_Char>Interf3\items2_inventory</FileID_Char>
+ <FileID_Inv>Interf3\items2_inventory</FileID_Inv>
+ <EffectFileID>Interf3\items</EffectFileID>
+ <EffectSpriteID>37</EffectSpriteID>
+ <Hint>Dispell</Hint>
+ <Type>ItemBottle</Type>
+ <GroundMD>
+  <UnitType>DropMC(IT)</UnitType>
+ </GroundMD>
+ <ShopPrice>40</ShopPrice>
+ <Button>true</Button>
+ <Amount>1</Amount>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>255</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewItem>

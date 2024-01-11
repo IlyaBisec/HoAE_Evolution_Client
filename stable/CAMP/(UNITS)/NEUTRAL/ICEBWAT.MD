@@ -1,0 +1,48 @@
+NAME IceBWat
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+LOCATION -0 -0 800 800
+!STANDLO      1 1.1 Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m
+!BUILDLO_0    1 1.1 Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m
+!BUILDLO_1    1 1.1 Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m
+!BUILDLO_2    1 1.1 Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m
+!BUILDLO_3    1 1.1 Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m Models\Bld\ICE\WatchingTowerNorth\512x512\WatchingTowerNorth.c2m
+MOVEXY #STANDLO   0 0
+MOVEXY #BUILDLO_0 0 0
+MOVEXY #BUILDLO_1 0 0
+MOVEXY #BUILDLO_2 0 0
+MOVEXY #BUILDLO_3 0 0
+ADDHDIR #STANDLO 90 160
+ADDHDIR #BUILDLO_0 90 160
+ADDHDIR #BUILDLO_1 90 160
+ADDHDIR #BUILDLO_2 90 160
+ADDHDIR #BUILDLO_3 90 160
+BORNPOINTS3 2 0 0 0 100 80 0
+GEOMETRY 1 199 32
+LIFE     3000
+PRICE 1 STONE 1
+BUILDSTAGES 300
+PROTECTION 3 piercing 15 magical 15 chopping 15
+RECTANGLE    0 60 35 235
+MATHERIAL 1 BUILDING
+EXPLMEDIA BUILDING 5
+3DBARS 2 -70 0 60 80 30 -55 0 40 60 120
+INFO 3 8
+COSTPERCENT 300
+VISION 0
+MFARM 200
+ADDSHOTRADIUS 110
+ROUNDLOCK 5
+NOALTINFO
+INVISIBLEONMINIMAP
+CYLINDER 45 205
+SPLITCLUSTERS #STANDLO 500 12 1 1 0
+//tillVital//
+INVISIBLEONMINIMAP
+IMMORTAL
+BUILDBAR -4 0 4 0
+ShadowScaleX 2.3
+ShadowScaleY 1.0
+PortretDisable True
+[END]

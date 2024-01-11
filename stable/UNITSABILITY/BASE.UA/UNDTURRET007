@@ -1,0 +1,35 @@
+<ExtraShootingElement>
+ <Name>UndTurret007</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MinDistance>500</MinDistance>
+ <MaxDistance>1400</MaxDistance>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_GhostShot</RefName>
+ </Weapon>
+ <WholeObjectModel></WholeObjectModel>
+ <ShootAnimation></ShootAnimation>
+ <WholeShootTime>6000</WholeShootTime>
+ <TimeOfShooting>30</TimeOfShooting>
+ <TotalRechargeTime>6000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <CentralShootAngle>64</CentralShootAngle>
+ <ShootAngleDifference>18</ShootAngleDifference>
+ <RotationSpeed>20000</RotationSpeed>
+ <TowerCenterX>120</TowerCenterX>
+ <TowerCenterY>93</TowerCenterY>
+ <TowerCenterZ>60</TowerCenterZ>
+ <CannonRadius>1</CannonRadius>
+</ExtraShootingElement>

@@ -1,0 +1,185 @@
+HEROESOFANNIHILATEDEMPIRES 0.7.20
+Memory status before run:
+
+Memory load: 51
+TotalPhys: 2147483647
+AvailPhys: 2147483647
+TotalPageFile: -1
+AvailPageFile: -1
+TotalVirtual: 2147352576
+AvailVirtual: 1164251136
+
+Memory status after crash:
+
+Memory load: 53
+TotalPhys: 2147483647
+AvailPhys: 2147483647
+TotalPageFile: -1
+AvailPageFile: -159510528
+TotalVirtual: 2147352576
+AvailVirtual: 962785280
+
+AvailVirtual: 962785280
+
+Internal memory manager info:
+Handles: 295926
+Blocks: 280762
+
+Module found A:\√”»\data\engine.exe   	(\engine.exe) 	Handle: 00400000 Base address: 00400000
+Module found C:\WINDOWS\SYSTEM32\ntdll.dll   	(ntdll.dll) 	Handle: 773a0000 Base address: 773a0000
+Module found C:\WINDOWS\System32\KERNEL32.DLL   	(KERNEL32.DLL) 	Handle: 75240000 Base address: 75240000
+Module found C:\WINDOWS\System32\KERNELBASE.dll   	(KERNELBASE.dll) 	Handle: 76950000 Base address: 76950000
+Module found C:\WINDOWS\System32\WS2_32.dll   	(WS2_32.dll) 	Handle: 768e0000 Base address: 768e0000
+Module found C:\WINDOWS\System32\RPCRT4.dll   	(RPCRT4.dll) 	Handle: 77200000 Base address: 77200000
+Module found A:\√”»\data\iChat.dll   	(\iChat.dll) 	Handle: 10000000 Base address: 10000000
+Module found C:\WINDOWS\System32\ADVAPI32.dll   	(ADVAPI32.dll) 	Handle: 76de0000 Base address: 76de0000
+Module found C:\WINDOWS\System32\msvcrt.dll   	(msvcrt.dll) 	Handle: 77140000 Base address: 77140000
+Module found C:\WINDOWS\SYSTEM32\DDRAW.dll   	(DDRAW.dll) 	Handle: 60bc0000 Base address: 60bc0000
+Module found C:\WINDOWS\System32\USER32.dll   	(USER32.dll) 	Handle: 75680000 Base address: 75680000
+Module found C:\WINDOWS\System32\sechost.dll   	(sechost.dll) 	Handle: 76e60000 Base address: 76e60000
+Module found C:\WINDOWS\System32\GDI32.dll   	(GDI32.dll) 	Handle: 75330000 Base address: 75330000
+Module found C:\WINDOWS\System32\win32u.dll   	(win32u.dll) 	Handle: 75e00000 Base address: 75e00000
+Module found C:\WINDOWS\SYSTEM32\DSOUND.dll   	(DSOUND.dll) 	Handle: 712a0000 Base address: 712a0000
+Module found C:\WINDOWS\System32\comdlg32.dll   	(comdlg32.dll) 	Handle: 772c0000 Base address: 772c0000
+Module found C:\WINDOWS\System32\gdi32full.dll   	(gdi32full.dll) 	Handle: 75590000 Base address: 75590000
+Module found C:\WINDOWS\System32\combase.dll   	(combase.dll) 	Handle: 75b80000 Base address: 75b80000
+Module found C:\WINDOWS\System32\msvcp_win.dll   	(msvcp_win.dll) 	Handle: 76860000 Base address: 76860000
+Module found C:\WINDOWS\System32\ucrtbase.dll   	(ucrtbase.dll) 	Handle: 75a60000 Base address: 75a60000
+Module found C:\WINDOWS\SYSTEM32\DPLAYX.dll   	(DPLAYX.dll) 	Handle: 5c2d0000 Base address: 5c2d0000
+Module found C:\WINDOWS\System32\shcore.dll   	(shcore.dll) 	Handle: 75360000 Base address: 75360000
+Module found C:\WINDOWS\System32\SHLWAPI.dll   	(SHLWAPI.dll) 	Handle: 770f0000 Base address: 770f0000
+Module found C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d\COMCTL32.dll   	(C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.1110_none_c0da534e38c01f4d\COMCTL32.dll) 	Handle: 5d040000 Base address: 5d040000
+Module found C:\WINDOWS\System32\SHELL32.dll   	(SHELL32.dll) 	Handle: 75e20000 Base address: 75e20000
+Module found C:\WINDOWS\SYSTEM32\kernel.appcore.dll   	(kernel.appcore.dll) 	Handle: 747d0000 Base address: 747d0000
+Module found C:\WINDOWS\System32\ole32.dll   	(ole32.dll) 	Handle: 75960000 Base address: 75960000
+Module found C:\WINDOWS\SYSTEM32\WSOCK32.dll   	(WSOCK32.dll) 	Handle: 73200000 Base address: 73200000
+Module found C:\WINDOWS\SYSTEM32\powrprof.dll   	(powrprof.dll) 	Handle: 71fe0000 Base address: 71fe0000
+Module found C:\WINDOWS\SYSTEM32\WINMM.dll   	(WINMM.dll) 	Handle: 74500000 Base address: 74500000
+Module found C:\WINDOWS\SYSTEM32\dxgi.dll   	(dxgi.dll) 	Handle: 70610000 Base address: 70610000
+Module found C:\WINDOWS\SYSTEM32\DCIMAN32.dll   	(DCIMAN32.dll) 	Handle: 6b8e0000 Base address: 6b8e0000
+Module found C:\WINDOWS\SYSTEM32\winmmbase.dll   	(winmmbase.dll) 	Handle: 713a0000 Base address: 713a0000
+Module found A:\√”»\data\binkw32.dll   	(\binkw32.dll) 	Handle: 30000000 Base address: 30000000
+Module found A:\√”»\data\DipServer.dll   	(\DipServer.dll) 	Handle: 06280000 Base address: 06280000
+Module found A:\√”»\data\theovorb.dll   	(\theovorb.dll) 	Handle: 06510000 Base address: 06510000
+Module found A:\√”»\data\d3d9.dll   	(\d3d9.dll) 	Handle: 001e0000 Base address: 001e0000
+Module found A:\√”»\data\WINTAB32.dll   	(\WINTAB32.dll) 	Handle: 06580000 Base address: 06580000
+Module found C:\WINDOWS\SYSTEM32\wow32.dll   	(wow32.dll) 	Handle: 61b90000 Base address: 61b90000
+Module found A:\√”»\data\intExplorer.dll   	(\intExplorer.dll) 	Handle: 065a0000 Base address: 065a0000
+Module found C:\WINDOWS\System32\IMM32.DLL   	(IMM32.DLL) 	Handle: 75930000 Base address: 75930000
+Module found C:\WINDOWS\SYSTEM32\UMPDC.dll   	(UMPDC.dll) 	Handle: 71fd0000 Base address: 71fd0000
+Module found C:\WINDOWS\system32\uxtheme.dll   	(uxtheme.dll) 	Handle: 72c30000 Base address: 72c30000
+Module found C:\WINDOWS\System32\bcryptPrimitives.dll   	(bcryptPrimitives.dll) 	Handle: 75870000 Base address: 75870000
+Module found C:\WINDOWS\System32\clbcatq.dll   	(clbcatq.dll) 	Handle: 76ee0000 Base address: 76ee0000
+Module found C:\WINDOWS\System32\MMDevApi.dll   	(MMDevApi.dll) 	Handle: 70d20000 Base address: 70d20000
+Module found C:\WINDOWS\System32\DEVOBJ.dll   	(DEVOBJ.dll) 	Handle: 731d0000 Base address: 731d0000
+Module found C:\WINDOWS\System32\cfgmgr32.dll   	(cfgmgr32.dll) 	Handle: 763e0000 Base address: 763e0000
+Module found C:\WINDOWS\SYSTEM32\AUDIOSES.DLL   	(AUDIOSES.DLL) 	Handle: 70bc0000 Base address: 70bc0000
+Module found C:\WINDOWS\System32\OLEAUT32.dll   	(OLEAUT32.dll) 	Handle: 753f0000 Base address: 753f0000
+Module found C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll   	(resourcepolicyclient.dll) 	Handle: 6ec80000 Base address: 6ec80000
+Module found C:\WINDOWS\System32\MSCTF.dll   	(MSCTF.dll) 	Handle: 76b90000 Base address: 76b90000
+Module found C:\WINDOWS\system32\D3D9.DLL   	(D3D9.DLL) 	Handle: 5c140000 Base address: 5c140000
+Module found C:\WINDOWS\SYSTEM32\windows.storage.dll   	(windows.storage.dll) 	Handle: 74830000 Base address: 74830000
+Module found C:\WINDOWS\SYSTEM32\dwmapi.dll   	(dwmapi.dll) 	Handle: 70590000 Base address: 70590000
+Module found C:\WINDOWS\SYSTEM32\Wldp.dll   	(Wldp.dll) 	Handle: 74800000 Base address: 74800000
+Module found C:\WINDOWS\System32\DriverStore\FileRepository\u0390319.inf_amd64_32d8157dec983dab\B389920\aticfx32.dll   	(aticfx32.dll) 	Handle: 6fb20000 Base address: 6fb20000
+Module found C:\WINDOWS\SYSTEM32\VERSION.dll   	(VERSION.dll) 	Handle: 74ea0000 Base address: 74ea0000
+Module found C:\WINDOWS\System32\DriverStore\FileRepository\u0390319.inf_amd64_32d8157dec983dab\B389920\atiu9pag.dll   	(atiu9pag.dll) 	Handle: 5c110000 Base address: 5c110000
+Module found C:\WINDOWS\System32\DriverStore\FileRepository\u0390319.inf_amd64_32d8157dec983dab\B389920\atiumdag.dll   	(atiumdag.dll) 	Handle: 0cb10000 Base address: 0cb10000
+Module found C:\WINDOWS\SYSTEM32\dbghelp.dll   	(dbghelp.dll) 	Handle: 73a40000 Base address: 73a40000
+Module found C:\WINDOWS\SYSTEM32\dbgcore.DLL   	(dbgcore.DLL) 	Handle: 6ed60000 Base address: 6ed60000
+Module found C:\WINDOWS\System32\DriverStore\FileRepository\u0390319.inf_amd64_32d8157dec983dab\B389920\atiumdva.dll   	(atiumdva.dll) 	Handle: 6be10000 Base address: 6be10000
+Module found C:\WINDOWS\System32\SETUPAPI.dll   	(SETUPAPI.dll) 	Handle: 76420000 Base address: 76420000
+Module found C:\WINDOWS\System32\bcrypt.dll   	(bcrypt.dll) 	Handle: 77370000 Base address: 77370000
+Module found C:\WINDOWS\SYSTEM32\amdihk32.dll   	(amdihk32.dll) 	Handle: 734e0000 Base address: 734e0000
+Module found C:\WINDOWS\SYSTEM32\D3DREF9.DLL   	(D3DREF9.DLL) 	Handle: 0d830000 Base address: 0d830000
+Module found C:\WINDOWS\SYSTEM32\dxcore.dll   	(dxcore.dll) 	Handle: 6cc80000 Base address: 6cc80000
+Module found C:\WINDOWS\SYSTEM32\textinputframework.dll   	(textinputframework.dll) 	Handle: 71ee0000 Base address: 71ee0000
+Module found C:\WINDOWS\System32\CoreUIComponents.dll   	(CoreUIComponents.dll) 	Handle: 71bc0000 Base address: 71bc0000
+Module found C:\WINDOWS\System32\CoreMessaging.dll   	(CoreMessaging.dll) 	Handle: 71e40000 Base address: 71e40000
+Module found C:\WINDOWS\SYSTEM32\wintypes.dll   	(wintypes.dll) 	Handle: 71ae0000 Base address: 71ae0000
+Module found C:\WINDOWS\SYSTEM32\ntmarta.dll   	(ntmarta.dll) 	Handle: 71fa0000 Base address: 71fa0000
+Module found A:\√”»\data\Plugins\BattleEditor.dll   	(\Plugins\BattleEditor.dll) 	Handle: 16210000 Base address: 16210000
+Module found A:\√”»\data\Plugins\VAI.dll   	(\Plugins\VAI.dll) 	Handle: 16350000 Base address: 16350000
+Module found A:\√”»\data\GW_Server.DLL   	(\GW_Server.DLL) 	Handle: 162d0000 Base address: 162d0000
+
+Calls: 1 before address: 0x178689A (51FF1574F7B25)
+Call (0xFF) detected from: 0x01786894 to: 0xFFFFFFFF!
+
+Calls: 1 before address: 0x1663449 (50FF15C0EFB25)
+Call (0xFF) detected from: 0x01663443 to: 0xFFFFFFFF!
+
+Calls: 1 before address: 0x1663100 (B83E8924E79FF)
+Call (0xE8) detected from: 0x016630FB to: 0x016633B0!
+
+Calls: 1 before address: 0x1663313 (00E8F2B178FF)
+Call (0xE8) detected from: 0x0166330E to: 0x01662ED0!
+
+Calls: 1 before address: 0x773D8431 (2428E8CFB40)
+Call (0xE8) detected from: 0x773D842C to: 0x77419000!
+
+Calls: 1 before address: 0x773D8488 (33CCE888C730)
+Call (0xE8) detected from: 0x773D8483 to: 0x77414C10!
+
+Calls: 1 before address: 0xFAD6E4 (4DE8E8F862E5FF)
+Call (0xE8) detected from: 0x00FAD6DF to: 0x00FDB940!
+
+Calls: 1 before address: 0xF44FC7 (4DD0E8A23FEBFF)
+Call (0xE8) detected from: 0x00F44FC2 to: 0x00FAD620!
+
+Calls: 1 before address: 0x106D8AE (BA2E82DA9D8FF)
+Call (0xE8) detected from: 0x0106D8A9 to: 0x00E717B0!
+
+Calls: 1 before address: 0xE75A10 (E32E889CFBFF)
+Call (0xE8) detected from: 0x00E75A0B to: 0x00E8B9D0!
+
+Calls: 1 before address: 0x171FDF5 (F450E88AA76EFF)
+Call (0xE8) detected from: 0x0171FDF0 to: 0x017867B0!
+
+Calls: 1 before address: 0x65823C8 (24CE85C400)
+Call (0xE8) detected from: 0x065823C3 to: 0x06582824!
+
+Calls: 1 before address: 0x102B5A3 (702E8513BDCFF)
+Call (0xE8) detected from: 0x0102B59E to: 0x01084390!
+
+Calls: 1 before address: 0x1055D9E (B93E87DC5DAFF)
+Call (0xE8) detected from: 0x01055D99 to: 0x0171FD60!
+
+Address: 065426A1
+EAX = 00000000 EBX = 00383000
+ECX = 06562824 EDX = 00386000
+ESI = 00000000 EDI = 029F6588
+ESP = 0019FA14 EBP = 0019FC64
+Stack size: 704
+Function calls: 14
+Video name: AMD Radeon(TM) Vega 3 Graphics 
+AMD Radeon(TM) Vega 3 Graphics 
+AMD Radeon(TM) Vega 3 Graphics 
+
+Audio name: 
+User info:
+
+Call stack due to calls
+
+01786894
+01663443
+016630FB
+0166330E
+773D842C
+773D8483
+00FAD6DF
+00F44FC2
+0106D8A9
+00E75A0B
+0171FDF0
+065823C3
+0102B59E
+01055D99
+
+[EBP_CALLSTACK]
+065426A1
+0171FDF5
+01055D9E
+0209771E
+752600C9
+77407B1E
+77407AEE

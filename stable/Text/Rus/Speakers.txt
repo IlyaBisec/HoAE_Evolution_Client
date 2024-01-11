@@ -1,0 +1,86 @@
+#Elhant Эльхант
+#Draelnor Драэлнор
+#Lana Лана
+#Lich Архилич
+#Nekros Некрос
+#Warlord Монфор
+#M1Alchemist Алхимик
+#M1Ent Старый Ясень
+#M1Archer Лучник
+#M1Soldier Солдат
+#M2Druid Друид
+#M2Hunter Охотник
+#M2Forester Старый лесник
+#M2Soldier Солдат
+#M2Commander1 Командир отряда
+#M2Commander2 Командир отряда
+#M2Commander3 Командир отряда
+#M2Dweller Житель
+#M2Centaur Кентавр
+#M3Goblin Гоблин
+#M4DruidKey Хранитель ключа
+#M4High_Druid Тонмир
+#M4DruidControl Друид
+#M4Ent Страж ворот
+#M4DruidAcid Друид
+#M4ShopKeeper Торговец
+#M5Fairy Фея
+#M5High_Druid Верховный Друид
+#M5Druid1 Друид-помощник
+#M5Druid2 Маг-торговец
+#M5Elder Эльф
+#M6Elder1 Старейшина
+#M6Elder2 Старейшина
+#M6Elder3 Старейшина
+#M6Elder4 Старейшина
+#M6Fairy Фея
+#M6Druid Друид
+#M6MageShopkeeper Торговец
+#M6Dwarf Гном
+#M6Elf1 Эльф
+#M6Elf2 Эльф
+#M6Ent Древочеловек
+#M6Soldier Солдат
+#M7Centaur1 Кентавр
+#M7Centaur2 Кентавр
+#M7plusFairy Фея
+#M7plusSoldier Солдат
+#M7plusCentaur Кентавр
+#M7plusDryad Дриада
+#M7plusDruid Друид
+#M8Elf Охранник парома
+#M8Elder Защитник поселка
+#M8Druid Друид
+#M8Dryad Дриада
+#M9Dwarf1 Гном посланец
+#M9Dwarf2 Гном шахтер
+#M9Dwarf3 Гном
+#M9DwarfChief Гном старейшина
+#M10Dwarf1 Гном
+#M10Dwarf2 Гном
+#M10Children Ребенок
+#M10Elf Солдат
+#M10Elder Друид
+#M11DwarfSoldier1 Гном воин
+#M11DwarfSoldier2 Гном воин
+#M11DwarfSoldier3 Гном воин
+#M11Dwarf1 Гном механик
+#M11Dwarf2 Матрос механик
+#M11DwarfCaptain Гном капитан
+#M11Artificial Мастер
+#M11DwarfKing Правитель гномов
+#M12IceMage1 Маг криалец
+#M12DeathMage Чернокнижник
+#M12IceGolem Ледяной голем
+#M12YetiChief Вождь йети
+#M12Enchantress Чародейка
+#M12IceMage2 Заклинатель
+#M12Gremlin Гремлин
+#M13Cleric Жрец
+#M13Priest Священник
+#M13Priest2 Священник
+#M13TorGilong Тор Гилонг
+#M13Slave Раб
+#M13Mechanic Гном
+#M14MainPriest Верховный жрец
+#M14SolSoldier Страж солов

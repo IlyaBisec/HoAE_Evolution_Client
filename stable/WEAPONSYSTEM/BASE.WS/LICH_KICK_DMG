@@ -1,0 +1,23 @@
+<WeaponModificator>
+ <Name>lich_kick_dmg</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <AND_several_events>
+     <AND_events>
+      <Trigger></Trigger>
+     </AND_events>
+    </AND_several_events>
+   </Event>
+   <WeaponModificators>
+    <MakeDamage>
+     <InRadius>5</InRadius>
+     <MaxUnits>1</MaxUnits>
+     <OnlyEnemyUnits>true</OnlyEnemyUnits>
+     <DamageBuilding>true</DamageBuilding>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

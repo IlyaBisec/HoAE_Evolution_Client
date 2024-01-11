@@ -1,0 +1,25 @@
+<NewAbility>
+ <Name>UA_CenterScreen_OnDie</Name>
+ <ClassType>Image</ClassType>
+ <SpriteID>3</SpriteID>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Conditions>
+  <umc_LiveBody>
+   <Not>true</Not>
+  </umc_LiveBody>
+ </Conditions>
+ <Modificators>
+  <mod_CenterScreen></mod_CenterScreen>
+ </Modificators>
+</NewAbility>

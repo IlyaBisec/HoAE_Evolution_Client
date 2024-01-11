@@ -1,0 +1,16 @@
+<WeaponModificator>
+ <Name>MC_wLastBreath_start</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <PlaySomeSound>
+     <SoundID>M_LastBreath_Loop</SoundID>
+    </PlaySomeSound>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

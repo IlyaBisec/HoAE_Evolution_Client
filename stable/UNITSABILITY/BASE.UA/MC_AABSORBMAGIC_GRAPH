@@ -1,0 +1,44 @@
+<NewAbility>
+ <Name>MC_aAbsorbMagic_Graph</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>5000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <IgnoreMagicImmunity>true</IgnoreMagicImmunity>
+ <Blocking>
+  <ClassRef.UnitAbility>
+   <ClassName>NewAbility</ClassName>
+   <RefName>MC_aAbsorbMagic_Dispell</RefName>
+  </ClassRef.UnitAbility>
+ </Blocking>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <Place>Target units</Place>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\MagicCard\PoglochenieMagii\PoglochenieMagiiUn.c2m</ModelID>
+    <ReflectionID>Models\Effects\MagicCard\PoglochenieMagii\PoglochenieMagiiUn.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

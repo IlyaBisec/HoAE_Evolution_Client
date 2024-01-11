@@ -1,0 +1,449 @@
+\\====================================------------------- RANDOM -------------------------================================
+
+INTF_MAIN_5 EXIT
+@MSCANCEL O.K.
+$YESTXT$ YES
+$NOTXT$ NO
+
+
+\\ =========================--------------------------------          MENU INTERFACE           --------------------------------=========================
+
+     --Main Menu--
+#MM_Single Single Player
+#MM_Internet Internet Game
+INTF_MAIN_1 Multiplayer Game
+#MainMenu_Options_Title Options
+#MM_ExitGame Exit
+     --Main Menu Hints--
+#MM_Single_hint Single Player
+#MM_Internet_hint Internet Game
+#MM_Multi_hint Multiplayer Game
+#MM_Options_hint Options
+#MM_Mods_hints Subtitles
+#Exit_Game Exit
+#MM_Credits Credits
+#MM_Credits_Hint List of people who devoted their life to unveiling the mysteries of past and present
+
+     --Single Player menu--
+INTF_MAIN_S0 Campaign
+#Tab_Skirmish Skirmish
+INTF_MAIN_2 Load
+#MM_ChangeProf Change Profile
+INTF_MAIN_B Back
+
+     --Single Player menu hints--
+#MM_Campaign_hint Campaign
+#MM_Expansion_hint Skirmish
+#MM_Load_hint Load
+#MainMenu_ChangeAka Profile
+#MM_Back2MM Cancel
+#MM_Back2MM_hint Cancel
+
+     --Multiplayer menu--
+#MM_Multi_hint Multiplayer Game
+INTF_PLAYER_TITLE1 Name
+#ip02_02 IP address:
+#ip02_01 Enter IP address
+#ip02_00 Direct TCP/IP
+#SM_GameName You can call players here:                    https://discord.gg/CJ4Rf7crzc
+#LAN_RoomsList_Create_Hint Create
+#LAN_RoomsList_Join Join
+#LAN_RoomsList_Join_Hint Join the game
+#LAN_RoomsList_List_Hint Games list
+
+#TEXTINTRO From ancient times the true history of the land of elves has been covered by a carpet of tranquility. Until the time when this once serene land was deluged from within by the malicious hordes of undead warriors.\Whilst still a young elf of twenty-eight summers, Elhant dared to challenge the forces of evil and attempt to rescue the world from the clutches of eternal darkness. Although being uncertain about the actual powers of the undead and naive to the dangers ahead, Elhant was confident. He had twice won the ritual duel with death, and his powers were now stronger then ever. His mastery of the fiery Khaelgor and composite Longbow was unmatched. Clad in the green robe of his Strain, he was the only one here, at the outskirts of the elven capital, to stand steadfast against the remnants of the undead legion.\The buds of their evil empire are swelling across this region. Elhant must sever them swiftly.
+
+#PPH_Random Random
+#PPH_Melee Warrior
+#PPH_Range Ranger
+#PPH_Mage Mage
+
+
+     --Skirmish Room--
+#MM_Start Start
+#MR_Computer_hint Computer
+#MR_Race_hint Nation
+#MR_Hero_hint Hero
+#MR_Color_hint Color
+#MR_Team_hint Team
+#NationCombo_Random Random
+#DRUIDS Elves
+#UNDEADS The Undead
+#MECHANICS Mechanicians
+#ICE The Cryo race
+#Empty Empty	
+#MR_SinStart_hint Begin game
+
+INTF_MESSAGE Message
+ENCHAT Message
+#ChatCheat Message
+#MR_ChatText_Hint Enter text
+#_MR_SendChat Send
+#SM_GameName Map
+GameSpeed Game speed
+HeroLives Hero's lives
+GameType Victory conditions
+StartRes Starting resources
+RTS_mode Game mode
+StartCards Starting cards
+#mpopt_Slow Slow
+#mpopt_Normal Normal (default)
+#mpopt_Fast Fast 
+#mpopt_VeryFast Very fast
+#mpopt_VeryVeryFast Extremely fast
+#mpopt_MarvellousFast Insanely fast
+#mpopt_Lives1 1 live
+#mpopt_Lives3 3 lives (default)
+#mpopt_Lives5 5 lives
+#mpopt_Lives7 7 lives
+#mpopt_UntilDie total annihilation
+#mpopt_ScoreGame_15 score game (15 minutes)
+#mpopt_ScoreGame_30 score game (30 minutes)
+#mpopt_ScoreGame_45 score game (45 minutes)
+#mpopt_ScoreGame_60 score game (60 minutes)
+#mpopt_res_1000 1000 (by default)
+#mpopt_res_3000 3000
+#mpopt_res_1000000 1000000
+#mpopt_rts_default default
+#mpopt_rts_only RTS only
+#mpopt_rpg_only RPG only
+#mpopt_cards_default dafault
+#mpopt_cards_3 3 additional cards
+#mpopt_cards_7 7 additional cards
+CHAT_IG_BACK_BUTTON_TEXT Back
+#MR_MulBack_hint Back
+#SingleBattle_Start Start
+
+     --Player Profile--
+#NewPlayerName Player
+#MM_DeleteProf Delete profile
+#MM_DeleteProf_hint Delete profile
+#MM_Options_Accept Accept
+INTF_CREATE Create
+#NewProfile_Title Create profile
+#MM_Options_Cancel Cancel
+#MM_Options_Cancel_Hint Cancel
+#NewProf New profile
+
+     --Campaign--
+#MM_CampList_Accept_hint Enter campaign menu
+#MM_CampaignList_Cancel_hint Back to single player menu
+#MM_Campaign_Cancel_hint Back to campaign menu
+INTF_SMISS_DIFF Difficulty
+@RMID_EASY Easy
+@RMID_NORMAL Normal
+@RMID_HARD Hard
+@RMID_VERYHARD Very difficult
+@RMID_IMPOSIBLE Impossible
+#MM_CampMiss_Start Begin game
+#MM_CampMiss_Start_hint Begin game
+#MM_CampMiss_Back_hint Begin game
+#MM_CampMiss_Result THE END
+#MM_CampMiss_ResultVictory VICTORY
+#MM_CampMiss_ResultDefeat DEFEAT
+
+#MM_CampMiss_NextMission Continue
+#MM_CampMiss_BackToMenu Back to main menu
+
+     --LoadGame--
+#MM_LoadList_hint List of saved games
+INTF_FILE_NAME File name
+INTF_FILE_NAME_hint List of saved games
+#MM_LoadCancel_hint Cancel
+#MM_LoadName_hint Saved game name
+
+INTF_BACK_CAMP_MENU Back to menu
+INTF_ACCEPT Accept
+INTF_CANCEL Cancel
+INTF_MAIN_4 More
+INTF_OPT_TITLE0 PREFERENCES
+INTF_OPT_TITLE1 Game options
+#VideoTab Video
+#AudioTab Sound
+#GameTab Game
+#MM_Options_GameSpeed Game speed
+#MM_Options_GameSpeed_Hint Game speed adjustment
+#MM_Options_ScrollingSpeed Scrolling speed
+#MM_Options_ScrollingSpeed_Hint Scrolling speed adjustment
+-------- Options -------
+//Preset-Ultra High(High Shaders, High Shadows, Reflection, High UnitBumpQuality,Antialising)
+//Preset-High(High Shaders, High Shadows, No Reflection, High UnitBumpQuality)
+//Preset-Medium(Default)(High Shaders, Low Shadows, No Reflection, low UnitBumpQuality)
+//Preset-Low(Low Shaders, Low Shadows, No Reflection, 16bit color, low UnitBumpQuality)
+//Preset-Custom (автоматически сменяеться на него при изменении какой либо настройки графики кроме Разрешения)
+#Options_Video_Preset Quick set
+#Options_Video_Preset_Hint Select graphic set most suitable for your PC
+#Options_Video_Resoultion Video Resolution
+#Options_Video_Resoultion_Hint Produces almost no effect on the performance on modern graphic cards
+#Options_Video_ShadowQuality Shadow quality
+#Options_Video_ShadowQuality_Hint Considerably influences the performance
+#Options_Video_ShaderQuality Shaders quality
+#Options_Video_ShaderQuality_Hint Doesn't affect the performance on modern graphic cards
+#Options_Video_UnitBumpQuality Bump quality
+#Options_Video_UnitBumpQuality_Hint High bump quality on units considerably influences on the performance
+#Options_Video_ColorQuality Color depth
+#Options_Video_ColorQuality_Hint Produces almost no effect on the performance on modern graphic cards
+#Options_Video_ColorQuality_16 16-bit
+#Options_Video_ColorQuality_24 24-bit
+#Options_Video_Reflaction Reflections on water
+#Options_Video_Reflaction_Hint Landscape reflection in water. Considerably influences the performance
+#Options_Video_Antialiasing Antialising
+#Options_Video_Antialiasing_Hint Smoothes the polygons. Considerably influences the performance
+#Options_Quality_No Off
+
+//Tuning
+
+#Options_Quality_UltraHigh Perfect
+#Options_Quality_High High
+#Options_Quality_Medium Medium
+#Options_Quality_Low Low
+#Options_Quality_VeryLow Very low
+#Options_Quality_Custom Custom
+
+#Options_Sound_SoundVolume Sound volume
+#Options_Sound_MusicEnable Music
+#Options_Sound_MusicVolume Music volume
+
+#Options_Game_ScrollingSpeed Scrolling speed
+#Options_Game_FixedGameSpeed Set game speed
+#Options_Game_FixedGameSpeed_Hint Set game speed regardless of FPS (makes the game speed constant; if unchecked the game speed reduces at low FPS)
+
+#Opt_SelectLanguage Select Language
+#Russian Russian
+#English English
+
+INTF_MENU MENU
+INTF_MENU_RESUME RESUME GAME
+INTF_MENU_RESTART RESTART
+INTF_MENU_LOAD LOAD GAME
+INTF_MENU_SAVE SAVE GAME
+INTF_MENU_BACK BACK TO MENU
+INTF_MENU_BUT Menu {CG}F12{C}
+#StdEndGame_VictoryTitle VICTORY
+#StdEndGame_VictoryMessage Mission accomplished
+#StdEndGame_DefeatTitle DEFEAT
+#StdEndGame_DefeatMessage You have been vanquished
+#DruidsHope The path of the Sylvan folk
+INTF_CAMPAIGN_W0 Select campaign
+
+#GM_ItemsOverflow No place for this item in the inventory
+PLEXIT Player %s has left the game
+LOADTX Loading
+READYTX Ready
+NOANSTX Not responding
+LOOKSTX Waiting
+NOPALTX Has left
+DISCNTX Disconnected
+ALT-TAB Alt-tab
+PAUSE PAUSE
+You_cant_start_game You can't begin the game, because:
+#too_many_players_on_map - there are too many players
+#you_are_alone_in_room - you are the only one in the game room
+#all_players_in_one_team - all players are in the same team
+#players_have_diff_map_checksumm - players have different map checksum
+#not_all_players_ready - not all players are ready
+#should_wait_for_ping - you must wait while the network is being checked
+#map_is_absent - one of the players doesn't have the selected map
+
+
+@OK Ok
+@CANCEL Cancel
+ENTERMESS Enter message
+ICCONN Connecting...
+ICUNCON Unable to connect to server.
+CHAT_SEND_MESS Send message
+CHAT_COMMON Chat for all versions
+CHAT_VERSION Chat for current version
+CHAT_ALL Common chat
+CHAT_PERSONAL Personal chat
+INHIN2  Player info
+JOINPLGM Join to the room of this player
+INHIN6 See messages from the player
+INHIN5 Mute the player
+INHIN4 Send personal message
+VIEW_RESIZE Resize window
+CHAT_CANCEL_BUTTON_TEXT Exit
+CHAT_IG_BACK_BUTTON_TEXT Back
+IG_CANCEL Leave the shell
+IG_BACK Return to the room
+
+CHAT_CANCEL_BUTTON_TEXT Cancel
+IG_CANCEL Quit
+CHAT_IG_BACK_BUTTON_TEXT Back
+IG_BACK Back to Multiplayer room
+#CHAT Chat
+#CHAT_HINT Switch to chat without leaving the room
+CHAT_SEND_MESS Send message to all players
+CHAT_VERSION Show messages only from the players with same game version
+CHAT_COMMON Show all messages
+CHAT_PERSONAL Show only private messages
+CHAT_ALL Show private and public messages
+INHIN2 Show player's info
+JOINPLGM Enter room created by this player
+INHIN5 Disable messages from this player
+INHIN4 Send private messages to this player
+INHIN6 Enable messages from this player
+
+#KickPlayer Kick
+#MB_00 Please, insert CD 1
+#MB_01 This program requires 500 Mb of disc space.
+#MB_02 LOADING ERROR...
+#MB_03 You've changed the game data. Internet game will be inaccessible.
+
+
+\\=====================================-------------------------  RESOURCES  ----------------------==============================
+
+RESHINT0 Wood
+RESHINT1 Food
+RESHINT2 Stone
+RESHINT3 Gold
+RESHINT4 Iron
+RESHINT5 Crystals
+RESHINT6 Population
+RESHINT7 Coins
+COAL Crystals
+
+\\====================================-------------------------   INGAME INTERFACE ----------------=======================
+
+#INTRF_LeaveAll Turn out all
+#INTRF_SelectIdle Select idle workers
+#INTRF_SelectMines Select unoccupied mines
+#INTRF_GameStat Game statistics
+#INTRF_HeroStat Heroes statistics
+#INTRF_CurMiss Current mission
+#INTRF_BestResult Best result
+#INTRF_TimeDone Time
+#INTRF_Effect Effectiveness
+#INTRF_CaptArt Captured artifacts
+#INTRF_BestHero Best hero
+#GainMessage You acquired
+
+#SpellPower Spell power
+#LifeRegen Health regeneration
+#ManaRegen Mana restoration
+#AttackRate Attack rate
+#AttackFirstRate First attack type rate
+#AttackSecondRate Second attack type rate
+#AttackRadius Attack range
+#MotionSpeed Movement speed
+#KillCount Kill count
+
+INTF_INGAME_EXP Experience (Hero receives 25% of experience if the kill is done by friendly non-summoned units)
+INTF_INGAME_HP Health points
+INTF_INGAME_MANA Mana pool
+INTF_INGAME_INV Inventory
+INTF_INGAME_INV_L INVENTORY
+
+#Merchant MERCHANT
+
+#HU_AVAILABLEEXPERIENCE Available experience:
+#GM_TotalExp Total experience
+#GM_Result Results
+
+#MC_01 Are you sure, you want to leave Aquador?
+#MM_DeleteProf_Msg Are you sure you want to delete profile?
+
+#SaveBut Save
+#MM_Restart_hint Restart mission
+#MM_Restart Restart
+#LoadCampaignTab Campaign
+#LoadSkirmishTab Skirmish
+#MultiRoom_MapList Map list
+#Miss Miss
+#Limit Population limit reached
+
+#MR_ChatButton Channel
+#MR_ChatButton_Hint Temporarily return to the chat without leaving the room
+
+#MR_BackButton Exit
+#MR_BackButton_Hint Leave the room and return to the window of Internet shell
+
+#MR_StartButton Skirmish
+
+#MR_PlayerReady_Hint Ready
+
+#Map_Camera_Hint Set camera to default position
+#Map_Health_Hint Turn floating messages on/off
+#Map_Hide_Hint Hide/show minimap
+#Map_Signal_Hint Send "Attention" signal to ally
+#Map_HideInterface_Hint Hide/show interface
+
+#GameOver_BackToCampMenu_Hint Return to campaign menu
+#GameOver_NextMiss_Hint Proceed to next mission
+
+#Opt_AutoSave Auto-save
+#Opt_AutoSave_Hint Automatic game saving
+#Never no autosave
+#Once_in_1_min each minute
+#Once_in_5_min each 5 minutes
+#Once_In_10_min each 10 minutes
+#LoadAutoSave Load
+#LoadAutoSave_Hint Load saved game
+
+#Attack Move in attack mode
+#Stop Cancel orders
+#MoveOrder Move
+#HoldPositionOrder Hold ground
+#GuardOrder Guard
+#SwitchAttType Switch between hand-to-hand and ranged combat
+
+#div less in
+#SP_SetRally Set rally point
+#SP_Destroy Destroy selected buildings
+
+#HireSettlementButton HIRE
+
+#GainMessageBuy You bought
+
+#Lives Lives
+#LifeRegen Health regeneration
+#ManaRegen Mana restoration
+#AttackRate Attack rate
+#AttackRadius Attack range
+#MotionSpeed Movement speed
+#SpellPower Spell power
+
+#AccessControl Requires
+
+#DruMine Mining tree
+#MecMine Resource pit
+#UndMine Haunted mine
+#IceMine Mine
+UPGMADE Upgrade complete: %s
+CAPBLD Building captured: %s
+LOSTBLD Building lost: %s
+BLDBLD Building %s complete
+FINBLD %s trained
+VERYHUN Not enough food
+#LiveSpace Not enough residences to train units. Build structures that provide living spaces.
+
+HEROKILL {C FFFFFFFF}Player {C FFFFCB2B}%s{C FFFFFFFF} has killed player {C FFFFCB2B}%s{C FFFFFFFF} (at %d level). %d lives remaining.
+HEROKILL2 {C FFFFFFFF}Player {C FFFFCB2B}%s {C FFFFFFFF}has {C FFEE1010}eliminated{C FFFFFFFF} player  {C FFFFCB2B}%s{C FFFFFFFF} (at %d level). 
+KILLBYCREEPS {C FFFFFFFF}Player {C FFFFCB2B}%s{C FFFFFFFF} was slain at level %d. %d lives remaining.
+KILLBYCREEPS2 {C FFFFFFFF}Player {C FFFFCB2B}%s {C FFEE1010}perished{C FFFFFFFF} at level %d.
+
+Money Coins
+CTRL CTRL
+SPACE SPACE
+BACKSPACE BACKSPACE
+SHIFT SHIFT
+HOME HOME
+
+Wood Wood
+Food Food
+Stone Stone
+Gold Gold
+Iron Iron
+
+INTF_SAVE Save
+AUTOSAVING Auto-save
+INTF_CROOM_GS2 Saved
+
+CSNORS Not enough resources for shooting
+
+#ChatToAll Message :
+#ChatAlly Message to allies :
+#ChatTitle Hold CTRL to send a message only to allies 
+
+#COPYRIGHTS2 Heroes of Annihilated Empires Remaster \ RoS and Reborn team, TheBlackHunter.
+#COPYRIGHTS1 Heroes of Annihilated Empires Remaster \ RoS and Reborn team, TheBlackHunter.

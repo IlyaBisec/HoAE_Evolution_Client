@@ -1,0 +1,26 @@
+<NewAbility>
+ <Name>UA_aUseBuilding</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <Scale>1.400000</Scale>
+    <ModelID>Models\Effects\Weapons\UzabBilding\UzabBilding.c2m</ModelID>
+    <ReflectionID>Models\Effects\MagicCard\StatueOfRage\statue_of_rage_11.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

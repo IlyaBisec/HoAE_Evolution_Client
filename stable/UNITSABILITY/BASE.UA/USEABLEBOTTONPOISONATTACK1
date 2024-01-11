@@ -1,0 +1,20 @@
+<NewAbility>
+ <Name>UseableBottonPoisonAttack1</Name>
+ <GroundMD>
+  <UnitType>UndHKni(UN)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewAbility>

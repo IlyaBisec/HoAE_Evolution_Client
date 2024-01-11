@@ -1,0 +1,12 @@
+#M14D01S01P01    [Elhant][Normal][Missions\SOUND\Mission14\m14_t01.ogg]Much time has passed since I left Atlans.
+#M14D01S01P02    [Elhant][Normal][Missions\SOUND\Mission14\m14_t02.ogg]The undead forces must be suppressing the elves by now. Soon our foes will seize Octon's tomb... 
+#M14D01S01P03    [Elhant][Normal][Missions\SOUND\Mission14\m14_t03.ogg]We must hurry! Any delay now means death!
+
+#M14D04S01P01    [M14SolSoldier][Pride][Missions\SOUND\Mission14\m14_t04.ogg]Guard, this way! The stranger has got inside the pyramid!
+
+
+#M14D02S01P01    [M14MainPriest][Pride][Missions\SOUND\Mission14\m14_t05.ogg]You reprobate, who dares to enter the holy sanctum of my people! I do not know what brought you here, but you will never leave.
+#M14D02S01P02    [Elhant][Rage][Missions\SOUND\Mission14\m14_t06.ogg]I have come for the Gems. Give them to me. Now!
+#M14D02S01P03    [M14MainPriest][Pride][Missions\SOUND\Mission14\m14_t07.ogg]Ha ha ha! Well, impudent spirit! Come. Take them!
+
+

@@ -1,0 +1,13 @@
+<ua_SingleUnitAI>
+ <Name>suAI_Ogra_t</Name>
+ <CastingRadius>100</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aTreeOfLife</RefName>
+   </UA>
+   <MinTargetAmount>1</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

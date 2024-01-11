@@ -1,0 +1,155 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Idle.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Back.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Attack.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Global.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_SomeOrder.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Move.script");
+lua_module("Missions\\LUA_FUCTIONS\\FUNCTION\\HELPER_FN.script");
+
+--[[ AI for DIABLO ]]--
+
+function	FSM_DIABLO( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	
+	if ( SO_GROUP_IS_DEAD(C_OBJ) == true ) then return 0 end;
+	
+	local	_group 	= GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil or _group.N==0 )	then return 0 end;
+		
+	if 		( state == "ST_GLOBAL" 	) then
+		return 1;
+	end;
+	
+	return 1;
+end;
+
+function	ACF_SABOTEUR( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGroup = paramData:GET("Object");
+	if ( _gGroup==nil )	then return 0 end;
+	if ( FSM.CheckObjectFSM( _gGroup.Name, "FSM_SABOTEUR" )==true ) then
+		local _soObject = FSM.FindSObyOBName(_gGroup.Name);
+		if ( _soObject==nil ) then return 0 end;
+		local soParam = _soObject:GET_PARAMS();
+		if ( soParam==nil ) then return 0 end;
+		local value = INT(soParam:GET("AREAID"));
+		value.Value = -1;
+		if ( paramData:GET("AREAID")~=nil ) then
+			value.Value = INT(paramData:GET("AREAID")).Value;
+			_soObject.next_STATE	= "ST_NEWSTEP";
+			_soObject.FSC			= true;
+		end;
+		return 1 
+	end;
+	--[[ Free SO for this Group if need ]]--
+	FSM.FreeSO_pVAR(_gGroup);
+	--[[ Get free or create new SO ]]--
+	local _soObject = FSM.GET_SO("FSM_SABOTEUR");
+	if ( _soObject==nil ) then return 0 end;
+	--[[ Get SO params ]]--
+	local soParam = _soObject:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	_soObject:SET_OBJ(_gGroup.Name);
+	--[[ Fill params for SO ]]--
+	local value = soParam:CreateParam_INT("AREAID");
+	value.Value = -1;
+	if ( paramData:GET("AREAID")~=nil ) then
+		value.Value = INT(paramData:GET("AREAID")).Value;
+	end;
+	value = soParam:CreateParam_BOOL("FREE_HUNT");
+	value.Value = false;
+	if ( paramData:GET("FREE_HUNT")~=nil ) then
+		value.Value = BOOL(paramData:GET("FREE_HUNT")).Value;
+	end;
+	--[[ Run new dialog ]]--
+	_soObject.STATE = "ST_GLOBAL";
+	FSM.SendMsg( "MSG_ENTER", _soObject.Name, _soObject.Name );
+	
+	return 1;
+end;
+--[[
+Description:
+	ƒанный конечный автомат предназначен дл€ следовани€ к
+	намеченой позиции избега€ стычек с врагом. Ќе принимает 
+	самосто€тельно решений о изменении позиции следовани€. ѕо 
+	прибытии атакует все и вс€. ћожет вступить по-пути в бой 
+	только в случаее если враг слабее или был аттакован.
+Parameters:
+	"GROUP"		- юниты вход€щие в группу
+	"AREAID"	- позици€ следовани€
+MSGS:
+	"msg_RESTART"	- остановитьс€ и начать движение заново, 
+					  пересчитав путь ( как параметр - нова€ 
+					  позици€ "NEW_AREAID" )
+	
+STATES:
+	"ST_GLOBAL"		- начальное состо€ние дл€ FSM 				-> ST_IDLE
+	"ST_MOVE"		- выполн€м приказ по передвижению			-> ST_NEWSTEP
+	"ST_NEWSTEP"	- считаем новый путь и отправл€ем в путь	-> ST_MOVE, ST_ATTACK
+	"ST_ATTACK"		- атакуем всех р€дом						-> ST_NEWSTEP
+	"ST_TERMINATE"	- точка назначени€, убиваем всех			-> ST_NEWSTEP
+]]--
+function	FSM_SABOTEUR( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	if ( SO_GROUP_IS_DEAD(C_OBJ) == true ) then return 0 end;
+	local _group 	= GROUP(C_OBJ:GET_OBJ());
+	local _par = C_OBJ:GET_PARAMS();
+	if ( _par==nil or _group==nil or _group.N==0 )	then return 0 end;
+			
+	if ( state~="ST_GLOBAL" ) then
+		--[[ »спользуем параметр свободного действи€ ]]--
+		_FreeHunt = BOOL(_par:GET("FREE_HUNT"));
+		if ( _FreeHunt~=nil and _FreeHunt.Value==true ) then
+			_HuntWait = INT(_par:GET("HUNT_WAIT"));
+			if ( _HuntWait==nil ) then
+				_HuntWait = _par:CreateParam_INT("HUNT_WAIT");
+				_HuntWait.Value = 20;
+			end;
+			if ( _HuntWait.Value<=0 ) then
+				(INT(_par:GET("AREAID"))).Value = -1;
+				FINDE_USE_AST_RATE( C_OBJ, "AREAID" );
+				_HuntWait.Value = 20;
+			else
+				_HuntWait.Value = _HuntWait.Value - 1;
+			end;
+		end;
+		--[[ *************************************** ]]--
+	end;
+			
+	--[[ ≈сли в группе добавились новые юниты -->> ST_NEWSTEP !!! ]]--
+	if ( state~="ST_GLOBAL" and _group:GetAmountOfNewUnits(true)>0 ) then
+		C_OBJ.next_STATE	= "ST_NEWSTEP";
+		C_OBJ.FSC			= true;
+	end;
+	--[[ ******************************************************** ]]--
+	
+	if 		( state == "ST_GLOBAL" 	) then
+		--[[ ѕодготовить объект -> ST_NEWSTEP ]]--
+		if 		( msg.str == "MSG_ENTER"  ) then
+			C_OBJ.next_STATE	= "ST_NEWSTEP";
+			C_OBJ.FSC			= true;
+		end;
+		return 1;
+	elseif 	( state == "ST_NEWSTEP"	) then
+		ST_SABOTEUR_STEP_00( C_OBJ, msg, "AREAID", "ST_MOVE", "ST_ATTACK", "ST_TERMINATE" );
+		return 1;
+	elseif 	( state == "ST_MOVE" 	) then
+		--[[ —ледим за передвижением к позиции ]]--
+		ST_MOVE_00( C_OBJ, msg, "l_x", "l_y", "ST_NEWSTEP" );
+		return 1;
+	elseif 	( state == "ST_ATTACK" 	) then
+		--[[ Ѕьем всех вокруге до победы или смерти ]]--
+		ST_ATTACK_01( C_OBJ, msg, "ST_NEWSTEP" );
+		return 1;
+	elseif 	( state == "ST_TERMINATE" 	) then
+		--[[ ƒостигли цель - убить всех и вс€ ]]--
+		ST_ATTACK_00_01( C_OBJ, msg, "l_x", "l_y", "l_R", "AREAID","ST_NEWSTEP" );
+		return 1;
+	end;
+	
+	return 1;
+end;

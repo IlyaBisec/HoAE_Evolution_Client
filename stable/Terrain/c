@@ -1,0 +1,23 @@
+3 1
+RA_Lean   3 2 2
+RA_Medium 4 3 3
+RA_Rich  6 5 5
+4 0
+RA_Normal   6 1000    1000    1000    1000    1000    1000
+RA_Rich 6 4000    4000    4000    4000    4000    4000
+RA_Thousands  6 5000 5000 5000 5000 5000 5000
+RA_Millions 6 1000000 1000000 1000000 1000000 1000000 1000000
+6 4
+RT_Plane
+RT_Low_mountains
+RT_High_mountains
+RT_Highlands
+RT_Plateaus
+Desert
+6 1
+#0 LT_Land         000.STY 6 2 suhod4.msp 3 suhod4.msp 4 suhod4.msp 5 suhod5.msp 6 suhod6.msp 7 suhod7.msp
+#1 LT_Mediterranean 000.STY 6 2 srediz4.msp 3 srediz4.msp 4 srediz4.msp 5 mediter7.msp 6 mediter7.msp 7 mediter7.msp
+#2 LT_Peninsulas     000.STY 6 2 poluos2.msp 3 poluos3.msp 4 poluos4.msp 5 poluos7.msp 6 poluos7.msp 7 poluos7.msp
+#2 LT_Islands         000.STY 6 2 ostrova2.msp 3 ostrova3.msp 4 ostrov4.msp 5 islands7_1.msp 6 islands7_1.msp 7 islands7_1.msp
+#2 LT_Continents 000.STY 6 6 kontin2.msp 3 kontin3.msp 4 kontin4.msp 5 islands7.msp 6 islands7.msp 7 islands7.msp
+#1 LT_Continent	   000.STY 6 2 mediter4.msp 3 mediter4.msp 4 mediter4.msp 5 contin7.msp 6 contin7.msp 7 contin7.msp

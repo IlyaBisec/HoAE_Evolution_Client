@@ -1,0 +1,23 @@
+<OneClassFolder>
+ <Name>Ships</Name>
+ <Items>
+  <OneClassItem>
+   <Item>
+    <ClassName>ExtraShootingElement</ClassName>
+    <RefName>MecTurret001</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>ExtraShootingElement</ClassName>
+    <RefName>MecTurret002</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>ExtraShootingElement</ClassName>
+    <RefName>EffTurret001</RefName>
+   </Item>
+  </OneClassItem>
+ </Items>
+</OneClassFolder>

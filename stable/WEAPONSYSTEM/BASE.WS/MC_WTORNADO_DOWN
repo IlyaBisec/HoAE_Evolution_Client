@@ -1,0 +1,21 @@
+<WeaponModificator>
+ <Name>MC_wTornado_down</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <BirthNewAbility>
+     <AdditionalAbilites>
+      <ClassRef.UnitAbility>
+       <ClassName>NewAbility</ClassName>
+       <RefName>MC_aTornado_down</RefName>
+      </ClassRef.UnitAbility>
+     </AdditionalAbilites>
+    </BirthNewAbility>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

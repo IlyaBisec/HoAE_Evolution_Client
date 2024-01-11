@@ -1,0 +1,96 @@
+#M13D01S01P01    [M13TorGilong][Normal][Missions\SOUND\MISSION13\m13_t01.ogg]Помоги мне, незнакомец!
+
+
+#M13D01S01P02    [Elhant][][Missions\SOUND\MISSION13\m13_t02.ogg]Кто ты? Почему они гнались за тобой?
+#M13D01S02P01    [M13TorGilong][Pride][Missions\SOUND\MISSION13\m13_t03.ogg]Меня зовут Тор Гилонг. Я был рабом в пирамиде солов.
+#M13D01S03P01    [Elhant][Normal][Missions\SOUND\MISSION13\m13_t04.ogg]Я ищу Жемчужину и слышал, что она находится в пирамиде. Как мне добраться туда?
+#M13D01S04P01    [M13TorGilong][Pride][Missions\SOUND\MISSION13\m13_t05.ogg]Иди в глубину острова. Солы воюют друг с другом за власть, маги сцепились со жрецами! 
+#M13D01S04P02    [M13TorGilong][][Missions\SOUND\MISSION13\m13_t06.ogg]Только благодаря этому я смог убежать - и, возможно, это поможет тебе добраться до пирамиды. 
+#M13D01S06P01    [M13TorGilong][Pride][Missions\SOUND\MISSION13\m13_t07.ogg]Удачи, незнакомец, и благодарю за помощь!
+
+
+
+
+
+#M13D02S01P01    [M13Cleric][Pride][Missions\SOUND\MISSION13\m13_t08.ogg]Эй ты! Эй, наёмник! Помоги нам!
+#M13D02S02P01    [Elhant][Angry][Missions\SOUND\MISSION13\m13_t09.ogg]Я не наёмник.
+#M13D02S03P01    [M13Cleric][Pride][Missions\SOUND\MISSION13\m13_t10.ogg]Ты оскорбляешь нас отказом?! Солдаты! Убейте этого чужестранца! Он заодно с предателями!
+
+
+#M13D03S01P01    [M13Priest][Pride][Missions\SOUND\MISSION13\m13_t11.ogg]Ну что ж, проклятые идолопоклонники получили своё! Никому ещё не удавалось справиться с магами Огненной Руки!
+#M13D03S01P02    [M13Priest][Pride][Missions\SOUND\MISSION13\m13_t12.ogg]Так ты, значит, не наёмник, а, чужеземец? И кто же ты?
+
+#M13D03S02P01    [Elhant][Pride][Missions\SOUND\MISSION13\m13_t13.ogg]Я Эльхант, следопыт из Атланса.
+#M13D03S03P01    [M13Priest][Pride][Missions\SOUND\MISSION13\m13_t14.ogg]Никогда не слышал о такой стране. Впрочем... нет, неважно.
+#M13D03S03P02    [M13Priest][][Missions\SOUND\MISSION13\m13_t15.ogg]Ты хорошо сражаешься и я готов заплатить тебе за одну небольшую битву.
+#M13D03S04P01    [Elhant][][Missions\SOUND\MISSION13\m13_t16.ogg]Никаких битв, маг! Я спешу, мне нужно попасть в пирамиду.
+
+#M13D03S05P01    [M13Priest][][Missions\SOUND\MISSION13\m13_t17.ogg]Ха-ха-ха! Нет, вы слышали?! Он хочет попасть в Универсал!
+#M13D03S05P02    [M13Priest][][Missions\SOUND\MISSION13\m13_t18.ogg]Да знаешь ли ты, глупец, что его охраняют сфинксы?! Никому не пробраться туда, если он не знает тайного пути.
+#M13D03S05P03    [M13Priest][][Missions\SOUND\MISSION13\m13_t19.ogg]Раз уж тебе так нужно попасть в Универсал, я укажу тебе эту дорогу. Но сначала выполни моё поручение!
+
+#M13D03S06P01    [Elhant][][Missions\SOUND\MISSION13\m13_t20.ogg]Что за поручение, маг?
+
+#M13D03S07P01    [M13Priest][][Missions\SOUND\MISSION13\m13_t21.ogg]В одном селении к северу отсюда идолопоклонники держат циклопа: они завладели его разумом при помощи Ока Хартуалона.
+
+#M13D03S07P02    [M13Priest][][Missions\SOUND\MISSION13\m13_t22.ogg]Мне нужны Око и этот циклоп.
+
+#M13D03S07P04    [M13Priest][][Missions\SOUND\MISSION13\m13_t23.ogg]Сейчас, когда большинство солдат заняты набегом на криальцев, завладеть ими не составит особого труда. 
+#M13D03S07P05    [M13Priest][][Missions\SOUND\MISSION13\m13_t24.ogg]Просто убей жреца, владеющего Оком...
+
+#M13D03S08P01    [Elhant][][Missions\SOUND\MISSION13\m13_t25.ogg]Что ж... если сфинксы окажутся мне не по плечу, займусь этим твоим Оком.
+#M13D03S09P01    [M13Priest][][Missions\SOUND\MISSION13\m13_t26.ogg]Если ты всерьез намерен потягаться со сфинксами, лучше сразу прыгай вниз с края Шамбалы. 
+#M13D03S09P02    [M13Priest][][Missions\SOUND\MISSION13\m13_t27.ogg]Так твоя смерть будет гораздо менее мучительной.
+
+
+
+
+
+#M13D10S01P01    [Elhant][][Missions\SOUND\MISSION13\m13_t28.ogg]Интересно, если бы Атланс поднялся в небо, как этот остров... 
+#M13D10S01P02    [Elhant][][Missions\SOUND\MISSION13\m13_t29.ogg]Какая же сила удерживает Шамбалу в облаках и управляет ею?
+#M13D10S01P03    [Elhant][][Missions\SOUND\MISSION13\m13_t30.ogg]Мир огромен и чудесен, и порой кажется, что я вышел из тёмной кладовой в огромный освещённый зал. 
+#M13D10S01P04    [Elhant][][Missions\SOUND\MISSION13\m13_t31.ogg]Однако везде неизменно присутствует зло. Вот и над Шамбалой оно властвует...
+
+
+
+
+
+
+
+
+#M13D03S10P01    [Elhant][][Missions\SOUND\MISSION13\m13_t38.ogg]Гномы? Как вы очутились здесь?
+#M13D04S01P01    [M13Mechanic][Pride][Missions\SOUND\MISSION13\m13_t39.ogg]Мы летели вслед за тобой, но лодки солов повредили наш ковчег. 
+#M13D04S02P01    [M13Mechanic][Pride][Missions\SOUND\MISSION13\m13_t40.ogg]Часть двигателя упала неподалёку отсюда, на краю острова. Двое наших отправились туда и не вернулись. 
+#M13D04S04P01    [Elhant][][Missions\SOUND\MISSION13\m13_t41.ogg]Я принесу то, что вам нужно. 
+            
+#M13D10S02P01    [Elhant][][Missions\SOUND\MISSION13\m13_t42.ogg]Как же здесь жарко... Наверное, потому, что остров находится ближе к Солнцу?
+
+
+#M13D05S02P01    [Elhant][][Missions\SOUND\MISSION13\m13_t43.ogg]Вот ваше железо.
+#M13D05S03P01    [M13Mechanic][][Missions\SOUND\MISSION13\m13_t44.ogg]У нас появился шанс вернуться домой! Скажи, чем мы можем помочь тебе?
+#M13D05S04P01    [Elhant][][Missions\SOUND\MISSION13\m13_t45.ogg]Я отправляюсь к Пирамиде. Постарайтесь забрать меня с острова, когда я добуду Жемчужину.
+
+#M13D06S01P01    [M13Slave][Pride][Missions\SOUND\MISSION13\m13_t46.ogg]Прошу тебя, незнакомец... Помоги...
+#M13D06S03P01    [Elhant][Pride][Missions\SOUND\MISSION13\m13_t47.ogg]Что случилось?
+#M13D06S04P01    [M13Slave][][Missions\SOUND\MISSION13\m13_t48.ogg]Мы умираем от жажды... Вода кончилась... Она есть в селении, но стражу нам не одолеть... Прошу тебя! Смилуйся!..
+#M13D06S05P01    [Elhant][][Missions\SOUND\MISSION13\m13_t49.ogg]Вы сбежали от своих господ? Не бойтесь, я постараюсь добыть для вас воду.
+
+
+
+#M13D07S01P01    [Elhant][Pride][Missions\SOUND\MISSION13\m13_t50.ogg]Вот вода! Пейте, сколько душе угодно!
+#M13D07S02P01    [M13Slave][Pride][Missions\SOUND\MISSION13\m13_t51.ogg]Спасибо тебе, воин! Ты спас нас всех!
+#M13D07S03P01    [Elhant][Pride][Missions\SOUND\MISSION13\m13_t52.ogg]Если бы мой народ было так же легко спасти...
+#M13D07S04P01    [M13Slave][Pride][Missions\SOUND\MISSION13\m13_t53.ogg]Прости, что мы не можем помочь в твоей беде. Но послушай: за этой скалой есть груда камней.
+
+#M13D07S04P02    [M13Slave][][Missions\SOUND\MISSION13\m13_t54.ogg]Я видел, как жрецы прятали туда что-то. Может быть, ты найдёшь там что-нибудь полезное для себя и своего народа?
+#M13D07S05P01    [Elhant][Suprised][Missions\SOUND\MISSION13\m13_t55.ogg]Вот и тайная дверь. Сарлабим, откройся!.. Вот это да! Сработало!
+	
+
+
+#M13D03S11P01    [M13Priest][Cry][Missions\SOUND\MISSION13\m13_t32.ogg]Ты всё-таки добыл Око?! Отлично, давай его сюда! О-о-о... Я чувствую, как энергия пульсирует в этом камне. Теперь Огненная Рука непобедима!
+#M13D03S11P03    [Elhant][][Missions\SOUND\MISSION13\m13_t33.ogg]Так что ты хотел мне рассказать о тайном пути?
+#M13D03S11P04    [M13Priest][][Missions\SOUND\MISSION13\m13_t34.ogg]Ты ещё не забыл свою затею пробраться в Универсал? Ну ладно, слушай.
+#M13D03S11P05    [M13Priest][][Missions\SOUND\MISSION13\m13_t35.ogg]На востоке от пирамиды находится лабиринт, в котором обитают минотавры. 
+#M13D03S11P06    [M13Priest][][Missions\SOUND\MISSION13\m13_t36.ogg]В конце его - тайный вход в Универсал, но он запечатан заклинанием.
+#M13D03S11P07    [M13Priest][][Missions\SOUND\MISSION13\m13_t37.ogg]Когда ты встанешь перед этой дверью, скажи: <Сарлабим, откройся!> - и она распахнётся перед тобой.
+ 

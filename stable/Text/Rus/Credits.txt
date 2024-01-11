@@ -1,0 +1,226 @@
+ABLINE0 GSC Game World
+ABLINE1 
+ABLINE2 Титры
+ABLINE3 
+ABLINE4 Продюсер
+ABLINE5 			Сергей '-GSC-' Григорович
+ABLINE6 Руководитель проекта
+ABLINE7 			Евгений '-GEC-' Григорович
+ABLINE8 Сюжет
+ABLINE9 			Сергей '-GSC-' Григорович
+ABLINE10 			Илья Новак
+ABLINE11 
+ABLINE12 
+ABLINE13 Ведущий программист
+ABLINE14 			Андрей Шпагин
+ABLINE15 
+ABLINE16 Программисты
+ABLINE17 			Виталий Лысенко
+ABLINE18 			Сергей Крыжановский
+ABLINE19 			Руслан Шестопалюк
+ABLINE20 
+ABLINE21 Дополнительное программирование
+ABLINE22 			Елена Попова
+ABLINE23 
+ABLINE24 Разработка игрового процесса
+ABLINE25 			Александр 'ATG' Чучкевич
+ABLINE26 			Александр Васильконов
+ABLINE27 			Владимир Ежов
+ABLINE28 
+ABLINE29 Разработка инструментария для написаний миссий			
+ABLINE30 			Виктор Левченко
+ABLINE31 
+ABLINE32 Сетевой и системный программист
+ABLINE33 			Сергей 'ManOwaR' Иванцов
+ABLINE34 
+ABLINE35 
+ABLINE36 Игровой процесс миссий
+ABLINE37 			Alex Dragon
+ABLINE38 			Алексей Онищенко
+ABLINE39 			Даниил Меранов
+ABLINE40 
+ABLINE41 Ведущий дизайнер
+ABLINE42 			Дмитрий Зенин 'Paramon'
+ABLINE43 
+ABLINE44 
+ABLINE45 Художники зданий
+ABLINE46 			Дмитрий Зенин 'Paramon'
+ABLINE47 			Андрей Зенин
+ABLINE48 			Михаил Запорожченко
+ABLINE49 			Александр Липкань
+ABLINE50 			Андрей Пронюк
+ABLINE51 
+ABLINE52 Художники персонажей
+ABLINE53 			Александр Липкань
+ABLINE54 			Дмитрий Зенин 'Paramon'
+ABLINE55 			Андрей Зенин
+ABLINE56 			Дмитрий Старостин
+ABLINE57 			Олег Корейба
+ABLINE58 			Михаил Запорожченко
+ABLINE59 			Надежда Бабарыка
+ABLINE60 			Андрей Пронюк
+ABLINE61 
+ABLINE62 Аниматоры
+ABLINE63 			Дмитрий Зенин 'Paramon'
+ABLINE64 			Константин Карташов
+ABLINE65 			Сергей Волчанов
+ABLINE66 			Ольга Волчанова
+ABLINE67 			Андрей Зенин
+ABLINE68 			Надежда Бабарыка
+ABLINE69 
+ABLINE70 Технический рендер
+ABLINE71 			Алекс Демиденко
+ABLINE72 
+ABLINE73 Визуальные эффекты
+ABLINE74 			Павел Маркевич
+ABLINE75 			Александр Липкань
+ABLINE76 
+ABLINE77 Арт/Интерфейс
+ABLINE78 			Роман Несин
+ABLINE79 			Ольга Троекурова
+ABLINE80 			Илья Толмачёв
+ABLINE81 			Александр Липкань
+ABLINE82 			Андрей Диденко
+ABLINE83 			Тимофей Урсуленко
+ABLINE84 			Ким Демиденко
+ABLINE85 			Дмитрий Старостин
+ABLINE86 
+ABLINE87 Оформление миссий
+ABLINE88 			Дмитрий Зенин 'Paramon'
+ABLINE89 			Александр Липкань
+ABLINE90 			Тимофей Урсуленко
+ABLINE91 Роман Несин
+ABLINE92 
+ABLINE93 Комиксы
+ABLINE94 			Олег Масюкевич
+ABLINE95 			Дмитрий Старостин
+ABLINE96 
+ABLINE97 Звукорежиссер 
+ABLINE98 			Дмитрий Кузьменко 
+ABLINE99 
+ABLINE100 Звуковые эффекты
+ABLINE101 			Юрий Плиска
+ABLINE102 
+ABLINE103 Композитор
+ABLINE104 			Алексей Омельчук 
+ABLINE105 
+ABLINE106 Актёры
+ABLINE107 			Алексей Зорин
+ABLINE108 			Анжелика Гирич
+ABLINE109 			Юрий Борисенко
+ABLINE110 			Александр Вилков 
+ABLINE111 			Андрей Подубинский 
+ABLINE112 			Григорий Герман 
+ABLINE113 			Анатолий Богуш 
+ABLINE114 			Евгений Малуха
+ABLINE115 
+ABLINE116 Работа с текстами
+ABLINE117 			Владимир Литвиненко
+ABLINE118 
+ABLINE119 
+ABLINE120 ВИДЕО
+ABLINE121 
+ABLINE122 
+ABLINE123 INTRO
+ABLINE124 
+ABLINE125 Режиссура
+ABLINE126 			Петр Семка
+ABLINE127 			Василий Гуралевич
+ABLINE128  
+ABLINE129 
+ABLINE130 Художники / аниматоры
+ABLINE131 			Владимир Друзенко
+ABLINE132 			Сергей Кужельный
+ABLINE133 			Надежда Бабарыка
+ABLINE134 			Владимир Хвостиченко
+ABLINE135 			Алексей Манита
+ABLINE136 			Алексей Мартыненко
+ABLINE137 			Виктор Абрамовский
+ABLINE138 			Виктор Онищенко
+ABLINE139 			Александр Ковач
+ABLINE140 
+ABLINE141 
+ABLINE142 Визуализация
+ABLINE143 			Антон Огнев
+ABLINE144 			Владимир Казанцев
+ABLINE145 
+ABLINE146 
+ABLINE147 
+ABLINE148 OUTRO
+ABLINE149 
+ABLINE150 Режиссура
+ABLINE151 			Алексей Манита
+ABLINE152 			Василий Гуралевич
+ABLINE153 
+ABLINE154 Художники / аниматоры
+ABLINE155 			Игорь Подмоков
+ABLINE156 			Дмитрий Еретик
+ABLINE157 			Богдан Дубовик
+ABLINE158 			Григорий Лебедев
+ABLINE159 			Андрей Диденко
+ABLINE160 			Владимир Друзенко
+ABLINE161 			Виктор Абрамовский
+ABLINE162 
+ABLINE163 
+ABLINE164 Визуализация
+ABLINE165 			Алексей Мартыненко
+ABLINE166 			Александр Вознюк
+ABLINE167 
+ABLINE168 Благодарность
+ABLINE169 			Анатолий Шестопалюк
+ABLINE170 			Сергей Грицай
+ABLINE171 
+ABLINE172 
+ABLINE173 GSC World Publishing 
+ABLINE174 
+ABLINE175 Генеральный директор
+ABLINE176 			Сергей '-GSC-' Григорович
+ABLINE177 
+ABLINE178 Руководитель отдела продаж
+ABLINE179 			Сергей Грушко
+ABLINE180 
+ABLINE181 Менеджер продаж
+ABLINE182 			Виктория Бойко
+ABLINE183 
+ABLINE184 Реклама/PR 
+ABLINE185 
+ABLINE186 Руководитель отдела маркетинга/Арт-директор
+ABLINE187 			Роман Несин
+ABLINE188 Арт-отдел
+ABLINE189 			Ольга Троекурова
+ABLINE190 			Илья Толмачев
+ABLINE191 			Андрей Диденко
+ABLINE192 			Иван Хивренко
+ABLINE193 			Григорий Лебедев
+ABLINE194 			Роман Борденюк
+ABLINE195 			Ким Демиденко
+ABLINE196 
+ABLINE197 Менеджер проекта
+ABLINE198 			Олег Яворский
+ABLINE199 PR Отдел
+ABLINE200 			Максим Ковалев
+ABLINE201 			Валентин Елтышев
+ABLINE202 			Евгений Минко
+ABLINE203 			Сергей Стороженко
+ABLINE204 			Николай Волчков
+ABLINE205 			Артем Павленко
+ABLINE206 Разработка WEB сайта
+ABLINE207 			Максим Ковалев
+ABLINE208 			Ольга Троекурова
+ABLINE209 			Сергей Терлюк
+ABLINE210 			Геннадий Генюк
+ABLINE211 			Евгений Кучма
+ABLINE212 			Ольга Ишина
+ABLINE213 			Татьяна Парфилова
+ABLINE214 
+ABLINE215 Локализация
+ABLINE216 
+ABLINE217 Менеджер проекта
+ABLINE218 			Евгений Кучма
+ABLINE219 Перевод
+ABLINE220 			Ольга Ишина
+ABLINE221 
+ABLINE222 
+ABLINE223 Техническая поддержка
+ABLINE224 			Юрий Скрипаль 
+

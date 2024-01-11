@@ -1,0 +1,64 @@
+NAME IceBCit
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+
+ICONEX 0 0 interf3\PortretsBuilding\IceCast2 0
+ICONANM 0 0 interf3\PortretsBuilding\IceCast2 1 78 1
+
+LOCATION -0 -0 800 800
+!STANDLO      1 1.1 Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m
+!BUILDLO_0    1 1.1 Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m
+!BUILDLO_1    1 1.1 Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m
+!BUILDLO_2    1 1.1 Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m
+!BUILDLO_3    1 1.1 Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m Models\Bld\ICE\Castle_of_Ice_V22\1024x512\Castle_of_Ice_V22.c2m
+MOVEXY #STANDLO   0 -55
+MOVEXY #BUILDLO_0 0 -55
+MOVEXY #BUILDLO_1 0 -55
+MOVEXY #BUILDLO_2 0 -55
+MOVEXY #BUILDLO_3 0 -55
+ADDHDIR #STANDLO -3 160
+ADDHDIR #BUILDLO_0 -3 160
+ADDHDIR #BUILDLO_1 -3 160
+ADDHDIR #BUILDLO_2 -3 160
+ADDHDIR #BUILDLO_3 -3 160
+BORNPOINTS3 2 0 12 0 170 182 0
+GEOMETRY 1 199 32
+LIFE     5000
+PRICE 5 STONE 100 WOOD 100 GOLD 100 COAL 100 IRON 100 
+BUILDSTAGES 50
+PROTECTION 3 piercing 15 magical 0 chopping 15
+RECTANGLE    0 60 100 250
+MATHERIAL 1 BUILDING
+EXPLMEDIA BUILDING 5
+BUILDBAR    -18 0 18 0
+3DBARS 2 -65 5 55 55 220 -5 35 35 50 80
+INFO 3 8
+COSTPERCENT 300
+VISION 0
+MFARM 35
+ADDSHOTRADIUS 155
+ROUNDLOCK 8.5
+SELTYPE SelBigBuilding 2.0 2.0
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+ABILITY BuildStage_Ice
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_ice
+DEATH_SOUND building_death
+UPG_SOUND upgrade_ice
+CYLINDER 65 190
+TFACTOR FF9A9897
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.3
+ShadowScaleY 1.0
+!TEMP 180 1.0 Models\Effects\MagicCard\Sneg\Sneg.c2m Models\Effects\MagicCard\Sneg\Sneg.c2m
+MOVEXY  #TEMP 0 0
+ADDHDIR #TEMP 0 160
+ANMEXT #STANDLO #TEMP 0 0 0 1.0 2000
+[END]

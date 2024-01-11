@@ -1,0 +1,238 @@
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Idle.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Back.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Attack.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Global.script");
+lua_module("Missions\\LUA_FUCTIONS\\FUNCTION\\HELPER_FN.script");
+--[[
+	USE DEFF PARAMS:
+		"iR"			- радиус вокруг юнитов для охраны	 ( == 500 )
+		"iAddR"			- дополнительный радиус				 ( == 500 )
+		"arrNode"		- список патрулируемых зон			
+]]--
+function	ACF_PatrolZone00( paramData )
+	if ( paramData==nil ) then return 0 end;
+	local 	_gGroup = paramData:GET("Object");
+	if ( _gGroup==nil )	then return 0 end;
+	GROUP(_gGroup).AIGuard = true;
+	if ( FSM.CheckObjectFSM( _gGroup.Name, "FSM_PATROL" )==true ) then return 1 end;
+	--[[ Free SO for this Group if need ]]--
+	FSM.FreeSO_pVAR(_gGroup);
+	--[[ Get free or create new SO ]]--
+	local _soObject = FSM.GET_SO("FSM_PATROL");
+	if ( _soObject==nil ) then return 0 end;
+	--[[ Get SO params ]]--
+	local soParam = _soObject:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	_soObject:SET_OBJ(_gGroup.Name);
+	--[[ Fill params for SO ]]--
+	local value = nil;
+	if ( paramData:GET("iR")~=nil ) then
+		value = soParam:CreateParam_INT("iR");
+		value.Value = INT(paramData:GET("iR")).Value;
+	end;
+	if ( paramData:GET("iAddR")~=nil ) then
+		value = soParam:CreateParam_INT("iAddR");
+		value.Value = INT(paramData:GET("iAddR")).Value;
+	end;
+	soParam:CreateParam_ARRAY("arrNode");
+	if ( paramData:GET("arrNode")~=nil ) then
+		soParam:SET("arrNode",paramData:GET("arrNode"));
+	else
+		soParam:SET("arrNode",nil);
+	end;
+	--[[ Run new dialog ]]--
+	_soObject.STATE = "ST_GLOBAL";
+	FSM.SendMsg( "MSG_ENTER", _soObject.Name, _soObject.Name );
+	
+	return 1;
+end;
+
+function	FSM_PatrolZone_00( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	
+	if ( SO_GROUP_IS_DEAD(C_OBJ) == true ) then return 0 end;
+	
+	local	_group 	= GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil or _group.N==0 )	then return 0 end;
+		
+	if 		( state == "ST_GLOBAL" 	) then
+		local _par		= C_OBJ:GET_PARAMS();
+		if 		( msg.str == "MSG_ENTER" 	)	then
+			--[[ Parameter ENEMY GROUP ]]--
+			if (_par:GET("EnemyGroup") == nil ) then
+				_par:CreateParam_GROUP("EnemyGroup");
+			end;
+			--[[ Охраняемая зона. Движется за группой. ]]--
+			local _nNode = nil;
+			if ( _par:GET("nNode") == nil ) then
+				_nNode = _par:CreateParam_NODE("nNode");
+			else
+				_nNode = NODE(_par:GET("nNode"));
+			end;
+			LinkNodeToGroup( _nNode, _group );
+			if ( _par:GET("iR")~=nil ) then
+				_nNode.R = INT(_par:GET("iR")).Value;
+			else
+				_nNode.R = 500;
+			end;
+			--[[ Задаем текущий идекс заны для следования патруля ]]--
+			local _iNID = nil;
+			if ( _par:GET("iNID")==nil ) then
+				_iNID = _par:CreateParam_INT("iNID");
+				local _arrNode = ARRAY(_par:GET("arrNode"));
+				if ( _arrNode==nil ) then 
+					_iNID.Value = -1
+				else
+					_iNID.Value = GetNearestNodeID( _arrNode, _nNode.x, _nNode.y );
+				end;
+			end;
+			--[[ Составляем относительный масив позиций ]]--
+			local arrGrpPos = ARRAY(_par:GET("arrGrpPos"));
+			if ( arrGrpPos==nil ) then
+				arrGrpPos = _par:CreateParam_ARRAY("arrGrpPos");
+			else
+				SafeClearArray( arrGrpPos );
+			end;
+			local arrParams = arrGrpPos:GetParmList();
+			local node = nil;
+			local UN = _group.N;
+			for i = 1, UN , 1 do
+				node = arrParams:CreateParam_NODE( tostring(i) );
+				node.x 		= _group:GetXi(i-1) - _nNode.x;
+				node.y 		= _group:GetYi(i-1) - _nNode.y;
+				node.R 		= 0;
+				node.Dir	= _group:GetDIRi(i-1);
+			end;
+			--[[ GO in next state ]]--			
+			C_OBJ.next_STATE	= "ST_IDLE";
+			C_OBJ.FSC			= true;
+		end;
+		return	1;
+	elseif 	( state == "ST_IDLE" 	) then
+		local _par			= C_OBJ:GET_PARAMS();
+		local _nNode		= NODE(_par:GET("nNode"));
+		--[[ Link set node position ]]--
+		local _arrNode = ARRAY(_par:GET("arrNode"));
+		local centerID = GetNearestNodeID( _arrNode, _group.Xc, _group.Yc );
+		local _lNode10 = GetSafeNODE( _arrNode, centerID-1 );
+		local _lNode00 = GetSafeNODE( _arrNode, centerID+0 );
+		local _lNode01 = GetSafeNODE( _arrNode, centerID+1 );
+		LinkNodeToGroup00( _nNode, _group, _lNode10, _lNode00, _lNode01 );
+		--[[ ---------------------- ]]--
+		local _addR			= INT(_par:GET("iAddR"));
+		local _Nat	 		= _group.Nat;
+		local _iNID			= INT(_par:GET("iNID"));
+		if 		( msg.str == "MSG_ENTER" )		then
+			_group.SearchEnemy = false;
+			_group:ClearOrders();
+			_iNID.Value = GetNearestNodeID( _arrNode, _group.Xc, _group.Yc );
+			return 1;
+		elseif	( msg.str == "MSG_UPDATE" 	)	then
+			if ( GET.EnemyUnitsAmount(_Nat,_nNode.x,_nNode.y,_nNode.R)>0 or	_group.UnderAttack==true ) then
+				C_OBJ.next_STATE	= "ST_ATTACK";
+				C_OBJ.FSC			= true;
+				return 1;
+			elseif ( _group.NO_ORDERS_NUM == _group.N ) then
+				local _lNode = NODE( _arrNode:GET( _iNID.Value ) );
+				if ( _group:UnitNumInZone( _lNode.x,_lNode.y,_nNode.R ) == _group.N ) then
+					_iNID.Value = _iNID.Value + 1;
+					if ( _iNID.Value > _arrNode:SIZE() ) then
+						_iNID.Value = 1;
+					end;
+				end;
+				--[[ Send to pos Array ]]--
+				_lNode = NODE(_arrNode:GET( _iNID.Value ));
+				_group:SendTo(_lNode.x,_lNode.y,512,0);	
+				local arrGrpPos = ARRAY(_par:GET("arrGrpPos"));
+				local arrN		= arrGrpPos:SIZE();
+				local grpN		= _group.N;
+				local node		= nil;
+				local NNN = grpN;
+				if ( NNN>arrN ) then NNN=arrN end;
+				for i = 1, NNN, 1 do
+					node = NODE(arrGrpPos:GET( i ));
+					_group:SendToI( node.x+_lNode.x, node.y+_lNode.y, node.Dir, 0, i-1 );
+				end;
+			end;
+		elseif ( msg.str == "MSG_EXIT" )then
+			_group:ClearOrders();
+		end;
+		return 1;
+	elseif 	( state	== "ST_ATTACK"	) then
+		--[[ Attack script ]]--
+		local _par		= C_OBJ:GET_PARAMS();
+		local _nNode	= NODE(_par:GET("nNode"));
+		local _addR		= INT(_par:GET("iAddR"));
+		local _enemy	= GROUP(_par:GET("EnemyGroup"));
+		local _Nat 		= _group.Nat;
+		--[[ Link set node position ]]--
+		local _arrNode = ARRAY(_par:GET("arrNode"));
+		local centerID = GetNearestNodeID( _arrNode, _group.Xc, _group.Yc );
+		local _lNode10 = GetSafeNODE( _arrNode, centerID-1 );
+		local _lNode00 = GetSafeNODE( _arrNode, centerID+0 );
+		local _lNode01 = GetSafeNODE( _arrNode, centerID+1 );
+		LinkNodeToGroup00( _nNode, _group, _lNode10, _lNode00, _lNode01 );
+		--[[ ---------------------- ]]--
+		if 		( msg.str == "MSG_ENTER" 		)	then
+			_group.SearchEnemy = true;
+			_enemy:RemAllUnits();
+			FSM.SendMsg( "MSG_CREATE_EN", C_OBJ.Name, C_OBJ.Name );
+			return 1;
+		elseif 	( msg.str == "MSG_CREATE_EN" 	)	then
+			_enemy:AddEnemyUnitsInZone(_Nat,_nNode.x,_nNode.y,_nNode.R+_addR.Value*2,false);
+			if ( _enemy.N > 0 ) then
+				if ( 	_enemy:GetAmountOfNewUnits(true)>0 or 
+						_enemy:GetAmountOfRemUnits(true)>0 or
+						_group.NO_ORDERS_NUM>0 
+				) then
+					FSM.SendMsg( "MSG_ATTACK_EN", C_OBJ.Name, C_OBJ.Name );
+				end;
+			end;
+			return 1;
+		elseif 	( msg.str == "MSG_ATTACK_EN" 	) 	then
+			--[[ перераспредилить цели для аттаки ]]--
+			_group:AttackGroup_NearestOB(_enemy);
+			return 1;
+		elseif	( msg.str == "MSG_UPDATE" 		)	then
+			local EnN = GET.EnemyUnitsAmount(_Nat,_nNode.x,_nNode.y,_nNode.R+_addR.Value);
+			if ( EnN==0 ) then
+				C_OBJ.next_STATE	= "ST_IDLE";
+				C_OBJ.FSC			= true;
+			elseif ( EnN~=_enemy.N or _group.NO_ORDERS_NUM>0 ) then
+				FSM.SendMsg( "MSG_CREATE_EN", C_OBJ.Name, C_OBJ.Name );
+			end;
+			return 1;
+		elseif	( msg.str == "MSG_EXIT" 	)	then
+			_group.UnderAttack = false;
+			_enemy:RemAllUnits();
+			return 1;
+		end;
+		--[[ ------------- ]]--
+	end;
+	return 0;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

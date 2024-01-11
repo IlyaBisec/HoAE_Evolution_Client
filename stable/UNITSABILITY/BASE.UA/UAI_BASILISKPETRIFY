@@ -1,0 +1,14 @@
+<ua_SingleUnitAI>
+ <Name>UAI_BasiliskPetrify</Name>
+ <CastingRadius>440</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>UA_aBasiliskPetrify</RefName>
+   </UA>
+   <MinTargetAmount>1</MinTargetAmount>
+   <CastingDelay>300000</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

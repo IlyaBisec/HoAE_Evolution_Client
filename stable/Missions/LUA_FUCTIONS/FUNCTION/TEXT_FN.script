@@ -1,0 +1,38 @@
+--[[ USE FOR STORE TEXT MANEGE FUNCTIONS ]]--
+
+lua_module("Missions\\LUA_FUCTIONS\\FUNCTION\\HELPER_FN.script");
+
+function	TEXT_ShowHint( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_strTEXT = STR(paramData:GET("strTEXT"));
+	_iTIME	 = INT(paramData:GET("iTIME"));
+	if ( _strTEXT==nil ) then return 0 end;
+	_time = 100;
+	if ( _iTIME~=nil ) then _time=_iTIME.Value end;
+	AssignHint( GetTextByID(_strTEXT.Value), _time );
+	return 1;
+end;
+
+function	TEXT_CreateParamString( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_strDestTextID 		= STR(paramData:GET("strDestTextID"));
+	_strSourceTextID	= STR(paramData:GET("strSourceTextID"));
+	_arrPARM_LIST 		= ARRAY(paramData:GET("arrPARS"));
+	if ( PrepareString(_strDestTextID,_strSourceTextID,_arrPARM_LIST) == true ) then
+		return 1;
+	end;
+	return 0;
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+#EmployVillage	Hire the {C FFffcb2b}%s{C} settlement for  %s%u {C} coins
+
+#YESMONEY	{C FFb39a58}
+#NOMONEY	{C FFff0000}
+
+#OrcVilage	orcish
+#GnollVilage	gnollish
+#GoblinVilage	goblins
+#UrsaVilage	ursas
+#DwarfVilage	dwarven
+
+#OrcVilage_Hint Orcs - the race of furious savages infamous for their passion for violence and destructive actions. Orcs live in tribes and lead a nomadic life, pillaging and killing the members of other races they encountered on the way. They submit to no laws except the law of physical power, thus one can get the better of them only by demonstrating his superiority over the orcs. In peaceful times orcish tribes were confined to the caves and desolated shores of Atlans. But the undead that appeared from beneath allowed the orcs to leave their retreat to conduct bloody raids on the lands of the Sylvan folks impaired with war. While many of the orcish tribes wage war on the necromancers, the servants of death gladly destroy all living things, be it elves or orcs.
+#GnollVilage_Hint Gnolls - the creatures that visually remind one of wild savanna animals, who stood on their back paws and adapted themselves to walking upright. They live in small tribes and lead a nomadic life. They survive by hunting, occasionally pillaging the adjacent villages. Gnolls don't even shrink from carrion. They've always lived on the surface. They are in continuous conflict with orcs. They prefer not to clash with the undead.
+#GoblinVilage_Hint Goblins - small and malicious creatures, they live in small tribes and lead a settled life. Goblins survive by hunting, stealing and looting from the adjacent settlements. Many goblins lived in the catacombs before the war started, but afterwards they had to go to the surface under pressure on the undead legions.
+#UrsaVilage_Hint Ursanoids - they are outward bears that walk on their back legs. They are beasts with immense power and irritable tempers. Ursas don't like strangers. They live in the mountains, leading a secluded life and worshiping their ancestor-bear.
+#DwarfVilage_Hint Dwarfs - the descendants of a small mechanicians' squad who flew to Atlans long ago on the flying ark. They live in the caves under World Mountain, in the huge underground city. Dwarfs are skillful miners and blacksmiths. The wisest of the dwarfs hold sacred the secrets of the mechanical magic.

@@ -1,0 +1,21 @@
+<NewAbility>
+ <Name>ua_chestMC</Name>
+ <ClassType>Effect</ClassType>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Permanent>true</Permanent>
+ <Modificators>
+  <mod_Invisibility>
+   <Invisibility>true</Invisibility>
+  </mod_Invisibility>
+ </Modificators>
+</NewAbility>

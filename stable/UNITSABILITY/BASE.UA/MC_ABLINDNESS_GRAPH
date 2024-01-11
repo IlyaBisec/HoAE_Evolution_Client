@@ -1,0 +1,18 @@
+<NewAbility>
+ <Name>MC_aBlindness_Graph</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <VisualEffects>
+  <uat_VisualEffect></uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

@@ -1,0 +1,37 @@
+<NewAbility>
+ <Name>UA_aRatChief_Graph</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>2000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <Duration>2000</Duration>
+   <Place>Target units</Place>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Rat\Rat_Ataka.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\Rat\Rat_Ataka.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

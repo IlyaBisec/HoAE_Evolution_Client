@@ -1,0 +1,34 @@
+<ExtraShootingElement>
+ <Name>MecTurret002</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Damage>40</Damage>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>cannon_shot</RefName>
+ </Weapon>
+ <WholeObjectModel>Models\Ships\MecSIroM.C2M</WholeObjectModel>
+ <ShootAnimation>Models\Ships\MecSIroA_turret2_shot.C2M</ShootAnimation>
+ <WholeShootTime>500</WholeShootTime>
+ <TimeOfShooting>20</TimeOfShooting>
+ <TotalRechargeTime>10000</TotalRechargeTime>
+ <RotateAnimation>Models\Ships\MecSIroA_turret2_rotate.C2M</RotateAnimation>
+ <CentralShootAngle>220</CentralShootAngle>
+ <ShootAngleDifference>40</ShootAngleDifference>
+ <RotationSpeed>20000</RotationSpeed>
+ <TowerCenterX>995</TowerCenterX>
+ <TowerCenterY>-475</TowerCenterY>
+ <TowerCenterZ>750</TowerCenterZ>
+ <CannonRadius>450</CannonRadius>
+</ExtraShootingElement>

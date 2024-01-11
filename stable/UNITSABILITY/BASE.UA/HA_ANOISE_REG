@@ -1,0 +1,33 @@
+<NewAbility>
+ <Name>HA_aNoise_Reg</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_ManaRegeneration>
+   <Operand>
+    <Operator>-</Operator>
+    <Operand>
+     <Value>
+      <Op>
+       <NumericalConst>
+        <Value>
+         <Value>10</Value>
+        </Value>
+       </NumericalConst>
+      </Op>
+     </Value>
+    </Operand>
+   </Operand>
+  </mod_ManaRegeneration>
+ </Modificators>
+</NewAbility>

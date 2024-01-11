@@ -1,0 +1,25 @@
+<OneClassFolder>
+ <Name>Balance Settlement</Name>
+ <Items>
+  <OneClassItem></OneClassItem>
+  <OneClassItem></OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>NewAbility</ClassName>
+    <RefName>SettlementBalance</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>NewAbility</ClassName>
+    <RefName>BornBalancedUnit</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>NewAbility</ClassName>
+    <RefName>SettlementBalanceBack</RefName>
+   </Item>
+  </OneClassItem>
+ </Items>
+</OneClassFolder>

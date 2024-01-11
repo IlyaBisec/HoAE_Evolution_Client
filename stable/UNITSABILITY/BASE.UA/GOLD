@@ -1,0 +1,29 @@
+<NewBonus>
+ <Charge>1</Charge>
+ <Money2>
+  <Resource>Money</Resource>
+  <Value>100</Value>
+  <ValueRandom>50</ValueRandom>
+ </Money2>
+ <Name>Gold</Name>
+ <FileID>Interf3\resource</FileID>
+ <SpriteID>4</SpriteID>
+ <EffectFileID>Interf3\resource</EffectFileID>
+ <EffectSpriteID>4</EffectSpriteID>
+ <Hint>GoldReward</Hint>
+ <SoundExecute>i_reward_gold</SoundExecute>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewBonus>

@@ -1,0 +1,19 @@
+<NewAbility>
+ <Name>MC_aDryad</Name>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>29</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>29</EffectSpriteID>
+ <Hint>Dryad/Wall</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

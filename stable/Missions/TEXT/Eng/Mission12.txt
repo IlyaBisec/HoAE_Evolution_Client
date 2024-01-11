@@ -1,0 +1,26 @@
+#M12D01S01    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t17.ogg]Open the gates! I must get into the City of Frosts!
+#M12D01S02    [M12IceGolem][Normal][Missions\SOUND\MISSION12\m12_t18.ogg]We guard. No strangers allowed.
+#M12D01S03    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t19.ogg]The enemy has struck at the city walls! Open the gates, I'm the ally of yours!
+#M12D01S04    [M12IceGolem][Normal][Missions\SOUND\MISSION12\m12_t20.ogg]We guard. No strangers allowed.
+#M12D01S05    [Elhant][Angry][Missions\SOUND\MISSION12\m12_t21.ogg]Dummies!.. I need to find another way in then! Maybe I'll just crash the damned gates?
+#M12D02S01    [M12YetiChief][Normal][Missions\SOUND\MISSION12\m12_t08.ogg]Stranger, you helped us, and the law of our tribe tells us to help you in return. Where do you hurry?
+#M12D02S02    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t09.ogg]I must reach the City of Frosts before the Sols demolish it.
+#M12D02S03    [M12YetiChief][Normal][Missions\SOUND\MISSION12\m12_t10.ogg]Many foes lie in wait on your way. We'll go with you.
+#M12D03S01    [M12Enchantress][Normal][Missions\SOUND\MISSION12\m12_t11.ogg]Thank you, stranger! Where are you hurrying to?
+#M12D03S02    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t12.ogg]I have to reach your capital.
+#M12D03S03    [M12Enchantress][Normal][Missions\SOUND\MISSION12\m12_t13.ogg]We shall follow you and together we shall repulse the Sols' attack!
+#M12D04S01    [M12IceMage2][Normal][Missions\SOUND\MISSION12\m12_t14.ogg]Were not for your help, we would have died! Where are you heading, stranger? Hummm?
+#M12D04S02    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t15.ogg]I am hurrying to your capital.
+#M12D04S03    [M12IceMage2][Normal][Missions\SOUND\MISSION12\m12_t16.ogg]There's an enemy on your way. Wait. I shall give you several companions to aid your approach.
+#M12D05S01    [M12Gremlin][Normal][Missions\SOUND\MISSION12\m12_t05.ogg]Thuh, Thuh - Thank you for saving us, stranger! If you are Tuh-travelling to our capital, you suh-should know that there are thuh-three roads leading there.
+#M12D05S02    [M12Gremlin][Normal][Missions\SOUND\MISSION12\m12_t06.ogg]The wizard's road in the west, diplomat's road in the east, and the road of wuh- wuh-warriors in the center.
+#M12D05S03    [M12Gremlin][Normal][Missions\SOUND\MISSION12\m12_t07.ogg]Cuh-cuh- Choose the one that is to your luh-luh- liking.
+#M12D06S01P1    [M12IceMage1][Normal][Missions\SOUND\MISSION12\m12_t01.ogg]If you seek the Gem, you must gain entrance to the palace.
+#M12D06S01P2    [M12IceMage1][Normal][Missions\SOUND\MISSION12\m12_t02.ogg]But make haste, or the Sols will be there before you!
+#M12D07S01    [M12DeathMage][Normal][Missions\SOUND\MISSION12\m12_t22.ogg]Look, here's a fool for our experiment!
+#M12D07S02    [M12DeathMage][Normal][Missions\SOUND\MISSION12\m12_t23.ogg]Now we'll see whether the golem is truly invulnerable...
+#M12D07S03    [Elhant][Angry][Missions\SOUND\MISSION12\m12_t24.ogg]I'm a warrior and not a toy for you wizards! Get out of my way!
+#M12D07S04    [M12DeathMage][Normal][Missions\SOUND\MISSION12\m12_t25.ogg]Ha ha! Look at him, he dares to snarl!.. Prepare yourself for death, you insolent fool! Kill him, Golem!
+#M12D08S01    [Elhant][Angry][Missions\SOUND\MISSION12\m12_t26.ogg]The palace is under siege. We must finish off the assailants quickly, in order not be afraid of a strike into the back.
+#M12D09S01P1    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t03.ogg]I've never seen so much snow! The climate in these northen lands is much colder than the winter in Atlans.
+#M12D09S01P2    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t04.ogg]Moreover, they are also inhabited by odd creatures. 

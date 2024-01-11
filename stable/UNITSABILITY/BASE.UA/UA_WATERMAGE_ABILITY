@@ -1,0 +1,19 @@
+<NewAbility>
+ <Name>UA_Watermage_Ability</Name>
+ <ClassType>Image</ClassType>
+ <FileID>Interf3\Ability\auras_neutral</FileID>
+ <SpriteID>4</SpriteID>
+ <HintName>#AuraIceStrike.NAME</HintName>
+ <Hint>#AuraIceStrike</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

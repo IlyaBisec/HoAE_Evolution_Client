@@ -1,0 +1,23 @@
+<OneClassFolder>
+ <Name>BuildStages</Name>
+ <Items>
+  <OneClassItem>
+   <Item>
+    <ClassName>ShowBuildStage</ClassName>
+    <RefName>BuildStage_Dru</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>ShowBuildStage</ClassName>
+    <RefName>BuildStage_Und</RefName>
+   </Item>
+  </OneClassItem>
+  <OneClassItem>
+   <Item>
+    <ClassName>ShowBuildStage</ClassName>
+    <RefName>BuildStage_Dru_Tow</RefName>
+   </Item>
+  </OneClassItem>
+ </Items>
+</OneClassFolder>

@@ -1,0 +1,27 @@
+<ChangeMDAbiliti>
+ <MD>
+  <MDState>
+   <FileID>Interf3\abil</FileID>
+   <SpriteID>49</SpriteID>
+  </MDState>
+  <MDState>
+   <FileID>Interf3\abil</FileID>
+   <SpriteID>1</SpriteID>
+   <Type>
+    <UnitType>MecUGoS(ME)</UnitType>
+   </Type>
+  </MDState>
+ </MD>
+ <Name>UA_GolemTransform</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</ChangeMDAbiliti>

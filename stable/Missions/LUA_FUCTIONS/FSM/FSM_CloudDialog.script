@@ -1,0 +1,173 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+
+--[[
+Обеспечивает разговор двух-трех персонажей в игре.
+]]--
+--[[ 
+	"Object" 	- controled object
+	"DialogArr"	- dialogs array
+]]--
+function	ACF_CloudDialog( paramData )
+	soDialog = FSM.FindSO( "FSM_CloudDialog" );
+	if ( soDialog==nil ) then
+		soDialog = FSM.GET_SO( "FSM_CloudDialog" );
+		if ( soDialog==nil ) then return 0 end;
+		soDialog.Name = "g_soCloudDialogs";
+	else
+		if ( soDialog.STATE=="ST_NEW_MSG" )	then
+			FSM.SendMsg( "MSG_EXIT", soDialog.Name, soDialog.Name );
+		end;
+	end;
+	--[[ Get SO params ]]--
+	soParam = soDialog:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	DialogObj = paramData:GET("Object");
+	if ( DialogObj==nil ) then return 0 end;
+	soDialog:SET_OBJ(DialogObj.Name);
+	--[[ Set dialog array for new dialog ]]--
+	DialogARR = paramData:GET("DialogArr");
+	if ( DialogARR==nil ) then return 0 end;
+	soParam:CreateParam_ARRAY("DialogArr");
+	soParam:SET("DialogArr",DialogARR);
+	--[[ Set check done variable ]]--
+	soParam:CreateParam_BOOL("bDone");
+	if ( paramData:GET("bDone")~=nil ) then
+		soParam:SET("bDone",paramData:GET("bDone"));
+	else
+		soParam:SET("bDone",nil);
+	end;
+	--[[ Create curID and delay ]]--
+	soParam:CreateParam_INT("curID");
+	soParam:CreateParam_INT("delay");
+	soParam:CreateParam_INT("time");
+	(soParam:CreateParam_BOOL("oggPresent")).Value = false;
+	--[[ Run new dialog ]]--
+	if ( soDialog.STATE==nil )	then
+		soDialog.STATE = "ST_GLOBAL";
+		FSM.SendMsg( "MSG_ENTER", soDialog.Name, soDialog.Name );
+	end;
+	soDialog.STATE = "ST_END";
+	soDialog.FSC   = false;
+	FSM.SendMsg( "MSG_RUN", soDialog.Name, soDialog.Name );
+	return 1;
+end;
+
+function 	FSM_CloudDialog( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	
+	local 	_par	= C_OBJ:GET_PARAMS();
+	local	_group 	= GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil or _group.N==0 )	then return 0 end;
+	
+	if 		( state == "ST_GLOBAL" 	)	then
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		local _curID = _par:CreateParam_INT("curID");
+		_curID.Value = 1;
+		_par:CreateParam_INT("delay");
+		_par:CreateParam_INT("time");
+		(_par:CreateParam_BOOL("oggPresent")).Value = false;
+		C_OBJ.next_STATE	= "ST_END";
+		C_OBJ.FSC			= true;
+		return 1;
+	elseif 	( state == "ST_NEW_MSG" )	then
+		if (ProcMsgFree( msg, false )==1) then return 1 end;
+		if 		( msg.str == "MSG_ENTER" 	)	then
+			local _curID = INT(_par:GET("curID"));
+			local _delay = INT(_par:GET("delay"));
+			local _time  = INT(_par:GET("time"));
+			local _arrGS = ARRAY(_par:GET("DialogArr"));
+			if ( _arrGS == nil ) then return 0; end;
+			local _arrN  = _arrGS:SIZE();
+			if ( _curID.Value > _arrN ) then
+				C_OBJ.next_STATE	= "ST_END";
+				C_OBJ.FSC			= true;
+			end;
+			local _strOBJ = STR_DIALOG(_arrGS:GET( _curID.Value ));
+			if ( _strOBJ~=nil ) then
+				_delay.Value = 1000 * GetLineCountInCloudDialog( _strOBJ );
+				_time.Value	 = GetGlobalTime();
+				be_gShowCloudDialog( _strOBJ );
+				if ( _strOBJ.ogFile~=nil and FilePresent(_strOBJ.ogFile)==true ) then
+					SOUND.Play(_strOBJ.ogFile,1);
+					(BOOL(_par:GET("oggPresent"))).Value = true;
+					_delay.Value = 1000;
+				end;
+			end;
+			_curID.Value = _curID.Value + 1;
+		elseif 	( msg.str == "MSG_UPDATE" 	)	then
+			local _delay = INT(_par:GET("delay"));
+			local _time  = INT(_par:GET("time"));
+			local _oggPresent = BOOL(_par:GET("oggPresent"));
+			if ( GetCloudDilogCancel()==true ) then
+				SetCloudDilogCancel(false);
+				SOUND.Stop(1);
+				FSM.SendMsg( "MSG_ENTER", C_OBJ.Name, C_OBJ.Name );
+			end;
+			if ( GetGlobalTime()-_time.Value > _delay.Value ) then
+				if ( _oggPresent.Value == true and SOUND.StreamFinished(1)==true ) then
+					_oggPresent.Value = false;
+				end;
+				if ( _oggPresent.Value == false ) then
+					FSM.SendMsg( "MSG_ENTER", C_OBJ.Name, C_OBJ.Name );
+				end;
+			end;
+		elseif 	( msg.str == "MSG_EXIT" 	)	then
+			if ( _par:GET("bDone")~=nil ) then
+				BOOL(_par:GET("bDone")).Value = true;
+				_par:SET("bDone",nil);
+			end;
+			ClearCloudDilogSPEAKERS();
+			be_gShowCloudDialog( nil );
+		end;
+			return 1;
+	elseif	( state == "ST_END" 	)	then
+		if (ProcMsgFree( msg, true )==1) then return 1 end;
+		if	( msg.str == "MSG_RUN" ) then
+			local _curID = INT(_par:GET("curID"));
+			_curID.Value = 1;
+			--[[ Add Spekers list to CloudDialog ]]--
+			local _arrGS = ARRAY(_par:GET("DialogArr"));
+			if ( _arrGS ~= nil ) then
+				local _arrN  = _arrGS:SIZE();
+				for i = 1, _arrN, 1 do
+					local _strOBJ = STR_DIALOG(_arrGS:GET( i ));
+					if ( _strOBJ~=nil ) then
+						AddCloudDilogSPEAKERS(_strOBJ.Group);
+					end;
+				end;
+			end;
+			--[[ ------------------------------- ]]--
+			C_OBJ.next_STATE	= "ST_NEW_MSG";
+			C_OBJ.FSC			= true;
+		end;
+		return 1;
+	end;
+	
+	return 0;
+end;
+
+function	GET_CloudDialogFree( paramData  )
+	soDialog = FSM.FindSO( "FSM_CloudDialog" );
+	if ( soDialog==nil or soDialog.STATE==nil ) then return 1 end;
+	if ( soDialog.STATE~="ST_END" ) then
+		return 0;
+	end;
+	return 1;	
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

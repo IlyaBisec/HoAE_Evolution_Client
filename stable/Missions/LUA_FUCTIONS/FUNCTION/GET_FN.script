@@ -1,0 +1,73 @@
+
+function	GET_NoOrders_UN( paramData )
+	if ( paramData==nil ) then return 0 end;
+	N = 0;
+	_group = GROUP( paramData:GET("Group") );
+	if ( _group~=nil ) then
+		N = _group.NO_ORDERS_NUM;
+	end;
+	return N;
+end;
+
+function	GET_Move_UN( paramData )
+	if ( paramData==nil ) then return 0 end;
+	N = 0;
+	_group = GROUP( paramData:GET("Group") );
+	if ( _group~=nil ) then
+		N = _group.MOVE_NUM;
+	end;
+	return N;
+end;
+
+function	GET_Attack_UN( paramData )
+	if ( paramData==nil ) then return 0 end;
+	N = 0;
+	_group = GROUP( paramData:GET("Group") );
+	if ( _group~=nil ) then
+		N = _group.ATTACK_NUM;
+	end;
+	return N;
+end;
+
+function	GET_GroupHP( paramData ) --[[ SUM(GR[i].HP,GR.N)/GR.N ]]--
+	if ( paramData==nil ) then return 0 end;
+	_group = GROUP( paramData:GET("Group") );
+	if ( _group~=nil ) then
+		return _group.HP;
+	end;
+	return 0;	
+end;
+
+function	GET_NKilled( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_Nation 	= INT( paramData:GET("Nation")   );
+	_UnitType	= INT( paramData:GET("UnitType") );
+	if ( _Nation~=nil and _UnitType~=nil ) then
+		return GET.GetNKilled( _Nation.Value, _UnitType.Value );
+	end;
+	return 0;
+end;
+
+function	GET_HeroLevel( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_group = GROUP( paramData:GET("gHero") );
+	
+	if ( _group~=nil and _group.N==1 ) then
+		_uHero = UNIT();
+		_uHero.ID = _group:GetGID(0);
+		if ( _uHero.HERO==true ) then
+			return _uHero.HERO_LEVEL;
+		end;
+	end;
+	
+	return 0;
+end;
+
+function	GET_InsideDialogState( paramData )
+	if ( GetInsideDialogState()==true ) then
+		return 1;
+	end;
+	return 0;
+end;
+
+

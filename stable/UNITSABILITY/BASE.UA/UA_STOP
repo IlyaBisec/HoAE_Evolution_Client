@@ -1,0 +1,36 @@
+<NewAbility>
+ <Name>UA_Stop</Name>
+ <SpriteID>4</SpriteID>
+ <EffectSpriteID>4</EffectSpriteID>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>500</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <IgnoreMagicImmunity>true</IgnoreMagicImmunity>
+ <OnEndEffectCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_Stop_Oboz</RefName>
+ </OnEndEffectCreateWeapon>
+ <Conditions>
+  <umc_Hero></umc_Hero>
+ </Conditions>
+</NewAbility>

@@ -1,0 +1,32 @@
+<ExtraShootingElement>
+ <Name>MecTurret013</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Damage>25</Damage>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>ship_rifle</RefName>
+ </Weapon>
+ <WholeObjectModel>Models\Ships\MecSTriM.C2M</WholeObjectModel>
+ <ShootAnimation>Models\Ships\MecSTriA_turret3_shot.C2M</ShootAnimation>
+ <WholeShootTime>500</WholeShootTime>
+ <TimeOfShooting>20</TimeOfShooting>
+ <TotalRechargeTime>5000</TotalRechargeTime>
+ <RotateAnimation>Models\Ships\MecSTriA_turret3_rotate.C2M</RotateAnimation>
+ <ShootAngleDifference>85</ShootAngleDifference>
+ <RotationSpeed>20000</RotationSpeed>
+ <TowerCenterX>663</TowerCenterX>
+ <TowerCenterZ>686</TowerCenterZ>
+ <CannonRadius>527</CannonRadius>
+</ExtraShootingElement>

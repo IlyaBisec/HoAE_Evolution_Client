@@ -1,0 +1,21 @@
+[MEMBERS]
+DwaUEnc(DW)  DwaUEnc
+DwaUWar(DW)  DwaUWar
+DwaUMil(DW)  DwaUDwa
+DwaURif(DW)  DwaURif
+Dwa1Enc(DW)  Dwa1Enc
+[ENABLED]
+DwaUEnc(DW)
+DwaUWar(DW)
+DwaUMil(DW)
+DwaURif(DW)
+Dwa1Enc(DW)
+[COUNTRY]
+DWARFES 6
+#units
+DwaUEnc(DW)
+DwaUWar(DW)
+DwaUMil(DW)
+DwaURif(DW)
+Dwa1Enc(DW)
+[END]

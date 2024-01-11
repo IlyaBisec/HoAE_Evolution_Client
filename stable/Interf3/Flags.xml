@@ -1,0 +1,12 @@
+<Flags>
+	<Flags>
+		<OneBldFlag>
+			<Name>FrnFlg</Name>
+			<gpFile>Interf3\FlagFrn</gpFile>
+			<cx>116</cx>
+			<cy>96</cy>
+			<Start>0</Start>
+			<Final>459</Final>
+		</OneBldFlag>
+	</Flags>
+</Flags>

@@ -1,0 +1,2431 @@
+*********************************************************************
+*********************************************************************
+****  Description for Operation located in file BE_Funcion.cpp   ****
+*********************************************************************
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCKillNatinZone                                 NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCKillNatinZone::parNat                       {C ffFF0000}NAT
+@HINT::lvCKillNatinZone::parNat                     Select nation {C ff0000FF}0..7
+@ID::lvCKillNatinZone::parNode                      {C ffFF0000}ND
+@HINT::lvCKillNatinZone::parNode                    Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCKillNatinZone::0                {C FFD4C19C}KillUnits({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C})
+@PRES::UserView::lvCKillNatinZone::1                {C FFD4C19C}KillUnits({C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}ND{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCKillNatinZone                          {C ff000000}KillUnits({C ffFF0000}NAT{C ff000000},{C ffFF0000}ND{C ff000000})
+@ENUMHINT::@CLASSID::lvCKillNatinZone               Kill all units given {C ff0000FF}Nation {C ff000000}in given {C ff0000FF}Zone
+@HINT::lvCKillNatinZone                             Kill all units given {C ff0000FF}Nation {C ff000000}in area with position and radius from given {C ff0000FF}Node
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCKillNatNear                                   NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCKillNatNear::parNat                         {C ffFF0000}NAT
+@HINT::lvCKillNatNear::parNat                       Select nation {C ff0000FF}0..7
+@ID::lvCKillNatNear::parRad                         {C ffFF0000}R
+@HINT::lvCKillNatNear::parRad                       {C ff0000FF}Radius{C ff000000} (in pixels) around group center
+@ID::lvCKillNatNear::vGrp                           {C ffFF0000}GR
+@HINT::lvCKillNatNear::vGrp                         Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCKillNatNear::0                  {C FFD4C19C}KillUnits({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C},{C ffFF0000}R{C ffFFFF00}[%$parRad$%]{C FFD4C19C})
+@PRES::UserView::lvCKillNatNear::1                  {C FFD4C19C}KillUnits({C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}GR{C FFD4C19C},{C ffFF0000}R{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCKillNatNear                            {C ff000000}KillUnits({C ffFF0000}NAT{C ff000000},{C ffFF0000}GR{C ff000000},{C ffFF0000}R{C ff000000})
+@ENUMHINT::@CLASSID::lvCKillNatNear                 Kill all units given {C ff0000FF}Nation {C ff000000}in given {C ff0000FF}Radius {C FF000000}around given {C FF0000ff}Group
+@HINT::lvCKillNatNear                               Kill all units given {C ff0000FF}Nation {C ff000000}in area with given {C ff0000FF}Radius {C ff000000}and position defined using given {C ff0000FF}Group {C ff000000}center
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSelectAll                                     GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSelectAll::parNat                           {C ffFF0000}NAT
+@HINT::lvCSelectAll::parNat                         Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSelectAll::0                    {C FFD4C19C}Select({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSelectAll                              {C ff000000}Select({C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCSelectAll                   Select all units given {C ff0000FF}Nation 
+@HINT::lvCSelectAll                                 Select all units given {C ff0000FF}Nation {C ff0000}on map
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSelectNation                                  NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSelectNation::parNat                        {C ffFF0000}NAT
+@HINT::lvCSelectNation::parNat                      Select nation {C ff0000FF}0..7
+@ID::lvCSelectNation::parAdd                        {C ffFF0000}ADD
+@HINT::lvCSelectNation::parAdd                      Add to current selected units
+@ID::lvCSelectNation::parDom                        {C ffFF0000}BLD
+@HINT::lvCSelectNation::parDom                      Select buildings if svitch, else select units
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSelectNation::0                 {C FFD4C19C}Select({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}ADD{C ffFFFF00}[%$parAdd$%]{C FFD4C19C},{C ffFF0000}BLD{C ffFFFF00}[%$parDom$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSelectNation                           {C ff000000}Select({C ffFF0000}NAT{C ff000000},{C ffFF0000}ADD{C ff000000},{C ffFF0000}BLD{C ff000000})
+@ENUMHINT::@CLASSID::lvCSelectNation                Select all units or buildings given {C ff0000FF}Nation {C ff0000}on map and add or not add to current selection.
+@HINT::lvCSelectNation                              Select all units or buildings given {C ff0000FF}Nation {C ff0000}on map and add or not add to current selection.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCChangeAS                                      NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCChangeAS::parNat                            {C ffFF0000}NAT
+@HINT::lvCChangeAS::parNat                          Select nation {C ff0000FF}0..7
+@ID::lvCChangeAS::parState                          {C ffFF0000}ST
+@HINT::lvCChangeAS::parState                        Select {C ff0000FF}State{C ff000000} type from current list...
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCChangeAS::0                     {C FFD4C19C}SetState({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}ST{C ffFFFF00}[%$parState$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCChangeAS                               {C ff000000}SetState({C ffFF0000}NAT{C ff000000},{C ffFF0000}ST{C ff000000})
+@ENUMHINT::@CLASSID::lvCChangeAS                    Change all units given {C ff0000FF}Nation {C ff000000}active state on given {C ff0000FF}State
+@HINT::lvCChangeAS                                  Change all units given {C ff0000FF}Nation {C ff000000}active state on given {C ff0000FF}State
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSelSendTo                                     GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSelSendTo::parNat                           {C ffFF0000}NAT
+@HINT::lvCSelSendTo::parNat                         Select nation {C ff0000FF}0..7
+@ID::lvCSelSendTo::parNode                          {C ffFF0000}ND
+@HINT::lvCSelSendTo::parNode                        Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+@ID::lvCSelSendTo::parDir                           {C ffFF0000}DIR
+@HINT::lvCSelSendTo::parDir                         Select direction {C ff0000FF}0..255{C ff000000} or{C ff0000FF} 512{C ff000000} (do not change last direction) 
+@ID::lvCSelSendTo::parType                          {C ffFF0000}OT
+@HINT::lvCSelSendTo::parType                        Select {C ff0000FF}Order{C ff000000} type: {C ff0000FF}0{C ff000000} - perform immediately (forget other orders), {C ff0000FF}1{C ff000000} - set as first order (do not forget other orders), {C ff0000FF}2{C ff000000} - perform after all previous orders
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSelSendTo::0                    {C FFD4C19C}SendSelected({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C},{C ffFF0000}DIR{C ffFFFF00}[%$parDir$%]{C FFD4C19C},{C ffFF0000}OT{C ffFFFF00}[%$parType$%]{C FFD4C19C})
+@PRES::UserView::lvCSelSendTo::1                    {C FFD4C19C}SendSelected({C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}ND{C FFD4C19C},{C ffFF0000}DIR{C FFD4C19C},{C ffFF0000}OT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSelSendTo                              {C ff000000}SendSelected({C ffFF0000}NAT{C ff000000},{C ffFF0000}ND{C ff000000},{C ffFF0000}DIR{C ff000000},{C ffFF0000}OT{C ff000000})
+@ENUMHINT::@CLASSID::lvCSelSendTo                   Send curent selected units given {C ff0000FF}Nation {C ff000000}to given {C ff0000FF}Node
+@HINT::lvCSelSendTo                                 Send curent selected units given {C ff0000FF}Nation {C ff000000}to position defined in given {C ff0000FF}Node {C ff000000}with given {C ff0000FF}Direction {C ff000000}and order prioryty defined in given {C ff0000FF}Order Type
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGroupSendTo                                   GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGroupSendTo::parNode                        {C ffFF0000}ND
+@HINT::lvCGroupSendTo::parNode                      Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+@ID::lvCGroupSendTo::parGrp                         {C ffFF0000}GR
+@HINT::lvCGroupSendTo::parGrp                       Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCGroupSendTo::parDir                         {C ffFF0000}DIR
+@HINT::lvCGroupSendTo::parDir                       Select direction {C ff0000FF}0..255{C ff000000} or{C ff0000FF} 512{C ff000000} (do not change last direction)
+@ID::lvCGroupSendTo::parType                        {C ffFF0000}OT
+@HINT::lvCGroupSendTo::parType                      Select {C ff0000FF}Order{C ff000000} type: {C ff0000FF}0{C ff000000} - perform immediately (forget other orders), {C ff0000FF}1{C ff000000} - set as first order (do not forget other orders), {C ff0000FF}2{C ff000000} - perform after all previous orders
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGroupSendTo::0                  {C FFD4C19C}Send({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C},{C ffFF0000}DIR{C ffFFFF00}[%$parDir$%]{C FFD4C19C},{C ffFF0000}OT{C ffFFFF00}[%$parType$%]{C FFD4C19C})
+@PRES::UserView::lvCGroupSendTo::1                  {C FFD4C19C}Send({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ND{C FFD4C19C},{C ffFF0000}DIR{C FFD4C19C},{C ffFF0000}OT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGroupSendTo                            {C ff000000}Send({C ffFF0000}GR{C ff000000},{C ffFF0000}ND{C ff000000},{C ffFF0000}DIR{C ff000000},{C ffFF0000}OT{C ff000000})
+@ENUMHINT::@CLASSID::lvCGroupSendTo                 Send given units {C ff0000FF}Group {C ff000000}to given {C ff0000FF}Position {C ff000000}with given {C ff0000FF}Direction
+@HINT::lvCGroupSendTo                               Send given units {C ff0000FF}Group {C ff000000}to position defined in given {C ff0000FF}Node {C ff000000}with given {C ff0000FF}Direction {C ff0000000}and order prioryty defined in given {C ff0000FF}Order Type
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCRotateGroup                                   GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCRotateGroup::parGrp                         {C ffFF0000}GR
+@HINT::lvCRotateGroup::parGrp                       Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCRotateGroup::parDir                         {C ffFF0000}DIR
+@HINT::lvCRotateGroup::parDir                       Select direction {C ff0000FF}0..255{C ff000000} or{C ff0000FF} 512{C ff000000} (do not change last direction)
+@ID::lvCRotateGroup::prior                          {C ffFF0000}OT
+@HINT::lvCRotateGroup::prior                        Select {C ff0000FF}Order{C ff000000} type: {C ff0000FF}0{C ff000000} - perform immediately (forget other orders), {C ff0000FF}1{C ff000000} - set as first order (do not forget other orders), {C ff0000FF}2{C ff000000} - perform after all previous orders
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCRotateGroup::0                  {C FFD4C19C}Rotate({C ffFF0000}DIR{C ffFFFF00}[%$parDir$%]{C FFD4C19C},{C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}OT{C ffFFFF00}[%$prior$%]{C FFD4C19C})
+@PRES::UserView::lvCRotateGroup::1                  {C FFD4C19C}Rotate({C ffFF0000}DIR{C FFD4C19C},{C ffFF0000}GR{C FFD4C19C},{C ffFF0000}OT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCRotateGroup                            {C ff000000}Rotate({C ffFF0000}DIR{C ff000000},{C ffFF0000}GR{C ff000000},{C ffFF0000}OT{C ff000000})
+@ENUMHINT::@CLASSID::lvCRotateGroup                 Set for given {C ff0000FF}Group {C ff000000}new {C ff0000FF}Directoin
+@HINT::lvCRotateGroup                               Set for given {C ff0000FF}Group {C ff000000}new {C ff0000FF}Directoin {C ff000000}use order {C ff0000FF}Priority
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSelectUnits                                   GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSelectUnits::parGrp                         {C ffFF0000}GR	
+@HINT::lvCSelectUnits::parGrp                       Select {C ff0000FF}Group{C ff000000} from group list.., present on map	
+@ID::lvCSelectUnits::parAdd                         {C ffFF0000}ADD
+@HINT::lvCSelectUnits::parAdd                       Add current group to selection else - select group
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSelectUnits::0                  {C FFD4C19C}Select({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}ADD{C ffFFFF00}[%$parAdd$%]{C FFD4C19C})
+@PRES::UserView::lvCSelectUnits::1                  {C FFD4C19C}Select({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ADD{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSelectUnits                            {C ff000000}Select({C ffFF0000}GR{C ff000000},{C ffFF0000}ADD{C ff000000})
+@ENUMHINT::@CLASSID::lvCSelectUnits                 Select Units from group {C ffFF0000}GR {C ff000000}and if {C ffFF0000}ADD {C ff000000}is true - add it to selection.
+@HINT::lvCSelectUnits                               Select Units from group {C ffFF0000}GR {C ff000000}and if {C ffFF0000}ADD {C ff000000}is true - add it to selection.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetUnitState                                  GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetUnitState::parGrp                        {C ffFF0000}GR
+@HINT::lvCSetUnitState::parGrp                      Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCSetUnitState::parmode                       {C ffFF0000}ST
+@HINT::lvCSetUnitState::parmode                     Select {C ff0000FF}State{C ff000000} type from current list...
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetUnitState::0                 {C FFD4C19C}SetState({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}ST{C ffFFFF00}[%$parmode$%]{C FFD4C19C})
+@PRES::UserView::lvCSetUnitState::1                 {C FFD4C19C}SetState({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ST{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetUnitState                           {C ff000000}SetState({C ffFF0000}GR{C ff000000},{C ffFF0000}ST{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetUnitState                Set selected agressive state for group
+@HINT::lvCSetUnitState                              Set selected agressive state for group
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCBrigReformation                               GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCBrigReformation::GrpID                      {C ffFF0000}GR
+@HINT::lvCBrigReformation::GrpID                    Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCBrigReformation::TypeForm                   {C ffFF0000}FT
+@HINT::lvCBrigReformation::TypeForm                 {C ff0000FF}Alexandr{C ff000000} - 0,1,2 {C ff0000FF}CossacsII{C ff000000} - ??? {C ff0000FF}Fantacy{C ff000000} - do not use
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCBrigReformation::0              {C FFD4C19C}SetFormation({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C},{C ffFF0000}FT{C ffFFFF00}[%$TypeForm$%]{C FFD4C19C})
+@PRES::UserView::lvCBrigReformation::1              {C FFD4C19C}SetFormation({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}FT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCBrigReformation                        {C ff000000}SetFormation({C ffFF0000}GR{C ff000000},{C ffFF0000}FT{C ff000000})
+@ENUMHINT::@CLASSID::lvCBrigReformation             Chenge squard formation for squards in group.
+@HINT::lvCBrigReformation                           Chenge squard formation for squards in group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCChangeFriends                                 NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCChangeFriends::Nation                       {C ffFF0000}NAT
+@HINT::lvCChangeFriends::Nation                     Select nation {C ff0000FF}0..7
+@ID::lvCChangeFriends::Value                        {C ffFF0000}NMASK
+@HINT::lvCChangeFriends::Value                      Set nation friendly mask
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCChangeFriends::0                {C FFD4C19C}SetNMASK({C ffFF0000}NAT{C ffFFFF00}[%$Nation$%]{C FFD4C19C},{C ffFF0000}NMASK{C ffFFFF00}[%$Value$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCChangeFriends                          {C ff000000}SetNMASK({C ffFF0000}NAT{C ff000000},{C ffFF0000}NMASK{C ff000000})
+@ENUMHINT::@CLASSID::lvCChangeFriends               Set friendly mask for nation.
+@HINT::lvCChangeFriends                             Set friendly mask for nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetFriends                                    NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetFriends::fstNat                          {C ffFF0000}NAT1
+@HINT::lvCSetFriends::fstNat                        Select nation {C ff0000FF}0..7
+@ID::lvCSetFriends::secNat                          {C ffFF0000}NAT2
+@HINT::lvCSetFriends::secNat                        Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetFriends::0                   {C FFD4C19C}AddFriend({C ffFF0000}NAT1{C ffFFFF00}[%$fstNat$%]{C FFD4C19C},{C ffFF0000}NAT2{C ffFFFF00}[%$secNat$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetFriends                             {C ff000000}AddFriend({C ffFF0000}NAT1{C ff000000},{C ffFF0000}NAT2{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetFriends                  Set for nation 1 frendly mask then set nation 2 friends to nation 1.
+@HINT::lvCSetFriends                                Set for nation 1 frendly mask then set nation 2 friends to nation 1.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCChangeNationG                                 GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCChangeNationG::GrpID                        {C ffFF0000}GR
+@HINT::lvCChangeNationG::GrpID                      Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCChangeNationG::nwNat                        {C ffFF0000}NAT
+@HINT::lvCChangeNationG::nwNat                      Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCChangeNationG::0                {C FFD4C19C}SetNation({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$nwNat$%]{C FFD4C19C})
+@PRES::UserView::lvCChangeNationG::1                {C FFD4C19C}SetNation({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}NAT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCChangeNationG                          {C ff000000}SetNation({C ffFF0000}GR{C ff000000},{C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCChangeNationG               Change Group Nation.
+@HINT::lvCChangeNationG                             Change Group Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetLightSpot                                  SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetLightSpot::parNode                       {C ffFF0000}ND
+@HINT::lvCSetLightSpot::parNode                     Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+@ID::lvCSetLightSpot::Radius                        {C ffFF0000}R
+@HINT::lvCSetLightSpot::Radius                      Select {C ff0000FF}Radius{C ff000000} type - {C ff0000FF}0..3{C ffFF0000} (make the information more accurate !!!)
+@ID::lvCSetLightSpot::Index                         {C ffFF0000}ID
+@HINT::lvCSetLightSpot::Index                       Set unique {C ff0000FF}index{C ff000000} for LightSpotZone
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetLightSpot::0                 {C FFD4C19C}RemoveFog({C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C},{C ffFF0000}R{C ffFFFF00}[%$Radius$%]{C FFD4C19C},{C ffFF0000}ID{C ffFFFF00}[%$Index$%]{C FFD4C19C})
+@PRES::UserView::lvCSetLightSpot::1                 {C FFD4C19C}RemoveFog({C ffFF0000}ND{C FFD4C19C},{C ffFF0000}R{C FFD4C19C},{C ffFF0000}ID{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetLightSpot                           {C ff000000}RemoveFog({C ffFF0000}ND{C ff000000},{C ffFF0000}R{C ff000000},{C ffFF0000}ID{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetLightSpot                Remove fog of war from select Node with specified radius.
+@HINT::lvCSetLightSpot                              Remove fog of war from select Node with specified radius.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCClearLightSpot                                SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCClearLightSpot::Index                       {C ffFF0000}ID
+@HINT::lvCClearLightSpot::Index                     Select unique {C ff0000FF}index{C ff000000} for LightSpotZone, from index of LightSpotZones present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCClearLightSpot::0               {C FFD4C19C}ResumeFog({C ffFF0000}ID{C ffFFFF00}[%$Index$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCClearLightSpot                         {C ff000000}RestoreFog({C ffFF0000}ID{C ff000000})
+@ENUMHINT::@CLASSID::lvCClearLightSpot              Back fog of war for index specified location.
+@HINT::lvCClearLightSpot                            Back fog of war for index specified location.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetStartPoint                                 CAMERA
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetStartPoint::Use_VVal                     Use {C ff0000FF}Value{C FFD4C19C} or {C ff0000FF}Node
+@HINT::lvCSetStartPoint::Use_VVal                   Switch between {C ff0000FF}Value List {C ff000000}and {C ff0000FF}Node{C ff000000} list
+@ID::lvCSetStartPoint::parNode                      {C ffFF0000}ND
+@HINT::lvCSetStartPoint::parNode                    Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+@ID::lvCSetStartPoint::sX                           {C ffFF0000}X
+@HINT::lvCSetStartPoint::sX                         Select {C ff0000FF}X{C ff000000} coord from {C ff0000FF}int{C ff000000} value list...
+@ID::lvCSetStartPoint::sY                           {C ffFF0000}Y
+@HINT::lvCSetStartPoint::sY                         Select {C ff0000FF}Y{C ff000000} coord from {C ff0000FF}int{C ff000000} value list...
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetStartPoint::0                {C FFD4C19C}SetCamera({C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C})
+@PRES::UserView::lvCSetStartPoint::1                {C FFD4C19C}SetCamera({C ffFF0000}X{C ffFFFF00}[%$sX$%]{C FFD4C19C},{C ffFF0000}Y{C ffFFFF00}[%$sY$%]{C FFD4C19C})
+@PRES::UserView::lvCSetStartPoint::2                {C FFD4C19C}SetCamera({C ffFF0000}POSITION{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetStartPoint                          {C ff000000}SetCamera({C ffFF0000}POSITION{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetStartPoint               Set camera position in node.
+@HINT::lvCSetStartPoint                             Set camera position in node.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCShowVictory                                   SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCShowVictory::TextID                         {C ffFF0000}TEXT
+@HINT::lvCShowVictory::TextID                       Text corresponding to this {C ff0000FF}TextID{C ff000000} will be show in victory message
+@ID::lvCShowVictory::Nat                            {C ffFF0000}NAT
+@HINT::lvCShowVictory::Nat                          Select nation {C ff0000FF}0..7{C ff000000} (victory only for this player) or {C ff0000FF}255{C ff000000} for player nation
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCShowVictory::0                  {C FFD4C19C}ShowVictory({C ffFF0000}TEXT{C ffFFFF00}[%$TextID$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C})
+@PRES::UserView::lvCShowVictory::1                  {C FFD4C19C}ShowVictory({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCShowVictory                            {C ff000000}ShowVictory({C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCShowVictory                 Show Victory for nation.
+@HINT::lvCShowVictory                               Show Victory for nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCLooseGame                                     SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCLooseGame::TextID                           {C ffFF0000}TEXT
+@HINT::lvCLooseGame::TextID                         Text corresponding to this {C ff0000FF}TextID{C ff000000} will be show in loose message
+@ID::lvCLooseGame::Nat                              {C ffFF0000}NAT
+@HINT::lvCLooseGame::Nat                            Select nation {C ff0000FF}0..7{C ff000000} (loose only for this player) or {C ff0000FF}255{C ff000000} for player nation
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCLooseGame::0                    {C FFD4C19C}ShowLoose({C ffFF0000}TEXT{C ffFFFF00}[%$TextID$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C})
+@PRES::UserView::lvCLooseGame::1                    {C FFD4C19C}ShowLoose({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCLooseGame                              {C ff000000}ShowLoose({C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCLooseGame                   Show loose game for nation.
+@HINT::lvCLooseGame                                 Show loose game for nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetTrigg                                      SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetTrigg::TID                               {C ffFF0000}TID
+@HINT::lvCSetTrigg::TID                             Set system trigger {C ff0000FF}ID
+@ID::lvCSetTrigg::NewVal                            {C ffFF0000}VAL
+@HINT::lvCSetTrigg::NewVal                          Set new {C ff0000FF}value{C ff000000} for this system triger
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetTrigg::0                     {C FFD4C19C}SetTrigg({C ffFF0000}TID{C ffFFFF00}[%$TID$%]{C FFD4C19C},{C ffFF0000}VAL{C ffFFFF00}[%$NewVal$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetTrigg                               {C ff000000}SetTrigg({C ffFF0000}TID{C ff000000},{C ffFF0000}VAL{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetTrigg                    Set system triger value.
+@HINT::lvCSetTrigg                                  Set system triger value.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCTakeFood                                      GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCTakeFood::GrpID                             {C ffFF0000}GR
+@HINT::lvCTakeFood::GrpID                           Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCTakeFood::0                     {C FFD4C19C}TakeFood({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCTakeFood::1                     {C FFD4C19C}TakeFood({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCTakeFood                               {C ff000000}TakeFood({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCTakeFood                    Send Group to harvest FOOD.
+@HINT::lvCTakeFood                                  Send Group to harvest FOOD.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCTakeWood                                      GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCTakeWood::GrpID                             {C ffFF0000}GR
+@HINT::lvCTakeWood::GrpID                           Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCTakeWood::0                     {C FFD4C19C}TakeWood({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCTakeWood::1                     {C FFD4C19C}TakeWood({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCTakeWood                               {C ff000000}TakeWood({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCTakeWood                    Send Group to harvest WOOD.
+@HINT::lvCTakeWood                                  Send Group to harvest WOOD.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCTakeStone                                     GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCTakeStone::GrpID                            {C ffFF0000}GR
+@HINT::lvCTakeStone::GrpID                          Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCTakeStone::0                    {C FFD4C19C}TakeStone({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCTakeStone::1                    {C FFD4C19C}TakeStone({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCTakeStone                              {C ff000000}TakeStone({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCTakeStone                   Send Group to harvest STOWN.
+@HINT::lvCTakeStone                                 Send Group to harvest STOWN.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetValue                                      GLOBAL_VALUE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetValue::TypeID                            Value {C ff0000FF}Type
+@HINT::lvCSetValue::TypeID                          Select {C ff0000FF}Value Type {C ff000000} from list...
+@ID::lvCSetValue::UseVV                             {C ff0000FF}Value {C ffD4C19C}or {C ff0000FF}Constant
+@HINT::lvCSetValue::UseVV                           Use {C ff0000FF}Value {C ff000000} from variables present on map or use {C ff0000FF}constant
+@ID::lvCSetValue::Variable                          {C ffFF0000}VAR
+@HINT::lvCSetValue::Variable                        Select varible from list
+@ID::lvCSetValue::Value                             {C ffFF0000}VAL
+@HINT::lvCSetValue::Value                           Select value from list
+@ID::lvCSetValue::SetTG                             {C ffFF0000}CONST BOOL
+@HINT::lvCSetValue::SetTG                           Set {C ff0000FF}triger {C ff000000}type constant
+@ID::lvCSetValue::SetWD                             {C ffFF0000}CONST WORD
+@HINT::lvCSetValue::SetWD                           Set {C ff0000FF}word {C ff000000}type constant
+@ID::lvCSetValue::SetIN                             {C ffFF0000}CONST INT
+@HINT::lvCSetValue::SetIN                           Set {C ff0000FF}integer {C ff000000}type constant
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetValue::0                     {C ffFFFF00}%$Variable$% {C FFD4C19C}= {C ffFFFF00}%$SetTG$%
+@PRES::UserView::lvCSetValue::1                     {C ffFFFF00}%$Variable$% {C FFD4C19C}= {C ffFFFF00}%$Value$%
+@PRES::UserView::lvCSetValue::2                     {C ffFFFF00}%$Variable$% {C FFD4C19C}= {C ffFFFF00}%$SetWD$%
+@PRES::UserView::lvCSetValue::3                     {C ffFFFF00}%$Variable$% {C FFD4C19C}= {C ffFFFF00}%$Value$%
+@PRES::UserView::lvCSetValue::4                     {C ffFFFF00}%$Variable$% {C FFD4C19C}= {C ffFFFF00}%$SetIN$%
+@PRES::UserView::lvCSetValue::5                     {C ffFFFF00}%$Variable$% {C FFD4C19C}= {C ffFFFF00}%$Value$%
+@PRES::UserView::lvCSetValue::6                     {C FFD4C19C}SetValue{C FFD4C19C}({C ffFF0000}...=...{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetValue                               {C ff000000}SetValue({C ffFF0000}...=...{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetValue                    Giv global variable some value. a = b
+@HINT::lvCSetValue                                  Giv global variable some value. a = b
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCAddToInt                                      GLOBAL_VALUE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCAddToInt::IntValue                          {C ffFF0000}VAR
+@HINT::lvCAddToInt::IntValue                        Select {C ff0000FF}integer {C ff000000}type varible from list
+@ID::lvCAddToInt::IntAdd                            {C ffFF0000}CONST
+@HINT::lvCAddToInt::IntAdd                          Set {C ff0000FF}integer {C ff000000}type constant
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCAddToInt::0                     {C ffFFFF00}%$IntValue$%{C FFD4C19C}+={C ffFFFF00}%$IntAdd$%
+@PRES::UserView::lvCAddToInt::1                     {C ffFF0000}INT{C FFD4C19C}+={C ffFF0000}INT
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCAddToInt                               {C ffFF0000}INT{C ff000000}+={C ffFF0000}INT
+@ENUMHINT::@CLASSID::lvCAddToInt                    Add value to global int value. a++
+@HINT::lvCAddToInt                                  Add value to global int value. a++
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCKillNUnits                                    GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCKillNUnits::GrpID                           {C ffFF0000}GR
+@HINT::lvCKillNUnits::GrpID                         Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCKillNUnits::UCount                          {C ffFF0000}N
+@HINT::lvCKillNUnits::UCount                        Set units {C ff0000FF}number {C ff000000}for killing, {C ff0000FF}65535 {C ff000000}- kill all
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCKillNUnits::0                   {C FFD4C19C}KillUnits({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$UCount$%]{C FFD4C19C})
+@PRES::UserView::lvCKillNUnits::1                   {C FFD4C19C}KillUnits({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}N{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCKillNUnits                             {C ff000000}KillUnits({C ffFF0000}GR{C ff000000},{C ffFF0000}N{C ff000000})
+@ENUMHINT::@CLASSID::lvCKillNUnits                  Kill N units from group.
+@HINT::lvCKillNUnits                                Kill N units from group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCEraseNUnits                                   GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCEraseNUnits::GrpID                          {C ffFF0000}GR
+@HINT::lvCEraseNUnits::GrpID                        Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCEraseNUnits::UCount                         {C ffFF0000}N
+@HINT::lvCEraseNUnits::UCount                       Set units {C ff0000FF}number {C ff000000}for erasing, {C ff0000FF}65535 {C ff000000}- erase all
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCEraseNUnits::0                  {C FFD4C19C}EraseUnits({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$UCount$%]{C FFD4C19C})
+@PRES::UserView::lvCEraseNUnits::1                  {C FFD4C19C}EraseUnits({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}N{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCEraseNUnits                            {C ff000000}EraseUnits({C ffFF0000}GR{C ff000000},{C ffFF0000}N{C ff000000})
+@ENUMHINT::@CLASSID::lvCEraseNUnits                 Erase N units from group.
+@HINT::lvCEraseNUnits                               Erase N units from group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSavePosition                                  GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSavePosition::GrpID                         {C ffFF0000}GR
+@HINT::lvCSavePosition::GrpID                       Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCSavePosition::UseVV                         {C ff0000FF}vvPOINT2D {C ffD4C19C}or {C ff0000FF}vvPOINT_SET
+@HINT::lvCSavePosition::UseVV                       Select storage value type for save position ({C ff0000FF}vvPOINT2D{C ff000000} - save group center, {C ff0000FF}vvPOINT_SET{C ff000000} - save units position array)
+@ID::lvCSavePosition::vvPoint                       {C ffFF0000}PT
+@HINT::lvCSavePosition::vvPoint                     Select {C ff0000FF}vvPOINT2D {C ff000000}type varible from list, for save group center
+@ID::lvCSavePosition::VVpPos                        {C ffFF0000}PT_ARR
+@HINT::lvCSavePosition::VVpPos                      Select {C ff0000FF}vvPOINT_SET {C ff000000}type varible from list, for save all units positons from group
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSavePosition::0                 {C FFD4C19C}SavePosition({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C},{C ffFF0000}PT{C ffFFFF00}[%$vvPoint$%]{C FFD4C19C})
+@PRES::UserView::lvCSavePosition::1                 {C FFD4C19C}SavePosition({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C},{C ffFF0000}PT_ARR{C ffFFFF00}[%$VVpPos$%]{C FFD4C19C})
+@PRES::UserView::lvCSavePosition::2                 {C FFD4C19C}SavePosition({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}POSITION{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSavePosition                           {C ff000000}SavePosition({C ffFF0000}GR{C ff000000},{C ffFF0000}POSITION{C ff000000})
+@ENUMHINT::@CLASSID::lvCSavePosition                Save position or position array for Group.
+@HINT::lvCSavePosition                              Save position or position array for Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSendToPosition                                GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSendToPosition::parGrp                      {C ffFF0000}GR
+@HINT::lvCSendToPosition::parGrp                    Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCSendToPosition::UsePoint                    {C ff0000FF}vvPOINT2D {C ffD4C19C}or {C ff0000FF}vvPOINT_SET
+@HINT::lvCSendToPosition::UsePoint                  Select storage value type for send units to position ({C ff0000FF}vvPOINT2D{C ff000000} - send group to point, {C ff0000FF}vvPOINT_SET{C ff000000} - send units from group to position array)
+@ID::lvCSendToPosition::VVpPos                      {C ffFF0000}PT_ARR
+@HINT::lvCSendToPosition::VVpPos                    Select {C ff0000FF}vvPOINT_SET {C ff000000}type varible from list, for send units from group to positons array
+@ID::lvCSendToPosition::vvPoint                     {C ffFF0000}PT
+@HINT::lvCSendToPosition::vvPoint                   Select {C ff0000FF}vvPOINT2D {C ff000000}type varible from list, for send group to point
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSendToPosition::0               {C FFD4C19C}Send({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}PT_ARR{C ffFFFF00}[%$VVpPos$%]{C FFD4C19C})
+@PRES::UserView::lvCSendToPosition::1               {C FFD4C19C}Send({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}PT{C ffFFFF00}[%$vvPoint$%]{C FFD4C19C})
+@PRES::UserView::lvCSendToPosition::2               {C FFD4C19C}Send({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}POSITION{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSendToPosition                         {C ff000000}Send({C ffFF0000}GR{C ff000000},{C ffFF0000}POSITION{C ff000000})
+@ENUMHINT::@CLASSID::lvCSendToPosition              Send Group to position or position array.
+@HINT::lvCSendToPosition                            Send Group to position or position array.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetRessource                                  NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetRessource::Nation                        {C ffFF0000}NAT
+@HINT::lvCSetRessource::Nation                      Select nation {C ff0000FF}0..7
+@ID::lvCSetRessource::refNation                     {C ffFF0000}NAT
+@HINT::lvCSetRessource::refNation                   Select nation {C ff0000FF}0..7
+@ID::lvCSetRessource::UseVV                         {C ff0000FF}Value {C ffD4C19C}or {C ff0000FF}Constant
+@HINT::lvCSetRessource::UseVV                       Use {C ff0000FF}Value {C ff000000} from variables present on map or use {C ff0000FF}constant
+@ID::lvCSetRessource::Food                          {C ffFF0000}F
+@HINT::lvCSetRessource::Food                        Set amount of {C ff0000FF}Food {C ff000000} - constant
+@ID::lvCSetRessource::Wood                          {C ffFF0000}W
+@HINT::lvCSetRessource::Wood                        Set amount of {C ff0000FF}Wood {C ff000000} - constant
+@ID::lvCSetRessource::Stown                         {C ffFF0000}S
+@HINT::lvCSetRessource::Stown                       Set amount of {C ff0000FF}Stown {C ff000000} - constant
+@ID::lvCSetRessource::Gold                          {C ffFF0000}G
+@HINT::lvCSetRessource::Gold                        Set amount of {C ff0000FF}Gold {C ff000000} - constant
+@ID::lvCSetRessource::Iron                          {C ffFF0000}I
+@HINT::lvCSetRessource::Iron                        Set amount of {C ff0000FF}Iron {C ff000000} - constant
+@ID::lvCSetRessource::Coal                          {C ffFF0000}C
+@HINT::lvCSetRessource::Coal                        Set amount of {C ff0000FF}Coal {C ff000000} - constant
+@ID::lvCSetRessource::Money                         {C ffFF0000}M
+@HINT::lvCSetRessource::Money                       Set amount of {C ff0000FF}Money {C ff000000} - constant
+@ID::lvCSetRessource::FoodVV                        {C ffFF0000}F
+@HINT::lvCSetRessource::FoodVV                      Set amount of {C ff0000FF}Food {C ff000000} - value
+@ID::lvCSetRessource::WoodVV                        {C ffFF0000}W
+@HINT::lvCSetRessource::WoodVV                      Set amount of {C ff0000FF}Wood {C ff000000} - value
+@ID::lvCSetRessource::StownVV                       {C ffFF0000}S
+@HINT::lvCSetRessource::StownVV                     Set amount of {C ff0000FF}Stown {C ff000000} - value
+@ID::lvCSetRessource::GoldVV                        {C ffFF0000}G
+@HINT::lvCSetRessource::GoldVV                      Set amount of {C ff0000FF}Gold {C ff000000} - value
+@ID::lvCSetRessource::IronVV                        {C ffFF0000}I
+@HINT::lvCSetRessource::IronVV                      Set amount of {C ff0000FF}Iron {C ff000000} - value
+@ID::lvCSetRessource::CoalVV                        {C ffFF0000}C
+@HINT::lvCSetRessource::CoalVV                      Set amount of {C ff0000FF}Coal {C ff000000} - value
+@ID::lvCSetRessource::MoneyVV                       {C ffFF0000}M
+@HINT::lvCSetRessource::MoneyVV                     Set amount of {C ff0000FF}Money {C ff000000} - value
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetRessource::0                 {C FFD4C19C}SetRess({C ffFF0000}NAT{C ffFFFF00}[%$refNation$%]{C FFD4C19C},{C ffFF0000}F{C ffFFFF00}[%$Food$%]{C FFD4C19C},{C ffFF0000}G{C ffFFFF00}[%$Gold$%]{C FFD4C19C},{C ffFF0000}W{C ffFFFF00}[%$Wood$%]{C FFD4C19C},{C ffFF0000}S{C ffFFFF00}[%$Stown$%]{C FFD4C19C},{C ffFF0000}C{C ffFFFF00}[%$Coal$%]{C FFD4C19C},{C ffFF0000}I{C ffFFFF00}[%$Iron$%]{C FFD4C19C},{C ffFF0000}M{C ffFFFF00}[%$Money$%]{C FFD4C19C})
+@PRES::UserView::lvCSetRessource::1                 {C FFD4C19C}SetRess({C ffFF0000}NAT{C ffFFFF00}[%$Nation$%]{C FFD4C19C},{C ffFF0000}F{C ffFFFF00}[%$Food$%]{C FFD4C19C},{C ffFF0000}G{C ffFFFF00}[%$Gold$%]{C FFD4C19C},{C ffFF0000}W{C ffFFFF00}[%$Wood$%]{C FFD4C19C},{C ffFF0000}S{C ffFFFF00}[%$Stown$%]{C FFD4C19C},{C ffFF0000}C{C ffFFFF00}[%$Coal$%]{C FFD4C19C},{C ffFF0000}I{C ffFFFF00}[%$Iron$%]{C FFD4C19C},{C ffFF0000}M{C ffFFFF00}[%$Money$%]{C FFD4C19C})
+@PRES::UserView::lvCSetRessource::2                 {C FFD4C19C}SetRess({C ffFF0000}NAT{C ffFFFF00}[%$refNation$%]{C FFD4C19C},{C ffFF0000}F{C ffFFFF00}[%$FoodVV$%]{C FFD4C19C},{C ffFF0000}G{C ffFFFF00}[%$GoldVV$%]{C FFD4C19C},{C ffFF0000}W{C ffFFFF00}[%$WoodVV$%]{C FFD4C19C},{C ffFF0000}S{C ffFFFF00}[%$StownVV$%]{C FFD4C19C},{C ffFF0000}C{C ffFFFF00}[%$CoalVV$%]{C FFD4C19C},{C ffFF0000}I{C ffFFFF00}[%$IronVV$%],{C ffFF0000}M{C ffFFFF00}[%$MoneyVV$%]{C FFD4C19C})
+@PRES::UserView::lvCSetRessource::3                 {C FFD4C19C}SetRess({C ffFF0000}NAT{C ffFFFF00}[%$Nation$%]{C FFD4C19C},{C ffFF0000}F{C ffFFFF00}[%$FoodVV$%]{C FFD4C19C},{C ffFF0000}G{C ffFFFF00}[%$GoldVV$%]{C FFD4C19C},{C ffFF0000}W{C ffFFFF00}[%$WoodVV$%]{C FFD4C19C},{C ffFF0000}S{C ffFFFF00}[%$StownVV$%]{C FFD4C19C},{C ffFF0000}C{C ffFFFF00}[%$CoalVV$%]{C FFD4C19C},{C ffFF0000}I{C ffFFFF00}[%$IronVV$%],{C ffFF0000}M{C ffFFFF00}[%$MoneyVV$%]{C FFD4C19C})
+@PRES::UserView::lvCSetRessource::4                 {C FFD4C19C}SetRess({C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}F{C FFD4C19C},{C ffFF0000}G{C FFD4C19C},{C ffFF0000}W{C FFD4C19C},{C ffFF0000}S{C FFD4C19C},{C ffFF0000}C{C FFD4C19C},{C ffFF0000}I{C FFD4C19C},{C ffFF0000}M{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetRessource                           {C ff000000}SetRess({C ffFF0000}NAT{C ff000000},{C ffFF0000}F{C ff000000},{C ffFF0000}G{C ff000000},{C ffFF0000}W{C ff000000},{C ffFF0000}S{C ff000000},{C ffFF0000}C{C ff000000},{C ffFF0000}I{C ff000000},{C ffFF0000}M{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetRessource                Set Ressource for nation.
+@HINT::lvCSetRessource                              Set Ressource for nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCAddRessource                                  NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCAddRessource::Nat                           {C ffFF0000}NAT
+@HINT::lvCAddRessource::Nat                         Select nation {C ff0000FF}0..7
+@ID::lvCAddRessource::refNat                        {C ffFF0000}NAT
+@HINT::lvCAddRessource::refNat                      Select nation {C ff0000FF}0..7
+@ID::lvCAddRessource::RessType                      {C ffFF0000}RT
+@HINT::lvCAddRessource::RessType                    Select {C ff0000FF}Resources Type {C ff000000}from list...
+@ID::lvCAddRessource::Use_VV                        {C ff0000FF}Value {C ffD4C19C}or {C ff0000FF}Constant
+@HINT::lvCAddRessource::Use_VV                      Use {C ff0000FF}Value {C ff000000} from variables present on map or use {C ff0000FF}constant
+@ID::lvCAddRessource::Value                         {C ffFF0000}N
+@HINT::lvCAddRessource::Value                       Set {C ff0000FF}amount {C ff000000}of resources - constant
+@ID::lvCAddRessource::vValue                        {C ffFF0000}N
+@HINT::lvCAddRessource::vValue                      Set {C ff0000FF}amount {C ff000000}of resources - value
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCAddRessource::0                 {C FFD4C19C}AddRess({C ffFF0000}NAT{C ffFFFF00}[%$refNat$%]{C FFD4C19C},{C ffFF0000}RT{C ffFFFF00}[%$RessType$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$Value$%]{C FFD4C19C})
+@PRES::UserView::lvCAddRessource::1                 {C FFD4C19C}AddRess({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}RT{C ffFFFF00}[%$RessType$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$Value$%]{C FFD4C19C})
+@PRES::UserView::lvCAddRessource::2                 {C FFD4C19C}AddRess({C ffFF0000}NAT{C ffFFFF00}[%$refNat$%]{C FFD4C19C},{C ffFF0000}RT{C ffFFFF00}[%$RessType$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$vValue$%]{C FFD4C19C})
+@PRES::UserView::lvCAddRessource::3                 {C FFD4C19C}AddRess({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}RT{C ffFFFF00}[%$RessType$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$vValue$%]{C FFD4C19C})
+@PRES::UserView::lvCAddRessource::4                 {C FFD4C19C}AddRess({C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}RT{C FFD4C19C},{C ffFF0000}N{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCAddRessource                           {C ff000000}AddRess({C ffFF0000}NAT{C ff000000},{C ffFF0000}RT{C ff000000},{C ffFF0000}N{C ff000000})
+@ENUMHINT::@CLASSID::lvCAddRessource                Add Ressource to Nation.
+@HINT::lvCAddRessource                              Add Ressource to Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCStartAIEx                                     NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCStartAIEx::Nation                           {C ffFF0000}NAT
+@HINT::lvCStartAIEx::Nation                         Select AI nation {C ff0000FF}0..7
+@ID::lvCStartAIEx::NameXML                          {C ffFF0000}XML
+@HINT::lvCStartAIEx::NameXML                        Select file with AI script XML data
+@ID::lvCStartAIEx::Land                             {C ffFF0000}LT
+@HINT::lvCStartAIEx::Land                           Set lend type : {C ff0000FF}0{C ff000000} - Land, {C ff0000FF}1{C ff000000} - Mediterranean, {C ff0000FF}2{C ff000000} - Water
+@ID::lvCStartAIEx::Money                            {C ffFF0000}MT
+@HINT::lvCStartAIEx::Money                          Set start money for AI : {C ff0000FF}0{C ff000000} - Normal, {C ff0000FF}1{C ff000000} - Rich, {C ff0000FF}2{C ff000000} - Million
+@ID::lvCStartAIEx::ResOnMap                         {C ffFF0000}RT
+@HINT::lvCStartAIEx::ResOnMap                       Set resource on map type : {C ff0000FF}0{C ff000000} - Poor, {C ff0000FF}1{C ff000000} - Normal, {C ff0000FF}2{C ff000000} - Rich
+@ID::lvCStartAIEx::Use_VV                           {C ff0000FF}Value {C ffD4C19C}or {C ff0000FF}Constant
+@HINT::lvCStartAIEx::Use_VV                         Use {C ff0000FF}Value {C ff000000} from variables present on map or use {C ff0000FF}constant
+@ID::lvCStartAIEx::vDifficulty                      {C ffFF0000}DIF
+@HINT::lvCStartAIEx::vDifficulty                    Set AI difficulty level (value) : {C ff0000FF}0{C ff000000} - Easy, {C ff0000FF}1{C ff000000} - Normal, {C ff0000FF}2{C ff000000} - Hard, {C ff0000FF}3{C ff000000} - Very Hard
+@ID::lvCStartAIEx::Difficulty                       {C ffFF0000}DIF
+@HINT::lvCStartAIEx::Difficulty                     Set AI difficulty level (constant) : {C ff0000FF}0{C ff000000} - Easy, {C ff0000FF}1{C ff000000} - Normal, {C ff0000FF}2{C ff000000} - Hard, {C ff0000FF}3{C ff000000} - Very Hard
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCStartAIEx::0                    {C FFD4C19C}StartAI({C ffFF0000}NAT{C ffFFFF00}[%$Nation$%]{C FFD4C19C},{C ffFF0000}XML{C ffFFFF00}[%$NameXML$%]{C FFD4C19C},{C ffFF0000}LT{C ffFFFF00}[%$Land$%]{C FFD4C19C},{C ffFF0000}MT{C ffFFFF00}[%$Money$%]{C FFD4C19C},{C ffFF0000}RT{C ffFFFF00}[%$ResOnMap$%]{C FFD4C19C},{C ffFF0000}DIF{C ffFFFF00}[%$vDiFFicullty$%]{C FFD4C19C})
+@PRES::UserView::lvCStartAIEx::1                    {C FFD4C19C}StartAI({C ffFF0000}NAT{C ffFFFF00}[%$Nation$%]{C FFD4C19C},{C ffFF0000}XML{C ffFFFF00}[%$NameXML$%]{C FFD4C19C},{C ffFF0000}LT{C ffFFFF00}[%$Land$%]{C FFD4C19C},{C ffFF0000}MT{C ffFFFF00}[%$Money$%]{C FFD4C19C},{C ffFF0000}RT{C ffFFFF00}[%$ResOnMap$%]{C FFD4C19C},{C ffFF0000}DIF{C ffFFFF00}[%$DiFFicullty$%]{C FFD4C19C})
+@PRES::UserView::lvCStartAIEx::2                    {C FFD4C19C}StartAI({C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}XML{C FFD4C19C},{C ffFF0000}LT{C FFD4C19C},{C ffFF0000}MT{C FFD4C19C},{C ffFF0000}RT{C FFD4C19C},{C ffFF0000}DIF{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCStartAIEx                              {C ff000000}StartAI({C ffFF0000}NAT{C ff000000},{C ffFF0000}XML{C ff000000},{C ffFF0000}LT{C ff000000},{C ffFF0000}MT{C ff000000},{C ffFF0000}RT{C ff000000},{C ffFF0000}DIF{C ff000000})
+@ENUMHINT::@CLASSID::lvCStartAIEx                   Start Ai for selected Nation.
+@HINT::lvCStartAIEx                                 Start Ai for selected Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetAIEnableState                              NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetAIEnableState::Nat                       {C ffFF0000}NAT
+@HINT::lvCSetAIEnableState::Nat                     Select AI nation {C ff0000FF}0..7
+@ID::lvCSetAIEnableState::State                     {C ffFF0000}ST
+@HINT::lvCSetAIEnableState::State                   Set process AI state : {C ff0000FF}true{C ff000000} - AI enable, {C ff0000FF}false{C ff000000} - AI disenable
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetAIEnableState::0             {C FFD4C19C}SetAiEnable({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}ST{C ffFFFF00}[%$State$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetAIEnableState                       {C ff000000}SetAiEnable({C ffFF0000}NAT{C ff000000},{C ffFF0000}ST{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetAIEnableState            Sets Ai enable or disenable status for Nation.
+@HINT::lvCSetAIEnableState                          Sets Ai enable or disenable status for Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCShowDialog                                    MOVIE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCShowDialog::Dialog                          {C ffFF0000}DLG
+@HINT::lvCShowDialog::Dialog                        Select {C ff0000FF}dialog {C ff000000}from value list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCShowDialog::0                   {C FFD4C19C}Show({C ffFF0000}DLG{C ffFFFF00}[%$Dialog$%]{C FFD4C19C})
+@PRES::UserView::lvCShowDialog::1                   {C FFD4C19C}Show({C ffFF0000}DLG{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCShowDialog                             {C ff000000}Show({C ffFF0000}DLG{C ff000000})
+@ENUMHINT::@CLASSID::lvCShowDialog                  show Dialog.
+@HINT::lvCShowDialog                                show Dialog.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCAddTextToDlg                                  MOVIE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCAddTextToDlg::Dialog                        {C ffFF0000}DLG
+@HINT::lvCAddTextToDlg::Dialog                      Select {C ff0000FF}dialog {C ff000000}from value list.., present on map
+@ID::lvCAddTextToDlg::Text                          {C ffFF0000}TEXT
+@HINT::lvCAddTextToDlg::Text                        Select {C ff0000FF}text {C ff000000}from value list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCAddTextToDlg::0                 {C FFD4C19C}AddText({C ffFF0000}DLG{C ffFFFF00}[%$Dialog$%]{C FFD4C19C},{C ffFF0000}TEXT{C ffFFFF00}[%$Text$%]{C FFD4C19C})
+@PRES::UserView::lvCAddTextToDlg::1                 {C FFD4C19C}AddText({C ffFF0000}DLG{C FFD4C19C},{C ffFF0000}TEXT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCAddTextToDlg                           {C ff000000}AddText({C ffFF0000}DLG{C ff000000},{C ffFF0000}TEXT{C ff000000})
+@ENUMHINT::@CLASSID::lvCAddTextToDlg                Add text to dialog.
+@HINT::lvCAddTextToDlg                              Add text to dialog.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCClearDialog                                   MOVIE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCClearDialog::Dialog                         {C ffFF0000}DLG
+@HINT::lvCClearDialog::Dialog                       Select {C ff0000FF}dialog {C ff000000}from value list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCClearDialog::0                  {C FFD4C19C}Clear({C ffFF0000}DLG{C ffFFFF00}[%$Dialog$%]{C FFD4C19C})
+@PRES::UserView::lvCClearDialog::1                  {C FFD4C19C}Clear({C ffFF0000}DLG{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCClearDialog                            {C ff000000}Clear({C ffFF0000}DLG{C ff000000})
+@ENUMHINT::@CLASSID::lvCClearDialog                 Clean Dialog Fields.
+@HINT::lvCClearDialog                               Clean Dialog Fields.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetScrollLimit                                SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetScrollLimit::PosLT                       {C ffFF0000}LT
+@HINT::lvCSetScrollLimit::PosLT                     Select {C ff0000FF}vvPOINT2D {C ff000000}type varible from list, for left-top position of scroll limit
+@ID::lvCSetScrollLimit::PosRB                       {C ffFF0000}RB
+@HINT::lvCSetScrollLimit::PosRB                     Select {C ff0000FF}vvPOINT2D {C ff000000}type varible from list, for right-bottom position of scroll limit
+@ID::lvCSetScrollLimit::LockAroud                   {C ffFF0000}LOCK
+@HINT::lvCSetScrollLimit::LockAroud                 If selected - area will be locked around for disable movement 
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetScrollLimit::0               {C FFD4C19C}CutMap({C ffFF0000}LT{C ffFFFF00}[%$PosLT$%]{C FFD4C19C},{C ffFF0000}RB{C ffFFFF00}[%$PosRB$%]{C FFD4C19C},{C ffFF0000}LOCK{C ffFFFF00}[%$LockAroud$%]{C FFD4C19C})
+@PRES::UserView::lvCSetScrollLimit::1               {C FFD4C19C}CutMap({C ffFF0000}LT{C FFD4C19C},{C ffFF0000}RB{C FFD4C19C},{C ffFF0000}LOCK{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetScrollLimit                         {C ff000000}CutMap({C ffFF0000}LT{C ff000000},{C ffFF0000}RB{C ff000000},{C ffFF0000}LOCK{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetScrollLimit              Set scroll map limitation bounded box.
+@HINT::lvCSetScrollLimit                            Set scroll map limitation bounded box.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCArtAttack                                     SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCArtAttack::vgArtID                          {C ffFF0000}ArtGRP
+@HINT::lvCArtAttack::vgArtID                        Select {C ff0000FF}Group{C ff000000} from group list which content artillery units
+@ID::lvCArtAttack::vgTargID                         {C ffFF0000}GR
+@HINT::lvCArtAttack::vgTargID                       Select {C ff0000FF}Group{C ff000000} from group list which content units which be attacked by artillery units
+@ID::lvCArtAttack::AttackActive                     {C ffFF0000}ACTIVE
+@HINT::lvCArtAttack::AttackActive                   Select trigger which activete artattack (if distance to target is fit - less then attack radius)
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCArtAttack::0                    {C FFD4C19C}ArtAttack({C ffFF0000}ArtGR{C ffFFFF00}[%$vgArtID$%]{C FFD4C19C},{C ffFF0000}GR{C ffFFFF00}[%$vgTargID$%]{C FFD4C19C},{C ffFF0000}ACTIVE{C ffFFFF00}[%$AttackActive$%]{C FFD4C19C})
+@PRES::UserView::lvCArtAttack::1                    {C FFD4C19C}ArtAttack({C ffFF0000}ArtGR{C FFD4C19C},{C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ACTIVE{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCArtAttack                              {C ff000000}ArtAttack({C ffFF0000}ArtGR{C ff000000},{C ffFF0000}GR{C ff000000},{C ffFF0000}ACTIVE{C ff000000})
+@ENUMHINT::@CLASSID::lvCArtAttack                   Art Attack Group by Artilery Group.
+@HINT::lvCArtAttack                                 Art Attack Group by Artilery Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCPutNewSquad                                   GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCPutNewSquad::Nat                            {C ffFF0000}NAT
+@HINT::lvCPutNewSquad::Nat                          Select nation {C ff0000FF}0..7
+@ID::lvCPutNewSquad::UnitType                       {C ffFF0000}UT
+@HINT::lvCPutNewSquad::UnitType                     Select {C ff0000FF}unit type {C ff000000}for support group, from units type list.., present in game
+@ID::lvCPutNewSquad::SizeType                       {C ffFF0000}SQT
+@HINT::lvCPutNewSquad::SizeType                     Set {C ff0000FF}Formation/Size = [formation * 100 + size] {C ff000000}(size - 0,1,2) (formation - ???)
+@ID::lvCPutNewSquad::dir                            {C ffFF0000}DIR
+@HINT::lvCPutNewSquad::dir                          Select direction {C ff0000FF}0..255
+@ID::lvCPutNewSquad::parNode                        {C ffFF0000}ND
+@HINT::lvCPutNewSquad::parNode                      Select {C ff0000FF}Node{C ff000000} from node list for locate creation group, located on map
+@ID::lvCPutNewSquad::GrpID                          {C ffFF0000}GR
+@HINT::lvCPutNewSquad::GrpID                        Select destenation {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCPutNewSquad::0                  {C FFD4C19C}AddNewSquad({C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}UT{C ffFFFF00}[%$UnitType$%]{C FFD4C19C},{C ffFF0000}SQT{C ffFFFF00}[%$SizeType$%]{C FFD4C19C},{C ffFF0000}DIR{C ffFFFF00}[%$dir$%]{C FFD4C19C})
+@PRES::UserView::lvCPutNewSquad::1                  {C FFD4C19C}AddNewSquad({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ND{C FFD4C19C},{C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}UT{C FFD4C19C},{C ffFF0000}SQT{C FFD4C19C},{C ffFF0000}DIR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCPutNewSquad                            {C ff000000}AddNewSquad({C ffFF0000}GR{C ff000000},{C ffFF0000}ND{C ff000000},{C ffFF0000}NAT{C ff000000},{C ffFF0000}UT{C ff000000},{C ffFF0000}SQT{C ff000000},{C ffFF0000}DIR{C ff000000})
+@ENUMHINT::@CLASSID::lvCPutNewSquad                 Create new squard in node.
+@HINT::lvCPutNewSquad                               Create new squard in node.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCPutNewFormation                               GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCPutNewFormation::Nat                        {C ffFF0000}NAT
+@HINT::lvCPutNewFormation::Nat                      Select nation {C ff0000FF}0..7
+@ID::lvCPutNewFormation::Form                       {C ffFF0000}FT
+@HINT::lvCPutNewFormation::Form                     Select formation from list ({C ff0000FF}NOTE:{C ff000000} see orders.lst file for detail)
+@ID::lvCPutNewFormation::UType                      {C ffFF0000}UT
+@HINT::lvCPutNewFormation::UType                    Select {C ff0000FF}unit type {C ff000000}for formation, from units type list.., present in game
+@ID::lvCPutNewFormation::dir                        {C ffFF0000}DIR
+@HINT::lvCPutNewFormation::dir                      Select direction {C ff0000FF}0..255
+@ID::lvCPutNewFormation::Use_Zone                   {C ff0000FF}Node {C FFD4C19C}or {C ff0000FF}Point
+@HINT::lvCPutNewFormation::Use_Zone                 Select location type list
+@ID::lvCPutNewFormation::parNode                    {C ffFF0000}ND
+@HINT::lvCPutNewFormation::parNode                  Select {C ff0000FF}Node{C ff000000} from node list for locate creation group, located on map
+@ID::lvCPutNewFormation::Point                      {C ffFF0000}PT
+@HINT::lvCPutNewFormation::Point                    Select {C ff0000FF}Point {C ff000000}from value list for locate creation group, located on map
+@ID::lvCPutNewFormation::vGrpID                     {C ffFF0000}GR
+@HINT::lvCPutNewFormation::vGrpID                   Select destenation {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCPutNewFormation::0              {C FFD4C19C}AddNewUnits({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}UT{C ffFFFF00}[%$UType$%]{C FFD4C19C},{C ffFF0000}FT{C ffFFFF00}[%$Form$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C},{C ffFF0000}DIR{C ffFFFF00}[%$dir$%]{C FFD4C19C})
+@PRES::UserView::lvCPutNewFormation::1              {C FFD4C19C}AddNewUnits({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}UT{C ffFFFF00}[%$UType$%]{C FFD4C19C},{C ffFF0000}FT{C ffFFFF00}[%$Form$%]{C FFD4C19C},{C ffFF0000}PT{C ffFFFF00}[%$Point$%]{C FFD4C19C},{C ffFF0000}DIR{C ffFFFF00}[%$dir$%]{C FFD4C19C})
+@PRES::UserView::lvCPutNewFormation::2              {C FFD4C19C}AddNewUnits({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}UT{C FFD4C19C},{C ffFF0000}FT{C FFD4C19C},{C ffFF0000}POSITION{C FFD4C19C},{C ffFF0000}DIR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCPutNewFormation                        {C ff000000}AddNewUnits({C ffFF0000}GR{C ff000000},{C ffFF0000}NAT{C ff000000},{C ffFF0000}UT{C ff000000},{C ffFF0000}FT{C ff000000},{C ffFF0000}POSITION{C ff000000},{C ffFF0000}DIR{C ff000000})
+@ENUMHINT::@CLASSID::lvCPutNewFormation             Create new units in node with seted UnitType and add it to Group.
+@HINT::lvCPutNewFormation                           Create new units in node with seted UnitType and add it to Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetUnitEnableState                            NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetUnitEnableState::Nat                     {C ffFF0000}NAT
+@HINT::lvCSetUnitEnableState::Nat                   Select nation {C ff0000FF}0..7
+@ID::lvCSetUnitEnableState::TypeID                  {C ffFF0000}UT
+@HINT::lvCSetUnitEnableState::TypeID                Select {C ff0000FF}unit type {C ff000000}from units type list.., present in game
+@ID::lvCSetUnitEnableState::State                   {C ffFF0000}ST
+@HINT::lvCSetUnitEnableState::State                 Set unit produce status : {C ff0000FF}-1 {C ff000000}- disable, {C ff0000FF}0 {C ff000000}- default, {C ff0000FF}1 {C ff000000}- enable always
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetUnitEnableState::0           {C FFD4C19C}SetProduceEnableState({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}UT{C ffFFFF00}[%$TypeID$%]{C FFD4C19C},{C ffFF0000}ST{C ffFFFF00}[%$State$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetUnitEnableState                     {C ff000000}SetProduceEnableState({C ffFF0000}NAT{C ff000000},{C ffFF0000}UT{C ff000000},{C ffFF0000}ST{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetUnitEnableState          Set Unit Type produse Enable statues for Nation.
+@HINT::lvCSetUnitEnableState                        Set Unit Type produse Enable statues for Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetUpgradeEnableStatus                        NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetUpgradeEnableStatus::Nat                 {C ffFF0000}NAT
+@HINT::lvCSetUpgradeEnableStatus::Nat               Select nation {C ff0000FF}0..7	
+@ID::lvCSetUpgradeEnableStatus::UpgradeID           {C ffFF0000}UP
+@HINT::lvCSetUpgradeEnableStatus::UpgradeID         Select {C ff0000FF}upgrade type {C ff000000}from upgrade type list.., present in game ({C ff0000FF}NOTE:{C ff000000} see *.nds files for detail)
+@ID::lvCSetUpgradeEnableStatus::State               {C ffFF0000}ST
+@HINT::lvCSetUpgradeEnableStatus::State             Set unit produce status : {C ff0000FF}-1 {C ff000000}- disable, {C ff0000FF}0 {C ff000000}- default, {C ff0000FF}1 {C ff000000}- enable always
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetUpgradeEnableStatus::0       {C FFD4C19C}SetUpgradeEnableState({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}UP{C ffFFFF00}[%$UpgradeID$%]{C FFD4C19C},{C ffFF0000}ST{C ffFFFF00}[%$State$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetUpgradeEnableStatus                 {C ff000000}SetUpgradeEnableState({C ffFF0000}NAT{C ff000000},{C ffFF0000}UP{C ff000000},{C ffFF0000}ST{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetUpgradeEnableStatus      Set Upgrade Enable statues for Nation.
+@HINT::lvCSetUpgradeEnableStatus                    Set Upgrade Enable statues for Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetUpgradeDone                                NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetUpgradeDone::GrpID                       {C ffFF0000}GR
+@HINT::lvCSetUpgradeDone::GrpID                     Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCSetUpgradeDone::UpgradeID                   {C ffFF0000}UP
+@HINT::lvCSetUpgradeDone::UpgradeID                 Select {C ff0000FF}upgrade type {C ff000000}from upgrade type list.., present in game ({C ff0000FF}NOTE:{C ff000000} see *.nds files for detail)
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetUpgradeDone::0               {C FFD4C19C}ApplyUpgrade({C ffFF0000}UP{C ffFFFF00}[%$UpgradeID$%]{C FFD4C19C},{C ffFF0000}GR{C ffFFFF00}[%$GrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCSetUpgradeDone::1               {C FFD4C19C}ApplyUpgrade({C ffFF0000}UP{C FFD4C19C},{C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetUpgradeDone                         {C ff000000}ApplyUpgrade({C ffFF0000}UP{C ff000000},{C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetUpgradeDone              Create Upgrade for Group (Nation if it is global - use more often)
+@HINT::lvCSetUpgradeDone                            Create Upgrade for Group (Nation if it is global - use more often)
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCTeleport                                      GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCTeleport::vGrpID                            {C ffFF0000}GR
+@HINT::lvCTeleport::vGrpID                          Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCTeleport::Direction                         {C ffFF0000}DIR
+@HINT::lvCTeleport::Direction                       Select direction {C ff0000FF}0..255{C ff000000} or{C ff0000FF} 512{C ff000000} (do not change last direction)
+@ID::lvCTeleport::dX                                {C ff0000FF}dX
+@HINT::lvCTeleport::dX                              Set delta {C ff0000FF}X {C ff000000}for teleport position, units teleport in <POS.X - dX> position and send in <POS.X>
+@ID::lvCTeleport::dY                                {C ff0000FF}dY
+@HINT::lvCTeleport::dY                              Set delta {C ff0000FF}Y {C ff000000}for teleport position, units teleport in <POS.Y - dY> position and send in <POS.Y>
+@ID::lvCTeleport::Use_VVal                          {C ff0000FF}Node {C FFD4C19C}or {C ff0000FF}Point
+@HINT::lvCTeleport::Use_VVal                        Select teleport location type list
+@ID::lvCTeleport::parNode                           {C ffFF0000}ND
+@HINT::lvCTeleport::parNode                         Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+@ID::lvCTeleport::Point                             {C ffFF0000}PT
+@HINT::lvCTeleport::Point                           Select {C ff0000FF}Node{C ff000000} from point list.., located on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCTeleport::0                     {C FFD4C19C}Teleport({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C},{C ffFF0000}DIR{C ffFFFF00}[%$Direction$%]{C FFD4C19C},{C ffFF0000}dX{C ffFFFF00}[%$dX$%]{C FFD4C19C},{C ffFF0000}dY{C ffFFFF00}[%$dY$%]{C FFD4C19C})
+@PRES::UserView::lvCTeleport::1                     {C FFD4C19C}Teleport({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C},{C ffFF0000}PT{C ffFFFF00}[%$Point$%]{C FFD4C19C},{C ffFF0000}DIR{C ffFFFF00}[%$Direction$%]{C FFD4C19C},{C ffFF0000}dX{C ffFFFF00}[%$dX$%]{C FFD4C19C},{C ffFF0000}dY{C ffFFFF00}[%$dY$%]{C FFD4C19C})
+@PRES::UserView::lvCTeleport::2                     {C FFD4C19C}Teleport({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}POSITION{C FFD4C19C},{C ffFF0000}DIR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCTeleport                               {C ff000000}Teleport({C ffFF0000}GR{C ff000000},{C ffFF0000}POSITION{C ff000000},{C ffFF0000}DIR{C ff000000})
+@ENUMHINT::@CLASSID::lvCTeleport                    Teleport Group to new position or Node.
+@HINT::lvCTeleport                                  Teleport Group to new position or Node.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCDisband                                       GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCDisband::vGrpID                             {C ffFF0000}GR
+@HINT::lvCDisband::vGrpID                           Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCDisband::0                      {C FFD4C19C}Disband({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCDisband::1                      {C FFD4C19C}Disband({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCDisband                                {C ff000000}Disband({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCDisband                     Disband squars in Group.
+@HINT::lvCDisband                                   Disband squars in Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCScare                                         COSSAKSII
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCScare::vGrpID                               {C ffFF0000}GR
+@HINT::lvCScare::vGrpID                             Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCScare::0                        {C FFD4C19C}Scare({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCScare::1                        {C FFD4C19C}Scare({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCScare                                  {C ff000000}Scare({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCScare                       Scare Group.
+@HINT::lvCScare                                     Scare Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCClearSG                                       COSSAKSII
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCClearSG::vGrpID                             {C ffFF0000}GR
+@HINT::lvCClearSG::vGrpID                           Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCClearSG::0                      {C FFD4C19C}ClearStendGround({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCClearSG::1                      {C FFD4C19C}ClearStendGround({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCClearSG                                {C ff000000}ClearStendGround({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCClearSG                     Set Group in stand-ground mode.
+@HINT::lvCClearSG                                   Set Group in stand-ground mode.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCUnloadSquad                                   COSSAKSII
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCUnloadSquad::vGRP                           {C ffFF0000}GR
+@HINT::lvCUnloadSquad::vGRP                         Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCUnloadSquad::0                  {C FFD4C19C}UnloadWeapon({C ffFF0000}GR{C ffFFFF00}[%$vGRP$%]{C FFD4C19C})
+@PRES::UserView::lvCUnloadSquad::1                  {C FFD4C19C}UnloadWeapon({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCUnloadSquad                            {C ff000000}UnloadWeapon({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCUnloadSquad                 Group - Discharge rifles.
+@HINT::lvCUnloadSquad                               Group - Discharge rifles.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSpotGrpByUType                                GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSpotGrpByUType::Nat                         {C ffFF0000}NAT
+@HINT::lvCSpotGrpByUType::Nat                       Select nation {C ff0000FF}0..7
+@ID::lvCSpotGrpByUType::vGrpID                      {C ffFF0000}GR
+@HINT::lvCSpotGrpByUType::vGrpID                    Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCSpotGrpByUType::UnitType                    {C ffFF0000}UT
+@HINT::lvCSpotGrpByUType::UnitType                  Select {C ff0000FF}unit type {C ff000000}from units type list.., present in game
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSpotGrpByUType::0               {C FFD4C19C}FillGroup({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}UT{C ffFFFF00}[%$UnitType$%]{C FFD4C19C})
+@PRES::UserView::lvCSpotGrpByUType::1               {C FFD4C19C}FillGroup({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}UT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSpotGrpByUType                         {C ff000000}FillGroup({C ffFF0000}GR{C ff000000},{C ffFF0000}NAT{C ff000000},{C ffFF0000}UT{C ff000000})
+@ENUMHINT::@CLASSID::lvCSpotGrpByUType              Collect units of similar type into a group of setted Nation.
+@HINT::lvCSpotGrpByUType                            Collect units of similar type into a group of setted Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCRemoveNUnitsTo                                GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCRemoveNUnitsTo::vGrpSource                  {C ffFF0000}SRCGR
+@HINT::lvCRemoveNUnitsTo::vGrpSource                Select {C ff0000FF}Group{C ff000000} from group list from units will be removed, present on map
+@ID::lvCRemoveNUnitsTo::vGrpDest                    {C ffFF0000}DSTGR
+@HINT::lvCRemoveNUnitsTo::vGrpDest                  Select {C ff0000FF}Group{C ff000000} from group list for store removed units, present on map
+@ID::lvCRemoveNUnitsTo::N                           {C ffFF0000}N
+@HINT::lvCRemoveNUnitsTo::N                         Set units {C ff0000FF}number {C ff000000}for removing, {C ff0000FF}65535 {C ff000000}- remove all
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCRemoveNUnitsTo::0               {C FFD4C19C}RemoveUnits({C ffFF0000}SRCGR{C ffFFFF00}[%$vGrpSource$%]{C FFD4C19C},{C ffFF0000}DSTGR{C ffFFFF00}[%$vGrpDest$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}(%$N$%){C FFD4C19C})
+@PRES::UserView::lvCRemoveNUnitsTo::1               {C FFD4C19C}RemoveUnits({C ffFF0000}SRCGR{C FFD4C19C},{C ffFF0000}DSTGR{C FFD4C19C},{C ffFF0000}N{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCRemoveNUnitsTo                         {C ff000000}RemoveUnits({C ffFF0000}SRCGR{C ff000000},{C ffFF0000}DSTGR{C ff000000},{C ffFF0000}N{C ff000000})
+@ENUMHINT::@CLASSID::lvCRemoveNUnitsTo              Remove unists from souce Group and add it to dest Group.
+@HINT::lvCRemoveNUnitsTo                            Remove unists from souce Group and add it to dest Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetMyNation                                   NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetMyNation::Nat                            {C ffFF0000}NAT
+@HINT::lvCSetMyNation::Nat                          Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetMyNation::0                  {C FFD4C19C}SetPlayerNation({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetMyNation                            {C ff000000}SetPlayerNation({C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetMyNation                 Set Nation for Player.
+@HINT::lvCSetMyNation                               Set Nation for Player.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCEqualizeSpeed                                 GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCEqualizeSpeed::vGrp0                        {C ffFF0000}GR1
+@HINT::lvCEqualizeSpeed::vGrp0                      Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCEqualizeSpeed::vGrp1                        {C ffFF0000}GR2
+@HINT::lvCEqualizeSpeed::vGrp1                      Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCEqualizeSpeed::EqType                       {C ffFF0000}ET
+@HINT::lvCEqualizeSpeed::EqType                     Set equalize type. Speed cap from group1 (if group1=NULL then from group2), and apply for group1 and group2
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCEqualizeSpeed::0                {C FFD4C19C}EqualizeSpeed({C ffFF0000}GR1{C ffFFFF00}[%$vGrp0$%]{C FFD4C19C},{C ffFF0000}GR2{C ffFFFF00}[%$vGrp1$%]{C FFD4C19C},{C ffFF0000}ET{C ffFFFF00}[%$EqType$%]{C FFD4C19C})
+@PRES::UserView::lvCEqualizeSpeed::1                {C FFD4C19C}EqualizeSpeed({C ffFF0000}GR1{C FFD4C19C},{C ffFF0000}GR2{C FFD4C19C},{C ffFF0000}ET{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCEqualizeSpeed                          {C ff000000}EqualizeSpeed({C ffFF0000}GR1{C ff000000},{C ffFF0000}GR2{C ff000000},{C ffFF0000}ET{C ff000000})
+@ENUMHINT::@CLASSID::lvCEqualizeSpeed               Equalise speed for Group use modificator.
+@HINT::lvCEqualizeSpeed                             Equalise speed for Group use modificator.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCCreateBrigade                                 GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCCreateBrigade::vGrp                         {C ffFF0000}GR
+@HINT::lvCCreateBrigade::vGrp                       Select {C ff0000FF}source group{C ff000000} from group list.., present on map
+@ID::lvCCreateBrigade::vBrigGrp                     {C ffFF0000}SQGR
+@HINT::lvCCreateBrigade::vBrigGrp                   Select {C ff0000FF}destenation group{C ff000000} from group list (if not selected, units do not remove in this group), present on map
+@ID::lvCCreateBrigade::Use_VV                       {C ff0000FF}Value {C ffD4C19C}or {C ff0000FF}Constant
+@HINT::lvCCreateBrigade::Use_VV                     Use {C ff0000FF}Value {C ff000000} from variables present on map or use {C ff0000FF}constant
+@ID::lvCCreateBrigade::iSize                        {C ffFF0000}SIZE
+@HINT::lvCCreateBrigade::iSize                      Set units number in new squard formation
+@ID::lvCCreateBrigade::vSize                        {C ffFF0000}SIZE
+@HINT::lvCCreateBrigade::vSize                      Set units number in new squard formation
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCCreateBrigade::0                {C FFD4C19C}CreateSquard({C ffFF0000}GR{C ffFFFF00}(%$vGrp$%){C FFD4C19C},{C ffFF0000}SQGR{C ffFFFF00}(%$vBrigGrp$%){C FFD4C19C},{C ffFF0000}SIZE{C ffFFFF00}[%$iSize$%]{C FFD4C19C})
+@PRES::UserView::lvCCreateBrigade::1                {C FFD4C19C}CreateSquard({C ffFF0000}GR{C ffFFFF00}(%$vGrp$%){C FFD4C19C},{C ffFF0000}SQGR{C ffFFFF00}(%$vBrigGrp$%){C FFD4C19C},{C ffFF0000}SIZE{C ffFFFF00}[%$vSize$%]{C FFD4C19C})
+@PRES::UserView::lvCCreateBrigade::2                {C FFD4C19C}CreateSquard({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}SQGR{C FFD4C19C},{C ffFF0000}SIZE{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCCreateBrigade                          {C ff000000}CreateSquard({C ffFF0000}GR{C ff000000},{C ffFF0000}SQGR{C ff000000},{C ffFF0000}SIZE{C ff000000})
+@ENUMHINT::@CLASSID::lvCCreateBrigade               Create Squard use units from Group.
+@HINT::lvCCreateBrigade                             Create Squard use units from Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCAddFarms                                      SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCAddFarms::Nat                               {C ffFF0000}NAT
+@HINT::lvCAddFarms::Nat                             Select nation {C ff0000FF}0..7
+@ID::lvCAddFarms::Farms                             {C ffFF0000}N
+@HINT::lvCAddFarms::Farms                           Set number of quarter
+@ID::lvCAddFarms::SET                               {C ffFF0000}SET
+@HINT::lvCAddFarms::SET                             If SET is true then set current quarter number
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCAddFarms::0                     {C FFD4C19C}AddLivingSpace({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$Farms$%]{C FFD4C19C})
+@PRES::UserView::lvCAddFarms::1                     {C FFD4C19C}SetLivingSpace({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$Farms$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCAddFarms                               {C ff000000}LivingSpace({C ffFF0000}NAT{C ff000000},{C ffFF0000}N{C ff000000},{C ffFF0000}SET{C ff000000})
+@ENUMHINT::@CLASSID::lvCAddFarms                    Add or Set new living space for Nation.
+@HINT::lvCAddFarms                                  Add or Set new living space for Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetSerchWFlag                                 GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetSerchWFlag::vGrp                         {C ffFF0000}GR
+@HINT::lvCSetSerchWFlag::vGrp                       Select {C ff0000FF}group{C ff000000} from group list.., present on map
+@ID::lvCSetSerchWFlag::SearchWict                   {C ffFF0000}ST
+@HINT::lvCSetSerchWFlag::SearchWict                 Set {C ff0000FF}seach {C ff000000}status for group, if {C ff0000FF}false {C ff000000}- group do not react to any other units
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetSerchWFlag::0                {C FFD4C19C}SerachEnemy({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C},{C ffFF0000}ST{C ffFFFF00}[%$SearchWict$%]{C FFD4C19C})
+@PRES::UserView::lvCSetSerchWFlag::1                {C FFD4C19C}SerachEnemy({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ST{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetSerchWFlag                          {C ff000000}SerachEnemy({C ffFF0000}GR{C ff000000},{C ffFF0000}ST{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetSerchWFlag               Ste Group search enemy flag.
+@HINT::lvCSetSerchWFlag                             Ste Group search enemy flag.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCClearOrders                                   GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCClearOrders::vGrp                           {C ffFF0000}GR
+@HINT::lvCClearOrders::vGrp                         Select {C ff0000FF}group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCClearOrders::0                  {C FFD4C19C}ClearOrders({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C})
+@PRES::UserView::lvCClearOrders::1                  {C FFD4C19C}ClearOrders({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCClearOrders                            {C ff000000}ClearOrders({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCClearOrders                 Clear Odedr for Group.
+@HINT::lvCClearOrders                               Clear Odedr for Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetTired                                      COSSAKSII
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetTired::vGrp                              {C ffFF0000}GR
+@HINT::lvCSetTired::vGrp                            Select {C ff0000FF}group{C ff000000} from group list.., present on map
+@ID::lvCSetTired::SetedTiredValue                   {C ffFF0000}TL
+@HINT::lvCSetTired::SetedTiredValue                 Set {C ff0000FF}tired {C ff000000}level {C ff0000FF}0..100
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetTired::0                     {C FFD4C19C}SetTired({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C},{C ffFF0000}TL{C ffFFFF00}[%$SetedTiredValue$%]{C FFD4C19C})
+@PRES::UserView::lvCSetTired::1                     {C FFD4C19C}SetTired({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}TL{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetTired                               {C ff000000}SetTired({C ffFF0000}GR{C ff000000},{C ffFF0000}TL{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetTired                    Set Group Trige level.
+@HINT::lvCSetTired                                  Set Group Trige level.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCPushNUnitAway                                 TRANSPORT
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCPushNUnitAway::vGrpID                       {C ffFF0000}GR
+@HINT::lvCPushNUnitAway::vGrpID                     Select {C ff0000FF}group{C ff000000} from group list which keep transport units, present on map
+@ID::lvCPushNUnitAway::N                            {C ffFF0000}N
+@HINT::lvCPushNUnitAway::N                          Set units {C ff0000FF}number {C ff000000}for landing, {C ff0000FF}0 {C ff000000}- landing all
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCPushNUnitAway::0                {C FFD4C19C}LandUnits({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$N$%]{C FFD4C19C})
+@PRES::UserView::lvCPushNUnitAway::1                {C FFD4C19C}LandUnits({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}N{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCPushNUnitAway                          {C ff000000}LandUnits({C ffFF0000}GR{C ff000000},{C ffFF0000}N{C ff000000})
+@ENUMHINT::@CLASSID::lvCPushNUnitAway               Landing units from a transport Group to ground.
+@HINT::lvCPushNUnitAway                             Landing units from a transport Group to ground.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSendUnitsToTransport                          TRANSPORT
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSendUnitsToTransport::vGrpUnitsID           {C ffFF0000}GR
+@HINT::lvCSendUnitsToTransport::vGrpUnitsID         Select {C ff0000FF}group{C ff000000} from group list for send it to transport, present on map
+@ID::lvCSendUnitsToTransport::vGrpTransID           {C ffFF0000}TRGR
+@HINT::lvCSendUnitsToTransport::vGrpTransID         Select {C ff0000FF}group{C ff000000} from group list which keep transport units, present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSendUnitsToTransport::0         {C FFD4C19C}SendToTransport({C ffFF0000}GR{C ffFFFF00}[%$vGrpUnitsID$%]{C FFD4C19C},{C ffFF0000}TRGR{C ffFFFF00}[%$vGrpTransID$%]{C FFD4C19C})
+@PRES::UserView::lvCSendUnitsToTransport::1         {C FFD4C19C}SendToTransport({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}TRGR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSendUnitsToTransport                   {C ff000000}SendToTransport({C ffFF0000}GR{C ff000000},{C ffFF0000}TRGR{C ff000000})
+@ENUMHINT::@CLASSID::lvCSendUnitsToTransport        Send Group to Transport Group ( Fill Transport with units ).
+@HINT::lvCSendUnitsToTransport                      Send Group to Transport Group ( Fill Transport with units ).
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCPlayOGMiss                                    SOUND
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCPlayOGMiss::pFileName                       {C ffFF0000}File {C FFD4C19C}name
+@HINT::lvCPlayOGMiss::pFileName                     Select file name for playing sound
+@ID::lvCPlayOGMiss::pStream                         {C ffFF0000}Stream
+@HINT::lvCPlayOGMiss::pStream                       Select sound {C ff0000FF}stream {C ff000000}for play sound
+@ID::lvCPlayOGMiss::pCyclic                         {C Cyclic}
+@HINT::lvCPlayOGMiss::pCyclic                       If selected - sound will be playing {C ff0000FF}cyclic
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCPlayOGMiss::0                   PlayOgMiss {C ffFF0000}FN {C ffFFFF00}(%$File$%){C FFD4C19C}, {C ffFF0000}Stream {C ffFFFF00}(%$pStream$%)
+@PRES::UserView::lvCPlayOGMiss::1                   PlayOGMiss {C ffFF0000}FN {C ffFFFF00}(%$File$%){C FFD4C19C}, {C ffFF0000}Stream {C ffFFFF00}(%$pStream$%) {C FFD4C19C}Cyclic
+@PRES::UserView::lvCPlayOGMiss::2                   PlayOgMiss
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCPlayOGMiss                             {C ff000000}Play OG Miss
+@ENUMHINT::@CLASSID::lvCPlayOGMiss                  Play sound file in Stream.
+@HINT::lvCPlayOGMiss                                Play sound file in Stream.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCStopOGMiss                                    SOUND
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCStopOGMiss::pStream                         {C ffFF0000}Stream
+@HINT::lvCStopOGMiss::pStream                       Select sound {C ff0000FF}stream {C ff000000}for {C ffFF0000}STOP {C ff000000}play sound
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCStopOGMiss::0                   StopOgMiss {C ffFF0000}FN {C ffffff00}(%$pStream$%)
+@PRES::UserView::lvCStopOGMiss::1                   StopOgMiss
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCStopOGMiss                             {C ff000000}Stop OG Miss
+@ENUMHINT::@CLASSID::lvCStopOGMiss                  Stop sound in stream.
+@HINT::lvCStopOGMiss                                Stop sound in stream.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCOGSetVolume                                   SOUND
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCOGSetVolume::pStream                        {C ffFF0000}Stream
+@HINT::lvCOGSetVolume::pStream                      Select sound {C ff0000FF}stream {C ff000000}for {C ffFF0000}SET {C ff000000}sound {C ff0000FF}volume
+@ID::lvCOGSetVolume::Volume                         {C ffFF0000}Volume
+@HINT::lvCOGSetVolume::Volume                       Set {C ff0000FF}volume {C ff000000}for current sound stream
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCOGSetVolume::0                  Set Volume {C ffFFFF00}(%$Volum$%){C FFD4C19C}, {C ffFF0000}STM {C ffFFFF00}(%$Stream$%)
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCOGSetVolume                            {C ff000000}Set {C ff0000FF}Volume 
+@ENUMHINT::@CLASSID::lvCOGSetVolume                 Set sound stream volume.
+@HINT::lvCOGSetVolume                               Set sound stream volume.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCRunTimer                                      SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCRunTimer::TimerID                           {C ffFF0000}TID
+@HINT::lvCRunTimer::TimerID                         Set {C ff0000FF}timer index {C ff000000}for run it
+@ID::lvCRunTimer::TrTime                            {C ffFF0000}MSC
+@HINT::lvCRunTimer::TrTime                          If selected then use true time (msec), else use internal unit time
+@ID::lvCRunTimer::UseVV                             {C ff0000FF}Value {C ffD4C19C}or {C ff0000FF}Constant
+@HINT::lvCRunTimer::UseVV                           Use {C ff0000FF}Value {C ff000000} from variables present on map or use {C ff0000FF}Constant
+@ID::lvCRunTimer::Time                              {C ffFF0000}TIME
+@HINT::lvCRunTimer::Time                            Set {C ff0000FF}time {C ff000000}value for triger - constant
+@ID::lvCRunTimer::VVpInt                            {C ffFF0000}TIME
+@HINT::lvCRunTimer::VVpInt                          Set {C ff0000FF}time {C ff000000}value for triger - value
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCRunTimer::0                     {C FFD4C19C}RunTimer({C ffFF0000}TID{C ffFFFF00}[%$TimerID$%]{C FFD4C19C},{C ffFF0000}TIME{C ffFFFF00}[%$Time$%]{C FFD4C19C},{C ffFF0000}MS{C ffFFFF00}[%$TrTime$%]{C FFD4C19C})
+@PRES::UserView::lvCRunTimer::1                     {C FFD4C19C}RunTimer({C ffFF0000}TID{C ffFFFF00}[%$TimerID$%]{C FFD4C19C},{C ffFF0000}TIME{C ffFFFF00}[%$VVpInt$%]{C FFD4C19C},{C ffFF0000}MS{C ffFFFF00}[%$TrTime$%]{C FFD4C19C})
+@PRES::UserView::lvCRunTimer::2                     {C FFD4C19C}RunTimer({C ffFF0000}TID{C FFD4C19C},{C ffFF0000}TIME{C FFD4C19C},{C ffFF0000}MS{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCRunTimer                               {C ff000000}RunTimer({C ffFF0000}TID{C ff000000},{C ffFF0000}TIME{C ff000000},{C ffFF0000}MS{C ff000000})
+@ENUMHINT::@CLASSID::lvCRunTimer                    Run sysytem timer.
+@HINT::lvCRunTimer                                  Run sysytem timer.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetGameMode                                   SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetGameMode::ModeST                         {C ffFF0000}MT
+@HINT::lvCSetGameMode::ModeST                       Set game mode: value of bits mask {C ff0000FF}1 (bit 0) {C ff000000}- resouce panel, {C ff0000FF}2 (bit 1) {C ff000000}- minimap, {C ff0000FF}4 (bit 2) {C ff000000}- units interface, set {C ff0000FF}255 {C ff000000}for defoult
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetGameMode::0                  {C FFD4C19C}SetGameMode({C ffFF0000}MT{C ffFFFF00}[%$ModeST$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetGameMode                            {C ff000000}SetGameMode({C ffFF0000}MT{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetGameMode                 Set GAME MODE. (define action for user)
+@HINT::lvCSetGameMode                               Set GAME MODE. (define action for user)
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetCamera                                     CAMERA
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetCamera::camera                           {C FFffff00}CAMERA
+@HINT::lvCSetCamera::camera                         Select camera from camera list.
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetCamera::0                    {C FFD4C19C}SetCamera({C ffFF0000}CAMERA{C FFffff00}[%$camera$%]{C FFD4C19C})
+@PRES::UserView::lvCSetCamera::1                    {C FFD4C19C}SetCamera({C ffFF0000}CAMERA{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetCamera                              {C ff000000}SetCamera({C ffFF0000}CAMERA{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetCamera                   Set Player camera in position from selected camera.
+@HINT::lvCSetCamera                                 Set Player camera in position from selected camera.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCMoveCamera                                    CAMERA
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCMoveCamera::POS0                            {C ffFF0000}Start Position
+@HINT::lvCMoveCamera::POS0                          Select value for {C ff0000FF}start {C ff000000}camera position
+@ID::lvCMoveCamera::POS1                            {C ffFF0000}Stop Position
+@HINT::lvCMoveCamera::POS1                          Select value for {C ff0000FF}stop {C ff000000}camera position
+@ID::lvCMoveCamera::DIR0                            {C ffFF0000}Start Direction
+@HINT::lvCMoveCamera::DIR0                          Select value for {C ff0000FF}start {C ff000000}camera direction
+@ID::lvCMoveCamera::DIR1                            {C ffFF0000}Stop Direction
+@HINT::lvCMoveCamera::DIR1                          Select value for {C ff0000FF}stop {C ff000000}camera direction
+@ID::lvCMoveCamera::useMapXY                        {C ff0000FF}Move Type
+@HINT::lvCMoveCamera::useMapXY                      Use for scrolling from start pos to stop pos, do not change direction (use another interpolate - player scroler) 
+@ID::lvCMoveCamera::Time                            {C ffFF0000}Scrolling Time
+@HINT::lvCMoveCamera::Time                          Set {C ff0000FF}time {C ff000000}for scrolling camera ({C ff0000FF}msec{C ff000000})
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCMoveCamera::0                   Move camera {C ffFF0000}P0 {C ffFFFF00}(%$POS0$%) {C ffFF0000}P1 {C ffFFFF00}(%$POS1$%) - {C ffFF0000}XY
+@PRES::UserView::lvCMoveCamera::1                   Move Camera To {C ffFF0000}P0 {C ffFFFF00}(%$POS0$%)   
+@PRES::UserView::lvCMoveCamera::2                   Move {C ffFF0000}Camera  to P0(%$POS0$%) from P1(%$POS1$%) without Direction
+@PRES::UserView::lvCMoveCamera::3                   Move Camer to {C ffFF0000}P0 {C ffFFFF00}(%$POS0$%) current current Deraction {C ffFFFF00}(%$DIR0$%) 
+@PRES::UserView::lvCMoveCamera::4                   Move Camera {C ffFF0000}P0 {C ffFF0000}(%$POS0$%) {C ffFF0000}D0 {C ffFF0000}(%$DIR0$%){C FFD4C19C} to  {C ffFF0000}P1 {C ffFFFF00}(%$POS1$%) {C ffFF0000}D1 {C ffFFFF00}(%$DIR1$%)                     
+@PRES::UserView::lvCMoveCamera::5                   MOve camera
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCMoveCamera                             {C ff000000}Move {C ff0000FF}Camera
+@ENUMHINT::@CLASSID::lvCMoveCamera                  Move Camera bitveen Position.
+@HINT::lvCMoveCamera                                Move Camera bitveen Position.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCAttachCameraToGroup                           CAMERA
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCAttachCameraToGroup::vGrpID                 {C ffFF0000}Group {C FFD4C19C}name
+@HINT::lvCAttachCameraToGroup::vGrpID               Select {C ff0000FF}group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCAttachCameraToGroup::0          Attach Camera To {C ffFF0000}Group {C ffFFFF00}(%$vGrpID$%)
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCAttachCameraToGroup                    {C ff000000}Attach Camera To {C ff0000FF}Group
+@ENUMHINT::@CLASSID::lvCAttachCameraToGroup         Attach Camera to Group. (Call once)
+@HINT::lvCAttachCameraToGroup                       Attach Camera to Group. (Call once)
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetLMode                                      SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetLMode::Use_VV                            {C ff0000FF}Value {C ffD4C19C}or {C ff0000FF}Constant
+@HINT::lvCSetLMode::Use_VV                          Use {C ff0000FF}Value {C ff000000} from variables present on map or use {C ff0000FF}Constant
+@ID::lvCSetLMode::vMode                             {C ffFF0000}MT
+@HINT::lvCSetLMode::vMode                           Select value from list for set {C ff0000FF}L Mode {C ff000000}style
+@ID::lvCSetLMode::iMode                             {C ffFF0000}MT
+@HINT::lvCSetLMode::iMode                           Select constant for set {C ff0000FF}L Mode {C ff000000}style: {C ff0000FF}0 {C ff000000}- set L Mode, {C ff0000FF}1 {C ff000000}- clear L Mode
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetLMode::0                     {C FFD4C19C}SetLMode({C ffFF0000}MT{C ffFFFF00}[%$iMode$%]{C FFD4C19C})
+@PRES::UserView::lvCSetLMode::1                     {C FFD4C19C}SetLMode({C ffFF0000}MT{C ffFFFF00}[%$vMode$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetLMode                               {C ff000000}SetLMode({C ffFF0000}MT{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetLMode                    Set L mode.
+@HINT::lvCSetLMode                                  Set L mode.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetFogMode                                    SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetFogMode::Mode                            {C ffFF0000}MT
+@HINT::lvCSetFogMode::Mode                          Set for {C ff0000FF}fog mode {C ff000000}enable status: {C ff0000FF}0 {C ff000000}- no fog, {C ff0000FF}1 {C ff000000}- fog
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetFogMode::0                   {C FFD4C19C}SetFogMode({C ffFF0000}MT{C ffFFFF00}[%$Mode$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetFogMode                             {C ff000000}SetFogMode({C ffFF0000}MT{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetFogMode                  Set MODE for FOG OF WAR - Global.
+@HINT::lvCSetFogMode                                Set MODE for FOG OF WAR - Global.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSaveScreenPos                                 CAMERA
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSaveScreenPos::vCameraPos                   {C ffFF0000}POS
+@HINT::lvCSaveScreenPos::vCameraPos                 Select value from list for store curent camera position
+@ID::lvCSaveScreenPos::vCameraDir                   {C ffFF0000}DIR
+@HINT::lvCSaveScreenPos::vCameraDir                 Select value from list for store curent camera direction
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSaveScreenPos::0                {C FFD4C19C}SaveCameraPosition({C ffFF0000}POS{C ffFFFF00}[%$vCameraPos$%]{C FFD4C19C},{C ffFF0000}DIR{C ffFFFF00}[%$vCameraDir$%]{C FFD4C19C})
+@PRES::UserView::lvCSaveScreenPos::1                {C FFD4C19C}SaveCameraPosition({C ffFF0000}POS{C FFD4C19C},{C ffFF0000}DIR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSaveScreenPos                          {C ff000000}SaveCameraPosition({C ffFF0000}POS{C ff000000},{C ffFF0000}DIR{C ff000000})
+@ENUMHINT::@CLASSID::lvCSaveScreenPos               Save curren screen position in global values.
+@HINT::lvCSaveScreenPos                             Save curren screen position in global values.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetGameSpeed                                  SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetGameSpeed::Use_VV                        {C ff0000FF}Value {C ffD4C19C}or {C ff0000FF}Constant
+@HINT::lvCSetGameSpeed::Use_VV                      Use {C ff0000FF}Value {C ff000000} from variables present on map or use {C ff0000FF}Constant
+@ID::lvCSetGameSpeed::vSpeed                        {C ffFF0000}FPS
+@HINT::lvCSetGameSpeed::vSpeed                      Select value for define {C ff0000FF}game speed {C ff000000}: 40ms - slow game mode, 4ms - fast game mode, you can set any natural number for it. It use as ms for frame.
+@ID::lvCSetGameSpeed::iSpeed                        {C ffFF0000}FPS
+@HINT::lvCSetGameSpeed::iSpeed                      Set constant for define {C ff0000FF}game speed {C ff000000}: 40ms - slow game mode, 4ms - fast game mode, you can set any natural number for it. It use as ms for frame.
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetGameSpeed::0                 {C FFD4C19C}SetGameSpeed({C ffFF0000}FPS{C ffFFFF00}[%$vSpeed$%]{C FFD4C19C})
+@PRES::UserView::lvCSetGameSpeed::1                 {C FFD4C19C}SetGameSpeed({C ffFF0000}FPS{C ffFFFF00}[%$iSpeed$%]{C FFD4C19C})
+@PRES::UserView::lvCSetGameSpeed::2                 {C FFD4C19C}SetGameSpeed({C ffFF0000}FPS{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetGameSpeed                           {C ff000000}SetGameSpeed({C ffFF0000}FPS{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetGameSpeed                Set Game speed ( probably in FPS ??? )
+@HINT::lvCSetGameSpeed                              Set Game speed ( probably in FPS ??? )
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetGameSpeed                                  SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetGameSpeed::vSpeed                        {C ffFF0000}FPS
+@HINT::lvCGetGameSpeed::vSpeed                      Select value from list for save current {C ff0000FF}game speed {C ff000000}in it
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetGameSpeed::0                 {C FFD4C19C}GetGameSpeed({C ffFF0000}FPS{C ffFFFF00}[%$vSpeed$%]{C FFD4C19C})
+@PRES::UserView::lvCGetGameSpeed::1                 {C FFD4C19C}GetGameSpeed({C ffFF0000}FPS{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetGameSpeed                           {C ff000000}GetGameSpeed({C ffFF0000}FPS{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetGameSpeed                Save curren Game speed in global variable.
+@HINT::lvCGetGameSpeed                              Save curren Game speed in global variable.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCPAUSE                                         SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCPAUSE::state                                {C ffFF0000}ST
+@HINT::lvCPAUSE::state                              Set pause state: {C ff0000FF}true {C ff000000}- pause, {C ff0000FF}false {C ff000000}- no pause
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCPAUSE::0                        {C FFD4C19C}SetPause({C ffFF0000}ST{C ffFFFF00}[%$state$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCPAUSE                                  {C ff000000}SetPause({C ffFF0000}ST{C ff000000})
+@ENUMHINT::@CLASSID::lvCPAUSE                       Set or release PAUSE.
+@HINT::lvCPAUSE                                     Set or release PAUSE.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetSilence                                    SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetSilence::State                           {C ffFF0000}State
+@HINT::lvCSetSilence::State                         Set silence ivent state : {C ff0000FF}true {C ff000000}- all game ivents without suond, {C ff0000FF}false {C ff000000}- normal game suound for inents
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetSilence::0                   Set Silence {C ffFF0000}ON
+@PRES::UserView::lvCSetSilence::1                   Set Silence {C ffFF0000}OFF
+@PRES::UserView::lvCSetSilence::2                   Set Silence
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetSilence                             {C ff000000}Set {C ff0000FF}Silence
+@ENUMHINT::@CLASSID::lvCSetSilence                  Set Silence on map.
+@HINT::lvCSetSilence                                Set Silence on map.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCShowMessageII                                 COSSAKSII
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCShowMessageII::autoHideElse                 {C ffFF0000}Hide THE menu
+@HINT::lvCShowMessageII::autoHideElse               If selected then menu for TASK/HINT/ELSE will be hide when message is showing
+@ID::lvCShowMessageII::FileID                       {C ffFF0000}File
+@HINT::lvCShowMessageII::FileID                     Set {C ff0000FF}file {C ff000000}name which contain message picture
+@ID::lvCShowMessageII::SpriteID                     {C ffFF0000}Sprite
+@HINT::lvCShowMessageII::SpriteID                   Set message picture {C ff0000FF}sprite ID {C ff000000}from sprite list present in file
+@ID::lvCShowMessageII::TextID                       {C ffFF0000}Text ID
+@HINT::lvCShowMessageII::TextID                     Text corresponding to this {C ff0000FF}Text ID{C ff000000} will be show in message
+@ID::lvCShowMessageII::paramList                    {C ff0000FF}Text Parameters
+@HINT::lvCShowMessageII::paramList                  Set text parameters for message. You can add values and picteres in text
+@ID::lvCShowMessageII::fPreProcess                  {C ff00FF00}Test Message
+@HINT::lvCShowMessageII::fPreProcess                Press for show current message
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCShowMessageII::0                {C FFD4C19C}ShowMessage()
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCShowMessageII                          {C ff000000}ShowMessage()
+@ENUMHINT::@CLASSID::lvCShowMessageII               Show massge in old style.
+@HINT::lvCShowMessageII                             Show massge in old style.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCArtChangeCharge                               SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCArtChangeCharge::vGrp                       {C ffFF0000}Group{C FFD4C19C} name
+@HINT::lvCArtChangeCharge::vGrp                     Select {C ff0000FF}Group{C ff000000} from group list which store artillery units, present on map
+@ID::lvCArtChangeCharge::Charge                     {C ffFF0000}Charge
+@HINT::lvCArtChangeCharge::Charge                   Set charge type for curent art group {C ff0000FF}0 {C ff000000}- ball, {C ff0000FF}1 {C ff000000}- case-shot
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCArtChangeCharge::0              Change Charge for GR {C ffFFFF00}(%$vGrp$%){C FFD4C19C} -  ball
+@PRES::UserView::lvCArtChangeCharge::1              Change Charge for GR {C ffFFFF00}(%$vGrp$%){C FFD4C19C} - case-shot
+@PRES::UserView::lvCArtChangeCharge::2              Change Charge 
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCArtChangeCharge                        {C ff000000}Art Change Charge {C ff0000FF} Group
+@ENUMHINT::@CLASSID::lvCArtChangeCharge             Chenge charge for units with multiple charge type.
+@HINT::lvCArtChangeCharge                           Chenge charge for units with multiple charge type.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCArtAttackPoint                                SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCArtAttackPoint::vGrp                        {C ffFF0000}GR
+@HINT::lvCArtAttackPoint::vGrp                      Select {C ff0000FF}Group{C ff000000} from group list which store artillery units, present on map
+@ID::lvCArtAttackPoint::parNode                     {C ffFF0000}ND
+@HINT::lvCArtAttackPoint::parNode                   Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+@ID::lvCArtAttackPoint::NTimes                      {C ffFF0000}N
+@HINT::lvCArtAttackPoint::NTimes                    Set number of shoting for group by position
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCArtAttackPoint::0               {C FFD4C19C}AtrAttack({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C},{C ffFF0000}N{C ffFFFF00}[%$NTimes$%]{C FFD4C19C})
+@PRES::UserView::lvCArtAttackPoint::1               {C FFD4C19C}AtrAttack({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ND{C FFD4C19C},{C ffFF0000}N{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCArtAttackPoint                         {C ff000000}AtrAttack({C ffFF0000}GR{C ff000000},{C ffFF0000}ND{C ff000000},{C ffFF0000}N{C ff000000})
+@ENUMHINT::@CLASSID::lvCArtAttackPoint              Atack Node with artirely Group.
+@HINT::lvCArtAttackPoint                            Atack Node with artirely Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCClearDead                                     SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCClearDead::0                    {C FFD4C19C}RemoveDedUnitsFromMap()
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCClearDead                              {C ff000000}RemoveDedUnitsFromMap()
+@ENUMHINT::@CLASSID::lvCClearDead                   Remove dead units from map.
+@HINT::lvCClearDead                                 Remove dead units from map.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCFreeCamera                                    CAMERA
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCFreeCamera::0                   {C FFD4C19C}FreeCamera()
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCFreeCamera                             {C ff000000}FreeCamera()
+@ENUMHINT::@CLASSID::lvCFreeCamera                  Free Camera from attachet Group.
+@HINT::lvCFreeCamera                                Free Camera from attachet Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSendMSG                                       SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSendMSG::FSM_MSG                            MSG
+@HINT::lvCSendMSG::FSM_MSG                          Select message from list, present in system as exemole and create yous
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSendMSG::0                      {C FFD4C19C}SendMSG({C ffFF0000}MSG{C ffFFFF00}[%$FSM_MSG$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSendMSG                                {C ff000000}SendMSG({C ffFF0000}MSG{C ff000000})
+@ENUMHINT::@CLASSID::lvCSendMSG                     Send message MSG to smart object
+@HINT::lvCSendMSG                                   Send message MSG to smart object
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lcCABIL_SetHint                                  ABILITY
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lcCABIL_SetHint::HINT                          HINT
+@HINT::lcCABIL_SetHint::HINT                        Text for hint
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lcCABIL_SetHint::0                 {C FFD4C19C}SetAbilityHint({C ffFF0000}HINT{C ffFFFF00}[%$HINT$%]{C FFD4C19C})
+@PRES::UserView::lcCABIL_SetHint::1                 {C FFD4C19C}SetAbilityHint({C ffFF0000}HINT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lcCABIL_SetHint                           {C ff000000}SetAbilityHint({C ffFF0000}HINT{C ff000000})
+@ENUMHINT::@CLASSID::lcCABIL_SetHint                Set hint for current ability where use this function.
+@HINT::lcCABIL_SetHint                              Set hint for current ability where use this function.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetValueEX                                    GLOBAL_VALUE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetValueEX::TypeID                          Value {C ff0000FF}Type
+@HINT::lvCSetValueEX::TypeID                        Select {C ff0000FF}Value Type {C ff000000} from list...
+@ID::lvCSetValueEX::Variable                        {C ffFF0000}VAR
+@HINT::lvCSetValueEX::Variable                      Select varible from list
+@ID::lvCSetValueEX::Function                        {C ffFF0000}FUNC
+@HINT::lvCSetValueEX::Function                      Create and set function for get it call result for {C ff0000FF}VAR
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetValueEX::0                   {C ffFFFF00}%$Variable$% {C FFD4C19C}= {C ffFFFF00}%$Function$%
+@PRES::UserView::lvCSetValueEX::1                   {C FFD4C19C}SetValue{C FFD4C19C}({C ffFF0000}...= f(){C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetValueEX                             {C ff000000}SetValueEX({C ffFF0000}...= f(){C ff000000})
+@ENUMHINT::@CLASSID::lvCSetValueEX                  Giv global variable result of call function. a = f();
+@HINT::lvCSetValueEX                                Giv global variable result of call function. a = f();
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCEraseNation                                   NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCEraseNation::parNat                         {C ffFF0000}NAT
+@HINT::lvCEraseNation::parNat                       Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCEraseNation::0                  {C FFD4C19C}EraseUnits({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCEraseNation                            {C ff000000}EraseUnits({C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCEraseNation                 Erase all units given {C ff0000FF}Nation {C ff0000}on map
+@HINT::lvCEraseNation                               Erase all units given {C ff0000FF}Nation {C ff0000}on map
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSetInfo                                       SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSetInfo::Name                               {C ffFF0000}NAME
+@HINT::lvCSetInfo::Name                             Set universal task name.
+@ID::lvCSetInfo::TitleID                            {C ffFF0000}TITLE
+@HINT::lvCSetInfo::TitleID                          Set title string id from text file.
+@ID::lvCSetInfo::titlePL                            {C ffFF0000}TPL
+@HINT::lvCSetInfo::titlePL                          Set params for title if need.
+@ID::lvCSetInfo::DescrID                            {C ffFF0000}DESCR
+@HINT::lvCSetInfo::DescrID                          Set description string id from text file.
+@ID::lvCSetInfo::descrPL                            {C ffFF0000}DPL
+@HINT::lvCSetInfo::descrPL                          Set params for description if need.
+@ID::lvCSetInfo::TaskID                             {C ffFF0000}TASK
+@HINT::lvCSetInfo::TaskID                           Set task string if from text file.
+@ID::lvCSetInfo::taskPL                             {C ffFF0000}SPL
+@HINT::lvCSetInfo::taskPL                           Set params for tesk if need.
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSetInfo::0                      {C FFD4C19C}SetInfo({C ffFF0000}NAME{C ffFFFF00}[%$Name$%]{C FFD4C19C},{C ffFF0000}TITLE{C ffFFFF00}[%$TitleID$%]{C FFD4C19C},{C ffFF0000}DESCR{C ffFFFF00}[%$DescrID$%]{C FFD4C19C},{C ffFF0000}TASK{C ffFFFF00}[%$TaskID$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSetInfo                                {C ff000000}SetInfo({C ffFF0000}NAME{C ff000000},{C ffFF0000}TITLE{C ff000000},{C ffFF0000}DESCR{C ff000000},{C ffFF0000}TASK{C ff000000})
+@ENUMHINT::@CLASSID::lvCSetInfo                     Create text string and add it in INFO menu
+@HINT::lvCSetInfo                                   Create text string and add it in INFO menu
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCABIL_SetVisibility                            ABILITY
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCABIL_SetVisibility::Visible                 {C FFff0000}VISIBLE
+@HINT::lvCABIL_SetVisibility::Visible               Set visiblity state for PARENT object ability state
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCABIL_SetVisibility::0           {C FFD4C19C}ABIL_SetVisibility({C ffFF0000}VISIBLE{C ffFFFF00}[%$Visible$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCABIL_SetVisibility                     {C ff000000}ABIL_SetVisibility({C ffFF0000}VISIBLE{C ff000000})
+@ENUMHINT::@CLASSID::lvCABIL_SetVisibility          Set visibility state for PARENT object ABILITY, which contein this function
+@HINT::lvCABIL_SetVisibility                        Set visibility state for PARENT object ABILITY, which contein this function
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCShowHint                                      SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCShowHint::Time                              {C FFff0000}TIME
+@HINT::lvCShowHint::Time                            Set show time visible of HINT
+@ID::lvCShowHint::TextID                            {C FFff0000}TEXT
+@HINT::lvCShowHint::TextID                          Set TextID from file, for create text ( %d-int, %u-unsigned int, %s-string )
+@ID::lvCShowHint::paramList                         {C FFff0000}PARAM
+@HINT::lvCShowHint::paramList                       Set params according to %... in {C FF0000ff}TEXT {C FF000000}( %d-int, %u-unsigned int, %s-string )
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCShowHint::0                     {C FFD4C19C}SetHint({C ffFF0000}TIME{C ffFFFF00}[%$Time$%]{C FFD4C19C},{C ffFF0000}TEXT{C ffFFFF00}[%$TextID$%]{C FFD4C19C},{C ffFF0000}PARAM{C FFD4C19C})
+@PRES::UserView::lvCShowHint::1                     {C FFD4C19C}SetHint({C ffFF0000}TIME{C FFD4C19C},{C ffFF0000}TEXT{C FFD4C19C},{C ffFF0000}PARAM{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCShowHint                               {C ff000000}SetHint({C ffFF0000}TIME{C ff000000},{C ffFF0000}TEXT{C ff000000},{C ffFF0000}PARAM{C ff000000})
+@ENUMHINT::@CLASSID::lvCShowHint                    Create text string and add it in HINT string
+@HINT::lvCShowHint                                  Create text string and add it in HINT string
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCScrollCamera                                  CAMERA
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCScrollCamera::StartPos                      {C ffFF0000}START
+@HINT::lvCScrollCamera::StartPos                    Start position - NODE
+@ID::lvCScrollCamera::DestPos                       {C ffFF0000}DEST
+@HINT::lvCScrollCamera::DestPos                     Destenation position - NODE
+@ID::lvCScrollCamera::ScrollFromCurPos              {C ffFF0000}FromCurr
+@HINT::lvCScrollCamera::ScrollFromCurPos            IF true - scroll from current position
+@ID::lvCScrollCamera::ScrollTime                    {C ffFF0000}TIME
+@HINT::lvCScrollCamera::ScrollTime                  Total scroll time in ms
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCScrollCamera::0                 {C FFD4C19C}ScrollCameraTo({C ffFF0000}DEST{C ffFFFF00}[%$DestPos$%]{C FFD4C19C},{C ffFF0000}TIME{C ffFFFF00}[%$ScrollTime$%]{C FFD4C19C})
+@PRES::UserView::lvCScrollCamera::1                 {C FFD4C19C}ScrollCamera({C ffFF0000}START{C ffFFFF00}[%$StartPos$%]{C FFD4C19C},{C ffFF0000}DEST{C ffFFFF00}[%$DestPos$%]{C FFD4C19C},{C ffFF0000}TIME{C ffFFFF00}[%$ScrollTime$%]{C FFD4C19C})
+@PRES::UserView::lvCScrollCamera::2                 {C FFD4C19C}ScrollCamera({C ffFF0000}SATRT{C FFD4C19C},{C ffFF0000}DEST{C FFD4C19C},{C ffFF0000}TIME{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCScrollCamera                           {C ff000000}ScrollCamera({C ffFF0000}SATRT{C ff000000},{C ffFF0000}DEST{C ff000000},{C ffFF0000}TIME{C ff000000})
+@ENUMHINT::@CLASSID::lvCScrollCamera                Scroll camera from START(NODE) to DEST(NODE) in TIME ms
+@HINT::lvCScrollCamera                              Scroll camera from START(NODE) to DEST(NODE) in TIME ms
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCUnitLimit                                     SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCUnitLimit::Farms                            {C ffFF0000}LIMIT
+@HINT::lvCUnitLimit::Farms                          Set unit limit in game
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCUnitLimit::0                    {C FFD4C19C}SetUnitLimit({C ffFF0000}LIMIT{C ffFFFF00}[%$Farms$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCUnitLimit                              {C ff000000}SetUnitLimit({C ffFF0000}LIMIT{C ff000000}{C ff000000})
+@ENUMHINT::@CLASSID::lvCUnitLimit                   Set global unit limit in game
+@HINT::lvCUnitLimit                                 Set global unit limit in game
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSavePlayersProfile                            SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSavePlayersProfile::0           {C FFD4C19C}SavePlayersProfile()
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSavePlayersProfile                     {C ff000000}SavePlayersProfile()
+@ENUMHINT::@CLASSID::lvCSavePlayersProfile          Save curent player information in his profile
+@HINT::lvCSavePlayersProfile                        Save curent player information in his profile
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCSUBF_AddAbility                               ABILITY
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCSUBF_AddAbility::refGROUP                   {C ffFF0000}GR
+@HINT::lvCSUBF_AddAbility::refGROUP                 Select group from list
+@ID::lvCSUBF_AddAbility::nameSUBF                   {C ffFF0000}SUBF
+@HINT::lvCSUBF_AddAbility::nameSUBF                 Type SUB FUNCTION name for use it ability list for add it
+@ID::lvCSUBF_AddAbility::nameABIL                   {C ffFF0000}ABIL
+@HINT::lvCSUBF_AddAbility::nameABIL                 Type ability name from SUB FUNCTION ability list
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCSUBF_AddAbility::0              {C FFD4C19C}AddAbilityFromSUBF({C ffFF0000}GR{C ffFFFF00}[%$refGROUP$%]{C FFD4C19C},{C ffFF0000}SUBF{C ffFFFF00}[%$nameSUBF$%]{C FFD4C19C},{C ffFF0000}ABIL{C ffFFFF00}[%$nameABIL$%]{C FFD4C19C})
+@PRES::UserView::lvCSUBF_AddAbility::1              {C FFD4C19C}AddAbilityFromSUBF({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}SUBF{C FFD4C19C},{C ffFF0000}ABIL{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCSUBF_AddAbility                        {C ff000000}AddAbilityFromSUBF({C ffFF0000}GR{C ff000000},{C ffFF0000}SUBF{C ff000000},{C ffFF0000}ABIL{C ff000000})
+@ENUMHINT::@CLASSID::lvCSUBF_AddAbility             Add ability to group from ability list in SUB FUNCTION
+@HINT::lvCSUBF_AddAbility                           Add ability to group from ability list in SUB FUNCTION
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCInfoVisibility                                SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCInfoVisibility::state                       {C ffFF0000}Visibility
+@HINT::lvCInfoVisibility::state                     Set info panel visibility state
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCInfoVisibility::0               {C FFD4C19C}SetInfoPanelVisibility({C ffFF0000}Visibility{C ffFFFF00}[%$state$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCInfoVisibility                         {C ff000000}SetInfoPanealVisibility({C ffFF0000}Visibility{C ff000000})
+@ENUMHINT::@CLASSID::lvCInfoVisibility              Set Info panel visibility state.
+@HINT::lvCInfoVisibility                            Set Info panel visibility state.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCDelInfo                                       SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCDelInfo::Name                               {C ffFF0000}NAME
+@HINT::lvCDelInfo::Name                             Set universal task name for delete.
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCDelInfo::0                      {C FFD4C19C}DelInfo({C ffFF0000}NAME{C ffFFFF00}[%$Name$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCDelInfo                                {C ff000000}DelInfo({C ffFF0000}NAME{C FF000000})
+@ENUMHINT::@CLASSID::lvCDelInfo                     Delete task with name from taskInfo list
+@HINT::lvCDelInfo                                   Delete task with name from taskInfo list
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+*********************************************************************
+*********************************************************************

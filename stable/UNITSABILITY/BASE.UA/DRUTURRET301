@@ -1,0 +1,31 @@
+<ExtraShootingElement>
+ <Name>DruTurret301</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UA_wCanon</RefName>
+ </Weapon>
+ <WholeObjectModel></WholeObjectModel>
+ <ShootAnimation></ShootAnimation>
+ <WholeShootTime>8000</WholeShootTime>
+ <TimeOfShooting>350</TimeOfShooting>
+ <TotalRechargeTime>8000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <ShootAngleDifference>8</ShootAngleDifference>
+ <RotationSpeed>20000</RotationSpeed>
+ <TowerCenterX>2500</TowerCenterX>
+ <TowerCenterZ>1800</TowerCenterZ>
+ <CannonRadius>1</CannonRadius>
+</ExtraShootingElement>

@@ -1,0 +1,18 @@
+<NewAbility>
+ <Name>BornBalancedUnit</Name>
+ <System>true</System>
+ <Aura>true</Aura>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <FriendlyTarget>true</FriendlyTarget>
+ <TargetMaxAmount>1</TargetMaxAmount>
+</NewAbility>

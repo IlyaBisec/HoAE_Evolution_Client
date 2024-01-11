@@ -1,0 +1,20 @@
+<ua_SingleUnitAI>
+ <Name>suAL_DLyGolema_600</Name>
+ <CastingRadius>600</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aEarthquake</RefName>
+   </UA>
+   <MinTargetAmount>3</MinTargetAmount>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aFlashToStone</RefName>
+   </UA>
+   <MinTargetAmount>10</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

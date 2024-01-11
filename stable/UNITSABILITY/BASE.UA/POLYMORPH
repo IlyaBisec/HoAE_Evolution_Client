@@ -1,0 +1,21 @@
+<NewAbility>
+ <Name>Polymorph</Name>
+ <GroundMD>
+  <UnitType>DruHAma(DR)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <EnemyTarget>true</EnemyTarget>
+</NewAbility>

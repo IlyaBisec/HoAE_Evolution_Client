@@ -1,0 +1,61 @@
+NAME MecBSto
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+
+ICONEX 0 0 interf3\PortretsBuilding\MchStor 0
+ICONANM 0 0 interf3\PortretsBuilding\MchStor 1 153 1
+
+LOCATION -0 -0 800 800
+LOCKPOINTS       32 -1 -1 -1 0 -1 1 -1 2 -1 3 0 -1 0 0 0 1 0 2 0 3 1 -1 1 0 1 1 1 2 1 3 2 -1 2 0 2 1 2 2 2 3 3 -1 3 0 3 1 3 2 3 3 4 -1 4 0 4 1 4 2 -2 0 -2 1 -2 2  /  -3 -3 -4 -2 -2 -4 -2 -3 -3 -2 -1 -4 -4 -1 -5 -1 -5 0
+CHECKPOINTS      32 -1 -1 -1 0 -1 1 -1 2 -1 3 0 -1 0 0 0 1 0 2 0 3 1 -1 1 0 1 1 1 2 1 3 2 -1 2 0 2 1 2 2 2 3 3 -1 3 0 3 1 3 2 3 3 4 -1 4 0 4 1 4 2 -2 0 -2 1 -2 2  /  -3 -3 -4 -2 -2 -4 -2 -3 -3 -2 -1 -4 -4 -1 -5 -1 -5 0
+BUILDLOCKPOINTS  32 -1 -1 -1 0 -1 1 -1 2 -1 3 0 -1 0 0 0 1 0 2 0 3 1 -1 1 0 1 1 1 2 1 3 2 -1 2 0 2 1 2 2 2 3 3 -1 3 0 3 1 3 2 3 3 4 -1 4 0 4 1 4 2 -2 0 -2 1 -2 2  /  -3 -3 -4 -2 -2 -4 -2 -3 -3 -2 -1 -4 -4 -1 -5 -1 -5 0
+BUILDPOINTS      6 0 -3  2 -3 0 5 2 5 -4 1 6 1 
+!STANDLO      1 0.44 Models\Bld\MECH\Storage\512x256\Storage.c2m Models\Bld\MECH\Storage\512x256\Storage.c2m
+!BUILDLO_0    1 0.44 Models\Bld\MECH\Storage\512x256\Storage.c2m Models\Bld\MECH\Storage\512x256\Storage.c2m
+!BUILDLO_1    1 0.44 Models\Bld\MECH\Storage\512x256\Storage.c2m Models\Bld\MECH\Storage\512x256\Storage.c2m
+!BUILDLO_2    1 0.44 Models\Bld\MECH\Storage\512x256\Storage.c2m Models\Bld\MECH\Storage\512x256\Storage.c2m
+!BUILDLO_3    1 0.44 Models\Bld\MECH\Storage\512x256\Storage.c2m Models\Bld\MECH\Storage\512x256\Storage.c2m
+MOVEXY #STANDLO   80 65
+MOVEXY #BUILDLO_0 80 65
+MOVEXY #BUILDLO_1 80 65
+MOVEXY #BUILDLO_2 80 65
+MOVEXY #BUILDLO_3 80 65
+BORNPOINTS3 1  -28 -18 0
+ADDHDIR #STANDLO 0 160
+ADDHDIR #BUILDLO_0 0 160
+ADDHDIR #BUILDLO_1 0 160
+ADDHDIR #BUILDLO_2 0 160
+ADDHDIR #BUILDLO_3 0 160
+GEOMETRY 1 199 32
+LIFE     3000
+PRICE 1 WOOD 100
+COSTPERCENT 300
+BUILDSTAGES 30
+PROTECTION 3 piercing 15 magical 0 chopping 15
+RESOURCEBASE 6 WOOD STONE FOOD IRON  COAL GOLD
+MATHERIAL 1 BUILDING
+RECTANGLE    0 0 100 100
+EXPLMEDIA BUILDING 5
+BUILDBAR -13 0 13 0
+VISION 0
+3DBARS 1 -50 0 40 40 80
+ADDSHOTRADIUS 100
+SELTYPE SelBigBuilding 1.3 1.3
+ABILITY BuildStage
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_mechanic
+DEATH_SOUND building_death
+CYLINDER 65 80
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 1.7
+ShadowScaleY 1.0
+TFACTOR FF919191
+[END]

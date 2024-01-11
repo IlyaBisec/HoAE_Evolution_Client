@@ -1,0 +1,13 @@
+<ua_SingleUnitAI>
+ <Name>suai_FogOfDeath</Name>
+ <CastingRadius>500</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aFogOfDeath</RefName>
+   </UA>
+   <MinTargetAmount>6</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

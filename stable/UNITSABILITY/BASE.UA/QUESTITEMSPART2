@@ -1,0 +1,26 @@
+<NewItem>
+ <Clothe>true</Clothe>
+ <CanNotBeClothe>true</CanNotBeClothe>
+ <TypeClothe>Ring</TypeClothe>
+ <Name>QuestItemsPart2</Name>
+ <FileID>Interf3\Ability\goods_quest</FileID>
+ <FileID_Inv>Interf3\Ability\goods_inventory_quest</FileID_Inv>
+ <EffectFileID>Interf3\Ability\goods_quest</EffectFileID>
+ <HintName>#QuestItemsEgg.NAME</HintName>
+ <Hint>#QuestItemsEgg</Hint>
+ <GroundMD>
+  <UnitType>DropM1(IT)</UnitType>
+ </GroundMD>
+ <Amount>1</Amount>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewItem>

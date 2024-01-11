@@ -1,0 +1,32 @@
+<NewAbility>
+ <Name>MC_aNecromancy_Zombie_Erase</Name>
+ <FileID>Interf3\Ability\spells</FileID>
+ <SpriteID>43</SpriteID>
+ <EffectFileID>Interf3\Ability\spells</EffectFileID>
+ <EffectSpriteID>43</EffectSpriteID>
+ <HintName>#SPELL_NECROSIS.NAME</HintName>
+ <Hint>#SPELL_NECROSIS</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Permanent>true</Permanent>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <OnDieCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>MC_wNecromancy_Visual</RefName>
+ </OnDieCreateWeapon>
+</NewAbility>

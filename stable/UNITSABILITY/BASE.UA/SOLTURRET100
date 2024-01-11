@@ -1,0 +1,33 @@
+<ExtraShootingElement>
+ <Name>SolTurret100</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MaxDistance>900</MaxDistance>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>3d_Spear</RefName>
+ </Weapon>
+ <WholeObjectModel></WholeObjectModel>
+ <ShootAnimation></ShootAnimation>
+ <WholeShootTime>300</WholeShootTime>
+ <TimeOfShooting>100</TimeOfShooting>
+ <TotalRechargeTime>2000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <CentralShootAngle>128</CentralShootAngle>
+ <ShootAngleDifference>10</ShootAngleDifference>
+ <RotationSpeed>32</RotationSpeed>
+ <TowerCenterX>-326</TowerCenterX>
+ <TowerCenterY>81</TowerCenterY>
+ <CannonRadius>1</CannonRadius>
+</ExtraShootingElement>

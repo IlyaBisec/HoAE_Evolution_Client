@@ -1,0 +1,40 @@
+<NewAbility>
+ <Name>SwarmAura</Name>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>10</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>10</EffectSpriteID>
+ <Hint>Swarm (-damage,-armor, deals light damage)</Hint>
+ <GroundMD>
+  <UnitType>DruHAma(DR)</UnitType>
+ </GroundMD>
+ <Button>true</Button>
+ <Aura>true</Aura>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <Radius>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>500</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </Radius>
+ <EnemyTarget>true</EnemyTarget>
+ <TargetMaxAmount>50</TargetMaxAmount>
+</NewAbility>

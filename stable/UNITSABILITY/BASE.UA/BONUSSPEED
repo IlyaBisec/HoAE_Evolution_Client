@@ -1,0 +1,25 @@
+<NewBonus>
+ <Name>BonusSpeed</Name>
+ <Visible>false</Visible>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>67</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>67</EffectSpriteID>
+ <GroundMD>
+  <UnitType>DruHAma(DR)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewBonus>

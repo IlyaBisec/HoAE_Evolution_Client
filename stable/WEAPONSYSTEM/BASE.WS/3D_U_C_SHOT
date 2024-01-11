@@ -1,0 +1,35 @@
+<WeaponModificator>
+ <Name>3d_u_c_shot</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <BalisticMotion>
+     <ConstSpeed>600</ConstSpeed>
+     <g>60</g>
+    </BalisticMotion>
+    <DrawOne>
+     <Anim>
+      <ActiveFrameForAttack>0</ActiveFrameForAttack>
+      <ModelID>Models\Weapons\yadro.c2m</ModelID>
+     </Anim>
+    </DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <Event>
+    <TargetReached>
+     <TargetPointDistance>3</TargetPointDistance>
+    </TargetReached>
+   </Event>
+   <WeaponModificators>
+    <BirthNew>
+     <NewWeaponModificator>3d_u_c_expl</NewWeaponModificator>
+    </BirthNew>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

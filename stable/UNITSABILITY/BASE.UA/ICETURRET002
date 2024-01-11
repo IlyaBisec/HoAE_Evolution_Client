@@ -1,0 +1,34 @@
+<ExtraShootingElement>
+ <Name>IceTurret002</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MaxDistance>1200</MaxDistance>
+ <Damage>60</Damage>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_Ice_GaleraShot</RefName>
+ </Weapon>
+ <WholeObjectModel>Models\Ships\IceSShpM</WholeObjectModel>
+ <ShootAnimation>Models\Ships\IceSShpA_shot_r.C2M</ShootAnimation>
+ <WholeShootTime>4000</WholeShootTime>
+ <TimeOfShooting>300</TimeOfShooting>
+ <TotalRechargeTime>4000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <ShootAngleDifference>18</ShootAngleDifference>
+ <RotationSpeed>20000</RotationSpeed>
+ <TowerCenterX>2120</TowerCenterX>
+ <TowerCenterY>-780</TowerCenterY>
+ <TowerCenterZ>1200</TowerCenterZ>
+ <CannonRadius>1</CannonRadius>
+</ExtraShootingElement>

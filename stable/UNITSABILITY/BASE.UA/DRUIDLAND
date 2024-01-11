@@ -1,0 +1,25 @@
+<PermanentLandTypeChange>
+ <Name>DruidLand</Name>
+ <Visible>false</Visible>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <DestLandName>Druids</DestLandName>
+ <PeriodOfSpotBirth>750</PeriodOfSpotBirth>
+ <SpotGrowTime>200</SpotGrowTime>
+ <SpotRadius>300</SpotRadius>
+ <FirstSpotRadius>500</FirstSpotRadius>
+ <RadiusGrowOnPeriod>7</RadiusGrowOnPeriod>
+</PermanentLandTypeChange>

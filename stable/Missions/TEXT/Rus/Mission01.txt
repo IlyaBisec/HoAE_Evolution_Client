@@ -1,0 +1,46 @@
+#M01D01S01    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t01.ogg]Остановитесь! Время сражаться, а не бежать!
+#M01D01S02    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t02.ogg]Кто из вас предпочитает честный бой позорному бегству? За мной!
+#M01D01S03    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t03.ogg]Воины, там гибнут ваши семьи! Нужно прикрыть отход горожан!
+#M01D01S04    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t04.ogg]Стойте! Вместе мы сможем дать отпор нежити!
+#M01D01S05    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t06.ogg]Остались ли среди вас отважные? Присоединяйтесь ко мне!
+#M01D01S06    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t05.ogg]Не отступайте! Где ваша гордость?
+#M01D02S01    [M1Archer][Normal][Missions\SOUND\MISSION01\m01_t13.ogg]Возвращайся, следопыт, позади нас нежить!
+#M01D02S02    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t14.ogg]Но как же горожане?
+#M01D02S03    [M1Archer][Normal][Missions\SOUND\MISSION01\m01_t15.ogg]Они тоже бегут.
+#M01D02S04    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t16.ogg]Займите оборону в сторожевой башне. Я пойду к городу и прикрою отход мирных жителей.
+#M01D02S05    [M1Archer][Normal][Missions\SOUND\MISSION01\m01_t17.ogg]Хорошо, но мы не сможем продержаться долго.
+#M01D03S01    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t23.ogg]На помощь! Спасите!
+#M01D03S02    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t27.ogg]Помогите! Гоблины грабят мою лабораторию!
+#M01D03S03P1    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t28.ogg]Благодарю тебя, храбрец! Проклятые гоблины едва не добрались до меня и моих чудесных зелий.
+#M01D03S03P2    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t29.ogg]Я скоро покину эти неспокойные места, но сейчас моя лавка к твоим услугам.
+#M01D03S03P3    [M1Alchemist][Normal][Missions\SOUND\MISSION01\m01_t30.ogg]Выбирай! Здесь лучший товар и лучшие цены во всем Атлансе!
+#M01D04S01    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t34.ogg]Возвращайтесь в землю, мертвецы!
+#M01D04S02    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t35.ogg]Нежить атакует Старого Ясеня! Нужно помочь ему!
+#M01D05S01P1    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t36.ogg]Спасибо, маленькие эльфы!
+#M01D05S01P2    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t37.ogg]Мертвецы должны лежать в земле и питать корни деревьев, а не разгуливать по лесу с топорами. Да-а... Времена...
+#M01D05S02    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t38.ogg]В другое время я бы поболтал с тобой, Ясень, но не теперь!
+#M01D05S03P1    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t39.ogg]Вы всегда торопитесь, маленький народ...
+#M01D05S03P2    [M1Ent][Normal][Missions\SOUND\MISSION01\m01_t40.ogg]Что ж, возьми на память мою ветвь. Она поможет тебе...
+#M01D05S04    [Elhant][Glad][Missions\SOUND\MISSION01\m01_t41.ogg]Что мне делать с ней? Эй! Да она шевелится! Это... похоже, это лук! Спасибо тебе, Старый Ясень!
+#M01D06S01P1    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t42.ogg]Похоже, амазонка была права. Мертвецов не сдержать: их слишком много.
+#M01D06S01P2    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t43.ogg]Воины! Вы сражались храбро, но теперь позаботьтесь о собственных жизнях.
+#M01D06S01P3    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t44.ogg]Отступайте в лес, а я постараюсь задержать нежить!
+#M01D07S01P1    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t18.ogg]Ходячие скелеты, которые должны гнить в земле... теперь они вышли на поверхность и нападают на живых!
+#M01D07S01P2    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t19.ogg]Такого не бывало прежде. Мы сражались с орками, гоблинами и гноллами. Это опасные твари - но всё же они живы, как и мы!
+#M01D07S01P3    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t20.ogg]А эти исчадия тьмы... нет, им не испугать меня, Эльханта, сына Альвара!
+#M01D07S02P1    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t21.ogg]Похоже, одно из тех зелий, которыми торгуют алхимики. 
+#M01D07S02P2    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t22.ogg]Наши воины часто пользуются такими. Наверное, кто-то потерял его в суматохе отступления.
+#M01D07S03P1    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t24.ogg]Алхимики... я всегда недолюбливал их. 
+#M01D07S03P2    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t25.ogg]Жадные до денег и золота седобородые старики с изъеденной ядовитыми испарениями кожей - сколько их в этих краях?
+#M01D07S03P3    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t26.ogg]Впрочем, и от них бывает польза: в таких лавках иногда можно найти полезные снадобья...
+#M01D07S04P1    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t31.ogg]Эти ходячие мертвецы уродливее скелетов.
+#M01D07S04P2    [Elhant][Angry][Missions\SOUND\MISSION01\m01_t32.ogg]Там - одни лишь голые кости, а здесь - изъеденная червями, гнилая плоть, провалившиеся глаза...
+#M01D07S04P3    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t33.ogg]Но даже им не испугать меня! Я не боюсь вас, чёрные твари!..
+#M01D08S01    [Elhant][Normal][Missions\SOUND\MISSION01\m01_t45.ogg]Укрывшись в этой башне, я смогу еще какое-то время сдерживать нежить.
+#M01D09S01    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t11.ogg]Я с тобой, следопыт!
+#M01D09S02    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t09.ogg]Остановим врага!
+#M01D09S03    [M1Soldier][Normal][Missions\SOUND\MISSION02\m02_t69.ogg]Мы пойдем с тобой, следопыт!
+#M01D09S04    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t10.ogg]Слушаю тебя! Веди!
+#M01D09S05    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t12.ogg]Спасем горожан!
+#M01D10S01    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t07.ogg]Нам приказали отступать! Ты не командир нам, незнакомец!
+#M01D10S02    [M1Soldier][Normal][Missions\SOUND\MISSION01\m01_t08.ogg]Нет, врагов слишком много!

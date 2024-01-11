@@ -1,0 +1,27 @@
+<NewMagazine>
+ <Name>ShopMagicCard</Name>
+ <FileID>Interf3\items2</FileID>
+ <SpriteID>3</SpriteID>
+ <EffectFileID>Interf3\items2</EffectFileID>
+ <EffectSpriteID>3</EffectSpriteID>
+ <HintName>#HintShopMagicCards.NAME</HintName>
+ <Hint>#HintShopMagicCards</Hint>
+ <Type>Magazine</Type>
+ <GroundMD>
+  <UnitType>IteIPot(IT)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewMagazine>

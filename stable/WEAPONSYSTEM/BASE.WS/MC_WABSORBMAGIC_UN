@@ -1,0 +1,22 @@
+<WeaponModificator>
+ <Name>MC_wAbsorbMagic_Un</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <BirthNewAbility>
+     <AdditionalAbilites>
+      <ClassRef.UnitAbility>
+       <ClassName>NewAbility</ClassName>
+       <RefName>MC_aAbsorbMagic_Graph</RefName>
+      </ClassRef.UnitAbility>
+     </AdditionalAbilites>
+     <To>true</To>
+    </BirthNewAbility>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

@@ -1,0 +1,10 @@
+<WeaponModificator>
+ <Name>MC_wSummon_Undead</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

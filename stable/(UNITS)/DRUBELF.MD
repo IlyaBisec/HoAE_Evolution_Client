@@ -1,0 +1,68 @@
+NAME DruBElf
+
+ICON U_FrnOf17
+/ICONEX 0 0 interf3\InGame\druids_buildings 4
+ICONEX 0 0 interf3\PortretsBuilding\DruBElf 0
+ICONANM 0 0 interf3\PortretsBuilding\DruBElf 1 67 1
+
+BUILDING
+SETANMPARAM -0 -0 1 0              
+LOCATION -0 -0 800 800
+!STANDLO      1 3.6 Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m
+!BUILDLO_0    1 3.6 Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m
+!BUILDLO_1    1 3.6 Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m
+!BUILDLO_2    1 3.6 Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m
+!BUILDLO_3    1 3.6 Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m Models\Bld\DRUID\House_Branch\512x512\House_Branch.c2m
+MOVEXY #STANDLO   -14 -12
+MOVEXY #BUILDLO_0 -14 -12
+MOVEXY #BUILDLO_1 -14 -12
+MOVEXY #BUILDLO_2 -14 -12
+MOVEXY #BUILDLO_3 -14 -12
+ADDHDIR #STANDLO 0 160
+ADDHDIR #BUILDLO_0 0 160
+ADDHDIR #BUILDLO_1 0 160
+ADDHDIR #BUILDLO_2 0 160
+ADDHDIR #BUILDLO_3 0 160
+BORNPOINTS3 11 18 -27 90   36 -9 90   41 0 85    45 9 81   40 18 77   22 36 72  11 36 63  0 27 54  -27 36 22  -41 45 4  -90 105 0 
+GEOMETRY 1 199 32
+LIFE     5500
+PRICE 2 WOOD 180 IRON 255
+COSTPERCENT 300
+BUILDSTAGES 10
+PROTECTION 3 piercing 15 magical 0 crushing 15
+MATHERIAL 1 BUILDING
+RECTANGLE    0 0 140 180
+EXPLMEDIA BUILDING 5
+BUILDBAR -14 0 14 0
+VISION 0
+ROUNDLOCK 6.5
+3DBARS 2 -60 0 60 50 150 -50 0 40 40 180
+MFARM 75
+ADDSHOTRADIUS 125
+SELTYPE SelBigBuilding 1.3 1.3
+ABILITY BuildStage_Dru
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_druid
+UPG_SOUND upgrade_druid
+DEATH_SOUND building_death
+CYLINDER 40 160
+FORMFACTOR 470	
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.3
+ShadowScaleY 1.0
+TFACTOR FF949494
+!TEMP5 180 1.0 Models\Effects\MagicCard\Listva\Listva.c2m Models\Effects\MagicCard\Listva\Listva.c2m
+MOVEXY  #TEMP5 0 0
+ADDHDIR #TEMP5 0 160
+ANMEXT #STANDLO #TEMP5 0 0 0 1.0 2000
+!TEMP2 100 0.22 Models\Effects\BildColor2.c2m Models\Effects\BildColor2.c2m
+MOVEXY  #TEMP2 60 30
+ANMEXT #STANDLO #TEMP2 0 0 0 1.0 50000
+[END]

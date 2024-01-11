@@ -1,0 +1,59 @@
+
+
+#M09D07S01P01    [M9Dwarf1][Pride][Missions\SOUND\MISSION09\m09_t03.ogg]Our village was attacked by the undead. Help us, stranger!
+
+#M09D07S03P01    [Elhant][Normal][Missions\SOUND\MISSION09\m09_t01.ogg]The woodlands are more to my liking... it feels different here. I must find the Crown and return as quickly as possible.
+#M09D07S03P02    [Elhant][Glad][Missions\SOUND\MISSION09\m09_t02.ogg]Unbelievable! A whole dwarf city under World Mountain! The caves of Atlans are indeed full of mysteries...
+
+#M09D07S04P01    [Elhant][Normal][Missions\SOUND\MISSION09\m09_t28.ogg]So this is why the undead came out to the surface? They must be a strong enemy... but I'm not used to retreating.
+#M09D07S04P02    [Elhant][Pride][Missions\SOUND\MISSION09\m09_t29.ogg]I have fought against the death knights, phantoms, the dead and walking skeletons. These fiery monsters won't scare me. 
+
+
+
+#M09D05S01P01    [M9Dwarf2][Pride][Missions\SOUND\MISSION09\m09_t04.ogg]Our mines are here, close by. A huge, one-eyed monster has burst into the tunnels and now the miners cannot come out.
+#M09D05S01P02    [M9Dwarf2][Normal][Missions\SOUND\MISSION09\m09_t05.ogg]Save them, warrior!
+
+#M09D06S01P01    [M9Dwarf3][Normal][Missions\SOUND\MISSION09\m09_t06.ogg]The cyclops nearly killed us... Thank you stranger!
+
+
+
+
+#M09D01S01P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t07.ogg]Thank you, warrior. I see you've come from outside, for there is nobody like you in our caves. 
+
+
+#M09D01S02P01    [Elhant][Normal][Missions\SOUND\MISSION09\m09_t08.ogg]I'm looking for the Crown of the Elements. Do you know where it is?
+
+#M09D01S03P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t09.ogg]The Crown! We once came to this island because of it, it's the reason why the undead and the lava demons fight against each other!
+#M09D01S04P01    [Elhant][Pride][Missions\SOUND\MISSION09\m09_t10.ogg]So where can I find it?
+#M09D01S05P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t11.ogg]Many years have passed and we have lost all our ancient knowledge about the Crown.
+#M09D01S05P02    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t12.ogg]I don't know the exact place it is hidden, but I will show you the way.
+
+
+
+
+#M09D02S01P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t13.ogg]This is where we lived before. But once the lava demons started attacking the undead, things turned quite bad for us...
+
+#M09D02S02P01    [Elhant][Pride][Missions\SOUND\MISSION09\m09_t14.ogg]Will you guide deeper in?
+#M09D02S03P01    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t15.ogg]No, I must return to the village. Your way is leading you to the depths of the dungeons. 
+#M09D02S03P02    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t16.ogg]Be careful, tall elf: you are almost in the demons' domain.
+
+
+
+
+#M09D04S01P01    [Elhant][Pride][Missions\SOUND\MISSION09\m09_t17.ogg]Can you tell me more about the Crown?
+#M09D04S01P02    [M9DwarfChief][Pride][Missions\SOUND\MISSION09\m09_t18.ogg]It happened so long ago, and there are only vague legends that mention it. 
+#M09D04S01P03    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t19.ogg]Our forefathers accompanied the wizard Octon from the lands far in the east.
+#M09D04S01P04    [M9DwarfChief][Pride][Missions\SOUND\MISSION09\m09_t20.ogg]Necros Horron craving to possess the Crown, hunted him. Followed his every move.
+#M09D04S01P05    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t21.ogg]Just before the great wizard was killed by Necros he managed to hide his treasure in the caves.
+#M09D04S01P06    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t22.ogg]As he died he lay a curse of black immortality upon Necros, and thus he became the Lord of Ashes, the living dead.
+#M09D04S01P07    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t23.ogg]Our forefathers found Octon's corpse and buried him at the top of World Mountain.    
+#M09D04S01P08    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t24.ogg]It was then Necros brought the dead back to life. He then sent them into the caves to try to find the hidden Crown.
+#M09D04S01P09    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t25.ogg]The undead finally reached the verge where the lands of the lava demons began.
+#M09D04S01P10    [M9DwarfChief][Pride][Missions\SOUND\MISSION09\m09_t26.ogg]The demons realized that there was someone claiming rights to rule over the underground world and unleashed war upon him.
+#M09D04S01P11    [M9DwarfChief][Normal][Missions\SOUND\MISSION09\m09_t27.ogg]They are the ones who forced the legions of Necros to come into the light.
+
+
+
+
+#M09D03S01P01    [Elhant][Angry][Missions\SOUND\MISSION09\m09_t30.ogg]This is the most sinister place in the dungeons. The Crown... it must be here somewhere!
+

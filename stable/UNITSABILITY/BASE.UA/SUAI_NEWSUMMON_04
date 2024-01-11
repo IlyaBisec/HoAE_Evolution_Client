@@ -1,0 +1,10 @@
+<ua_SingleUnitAI>
+ <Name>suAI_NewSummon_04</Name>
+ <CastingRadius>500</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <MinTargetAmount>2</MinTargetAmount>
+   <CastingDelay>10000</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

@@ -1,0 +1,18 @@
+<WeaponModificator>
+ <Name>HA_wSummonPearl_Summon</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <BirthNewUnit>
+     <UT>
+      <UnitType>ItePearl(IT)</UnitType>
+     </UT>
+    </BirthNewUnit>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

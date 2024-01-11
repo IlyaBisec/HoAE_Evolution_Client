@@ -1,0 +1,87 @@
+var f1,f2:file;
+tt,i,j,k,p1,p2,p,q:integer;
+rgb:array[0..767] of byte;
+rgb1:array[0..767] of byte;
+colr:array[0..15] of byte;
+function GetMaxInd(r,g,b:byte):byte;
+begin
+     if(r>g)and(r>b)then GetMaxInd:=0;
+     if(g>b)and(g>r)then GetMaxInd:=0;
+     if(b>r)and(b>g)then GetMaxInd:=0;
+end;
+function GetBestColor(r,g,b:integer):byte;
+var i,j,k,p,rr,gr,br,q:integer;
+    in1,in2:byte;
+begin
+     if(r>255)then r:=255;
+     if(g>255)then g:=255;
+     if(b>255)then b:=255;
+     j:=0;
+     k:=1000;
+     q:=0;
+     in1:=GetMaxInd(r,g,b);
+     for i:=0 to 255 do
+     begin
+          rr:=rgb[q];
+          gr:=rgb[q+1];
+          br:=rgb[q+2];
+          inc(q,3);
+          in2:=GetMaxInd(rr,gr,br);
+          p:=abs(integer(r)-rr)+abs(integer(g)-gr)+abs(integer(b)-br);
+          if(in2<>in1)then p:=p+100;
+          if(p<k)then
+          begin
+               k:=p;
+               j:=i;
+          end;
+     end;
+     GetBestColor:=j;
+end;
+begin
+     colr[0]:=218;
+     colr[1]:=38;
+     colr[2]:=38;
+     colr[3]:=38;
+     colr[4]:=38;
+     colr[5]:=37;
+     colr[6]:=37;
+     colr[7]:=37;
+     colr[8]:=30;
+     colr[9]:=181;
+     colr[10]:=181;
+     colr[11]:=181;
+     colr[12]:=181;
+     colr[13]:=181;
+     colr[14]:=182;
+     colr[15]:=182;
+     p2:=16-p1;
+     assign(f1,'agew_1.pal');
+     reset(f1,1);
+     blockread(f1,rgb,768);
+     close(f1);
+     assign(f2,'WCost.grd');
+     rewrite(f2,1);
+     for i:=0 to 255 do
+     begin
+          for j:=0 to 15 do
+          begin
+               for k:=0 to 15 do
+               begin
+                    q:=j;
+                    {if(k>4)then q:=q+k-4;
+                    q:=q*13 div 16;
+                    q:=q+2;
+                    if(q>15)then q:=15;
+{                    if q<0 then q:=0;
+                    if q>5 then q:=5;}
+                    tt:=0;{(q*(16-q)*(16-q)*(16-q)) div 12;}
+                    p:=GetBestColor((longint(rgb[i*3])*(16-q)+longint(rgb[(k+$1E)*3])*q+tt) div 16,
+                                    (longint(rgb[i*3+1])*(16-q)+longint(rgb[(k+$1E)*3+1])*q+tt) div 16,
+                                    (longint(rgb[i*3+2])*(16-q)+longint(rgb[(k+$1E)*3+2])*q+tt+tt) div 16);
+                    blockwrite(f2,p,1);
+               end;
+          end;
+     end;
+     close(f2);
+
+end.

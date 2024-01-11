@@ -1,0 +1,44 @@
+//Animation description
+//#ANIM NAME
+//      GP-file_name xc yc Num_octants NAnimFrames StartFrame DistancePerFrame(Unit_Is_1/16_of_Pixel) LineX1 LineX2
+//G MADE BY GEC
+/////Francuzi pushkari
+//#3DANIM Name Scale ModelID AnimID NFrames DistPerFrame AddH AddFi
+#ANIM    0  
+              G\pusto    127 144    16   1  0  0   00 00 8
+#3DANIM  KONC 
+           0.12 Models\Units\MisUKar\MisUDoeM_walk1.C2M Models\Units\MisUKar\MisUDoeA_stand1.C2M 1 0 0 128
+#3DANIM  KONG 
+           0.12 Models\Units\MisUKar\MisUDoeM_walk1.C2M Models\Units\MisUKar\MisUDoeA_walk1.C2M 30 35 0 128
+#3DANIM  SANIC
+           0.12 Models\Units\MisUKar\MisUKarM_death1.C2M Models\Units\MisUKar\MisUKarA_death1.C2M 1 0 0 128
+#3DANIM  SANIG
+           0.12 Models\Units\MisUKar\MisUKarM_death1.C2M Models\Units\MisUKar\MisUKarA_death1.C2M 30 35 0 128
+
+#MQUANT KONI  40 -25 4
+    $STAND_ALONE 2
+         KONC     -5  -15 L
+         KONC     -5   15 R
+    $MOTION_ALONE 2
+         KONG     -10  -15 L
+         KONG     -10   15 R
+    @TRANSFORM $STAND_ALONE     $MOTION_ALONE
+        ---//---
+        ---//---
+    @TRANSFORM $MOTION_ALONE    $STAND_ALONE
+        ---//---
+        ---//---
+#MQUANT KOLESNICA  40 -20 4
+    $STAND_ALONE 2
+         SANIC     0   0 C
+	 0         0   0 C
+    $MOTION_ALONE 2
+         SANIG     0   0 C
+         0         0   0 C
+    @TRANSFORM $STAND_ALONE     $MOTION_ALONE
+        ---//---
+        ---//---
+    @TRANSFORM $MOTION_ALONE    $STAND_ALONE
+        ---//---
+        ---//---
+#UNIT KOLESNICA KONI KOLESNICA

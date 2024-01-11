@@ -1,0 +1,19 @@
+<NewAbility>
+ <Name>UW_aIceBTow_Fake</Name>
+ <ClassType>Image</ClassType>
+ <FileID>Interf3\Ability\auras_crealzy</FileID>
+ <SpriteID>4</SpriteID>
+ <HintName>#AuraWordofIce.NAME</HintName>
+ <Hint>#AuraWordofIce</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

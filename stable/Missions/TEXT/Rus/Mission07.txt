@@ -1,0 +1,69 @@
+#M07D01S01    [Warlord][Normal][Missions\SOUND\MISSION07\m07_t01.ogg]Теперь, когда все припасы доставлены, займись отстройкой лагеря.
+#M07D01S02    [Elhant][Angry][Missions\SOUND\MISSION07\m07_t02.ogg]Я воин, а не строитель! Кроме того, сейчас нужно разведать, что происходит на пути к городу Звенящей Воды.
+#M07D01S03P1    [Warlord][Normal][Missions\SOUND\MISSION07\m07_t03.ogg]Мы будем ждать помощи друидов. Приказываю тебе заняться обороной лагеря!
+
+#M07D01S03P2    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t04.ogg]Но мы должны нападать, а не защищаться и отступать! 
+#M07D01S03P3    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t05.ogg]Я выполню приказ, воевода, - но лишь потому, что сам ты ранен и не можешь руководить обороной.
+
+#M07D01S04   [Warlord][Normal][Missions\SOUND\MISSION07\m07_t06.ogg]Следопыт... Запомни: если в следующий раз ты не подчинишься, я навсегда изгоню тебя из войска!
+#M07D01S05P1    [Lana][Normal][Missions\SOUND\MISSION07\m07_t07.ogg]Я разговаривала с друидом Драэлнором. Магические порталы не действуют, и теперь мудрый пытается восстановить их.
+#M07D01S05P2    [Lana][Normal][Missions\SOUND\MISSION07\m07_t08.ogg]Когда порталы заработают, он переправит всё наше войско в город.
+
+
+
+#M07D02S01    [M7Centaur2][Normal][Missions\SOUND\MISSION07\m07_t09.ogg]Ты командуешь обороной? Тогда у нас для тебя важные сведения!
+#M07D02S02    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t10.ogg]Я слушаю, воин.
+#M07D02S03P1    [M7Centaur2][Normal][Missions\SOUND\MISSION07\m07_t11.ogg]Мы заметили нескольких чёрных колдунов, пробиравшихся к эльфийскому кладбищу.
+#M07D02S03P2    [M7Centaur2][Normal][Missions\SOUND\MISSION07\m07_t12.ogg]Я не знаю, зачем, но вряд ли они задумали доброе деяние!
+#M07D02S04    [Lana][Normal][Missions\SOUND\MISSION07\m07_t13.ogg]Но почему вы сами не остановили их? 
+#M07D02S04P02    [M7Centaur2][Normal][Missions\SOUND\MISSION07\m07_t14.ogg]Ты же видишь - нас слишком мало!
+#M07D02S05    [Lana][Normal][Missions\SOUND\MISSION07\m07_t15.ogg]Я возьму солдат и пойду в лec...
+#M07D02S06   [Elhant][Normal][Missions\SOUND\MISSION07\m07_t16.ogg]Нет. Ты останешься здесь и будешь командовать обороной лагеря.
+#M07D02S06P02    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t17.ogg]Я хочу узнать, что задумали колдуны, для чего они хотят осквернить могилы нашего народа.
+#M07D02S07    [Lana][Normal][Missions\SOUND\MISSION07\m07_t18.ogg]Ты не имеешь права приказывать мне! 
+#M07D02S07P02    [Lana][Normal][Missions\SOUND\MISSION07\m07_t19.ogg]Только мой отец может решить, кому оставаться в лагере, а кому отправляться в разведку...
+#M07D02S08    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t20.ogg]Твой отец ранен и не очень хорошо понимает, что происходит.
+#M07D02S08P01    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t21.ogg]Не спорь, я уже все решил! Со мной пойдёт небольшой отряд... и эти разведчики.
+
+
+
+
+#M07D03S01    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t25.ogg]Наверное, ты и есть тот, о ком говорила Лана?
+#M07D03S02    [Draelnor][Normal][Missions\SOUND\MISSION07\m07_t26.ogg]Друиды просили меня помочь вам. Я - Драэлнор.
+#M07D03S03P1    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t27.ogg]Наконец-то! Ты откроешь порталы, чтобы войско перенеслось к Горе Мира?
+#M07D03S04P1    [Draelnor][Normal][Missions\SOUND\MISSION07\m07_t28.ogg]Магия порталов не действует и поныне. Я помогу вам иным способом.
+#M07D03S04P2    [Draelnor][Normal][Missions\SOUND\MISSION07\m07_t29.ogg]Вот волшебные семена; мы посеем их на ближайшем поле. 
+
+#M07D03S05    [Draelnor][Normal][Missions\SOUND\MISSION07\m07_t30.ogg]Не успеет солнце пройти половину небосвода, как из них вырастут могучие воины.
+#M07D03S06   [Elhant][Suprised][Missions\SOUND\MISSION07\m07_t31.ogg]Да, я знал одного такого... его звали Старый Ясень. Что ж, старик, начинай!
+
+#M07D03S06P02    [Draelnor][Normal][Missions\SOUND\MISSION07\m07_t32.ogg]Не так быстро, следопыт. Поле нужно охранять, ведь ростки древолюдей очень просто уничтожить. 
+#M07D03S06P03    [Draelnor][Normal][Missions\SOUND\MISSION07\m07_t33.ogg]Нежить почует их и обязательно нападёт.
+
+
+
+
+
+#M07D07S01   [Draelnor][][Missions\SOUND\MISSION07\m07_t34.ogg]Древолюди готовы к бою, следопыт. Ты можешь посылать их в атаку.
+
+
+
+#M07D04S01    [M7Centaur1][Normal][Missions\SOUND\MISSION07\m07_t36.ogg]Огромное войско нежити приближается с востока. Среди них некроманты и личи!
+#M07D04S02    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t37.ogg]Мы примем бой!
+#M07D04S03    [M7Centaur1][Normal][Missions\SOUND\MISSION07\m07_t38.ogg]У вас не хватит сил, к тому же твои воины устали после долгих сражений. Вы неминуемо будете разбиты!
+#M07D04S04    [Elhant][Normal][Missions\SOUND\MISSION07\m07_t39.ogg]Старик, действуют ли порталы?
+#M07D04S05    [Draelnor][Normal][Missions\SOUND\MISSION07\m07_t40.ogg]Я расплел нити темного заклятья, но чтобы порталы вновь исправно заработали нужно время. Придётся подождать ещё немного...
+
+
+#M07D05S01    [Draelnor][Normal][Missions\SOUND\MISSION07\m07_t41.ogg]Воины, сюда, ко мне! Порталы работают ещё не слишком хорошо, но я попытаюсь отправить вас прямиком к Горе Мира!
+
+
+
+
+#M07D10S01P01     [Elhant][Angry][Missions\SOUND\MISSION07\m07_t22.ogg]Некроманты превращают падших воинов в нежить! 
+#M07D10S01P02   [Elhant][Normal][Missions\SOUND\MISSION07\m07_t23.ogg]Все эльфы, погибшие в сражениях, становятся их солдатами.
+#M07D10S02P01    [Elhant][Angry][Missions\SOUND\MISSION07\m07_t24.ogg]Как вообще можно победить таких врагов? Наши смерти лишь укрепляют их войско!
+#M07D10S03P01    [Elhant][Suprised][Missions\SOUND\MISSION07\m07_t35.ogg]Хорошо, что древолюди на нашей стороне! Это могучие воины: каждый из них стоит целого отряда врагов... 
+
+
+

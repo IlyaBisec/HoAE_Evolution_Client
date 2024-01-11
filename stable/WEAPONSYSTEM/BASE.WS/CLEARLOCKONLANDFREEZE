@@ -1,0 +1,26 @@
+<WeaponModificator>
+ <Name>ClearLockOnLandFreeze</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <pm_OnLandRestoreLockPoints>
+     <Radius>
+      <Value>
+       <Op>
+        <NumericalConst>
+         <Value>
+          <Value>210</Value>
+         </Value>
+        </NumericalConst>
+       </Op>
+      </Value>
+     </Radius>
+    </pm_OnLandRestoreLockPoints>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

@@ -1,0 +1,61 @@
+NAME DruBSto
+
+ICON U_FrnOf17
+/ICONEX 0 0 interf3\InGame\druids_buildings 8
+ICONEX 0 0 interf3\PortretsBuilding\DruBSto 0
+ICONANM 0 0 interf3\PortretsBuilding\DruBSto 1 96 1
+
+BUILDING
+SETANMPARAM -0 -0 1 0              
+LOCATION -0 -0 800 800
+!STANDLO    1 1.21 Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m
+!BUILDLO_0    1 1.21 Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m
+!BUILDLO_1    1 1.21 Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m
+!BUILDLO_2    1 1.21 Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m
+!BUILDLO_3    1 1.21 Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m Models\Bld\DRUID\Stone_House\1024x512\Stone_House.c2m
+ADDHDIR #STANDLO   -7 160
+ADDHDIR #BUILDLO_0 -7 160
+ADDHDIR #BUILDLO_1 -7 160
+ADDHDIR #BUILDLO_2 -7 160
+ADDHDIR #BUILDLO_3 -7 160
+BORNPOINTS3 3 -60 0 0  -20 20 0 -100 180 0
+GEOMETRY 1 199 32
+LIFE 3000
+PROTECTION 3 piercing 15 magical 0 chopping 15
+PRICE 2 WOOD 250 COAL 350 
+COSTPERCENT 300
+BUILDSTAGES 10
+MATHERIAL 1 BUILDING
+RECTANGLE    0 100 170 110
+EXPLMEDIA BUILDING 5
+BUILDBAR -15 0 15 0
+VISION 0
+ROUNDLOCK 9
+3DBARS 6 -80 -35 20 30 80 -5 -45 40 20 70 50 -10 25 25 70 -80 20 45 20 70 50 20 20 20 70 5 40 15 15 40
+ADDSHOTRADIUS 170
+SELTYPE SelBigBuilding 2.0 2.0
+ABILITY BuildStage_Dru
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+SELECT_SOUND interface_click
+BORN_SOUND building_ready
+DEATH_SOUND building_death
+CYLINDER 110 60
+FORMFACTOR 256
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.0
+ShadowScaleY 3.4
+TFACTOR FF858585
+!TEMP5 180 1.0 Models\Effects\MagicCard\Listva\Listva.c2m Models\Effects\MagicCard\Listva\Listva.c2m
+MOVEXY  #TEMP5 0 0
+ADDHDIR #TEMP5 0 160
+ANMEXT #STANDLO #TEMP5 0 0 0 1.0 2000
+!TEMP2 100 0.30 Models\Effects\BildColor2.c2m Models\Effects\BildColor2.c2m
+MOVEXY  #TEMP2 0 50
+ANMEXT #STANDLO #TEMP2 0 0 0 1.0 50000
+[END]

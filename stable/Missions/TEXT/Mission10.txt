@@ -1,0 +1,75 @@
+#M10D02S01P01    [Lana][Glad][Missions\SOUND\MISSION10\m10_t29.ogg]Эльхант, ты жив! Я уже не надеялась увидеть тебя!..
+#M10D02S02P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t30.ogg]Оракул поведал мне, что победить нежить можно лишь с помощью Короны Стихий. 
+#M10D02S02P02    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t31.ogg]Я добыл её в подземельях под Горой Мира и теперь иду к Драэлнору. Но что ты делаешь здесь?
+#M10D02S03P01    [Lana][Sad][Missions\SOUND\MISSION10\m10_t32.ogg]После совета, когда отец изгнал тебя, я поссорилась с ним и ушла. 
+#M10D02S03P02    [Lana][Sad][Missions\SOUND\MISSION10\m10_t33.ogg]Он полагает, что мы можем победить врага оружием и магией друидов, но я уже не верю в это.
+#M10D02S03P03    [Lana][Normal][Missions\SOUND\MISSION10\m10_t34.ogg]Я... я надеялась найти тебя, но вокруг Горы Мира кишит нежить. 
+#M10D02S03P04    [Lana][Sad][Missions\SOUND\MISSION10\m10_t35.ogg]Иногда кажется, что теперь весь Атланс захвачен ею, и мне страшно.
+#M10D02S04P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t36.ogg]Времени у нас мало, потому-то я и спешу к старику. Он может посоветовать, что делать дальше.
+#M10D02S05P02    [Lana][Normal][Missions\SOUND\MISSION10\m10_t37.ogg]Я хорошо знаю эти места и отведу тебя к нему. Идём же скорей!
+
+#M10D02S06P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t38.ogg]Лана... Я всегда старался не обращать внимание на женщин: от них одни лишь хлопоты.
+#M10D02S07P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t39.ogg]Однако Лана сильная и смелая. Конечно, ей не сравниться с мужчиной-воином... но положиться на нее можно.
+
+
+
+#M10D04S01P01    [M10Elder][Normal][Missions\SOUND\MISSION10\m10_t15.ogg]Воин, молю тебя, помоги нам!
+#M10D04S02P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t16.ogg]Я спешу к реке и не могу задерживаться надолго. Что у вас стряслось?
+#M10D04S03P01    [M10Elder][Normal][Missions\SOUND\MISSION10\m10_t17.ogg]Гоблины и орки захватили наших детей. Освободи их!
+
+
+#M10D05S01P01    [M10Children][Normal][Missions\SOUND\MISSION10\m10_t20.ogg]Чудовища хотели убить нас! Спасибо тебе, высокий незнакомец!
+
+#M10D06S01P01    [M10Children][Normal][Missions\SOUND\MISSION10\m10_t21.ogg]Благодарим тебя! Ещё немного, и мы бы погибли.
+
+#M10D07S01P01    [M10Elder][Normal][Missions\SOUND\MISSION10\m10_t22.ogg]Мы благодарны тебе, славный воин! Возьми это в знак нашей признательности.
+
+
+#M10D08S01P01    [M10Elf][Normal][Missions\SOUND\MISSION10\m10_t23.ogg]Следопыт, можешь ли ты оказать нам помощь?
+#M10D08S02P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t24.ogg]Что у вас стряслось?
+#M10D08S03P01    [M10Elf][Normal][Missions\SOUND\MISSION10\m10_t25.ogg]В лесах на юго-востоке поселились урсы и грабят проезжающие мимо обозы. Скоро в нашем селении начнётся голод!
+
+#M10D09S01P01    [M10Elf][Normal][Missions\SOUND\MISSION10\m10_t26.ogg]Ты спас нас от голодной смерти, храбрый воин!
+
+
+
+
+
+
+
+
+
+#M10D10S01P01    [M10Dwarf1][Normal][Missions\SOUND\MISSION10\m10_t08.ogg]Воин, помоги нам!
+
+
+#M10D10S02P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t09.ogg]Что вы делаете в наших лесах? Ведь ваше племя обитает под землёй!
+#M10D10S02P02    [M10Dwarf1][Normal][Missions\SOUND\MISSION10\m10_t10.ogg]В легендах говорится о летающем ковчеге, на котором наши предки вместе с великим Октоном прибыли на этот остров. 
+#M10D10S02P03    [M10Dwarf1][Normal][Missions\SOUND\MISSION10\m10_t11.ogg]И мы нашли его!.. Увы, вновь взлететь ковчегу не суждено: он разрушен и починить его невозможно. 
+#M10D10S02P04    [Elhant][Suprised][Missions\SOUND\MISSION10\m10_t12.ogg]Но эта громадина сделана из железа и дерева. Неужели она способна летать будто птица?
+#M10D10S03P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t13.ogg]Но ведь она слишком тяжела! Никакая магия не сможет поднять её в воздух!
+#M10D10S03P02    [M10Dwarf1][Normal][Missions\SOUND\MISSION10\m10_t14.ogg]Ею управляет не магия, а механика. Однако нам пора возвращаться в пещеры, следопыт, пока на наше селение вновь не напали враги. 
+
+
+
+
+
+
+#M10D01S01P01    [Elhant][Angry][Missions\SOUND\MISSION10\m10_t01.ogg]Ну и страшила! Так вот почему Повелитель Праха не смог заполучить Корону!
+#M10D01S01P02    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t02.ogg]Немудрено: Его мертвые прислужники не ровня этому демону. Но и мне не справиться с ним.
+#M10D01S01P03    [Elhant][][Missions\SOUND\MISSION10\m10_t03.ogg]Что ж, видимо, и самый сильный воин должен иногда отступать...
+
+#M10D01S02P01    [Elhant][][Missions\SOUND\MISSION10\m10_t04.ogg]Драэлнор - единственный, кто тоже считает, что с нежитью надо бороться не простым оружием.
+#M10D01S02P02    [Elhant][][Missions\SOUND\MISSION10\m10_t05.ogg]Теперь, когда Корона Стихий у меня, надо разыскать этого старика.
+#M10D01S02P03    [Elhant][][Missions\SOUND\MISSION10\m10_t06.ogg]Воевода, конечно, хороший воин, но острым умом он не отличается.
+#M10D01S02P04    [Elhant][][Missions\SOUND\MISSION10\m10_t07.ogg]Что делать дальше, решим мы с друидом!
+
+#M10D01S03P01    [Elhant][][Missions\SOUND\MISSION10\m10_t18.ogg]Вот силища! Этот гигант бросает целые каменные глыбы - да так, что они разбиваются о землю!
+#M10D01S03P02    [Elhant][][Missions\SOUND\MISSION10\m10_t19.ogg]Я-то цел, а вот остальных могут сильно поранить осколки...
+
+
+
+
+#M10D01S04P01    [Elhant][][Missions\SOUND\MISSION10\m10_t27.ogg]Ого! Так злобные твари дерутся и между собой! Я думал, они объединились... и хорошо, что ошибся в этом предположении! 
+#M10D01S04P02    [Elhant][][Missions\SOUND\MISSION10\m10_t28.ogg]Пусть они и дальше уничтожают друг друга.
+
+ 

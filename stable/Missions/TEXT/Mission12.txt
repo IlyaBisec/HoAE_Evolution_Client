@@ -1,0 +1,26 @@
+#M12D01S01    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t17.ogg]Открывайте ворота! Мне нужно попасть в Город Стуж!
+#M12D01S02    [M12IceGolem][Normal][Missions\SOUND\MISSION12\m12_t18.ogg]Мы стережём. Чужакам путь закрыт.
+#M12D01S03    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t19.ogg]За этими стенами уже полно врагов! Открывайте ворота, я ваш союзник!
+#M12D01S04    [M12IceGolem][Normal][Missions\SOUND\MISSION12\m12_t20.ogg]Мы стережём. Чужакам путь закрыт.
+#M12D01S05    [Elhant][Angry][Missions\SOUND\MISSION12\m12_t21.ogg]Истуканы!.. Ладно, нужно искать другой путь. А может, просто разрушить эти проклятые ворота?
+#M12D02S01    [M12YetiChief][Normal][Missions\SOUND\MISSION12\m12_t08.ogg]Чужеземец, ты помог нам, и закон нашего племени велит помочь тебе. Куда ты спешишь?
+#M12D02S02    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t09.ogg]Мне нужно попасть в Город Стуж до того, как солы разрушат его.
+#M12D02S03    [M12YetiChief][Normal][Missions\SOUND\MISSION12\m12_t10.ogg]На пути тебя ждёт множество врагов. Мы пойдём с тобой.
+#M12D03S01    [M12Enchantress][Normal][Missions\SOUND\MISSION12\m12_t11.ogg]Благодарим тебя, незнакомец. Куда ты спешишь?
+#M12D03S02    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t12.ogg]Мне надо добраться до вашей столицы.
+#M12D03S03    [M12Enchantress][Normal][Missions\SOUND\MISSION12\m12_t13.ogg]Мы пойдем с тобой, нужно попытаться отбить атаку солов!
+#M12D04S01    [M12IceMage2][Normal][Missions\SOUND\MISSION12\m12_t14.ogg]Если бы не твоя помощь, мы бы погибли! Куда ты направляешься, чужеземец?
+#M12D04S02    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t15.ogg]Я спешу в вашу столицу.
+#M12D04S03    [M12IceMage2][Normal][Missions\SOUND\MISSION12\m12_t16.ogg]На твоём пути враг. Погоди, я дам тебе помощников!
+#M12D05S01    [M12Gremlin][Normal][Missions\SOUND\MISSION12\m12_t05.ogg]Спасибо что спас нас, чужеземец! Если ты идёшь в нашу столицу, знай: туда ведут три дороги.
+#M12D05S02    [M12Gremlin][Normal][Missions\SOUND\MISSION12\m12_t06.ogg]На западе - дорога магов, на востоке - дорога дипломатов, в центре - путь воинов.
+#M12D05S03    [M12Gremlin][Normal][Missions\SOUND\MISSION12\m12_t07.ogg]Выбирай ту, что тебе по душе.
+#M12D06S01P1    [M12IceMage1][Normal][Missions\SOUND\MISSION12\m12_t01.ogg]Если ты ищешь Жемчужину, то должен попасть во дворец.
+#M12D06S01P2    [M12IceMage1][Normal][Missions\SOUND\MISSION12\m12_t02.ogg]Поторопись, чтобы солы не оказались там раньше тебя!
+#M12D07S01    [M12DeathMage][Normal][Missions\SOUND\MISSION12\m12_t22.ogg]Смотрите, вот неплохой подопытный для нашего эксперимента!
+#M12D07S02    [M12DeathMage][Normal][Missions\SOUND\MISSION12\m12_t23.ogg]Сейчас мы проверим, действительно ли голем неуязвим...
+#M12D07S03    [Elhant][Angry][Missions\SOUND\MISSION12\m12_t24.ogg]Я воин, а не игрушка для вас, колдуны! Убирайтесь с дороги, я тороплюсь!
+#M12D07S04    [M12DeathMage][Normal][Missions\SOUND\MISSION12\m12_t25.ogg]Ха-ха! Поглядите, он ещё и огрызается!.. Приготовься к смерти, наглец! Голем, убей его!
+#M12D08S01    [Elhant][Angry][Missions\SOUND\MISSION12\m12_t26.ogg]Дворец осаждён. Нужно покончить с нападающими, чтобы не опасаться удара в спину.
+#M12D09S01P1    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t03.ogg]Никогда не видел столько снега! В этих северных землях куда холоднее, чем зимой в Атлансе.
+#M12D09S01P2    [Elhant][Normal][Missions\SOUND\MISSION12\m12_t04.ogg]Да и твари здесь живут необычные.

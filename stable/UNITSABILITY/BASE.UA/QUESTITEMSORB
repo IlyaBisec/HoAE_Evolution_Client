@@ -1,0 +1,36 @@
+<NewItem>
+ <Clothe>true</Clothe>
+ <CanNotBeClothe>true</CanNotBeClothe>
+ <TypeClothe>Ring</TypeClothe>
+ <Name>QuestItemsOrb</Name>
+ <FileID>Interf3\Ability\goods_quest</FileID>
+ <SpriteID>2</SpriteID>
+ <FileID_Inv>Interf3\Ability\goods_inventory_quest</FileID_Inv>
+ <EffectFileID>Interf3\Ability\goods_quest</EffectFileID>
+ <EffectSpriteID>2</EffectSpriteID>
+ <HintName>#QuestItemsOrb.NAME</HintName>
+ <Hint>#QuestItemsOrb</Hint>
+ <GroundMD>
+  <UnitType>DropM1(IT)</UnitType>
+ </GroundMD>
+ <Amount>1</Amount>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <Duration>5000</Duration>
+   <Effect>
+    <ModelID>Models\Effects\MagicCard\AuraR\AuraR.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewItem>

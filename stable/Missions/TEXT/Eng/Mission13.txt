@@ -1,0 +1,96 @@
+#M13D01S01P01    [M13TorGilong][Normal][Missions\SOUND\MISSION13\m13_t01.ogg]Help me, stranger!
+
+
+#M13D01S01P02    [Elhant][][Missions\SOUND\MISSION13\m13_t02.ogg]Who are you? And why were they chasing you?
+#M13D01S02P01    [M13TorGilong][Pride][Missions\SOUND\MISSION13\m13_t03.ogg]My name is Tor Gilong. I was a slave in the Sols' pyramid. 
+#M13D01S03P01    [Elhant][Normal][Missions\SOUND\MISSION13\m13_t04.ogg]I'm looking for the Gem. I've been told that it is hidden inside the pyramid. How can I get there?
+#M13D01S04P01    [M13TorGilong][Pride][Missions\SOUND\MISSION13\m13_t05.ogg]Go into the depths of the island. The Sols fight each other for power and the wizards grapple with the priests!
+#M13D01S04P02    [M13TorGilong][][Missions\SOUND\MISSION13\m13_t06.ogg]Only this ensured my escape - and it may help you to reach the pyramid as well.
+#M13D01S06P01    [M13TorGilong][Pride][Missions\SOUND\MISSION13\m13_t07.ogg]Good luck, stranger, and thanks for your help!
+
+
+
+
+
+#M13D02S01P01    [M13Cleric][Pride][Missions\SOUND\MISSION13\m13_t08.ogg]Hey, you! Hey, mercenary! Help us!
+#M13D02S02P01    [Elhant][Angry][Missions\SOUND\MISSION13\m13_t09.ogg]I'm not a mercenary.
+#M13D02S03P01    [M13Cleric][Pride][Missions\SOUND\MISSION13\m13_t10.ogg]You insult us with a refusal? Soldiers! Kill that stranger! He's at one with the traitors!
+
+
+#M13D03S01P01    [M13Priest][Pride][Missions\SOUND\MISSION13\m13_t11.ogg]So the cursed idolaters got what they deserved! Nobody can beat the wizards of the Fiery Hand.
+#M13D03S01P02    [M13Priest][Pride][Missions\SOUND\MISSION13\m13_t12.ogg]So, you are not a mercenary, eh, stranger? Who are you then?
+
+#M13D03S02P01    [Elhant][Pride][Missions\SOUND\MISSION13\m13_t13.ogg]I'm Elhant, Ranger from Atlans.
+#M13D03S03P01    [M13Priest][Pride][Missions\SOUND\MISSION13\m13_t14.ogg]Never heard of such land. Though... it's not important. 
+#M13D03S03P02    [M13Priest][][Missions\SOUND\MISSION13\m13_t15.ogg]You fight well though, Ranger and I'm ready to pay you for small combat.
+#M13D03S04P01    [Elhant][][Missions\SOUND\MISSION13\m13_t16.ogg]No fights, wizard. I'm must hurry. There is no time. I need to get into the pyramid.
+
+#M13D03S05P01    [M13Priest][][Missions\SOUND\MISSION13\m13_t17.ogg]Ha ha ha! Did you hear him? He wants to get inside the Universum!
+#M13D03S05P02    [M13Priest][][Missions\SOUND\MISSION13\m13_t18.ogg]But don't you know, that it is guarded by the sphinxes? Nobody can slip inside, unless he knows a secret path.
+#M13D03S05P03    [M13Priest][][Missions\SOUND\MISSION13\m13_t19.ogg]If you want to get to the Universum, I will show you the way. But first you must accomplish my task!
+
+#M13D03S06P01    [Elhant][][Missions\SOUND\MISSION13\m13_t20.ogg]What kind of task, wizard?
+
+#M13D03S07P01    [M13Priest][][Missions\SOUND\MISSION13\m13_t21.ogg]In one of the villages to the north from here, the idolaters hold a cyclops: they control his mind with the Eye of Hartualon.
+
+#M13D03S07P02    [M13Priest][][Missions\SOUND\MISSION13\m13_t22.ogg]I need both the Eye and the Cyclops.
+
+#M13D03S07P04    [M13Priest][][Missions\SOUND\MISSION13\m13_t23.ogg]Most of the soldiers will be engaged in the raids on the Cryo race, seizing it will be an easy task.
+#M13D03S07P05    [M13Priest][][Missions\SOUND\MISSION13\m13_t24.ogg]Just kill the priest, who possesses the Eye...
+
+#M13D03S08P01    [Elhant][][Missions\SOUND\MISSION13\m13_t25.ogg]If I am not equal to the sphinxes, I will deal with your Eye.
+#M13D03S09P01    [M13Priest][][Missions\SOUND\MISSION13\m13_t26.ogg]If you are serious about measuring your strength with the sphinxes, you may as well jump from the Shambala's edge straight away.
+#M13D03S09P02    [M13Priest][][Missions\SOUND\MISSION13\m13_t27.ogg]It will make your death far less painful.
+
+
+
+
+
+#M13D10S01P01    [Elhant][][Missions\SOUND\MISSION13\m13_t28.ogg]If only Atlans could fly up into the sky just like this island did...
+#M13D10S01P02    [Elhant][][Missions\SOUND\MISSION13\m13_t29.ogg]What kind of force keeps Shambala up in the clouds and what guides it I wonder? 
+#M13D10S01P03    [Elhant][][Missions\SOUND\MISSION13\m13_t30.ogg]The world is huge and wonderful, sometimes seems as if I have just stepped into a huge sunlit hall from a dark and tiny room.
+#M13D10S01P04    [Elhant][][Missions\SOUND\MISSION13\m13_t31.ogg]However, evil waits everywhere. And it reigns over Shambala.
+
+
+
+
+
+
+
+
+#M13D03S10P01    [Elhant][][Missions\SOUND\MISSION13\m13_t38.ogg]Dwarfs? How did you get here?
+#M13D04S01P01    [M13Mechanic][Pride][Missions\SOUND\MISSION13\m13_t39.ogg]We flew after you but the Sol's vessels damaged our ark.
+#M13D04S02P01    [M13Mechanic][Pride][Missions\SOUND\MISSION13\m13_t40.ogg]An engine's part fell not far away from here - at the island's verge. Two of our men went there to retrieve it, but they have not come back.
+#M13D04S04P01    [Elhant][][Missions\SOUND\MISSION13\m13_t41.ogg]I'll bring you what you need. 
+            
+#M13D10S02P01    [Elhant][][Missions\SOUND\MISSION13\m13_t42.ogg]It's so hot here... Is it because the island is closer to the Sun?
+
+
+#M13D05S02P01    [Elhant][][Missions\SOUND\MISSION13\m13_t43.ogg]Here's your iron, Mechanican.
+#M13D05S03P01    [M13Mechanic][][Missions\SOUND\MISSION13\m13_t44.ogg]Now we have a chance to return home! Tell us, Ranger.  How we can help you?
+#M13D05S04P01    [Elhant][][Missions\SOUND\MISSION13\m13_t45.ogg]I must set out for the Pyramid. Take me away from the island, when I obtain the Gem. 
+
+#M13D06S01P01    [M13Slave][Pride][Missions\SOUND\MISSION13\m13_t46.ogg]I beg you, stranger... Help...
+#M13D06S03P01    [Elhant][Pride][Missions\SOUND\MISSION13\m13_t47.ogg]What has happened?
+#M13D06S04P01    [M13Slave][][Missions\SOUND\MISSION13\m13_t48.ogg]We are dying of thirst... We've run out of water... They have water in the village, but we can't defeat the guard... I beg you! Have mercy!..
+#M13D06S05P01    [Elhant][][Missions\SOUND\MISSION13\m13_t49.ogg]Have you run away from your masters? Don't be afraid, I'll try to find some water for you.
+
+
+
+#M13D07S01P01    [Elhant][Pride][Missions\SOUND\MISSION13\m13_t50.ogg]Here's the water! Drink as much as you want!
+#M13D07S02P01    [M13Slave][Pride][Missions\SOUND\MISSION13\m13_t51.ogg]Thank you, warrior! You have saved all of us!
+#M13D07S03P01    [Elhant][Pride][Missions\SOUND\MISSION13\m13_t52.ogg]I wish I could save my people so easily...
+#M13D07S04P01    [M13Slave][Pride][Missions\SOUND\MISSION13\m13_t53.ogg]Forgive us. We are unable to help you with your troubles. We have nothing. But wait, there is a pile of stones behind this rock that may be of use to you.
+
+#M13D07S04P02    [M13Slave][][Missions\SOUND\MISSION13\m13_t54.ogg]I saw the priests were hiding something there. Maybe you will find something useful for you and for your people?
+#M13D07S05P01    [Elhant][Suprised][Missions\SOUND\MISSION13\m13_t55.ogg]The secret door. I've found it! 'Open up, Sarlabim!'  Hey! It worked!
+	
+
+
+#M13D03S11P01    [M13Priest][Cry][Missions\SOUND\MISSION13\m13_t32.ogg]You have managed to get the Eye?! Ha! Give it to me! Agggghhh... I sense energy pulses though the stone. The Fiery Hand is invincible now!
+#M13D03S11P03    [Elhant][][Missions\SOUND\MISSION13\m13_t33.ogg]So, what did you want to tell me about the secret path?
+#M13D03S11P04    [M13Priest][][Missions\SOUND\MISSION13\m13_t34.ogg]You still want to get inside the Universum? Well, listen.
+#M13D03S11P05    [M13Priest][][Missions\SOUND\MISSION13\m13_t35.ogg]There's a maze to the east of the pyramid where the minotaurs dwell.
+#M13D03S11P06    [M13Priest][][Missions\SOUND\MISSION13\m13_t36.ogg]The entrance to the Univesum lies in the end of the maze, but it is sealed by a spell.
+#M13D03S11P07    [M13Priest][][Missions\SOUND\MISSION13\m13_t37.ogg]When you stand at the door, say: 'Open up, Sarlabim!' and it will fly open before you.
+ 

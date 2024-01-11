@@ -1,0 +1,14 @@
+<ua_SingleUnitAI>
+ <Name>suAI_LightningStorm</Name>
+ <CastingRadius>300</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aLightningStorm</RefName>
+   </UA>
+   <MinTargetAmount>1</MinTargetAmount>
+   <CastingDelay>5000</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

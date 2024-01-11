@@ -1,0 +1,434 @@
+\\====================================------------------- ОБЩИЕ ФРАЗЫ -------------------------================================
+
+INTF_MAIN_5 ВЫХОД
+@MSCANCEL O.K.
+$YESTXT$ ДА
+$NOTXT$ НЕТ
+
+
+\\ =========================--------------------------------          ИНТЕРФЕЙС МЕНЮ           --------------------------------=========================
+
+     --Main Menu--
+#MM_Single Одиночная игра
+#MM_Internet Интернет игра
+INTF_MAIN_1 Сетевая игра
+#MainMenu_Options_Title Опции
+#MM_ExitGame Выход
+     --Main Menu Hints--
+#MM_Single_hint Одиночная игра
+#MM_Internet_hint Интернет игра
+#MM_Multi_hint Сетевая игра
+#MM_Options_hint Опции
+#MM_Mods_hints Субтитры
+#Exit_Game Выход
+#MM_Credits Титры
+#MM_Credits_Hint Список людей, которые посвятили свои бессонные ночи, чтобы вы узнали и оценили новый мир и новых героев
+
+     --Single Player menu--
+INTF_MAIN_S0 Кампания
+#Tab_Skirmish Сражения
+INTF_MAIN_2 Загрузить
+#MM_ChangeProf Изменить профиль
+INTF_MAIN_B Назад
+
+     --Single Player menu hints--
+#MM_Campaign_hint Кампания
+#MM_Expansion_hint Сражения
+#MM_Load_hint Загрузить
+#MainMenu_ChangeAka Профиль
+#MM_Back2MM Отменить
+#MM_Back2MM_hint Отменить
+
+     --Multiplayer menu--
+#MM_Multi_hint Сетевая игра
+INTF_PLAYER_TITLE1 Имя
+#ip02_02 Адрес IP:
+#ip02_01 Введите IP адрес
+#ip02_00 Прямой TCP/IP
+#SM_GameName Вы можете позвать игроков тут:                    https://discord.gg/CJ4Rf7crzc
+#LAN_RoomsList_Create_Hint Создать
+#LAN_RoomsList_Join Войти
+#LAN_RoomsList_Join_Hint Присоединиться
+#LAN_RoomsList_List_Hint Список игр
+
+#TEXTINTRO From ancient times the true history of the land of elves has been covered by a carpet of tranquility. Until the time when this once serene land was deluged from within by the malicious hordes of undead warriors.\Whilst still a young elf of twenty-eight summers, Elhant dared to challenge the forces of evil and attempt to rescue the world from the clutches of eternal darkness. Although being uncertain about the actual powers of the undead and naive to the dangers ahead, Elhant was confident. He had twice won the ritual duel with death, and his powers were now stronger then ever. His mastery of the fiery Khaelgor and composite Longbow was unmatched. Clad in the green robe of his Strain, he was the only one here, at the outskirts of the elven capital, to stand steadfast against the remnants of the undead legion.\The buds of their evil empire are swelling across this region. Elhant must sever them swiftly.
+
+#PPH_Random Случайно
+#PPH_Melee Воин
+#PPH_Range Рейнджер
+#PPH_Mage Чародей
+
+     --Skirmish Room--
+#MM_Start Старт
+#MR_Computer_hint Компьютер
+#MR_Race_hint Раса
+#MR_Hero_hint Герой
+#MR_Color_hint Цвет
+#MR_Team_hint Команда
+#NationCombo_Random Случайно
+#DRUIDS Эльфы
+#UNDEADS Нежить
+#MECHANICS Механики
+#ICE Криальцы
+#Empty Закрыто	
+#MR_SinStart_hint Начать игру
+
+INTF_MESSAGE Сообщение
+ENCHAT Сообщение
+#ChatCheat Сообщение
+#MR_ChatText_Hint Строка ввода
+#_MR_SendChat Ввод
+#SM_GameName Карта
+GameSpeed Скорость игры
+HeroLives Жизни героя
+GameType Условие победы
+StartRes Начальные ресурсы
+RTS_mode Режим игры
+StartCards Магических карт
+#mpopt_Slow Медленная
+#mpopt_Normal Нормальная(по умолчанию)
+#mpopt_Fast Быстрая 
+#mpopt_VeryFast Очень быстрая
+#mpopt_VeryVeryFast Крайне быстрая
+#mpopt_MarvellousFast Безумно быстрая
+#mpopt_Lives1 1 жизнь
+#mpopt_Lives3 3 жизни
+#mpopt_Lives5 5 жизней
+#mpopt_Lives7 7 жизней
+#mpopt_UntilDie полное уничтожение
+#mpopt_ScoreGame_15 очки на 15 минут
+#mpopt_ScoreGame_30 очки на 30 минут
+#mpopt_ScoreGame_45 очки на 45 минут
+#mpopt_ScoreGame_60 очки на 60 минут
+#mpopt_res_1000 1000 (по умолчанию)
+#mpopt_res_3000 3000
+#mpopt_res_1000000 1000000
+#mpopt_rts_default По умолчанию
+#mpopt_rts_only Только развитие
+#mpopt_rpg_only Только герои
+#mpopt_cards_default по умолчанию
+#mpopt_cards_3 дополнительно 3 карты
+#mpopt_cards_7 дополнительно 7 карт
+CHAT_IG_BACK_BUTTON_TEXT Назад
+#MR_MulBack_hint Назад
+#SingleBattle_Start Начать игру
+
+     --Player Profile--
+#NewPlayerName Игрок
+#MM_DeleteProf Удалить профиль
+#MM_DeleteProf_hint Удалить профиль
+#MM_Options_Accept Выбрать
+INTF_CREATE Создать
+#NewProfile_Title Создать
+#MM_Options_Cancel Отменить
+#MM_Options_Cancel_Hint Отменить
+#NewProf Новый профиль
+
+     --Campaign--
+#MM_CampList_Accept_hint Войти в меню кампании
+#MM_CampaignList_Cancel_hint Возврат в меню одиночной игры
+#MM_Campaign_Cancel_hint Вернуться в меню выбора кампании
+INTF_SMISS_DIFF Сложность
+@RMID_EASY Слабый
+@RMID_NORMAL Нормальный
+@RMID_HARD Сложный
+@RMID_VERYHARD Очень сложный
+@RMID_IMPOSIBLE Невозможный
+#MM_CampMiss_Start Начать игру
+#MM_CampMiss_Start_hint Начать игру
+#MM_CampMiss_Back_hint Начать игру
+#MM_CampMiss_Result КОНЕЦ
+#MM_CampMiss_ResultVictory ПОБЕДА
+#MM_CampMiss_ResultDefeat ПОРАЖЕНИЕ
+//В меню Виктори добавить две кнопки (запустить следующую миссию) (выйти в меню)
+#MM_CampMiss_NextMission Далее
+#MM_CampMiss_BackToMenu Выйти в меню
+
+     --LoadGame--
+#MM_LoadList_hint Список сохраненных игр
+INTF_FILE_NAME Имя файла
+INTF_FILE_NAME_hint Список сохраненных игр
+#MM_LoadCancel_hint Отменить
+#MM_LoadName_hint Имя сохраненной игры
+
+INTF_BACK_CAMP_MENU Назад в меню
+INTF_ACCEPT Принять
+INTF_CANCEL Отменить
+INTF_MAIN_4 Больше
+INTF_OPT_TITLE0 НАСТРОЙКИ
+INTF_OPT_TITLE1 Настройки
+#VideoTab Видео
+#AudioTab Звук
+#GameTab Игра
+#MM_Options_GameSpeed Скорость игры
+#MM_Options_GameSpeed_Hint Настройка скорости игры
+#MM_Options_ScrollingSpeed Скорость скроллирования
+#MM_Options_ScrollingSpeed_Hint Настройка скорости скроллирования
+-------- Options -------
+//Preset-Ultra High(High Shaders, High Shadows, Reflection, High UnitBumpQuality,Antialising)
+//Preset-High(High Shaders, High Shadows, No Reflection, High UnitBumpQuality)
+//Preset-Medium(Default)(High Shaders, Low Shadows, No Reflection, low UnitBumpQuality)
+//Preset-Low(Low Shaders, Low Shadows, No Reflection, 16bit color, low UnitBumpQuality)
+//Preset-Custom (автоматически сменяеться на него при изменении какой либо настройки графики кроме Разрешения)
+#Options_Video_Preset Быстрая настройка
+#Options_Video_Preset_Hint Выберите оптимальную заготовку по качеству графики для вашего компьютера
+#Options_Video_Resoultion Видео разрешение
+#Options_Video_Resoultion_Hint На современных видеокартах почти не влияет на производительность даже при самом большом разрешении
+#Options_Video_ShadowQuality Качество теней
+#Options_Video_ShadowQuality_Hint Сильно влияет на производительность при выбранном лучшем качестве теней
+#Options_Video_ShaderQuality Качество Shader'ов
+#Options_Video_ShaderQuality_Hint На современных видеокартах не влияет на производительность
+#Options_Video_UnitBumpQuality Качество Bump'а
+#Options_Video_UnitBumpQuality_Hint Высокое качество Bump'а на юнитах сильно влияет на производительность
+#Options_Video_ColorQuality Глубина цвета
+#Options_Video_ColorQuality_Hint Влияет на производительность только на очень старых видеокартах
+#Options_Video_ColorQuality_16 16бит
+#Options_Video_ColorQuality_24 24бит
+#Options_Video_Reflaction Отражение на воде
+#Options_Video_Reflaction_Hint Отражение ландшафта на воде. Очень сильно влияет на производительность
+#Options_Video_Antialiasing Antialising
+#Options_Video_Antialiasing_Hint Размыливает четкие края полигонов. Сильно влияет на производительность
+#Options_Quality_No Выключено
+
+//Настройки
+
+#Options_Quality_UltraHigh Превосходное
+#Options_Quality_High Высокое
+#Options_Quality_Medium Среднее
+#Options_Quality_Low Низкое
+#Options_Quality_VeryLow Оч. Низкое
+#Options_Quality_Custom Своя Настройка
+
+#Options_Sound_SoundVolume Громкость Звука
+#Options_Sound_MusicEnable Музыка
+#Options_Sound_MusicVolume Громкость Музыки
+
+#Options_Game_ScrollingSpeed Скорость скроллирования
+#Options_Game_FixedGameSpeed Фиксировать скорость игры 
+#Options_Game_FixedGameSpeed_Hint Фиксировать скорость игры не зависимо от к-ва кадров в секунду. При включеной опции при низком фпс игра начинает запаздывать, вместо того чтобы замедляться
+
+#Opt_SelectLanguage Выбрать язык
+#Russian Русский
+#English Английский
+
+INTF_MENU МЕНЮ
+INTF_MENU_RESUME ПРОДОЛЖИТЬ ИГРУ
+INTF_MENU_RESTART ПЕРЕЗАПУСТИТЬ
+INTF_MENU_LOAD ЗАГРУЗИТЬ ИГРУ
+INTF_MENU_SAVE СОХРАНИТЬ ИГРУ
+INTF_MENU_BACK НАЗАД В МЕНЮ
+INTF_MENU_BUT Меню {CG}F12{C}
+#StdEndGame_VictoryTitle ПОБЕДА
+#StdEndGame_VictoryMessage Миссия выполнена
+#StdEndGame_DefeatTitle ПОРАЖЕНИЕ
+#StdEndGame_DefeatMessage Вы проиграли
+#DruidsHope Путь лесного народа
+INTF_CAMPAIGN_W0 Выберите кампанию
+
+PLEXIT %s вышел из игры
+LOADTX Загружается
+READYTX Готов
+NOANSTX Не отвечает
+LOOKSTX Ожидает
+NOPALTX Вышел
+DISCNTX Отключен
+ALT-TAB Переключился
+PAUSE Пауза
+You_cant_start_game Вы не можете начать игру:
+#too_many_players_on_map - слишком много игроков
+#you_are_alone_in_room - недостаточно игроков
+#all_players_in_one_team - все игроки в одной команде
+#players_have_diff_map_checksumm - несоответствуют версии карт
+#not_all_players_ready - не все игроки готовы
+#should_wait_for_ping - проверяется соединение
+#map_is_absent - у одного из игроков отсутствует карта
+
+@OK Принять
+@CANCEL Отмена
+ENTERMESS Сообщение
+ICCONN Соединение...
+ICUNCON Невозможно подключиться к серверу.
+VIEW_RESIZE Масштаб окна
+CHAT_CANCEL_BUTTON_TEXT Выход
+CHAT_IG_BACK_BUTTON_TEXT Назад
+IG_CANCEL Выход
+IG_BACK Назад в комнату
+
+CHAT_CANCEL_BUTTON_TEXT Отмена
+IG_CANCEL Выйти
+CHAT_IG_BACK_BUTTON_TEXT Назад
+IG_BACK Вернуться в комнату многопользовательской игры
+#CHAT Чат
+#CHAT_HINT Перейти в чат, не закрывая комнату
+CHAT_SEND_MESS Отослать сообщение всем игрокам
+CHAT_VERSION Показать только сообщения игроков с такой же версией игры
+CHAT_COMMON Показать все сообщения
+CHAT_PERSONAL Показать только личные сообщения
+CHAT_ALL Показывать личные и общие сообщения
+INHIN2 Показать информацию игрока
+JOINPLGM Войти в комнату, созданную этим игроком
+INHIN5 Запретить получение сообщений от этого игрока
+INHIN4 Отослать персональное сообщение этому игроку
+INHIN6 Разрешить получение сообщений от этого игрока
+
+#KickPlayer Отсоединить
+#MB_00 Пожалуйста, вставьте CD 1
+#MB_01 Эта программа требует минимум 500M свободного дискового пространства.
+#MB_02 ОШИБКА ЗАГРУЗКИ...
+#MB_03 Вы изменили данные игры. Интернет игра будет недоступна.
+
+\\=====================================-------------------------  РЕСУРСЫ  ----------------------==============================
+
+RESHINT0 Дерево
+RESHINT1 Еда
+RESHINT2 Камень
+RESHINT3 Золото
+RESHINT4 Железо
+RESHINT5 Кристаллы
+RESHINT6 Население
+RESHINT7 Монеты
+COAL Кристаллы
+
+\\====================================-------------------------   ВНУТРИИГРОВОЙ ИНТЕРФЕЙС ----------------=======================
+
+#INTRF_LeaveAll Вывести всех
+#INTRF_SelectIdle Выбрать незадействованных рабочих
+#INTRF_SelectMines Выбрать свободные шахты
+#INTRF_GameStat Игровая статистика
+#INTRF_HeroStat Статистика по героям
+#INTRF_CurMiss Текущая миссия
+#INTRF_BestResult Лучший результат
+#INTRF_TimeDone Время
+#INTRF_Effect Эффективность
+#INTRF_CaptArt Захваченные артефакты
+#INTRF_BestHero Лучший герой
+#GainMessage Вы нашли
+
+#SpellPower Сила заклинаний
+#LifeRegen Регенерация здоровья
+#ManaRegen Восстановление маны
+#AttackRate Скорость атаки
+#AttackFirstRate Скорость первой атаки
+#AttackSecondRate Скорость второй атаки
+#AttackRadius Радиус атаки
+#MotionSpeed Скорость перемещения
+#KillCount Убийств
+
+INTF_INGAME_EXP Опыт (Герой получает 25% опыта если убийство совершено дружескими не призванными юнитами)
+INTF_INGAME_HP Очки здоровья
+INTF_INGAME_MANA Очки маны
+INTF_INGAME_INV Инвентарь
+INTF_INGAME_INV_L ИНВЕНТАРЬ
+
+#Merchant ТОРГОВЕЦ
+
+#HU_AVAILABLEEXPERIENCE Доступный опыт:
+#GM_TotalExp Общий опыт
+#GM_Result Results
+
+#MC_01 Вы уверены, что хотите покинуть Аквадор?
+#MM_DeleteProf_Msg Вы уверены, что хотите удалить профиль?
+
+#SaveBut Сохранить
+#MM_Restart_hint Перезапустить миссию
+#MM_Restart Перезапуск
+#LoadCampaignTab Кампания
+#LoadSkirmishTab Скирмиш
+#MultiRoom_MapList Список карт
+#Miss Промах
+#Limit Достигнут лимит
+
+#MR_ChatButton Канал
+#MR_ChatButton_Hint Временно вернуться в глобальный чат, не покидая комнаты
+
+#MR_BackButton Выйти
+#MR_BackButton_Hint Покинуть комнату и вернутся в окно интернет оболочки
+
+#MR_StartButton Сражение
+
+#MR_PlayerReady_Hint Готовность игрока начать игру
+
+#Map_Camera_Hint Востановить положение камеры
+#Map_Health_Hint Вкл/выкл сообщения взлетающие над юнитами
+#Map_Hide_Hint Спрятать/показать миникарту
+#Map_Signal_Hint Передать союзнику сигнал "Обрати внимание"
+#Map_HideInterface_Hint Спрятать/показать интерфейс
+
+#GameOver_BackToCampMenu_Hint Выйти в меню кампании
+#GameOver_NextMiss_Hint Запустить следующую миссию
+
+#Opt_AutoSave Автосохранение
+#Opt_AutoSave_Hint Автоматическое сохранение игра через определенный период
+#Never без автосохранения
+#Once_in_1_min каждую минуту
+#Once_in_5_min каждые 5 минут
+#Once_In_10_min каждые 10 минут
+#LoadAutoSave Загрузить
+#LoadAutoSave_Hint Загрузить ранее сохраненную игру
+
+#Attack Атаковать всех врагов на пути
+#Stop Отменить все приказы
+#MoveOrder Идти
+#HoldPositionOrder Держать позицию
+#GuardOrder Охранять
+#SwitchAttType Переключение между рукопашной атакой и стрельбой
+
+#div меньше в
+#SP_SetRally Установить точку сбора выходящих юнитов
+#SP_Destroy Разобрать выделенные здания
+
+#HireSettlementButton Нанять
+#GainMessageBuy Вы купили
+
+#Lives Перерождений осталось
+#LifeRegen Регенерация здоровья
+#ManaRegen Регенерация маны
+#AttackRate Скорость атаки
+#AttackRadius Дальность атаки
+#MotionSpeed Скорость передвижения
+#SpellPower Сила заклинания
+
+#AccessControl Необходимо построить
+
+#DruMine Дерево добычи ресурсов
+#MecMine Шахта
+#UndMine Заброшенная шахта
+#IceMine Рудник
+UPGMADE Усовершенствование завершено: %s
+CAPBLD Захвачено здание: %s
+LOSTBLD Потеряно здание: %s
+BLDBLD Постройка здания (%s) завершена 
+FINBLD Воин cоздан (%s)
+VERYHUN Не хватает пищи
+#LiveSpace Не хватает жилых мест для постройки юнитов. Постройте здания которые дают жилые места.
+
+HEROKILL {C FFFFFFFF}Игрок {C FFFFCB2B}%s{C FFFFFFFF} убил игрока {C FFFFCB2B}%s {C FFFFFFFF}(Уровень %d). Осталось жизней: %d.
+HEROKILL2 {C FFFFFFFF}Игрок {C FFFFCB2B}%s {C FFEE1010}УНИЧТОЖИЛ {C FFFFFFFF}игрока {C FFFFCB2B}%s {C FFFFFFFF}(Уровень %d). 
+KILLBYCREEPS {C FFFFFFFF}Игрок {C FFFFCB2B}%s{C FFFFFFFF} погиб (Уровень %d). Осталось жизней: %d.
+KILLBYCREEPS2 {C FFFFFFFF}Игрок {C FFFFCB2B}%s {C FFEE1010}ПОГИБ {C FFFFFFFF}(Ему удалось дожить до уровня %d).
+
+Money Монет
+CTRL CTRL
+SPACE SPACE
+BACKSPACE BACKSPACE
+SHIFT SHIFT
+HOME HOME
+
+Wood Дерево
+Food Еда
+Stone Камень
+Gold Золото
+Iron Железо
+
+INTF_SAVE Сохранение
+AUTOSAVING Авто-сохранение
+INTF_CROOM_GS2 Сохранено
+
+CSNORS Не достаточно ресурсов для стрельбы
+
+#ChatToAll Сообщение :
+#ChatAlly Сообщение для союзников :
+#ChatTitle Удерживайте CTRL для отправки сообщения только союзникам
+
+#COPYRIGHTS2 Heroes of Annihilated Empires Remaster \ RoS and Reborn team, TheBlackHunter.
+#COPYRIGHTS1 Heroes of Annihilated Empires Remaster \ RoS and Reborn team, TheBlackHunter.

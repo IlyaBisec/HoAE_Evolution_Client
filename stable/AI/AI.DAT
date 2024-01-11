@@ -1,0 +1,8 @@
+2
+@RMID_NORMAL 1
+@RMID_HARD 1
+4 4
+DRUIDS     druids        DruUFai(DR)          9 1 1 - -
+UNDEADS    undeads       UndUNec(UN)          9 1 1 - -
+MECHANICS  mechanics     MecUDww(ME)          9 1 1 - -
+ICE        ice           IceUGre(IC)          9 1 1 - -

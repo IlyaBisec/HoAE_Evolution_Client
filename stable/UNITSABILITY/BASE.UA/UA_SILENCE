@@ -1,0 +1,36 @@
+<NewAbility>
+ <Name>UA_Silence</Name>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>4</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>4</EffectSpriteID>
+ <Aura>true</Aura>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <IgnoreMagicImmunity>true</IgnoreMagicImmunity>
+ <Modificators>
+  <mod_Silence></mod_Silence>
+ </Modificators>
+ <Radius>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>10</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </Radius>
+ <FriendlyTarget>true</FriendlyTarget>
+ <TargetMaxAmount>1</TargetMaxAmount>
+</NewAbility>

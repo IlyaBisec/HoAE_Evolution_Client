@@ -1,0 +1,25 @@
+<NewAbility>
+ <Name>Bottle24_Splash</Name>
+ <FileID>Interf3\Ability\bottles</FileID>
+ <SpriteID>2</SpriteID>
+ <FileID_Char>Interf3\Ability\bottles_inventory</FileID_Char>
+ <FileID_Inv>Interf3\Ability\bottles_inventory</FileID_Inv>
+ <EffectFileID>Interf3\Ability\bottles</EffectFileID>
+ <EffectSpriteID>2</EffectSpriteID>
+ <HintName>#Bottle24</HintName>
+ <Hint>#Bottle24</Hint>
+ <GroundMD>
+  <UnitType>DropBottle(IT)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

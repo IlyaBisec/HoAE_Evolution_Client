@@ -1,0 +1,33 @@
+<NewAbility>
+ <Name>UA_DestroyBuilding</Name>
+ <ClassType>Image</ClassType>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <OnDieCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UA_wDestroyBuilding</RefName>
+ </OnDieCreateWeapon>
+ <Radius>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>20</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </Radius>
+ <FriendlyTarget>true</FriendlyTarget>
+ <TargetMaxAmount>1</TargetMaxAmount>
+</NewAbility>

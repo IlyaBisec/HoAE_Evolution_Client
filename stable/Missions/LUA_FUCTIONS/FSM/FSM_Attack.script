@@ -1,0 +1,163 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+
+--[[ Тестовый вариант ходьбы с атакой
+	USE DEFF PARAMS:
+		"wait"		- задержка update
+		"tick"		- последнее время обновления
+		"destNode"	- зона следования
+--]]
+function	ACF_AttackZone00( paramData )
+	if ( paramData==nil ) then return 0 end;
+	local 	_gGroup = paramData:GET("Object");
+	if ( _gGroup==nil )	then return 0 end;
+	if ( FSM.CheckObjectFSM( _gGroup.Name, "FSM_AttackZone00" )==true ) then return 1 end;
+	--[[ Free SO for this Group if need ]]--
+	FSM.FreeSO_pVAR(_gGroup);
+	--[[ Get free or create new SO ]]--
+	local _soObject = FSM.GET_SO("FSM_AttackZone00");
+	if ( _soObject==nil ) then return 0 end;
+	--[[ Get SO params ]]--
+	local soParam = _soObject:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	if ( _soObject:SET_OBJ(_gGroup.Name)==false ) then return 0 end;
+	--[[ Fill params for SO ]]--
+	local value = nil;
+	if ( paramData:GET("wait")~=nil ) then
+		value = soParam:CreateParam_INT("wait");
+		value.Value = INT(paramData:GET("wait")).Value;
+	end;
+	if ( paramData:GET("destNode")~=nil ) then
+		value = soParam:CreateParam_NODE("destNode");
+		value.x = NODE(paramData:GET("destNode")).x;
+		value.y = NODE(paramData:GET("destNode")).y;
+	end;
+	--[[ Run new dialog ]]--
+	_soObject.STATE = "ST_GLOBAL";
+	FSM.SendMsg( "MSG_ENTER", _soObject.Name, _soObject.Name );
+	return 1;
+end;
+
+function	ACF_AttackZone01( paramData )
+	if ( paramData==nil ) then return 0 end;
+	local 	_gGroup = paramData:GET("Object");
+	if ( _gGroup==nil )	then return 0 end;
+	if ( FSM.CheckObjectFSM( _gGroup.Name, "FSM_AttackZone00" )==true ) then return 1 end;
+	--[[ Free SO for this Group if need ]]--
+	FSM.FreeSO_pVAR(_gGroup);
+	--[[ Get free or create new SO ]]--
+	local _soObject = FSM.GET_SO("FSM_AttackZone00");
+	if ( _soObject==nil ) then return 0 end;
+	--[[ Get SO params ]]--
+	local soParam = _soObject:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	if ( _soObject:SET_OBJ(_gGroup.Name)==false ) then return 0 end;
+	--[[ Fill params for SO ]]--
+	local value = nil;
+	if ( paramData:GET("wait")~=nil ) then
+		value = soParam:CreateParam_INT("wait");
+		value.Value = INT(paramData:GET("wait")).Value;
+	end;
+	if ( paramData:GET("arryNode")~=nil ) then
+		soParam:CreateParam_ARRAY("arryNode");
+		soParam:SET("arryNode",paramData:GET("arryNode"));
+	end;
+	if ( paramData:GET("iDestDelta")~=nil ) then 
+		value = soParam:CreateParam_INT("iDestDelta");
+		value.Value = INT(paramData:GET("iDestDelta")).Value;
+	end;
+	if ( paramData:GET("bCiclik")~=nil ) then 
+		value = soParam:CreateParam_BOOL("bCiclik");
+		value.Value = BOOL(paramData:GET("bCiclik")).Value;
+	end;
+	--[[ Run new dialog ]]--
+	_soObject.STATE = "ST_GLOBAL";
+	FSM.SendMsg( "MSG_ENTER", _soObject.Name, _soObject.Name );
+	return 1;
+end;
+
+function	FSM_AttackZone_00( C_OBJ, state, msg )
+	if ( SO_GROUP_IS_DEAD(C_OBJ) == true ) then return 0 end;
+	
+	local	_group 	= GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil or _group.N==0 )	then return 0 end;
+	local _par	= C_OBJ:GET_PARAMS();
+	if ( _par==nil )	then return 0 end;
+	
+	if 		( state == "ST_GLOBAL" )	then
+		if ( msg.str == "MSG_ENTER" ) then
+			if ( _par:GET("iDestDelta")~=nil ) then
+				_group.DestDelta = INT(_par:GET("iDestDelta")).Value;
+			else
+				_group.DestDelta = 128;
+			end;
+			_wait = INT(_par:GET("wait"));
+			if ( _wait==nil ) then
+				_wait 		= _par:CreateParam_INT("wait");
+				_wait.Value = 10;
+			end;
+			(_par:CreateParam_INT("tick")).Value = _wait.Value;
+			(_par:CreateParam_INT("iter")).Value = 0;
+			--[[ Select way point sending type ]]--
+			_wayType = _par:CreateParam_INT("wayType");
+			if 		( _par:GET("destNode")~=nil ) then 
+				_wayType.Value = 0;
+			elseif 	( _par:GET("arryNode")~=nil ) then
+				_wayType.Value = 1;
+			else
+				_wayType.Value = 2;
+			end;
+			--[[ ----------------------------- ]]--
+			C_OBJ.next_STATE	= "ST_ATTACK";
+			C_OBJ.FSC			= true;
+		end;
+		return 1;
+	elseif 	( state == "ST_ATTACK" )	then
+		if ( msg.str == "MSG_UPDATE" ) then
+			_wayType = INT(_par:GET("wayType"));
+			_tick = INT(_par:GET("tick"));
+			_tick.Value = _tick.Value - 1;
+			if (_tick.Value <= 0 ) then
+				_cicle = BOOL(_par:GET("bCiclik"));
+				_wait = INT(_par:GET("wait"));
+				_tick.Value = _wait.Value;
+				_OverOrder = CLASS.GROUP._MOVE+CLASS.GROUP._SOME_ORDER+CLASS.GROUP._BRIG_ORDER
+				_group:idAttackEnemy(_OverOrder);
+				_node = NODE(_par:GET("destNode"));
+				if 		( _wayType.Value == 0 ) then
+					_group:idSendTo(_node.x,_node.y,512,CLASS.GROUP._NO_ORDERS,-1);
+				elseif	( _wayType.Value == 1 ) then
+					_NU = _group.N;
+					_iter = INT(_par:GET("iter")); _maxIT = 20; i=_iter.Value;
+					_arrNode = ARRAY(_par:GET("arryNode"));
+					while( i<_NU and _maxIT~=0 ) do
+						if ( _group:GetUnitORDER(i)~=CLASS.GROUP._MOVE or _group:GetUnitORDER(i)~=CLASS.GROUP._ATTACK ) then
+							--[[ Link set node position ]]--
+							_iNID = GetNearestNodeIDOnWay( _arrNode, _group:GetXi(i), _group:GetYi(i), _group.DestDelta+50, _cicle.Value );
+							_lNode = NODE(_arrNode:GET( _iNID ));
+							_group:idSendTo(_lNode.x,_lNode.y,512,CLASS.GROUP._NO_ORDERS,i);
+							--[[ ---------------------- ]]--
+						end;
+						i = i+1;
+						_maxIT = _maxIT-1;
+					end;
+					if ( i >= _NU ) then 
+						_iter.Value = 0;
+					else
+						_iter.Value = i;
+					end;
+				end;
+			end;
+		end;
+		return 1;
+	end;
+	
+	return 0;
+end;
+
+
+

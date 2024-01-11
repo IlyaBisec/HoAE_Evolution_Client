@@ -1,0 +1,27 @@
+<ua_SingleUnitAI>
+ <Name>suAI_Ogra_W</Name>
+ <CastingRadius>600</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aGolem</RefName>
+   </UA>
+   <MinTargetAmount>10</MinTargetAmount>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aStatueOfRage</RefName>
+   </UA>
+   <MinTargetAmount>5</MinTargetAmount>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MagicCardSwarmOfInsects</RefName>
+   </UA>
+   <MinTargetAmount>15</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

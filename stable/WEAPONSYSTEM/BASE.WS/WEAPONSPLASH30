@@ -1,0 +1,19 @@
+<WeaponModificator>
+ <Name>WeaponSplash30</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <Jump></Jump>
+    <MakeDamage>
+     <InRadius>30</InRadius>
+     <OnlyEnemyUnits>true</OnlyEnemyUnits>
+     <DamageBuilding>true</DamageBuilding>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

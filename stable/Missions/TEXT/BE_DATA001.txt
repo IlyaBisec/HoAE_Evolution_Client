@@ -1,0 +1,900 @@
+*********************************************************************
+*********************************************************************
+****  Description for Function located in file BE_Funcion.cpp    ****
+*********************************************************************
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetValue                                      F_GLOBAL_VALUE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetValue::Value                             {C ffFF0000}VAL
+@HINT::lvCGetValue::Value                           Select {C ff0000FF}variable {C ff000000}from variable list for get it {C ff0000FF}value
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetValue::0                     {C ffFFFF00}%$Value$%
+@PRES::UserView::lvCGetValue::1                     {C FFD4C19C}Get({C ffFF0000}VAL{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetValue                               {C ff000000}Get({C ffFF0000}VAL{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetValue                    Get value from global variable.
+@HINT::lvCGetValue                                  Get value from global variable.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCBool                                          F_GLOBAL_VALUE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCBool::lvB                                   {C ffFF0000}CONST
+@HINT::lvCBool::lvB                                 Set value for constatnt: {C ff0000FF}true {C ff000000}or {C ff0000FF}false
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCBool::0                         {C ffFFFF00}%$lvB$%
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCBool                                   {C ff000000}Bool
+@ENUMHINT::@CLASSID::lvCBool                        BOOL - const value.
+@HINT::lvCBool                                      BOOL - const value.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCInt                                           F_GLOBAL_VALUE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCInt::lvI                                    {C ffFF0000}CONST
+@HINT::lvCInt::lvI                                  Set value for constatnt: must be {C ff0000FF}integer {C ff000000}type
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCInt::0                          {C ffFFFF00}%$lvI$%
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCInt                                    {C ff000000}Int
+@ENUMHINT::@CLASSID::lvCInt                         INT - const value.
+@HINT::lvCInt                                       INT - const value.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetScreenXY                                   F_SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetScreenXY::sX                             {C ffFF0000}X
+@HINT::lvCGetScreenXY::sX                           Select {C ff0000FF}variable {C ff000000}from variable list for save in it {C ff0000FF}value
+@ID::lvCGetScreenXY::sY                             {C ffFF0000}Y
+@HINT::lvCGetScreenXY::sY                           Select {C ff0000FF}variable {C ff000000}from variable list for save in it {C ff0000FF}value
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetScreenXY::0                  {C FFD4C19C}GetScreen({C ffFF0000}X{C ffFFFF00}[%$sX$%]{C FFD4C19C},{C ffFF0000}Y{C ffFFFF00}[%$sY$%]{C FFD4C19C})
+@PRES::UserView::lvCGetScreenXY::1                  {C FFD4C19C}GetScreen({C ffFF0000}X{C FFD4C19C},{C ffFF0000}Y{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetScreenXY                            {C ff000000}GetScreen({C ffFF0000}X{C ff000000},{C ffFF0000}Y{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetScreenXY                 Get curent screen position - (X,Y).
+@HINT::lvCGetScreenXY                               Get curent screen position - (X,Y).
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetAmount                                     F_NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetAmount::parNat                           {C ffFF0000}NAT
+@HINT::lvCGetAmount::parNat                         Select nation {C ff0000FF}0..7
+@ID::lvCGetAmount::Buildings                        {C ffFF0000}BLD
+@HINT::lvCGetAmount::Buildings                      Calculate amount of units include buildings
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetAmount::0                    {C FFD4C19C}GetUN({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}BLD{C ffFFFF00}[%$Buildings$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetAmount                              {C ff000000}GetUN({C ffFF0000}NAT{C ff000000},{C ffFF0000}BLD{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetAmount                   Get total amount of units in Nation.
+@HINT::lvCGetAmount                                 Get total amount of units in Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetTotalAmount0                               F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetTotalAmount0::parGrp                     {C ffFF0000}GR
+@HINT::lvCGetTotalAmount0::parGrp                   Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetTotalAmount0::0              {C FFD4C19C}GetUN({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C})
+@PRES::UserView::lvCGetTotalAmount0::1              {C FFD4C19C}GetUN({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetTotalAmount0                        {C ff000000}GetUN({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetTotalAmount0             Get total amount of units in Group.
+@HINT::lvCGetTotalAmount0                           Get total amount of units in Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetTotalAmount1                               F_NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetTotalAmount1::parNat                     {C ffFF0000}NAT
+@HINT::lvCGetTotalAmount1::parNat                   Select nation {C ff0000FF}0..7
+@ID::lvCGetTotalAmount1::UnitType                   {C ffFF0000}UT
+@HINT::lvCGetTotalAmount1::UnitType                 Select {C ff0000FF}unit type {C ff000000}from units type list.., present in game
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetTotalAmount1::0              {C FFD4C19C}GetUN({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}UT{C ffFFFF00}[%$UnitType$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetTotalAmount1                        {C ff000000}GetUN({C ffFF0000}NAT{C ff000000},{C ffFF0000}UT{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetTotalAmount1             Get total amount of units in Nation whit seted Unit Type.
+@HINT::lvCGetTotalAmount1                           Get total amount of units in Nation whit seted Unit Type.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetTotalAmount2                               F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetTotalAmount2::parGrp                     {C ffFF0000}GR
+@HINT::lvCGetTotalAmount2::parGrp                   Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCGetTotalAmount2::UnitType                   {C ffFF0000}UT
+@HINT::lvCGetTotalAmount2::UnitType                 Select {C ff0000FF}unit type {C ff000000}from units type list.., present in game
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetTotalAmount2::0              {C FFD4C19C}GetUN({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}UT{C ffFFFF00}[%$UnitType$%]{C FFD4C19C})
+@PRES::UserView::lvCGetTotalAmount2::1              {C FFD4C19C}GetUN({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}UT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetTotalAmount2                        {C FF000000}GetUN({C ffFF0000}GR{C ff000000},{C ffFF0000}UT{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetTotalAmount2             Get total amount of units in Group whit seted Unit Type.
+@HINT::lvCGetTotalAmount2                           Get total amount of units in Group whit seted Unit Type.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetUnitsAmount0                               F_NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetUnitsAmount0::parNode                    {C ffFF0000}ND
+@HINT::lvCGetUnitsAmount0::parNode                  Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+@ID::lvCGetUnitsAmount0::parNat                     {C ffFF0000}NAT
+@HINT::lvCGetUnitsAmount0::parNat                   Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetUnitsAmount0::0              {C FFD4C19C}GetUN({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C})
+@PRES::UserView::lvCGetUnitsAmount0::1              {C FFD4C19C}GetUN({C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}ND{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetUnitsAmount0                        {C ff000000}GetUN({C ffFF0000}NAT{C ff000000},{C ffFF0000}ND{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetUnitsAmount0             Get amount of units in Node whit seted Nation.
+@HINT::lvCGetUnitsAmount0                           Get amount of units in Node whit seted Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetUnitsAmount1                               F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetUnitsAmount1::parGrp                     {C ffFF0000}GR
+@HINT::lvCGetUnitsAmount1::parGrp                   Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCGetUnitsAmount1::parNode                    {C ffFF0000}ND
+@HINT::lvCGetUnitsAmount1::parNode                  Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetUnitsAmount1::0              {C FFD4C19C}GetUN({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C})
+@PRES::UserView::lvCGetUnitsAmount1::1              {C FFD4C19C}GetUN({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ND{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetUnitsAmount1                        {C ff000000}GetUN({C ffFF0000}GR{C ff000000},{C ffFF0000}ND{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetUnitsAmount1             Get amount of units in Node from setted Group.
+@HINT::lvCGetUnitsAmount1                           Get amount of units in Node from setted Group.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetUnitsAmount2                               F_NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetUnitsAmount2::parNode                    {C ffFF0000}ND
+@HINT::lvCGetUnitsAmount2::parNode                  Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+@ID::lvCGetUnitsAmount2::parNat                     {C ffFF0000}NAT
+@HINT::lvCGetUnitsAmount2::parNat                   Select nation {C ff0000FF}0..7
+@ID::lvCGetUnitsAmount2::UnitType                   {C ffFF0000}UT
+@HINT::lvCGetUnitsAmount2::UnitType                 Select {C ff0000FF}unit type {C ff000000}from units type list.., present in game
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetUnitsAmount2::0              {C FFD4C19C}GetUN({C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}UT{C ffFFFF00}[%$UnitType$%]{C FFD4C19C})
+@PRES::UserView::lvCGetUnitsAmount2::1              {C FFD4C19C}GetUN({C ffFF0000}ND{C FFD4C19C},{C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}UT{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetUnitsAmount2                        {C ff000000}GetUN({C ffFF0000}ND{C ff000000},{C ffFF0000}NAT{C ff000000},{C ffFF0000}UT{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetUnitsAmount2             Get Amount of units in Node with seted Nation.
+@HINT::lvCGetUnitsAmount2                           Get Amount of units in Node with seted Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetUnitsAmount3                               F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetUnitsAmount3::vGrp                       {C ffFF0000}GR
+@HINT::lvCGetUnitsAmount3::vGrp                     Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCGetUnitsAmount3::parNat                     {C ffFF0000}NAT
+@HINT::lvCGetUnitsAmount3::parNat                   Select nation {C ff0000FF}0..7
+@ID::lvCGetUnitsAmount3::parRad                     {C ffFF0000}R
+@HINT::lvCGetUnitsAmount3::parRad                   Set radius around group for calculate amount of units use given Nation parameter
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetUnitsAmount3::0              {C FFD4C19C}GetUN({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C},{C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}R{C ffFFFF00}[%$parRad$%]{C FFD4C19C})
+@PRES::UserView::lvCGetUnitsAmount3::1              {C FFD4C19C}GetUN({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}R{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetUnitsAmount3                        {C ff000000}GetUN({C ffFF0000}GR{C ff000000},{C ffFF0000}NAT{C ff000000},{C ffFF0000}R{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetUnitsAmount3             Get Amount of units around Group whit seted Nation.
+@HINT::lvCGetUnitsAmount3                           Get Amount of units around Group whit seted Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetResource                                   F_NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetResource::parNat                         {C ffFF0000}NAT
+@HINT::lvCGetResource::parNat                       Select nation {C ff0000FF}0..7
+@ID::lvCGetResource::parID                          {C ffFF0000}RT
+@HINT::lvCGetResource::parID                        Select resource type from list...
+@ID::lvCGetResource::refNat                         {C ffFF0000}NAT
+@HINT::lvCGetResource::refNat                       Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetResource::0                  {C FFD4C19C}GetRES({C ffFF0000}NAT{C ffFFFF00}[%$refNat$%]{C FFD4C19C},{C ffFF0000}RT{C ffFFFF00}[%$parID$%]{C FFD4C19C})
+@PRES::UserView::lvCGetResource::1                  {C FFD4C19C}GetRES({C ffFF0000}NAT{C ffFFFF00}[%$parNat$%]{C FFD4C19C},{C ffFF0000}RT{C ffFFFF00}[%$parID$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetResource                            {C ff000000}GetRES({C ffFF0000}NAT{C ff000000},{C ffFF0000}RT{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetResource                 Get amount of seted resource type in Nation.
+@HINT::lvCGetResource                               Get amount of seted resource type in Nation.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetDiff                                       F_SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetDiff::parNI                              {C ffFF0000}NAT
+@HINT::lvCGetDiff::parNI                            Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetDiff::0                      {C FFD4C19C}GetDL({C ffFF0000}NAT{C ffFFFF00}[%$parNI$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetDiff                                {C ff000000}GetDL({C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetDiff                     Get current difficulty level.
+@HINT::lvCGetDiff                                   Get current difficulty level.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCTrigg                                         F_GLOBAL_VALUE
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCTrigg::TID                                  {C ffFF0000}TID
+@HINT::lvCTrigg::TID                                Set system triger index for check it state
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCTrigg::0                        {C FFD4C19C}GetTRIG({C ffFF0000}TID{C ffFFFF00}[%$TID$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCTrigg                                  {C ff000000}GetTRIG({C ffFF0000}TID{C ff000000})
+@ENUMHINT::@CLASSID::lvCTrigg                       Get system Triger seted value.
+@HINT::lvCTrigg                                     Get system Triger seted value.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// FG_Visible                                       F_GRAPHIC
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::FG_Visible::GraphObj                           {C ffFF0000}GO
+@HINT::FG_Visible::GraphObj                         Select graph object from list.., present in current map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::FG_Visible::0                      {C FFD4C19C}IsVisible({C ffFF0000}GO{C ffFFFF00}[%$GraphObj$%]{C FFD4C19C})
+@PRES::UserView::FG_Visible::1                      {C FFD4C19C}IsVisible({C ffFF0000}GO{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::FG_Visible                                {C ff000000}IsVisible({C ffFF0000}GO{C ff000000})
+@ENUMHINT::@CLASSID::FG_Visible                     Is Graph Object is Visible?
+@HINT::FG_Visible                                   Is Graph Object is Visible?
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// FG_InVisible                                     F_GRAPHIC
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::FG_InVisible::GraphObj                         {C ffFF0000}GO
+@HINT::FG_InVisible::GraphObj                       Select graph object from list.., present in current map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::FG_InVisible::0                    {C FFD4C19C}IsHide({C ffFF0000}GO{C ffFFFF00}[%$GraphObj$%]{C FFD4C19C})
+@PRES::UserView::FG_InVisible::1                    {C FFD4C19C}IsHide({C ffFF0000}GO{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::FG_InVisible                              {C ff000000}IsHide({C ffFF0000}GO{C ff000000})
+@ENUMHINT::@CLASSID::FG_InVisible                   Is Graph Object is InVisible?
+@HINT::FG_InVisible                                 Is Graph Object is InVisible?
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// ogSTOP                                           F_SOUND
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::ogSTOP::canal                                  {C ffFF0000}SID
+@HINT::ogSTOP::canal                                Set sound stream for check it state
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::ogSTOP::0                          {C FFD4C19C}IsNoSound({C ffFF0000}SID{C ffFFFF00}[%$canal$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::ogSTOP                                    {C ff000000}IsNoSound({C ffFF0000}SID{C ff000000})
+@ENUMHINT::@CLASSID::ogSTOP                         Return true if on sound in strem index - SID
+@HINT::ogSTOP                                       Return true if on sound in strem index - SID
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCTimerDone                                     F_SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCTimerDone::TimerID                          {C ffFF0000}TID
+@HINT::lvCTimerDone::TimerID                        Set {C ff0000FF}timer index {C ff000000}for check it
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCTimerDone::0                    {C FFD4C19C}IsTimerStop({C ffFF0000}TID{C ffFFFF00}[%$TimerID$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCTimerDone                              {C ff000000}IsTimerStop({C ffFF0000}TID{C ff000000})
+@ENUMHINT::@CLASSID::lvCTimerDone                   Return true if timer with index TID is stop
+@HINT::lvCTimerDone                                 Return true if timer with index TID is stop
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCChekPosition                                  F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCChekPosition::parGrp                        {C ffFF0000}GR
+@HINT::lvCChekPosition::parGrp                      Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCChekPosition::VVpPos                        {C ffFF0000}PT_ARR
+@HINT::lvCChekPosition::VVpPos                      Select position array variable from list.., whitch contain checking positions
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCChekPosition::0                 {C FFD4C19C}CheckPosition({C ffFF0000}GR{C ffFFFF00}[%$parGrp$%]{C FFD4C19C},{C ffFF0000}PT_ARR{C ffFFFF00}[%$VVpPos$%]{C FFD4C19C})
+@PRES::UserView::lvCChekPosition::1                 {C FFD4C19C}CheckPosition({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}PT_ARR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCChekPosition                           {C ff000000}CheckPosition({C ffFF0000}GR{C ff000000},{C ffFF0000}PT_ARR{C ff000000})
+@ENUMHINT::@CLASSID::lvCChekPosition                Check Group position according to position arrray.
+@HINT::lvCChekPosition                              Check Group position according to position arrray.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCCameraSTOP                                    F_SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCCameraSTOP::0                   {C FFD4C19C}IsCameraStop()
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCCameraSTOP                             {C ff000000}IsCameraStop()
+@ENUMHINT::@CLASSID::lvCCameraSTOP                  Return true if Camera do not moove.
+@HINT::lvCCameraSTOP                                Return true if Camera do not moove.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCNationIsErased                                F_NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCNationIsErased::Nat                         {C ffFF0000}NAT
+@HINT::lvCNationIsErased::Nat                       Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCNationIsErased::0               {C FFD4C19C}IsNationErased({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCNationIsErased                         {C ff000000}IsNationErased({C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCNationIsErased              Return true if Nation is Erased.
+@HINT::lvCNationIsErased                            Return true if Nation is Erased.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetLMode                                      F_SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetLMode::0                     {C FFD4C19C}IsLMode()
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetLMode                               {C ff000000}IsLMode()
+@ENUMHINT::@CLASSID::lvCGetLMode                    Get curen state of L mode.
+@HINT::lvCGetLMode                                  Get curen state of L mode.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCCheckButton                                   F_SYSTEM
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCCheckButton::vkID                           {C ffFF0000}VK_ID
+@HINT::lvCCheckButton::vkID                         Index of VK
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCCheckButton::0                  {C FFD4C19C}IsButtonPressed({C ffFF0000}VK_ID{C ffFFFF00}[%$vkID$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCCheckButton                            {C ff000000}IsButtonPressed({C ffFF0000}VK_ID{C ff000000})
+@ENUMHINT::@CLASSID::lvCCheckButton                 Return true if setted button is pressed.
+@HINT::lvCCheckButton                               Return true if setted button is pressed.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCIsBrigade                                     F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCIsBrigade::vgGrpID                          {C ffFF0000}GR
+@HINT::lvCIsBrigade::vgGrpID                        Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCIsBrigade::checkKOM                         {C ffFF0000}KOM
+@HINT::lvCIsBrigade::checkKOM                       If selected then check group with checking it officers staff
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCIsBrigade::0                    {C FFD4C19C}IsSquard({C ffFF0000}GR{C ffFFFF00}[%$vgGrpID$%]{C FFD4C19C},{C ffFF0000}KOM{C ffFFFF00}[%$checkKOM$%]{C FFD4C19C})
+@PRES::UserView::lvCIsBrigade::1                    {C FFD4C19C}IsSquard({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}KOM{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCIsBrigade                              {C ff000000}IsSquard({C ffFF0000}GR{C ff000000},{C ffFF0000}KOM{C ff000000})
+@ENUMHINT::@CLASSID::lvCIsBrigade                   Return true if units in group is squard.
+@HINT::lvCIsBrigade                                 Return true if units in group is squard.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetFormationType                              F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetFormationType::vgGrpID                   {C ffFF0000}GR
+@HINT::lvCGetFormationType::vgGrpID                 Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetFormationType::0             {C FFD4C19C}GetFT({C ffFF0000}GR{C ffFFFF00}[%$vgGrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCGetFormationType::1             {C FFD4C19C}GetFT({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetFormationType                       {C ff000000}GetFT({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetFormationType            Return index of current group formation type
+@HINT::lvCGetFormationType                          Return index of current group formation type
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetNofNewUnitInGrp                            F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetNofNewUnitInGrp::vGrp                    {C ffFF0000}GR
+@HINT::lvCGetNofNewUnitInGrp::vGrp                  Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCGetNofNewUnitInGrp::ClearNew                {C ffFF0000}CLR
+@HINT::lvCGetNofNewUnitInGrp::ClearNew              If selected then after call of this function all units in group marked as old
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetNofNewUnitInGrp::0           {C FFD4C19C}GetNewUN({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C},{C ffFF0000}CLR{C ffFFFF00}[%$ClearNew$%]{C FFD4C19C})
+@PRES::UserView::lvCGetNofNewUnitInGrp::1           {C FFD4C19C}GetNewUN({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}CLR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetNofNewUnitInGrp                     {C ff000000}GetNewUN({C ffFF0000}GR{C ff000000},{C ffFF0000}CLR{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetNofNewUnitInGrp          Return number of new units in group and clear it if CLR is true
+@HINT::lvCGetNofNewUnitInGrp                        Return number of new units in group and clear it if CLR is true
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCIsTired                                       F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCIsTired::vGrp                               {C ffFF0000}GR
+@HINT::lvCIsTired::vGrp                             Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCIsTired::0                      {C FFD4C19C}IsTired({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C})
+@PRES::UserView::lvCIsTired::1                      {C FFD4C19C}IsTired({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCIsTired                                {C ff000000}IsTired({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCIsTired                     Return true if group(squard) is tired.
+@HINT::lvCIsTired                                   Return true if group(squard) is tired.
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCBrigadesAmount                                F_NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCBrigadesAmount::Nat                         {C ffFF0000}NAT
+@HINT::lvCBrigadesAmount::Nat                       Select nation {C ff0000FF}0..7
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCBrigadesAmount::0               {C FFD4C19C}GetSQN({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCBrigadesAmount                         {C ff000000}GetSQN({C ffFF0000}NAT{C ff000000})
+@ENUMHINT::@CLASSID::lvCBrigadesAmount              Get number of sqards in nation NAT
+@HINT::lvCBrigadesAmount                            Get number of sqards in nation NAT
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCTestFillingAbility                            F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCTestFillingAbility::vGrp                    {C ffFF0000}GR
+@HINT::lvCTestFillingAbility::vGrp                  Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCTestFillingAbility::0           {C FFD4C19C}IsCanFilling({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C})
+@PRES::UserView::lvCTestFillingAbility::1           {C FFD4C19C}IsCanFilling({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCTestFillingAbility                     {C ff000000}IsCanFilling({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCTestFillingAbility          Return true if group GR can be filling with other units (artirely with canonirs,...)
+@HINT::lvCTestFillingAbility                        Return true if group GR can be filling with other units (artirely with canonirs,...)
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCInStandGround                                 F_GROUP
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCInStandGround::vGrp                         {C ffFF0000}GR
+@HINT::lvCInStandGround::vGrp                       Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+@ID::lvCInStandGround::AllBrigades                  {C ffFF0000}ALL
+@HINT::lvCInStandGround::AllBrigades                Select for check {C ff0000FF}all squards {C ff000000}in group
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCInStandGround::0                {C FFD4C19C}IsInSG({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C},{C ffFF0000}ALL{C ffFFFF00}[%$AllBrigades$%]{C FFD4C19C})
+@PRES::UserView::lvCInStandGround::1                {C FFD4C19C}IsInSG({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}ALL{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCInStandGround                          {C ff000000}IsInSG({C ffFF0000}GR{C ff000000},{C ffFF0000}ALL{C ff000000})
+@ENUMHINT::@CLASSID::lvCInStandGround               Return true if group is in standground state, if ALL is true then check all squards in group
+@HINT::lvCInStandGround                             Return true if group is in standground state, if ALL is true then check all squards in group
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCVillageOwner                                  F_SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCVillageOwner::VillageName                   {C ffFF0000}NAME
+@HINT::lvCVillageOwner::VillageName                 Set village group name for get it owner nation
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCVillageOwner::0                 {C FFD4C19C}GetVillageOwner({C ffFF0000}NAME{C ffFFFF00}[%$VillageName$%]{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCVillageOwner                           {C ff000000}GetVillageOwner({C ffFF0000}NAME{C ff000000})
+@ENUMHINT::@CLASSID::lvCVillageOwner                Get nation owner of current village
+@HINT::lvCVillageOwner                              Get nation owner of current village
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetNofBrigInNode                              F_NATION
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetNofBrigInNode::Nat                       {C ffFF0000}NAT
+@HINT::lvCGetNofBrigInNode::Nat                     Select nation {C ff0000FF}0..7
+@ID::lvCGetNofBrigInNode::parNode                   {C ffFF0000}ND
+@HINT::lvCGetNofBrigInNode::parNode                 Select {C ff0000FF}Node{C ff000000} from node list.., located on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetNofBrigInNode::0             {C FFD4C19C}GetSQN({C ffFF0000}NAT{C ffFFFF00}[%$Nat$%]{C FFD4C19C},{C ffFF0000}ND{C ffFFFF00}[%$parNode$%]{C FFD4C19C})
+@PRES::UserView::lvCGetNofBrigInNode::1             {C FFD4C19C}GetSQN({C ffFF0000}NAT{C FFD4C19C},{C ffFF0000}ND{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetNofBrigInNode                       {C ff000000}GetSQN({C ffFF0000}NAT{C ff000000},{C ffFF0000}ND{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetNofBrigInNode            Return number of squard nation NAT in node ND
+@HINT::lvCGetNofBrigInNode                          Return number of squard nation NAT in node ND
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetNInside                                    F_TRANSPORT
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetNInside::vGrpID                          {C ffFF0000}GR
+@HINT::lvCGetNInside::vGrpID                        Select {C ff0000FF}Group{C ff000000} from group list which contain transport units, present on map
+@ID::lvCGetNInside::Max                             {C ffFF0000}MAX
+@HINT::lvCGetNInside::Max                           If selected then return {C ff0000FF}maximum {C ff000000}transports capacity present in group
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetNInside::0                   {C FFD4C19C}GetUNInside({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C},{C ffFF0000}MAX{C ffFFFF00}[%$Max$%]{C FFD4C19C})
+@PRES::UserView::lvCGetNInside::1                   {C FFD4C19C}GetUNInside({C ffFF0000}GR{C FFD4C19C},{C ffFF0000}MAX{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetNInside                             {C ff000000}GetUNInside({C ffFF0000}GR{C ff000000},{C ffFF0000}MAX{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetNInside                  Get number of units in transport or building GR, if MAX is true return max capacity
+@HINT::lvCGetNInside                                Get number of units in transport or building GR, if MAX is true return max capacity
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCCheckLeaveAbility                             F_TRANSPORT
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCCheckLeaveAbility::vGrpID                   {C ffFF0000}GR
+@HINT::lvCCheckLeaveAbility::vGrpID                 Select {C ff0000FF}Group{C ff000000} from group list which contain transport units, present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCCheckLeaveAbility::0            {C FFD4C19C}IsDocking({C ffFF0000}GR{C ffFFFF00}[%$vGrpID$%]{C FFD4C19C})
+@PRES::UserView::lvCCheckLeaveAbility::1            {C FFD4C19C}IsDocking({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCCheckLeaveAbility                      {C ff000000}IsDocking({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCCheckLeaveAbility           Return true if group of transports GR in docking
+@HINT::lvCCheckLeaveAbility                         Return true if group of transports GR in docking
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCLoadingCoplite                                F_TRANSPORT
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCLoadingCoplite::vGrpTransport               {C ffFF0000}GR
+@HINT::lvCLoadingCoplite::vGrpTransport             Select {C ff0000FF}Group{C ff000000} from group list which contain transport units, present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCLoadingCoplite::0               {C FFD4C19C}IsLoadingDone({C ffFF0000}GR{C ffFFFF00}[%$vGrpTransport$%]{C FFD4C19C})
+@PRES::UserView::lvCLoadingCoplite::1               {C FFD4C19C}IsLoadingDone({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCLoadingCoplite                         {C ff000000}IsLoadingDone({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCLoadingCoplite              Return true if loading in transport group GR is done
+@HINT::lvCLoadingCoplite                            Return true if loading in transport group GR is done
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetCurGrpORDER                                F_SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetCurGrpORDER::vGrp                        {C ffFF0000}GR
+@HINT::lvCGetCurGrpORDER::vGrp                      Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetCurGrpORDER::0               {C FFD4C19C}GetORDER({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C})
+@PRES::UserView::lvCGetCurGrpORDER::1               {C FFD4C19C}GetORDER({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetCurGrpORDER                         {C ff000000}GetORDER({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetCurGrpORDER              Return current group GR order index, if on order then return 0
+@HINT::lvCGetCurGrpORDER                            Return current group GR order index, if on order then return 0(null)
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// lvCGetNofBRLoadedGun                             F_SPECIAL
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::lvCGetNofBRLoadedGun::vGrp                     {C ffFF0000}GR
+@HINT::lvCGetNofBRLoadedGun::vGrp                   Select {C ff0000FF}Group{C ff000000} from group list.., present on map
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::lvCGetNofBRLoadedGun::0            {C FFD4C19C}GetNUwithLoaddedGuns({C ffFF0000}GR{C ffFFFF00}[%$vGrp$%]{C FFD4C19C})
+@PRES::UserView::lvCGetNofBRLoadedGun::1            {C FFD4C19C}GetNUwithLoaddedGuns({C ffFF0000}GR{C FFD4C19C})
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::lvCGetNofBRLoadedGun                      {C ff000000}GetNUwithLoaddedGuns({C ffFF0000}GR{C ff000000})
+@ENUMHINT::@CLASSID::lvCGetNofBRLoadedGun           Return number of units with loaded gans in squards in group GR
+@HINT::lvCGetNofBRLoadedGun                         Return number of units with loaded gans in squards in group GR
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+*********************************************************************
+*********************************************************************

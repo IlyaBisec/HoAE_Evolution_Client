@@ -1,0 +1,15 @@
+<NewBonus>
+ <EraseAfterUse>true</EraseAfterUse>
+ <Name>Bonus Sunduk Receding</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewBonus>

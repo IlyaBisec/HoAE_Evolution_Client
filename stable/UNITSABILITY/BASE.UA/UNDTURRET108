@@ -1,0 +1,35 @@
+<ExtraShootingElement>
+ <Name>UndTurret108</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MinDistance>10</MinDistance>
+ <MaxDistance>1100</MaxDistance>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_GaleraShot</RefName>
+ </Weapon>
+ <WholeObjectModel></WholeObjectModel>
+ <ShootAnimation></ShootAnimation>
+ <WholeShootTime>200</WholeShootTime>
+ <TimeOfShooting>100</TimeOfShooting>
+ <TotalRechargeTime>3000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <CentralShootAngle>192</CentralShootAngle>
+ <ShootAngleDifference>18</ShootAngleDifference>
+ <RotationSpeed>20000</RotationSpeed>
+ <TowerCenterX>120</TowerCenterX>
+ <TowerCenterY>-93</TowerCenterY>
+ <TowerCenterZ>60</TowerCenterZ>
+ <CannonRadius>1</CannonRadius>
+</ExtraShootingElement>

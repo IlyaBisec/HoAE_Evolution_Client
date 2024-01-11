@@ -1,0 +1,19 @@
+<WeaponModificator>
+ <Name>WeaponUndUGol</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <Jump></Jump>
+    <MakeDamage>
+     <InRadius>200</InRadius>
+     <OnlyEnemyUnits>true</OnlyEnemyUnits>
+     <PushUnitsForce>100</PushUnitsForce>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

@@ -1,0 +1,32 @@
+<NewBonus>
+ <Name>Cache1</Name>
+ <FileID>Interf3\Ability\bottles</FileID>
+ <EffectFileID>Interf3\Ability\bottles</EffectFileID>
+ <System>true</System>
+ <GroundMD>
+  <UnitType>IteIPot(IT)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\UzabBilding\UzabBilding.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewBonus>

@@ -1,0 +1,214 @@
+*********************************************************************
+*********************************************************************
+****  Description for function from file ComplexFunction.h       ****
+*********************************************************************
+
+
+/////////////////////////////////////////////////////////////////////
+// be_CBaseUnaryStatement                           {C ff0000FF}BASE COMPLEX
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::be_CBaseUnaryStatement::FirstOperand           Call Function List
+@HINT::be_CBaseUnaryStatement::FirstOperand         Select and add function in list for calling
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::be_CBaseUnaryStatement::0          {C ff00FF00}and( ... )
+@PRES::UserView::be_CBaseUnaryStatement::1          {C ff00FF00}or( ... )
+@PRES::UserView::be_CBaseUnaryStatement::2          {C ff00FF00}sum( ... )
+@PRES::UserView::be_CBaseUnaryStatement::3          {C ff00FF00}-sum( ... )
+@PRES::UserView::be_CBaseUnaryStatement::4          {C ff00FF00}*** {C ffAAFFEE}... {C ff00FF00}***
+@PRES::UserView::be_CBaseUnaryStatement::5          {C ff00FF00}begin ... end
+@PRES::UserView::be_CBaseUnaryStatement::6          {C ff00FF00}(/    %$FirstOperand, {C ff00FF00}and/$%/{C ff00FF00})
+@PRES::UserView::be_CBaseUnaryStatement::7          {C ff00FF00}(/    %$FirstOperand, {C ff00FF00}or/$%/{C ff00FF00})
+@PRES::UserView::be_CBaseUnaryStatement::8          {C ff00FF00}(/    %$FirstOperand, {C ff00FF00}+/$%/{C ff00FF00})
+@PRES::UserView::be_CBaseUnaryStatement::9          {C ff00FF00}-(/   %$FirstOperand, {C ff00FF00}+/$%/{C ff00FF00})
+@PRES::UserView::be_CBaseUnaryStatement::10         {C ff00FF00}***  {C ffAAFFEE}%$Descr$%  {C ff00FF00}***
+@PRES::UserView::be_CBaseUnaryStatement::11         {C ff00FF00}begin/    %$FirstOperand$%/{C ff00FF00}end
+@PRES::UserView::be_CBaseUnaryStatement::12         {C ff00FF00}and( ... )
+@PRES::UserView::be_CBaseUnaryStatement::13         {C ff00FF00}or( ... )
+@PRES::UserView::be_CBaseUnaryStatement::14         {C ff00FF00}sum( ... )
+@PRES::UserView::be_CBaseUnaryStatement::15         {C ff00FF00}-sum( ... )
+@PRES::UserView::be_CBaseUnaryStatement::16         {C ff00FF00}begin ... end
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::be_CBaseUnaryStatement  		    {C ff0000FF}begin ... end
+@ENUMHINT::@CLASSID::be_CBaseUnaryStatement         Use for create :\  {C ff0000FF}a0 {C ff00FF00}and {C ff0000FF}a1 {C ff00FF00}and {C ff000000}... {C ff00FF00}and {C ff0000FF}ai\  {C ff0000FF}a0 {C ff00FF00}or {C ff0000FF}a1 {C ff00FF00}or {C ff000000}... {C ff00FF00}or {C ff0000FF}ai\  {C ff0000FF}a0 {C ff00FF00}+ {C ff0000FF}a1 {C ff00FF00}+ {C ff000000}... {C ff00FF00}+ {C ff0000FF}ai\  {C ff00FF00}- {C ff0000FF}a0 {C ff00FF00}- {C ff0000FF}a1 {C ff00FF00}- {C ff000000}... {C ff00FF00}- {C ff0000FF}ai\  {C ff0@HINT::be_CBaseUnaryStatement                       Use for create :\  {C ff0000FF}a0 {C ff00FF00}and {C ff0000FF}a1 {C ff00FF00}and {C ff000000}... {C ff00FF00}and {C ff0000FF}ai\  {C ff0000FF}a0 {C ff00FF00}or {C ff0000FF}a1 {C ff00FF00}or {C ff000000}... {C ff00FF00}or {C ff0000FF}ai\  {C ff0000FF}a0 {C ff00FF00}+ {C ff0000FF}a1 {C ff00FF00}+ {C ff000000}... {C ff00FF00}+ {C ff0000FF}ai\  {C ff00FF00}- {C ff0000FF}a0 {C ff00FF00}- {C ff0000FF}a1 {C ff00FF00}- {C ff000000}... {C ff00FF00}- {C ff0000FF}ai\  {C ff00FF00}begin {C ff000000}... {C ff00FF00}end
+@HINT::be_CBaseUnaryStatement                       Use for create :\  {C ff0000FF}a0 {C ff00FF00}and {C ff0000FF}a1 {C ff00FF00}and {C ff000000}... {C ff00FF00}and {C ff0000FF}ai\  {C ff0000FF}a0 {C ff00FF00}or {C ff0000FF}a1 {C ff00FF00}or {C ff000000}... {C ff00FF00}or {C ff0000FF}ai\  {C ff0000FF}a0 {C ff00FF00}+ {C ff0000FF}a1 {C ff00FF00}+ {C ff000000}... {C ff00FF00}+ {C ff0000FF}ai\  {C ff00FF00}- {C ff0000FF}a0 {C ff00FF00}- {C ff0000FF}a1 {C ff00FF00}- {C ff000000}... {C ff00FF00}- {C ff0000FF}ai\  {C ff00FF00}begin {C ff000000}... {C ff00FF00}end
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// be_CBaseBinaryStatement                          {C ff0000FF}BASE COMPLEX
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::be_CBaseBinaryStatement::FirstOperand          Condition Function
+@HINT::be_CBaseBinaryStatement::FirstOperand        Select and set condition function for statement
+@ID::be_CBaseBinaryStatement::SecondOperand         Call Function List
+@HINT::be_CBaseBinaryStatement::SecondOperand       Select and add function in list for calling
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::be_CBaseBinaryStatement::0         {C ff00FF00}while(...) do ...
+@PRES::UserView::be_CBaseBinaryStatement::1         {C ff00FF00}do ... while(...)
+@PRES::UserView::be_CBaseBinaryStatement::2         {C ff00FF00}if ( ... ) begin ... end
+@PRES::UserView::be_CBaseBinaryStatement::3         {C ff00FF00}while( %$FirstOperand$% {C ff00FF00})/{C ff00FF00}do/    %$SecondOperand$%/{C ff00FF00}end
+@PRES::UserView::be_CBaseBinaryStatement::4         {C ff00FF00}do/    %$SecondOperand$%/{C ff00FF00}while( %$FirstOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryStatement::5         {C ff00FF00}if ( %$FirstOperand$% {C ff00FF00})/{C ff00FF00}begin/    %$SecondOperand$%/{C ff00FF00}end
+@PRES::UserView::be_CBaseBinaryStatement::6         {C ff00FF00}while(...) do ...
+@PRES::UserView::be_CBaseBinaryStatement::7         {C ff00FF00}do ... while(...)
+@PRES::UserView::be_CBaseBinaryStatement::8         {C ff00FF00}if ( ... ) begin ... end
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::be_CBaseBinaryStatement                   {C ff0000FF}if... while... do...
+@ENUMHINT::@CLASSID::be_CBaseBinaryStatement        Use for create :\  {C ff00FF00}if ({C ff000000}...{C ff00FF00}) then {C ff000000}... {C ff00FF00}end\  {C ff00FF00}while ({C ff000000}...{C ff00FF00}) do {C ff000000}... {C ff00FF00}end\  {C ff00FF00}do {C ff000000}... {C ff00FF00}while ({C ff000000}...{C ff00FF00})
+@HINT::be_CBaseBinaryStatement                      Use for create :\  {C ff00FF00}if ({C ff000000}...{C ff00FF00}) then {C ff000000}... {C ff00FF00}end\  {C ff00FF00}while ({C ff000000}...{C ff00FF00}) do {C ff000000}... {C ff00FF00}end\  {C ff00FF00}do {C ff000000}... {C ff00FF00}while ({C ff000000}...{C ff00FF00})
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// be_CBaseUnaryOperator                            {C ff0000FF}BASE COMPLEX
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::be_CBaseUnaryOperator::FirstOperand            Condition Function
+@HINT::be_CBaseUnaryOperator::FirstOperand          Select and set condition function for statement
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::be_CBaseUnaryOperator::0           {C ff00FF00}not( ... )
+@PRES::UserView::be_CBaseUnaryOperator::1           {C ff00FF00}- ( ... )
+@PRES::UserView::be_CBaseUnaryOperator::2           {C ff00FF00}...
+@PRES::UserView::be_CBaseUnaryOperator::3           {C ff00FF00}not( %$FirstOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseUnaryOperator::4           {C ff00FF00}- ( %$FirstOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseUnaryOperator::5           %$FirstOperand$%
+@PRES::UserView::be_CBaseUnaryOperator::6           {C ff00FF00}not( ... )
+@PRES::UserView::be_CBaseUnaryOperator::7           {C ff00FF00}- ( ... )
+@PRES::UserView::be_CBaseUnaryOperator::8           {C ff00FF00}...
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::be_CBaseUnaryOperator                     {C ff0000FF}...
+@ENUMHINT::@CLASSID::be_CBaseUnaryOperator          Use for create :\  {C ff0000FF}a0{C ff00FF00}\  not( {C ff0000FF}a0{C ff00FF00} )\  - ( {C ff0000FF}a0{C ff00FF00} )
+@HINT::be_CBaseUnaryOperator                        Use for create :\  {C ff0000FF}a0{C ff00FF00}\  not( {C ff0000FF}a0{C ff00FF00} )\  - ( {C ff0000FF}a0{C ff00FF00} )
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// be_CBaseBinaryOperator                           {C ff0000FF}BASE COMPLEX
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::be_CBaseBinaryOperator::FirstOperand           First Operand
+@HINT::be_CBaseBinaryOperator::FirstOperand         Set FirstOperand
+@ID::be_CBaseBinaryOperator::SecondOperand          Second Operand
+@HINT::be_CBaseBinaryOperator::SecondOperand        Set SecondOperand
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::be_CBaseBinaryOperator::0          {C ff00FF00}... and ...
+@PRES::UserView::be_CBaseBinaryOperator::1          {C ff00FF00}... or ...
+@PRES::UserView::be_CBaseBinaryOperator::2          {C ff00FF00}... - ...
+@PRES::UserView::be_CBaseBinaryOperator::3          {C ff00FF00}... + ...
+@PRES::UserView::be_CBaseBinaryOperator::4          {C ff00FF00}... * ...
+@PRES::UserView::be_CBaseBinaryOperator::5          {C ff00FF00}... > ...
+@PRES::UserView::be_CBaseBinaryOperator::6          {C ff00FF00}... >= ...
+@PRES::UserView::be_CBaseBinaryOperator::7          {C ff00FF00}... < ...
+@PRES::UserView::be_CBaseBinaryOperator::8          {C ff00FF00}... <= ...
+@PRES::UserView::be_CBaseBinaryOperator::9          {C ff00FF00}... == ...
+@PRES::UserView::be_CBaseBinaryOperator::10         {C ff00FF00}... != ...
+@PRES::UserView::be_CBaseBinaryOperator::11         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}and %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::12         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}or %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::13         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}- %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::14         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}+ %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::15         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}* %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::16         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}> %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::17         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}>= %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::18         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}< %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::19         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}<= %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::20         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}== %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::21         {C ff00FF00}( %$FirstOperand$% {C ff00FF00}!= %$SecondOperand$% {C ff00FF00})
+@PRES::UserView::be_CBaseBinaryOperator::22         {C ff00FF00}... and ...
+@PRES::UserView::be_CBaseBinaryOperator::23         {C ff00FF00}... or ...
+@PRES::UserView::be_CBaseBinaryOperator::24         {C ff00FF00}... - ...
+@PRES::UserView::be_CBaseBinaryOperator::25         {C ff00FF00}... + ...
+@PRES::UserView::be_CBaseBinaryOperator::26         {C ff00FF00}... * ...
+@PRES::UserView::be_CBaseBinaryOperator::27         {C ff00FF00}... > ...
+@PRES::UserView::be_CBaseBinaryOperator::28         {C ff00FF00}... >= ...
+@PRES::UserView::be_CBaseBinaryOperator::29         {C ff00FF00}... < ...
+@PRES::UserView::be_CBaseBinaryOperator::30         {C ff00FF00}... <= ...
+@PRES::UserView::be_CBaseBinaryOperator::31         {C ff00FF00}... == ...
+@PRES::UserView::be_CBaseBinaryOperator::32         {C ff00FF00}... != ...
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::be_CBaseBinaryOperator                    {C ff0000FF}( ... OPER ... )
+@ENUMHINT::@CLASSID::be_CBaseBinaryOperator         Use for create :\  {C ff0000FF}a0 {C ff00FF00}and {C ff0000FF}a1\  a0 {C ff00FF00}or {C ff0000FF}a1\  a0 {C ff00FF00}- {C ff0000FF}a1\  a0 {C ff00FF00}+ {C ff0000FF}a1\  a0 {C ff00FF00}* {C ff0000FF}a1\  a0 {C ff00FF00}> {C ff0000FF}a1\  a0 {C ff00FF00}>= {C ff0000FF}a1\  a0 {C ff00FF00}< {C ff0000FF}a1\  a0 {C ff00FF00}<= {C ff0000FF}a1\  a0 {C ff00FF00}== {C ff0000FF}a1\  a0 {C ff00FF00}!= {C ff0000FF}a1
+@HINT::be_CBaseBinaryOperator                       Use for create :\  {C ff0000FF}a0 {C ff00FF00}and {C ff0000FF}a1\  a0 {C ff00FF00}or {C ff0000FF}a1\  a0 {C ff00FF00}- {C ff0000FF}a1\  a0 {C ff00FF00}+ {C ff0000FF}a1\  a0 {C ff00FF00}* {C ff0000FF}a1\  a0 {C ff00FF00}> {C ff0000FF}a1\  a0 {C ff00FF00}>= {C ff0000FF}a1\  a0 {C ff00FF00}< {C ff0000FF}a1\  a0 {C ff00FF00}<= {C ff0000FF}a1\  a0 {C ff00FF00}== {C ff0000FF}a1\  a0 {C ff00FF00}!= {C ff0000FF}a1
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// be_CBaseTrinaryStatement                         {C ff0000FF}BASE COMPLEX
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::be_CBaseTrinaryStatement::FirstOperand         Condition
+@HINT::be_CBaseTrinaryStatement::FirstOperand       Set condition for if() then ... else .. end stetement
+@ID::be_CBaseTrinaryStatement::SecondOperand        then ...
+@HINT::be_CBaseTrinaryStatement::SecondOperand      
+@ID::be_CBaseTrinaryStatement::ThirdOperand         else ...
+@HINT::be_CBaseTrinaryStatement::ThirdOperand       
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::be_CBaseTrinaryStatement::0        {C ff00FF00}if (...) then ... else ... end
+@PRES::UserView::be_CBaseTrinaryStatement::1        {C ff00FF00}if ( %$FirstOperand$% {C ff00FF00})/{C ff00FF00}then/    %$SecondOperand$%/{C ff00FF00}else/    %$ThirdOperand$%/{C ff00FF00}end
+@PRES::UserView::be_CBaseTrinaryStatement::2        {C ff00FF00}if (...) then ... else ... end
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::be_CBaseTrinaryStatement                  {C ff0000FF}if ( ... ) then ... else ... end
+@ENUMHINT::@CLASSID::be_CBaseTrinaryStatement       Use for create :\  {C ff00FF00}if ({C ff000000}...{C ff00FF00}) then {C ff000000}... {C ff00FF00}else {C ff000000}... {C ff00FF00}end
+@HINT::be_CBaseTrinaryStatement                     Use for create :\  {C ff00FF00}if ({C ff000000}...{C ff00FF00}) then {C ff000000}... {C ff00FF00}else {C ff000000}... {C ff00FF00}end
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////
+// be_CComment                                      {C ff0000FF}BASE FUNC
+/////////////////////////////////////////////////////////////////////
+
+-- PARAMETRS LIST ---------------------------------------------------
+@ID::be_CComment::Comment                           {C ffFFFF00}Comment
+@HINT::be_CComment::Comment                         Tape you coment heare
+---------------------------------------------------------------------
+
+-- PRESENTATION LIST ------------------------------------------------
+@PRES::UserView::be_CComment::0                     {C ffAAFFEE}###  %$Comment$%
+---------------------------------------------------------------------
+
+-- NAME AND HINT LIST -----------------------------------------------
+@CLASSID::be_CComment                               Comment
+@ENUMHINT::@CLASSID::be_CComment                    Use for add comment in code
+@HINT::be_CComment                                  Use for add comment in code
+---------------------------------------------------------------------
+
+/////////////////////////////////////////////////////////////////////
+
+
+*********************************************************************
+*********************************************************************

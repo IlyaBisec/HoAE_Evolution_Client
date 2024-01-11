@@ -1,0 +1,21 @@
+<WeaponModificator>
+ <Name>lich_kick_damage</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <Jump></Jump>
+    <MakeDamage>
+     <TargetedUnit>true</TargetedUnit>
+     <InRadius>10</InRadius>
+     <MaxUnits>1</MaxUnits>
+     <OnlyEnemyUnits>true</OnlyEnemyUnits>
+     <DamageBuilding>true</DamageBuilding>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

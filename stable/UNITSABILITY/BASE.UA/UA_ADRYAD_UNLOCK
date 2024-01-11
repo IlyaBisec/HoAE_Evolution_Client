@@ -1,0 +1,18 @@
+<NewAbility>
+ <Name>UA_aDryad_Unlock</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <eWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>MC_wWallOfRoots_Death</RefName>
+ </eWeapon>
+</NewAbility>

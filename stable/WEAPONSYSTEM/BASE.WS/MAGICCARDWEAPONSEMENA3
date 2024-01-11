@@ -1,0 +1,17 @@
+<WeaponModificator>
+ <Name>MagicCardWeaponSemena3</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <BirthNewUnit>
+     <UT>
+      <UnitType>DruUDry(DR)</UnitType>
+     </UT>
+    </BirthNewUnit>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

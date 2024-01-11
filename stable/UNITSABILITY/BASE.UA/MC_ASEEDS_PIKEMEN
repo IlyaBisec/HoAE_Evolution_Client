@@ -1,0 +1,22 @@
+<NewAbility>
+ <Name>MC_aSeeds_Pikemen</Name>
+ <Visible>false</Visible>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_Plymorph>
+   <NewType>
+    <UnitType>DruUPik(DR)</UnitType>
+   </NewType>
+  </mod_Plymorph>
+ </Modificators>
+</NewAbility>

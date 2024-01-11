@@ -1,0 +1,21 @@
+<WeaponModificator>
+ <Name>MagicWeaponSwarmOfInsects2</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <BirthNewAbility>
+     <AdditionalAbilites>
+      <ClassRef.UnitAbility>
+       <ClassName>NewAbility</ClassName>
+       <RefName>MagicCardSwarmOfInsects2</RefName>
+      </ClassRef.UnitAbility>
+     </AdditionalAbilites>
+    </BirthNewAbility>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

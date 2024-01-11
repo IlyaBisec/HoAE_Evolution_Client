@@ -1,0 +1,30 @@
+// Launcher localization file.
+// Contains id - Text pairs in any order.
+
+#LAUNCHER_GAMETITLE	Heroes of Annihilated Empires
+
+#LAUNCHER_TEXT1		Please select display refresh rate:
+#LAUNCHER_TEXT2		Attention! Some of the modes can be not supported by your display. If you have any troubles with running the game in default refresh rate, select "60 Hertz (Safe Mode)" or a value lower than has been set previously.
+
+
+#LAUNCHER_DEFAULTRR	Default Refresh Rate
+#LAUNCHER_SAFEMODE	Safe Mode
+#LAUNCHER_HERTZ		Hertz
+
+#LAUNCHER_LAUNCH	Launch Game
+#LAUNCHER_CANCEL	Cancel
+
+//#LAUNCHER_GAMETITLE	Герои Уничтоженных Империй
+
+//#LAUNCHER_TEXT1		Выберете частоту обновления экрана:
+//#LAUNCHER_TEXT2		Внимание! Некоторые из режимов могут не поддерживаться вашим дисплеем. Если у вас проблемы с запуском игры на частоте по умолчанию, выберете "60 Герц" (Безопасный режим) или частоту меньшую чем предыдущая.
+
+//#LAUNCHER_DEFAULTRR	Частота обновления по умолчанию
+//#LAUNCHER_SAFEMODE	Безопасный режим
+//#LAUNCHER_HERTZ		Герц
+
+//#LAUNCHER_LAUNCH	Запустить игру
+//#LAUNCHER_CANCEL	Отмена
+
+
+// During parsing all separators will be replaced by space!

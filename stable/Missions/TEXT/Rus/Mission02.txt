@@ -1,0 +1,72 @@
+#M02D01S01    [M2Druid][Normal][Missions\SOUND\MISSION02\m02_t02.ogg]Я слышал, Воевода приказал тебе собрать отступивших солдат возле крепости Твердокамень.
+#M02D01S02    [M2Druid][Normal][Missions\SOUND\MISSION02\m02_t03.ogg]Прими это заклинание, Эльхант. Думаю, оно тебе пригодится.
+#M02D01S03    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t04.ogg]Магия - удел друидов. Я воин, а не ведун.
+#M02D01S04    [M2Druid][Normal][Missions\SOUND\MISSION02\m02_t05.ogg]Магия - грозное оружие в умелых руках, а сейчас не время отказываться от оружия.
+#M02D01S05    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t06.ogg]Возможно, ты и прав. Что ж, надеюсь, это заклятие окажется полезным.
+#M02D02S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t10.ogg]Воины! Город Зари пал, но война ещё не проиграна! За мной, дадим бой нежити!
+#M02D02S02    [M2Commander1][Normal][Missions\SOUND\MISSION02\m02_t11.ogg]Мы идем, следопыт! С нами Сила леса!
+#M02D03S01P01    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t12.ogg]Послушай, следопыт, не мог бы ты мне помочь?
+#M02D03S01P02    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t13.ogg]Вчера моя жена с другими женщинами отправилась в западный лес за ягодами. Их нет до сих пор.
+#M02D03S01P03    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t14.ogg]Страшно представить, что могло случиться с ними: вся эта нежить и темные твари, что появились в лесах...
+#M02D03S01P04    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t15.ogg]Прошу, спаси мою жену!
+#M02D03S02    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t16.ogg]Неужели ты сам не можешь позаботиться о собственной семье?
+#M02D03S03    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t17.ogg]Но ведь я не воин, а чащи нынче кишат ужасными тварями... Помоги мне, умоляю!
+#M02D03S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t18.ogg]Хорошо, я сделаю что смогу.
+#M02D04S02P1    [Elhant][Sadness][Missions\SOUND\MISSION02\m02_t25.ogg]Я видел твою жену... Вернее то, во что ее превратили некроманты.
+#M02D04S02P2    [Elhant][Sadness][Missions\SOUND\MISSION02\m02_t26.ogg]Мне пришлось... упокоить ее...
+#M02D04S03    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t27.ogg]О горе мне! Да будут вовеки прокляты некроманты!..
+#M02D04S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t28.ogg]Я клянусь, что отомщу за твою жену и за других эльфов, павших от рук прислужников смерти.
+#M02D04S05    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t29.ogg]Возьми... возьми вот это. Она должна тебе пригодиться...
+#M02D05S01    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t24.ogg]Следопыт, ты нашел её? Скажи, нашёл?..
+#M02D06S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t19.ogg]Чёрные колдуны превращают мертвых женщин в нежить! Смерть тёмным тварям!
+#M02D07S01P1    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t30.ogg]Приветствую вас, воины! Именем воеводы Монфора я приказываю вам следовать за мной!
+#M02D07S01P2    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t31.ogg]Мы идём в долину, где собирается войско эльфов!
+#M02D07S02P1    [M2Commander2][Normal][Missions\SOUND\MISSION02\m02_t32.ogg]Мы не можем идти с тобой, следопыт.
+#M02D07S02P2    [M2Commander2][Normal][Missions\SOUND\MISSION02\m02_t33.ogg]Атака гоблинов может повториться - к югу от этого поселения их лагерь.
+#M02D07S02P3    [M2Commander2][Normal][Missions\SOUND\MISSION02\m02_t34.ogg]Если мы покинем селение, гоблины обязательно нападут, и тогда жителям несдобровать!
+#M02D07S03P1    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t35.ogg]Ты прав: мы не можем лишить мирных жителей защиты.
+#M02D07S03P2    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t36.ogg]Что ж, оставайся здесь, пусть твои воины охраняют селение. Я уничтожу гоблинов и вернусь с победой!
+#M02D08S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t39.ogg]Больше гоблинам не проливать невинной крови! Возвращаемся в поселок.
+#M02D09S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t40.ogg]Все гоблины мертвы! Селение в безопасности.
+#M02D09S02    [M2Commander2][Normal][Missions\SOUND\MISSION02\m02_t41.ogg]Вот добрая весть! Воины, отныне мы подчиняемся приказам этого следопыта.
+#M02D10S01    [M2Dweller][Despair][Missions\SOUND\MISSION02\m02_t50.ogg]Нежить! На нас напала нежить! Помогите!
+#M02D10S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t51.ogg]Мы поможем вам! Воины! В атаку!
+#M02D11S01    [M2Commander3][Normal][Missions\SOUND\MISSION02\m02_t52.ogg]Спасибо, следопыт. Без твоей помощи мы бы не справились.
+#M02D11S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t53.ogg]По приказу воеводы Монфора вы должны следовать за мной. Мы собираем армию, чтобы дать бой нежити.
+#M02D11S03P1    [M2Commander3][Normal][Missions\SOUND\MISSION02\m02_t54.ogg]С радостью! Но... нас осталось мало. Большая часть отправилась к Твердокамню, на помощь феям.
+#M02D11S03P2    [M2Commander3][Normal][Missions\SOUND\MISSION02\m02_t55.ogg]Были среди них и кентавры - ты же знаешь, они прирожденные воины... и никто не вернулся...
+#M02D11S03P3    [M2Commander3][Normal][Missions\SOUND\MISSION02\m02_t56.ogg]Вместо наших братьев с той стороны пришла орда нежити...
+#M02D11S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t57.ogg]Мой долг - собрать всех уцелевших. Отправляемся к Твердокамню!
+#M02D12S01    [M2Centaur][Angry][Missions\SOUND\MISSION02\m02_t58.ogg]Нежить наступает! Руби их! Топчи!
+#M02D12S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t59.ogg]Кентавры бьются с нежитью! Нужно помочь им! В атаку!
+#M02D13S01P1    [M2Centaur][Normal][Missions\SOUND\MISSION02\m02_t60.ogg]Хоть мы и справились бы сами, но спасибо тебе за помощь, эльф!
+#M02D13S01P2    [M2Centaur][Normal][Missions\SOUND\MISSION02\m02_t61.ogg]Одно плохо: пока мы отбивались от проклятой нежити, колдуны уволокли фей к старому кладбищу.
+#M02D13S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t62.ogg]Отправляемся в погоню!
+#M02D13S03P1    [M2Centaur][Normal][Missions\SOUND\MISSION02\m02_t63.ogg]Мы, пожалуй, сможем их нагнать, если пойдем Паучьей тропой. 
+#M02D13S03P2    [M2Centaur][Normal][Missions\SOUND\MISSION02\m02_t64.ogg]Она короче, да к тому же на главной дороге сейчас полно трупоедов... так что пауки - не худший выбор.
+#M02D13S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t65.ogg]Тогда вперед!
+#M02D14S01P1    [M2Forester][Normal][Missions\SOUND\MISSION02\m02_t47.ogg]Рад видеть тебя, следопыт! Когда-то и я бегал с луком по лесу.
+#M02D14S01P2    [M2Forester][Normal][Missions\SOUND\MISSION02\m02_t48.ogg]Только времена эти давно минули... Я стар, и хочу передать кому-нибудь своё умение.
+#M02D14S01P3    [M2Forester][Normal][Missions\SOUND\MISSION02\m02_t49.ogg]Благодаря этой ауре тебе и твоим лучникам будет легче попадать в цель.
+#M02D15S01    [Elhant][Normal][Missions\SOUND\MISSION02\M02D15S01.ogg]Гоблины атакуют поселок! Нужно защитить жителей!
+#M02D16S01    [M2Soldier][Normal][Missions\SOUND\MISSION02\m02_t69.ogg]Мы пойдем с тобой, следопыт!
+#M02D17S01    [M2Soldier][Normal][Missions\SOUND\MISSION02\m02_t72.ogg]Благодарим тебя, следопыт. Мы пойдем туда, куда ты поведёшь нас!
+#M02D18S01    [M2Soldier][Normal][Missions\SOUND\MISSION02\m02_t71.ogg]Мы будем сопровождать тебя к Твердокамню!
+#M02D19S01    [M2Soldier][Normal][Missions\SOUND\MISSION02\m02_t70.ogg]Конечно, мы последуем за тобой!
+#M02D20S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t09.ogg]Какие странные следы! Что за неведомый зверь мог их оставить?
+#M02D21S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t07.ogg]Раньше эти хвостатые твари не вели себя так нагло!
+#M02D21S02    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t08.ogg]Их вожак... от его укуса я чувствую слабость, кружится  голова... Наверняка на его зубах был яд.
+#M02D22S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t20.ogg]Когда-то гоблины причинили нам много зла.
+#M02D22S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t21.ogg]На юге Атланса их больше, чем здесь, и я имел возможность хорошо изучить их повадки.
+#M02D22S03    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t22.ogg]В каждом отряде есть вожак - своей одеждой он выделяется среди других.
+#M02D22S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t23.ogg]Если убить его, остальные разбегутся в панике.
+#M02D23S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t37.ogg]Такое существо убить будет нелегко... Кажется, их называют минотаврами... я помню рассказ друида-странника.
+#M02D23S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t38.ogg]Минотавры очень сильны, нельзя позволять им приближаться.
+#M02D24S01    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t42.ogg]Вот он, источник маны, магической субстанции.
+#M02D24S02    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t43.ogg]Творение друидов, позволяющее любому путешествующему магу пополнить свои силы!
+#M02D24S03    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t44.ogg]А раз я тоже владею заклинанием... значит, эти источники теперь пригодятся и мне.
+#M02D25S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t45.ogg]Священные камни наполняют нас жизненной силой. 
+#M02D25S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t46.ogg]Я привык полагаться только на свою выносливость и опыт, но иногда помощь магии оказывается очень кстати.
+#M02D26S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t66.ogg]Нрав у кентавров буйный и необузданный - иногда они даже кажутся мне дикими животными.
+#M02D26S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t67.ogg]Но это верные друзья, и в борьбе с нежитью они обязательно встанут на нашу сторону...
+#M02D26S03    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t68.ogg]Особенно если я, лучший воин Юга, поведу их!

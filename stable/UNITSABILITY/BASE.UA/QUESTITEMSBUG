@@ -1,0 +1,25 @@
+<NewItem>
+ <Clothe>true</Clothe>
+ <CanNotBeClothe>true</CanNotBeClothe>
+ <Name>QuestItemsBug</Name>
+ <FileID>Interf3\Ability\goods_quest</FileID>
+ <FileID_Inv>Interf3\Ability\goods_inventory_quest</FileID_Inv>
+ <EffectFileID>Interf3\Ability\goods_quest</EffectFileID>
+ <HintName>#QuestItemsBug.NAME</HintName>
+ <Hint>#QuestItemsBug</Hint>
+ <GroundMD>
+  <UnitType>DropM1(IT)</UnitType>
+ </GroundMD>
+ <Amount>1</Amount>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewItem>

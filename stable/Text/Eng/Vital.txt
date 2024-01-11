@@ -1,0 +1,123 @@
+#SkipMagicCard Right click to change magic card (When changing, mana is spent equal to the cost of the spell)
+
+#BuildUnlimit Hold CTRL to order continual training
+
+#Inv_Bottles BOTTLES
+#Inv_Bottles_Hint Bottles
+#Inv_Magic MAGIC
+#Inv_Magic_Hint Magic
+#Inv_History HISTORY
+#Inv_History_Hint History
+#Inv_Journal JOURNAL
+#Inv_Journal_Hint Journal
+#Inv_Info INFORMATION
+#Inv_Info_Hint Information
+
+#Inv_Full_PickUp Can't pick up an item - no place in the inventory
+
+#AblHint_Effects Effects
+
+#BuyPrice Purchase price
+#SellPrice Selling price
+#ManaCost Mana cost
+
+#Influence Effects
+#Multicast Casted multiple times
+
+#LimitedAmount Single use
+#SellAfterUse Right click to sell it instantly
+#Permanent Permanent
+
+#FromBase from the base value
+#FromCurrent from the current value
+#mod_MotionSpeed Movement speed
+#mod_Stun Paralysis
+#mod_Trap Stun
+#mod_AttackRadiusMax Firing range
+#mod_Silence Silence
+#mod_Compassion Weakness
+#mod_Invulnerability Invulnerability
+#mod_Damage Damage
+#mod_Protection Defense against
+#mod_Shield Defense against any weapon
+#mod_AttackRate Attack rate
+#mod_MagicImmunity Magic immunity
+#mod_LifeRegeneration Health regeneration
+#mod_ManaRegeneration Mana restoration
+#mod_Vision View range
+#mod_Weapon Switch weapon to
+#mod_WeaponShots shots
+#mod_Invisibility Invisibility
+#mod_Detector Perceives invisible
+#mod_Frozen Frostbite
+#mod_Vampire Vampirism
+#mod_Thorn Thorns
+#mod_ManaValue Spell costs
+#mod_Life Current health
+#mod_Mana Current mana
+#mod_LifeMax Maximum health
+#mod_ManaMax Maximum mana
+#mod_AttackCaster Lure the enemies
+#mod_OverEarth Antigravity
+#mod_Fear Fear
+#mod_ProduceEnable Production disabled
+#mod_Scale Scale
+#mod_Control Under control
+#mod_Insubordination Disobedience
+#mod_LevelForEffects Spell power
+#mod_TradeSkill Trading skill
+#mod_Learning Learning skill
+#mod_Evasion Evasion
+#mod_Miss Miss
+#mod_MotionStyle Flying
+#mod_AttackRadiusMaxMelee Melee attack
+#mod_OverEarthDown Earth dawn
+#mod_LifeHeal Restore health
+#mod_LifeDamage Inflict damage
+
+#mod_WeaponKind0 Piercing damage
+#mod_WeaponKind1 Chopping damage
+#mod_WeaponKind2 Crushing damage
+#mod_WeaponKind3 Magic damage
+
+piercing 'piercing'
+chopping 'chopping'
+crushing 'crushing'
+magical 'magic'
+
+FlyingObject low-flying
+#BaseFantasyVic Victory! You have proved your mastery.																   
+#BaseFantasyDefTownHalls Defeat! You have lost all your building centers.
+#BaseFantasyDefPeasants Defeat! You have less than three peasants left.
+#BaseFantasyDefHeroDeath Defeat! Your hero died.
+
+//Hints on building
+#HintShopBottle.NAME Alchemist lab
+#HintShopBottle Use the services of magic potions merchant
+#HintShopItems.NAME Artifact master
+#HintShopItems Use the services of artifacts merchant
+#HintShopMagicCards.NAME Library
+#HintShopMagicCards Use the services of magic cards library
+#HintBuyVillage.NAME Neutral settlement
+#HintBuyVillage Discuss the possibility of joint war with this settlement
+#HintAltar_attack.NAME Altar of Attack
+#HintAltar_attack Using the power of the altar, the hero and all friendly forces nearby improve their attack values
+#HintAltar_defence.NAME Altar of Defense
+#HintAltar_defence Using the power of the altar, the hero and all friendly forces nearby improve their defense values
+#HintAltar_regeneration.NAME Regeneration pillar
+#HintAltar_regeneration Using the power of the stone the hero improves his health regeneration
+#HintAltar_rage.NAME Stone of Rage
+#HintAltar_rage Using the power of the stone the hero receives the ability to move and attack quicker
+#HintBonus_fontain.NAME Fountain
+#HintBonus_fontain Using this life-giving fountain the hero restores his health by 300 and mana by 120 points
+
+//Hints on use
+#UseRightClick Right click to use
+#UseLeftClick Left click to use
+#GetCasterHeroLvl (Hero's level)
+#BuySellDoubleClick double click to buy/sell
+
+//
+#NeedBuildingForConstraction Requires:
+
+#Select_Mission MISSION SELECT

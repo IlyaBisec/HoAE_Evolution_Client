@@ -1,0 +1,243 @@
+ABLINE0 GSC Game World
+ABLINE1 
+ABLINE2 Credits
+ABLINE3 
+ABLINE4 Producer
+ABLINE5 			Sergiy '-GSC-' Grygorovich
+ABLINE6 Project leader/manager
+ABLINE7 			Evgeniy '-GEC-' Grygorovich
+ABLINE8 Storyline
+ABLINE9 			Sergiy '-GSC-' Grygorovich
+ABLINE10 			Ilya Novak
+ABLINE11 
+ABLINE12 
+ABLINE13 Lead programmer
+ABLINE14 			Andrew Shpagin
+ABLINE15 
+ABLINE16 Programmers
+ABLINE17 			Vitaliy Listenko
+ABLINE18 			Sergey Krizhnovskiy
+ABLINE19 			Ruslan Shestopaliyk
+ABLINE20 
+ABLINE21 Additional programming
+ABLINE22 			Elena Popova
+ABLINE23 
+ABLINE24 Gameplay development
+ABLINE25 			Alexandr 'ATG' Chuchkevich
+ABLINE26 			Alexandr Vasilkonov
+ABLINE27 			Vladimir Ezhov
+ABLINE28 
+ABLINE29 Mission development tools
+ABLINE30 			Victor Levchenko
+ABLINE31 
+ABLINE32 Network and system programmer
+ABLINE33 			Serguei Ivantsov
+ABLINE34 	
+ABLINE35 
+ABLINE36 Mission gameplay
+ABLINE37 			Alex Dragon
+ABLINE38 			Alexey Onishenko
+ABLINE39 			Daniil 'Buggy Dan' Meranov
+ABLINE40 
+ABLINE41 Lead designer
+ABLINE42 			Dmitry Zenin 'Paramon'
+ABLINE43 
+ABLINE44 
+ABLINE45 Building artists
+ABLINE46 			Dmitry Zenin 'Paramon'
+ABLINE47 			Andrey Zenin
+ABLINE48 			Mihail Zaporozchenko
+ABLINE49 			Alexandr Lipkan
+ABLINE50 			Andrey Pronuk
+ABLINE51 
+ABLINE52 Character artists
+ABLINE53 			Alexandr Lipkan
+ABLINE54 			Dmitry Zenin 'Paramon'
+ABLINE55 			Andrey Zenin
+ABLINE56 			Dmitry Starostin
+ABLINE57 			Oleg Koreiba
+ABLINE58 			Mihail Zaporozchenko
+ABLINE59 			Nadezhda Babaryka
+ABLINE60 			Andrey Pronuk
+ABLINE61 
+ABLINE62 Animators
+ABLINE63 			Dmitry Zenin 'Paramon'
+ABLINE64 			Konstantin Kartashov
+ABLINE65 			Sergey Volchanov
+ABLINE66 			Olga Volchanova
+ABLINE67 			Andrey Zenin
+ABLINE68 			Nadezhda Babaryka
+ABLINE69 
+ABLINE70 Technical render
+ABLINE71 			Alex Demidenko
+ABLINE72 
+ABLINE73 Visual effects
+ABLINE74 			Pavel Markevich
+ABLINE75 			Alexandr Lipkan
+ABLINE76 
+ABLINE77 Art/Interface
+ABLINE78 			Roman Nesin
+ABLINE79 			Olga Troekurova
+ABLINE80 			Ilya Tolmachev
+ABLINE81 			Alexandr Lipkan
+ABLINE82 			Andrey Didenko
+ABLINE83 			Timofey Ursulenko
+ABLINE84 			Kim Demidenko
+ABLINE85 			Dmitry Starostin
+ABLINE86 
+ABLINE87 Mission design
+ABLINE88 			Dmitry Zenin 'Paramon'
+ABLINE89 			Alexandr Lipkan
+ABLINE90 			Timofey Ursulenko
+ABLINE91 			Roman Nesin
+ABLINE92 
+ABLINE93 Comics
+ABLINE94 			Oleg Masukevich
+ABLINE95 			Dmitry Starostin
+ABLINE96 
+ABLINE97 Sound supervisor 
+ABLINE98 			Dmitry Kuzmenko
+ABLINE99 
+ABLINE100 Sound effects
+ABLINE101 			Uriy Pliska
+ABLINE102 
+ABLINE103 Composer
+ABLINE104 			Alexey Omelchuk
+ABLINE105 
+ABLINE106 
+ABLINE107 Texts writing
+ABLINE108 			Vladimir Litvinenko
+ABLINE109 
+ABLINE110 
+ABLINE111 VIDEO
+ABLINE112 
+ABLINE113 
+ABLINE114 INTRO
+ABLINE115 
+ABLINE116 Direction
+ABLINE117 			Petr Semka
+ABLINE118 			Vasiliy Guralevich
+ABLINE119  
+ABLINE120 
+ABLINE121 Artists / animators
+ABLINE122 			Vladimir Druzenko
+ABLINE123 			Sergey Kuzhelniy
+ABLINE124 			Nadezhda Babaryka
+ABLINE125 			Vladimir Hvostichenko
+ABLINE126 			Alexey Manita
+ABLINE127 			Alexey Martinenko
+ABLINE128 			Victor Abramovsky
+ABLINE129 			Victor Onishenko
+ABLINE130 			Alexandr Kovach
+ABLINE131 
+ABLINE132 
+ABLINE133 Visualisation
+ABLINE134 			Anton Ognev
+ABLINE135 			Vladimir Kazantsev
+ABLINE136 
+ABLINE137 
+ABLINE138 
+ABLINE139 OUTRO
+ABLINE140 
+ABLINE141 Direction
+ABLINE142 			Alexey Manita
+ABLINE143 			Vasility Guralevich
+ABLINE144 
+ABLINE145 Artists / animators
+ABLINE146 			Igor Podmokov
+ABLINE147 			Dmitry Eretic
+ABLINE148 			Bogdan Dubovik
+ABLINE149 			Grigory Lebedev
+ABLINE150 			Andrey Didenko
+ABLINE151 			Vladimir Druzenko
+ABLINE152 			Victor Abramovsky
+ABLINE153 
+ABLINE154 
+ABLINE155 Visualisation
+ABLINE156 			Alexey Martinenko
+ABLINE157 			Alexandr Voznuk
+ABLINE158 
+ABLINE159 Special thanks
+ABLINE160 			Anatoliy Shestopaluk
+ABLINE161 			Sergey Grytsai
+ABLINE162 
+ABLINE163 
+ABLINE164 GSC World Publishing 
+ABLINE165 
+ABLINE166 CEO
+ABLINE167 			Sergiy '-GSC-' Grygorovich
+ABLINE168 
+ABLINE169 Head of sales department
+ABLINE170 			Sergey Grushko
+ABLINE171 
+ABLINE172 Sales manager
+ABLINE173 			Victoria Boyko
+ABLINE174 
+ABLINE175 Marketing/PR 
+ABLINE176 
+ABLINE177 Head of marketing/Art-director
+ABLINE178 			Roman Nesin
+ABLINE179 Art department
+ABLINE180 			Olga Troekurova
+ABLINE181 			Ilya Tolmachev
+ABLINE182 			Andrey Didenko
+ABLINE183 			Ivan Hivrenko
+ABLINE184 			Grigoriy Lebedev
+ABLINE185 			Roman Bordenuk
+ABLINE186 			Kim Demidenko
+ABLINE187 
+ABLINE188 Project manager
+ABLINE189 			Oleg Yavorsky
+ABLINE190 PR department
+ABLINE191 			Maxim Kovalev
+ABLINE192 			Valentin Eltishev
+ABLINE193 			Evgeniy Minko
+ABLINE194 			Sergey Storozhenko
+ABLINE195 			Nikolay Volchkov
+ABLINE196 			Artem Pavlenko
+ABLINE197 WEB development
+ABLINE198 			Maxim Kovalev
+ABLINE199 			Olga Troekurova
+ABLINE200 			Sergey Terluck
+ABLINE201 			Gennadiy Genuk
+ABLINE202 			Eugene Kuchma
+ABLINE203 			Olga Ishyna
+ABLINE204 			Tatyana Parfilova
+ABLINE205 
+ABLINE206 Localisation
+ABLINE207 
+ABLINE208 Project manager
+ABLINE209 			Eugene Kuchma
+ABLINE210 Translation
+ABLINE211 			Olga Ishyna
+ABLINE212 
+ABLINE213 
+ABLINE214 Technical support
+ABLINE215 			Yuriy Skripal
+ABLINE216 
+ABLINE217 English Version
+ABLINE218 
+ABLINE219 Coordination
+ABLINE220 Markus Ludolf, Partnertrans
+ABLINE221 
+ABLINE222 Editing & Translation
+ABLINE223 Jill Sommer
+ABLINE224 Konstantin Kisin
+ABLINE225 Margarita Belousova
+ABLINE226 
+ABLINE227 Voice Production
+ABLINE228 Matinée Sound & Vision Limited
+ABLINE229 
+ABLINE230 Production Coordinator
+ABLINE231 Karen Grassie
+ABLINE232 
+ABLINE233 Voice Actors
+ABLINE234 Jay Simon
+ABLINE235 Justin Fletcher
+ABLINE236 Shelley Atkinson
+ABLINE237 Claire Morgan
+ABLINE238 Russell Bentley
+ABLINE239 Eric Meyers
+ABLINE240 Jean Paul Van Cauwelaert
+ABLINE241 
+ 

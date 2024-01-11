@@ -1,0 +1,36 @@
+<NewAbility>
+ <Name>UA_aSpider</Name>
+ <ClassType>Image</ClassType>
+ <FileID>Interf3\Ability\auras_neutral</FileID>
+ <SpriteID>9</SpriteID>
+ <HintName>#AuraRevenge.NAME</HintName>
+ <Hint>#AuraRevenge</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <OnDieCreateWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UA_wSpider</RefName>
+ </OnDieCreateWeapon>
+ <Radius>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>10</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </Radius>
+ <FriendlyTarget>true</FriendlyTarget>
+ <TargetMaxAmount>1</TargetMaxAmount>
+</NewAbility>

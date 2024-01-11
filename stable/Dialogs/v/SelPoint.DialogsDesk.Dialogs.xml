@@ -1,0 +1,13 @@
+<DialogsDesk>
+ <Border>EmptyBorder</Border>
+ <Name>Unit panel</Name>
+ <MouseSound>NullSound2</MouseSound>
+ <ClickSound>NullSound2</ClickSound>
+ <VerticalCenterAlign>AbsoluteBottomAlign</VerticalCenterAlign>
+ <VCenterAlignParam>268.000000</VCenterAlignParam>
+ <VerticalCenterAlignTo></VerticalCenterAlignTo>
+ <Width>1180</Width>
+ <Height>999</Height>
+ <Color>00000000</Color>
+ <Source>Dialogs\v\SelPoint.DialogsDesk.Dialogs.xml</Source>
+</DialogsDesk>

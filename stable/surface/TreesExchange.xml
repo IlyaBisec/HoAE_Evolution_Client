@@ -1,0 +1,20 @@
+<TreesExchangeInfo>
+ <WeaponsToChangeTrees>
+  <OneWeaponToChangeTree>
+   <LandType>Druids</LandType>
+   <WeaponToChangeTree>DruidTrees</WeaponToChangeTree>
+  </OneWeaponToChangeTree>
+  <OneWeaponToChangeTree>
+   <LandType>Necro</LandType>
+   <WeaponToChangeTree>UndeadTrees</WeaponToChangeTree>
+  </OneWeaponToChangeTree>
+  <OneWeaponToChangeTree>
+   <LandType>Mechanics</LandType>
+   <WeaponToChangeTree>MechanicTrees</WeaponToChangeTree>
+  </OneWeaponToChangeTree>
+  <OneWeaponToChangeTree>
+   <LandType>Ice</LandType>
+   <WeaponToChangeTree>IceTrees</WeaponToChangeTree>
+  </OneWeaponToChangeTree>
+ </WeaponsToChangeTrees>
+</TreesExchangeInfo>

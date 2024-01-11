@@ -1,0 +1,173 @@
+
+--[[ USE FOR STORE LINC AND SET FUNCTIONS ]]--
+
+lua_module("Missions\\LUA_FUCTIONS\\FUNCTION\\HELPER_FN.script");
+
+--[[ ********************** ]]--
+--[[ 		  LINC 			]]--
+--[[ ********************** ]]--
+
+function 	LINC_NODE_TO_GROUP( paramData )
+
+	if ( paramData==nil ) then return 0 end;
+
+	_gGroup = GROUP(paramData:GET("gGroup"));
+	_nNode	= NODE(paramData:GET("nNode"));
+		
+	if ( _gGroup==nil or _nNode==nil ) then	return 0 end;
+		
+	_nNode.x = _gGroup.Xc;
+	_nNode.y = _gGroup.Yc;
+		
+	return 1;
+	
+end;
+
+--[[ ********************** ]]--
+--[[ 		  SET 			]]--
+--[[ ********************** ]]--
+
+--[[	NODE	]]--
+function	SET_NODE_X( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_nNode 	= NODE(paramData:GET("nNode"));
+	_iX 	= INT(paramData:GET("iX"));
+	if ( _nNode==nil or _iX==nil ) then return 0 end;
+	_nNode.x = _iX.Value;
+	return 1;
+end;
+
+function	SET_NODE_Y( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_nNode 	= NODE(paramData:GET("nNode"));
+	_iY 	= INT(paramData:GET("iY"));
+	if ( _nNode==nil or _iY==nil ) then return 0 end;
+	_nNode.y = _iY.Value;
+	return 1;
+end;
+
+function	SET_NODE_R( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_nNode 	= NODE(paramData:GET("nNode"));
+	_iR 	= INT(paramData:GET("iR"));
+	if ( _nNode==nil or _iR==nil ) then return 0 end;
+	_nNode.R = _iR.Value;
+	return 1;
+end;
+
+function	SET_NODE( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_nNode 	= NODE(paramData:GET("nNode"));
+	_iX 	= INT(paramData:GET("iX"));
+	_iY 	= INT(paramData:GET("iY"));
+	_iR 	= INT(paramData:GET("iR"));
+	if ( _nNode==nil ) then return 0 end;
+	if ( _iX~=nil )	then _nNode.x=_iX.Value end;
+	if ( _iY~=nil )	then _nNode.y=_iY.Value end;
+	if ( _iR~=nil )	then _nNode.R=_iR.Value end;
+	return 1;
+end;
+
+function	SET_NMASK( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGroup = GROUP(paramData:GET("gGroup"));
+	_iNMASK = INT(paramData:GET("iNMASK"));
+	if ( _gGroup~=nil and _iNMASK~=nil ) then
+		_gGroup.NMASK = _iNMASK.Value;
+		return 1;
+	end;
+	return 0;
+end;
+
+function	SET_NMASK_ARRAY( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_arrGroups = ARRAY(paramData:GET("arrGroups"));
+	_iNMASK = INT(paramData:GET("iNMASK"));
+	if ( _arrGroups~=nil and _arrGroups:SIZE()>0 and _iNMASK~=nil ) then
+		for i = 1,_arrGroups:SIZE(),1 do
+			_gGroup = GROUP(_arrGroups:GET(i));
+			if ( _gGroup~=nil ) then
+				_gGroup.NMASK = _iNMASK.Value;
+			end;
+		end;
+		return 1;
+	end;
+	return 0;
+end;
+
+function	SET_StendGround( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGroup = GROUP(paramData:GET("gGroup"));
+	_bState = BOOL(paramData:GET("bState"));
+	if ( _gGroup~=nil and _bState~=nil ) then
+		_gGroup:SetStandGround(_bState.Value);
+		return 1;
+	end;
+	return 0;
+end;
+
+function	SET_GROUP_EXPA( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGroup = GROUP(paramData:GET("gGroup"));
+	_iExpa  = INT(paramData:GET("iExpa"));
+	if ( _gGroup~=nil and _iExpa~=nil ) then
+		_gGroup:GiveExperience( _iExpa.Value );
+		return 1;
+	end;
+	return 0;
+end;
+
+function	SET_ALERT( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_nNode 	= NODE(paramData:GET("Node"));
+	_iNat 	= INT(paramData:GET("Nation"));
+	if ( _nNode~=nil and _iNat~=nil ) then
+		ActivateAlert(_nNode.x,_nNode.y,60*256,_iNat.Value);
+		return 1;
+	end;
+	return 0;
+end;
+
+function	SET_DisableCapturability( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_gGroup	= GROUP(paramData:GET("Group"));
+	if ( _gGroup~=nil ) then 
+		OPER.DisableCapturability( _gGroup );
+		return 1;
+	end;
+	return 0;
+end;
+
+function	SET_InsideDialogState( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_bState	= BOOL(paramData:GET("State"));
+	if ( _bState~=nil ) then 
+		SetInsideDialogState( _bState.Value );
+		return 1;
+	end;
+	return 0;
+end;
+
+function	SET_HeroColectExpaStatus( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_bState	 = BOOL(paramData:GET("State"));
+	_gGroup = GROUP(paramData:GET("gHero"))
+	if ( _bState~=nil and _gGroup~=nil and _gGroup.N==1 ) then 
+		_uHero = UNIT();
+		_uHero.ID = _gGroup:GetGID(0);
+		if ( _uHero.HERO==true ) then
+			_uHero.COLECT_EXPA = _bState.Value;
+			return 1;
+		end;
+	end;
+	return 0;
+end;
+
+
+
+
+
+
+
+
+

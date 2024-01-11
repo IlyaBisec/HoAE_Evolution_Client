@@ -1,0 +1,36 @@
+<WeaponModificator>
+ <Name>MC_wIllusion</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <Trigger></Trigger>
+   </Event>
+   <WeaponModificators>
+    <BirthNewUnit>
+     <UT>
+      <UnitType>DruUCen(DR)</UnitType>
+     </UT>
+     <UnitLife>
+      <Value>
+       <Op>
+        <NumericalConst>
+         <Value>
+          <Value>100</Value>
+         </Value>
+        </NumericalConst>
+       </Op>
+      </Value>
+     </UnitLife>
+     <AdditionalAbilites>
+      <ClassRef.UnitAbility>
+       <ClassName>NewAbility</ClassName>
+       <RefName>MC_aIllusion_Summon</RefName>
+      </ClassRef.UnitAbility>
+     </AdditionalAbilites>
+     <Illusion>true</Illusion>
+    </BirthNewUnit>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

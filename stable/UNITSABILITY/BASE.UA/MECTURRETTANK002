@@ -1,0 +1,33 @@
+<ExtraShootingElement>
+ <Name>MecTurretTank002</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>3d_tank</RefName>
+ </Weapon>
+ <WholeObjectModel>Models\Units\MecUTa2\MecUTa2M.C2M</WholeObjectModel>
+ <ShootAnimation>Models\Units\MecUTa2\MecUTa2A_T2_A.c2m</ShootAnimation>
+ <WholeShootTime>200</WholeShootTime>
+ <TimeOfShooting>50</TimeOfShooting>
+ <TotalRechargeTime>333</TotalRechargeTime>
+ <RotateAnimation>Models\Units\MecUTa2\MecUTa2A_T2_R.c2m</RotateAnimation>
+ <CentralShootAngle>188</CentralShootAngle>
+ <ShootAngleDifference>60</ShootAngleDifference>
+ <RotationSpeed>188</RotationSpeed>
+ <TowerCenterX>49</TowerCenterX>
+ <TowerCenterY>-72</TowerCenterY>
+ <TowerCenterZ>35</TowerCenterZ>
+ <CannonRadius>26</CannonRadius>
+</ExtraShootingElement>

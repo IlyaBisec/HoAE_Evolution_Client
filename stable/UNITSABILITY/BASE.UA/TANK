@@ -1,0 +1,15 @@
+<NewAbility>
+ <Name>tank</Name>
+ <Type>Ability</Type>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+</NewAbility>

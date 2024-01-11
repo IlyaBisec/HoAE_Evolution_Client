@@ -1,0 +1,6 @@
+<ua_SingleUnitAI>
+ <Name>SUAI_banshee</Name>
+ <Abilities>
+  <suAI_Ability></suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

@@ -1,0 +1,52 @@
+<NewAbility>
+ <Name>UA_aTower_Damage</Name>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>49</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>49</EffectSpriteID>
+ <Hint>+50 damage</Hint>
+ <Button>true</Button>
+ <UnlimitedAmount>false</UnlimitedAmount>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Permanent>true</Permanent>
+ <Modificators>
+  <mod_Damage>
+   <Operand>
+    <Operand>
+     <Value>
+      <Op>
+       <NumericalConst>
+        <Value>
+         <Value>50</Value>
+        </Value>
+       </NumericalConst>
+      </Op>
+     </Value>
+    </Operand>
+   </Operand>
+  </mod_Damage>
+ </Modificators>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <Place>Target units</Place>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Drg_Ice\iceDrgons_Vzriv.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+ <eWeapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_wTower_Damage</RefName>
+ </eWeapon>
+</NewAbility>

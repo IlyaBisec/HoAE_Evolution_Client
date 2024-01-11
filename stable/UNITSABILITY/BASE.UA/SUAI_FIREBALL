@@ -1,0 +1,21 @@
+<ua_SingleUnitAI>
+ <Name>suAI_Fireball</Name>
+ <CastingRadius>700</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MagicCardFireBall1</RefName>
+   </UA>
+   <MinTargetAmount>6</MinTargetAmount>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aMagmaBall0</RefName>
+   </UA>
+   <MinTargetAmount>15</MinTargetAmount>
+   <CastingDelay>10</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

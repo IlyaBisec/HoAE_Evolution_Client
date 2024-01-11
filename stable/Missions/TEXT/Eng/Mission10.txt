@@ -1,0 +1,75 @@
+#M10D02S01P01    [Lana][Glad][Missions\SOUND\MISSION10\m10_t29.ogg]Elhant, you're alive! I'd almost given up hope of seeing you again.
+#M10D02S02P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t30.ogg]The Oracle told me that the undead can be defeated only with the Crown of Elements. 
+#M10D02S02P02    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t31.ogg]I found it in the dungeons beneath World Mountain. I'm making my way to Draenlor. What are you doing here?
+#M10D02S03P01    [Lana][Sad][Missions\SOUND\MISSION10\m10_t32.ogg]After the council, when my father expelled you, I quarreled with him and left. 
+#M10D02S03P02    [Lana][Sad][Missions\SOUND\MISSION10\m10_t33.ogg]He thinks we can beat the enemy with weapons and the druid magic, but I don't believe it.
+#M10D02S03P03    [Lana][Normal][Missions\SOUND\MISSION10\m10_t34.ogg]I... I was hoping to find you.The lands around World Mountain are swarming with the undead. 
+#M10D02S03P04    [Lana][Sad][Missions\SOUND\MISSION10\m10_t35.ogg]It seems that all of Atlans is seized by them. I'm scared.
+#M10D02S04P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t36.ogg]We have little time. I must visit the old man. He can advise what to do next.
+#M10D02S05P02    [Lana][Normal][Missions\SOUND\MISSION10\m10_t37.ogg]I know these places, and I will lead you to him. Hurry, let's go!
+
+#M10D02S06P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t38.ogg]Lana... I've always tried to turn a blind eye to women. They're trouble.
+#M10D02S07P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t39.ogg]But, she ...She is different. Lana is strong and brave. Surely she's no match to warrior-man... but She can be relied upon.
+
+
+
+#M10D04S01P01    [M10Elder][Normal][Missions\SOUND\MISSION10\m10_t15.ogg]Warrior, pray help us!
+#M10D04S02P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t16.ogg]I'm in a hurry to the river and can't linger for long.  What has happened here?
+#M10D04S03P01    [M10Elder][Normal][Missions\SOUND\MISSION10\m10_t17.ogg]Goblins and Orcs have captured our children. Please, help us rescue them.
+
+
+#M10D05S01P01    [M10Children][Normal][Missions\SOUND\MISSION10\m10_t20.ogg]Those monsters wanted to kill us! Thank you, stranger!
+
+#M10D06S01P01    [M10Children][Normal][Missions\SOUND\MISSION10\m10_t21.ogg]Thank you! Any longer and we would have been killed.
+
+#M10D07S01P01    [M10Elder][Normal][Missions\SOUND\MISSION10\m10_t22.ogg]We are grateful to you, glorious warrior! Take this as a sign of our gratitude.
+
+
+#M10D08S01P01    [M10Elf][Normal][Missions\SOUND\MISSION10\m10_t23.ogg]Ranger, can you provide us with the help?
+#M10D08S02P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t24.ogg]What has happened to you?
+#M10D08S03P01    [M10Elf][Normal][Missions\SOUND\MISSION10\m10_t25.ogg]The ursus have settled in the woods to the southeast, and they pillage the carts passing by. The people in our village will soon be starving.
+
+#M10D09S01P01    [M10Elf][Normal][Missions\SOUND\MISSION10\m10_t26.ogg]You have saved us from starvation, thank you brave warrior!
+
+
+
+
+
+
+
+
+
+#M10D10S01P01    [M10Dwarf1][Normal][Missions\SOUND\MISSION10\m10_t08.ogg]Tall warrior, help us!
+
+
+#M10D10S02P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t09.ogg]What are you doing in our woods? Your tribe lives underground!
+#M10D10S02P02    [M10Dwarf1][Normal][Missions\SOUND\MISSION10\m10_t10.ogg]The legends talk about a flying ark that brought our forefathers and the Great Octon to this island. 
+#M10D10S02P03    [M10Dwarf1][Normal][Missions\SOUND\MISSION10\m10_t11.ogg]And we have found it!.. But alas, the ark is not destined to take wing again: it is destroyed and will be impossible to repair.
+#M10D10S02P04    [Elhant][Suprised][Missions\SOUND\MISSION10\m10_t12.ogg]This giant is made of stone and wood. Is it really capable of flying like a bird?
+#M10D10S03P01    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t13.ogg]But it's too heavy! No magic can lift it up to the air!
+#M10D10S03P02    [M10Dwarf1][Normal][Missions\SOUND\MISSION10\m10_t14.ogg]It's not magic, it's mechanics that drives it. It's time for us to go back to the caves, Ranger, before our village is attacked by enemies once more.
+
+
+
+
+
+
+#M10D01S01P01    [Elhant][Angry][Missions\SOUND\MISSION10\m10_t01.ogg]What a beast! I see why the Lord of Ashes could not claim of the Crown! 
+#M10D01S01P02    [Elhant][Normal][Missions\SOUND\MISSION10\m10_t02.ogg]It's no wonder his undead servants are no match for this demon. I can hardly deal with it either.
+#M10D01S01P03    [Elhant][][Missions\SOUND\MISSION10\m10_t03.ogg]Well, it seems that even the strongest of warriors must draw back sometimes...
+
+#M10D01S02P01    [Elhant][][Missions\SOUND\MISSION10\m10_t04.ogg]Draelnor is the only one who thinks that the undead cannot be fought with common weapons. 
+#M10D01S02P02    [Elhant][][Missions\SOUND\MISSION10\m10_t05.ogg]Now when I have the Crown of Elements, I must find the old man.
+#M10D01S02P03    [Elhant][][Missions\SOUND\MISSION10\m10_t06.ogg]The commander is undoubtedly a good warrior but he's not that bright.
+#M10D01S02P04    [Elhant][][Missions\SOUND\MISSION10\m10_t07.ogg]We'll decide with the druid what to do next.
+
+#M10D01S03P01    [Elhant][][Missions\SOUND\MISSION10\m10_t18.ogg]What a might! This giant throws stone so hard it smashes against the ground! 
+#M10D01S03P02    [Elhant][][Missions\SOUND\MISSION10\m10_t19.ogg]I'm safe here, but the others may be hurt by the splinters...
+
+
+
+
+#M10D01S04P01    [Elhant][][Missions\SOUND\MISSION10\m10_t27.ogg]So, the evil beasts are fighting each other. I thought they had united their forces... it's good that I was wrong.  
+#M10D01S04P02    [Elhant][][Missions\SOUND\MISSION10\m10_t28.ogg]Let them go on annihilating each other.
+
+ 

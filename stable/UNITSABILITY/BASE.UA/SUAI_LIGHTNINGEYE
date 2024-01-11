@@ -1,0 +1,14 @@
+<ua_SingleUnitAI>
+ <Name>suAI_LightningEye</Name>
+ <CastingRadius>400</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aLightningEye</RefName>
+   </UA>
+   <MinTargetAmount>30</MinTargetAmount>
+   <CastingDelay>10000</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

@@ -1,0 +1,22 @@
+<ua_SingleUnitAI>
+ <Name>suAI_DlyOFri_400</Name>
+ <CastingRadius>100</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aGolem</RefName>
+   </UA>
+   <MinTargetAmount>4</MinTargetAmount>
+   <CastingDelay>1</CastingDelay>
+  </suAI_Ability>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aCurse</RefName>
+   </UA>
+   <MinTargetAmount>1</MinTargetAmount>
+   <CastingDelay>1</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

@@ -1,0 +1,30 @@
+<NewBonus>
+ <Charge>1</Charge>
+ <Money>
+  <MoneyAward>
+   <Resource>Money</Resource>
+   <Value>100</Value>
+   <ValueRandom>100</ValueRandom>
+  </MoneyAward>
+ </Money>
+ <Money2>
+  <Resource>Money</Resource>
+  <Value>100</Value>
+  <ValueRandom>100</ValueRandom>
+ </Money2>
+ <Name>Money200</Name>
+ <SoundExecute>i_reward_gold</SoundExecute>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <FirstDirectSoundID>NONE</FirstDirectSoundID>
+</NewBonus>

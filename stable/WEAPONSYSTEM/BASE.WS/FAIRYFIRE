@@ -1,0 +1,34 @@
+<WeaponModificator>
+ <Name>FairyFire</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <BalisticMotion>
+     <ConstSpeed>1200</ConstSpeed>
+     <g>65</g>
+    </BalisticMotion>
+    <DrawOne>
+     <Anim>
+      <Scale>0.400000</Scale>
+      <ModelID>Models\Effects\MagicCard\LightningEye\LightningEye_mUnit.C2M</ModelID>
+     </Anim>
+    </DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <Event>
+    <TargetReached></TargetReached>
+   </Event>
+   <WeaponModificators>
+    <MakeDamage>
+     <InRadius>100</InRadius>
+     <MaxUnits>100</MaxUnits>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

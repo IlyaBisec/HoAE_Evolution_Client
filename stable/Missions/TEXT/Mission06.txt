@@ -1,0 +1,132 @@
+
+
+#M06D02S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t02.ogg]Старейшина! Для военного лагеря нам необходима древесина.
+#M06D02S02P01    [M6Elder1][Normal][Missions\SOUND\MISSION06\m06_t03.ogg]Но мы уже несколько дней не рубим лес. Там поселились гарпии!	
+#M06D02S03P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t04.ogg]И вы не можете справиться с ними?
+#M06D02S04P01    [M6Elder1][Normal][Missions\SOUND\MISSION06\m06_t05.ogg]Мы простые лесорубы, а не воины...
+#M06D02S05P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t06.ogg]Что ж, я помогу вам.
+#M06D02S05P02    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t07.ogg]Но после этого доставьте в лагерь столько древесины, сколько нам потребуется!
+#M06D02S06P01    [M6Elder1][Normal][Missions\SOUND\MISSION06\m06_t08.ogg]Хорошо, следопыт.
+
+
+#M06D16S03P01    [M6Fairy][][Missions\SOUND\MISSION06\m06_t09.ogg]Лес захватили гарпии! Помоги нам!	
+#M06D22S01P01    [M6Fairy][][Missions\SOUND\MISSION06\m06_t12.ogg]Спасибо тебе, следопыт! Гарпии мертвы и лес вновь свободен!
+
+#M06D03S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t13.ogg]Гарпии мертвы! Отправляйте обоз.
+
+#M06D03S02P01    [M6Elder1][Normal][Missions\SOUND\MISSION06\m06_t14.ogg]Мы как раз снаряжаем его. Помни, что путь небезопасен - понадобится охрана.
+#M06D24S01P01    [Warlord][][Missions\SOUND\MISSION06\m06_t15.ogg]Один из обозов не дошёл до нас! Нужно усилить охрану.
+
+
+
+#M06D04S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t16.ogg]Ты старейшина этого селения? Нашим воинам нужна еда.
+#M06D04S02P01    [M6Elder2][Normal][Missions\SOUND\MISSION06\m06_t17.ogg]Мы ничем не можем помочь вам! Наши сады захватили циклопы.
+#M06D04S03P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t18.ogg]Если я справлюсь с циклопами, вы отправите нам обоз?
+#M06D04S04P01    [M6Elder2][Normal][Missions\SOUND\MISSION06\m06_t19.ogg]Конечно.
+
+#M06D23S01P01    [Elhant][Suprised][Missions\SOUND\MISSION06\m06_t20.ogg]Это было не так уж трудно.
+
+#M06D05S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t21.ogg]Все циклопы мертвы! Пора отправлять обоз.
+#M06D05S02P01    [M6Elder2][Normal][Missions\SOUND\MISSION06\m06_t22.ogg]Мы готовы! Но не забудь, его необходимо охранять.
+
+
+
+
+#M06D06S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t23.ogg]Почтенный! Нам нужны кристаллы, которые вы добываете.
+#M06D06S02P01    [M6Elder3][Normal][Missions\SOUND\MISSION06\m06_t24.ogg]Ха! Они и нам самим нужны! Да вот загвоздка: рядом с шахтами недавно поселились камнееды. 
+#M06D06S02P02    [M6Elder3][Normal][Missions\SOUND\MISSION06\m06_t25.ogg]Они пожирают кристаллы, так что скоро магических камней совсем не останется!
+#M06D06S03P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t26.ogg]Я покончу с камнеедами, а вы за это доставите в лагерь воеводы Монфора столько магических камней, сколько потребуется.
+#M06D06S04P01    [M6Elder3][Normal][Missions\SOUND\MISSION06\m06_t27.ogg]Ну, мы могли бы снабдить вас кристаллами... только если ты освободишь шахты от всех тварей до единой!
+
+#M06D21S01P01    [Elhant][Suprised][Missions\SOUND\MISSION06\m06_t28.ogg]Воистину богат Атланс разными тварями. Находятся даже такие, которым по вкусу камни и кристаллы!
+#M06D21S01P02    [Elhant][][Missions\SOUND\MISSION06\m06_t29.ogg]Да и магия на них не очень-то действует...
+
+#M06D21S01P03    [M6Soldier][][Missions\SOUND\MISSION06\m06_t30.ogg]Шахты свободны, пора возвращаться в селение.
+
+
+
+#M06D07S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t31.ogg]Все камнееды мертвы! Отправляйте обоз.
+#M06D07S02P01    [M6Elder3][Normal][Missions\SOUND\MISSION06\m06_t32.ogg]Сейчас я прикажу загрузить телеги кристаллами. Только не забудь: и поклажу, и телеги в дороге нужно хорошо охранять!
+
+
+
+
+
+#M06D08S01P01    [M6Elder4][Normal][Missions\SOUND\MISSION06\m06_t33.ogg]Следопыт! Прошу, спаси нас!
+#M06D08S02P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t34.ogg]Что случилось?
+#M06D08S02P02    [M6Elder4][Normal][Missions\SOUND\MISSION06\m06_t35.ogg]В деревню вот-вот ворвутся трупоеды! Они всех нас перебьют!
+#M06D08S03P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t36.ogg]Я понял тебя, но и мне кое-что нужно от вас.
+#M06D08S04P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t37.ogg]Обещай, что как только я уничтожу тварей, вы отправите обоз с железом в лагерь воеводы Монфора!
+#M06D08S05P01    [M6Elder4][Normal][Missions\SOUND\MISSION06\m06_t38.ogg]Конечно, конечно! Мы отправим столько железа, сколько потребуется, не сомневайся!
+#M06D08S06P01    [M5Fairy][Normal][Missions\SOUND\MISSION06\m06_t39.ogg]Храбрый эльф, мы готовы помочь тебе!
+
+#M06D14S02P01    [Elhant][][Missions\SOUND\MISSION06\m06_t40.ogg]Все твари мертвы. Можно возвращаться.
+
+#M06D09S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t41.ogg]Трупоеды больше не побеспокоят вас.
+#M06D09S02P01    [M6Elder4][Normal][Missions\SOUND\MISSION06\m06_t42.ogg]Спасибо, храбрец! Обоз уже готов к отправке. Охраняй его в дороге.
+
+#M06D15S01P01    [Elder2][][Missions\SOUND\MISSION06\m06_t43.ogg]Будь осторожен, в лесах полно урсов. 
+#M06D15S03P01    [Elder2][][Missions\SOUND\MISSION06\m06_t44.ogg]Они стерегут сокровища, спрятанные в тайниках.
+#M06D15S04P01    [Elhant][][Missions\SOUND\MISSION06\m06_t45.ogg]Благодарю за сведения, старик.
+
+
+
+
+
+
+#M06D10S01P01    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t46.ogg]Воин! На наш обоз напали огненные гончие. Помоги нам, молю тебя!
+#M06D10S02P01    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t47.ogg]Что за огненные гончие? Никогда не слышал о таких.
+#M06D10S03P01    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t48.ogg]Демоны, повелители огненных тварей, издавна обитают в земных глубинах. 
+#M06D10S04P01    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t49.ogg]Они напали на нежить и стали теснить её; из-за этого легионы мертвецов и вышли на поверхность. 
+#M06D10S04P02    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t50.ogg]Демоны редко бывают здесь - они не любят солнечный свет, - но один из их разведчиков напал на нас.
+#M06D10S04P03    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t51.ogg]Я не знал, что демоны стали причиной войны между нежитью и лесным народом! Что ж, посмотрю, что там произошло...
+
+
+#M06D11S01P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t52.ogg]Огненные твари мертвы.
+#M06D11S02P01    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t53.ogg]Благодарю тебя, воин! В награду за помощь я обучу тебя могучему заклинанию.
+#M06D11S02P02    [M6MageShopkeeper][Normal][Missions\SOUND\MISSION06\m06_t54.ogg]Может какой-то из товаров моей лавки пригодится тебе?
+
+
+
+#M06D12S01P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t57.ogg]Воин, помоги!
+#M06D12S02P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t58.ogg]Кто ты? Я никогда не видел подобных тебе!
+#M06D12S03P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t59.ogg]Меня зовут Зарга... моё племя обитает в пещерах под Горой Мира.
+#M06D12S03P02	 [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t60.ogg]Мы отправились в экспедицию. Но орки напали на нас. Убили всех... Я ранен и тоже долго не протяну.
+#M06D12S03P03    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t61.ogg]Орки угнали наши машины. Останови тварей, пока они не наделали бед!..
+#M06D12S03P04    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t62.ogg]Машины... Что означает это слово?
+#M06D12S04P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t63.ogg]Я не знаю, как объяснить тебе, лесовик.
+#M06D12S05P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t64.ogg]Это... это такие железные демоны, которые могут выполнить любой приказ своего хозяина.
+#M06D12S06P01    [M6Dwarf][Normal][Missions\SOUND\MISSION06\m06_t65.ogg]Орки пошли на север, догони их... и уничтожь, прошу!.. 
+
+
+#M06D12S07P01    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t68.ogg]Как странно выглядят эти демоны... Никогда не видел ничего подобного.
+
+
+#M06D12S08P01    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t66.ogg]Удивительно. Карлики, обитающие под Горой Мира и повелевающие железными демонами...
+#M06D12S08P02    [Elhant][Normal][Missions\SOUND\MISSION06\m06_t67.ogg]Ну, хорошо. Вначале нужно догнать орков!
+
+
+
+
+#M06D19S01P01    [M6Ent][][Missions\SOUND\MISSION06\m06_t70.ogg]Следопыт, леса полны мертвецов. Они убивают моих братьев.
+#M06D19S02P01    [Elhant][][Missions\SOUND\MISSION06\m06_t71.ogg]Да, вашему племени тоже приходится несладко. Уходите из этих мест.
+#M06D19S03P01    [M6Ent][][Missions\SOUND\MISSION06\m06_t72.ogg]Боюсь, мне придётся последовать твоему совету.
+
+
+#M06D18S02P01    [M6Elf1][][Missions\SOUND\MISSION06\m06_t73.ogg]Кладбище, на котором покоятся наши предки, захвачено нежитью! 
+#M06D18S02P02    [M6Elf1][][Missions\SOUND\MISSION06\m06_t74.ogg]Освободи его от скверны, следопыт!
+
+#M06D17S01P01    [M6Elf2][][Missions\SOUND\MISSION06\m06_t75.ogg]Ты спас нас от участи, что хуже смерти!
+#M06D17S02P01    [Elhant][][Missions\SOUND\MISSION06\m06_t76.ogg]Идите на юго-восток: там наш лагерь.
+
+
+#M06D25S01P01    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t10.ogg]С гарпиями я уже встречался на юге. Мерзкие твари. 
+#M06D25S01P02    [Elhant][Angry][Missions\SOUND\MISSION06\m06_t11.ogg]Их яд способен даже нарушать действие заклинаний... но хуже всего другое - как же от них воняет!
+
+#M06D25S02P01    [Elhant][Suprised][Missions\SOUND\MISSION06\m06_t55.ogg]Что за странные карлики? Издалека я принял их за детей... но ведь у них бороды!
+#M06D25S02P02    [Elhant][][Missions\SOUND\MISSION06\m06_t56.ogg]Да, в нашем мире есть ещё многое, что пока неведомо мне...
+
+#M06D25S03P01    [Elhant][][Missions\SOUND\MISSION06\m06_t68.ogg]Как странно выглядят эти демоны... Никогда не видел ничего подобного.
+
+#M06D25S03P02    [Elhant][][Missions\SOUND\MISSION06\m06_t69.ogg]Орки! Но что за странные звери с ними? Железные звери... Да, с такими союзниками орки могут натворить много бед!
+#M06D25S04P01    [Elhant][][Missions\SOUND\MISSION06\m06_t01.ogg]Надо доставить в лагерь дерево, еду, железо и кристаллы!

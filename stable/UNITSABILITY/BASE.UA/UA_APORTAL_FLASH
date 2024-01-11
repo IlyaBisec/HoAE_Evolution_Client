@@ -1,0 +1,35 @@
+<NewAbility>
+ <Name>UA_aPortal_Flash</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>60000000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <ResetPeriod>6000000</ResetPeriod>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Astral\astral_Fin.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\Astral\astral_Fin.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

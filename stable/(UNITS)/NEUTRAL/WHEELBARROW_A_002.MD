@@ -1,0 +1,48 @@
+NAME Wheelbarrow_A_002
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+LOCATION -0 -0 800 800
+!STANDLO      1 0.5 Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m
+!BUILDLO_0    1 0.5 Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m
+!BUILDLO_1    1 0.5 Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m
+!BUILDLO_2    1 0.5 Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m
+!BUILDLO_3    1 0.5 Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m Models\Bld_Temp\Wheelbarrow_A_002.max\Wheelbarrow_A_002_256x256.c2m
+MOVEXY #STANDLO   -15 30
+MOVEXY #BUILDLO_0 -15 30
+MOVEXY #BUILDLO_1 -15 30
+MOVEXY #BUILDLO_2 -15 30
+MOVEXY #BUILDLO_3 -15 30
+ADDHDIR #STANDLO 0 160
+ADDHDIR #BUILDLO_0 0 160
+ADDHDIR #BUILDLO_1 0 160
+ADDHDIR #BUILDLO_2 0 160
+ADDHDIR #BUILDLO_3 0 160
+BORNPOINTS3 2 0 0 0 100 80 0
+GEOMETRY 1 199 32
+LIFE     3000
+PRICE 1 STONE 1
+BUILDSTAGES 300
+PROTECTION 3 piercing 15 magical 15 chopping 15
+RECTANGLE    0 60 30 20
+MATHERIAL 1 BUILDING
+EXPLMEDIA BUILDING 5
+3DBARS 1 -28 8 20 30 25
+INFO 3 8
+COSTPERCENT 300
+VISION 0
+MFARM 200
+ADDSHOTRADIUS 66
+ROUNDLOCK 2
+NOALTINFO
+INVISIBLEONMINIMAP
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+PortretDisable True
+
+INVISIBLEONMINIMAP
+IMMORTAL
+BUILDBAR -2 0 2 0
+ShadowScaleX 2.3
+ShadowScaleY 1.0
+CYLINDER 16 30
+[END]

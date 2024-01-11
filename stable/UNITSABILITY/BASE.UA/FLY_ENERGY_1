@@ -1,0 +1,31 @@
+<NewAbility>
+ <Name>Fly_energy_1</Name>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1200</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <EndEffectIfEnemyNearRadius>0</EndEffectIfEnemyNearRadius>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <Duration>1200</Duration>
+   <Place>Target units</Place>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Fly_Energy_1\Fly_Energy_1.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

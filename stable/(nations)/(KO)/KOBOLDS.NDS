@@ -1,0 +1,12 @@
+[MEMBERS]
+KobUSha(KO)  KobUSha
+KobUWar(KO)  KobUWar
+[ENABLED]
+KobUSha(KO)
+KobUWar(KO)
+[COUNTRY]
+KOBOLDS 3
+#units
+KobUSha(KO)
+KobUWar(KO)
+[END]

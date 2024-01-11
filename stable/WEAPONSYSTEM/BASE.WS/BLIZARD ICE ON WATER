@@ -1,0 +1,39 @@
+<WeaponModificator>
+ <Name>Blizard ice on water</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <DrawOne>
+     <Anim>
+      <Scale>1.400000</Scale>
+     </Anim>
+    </DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <Event>
+    <AND_several_events>
+     <AND_events>
+      <Trigger></Trigger>
+     </AND_events>
+    </AND_several_events>
+   </Event>
+   <WeaponModificators>
+    <pm_OnWaterClearLockPoints>
+     <Radius>400</Radius>
+    </pm_OnWaterClearLockPoints>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <WeaponModificators>
+    <pm_OnWaterRestoreLockPoints>
+     <Radius>400</Radius>
+    </pm_OnWaterRestoreLockPoints>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

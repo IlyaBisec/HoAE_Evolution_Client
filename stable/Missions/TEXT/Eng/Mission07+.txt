@@ -1,0 +1,35 @@
+#M7+D01S01    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t01.ogg]What happened? Where is everyone? If the druid didn't fix the portals in the right way, we could all have been thrown to different places.
+#M7+D01S02    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t02.ogg]I see the top of World Mountain to the north. We have to go there.
+#M7+D02S01    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t03.ogg]Look, it's Elhant! He survived too!
+#M7+D02S02    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t04.ogg]We're with you, ranger!
+#M7+D02S03    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t05.ogg]Elhant! We're glad to see you!
+#M7+D02S04    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t06.ogg]It's the ranger!
+#M7+D02S05    [M7plusCentaur][Normal][Missions\SOUND\MISSION07p\m07p_t07.ogg]This is the elf who commanded the defences.
+#M7+D02S06    [M7plusCentaur][Normal][Missions\SOUND\MISSION07p\m07p_t08.ogg]Ranger, we're retreating to the city in the mountains. Do you know how we can get there?
+#M7+D02S07    [M7plusDruid][Normal][Missions\SOUND\MISSION07p\m07p_t09.ogg]It's Elhant! I'm not used to obeying warriors like him, but it is in our best interests to be under his command.
+#M7+D02S08    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t10.ogg]Where should we go now, Elhant?
+#M7+D02S09    [M7plusSoldier][Normal][Missions\SOUND\MISSION07p\m07p_t11.ogg]Ranger is alive!
+#M7+D02S10    [M7plusDryad][Normal][Missions\SOUND\MISSION07p\m07p_t12.ogg]Elhant, it's you!.. The forests are in danger, we should unite our forces!
+#M7+D03S01    [Draelnor][Suprised][Missions\SOUND\MISSION07p\m07p_t13.ogg]Praise the Forest, you are alive! We with Monfor and small troop had been thrown closer to World Mountain.
+#M7+D03S02    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t14.ogg]There were undead there, but the warriors broke through to the city of Ringing Water.
+#M7+D03S03    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t15.ogg]Where is Lana?
+#M7+D03S04    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t16.ogg]The Chief's daughter has gone with them.
+#M7+D03S05    [Elhant][Angry][Missions\SOUND\MISSION07p\m07p_t17.ogg]I've seen how necromancers raise the fallen warriors and turn them into the undead.
+#M7+D03S06    [Elhant][Angry][Missions\SOUND\MISSION07p\m07p_t18.ogg]Does it means that all battles are senseless? As each killed soldier only increases the power of the enemy...
+#M7+D03S07    [Draelnor][Suprised][Missions\SOUND\MISSION07p\m07p_t19.ogg]Oh, Mighty Forest! At last someone besides me understands this.
+#M7+D03S08    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t20.ogg]I tried to prove the pointlessness of battles, but no one would listen to me...
+#M7+D03S09    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t21.ogg]We quarrelled with Monfor, and I'm returning to my lands.
+#M7+D03S10    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t22.ogg]No, wait Druid! I see that Monfor is wrong, and you are right. We have to seek another way!
+#M7+D03S11    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t23.ogg]What should we do?
+#M7+D03S12    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t24.ogg]Try to ask for advice from the Oracle in the Ravine of Winds. The Oracle doesn't speak to everyone. Only a select few.
+#M7+D03S13    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t25.ogg]Even if he does respond to you, he can only be asked three questions and no more.
+#M7+D03S14    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t26.ogg]Good, I need to lead the soldiers to the city of the Ringing Water. From there I'll go on to the Oracle forthwith.
+#M7+D03S15    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t27.ogg]There is a large detachment of undead between this forest and the city.
+#M7+D03S16    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t28.ogg]I bypassed it, using the spell of invisibility, but it will be hard for you to pass through.
+#M7+D03S17    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t29.ogg]Leave the undead to me. Tell me, where can I find you if I need you?
+#M7+D03S18    [Draelnor][Normal][Missions\SOUND\MISSION07p\m07p_t30.ogg]I live at the head of the Kora river.
+#M7+D03S19    [Elhant][Suprised][Missions\SOUND\MISSION07p\m07p_t31.ogg]Accept my gratitude, old man. I'll certainly look for you if I need your advice. Thank you.
+#M7+D04S01    [Elhant][Normal][Missions\SOUND\MISSION07p\m07p_t32.ogg]The undead troops are moving on the North. I need your help to rebuild the camp and make it through to the city.
+#M7+D04S02    [M7plusFairy][Normal][Missions\SOUND\MISSION07p\m07p_t33.ogg]We want to return to the city too. Of course we'll help you, warrior.
+#M7+D05S01    [Lana][Glad][Missions\SOUND\MISSION07p\m07p_t34.ogg]Elhant, you're alive! I didn't think I'd see you again, I'd convinced my father to send a squad out to search for you.
+#M7+D05S02    [Lana][Normal][Missions\SOUND\MISSION07p\m07p_t35.ogg]There is a council to be held in the city soon, come.

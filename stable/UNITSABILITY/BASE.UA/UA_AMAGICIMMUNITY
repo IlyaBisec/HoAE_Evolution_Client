@@ -1,0 +1,36 @@
+<NewAbility>
+ <Name>UA_aMagicImmunity</Name>
+ <ClassType>Image</ClassType>
+ <FileID>Interf3\Ability\auras_gnomy</FileID>
+ <SpriteID>1</SpriteID>
+ <HintName>#AuraMagicImmune.NAME</HintName>
+ <Hint>#AuraMagicImmune</Hint>
+ <AuraCastPeriod>1500</AuraCastPeriod>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_MagicImmunity></mod_MagicImmunity>
+ </Modificators>
+ <Radius>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>10</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </Radius>
+ <FriendlyTarget>true</FriendlyTarget>
+ <TargetMaxAmount>1</TargetMaxAmount>
+</NewAbility>

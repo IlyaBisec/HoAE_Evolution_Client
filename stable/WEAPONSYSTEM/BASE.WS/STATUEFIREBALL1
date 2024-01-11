@@ -1,0 +1,33 @@
+<WeaponModificator>
+ <Name>StatueFireball1</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <BalisticMotion>
+     <ConstSpeed>400</ConstSpeed>
+     <g>0</g>
+    </BalisticMotion>
+    <DrawOne>
+     <Anim>
+      <ModelID>Models\Effects\MagicCard\FireBall\FireBall_eBullet.c2m</ModelID>
+     </Anim>
+    </DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <Event>
+    <TargetReached></TargetReached>
+   </Event>
+   <WeaponModificators>
+    <MakeDamage>
+     <InRadius>30</InRadius>
+     <DamageBuilding>true</DamageBuilding>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

@@ -1,0 +1,1 @@
+GW|open&user_details.dcml\00&ID=%s\00

@@ -1,0 +1,32 @@
+<ExtraShootingElement>
+ <Name>TecTurret001</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <MaxDistance>1500</MaxDistance>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>Tank_shot</RefName>
+ </Weapon>
+ <WholeObjectModel>Models\Units\TecUAbr\TecUAbrM.c2m</WholeObjectModel>
+ <ShootAnimation>Models\Units\TecUAbr\TecUAbrA_shot.C2M</ShootAnimation>
+ <WholeShootTime>500</WholeShootTime>
+ <TimeOfShooting>20</TimeOfShooting>
+ <TotalRechargeTime>4500</TotalRechargeTime>
+ <RotateAnimation>Models\Units\TecUAbr\TecUAbrA_rotate.C2M</RotateAnimation>
+ <ShootAngleDifference>180</ShootAngleDifference>
+ <RotationSpeed>300</RotationSpeed>
+ <TowerCenterX>16</TowerCenterX>
+ <TowerCenterZ>80</TowerCenterZ>
+ <CannonRadius>208</CannonRadius>
+</ExtraShootingElement>

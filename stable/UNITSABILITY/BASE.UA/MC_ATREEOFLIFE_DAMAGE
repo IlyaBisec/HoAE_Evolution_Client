@@ -1,0 +1,37 @@
+<NewAbility>
+ <Name>MC_aTreeOfLife_Damage</Name>
+ <ClassType>Effect</ClassType>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Modificators>
+  <mod_Life>
+   <Operand>
+    <Operator>-</Operator>
+    <Operand>
+     <Value>
+      <Op>
+       <NumericalConst>
+        <Value>
+         <Value>80</Value>
+        </Value>
+       </NumericalConst>
+      </Op>
+     </Value>
+    </Operand>
+    <OperandType>Percent</OperandType>
+    <Percent>From Base</Percent>
+   </Operand>
+   <Period>1</Period>
+   <TakeProtection>false</TakeProtection>
+  </mod_Life>
+ </Modificators>
+</NewAbility>

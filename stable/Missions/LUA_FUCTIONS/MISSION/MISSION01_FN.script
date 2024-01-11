@@ -1,0 +1,184 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FUNCTION\\HELPER_FN.script");
+
+function	MISS01_JoinAllyNearHero(paramData)
+	
+	gHero 	= GROUP(paramData:GET("gHero"));
+	nHero		= NODE(paramData:GET("nHero"));
+	iAllyNI	= INT((paramData:GET("iAllyNI"))).Value;
+	iRND 		= INT((paramData:GET("iRandPow"))).Value;
+	gAlly		= CLASS.GROUP();
+	
+	HeroNI 	= gHero:GetNation();
+	
+	OPER.SelectUnits_lua(iAllyNI,nHero.x,nHero.y,nHero.R,false);
+	gAlly:RemAllUnits();
+	gAlly:AddSelectedUnits(iAllyNI);
+	OPER.ClearSelection_lua(iAllyNI);
+	
+	gAlly:SetRandomPower(iRND);
+	gAlly:SetNation(HeroNI);
+	gAlly:SetRandomPower(0);
+	gAlly:RemUnitsByNation(iAllyNI);
+	gAlly:ClearOrders();
+	gAlly:RemAllUnits();
+		
+	return 1;
+	
+end;
+
+function	MISS01_JoinAllyTypeNearHero(paramData)
+	
+	gHero 	= GROUP(paramData:GET("gHero"));
+	nHero	= NODE(paramData:GET("nHero"));
+	iAllyNI	= INT((paramData:GET("iAllyNI"))).Value;
+	iUT		= INT((paramData:GET("iUnitType"))).Value;
+	iRND 	= INT((paramData:GET("iRandPow"))).Value;
+	gAlly	= CLASS.GROUP();
+	
+	HeroNI 	= gHero:GetNation();
+	
+	OPER.SelectUnitsType_lua(iAllyNI,iUT,nHero.x,nHero.y,nHero.R,false);
+	gAlly:RemAllUnits();
+	gAlly:AddSelectedUnits(iAllyNI);
+	OPER.ClearSelection_lua(iAllyNI);
+	
+	gAlly:SetRandomPower(iRND);
+	gAlly:SetNation(HeroNI);
+	gAlly:SetRandomPower(0);
+	gAlly:RemUnitsByNation(iAllyNI);
+	gAlly:ClearOrders();
+	gAlly:RemAllUnits();
+		
+	return 1;
+	
+end;
+
+function 	l_SendGroupByWay(_Group,_PosArray)
+	
+	if (_Group:UnitNumTotal()==0) then return 0; end;
+	
+	X	= _Group:GetGroupX();
+	Y	= _Group:GetGroupY();
+	
+	_i	= 1;
+		
+	N			= _PosArray:SIZE();
+	_id		= -1;
+	min_dist	= -1;
+		
+	Node1 = nil;
+	
+	while ( _i <= N-1 ) do
+		Node0 	= NODE(_PosArray:GET(_i));
+		Node1 	= NODE(_PosArray:GET(_i+1));
+		if ( Node0==nil or Node1==nil ) then return 0; end;
+		
+		dir_v = vector( Node1.x-Node0.x, Node1.y-Node0.y );
+		dis_v = vector( Node0.x-X, Node0.y-Y );
+		dot = DOT(dir_v,dis_v);
+		dist = 0;
+					
+		if ( dot>=0 ) then
+			dist = NORMA( Node0.x, X, Node0.y, Y );
+			if dist<min_dist or min_dist==-1 then 
+				min_dist = dist;
+				_id = _i;
+			end;
+		end;
+		_i = _i + 1;		
+	end;
+	
+	if ( _id~=-1 ) then
+		First = 0;
+		while ( _id <= N ) do
+			Node1 = NODE(_PosArray:GET(_id));
+			if ( Node1==nil ) then return 0; end;
+			_id = _id + 1;
+			_Group:SendTo(Node1.x,Node1.y,512,First);
+			if (First==0) then First=2; end;
+		end;
+	else
+		Node1 = NODE(_PosArray:GET(N));
+		_Group:SendTo(Node1.x,Node1.y,512,0);
+	end;
+	
+	return 1;
+	
+end;
+
+function 	MISS01_SendGroupByWay(paramData)
+	_gGroup		= GROUP(paramData:GET("Group"));
+	_arrPonints	= ARRAY(paramData:GET("PosArr"));
+	
+	return	l_SendGroupByWay(_gGroup,_arrPonints);
+end;
+
+function 	MISS01_SetGroupHP(paramData)
+	
+	if (paramData==nil) then return 0; end;
+	
+	l_Group = GROUP(paramData:GET("Group"));
+	l_HP	  = INT(paramData:GET("HP"));
+	
+	if ( l_Group==nil or l_HP==nil ) then return 0; end;
+	
+	l_Group.HP = l_HP.Value;
+
+	return 1;
+	
+end;
+
+function 	MISS01_ErazeAllUnitsInZone(paramData)
+	if (paramData==nil) then return 0; end;
+	l_node = NODE(paramData:GET("Node"));
+	if ( l_node==nil )	then return 0; end;
+	l_nat = 0;
+	while ( l_nat<8 ) do
+		OPER.KillNatinInPOS_lua(l_nat,l_node.x,l_node.y,l_node.R);
+		l_nat = l_nat + 1;
+	end;
+	return 1;
+end;
+
+function	MISS01_CreateAndSendByWay(paramData)
+
+	--[[ Get and check input params 	]]--
+	l_PosArray 	= ARRAY(paramData:GET("PosArr"));
+	l_Nation		= INT(paramData:GET("Nation"));
+	l_UType		= INT(paramData:GET("UnitType"));
+	l_Form		= INT(paramData:GET("FormationType"));
+		
+	--[[ Delete units from temp group	]]--
+	gAlly = CLASS.GROUP();
+		
+	--[[ Fill group use creted units 	]]--
+	l_nNode = NODE(l_PosArray:GET(1));
+	if (l_nNode==nil) then return 0; end;
+	OPER.PutNewFormation_lua(	gAlly,		
+								l_Nation.Value,	
+								l_UType.Value,
+								l_Form.Value,
+								l_nNode.x,
+								l_nNode.y,
+								l_nNode.Dir
+							 );
+	
+	--[[ Send gruop use position ARRAY 	]]--
+	l_SendGroupByWay(gAlly,l_PosArray);
+	
+	return 1;
+
+end;
+
+
+
+
+
+
+
+
+
+
+
+

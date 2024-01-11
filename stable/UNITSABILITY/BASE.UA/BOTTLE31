@@ -1,0 +1,39 @@
+<NewItem>
+ <SelfTarget>true</SelfTarget>
+ <Name>Bottle31</Name>
+ <FileID>Interf3\Ability\bottles</FileID>
+ <SpriteID>23</SpriteID>
+ <FileID_Char>Interf3\Ability\bottles_inventory</FileID_Char>
+ <FileID_Inv>Interf3\Ability\bottles_inventory</FileID_Inv>
+ <EffectFileID>Interf3\Ability\bottles</EffectFileID>
+ <EffectSpriteID>23</EffectSpriteID>
+ <HintName>#Bottle31</HintName>
+ <Hint>#Bottle31</Hint>
+ <Type>ItemBottle</Type>
+ <GroundMD>
+  <UnitType>DropBottle(IT)</UnitType>
+ </GroundMD>
+ <ShopPrice>500</ShopPrice>
+ <Button>true</Button>
+ <Amount>1</Amount>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Permanent>true</Permanent>
+ <IgnoreMagicImmunity>true</IgnoreMagicImmunity>
+ <HeroLife>true</HeroLife>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <Duration>1000</Duration>
+   <Place>Target units</Place>
+   <AllowFormFactor>true</AllowFormFactor>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\FontainUse\HiroesFontan.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewItem>

@@ -1,0 +1,42 @@
+<NewAbility>
+ <Name>ghost_shot_visual</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1500</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <Blocking>
+  <ClassRef.UnitAbility>
+   <ClassName>NewAbility</ClassName>
+   <RefName>ghost_shot_visual</RefName>
+  </ClassRef.UnitAbility>
+ </Blocking>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <Place>Target units</Place>
+   <Effect>
+    <ModelID>Models\Effects\Weapons\Ghost_Popadenie\Ghost_Popadenie.c2m</ModelID>
+    <ReflectionID>Models\Effects\Weapons\Ghost_Popadenie\Ghost_Popadenie.c2m</ReflectionID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

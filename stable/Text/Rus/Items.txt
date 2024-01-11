@@ -1,0 +1,508 @@
+\\QUEST
+#QuestItemsBug.NAME Жук
+#QuestItemsBug Жук
+#QuestItemsOrb.NAME Око Хартуалона
+#QuestItemsOrb Око Хартуалона
+#QuestItemsFlask.NAME Фляжка с водой
+#QuestItemsFlask Фляжка с водой
+#QuestItemsVint.NAME Винт
+#QuestItemsVint Винт
+#QuestItemsKey.NAME Ключ
+#QuestItemsKey Ключ
+#QuestItemsEgg.NAME Яйцо дракона
+#QuestItemsEgg Яйцо дракона
+#Key1.NAME Ключ
+#Key1 Ключ
+#Key2.NAME Ключ
+#Key2 Ключ
+#Key3.NAME Ключ
+#Key3 Ключ
+#Pearl1.NAME Жемчужина механики
+#Pearl1 Жемчужина механики
+#Pearl2.NAME Жемчужина холода
+#Pearl2 Жемчужина холода
+#Pearl3.NAME Жемчужина солнца
+#Pearl3 Жемчужина солнца
+#Pearl4.NAME Жемчужина смерти
+#Pearl4 Жемчужина смерти
+
+\\ Головные уборы(8)
+
+#Helm1.NAME Шапка охотника
+#Helm1 Шапка охотника
+#Helm2.NAME Стальной шлем
+#Helm2 Стальной шлем
+#Helm3.NAME Орчий шлем
+#Helm3 Орчий шлем
+#Helm4.NAME Шлем Орла
+#Helm4 Шлем Орла
+#Helm5.NAME Змеиный обруч
+#Helm5 Змеиный обруч
+#Helm6.NAME Драконий шлем
+#Helm6 Драконий шлем
+#Helm7.NAME Корона печали
+#Helm7 Корона печали
+#Helm8.NAME Маска Смерти
+#Helm8 Маска Смерти
+
+\\ Броня(8)
+
+#Armor1.NAME Кожаная куртка
+#Armor1 Кожаная куртка
+#Armor2.NAME Кольчуга
+#Armor2 Кольчуга
+#Armor3.NAME Тога друида
+#Armor3 Тога друида
+#Armor4.NAME Эльфийская кольчуга
+#Armor4 Эльфийская кольчуга
+#Armor5.NAME Мантия чародея
+#Armor5 Мантия чародея
+#Armor6.NAME Полный доспех Бьорна
+#Armor6 Полный доспех Бьорна
+#Armor7.NAME Живой доспех
+#Armor7 Живой доспех
+#Armor8.NAME Кираса Полуночи
+#Armor8 Кираса Полуночи
+
+\\ Плащи(8)
+
+#Cloak1.NAME Плащ послушника
+#Cloak1 Плащ послушника
+#Cloak2.NAME Плащ следопыта
+#Cloak2 Плащ следопыта
+#Cloak3.NAME Плащ разведчика
+#Cloak3 Плащ разведчика
+#Cloak4.NAME Плащ некроманта
+#Cloak4 Плащ некроманта
+#Cloak5.NAME Накидка Защитника Жизни
+#Cloak5 Накидка Защитника Жизни
+#Cloak6.NAME Плащ великих дождей
+#Cloak6 Плащ великих дождей
+#Cloak7.NAME Древний плащ
+#Cloak7 Древний плащ
+#Cloak8.NAME Плащ невидимости
+#Cloak8 Плащ невидимости
+
+\\ Перчатки(8)
+
+#Gloves1.NAME Кожаные перчатки
+#Gloves1 Кожаные перчатки
+#Gloves2.NAME Перчатки лучника
+#Gloves2 Перчатки лучника
+#Gloves3.NAME Латные рукавицы
+#Gloves3 Латные рукавицы
+#Gloves4.NAME Перчатки силы медведя
+#Gloves4 Перчатки силы медведя
+#Gloves5.NAME Перчатки алхимика
+#Gloves5 Перчатки алхимика
+#Gloves6.NAME Рукавицы Молотобойца
+#Gloves6 Рукавицы Молотобойца
+#Gloves7.NAME Паучьи перчатки
+#Gloves7 Паучьи перчатки
+#Gloves8.NAME Огненное прикосновение
+#Gloves8 Огненное прикосновение
+
+\\ Обувь(8)
+
+#Boots1.NAME Сапоги путешественника
+#Boots1 Сапоги путешественника
+#Boots2.NAME Тяжелые сапоги
+#Boots2 Тяжелые сапоги
+#Boots3.NAME Орочьи сапоги
+#Boots3 Орочьи сапоги
+#Boots4.NAME Ботинки из шкуры гепарда
+#Boots4 Ботинки из шкуры гепарда
+#Boots5.NAME Сапоги друидов
+#Boots5 Сапоги друидов
+#Boots6.NAME Драконьи сапоги
+#Boots6 Драконьи сапоги
+#Boots7.NAME Сапоги воинов Леса
+#Boots7 Сапоги воинов Леса
+#Boots8.NAME Сандалии Ирнеате
+#Boots8 Сандалии Ирнеате
+
+\\ Пояса(8)
+
+#Belt1.NAME Кожаный пояс
+#Belt1 Кожаный пояс
+#Belt2.NAME Костяной пояс
+#Belt2 Костяной пояс
+#Belt3.NAME Пояс следопыта
+#Belt3 Пояс следопыта
+#Belt4.NAME Пояс черного легиона
+#Belt4 Пояс черного легиона
+#Belt5.NAME Пояс выносливости
+#Belt5 Пояс выносливости
+#Belt6.NAME Змеиный пояс
+#Belt6 Змеиный пояс
+#Belt7.NAME Пояс кристального озера
+#Belt7 Пояс кристального озера
+#Belt8.NAME Пояс Лорда Гигантов
+#Belt8 Пояс Лорда Гигантов
+
+\\ Медальоны(8)
+
+#Medalion1.NAME Жемчужное ожерелье
+#Medalion1 Жемчужное ожерелье
+#Medalion2.NAME Защитный амулет
+#Medalion2 Защитный амулет
+#Medalion3.NAME Медвежий зуб
+#Medalion3 Медвежий зуб
+#Medalion4.NAME Медальон лепрекона
+#Medalion4 Медальон лепрекона
+#Medalion5.NAME Кристалл знаний
+#Medalion5 Кристалл знаний
+#Medalion6.NAME Серебряная звезда
+#Medalion6 Серебряная звезда
+#Medalion7.NAME Талисман чародея
+#Medalion7 Талисман чародея
+#Medalion8.NAME Глаз дракона
+#Medalion8 Глаз дракона
+
+\\ Браслеты(16)
+
+#Bracelet1.NAME Кожаный наруч
+#Bracelet1 Кожаный наруч
+#Bracelet2.NAME Браслет шамана
+#Bracelet2 Браслет шамана
+#Bracelet3.NAME Наруч кентавра
+#Bracelet3 Наруч кентавра
+#Bracelet4.NAME Зачарованный браслет
+#Bracelet4 Зачарованный браслет
+#Bracelet5.NAME Костяной браслет
+#Bracelet5 Костяной браслет
+#Bracelet6.NAME Браслет феи
+#Bracelet6 Браслет феи
+#Bracelet7.NAME Наруч защиты
+#Bracelet7 Наруч защиты
+#Bracelet8.NAME Браслет троллиной крови
+#Bracelet8 Браслет троллиной крови
+#Bracelet9.NAME Шипастый браслет
+#Bracelet9 Шипастый браслет
+#Bracelet10.NAME Браслет чародея
+#Bracelet10 Браслет чародея
+#Bracelet11.NAME Рунный наруч
+#Bracelet11 Рунный наруч
+#Bracelet12.NAME Браслет друида
+#Bracelet12 Браслет друида
+#Bracelet13.NAME Браслет молнии
+#Bracelet13 Браслет молнии
+#Bracelet14.NAME Браслет из обсидиана
+#Bracelet14 Браслет из обсидиана
+#Bracelet15.NAME Браслет Белой башни
+#Bracelet15 Браслет Белой башни
+#Bracelet16.NAME Браслет Единорога
+#Bracelet16 Браслет Единорога
+
+\\ Кольца(32)
+
+#Ring1.NAME Обручальное кольцо
+#Ring1 Обручальное кольцо
+#Ring2.NAME Серебряное кольцо
+#Ring2 Серебряное кольцо
+#Ring3.NAME Кольцо с рубином
+#Ring3 Кольцо с рубином
+#Ring4.NAME Кольцо с сапфиром
+#Ring4 Кольцо с сапфиром
+#Ring5.NAME Кольцо с топазом
+#Ring5 Кольцо с топазом
+#Ring6.NAME Кольцо послушника
+#Ring6 Кольцо послушника
+#Ring7.NAME Перстень с черепом
+#Ring7 Перстень с черепом
+#Ring8.NAME Кольцо орков
+#Ring8 Кольцо орков
+#Ring9.NAME Кольцо мертвеца
+#Ring9 Кольцо мертвеца
+#Ring10.NAME Кольцо тролля
+#Ring10 Кольцо тролля
+#Ring11.NAME Кольцо лича
+#Ring11 Кольцо лича
+#Ring12.NAME Каменное кольцо
+#Ring12 Каменное кольцо
+#Ring13.NAME Кольцо регенерации
+#Ring13 Кольцо регенерации
+#Ring14.NAME Кольцо памяти
+#Ring14 Кольцо памяти
+#Ring15.NAME Кольцо защиты
+#Ring15 Кольцо защиты
+#Ring16.NAME Кольцо воина
+#Ring16 Кольцо воина
+#Ring17.NAME Кольцо мага
+#Ring17 Кольцо мага
+#Ring18.NAME Лазуритовое кольцо
+#Ring18 Лазуритовое кольцо
+#Ring19.NAME Кольцо берсерка
+#Ring19 Кольцо берсерка
+#Ring20.NAME Кольцо удачи
+#Ring20 Кольцо удачи
+#Ring21.NAME Костяное кольцо
+#Ring21 Костяное кольцо
+#Ring22.NAME Черное кольцо
+#Ring22 Черное кольцо
+#Ring23.NAME Кольцо силы ветра
+#Ring23 Кольцо силы ветра
+#Ring24.NAME Кольцо скитальца
+#Ring24 Кольцо скитальца
+#Ring25.NAME Кольцо мастера-лучника
+#Ring25 Кольцо мастера-лучника
+#Ring26.NAME Кольцо боевого чародея
+#Ring26 Кольцо боевого чародея
+#Ring27.NAME Кольцо магии
+#Ring27 Кольцо магии
+#Ring28.NAME Кольцо жизни
+#Ring28 Кольцо жизни
+#Ring29.NAME Кольцо силы
+#Ring29 Кольцо силы
+#Ring30.NAME Кольцо {C FFE28B00}Огненный обод 
+#Ring30 Огненный обод
+#Ring31.NAME Обсидиановое кольцо {C FF9400C7}Ловец душ
+#Ring31 {C FFFFFFFF}Враги, попавшие под влияние {C FF9400C7}Ловца душ {C FFFFFFFF},во время смерти отдают ему часть своей жизненной силы (+50 здоровья, +50 маны)
+#SoulCatcher.NAME {C FF9400C7}Ловец душ
+#SoulCatcher Враги попавшие под влияние героя, во время смерти отдают ему часть своей жизненной силы (+50 здоровья, +50 маны)
+#Ring32.NAME Кольцо {C FFEE1010}Сердце дракона
+
+\\ Луки(Следопыт)(8)
+
+#Weapon1.NAME Длинный охотничий лук
+#Weapon1 Длинный охотничий лук
+#Weapon2.NAME Эльфийский тисовый лук
+#Weapon2 Эльфийский тисовый лук
+#Weapon3.NAME Древний лук
+#Weapon3 Древний лук
+#Weapon4.NAME Китовый ус
+#Weapon4 Китовый ус
+#Weapon5.NAME Лук следопыта
+#Weapon5 Лук следопыта
+#Weapon6.NAME Лук снайпера
+#Weapon6 Лук снайпера
+#Weapon7.NAME Вестник смерти
+#Weapon7 Вестник смерти
+#Weapon8.NAME Зачарованный ветер
+#Weapon8 Зачарованный ветер
+
+\\ Клинки(для Эльханта в кампании)(8)
+
+#WeaponMelee1.NAME Эльфийский длинный меч
+#WeaponMelee1 Эльфийский длинный меч
+#WeaponMelee2.NAME Эльфийская сабля
+#WeaponMelee2 Эльфийская сабля
+#WeaponMelee3.NAME Сбалансированный меч
+#WeaponMelee3 Сбалансированный меч
+#WeaponMelee4.NAME Зачарованный клинок
+#WeaponMelee4 Зачарованный клинок
+#WeaponMelee5.NAME Меч мастера
+#WeaponMelee5 Меч мастера
+#WeaponMelee6.NAME Сабля из кости дракона
+#WeaponMelee6 Сабля из кости дракона
+#WeaponMelee7.NAME Рунный меч
+#WeaponMelee7 Рунный меч
+#WeaponMelee8.NAME Побег лианы Аклаила
+#WeaponMelee8 Побег лианы Аклаила
+
+\\ Копья(Амазонка)(8)
+
+#DruHamaWeaponMelee1.NAME Копье кентавра
+#DruHamaWeaponMelee2.NAME Копье из мертвого дерева
+#DruHamaWeaponMelee3.NAME Пехотное копье
+#DruHamaWeaponMelee4.NAME Копье древочеловека
+#DruHamaWeaponMelee5.NAME Копье амазонки
+#DruHamaWeaponMelee6.NAME Зачарованное копье
+#DruHamaWeaponMelee7.NAME Молния
+#DruHamaWeaponMelee8.NAME Перст судьбы
+
+\\ Посохи(Друид)(8)
+
+#DruStaffWeapon1.NAME Дубовый посох
+#DruStaffWeapon2.NAME Посох из ивы
+#DruStaffWeapon3.NAME Ясеневый посох
+#DruStaffWeapon4.NAME Посох древочеловека
+#DruStaffWeapon5.NAME Посох друида
+#DruStaffWeapon6.NAME Посох стихий
+#DruStaffWeapon7.NAME Посох духов
+#DruStaffWeapon8.NAME Сила Леса
+
+\\ Косы(Рыцарь Смерти)(8)
+
+#UndScytheWeapon1 Старая коса
+#UndScytheWeapon2 Серп мертвеца
+#UndScytheWeapon3 Нагината
+#UndScytheWeapon4 Черная коса
+#UndScytheWeapon5 Язык демона
+#UndScytheWeapon6 Коса безумца
+#UndScytheWeapon7 Нагината ярости
+#UndScytheWeapon8 Жнец
+
+\\ Когти(Вампир)(8)
+
+#UndClawsWeapon1.NAME Когти гуля
+#UndClawsWeapon2.NAME Когти оборотня
+#UndClawsWeapon3.NAME Медвежьи когти
+#UndClawsWeapon4.NAME Ядовитые когти
+#UndClawsWeapon5.NAME Когти мантикоры
+#UndClawsWeapon6.NAME Когти демона
+#UndClawsWeapon7.NAME Драконьи когти
+#UndClawsWeapon8.NAME Объятья Смерти
+
+\\ Жезлы(Лич)(8)
+
+#UndRodWeapon1.NAME Костяной жезл
+#UndRodWeapon2.NAME Жезл черепа
+#UndRodWeapon3.NAME Жезл некроманта
+#UndRodWeapon4.NAME Рунный жезл
+#UndRodWeapon5.NAME Обсидиановый жезл
+#UndRodWeapon6.NAME Драконий жезл
+#UndRodWeapon7.NAME Жезл гнева
+#UndRodWeapon8.NAME Мор
+
+\\ Эликсиры(одноразовые)(34)
+
+#Bottle1 Отвар маны
+#Bottle2 Отвар здоровья
+#Bottle3 Отвар восстановления
+#Bottle4 Отвар регенерации
+#Bottle5 Отвар медитации
+#Bottle6 Отвар скорости
+#Bottle7 Отвар зрения
+#Bottle8 Отвар ловкости
+#Bottle9 Бутыль с ядом
+#Bottle10 Зелье маны
+#Bottle11 Зелье здоровья
+#Bottle12 Зелье восстановления
+#Bottle13 Зелье регенерации
+#Bottle14 Зелье медитации
+#Bottle15 Зелье невидимости
+#Bottle16 Зелье камнекожи
+#Bottle17 Огонь алхимика
+#Bottle18 Эликсир маны
+#Bottle19 Эликсир здоровья
+#Bottle20 Эликсир восстановления
+#Bottle21 Эликсир регенерации
+#Bottle22 Эликсир медитации
+#Bottle23 Эликсир неуязвимости
+#Bottle24 Гремучее зелье
+#Bottle25 Зелье знаний
+#Bottle26 Зелье воина
+#Bottle27 Зелье магии
+#Bottle28 Зелье жизни
+#Bottle29 Зелье стойкости
+#Bottle30 Зелье берсерка
+#Bottle31 Эликсир бессмертия
+#Bottle32 Эликсир стремительности
+#Bottle33 Эликсир ясновидца
+#Bottle34 Эликсир ветерана
+#Bottle1.NAME Отвар маны
+#Bottle2.NAME Отвар здоровья
+#Bottle3.NAME Отвар восстановления
+#Bottle4.NAME Отвар регенерации
+#Bottle5.NAME Отвар медитации
+#Bottle6.NAME Отвар скорости
+#Bottle7.NAME Отвар зрения
+#Bottle8.NAME Целебный отвар
+#Bottle9.NAME Бутыль с ядом
+#Bottle10.NAME Зелье маны
+#Bottle11.NAME Зелье здоровья
+#Bottle12.NAME Зелье восстановления
+#Bottle13.NAME Зелье регенерации
+#Bottle14.NAME Зелье медитации
+#Bottle15.NAME Зелье невидимости
+#Bottle16.NAME Зелье камнекожи
+#Bottle17.NAME Огонь алхимика
+#Bottle18.NAME Эликсир маны
+#Bottle19.NAME Эликсир здоровья
+#Bottle20.NAME Эликсир восстановления
+#Bottle21.NAME Эликсир регенерации
+#Bottle22.NAME Эликсир медитации
+#Bottle23.NAME Эликсир неуязвимости
+#Bottle24.NAME Гремучее зелье
+#Bottle25.NAME Зелье знаний
+#Bottle26.NAME Зелье воина
+#Bottle27.NAME Зелье магии
+#Bottle28.NAME Зелье жизни
+#Bottle29.NAME Зелье стойкости
+#Bottle30.NAME Зелье берсерка
+#Bottle31.NAME Эликсир бессмертия
+#Bottle31.NAME Добавляет 1 жизнь
+#Bottle32.NAME Эликсир стремительности
+#Bottle33.NAME Эликсир ясновидца
+#Bottle34.NAME Эликсир ветерана
+#BottleDM2.NAME Гремучее зелье
+#BottleDM2 Гремучее зелье
+#BottleDM5.NAME Гремучее зелье
+#BottleDM5 Гремучее зелье
+#BottleHP50.NAME Отвар здоровья
+#BottleHP50 Отвар здоровья
+#BottleHP100.NAME Отвар здоровья
+#BottleHP100 Отвар здоровья
+
+#IceHArcWeapon1.NAME Посох колдуна
+#IceHArcWeapon2.NAME Посох шамана
+#IceHArcWeapon3.NAME Посох послушника
+#IceHArcWeapon4.NAME Посох волшебника
+#IceHArcWeapon5.NAME Посох чародея
+#IceHArcWeapon6.NAME Посох мага
+#IceHArcWeapon7.NAME Посох чернокнижника
+#IceHArcWeapon8.NAME Посох архимага
+
+#IceHBarWeapon1.NAME Мечи воина
+#IceHBarWeapon2.NAME Короткие мечи
+#IceHBarWeapon3.NAME Рубаки
+#IceHBarWeapon4.NAME Зачарованные мечи
+#IceHBarWeapon5.NAME Клинки вождя
+#IceHBarWeapon6.NAME Клинки ночи
+#IceHBarWeapon7.NAME Кровавые братья
+#IceHBarWeapon8.NAME Мечи Безумия
+
+#IceHValWeapon1.NAME Ветер
+#IceHValWeapon2.NAME Ночь
+#IceHValWeapon3.NAME Град
+#IceHValWeapon4.NAME Гроза
+#IceHValWeapon5.NAME Ураган
+#IceHValWeapon6.NAME Смерч
+#IceHValWeapon7.NAME Шторм
+#IceHValWeapon8.NAME Молния
+
+#MecHArtWeapon1.NAME Кузнечный молот
+#MecHArtWeapon2.NAME Боевой молот
+#MecHArtWeapon3.NAME Кувалда
+#MecHArtWeapon4.NAME Молот Мастера
+#MecHArtWeapon5.NAME Молот гиганта
+#MecHArtWeapon6.NAME Громобой
+#MecHArtWeapon7.NAME Техномолот
+#MecHArtWeapon8.NAME Молот Подгорных Королей
+
+#MecHEnfWeapon1.NAME Мушкет стрелка
+#MecHEnfWeapon2.NAME Старый мушкет
+#MecHEnfWeapon3.NAME Охотничий мушкет
+#MecHEnfWeapon4.NAME Снайперский мушкет
+#MecHEnfWeapon5.NAME Модный мушкет
+#MecHEnfWeapon6.NAME Ручная пушка
+#MecHEnfWeapon7.NAME Пулемет
+#MecHEnfWeapon8.NAME Мушкет Механуса
+
+#MecHGeoWeapon1.NAME Медный скипетр
+#MecHGeoWeapon2.NAME Бронзовый скипетр
+#MecHGeoWeapon3.NAME Железный скипетр
+#MecHGeoWeapon4.NAME Серебряный скипетр
+#MecHGeoWeapon5.NAME Золотой скипетр
+#MecHGeoWeapon6.NAME Рубиновый скипетр
+#MecHGeoWeapon7.NAME Изумрудный скипетр
+#MecHGeoWeapon8.NAME Мифриловый скипетр
+
+//Типы оружия
+#Treasure_Weapon_1.NAME Оружие 1го уровня
+#Treasure_Weapon_1 Оружие 1го уровня - дешевле грязи
+#Treasure_Weapon_2.NAME Оружие 2го уровня
+#Treasure_Weapon_2 Оружие 2го уровня - дешёвка
+#Treasure_Weapon_3.NAME Оружие 3го уровня
+#Treasure_Weapon_3 Оружие 3го уровня - выбор новичка
+#Minor_Weapon_1.NAME Оружие 4го уровня
+#Minor_Weapon_1 Оружие 4го уровня - уже можно воевать
+#Minor_Weapon_2.NAME Оружие 5го уровня
+#Minor_Weapon_2 Оружие 5го уровня - рабочая лошадка
+#Major_Weapon_1.NAME Оружие 6го уровня
+#Major_Weapon_1 Оружие 6го уровня - оптимум
+#Major_Weapon_2.NAME Оружие 7го уровня
+#Major_Weapon_2 Оружие 7го уровня - главное не потерять
+#Relic_Weapon.NAME Оружие 8го уровня
+#Relic_Weapon Оружие 8го уровня - круче не найдёшь

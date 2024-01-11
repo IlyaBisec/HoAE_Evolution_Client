@@ -1,0 +1,18 @@
+<WeaponModificator>
+ <Name>Treefolk</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <Jump></Jump>
+    <MakeDamage>
+     <InRadius>40</InRadius>
+     <DamageBuilding>true</DamageBuilding>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

@@ -1,0 +1,373 @@
+
+lua_module("Missions\\LUA_FUCTIONS\\FSM\\HELPER_FSM.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Idle.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Back.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Attack.script");
+lua_module("Missions\\LUA_FUCTIONS\\FSM_ST\\ST_Global.script");
+
+--[[
+	USE DEFF PARAMS:
+		"bGuardZone"	- атаковать врагов в охраняемой зоне ( ==false 	)
+		"R"				- радиус охраняемой территории 		 ( ==500 	)
+		"iAddR"			- дополнительный радиус				 ( ==500 	)
+]]--
+function	FSM_GuardZone_00( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	
+	if ( SO_GROUP_IS_DEAD(C_OBJ) == true ) then return 0 end;
+	
+	local	_group 	= GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil or _group.N==0 )	then return 0 end;
+		
+	if 		( state == "ST_GLOBAL" 	) then
+		return ST_GLOBAL_00( C_OBJ, msg );
+	elseif 	( state == "ST_IDLE" 	) then
+		return ST_IDLE_00( C_OBJ, msg );
+	elseif 	( state == "ST_BACK"	) then
+		return ST_BACK_00( C_OBJ, msg );
+	elseif 	( state	== "ST_ATTACK"	) then
+		return ST_ATTACK_00( C_OBJ, msg );
+	end;
+	return 0;
+end;
+
+function	ACF_GuardZone00_arr( paramData )
+	if ( paramData==nil ) then return 0 end;
+	
+	_gGroupArr = ARRAY(paramData:GET("ObjectArr"));
+	if ( _gGroupArr==nil ) then return 0 end;
+	_N = _gGroupArr:SIZE();
+	while ( _N~=0 ) do
+		ACF_GuardZone00_local( _gGroupArr:GET(_N), paramData );
+		_N = _N-1;
+	end;
+	return 1;
+end;
+
+function	ACF_GuardZone00( paramData )
+	if ( paramData==nil ) then return 0 end;
+	_group = paramData:GET("Object");
+	return ACF_GuardZone00_local( _group, paramData );
+end;
+
+function	ACF_GuardZone01( paramData )
+	return ACF_GuardZone00( paramData );
+end;
+
+function	ACF_GuardZone02( paramData )
+	return ACF_GuardZone00( paramData );
+end;
+
+function	ACF_GuardZone00_local( _gGroup, paramData )
+	if ( paramData==nil ) then return 0 end;
+--[[_gGroup = paramData:GET("Object");]]--
+	if ( _gGroup==nil )	then return 0 end;
+	GROUP(_gGroup).AIGuard = true;
+	if ( FSM.CheckObjectFSM( _gGroup.Name, "FSM_GUARD" )==true ) then return 1 end;
+	--[[ Free SO for this Group if need ]]--
+	FSM.FreeSO_pVAR(_gGroup);
+	--[[ Get free or create new SO ]]--
+	local _soObject = FSM.GET_SO("FSM_GUARD");
+	if ( _soObject==nil ) then return 0 end;
+	--[[ Get SO params ]]--
+	local soParam = _soObject:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	_soObject:SET_OBJ(_gGroup.Name);
+	--[[ Fill params for SO ]]--
+	local value = nil;
+	if ( paramData:GET("bGuardZone")~=nil ) then
+		value = soParam:CreateParam_BOOL("bGuardZone");
+		value.Value = BOOL(paramData:GET("bGuardZone")).Value;
+	end;
+	if ( paramData:GET("R")~=nil ) then
+		value = soParam:CreateParam_INT("R");
+		value.Value = INT(paramData:GET("R")).Value;
+	end;
+	if ( paramData:GET("iAddR")~=nil ) then
+		value = soParam:CreateParam_INT("iAddR");
+		value.Value = INT(paramData:GET("iAddR")).Value;
+	end;
+	if ( paramData:GET("bNewPos")~=nil ) then
+		value = soParam:CreateParam_BOOL("bNewPos");
+		value.Value = BOOL(paramData:GET("bNewPos")).Value;
+	end;
+	if ( paramData:GET("soName")~=nil ) then 
+		value = STR(paramData:GET("soName"));
+		value.Value = _soObject.Name;
+	end;
+	value = soParam:CreateParam_INT("MarkDelay");
+	value.Value = 50;
+	if ( paramData:GET("MarkDelay")~=nil ) then 
+		value.Value = (INT(paramData:GET("MarkDelay"))).Value;
+	end;
+	if ( paramData:GET("SecuredGroup")~=nil ) then 
+		soParam:CreateParam_GROUP("SecuredGroup");
+		soParam:SET("SecuredGroup",paramData:GET("SecuredGroup"));
+	end;
+	--[[ Run new dialog ]]--
+	_soObject.STATE = "ST_GLOBAL";
+	FSM.SendMsg( "MSG_ENTER", _soObject.Name, _soObject.Name );
+	
+	return 1;
+end;
+
+--[[
+	Засада. SO запоминает позиции юнитов и после атаки 
+	возвращает их наместо. Атакуем юнитов в зоне используя 
+	функции охраны.
+	USE DEFF PARAMS:
+		"GuardNode"		- зана засады
+		"R"				- радиус охраняемой территории 		 ( ==500 	)
+		"iAddR"			- дополнительный радиус				 ( ==500 	)
+]]--
+function	ACF_AmbushZone00( paramData )
+	if ( paramData==nil ) then return 0 end;
+	local 	_gGroup = paramData:GET("Object");
+	if ( _gGroup==nil )	then return 0 end;
+	GROUP(_gGroup).AIGuard = true;
+	if ( FSM.CheckObjectFSM( _gGroup.Name, "FSM_Ambush" )==true ) then return 1 end;
+	--[[ Free SO for this Group if need ]]--
+	FSM.FreeSO_pVAR(_gGroup);
+	--[[ Get free or create new SO ]]--
+	local _soObject = FSM.GET_SO("FSM_Ambush");
+	if ( _soObject==nil ) then return 0 end;
+	--[[ Get SO params ]]--
+	local soParam = _soObject:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	_soObject:SET_OBJ(_gGroup.Name);
+	--[[ Fill params for SO ]]--
+	soParam:CreateParam_NODE("GuardNode");
+	SafeSetParamToSO( "GuardNode"	, soParam, paramData );
+	local value = nil;
+	if ( paramData:GET("bGuardZone")~=nil ) then
+		value = soParam:CreateParam_BOOL("bGuardZone");
+		value.Value = BOOL(paramData:GET("bGuardZone")).Value;
+	end;
+	if ( paramData:GET("R")~=nil ) then
+		value = soParam:CreateParam_INT("R");
+		value.Value = INT(paramData:GET("R")).Value;
+	end;
+	if ( paramData:GET("iAddR")~=nil ) then
+		value = soParam:CreateParam_INT("iAddR");
+		value.Value = INT(paramData:GET("iAddR")).Value;
+	end;
+	if ( paramData:GET("bNewPos")~=nil ) then
+		value = soParam:CreateParam_BOOL("bNewPos");
+		value.Value = BOOL(paramData:GET("bNewPos")).Value;
+	end;
+	if ( paramData:GET("soName")~=nil ) then 
+		value = STR(paramData:GET("soName"));
+		value.Value = _soObject.Name;
+	end;
+	value = soParam:CreateParam_INT("MarkDelay");
+	value.Value = -1;
+	--[[ Run new dialog ]]--
+	_soObject.STATE = "ST_GLOBAL";
+	FSM.SendMsg( "MSG_ENTER", _soObject.Name, _soObject.Name );
+	
+	return 1;
+end;
+
+
+function	FSM_AmbushZone_00( C_OBJ, state, msg )
+	
+	if ( SO_GROUP_IS_DEAD(C_OBJ) == true ) then return 0 end;
+
+	local	_group 	= GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil or _group.N==0 )	then return 0 end;
+		
+	if 		( state == "ST_GLOBAL" 	) then
+		ST_GLOBAL_00( C_OBJ, msg );
+		local _par	= C_OBJ:GET_PARAMS();
+		BOOL(_par:GET("bGuardZone")).Value = true;
+		return 1;
+	elseif 	( state == "ST_IDLE" 	) then
+		return ST_IDLE_00( C_OBJ, msg );
+	elseif 	( state == "ST_BACK"	) then
+		return ST_BACK_00( C_OBJ, msg );
+	elseif 	( state	== "ST_ATTACK"	) then
+		return ST_ATTACK_00( C_OBJ, msg );
+	end;
+	return 0;
+end;
+
+--[[
+	Multy Ambush zone + Guard
+	Используется для контроля сразу нескольких зон
+	а также юниты охраняют свои позиции.
+	PARMS:
+		"R"				- радиус охраняемой территории 		 ( ==500 	)
+		"iAddR"			- дополнительный радиус				 ( ==500 	)
+		"arrNode"		- занs засады
+]]--
+function	ACF_AmbushMultyZone( paramData )
+	if ( paramData==nil ) then return 0 end;
+	local 	_gGroup = paramData:GET("Object");
+	if ( _gGroup==nil )	then return 0 end;
+	GROUP(_gGroup).AIGuard = true;
+	if ( FSM.CheckObjectFSM( _gGroup.Name, "FSM_AmbushMultyZone" )==true ) then return 1 end;
+	--[[ Free SO for this Group if need ]]--
+	FSM.FreeSO_pVAR(_gGroup);
+	--[[ Get free or create new SO ]]--
+	local _soObject = FSM.GET_SO("FSM_AmbushMultyZone");
+	if ( _soObject==nil ) then return 0 end;
+	--[[ Get SO params ]]--
+	local soParam = _soObject:GET_PARAMS();
+	if ( soParam==nil ) then return 0 end;
+	soParam:CLEAR();
+	--[[ Set controled object for dialog ]]--
+	_soObject:SET_OBJ(_gGroup.Name);
+	--[[ Fill params for SO ]]--
+	if ( paramData:GET("R")~=nil ) then
+		value = soParam:CreateParam_INT("R");
+		value.Value = INT(paramData:GET("R")).Value;
+	end;
+	if ( paramData:GET("iAddR")~=nil ) then
+		value = soParam:CreateParam_INT("iAddR");
+		value.Value = INT(paramData:GET("iAddR")).Value;
+	end;
+	soParam:CreateParam_ARRAY("arrNode");
+	if ( paramData:GET("arrNode")~=nil ) then
+		soParam:SET("arrNode",paramData:GET("arrNode"));
+	else
+		soParam:SET("arrNode",nil);
+	end;
+	--[[ Run new dialog ]]--
+	_soObject.STATE = "ST_GLOBAL";
+	FSM.SendMsg( "MSG_ENTER", _soObject.Name, _soObject.Name );
+	
+	return 1;
+end;
+
+function	FSM_AmbushZone_01( C_OBJ, state, msg )
+
+	if ( SO_GROUP_IS_DEAD(C_OBJ) == true ) then return 0 end;
+
+	local	_group 	= GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil or _group.N==0 )	then return 0 end;
+	
+	local _par		= C_OBJ:GET_PARAMS();
+	if ( _par==nil ) then return 0 end;
+	
+	if 		( state == "ST_GLOBAL" 	) then
+		if ( msg.str == "MSG_ENTER" ) then
+			--[[ Группа охраняет свою зону ]]--
+				local parVal = nil;
+			    --[[ Fill param list ]]--
+				--[[ SET "Object" ]]--
+				_par:CreateParam_GROUP("Object");
+				_par:SET("Object",_group);
+				--[[ SET "bGuardZone" ]]--
+				parVal = _par:CreateParam_BOOL("bGuardZone");
+				parVal.Value = true;
+				--[[ SET "soName" ]]--
+				_par:CreateParam_STR("soName");
+				--[[ SET "GuardNode" ]]--
+				_par:CreateParam_NODE("GuardNode");
+				--[[ SET "bNewPos" ]]--
+				parVal = _par:CreateParam_BOOL("bNewPos");
+				parVal.Value = true;
+			--[[ ------------------------------ ]]--
+			ACF_GuardZone00( _par );
+			C_OBJ:SET_OBJ(_group.Name);
+			--[[ -------------------------- ]]--
+			parVal = nil;
+			--[[ GO in next state ]]--			
+			C_OBJ.next_STATE	= "ST_IDLE";
+			C_OBJ.FSC			= true;
+			return 1;
+		end;
+		return 1;
+	elseif 	( state == "ST_IDLE" 	) then
+		--[[ Только в этом состоянии мы можем менять FSM ]]--
+		if 		( msg.str == "MSG_UPDATE" ) then
+			local soName   = STR(_par:GET("soName"));
+			local soObject = FSM.FindSObyName( soName.Value );
+			if ( soObject.STATE == "ST_IDLE" ) then
+				local arrNode 	= ARRAY(_par:GET("arrNode"));
+				local arrN		= arrNode:SIZE();
+				local _Node 	= nil;
+				while ( arrN > 0 and _Node == nil ) do
+					_Node = NODE( arrNode:GET(arrN) );
+					if ( GET.EnemyUnitsAmount(_group.Nat,_Node.x,_Node.y,_Node.R)==0 ) then
+						_Node = nil;
+					end;
+					arrN = arrN - 1;
+				end;
+				if ( _Node~=nil ) then
+					_par:SET("GuardNode",_Node);
+					_Node = nil;
+					local oldSO_PAR = soObject:GET_PARAMS();
+					oldSO_PAR:CLEAR();
+					ACF_AmbushZone00( _par );
+					C_OBJ:SET_OBJ(_group.Name);
+					C_OBJ.next_STATE	= "ST_ATTACK";
+					C_OBJ.FSC			= true;
+				end;
+			end;
+		end;
+		return 1;
+	elseif  ( state == "ST_ATTACK" 	) then
+		local soName   = STR(_par:GET("soName"));
+		local soObject = FSM.FindSObyName( soName.Value );
+		if 		( msg.str == "MSG_UPDATE" ) then
+			if ( soObject.STATE == "ST_IDLE" ) then
+				--[[ GO in next state ]]--			
+				C_OBJ.next_STATE	= "ST_IDLE";
+				C_OBJ.FSC			= true;
+			end;
+		elseif 	( msg.str == "MSG_EXIT" ) then
+			local oldSO_PAR = soObject:GET_PARAMS();
+			oldSO_PAR:CLEAR();
+			ACF_GuardZone00( _par );
+			C_OBJ:SET_OBJ(_group.Name);
+		end;
+		return 1;
+	end;
+	return 0;
+end;
+
+--[[
+Группа атакует всех в зоне, если никого нет то движется в эту зону.
+Атакуем сразу тех юнитов которые движутся на нас, потом остальных.
+Можем задать приоритет на атаку каких-то определенных гупп.
+Для передвежения дальше нужно менять зону атаки.
+Primary:
+	"arrZone"	- список контролируемых зон.
+	"arrGroup"	- список приоритетных групп.
+	"arrPower"	- список приоритетов на группы (0-100).
+]]--
+function 	FSM_GuardZone_01( C_OBJ, state, msg )
+	if ( CheckParams(C_OBJ,state,msg)==false ) then return 0 end;
+	
+	local _group = GROUP(C_OBJ:GET_OBJ());
+	if ( _group==nil or _group.N==0 )	then return 0 end;
+		
+	
+	
+end;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

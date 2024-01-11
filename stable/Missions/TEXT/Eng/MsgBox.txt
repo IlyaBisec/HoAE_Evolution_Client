@@ -1,0 +1,3 @@
+#M01BX01 Salvation
+#M01BX02 You will lose if 20 citizens die
+#M01BX03 %d citizens died

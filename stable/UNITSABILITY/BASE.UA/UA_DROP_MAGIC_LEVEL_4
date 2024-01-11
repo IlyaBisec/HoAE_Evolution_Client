@@ -1,0 +1,29 @@
+<ua_DropPackage>
+ <DropPackage>
+  <ClassRef.NewAbility>
+   <ClassName>NewAbility</ClassName>
+   <RefName>MC_aWhiteMagic_Heal</RefName>
+  </ClassRef.NewAbility>
+  <ClassRef.NewAbility>
+   <ClassName>NewAbility</ClassName>
+   <RefName>MagicCardVortex</RefName>
+  </ClassRef.NewAbility>
+ </DropPackage>
+ <Name>ua_Drop_Magic_Level_4</Name>
+ <FileID_Char>icons_inventory</FileID_Char>
+ <FileID_Inv>icons_inventory</FileID_Inv>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</ua_DropPackage>

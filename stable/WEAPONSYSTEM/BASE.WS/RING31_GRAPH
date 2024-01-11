@@ -1,0 +1,13 @@
+<WeaponModificator>
+ <Name>Ring31_Graph</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <DrawOne></DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

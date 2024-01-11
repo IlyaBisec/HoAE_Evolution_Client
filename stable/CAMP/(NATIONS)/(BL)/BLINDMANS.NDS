@@ -1,0 +1,12 @@
+[MEMBERS]
+BliUBli(BL) BliUBli
+BliUChi(BL) BliUChi
+[ENABLED]
+BliUBli(BL)
+BliUChi(BL)
+[COUNTRY]
+BLINDMANS 3
+#units
+BliUBli(BL)
+BliUChi(BL)
+[END]

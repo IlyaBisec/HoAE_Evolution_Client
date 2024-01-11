@@ -1,0 +1,23 @@
+<NewAbility>
+ <Name>MagicCardGolem1</Name>
+ <Visible>false</Visible>
+ <HintName>#SPELL_BONEGOLEM.NAME</HintName>
+ <Hint>#SPELL_BONEGOLEM</Hint>
+ <GroundMD>
+  <UnitType>UndHKni(UN)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewAbility>

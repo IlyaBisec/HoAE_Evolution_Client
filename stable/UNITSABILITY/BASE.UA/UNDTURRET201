@@ -1,0 +1,31 @@
+<ExtraShootingElement>
+ <Name>UndTurret201</Name>
+ <Type>Ability</Type>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Weapon>
+  <ClassName>WeaponModificator</ClassName>
+  <RefName>UW_Galera</RefName>
+ </Weapon>
+ <WholeObjectModel></WholeObjectModel>
+ <ShootAnimation></ShootAnimation>
+ <WholeShootTime>2000</WholeShootTime>
+ <TimeOfShooting>30</TimeOfShooting>
+ <TotalRechargeTime>2000</TotalRechargeTime>
+ <RotateAnimation></RotateAnimation>
+ <ShootAngleDifference>8</ShootAngleDifference>
+ <RotationSpeed>20000</RotationSpeed>
+ <TowerCenterX>100</TowerCenterX>
+ <TowerCenterZ>60</TowerCenterZ>
+ <CannonRadius>1</CannonRadius>
+</ExtraShootingElement>

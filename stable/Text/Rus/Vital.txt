@@ -1,0 +1,120 @@
+#SkipMagicCard Правый клик для смены карточки
+
+#BuildUnlimit Удерживайте Ctrl чтобы заказать непрерывную постройку юнитов
+
+#Inv_Bottles ЗЕЛЬЯ
+#Inv_Bottles_Hint Зелья и эликсиры
+#Inv_Magic ЗАКЛИНАНИЯ
+#Inv_Magic_Hint Заклинания
+#Inv_History ИСТОРИЯ
+#Inv_History_Hint История
+#Inv_Journal ЖУРНАЛ
+#Inv_Journal_Hint Журнал
+#Inv_Info ИНФОРМАЦИЯ
+#Inv_Info_Hint Параметры героя
+
+#Inv_Full_PickUp Не могу взять вещь - нет места в инвентаре
+
+#AblHint_Effects Effects
+
+#BuyPrice Цена на покупку
+#SellPrice Цена на продажу
+#ManaCost Стоимость маны
+
+#Influence Эффект действия
+#Multicast Усиление
+
+#LimitedAmount Единократное применение
+#SellAfterUse Правый клик мгновенная продажа
+#Permanent Бесконечное действие
+
+#mod_MotionSpeed Скорость передвижения
+#mod_Stun Паралич
+#mod_Trap Неподвижность
+#mod_AttackRadiusMax Дальность выстрела
+#mod_Silence Безмолвие
+#mod_Compassion Безсилие
+#mod_Invulnerability Неуязвимость
+#mod_Damage Сила атаки
+#mod_Protection Защита от
+#mod_Shield Защита от всего
+#mod_AttackRate Скорость атаки
+#mod_MagicImmunity Иммунитет к магии
+#mod_LifeRegeneration Регенерация здоровья
+#mod_ManaRegeneration Регенерация маны
+#mod_Vision Дальность виидения
+#mod_Weapon Смена оружия на
+#mod_WeaponShots выстрелов
+#mod_Invisibility Невидимость
+#mod_Detector Видит невидимых
+#mod_Frozen Обморожение
+#mod_Vampire Вампиризм
+#mod_Thorn Крапива
+#mod_ManaValue Стоимость заклинаний
+#mod_Life Текущее здоровье
+#mod_Mana Текущая мана
+#mod_LifeMax Максимальное здоровье
+#mod_ManaMax Максимальная мана
+#mod_AttackCaster Вызов боя на себя
+#mod_OverEarth Антигравитация
+#mod_Fear Страх
+#mod_ProduceEnable Запрет производства
+#mod_Scale Размер
+#mod_Control Подчинение
+#mod_Insubordination Неподчинение
+#mod_LevelForEffects Сила заклинаний
+#mod_TradeSkill Умение торговать
+#mod_Learning Обучаемость
+#mod_Evasion Уклонение
+#mod_Miss Промах
+#mod_MotionStyle Тип передвижения
+#mod_AttackRadiusMaxMelee Рукопашная атака
+#mod_OverEarthDown Приземление
+
+#mod_WeaponKind0 Тип повреждения колющий
+#mod_WeaponKind1 Тип повреждения режущий
+#mod_WeaponKind2 Тип повреждения дробящий
+#mod_WeaponKind3 Тип повреждения магический
+
+piercing колющего
+chopping режущего
+crushing дробящего
+magical магического
+
+FlyingObject низколетающий
+
+#BaseFantasyVic Победа! Вы смогли доказать свое мастерство.
+#BaseFantasyDefTownHalls Поражение! Вы потеряли все Городские центры
+#BaseFantasyDefPeasants Поражение! У Вас осталось меньше трех крестьян
+#BaseFantasyDefHeroDeath Поражение! Ваш герой мертв
+
+//Hints on building
+#HintShopBottle.NAME Алхимическая лаборатория
+#HintShopBottle Воспользоваться услугами торговца волшебных зельями
+#HintShopItems.NAME Мастер артефактов
+#HintShopItems Воспользоваться услугами торговца магическими вещами
+#HintShopMagicCards.NAME Библиотека
+#HintShopMagicCards Воспользоваться библиотекой заклинаний
+#HintBuyVillage.NAME Нейтральное поселение
+#HintBuyVillage Обсудить с вождем договор о совместной войне
+#HintAltar_attack.NAME Алтарь атаки
+#HintAltar_attack Воспользовавшись силой алтаря герой и все дружественные рядом стоящие войны получит усиленую атаку
+#HintAltar_defence.NAME Алтарь защиты
+#HintAltar_defence Воспользовавшись силой алтаря герой и все дружественные рядом стоящие войны получит усиленую защиту
+#HintAltar_regeneration.NAME Камень регенирации
+#HintAltar_regeneration Воспользовавшись силой камня герой получит усиленую способность регенирации
+#HintAltar_rage.NAME Камень ярости
+#HintAltar_rage Воспользовавшись силой камня герой приобретет способность быстро двигаться и атаковать
+#HintBonus_fontain.NAME Живой источник
+#HintBonus_fontain Воспользовавшись живительным источником герой востановит часть своей жизни (300) и маны (120)
+
+//Hints on use
+#UseRightClick Правый клик для исползования
+#UseLeftClick Левый клик для исползования
+#GetCasterHeroLvl (Уровень героя)
+#BuySellDoubleClick двойной клик для покупки/продажи
+
+//
+#NeedBuildingForConstraction Требуется:
+
+#Select_Mission ВЫБОР МИССИИ

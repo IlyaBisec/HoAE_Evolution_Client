@@ -1,0 +1,13 @@
+<TextIcons>
+	<Icons>
+		<OneTextIcon>
+			<Name>w</Name>
+			<gpFile>Interf3\respanel</gpFile>
+			<Sprite>2</Sprite>
+			<dx>9</dx>
+			<dy>9</dy>
+			<Lx>50</Lx>
+			<Ly>31</Ly>
+		</OneTextIcon>
+	</Icons>
+</TextIcons>

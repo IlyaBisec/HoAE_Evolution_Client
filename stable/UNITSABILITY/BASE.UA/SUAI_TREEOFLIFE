@@ -1,0 +1,13 @@
+<ua_SingleUnitAI>
+ <Name>suai_TreeOfLife</Name>
+ <CastingRadius>550</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aTreeOfLife</RefName>
+   </UA>
+   <MinTargetAmount>5</MinTargetAmount>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

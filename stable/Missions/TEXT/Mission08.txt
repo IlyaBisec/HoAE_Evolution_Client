@@ -1,0 +1,45 @@
+#M08D01S01P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t04.ogg]Эй, стражник! Мне нужно попасть на другой берег.
+#M08D01S02P01    [M8Elf][Normal][Missions\SOUND\MISSION08\m08_t05.ogg]Селение осаждают гоблины, и мы никого не пропускаем.
+#M08D01S02P02    [M8Elf][Normal][Missions\SOUND\MISSION08\m08_t06.ogg]Паром может в любой момент понадобиться мирным жителям для отступления.
+
+#M08D01S02P03    [M8Elf][Normal][Missions\SOUND\MISSION08\m08_t07.ogg]Паром будет стоять у этого берега, пока гоблины близко!
+
+#M08D01S03P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t12.ogg]Эй, стражник! Мне нужно на другой берег.
+#M08D01S04P01    [M8Elf][Normal][Missions\SOUND\MISSION08\m08_t13.ogg]Конечно, ты можешь взять паром.
+
+#M08D02S01P01    [M8Elder][Normal][Missions\SOUND\MISSION08\m08_t08.ogg]Воин, помоги! Гоблины напали на наше селение!
+
+#M08D03S01P01    [M8Elder][Normal][Missions\SOUND\MISSION08\m08_t09.ogg]Благодарим тебя воин, ты спас нас! Возьми в знак благодарности эти вещи: они помогут тебе в сражениях.
+#M08D03S02P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t10.ogg]Я ищу Оракула. Друид сказал, что он обитает в Ущелье Ветров.
+#M08D03S03P01    [M8Elder][Normal][Missions\SOUND\MISSION08\m08_t11.ogg]К Ущелью можно выйти через предгорья, но они кишат опасными тварями. Есть ещё один путь - через озеро. 
+
+#M08D04S01P01    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t14.ogg]Приветствую тебя! Я вижу, ты сильный и храбрый воин: другой не смог бы добраться до наших мест.
+#M08D04S01P02    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t15.ogg]Не хочешь ли помочь мне? Я изучаю горных драконов, и сейчас мне понадобилось их яйцо.
+#M08D04S01P03    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t16.ogg]Прямо к северу от нас есть гнездо этих чудовищ.
+#M08D04S02P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t17.ogg]У меня слишком мало времени, чтобы помогать тебе.
+#M08D04S03P01    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t18.ogg]Но я не поскуплюсь! Дальше лежат опасные земли, полные врагов, и с моей помощью ты сможешь быстрее преодолеть их.
+
+#M08D05S02P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t19.ogg]Старик, я принес тебе яйцо дракона.
+#M08D05S03P01    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t20.ogg]Благодарю тебя, следопыт! Это очень поможет мне в исследованиях. Вот, возьми этот плащ. Хорошая защита от вражеской магии...
+#M08D05S04P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t21.ogg]Я спешу к Ущелью Ветров. Как пройти туда?
+#M08D05S05P01    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t22.ogg]К Ущелью ведут две дороги.
+#M08D05S05P02    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t23.ogg]Северная - через предгорья; ты уже был на ней, но дальше путь преграждает множество опасных тварей.
+#M08D05S05P03    [M8Druid][Normal][Missions\SOUND\MISSION08\m08_t24.ogg]Восточная дорога приведёт к горным вратам. Их охраняют эльфы, которые пропустят тебя.
+
+#M08D06S01P01    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t27.ogg]Неподалёку живут гноллы, которые причиняют нам много бед!
+#M08D06S01P02    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t28.ogg]Недавно они напали вновь и теперь мы собираемся в поход на них. Присоединяйся к нам, следопыт!
+#M08D06S01P03    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t29.ogg]С твоей помощью мы разделаемся с этими тварями гораздо быстрее.
+#M08D06S02P01    [Elhant][Normal][Missions\SOUND\MISSION08\m08_t30.ogg]Я спешу к Оракулу в Ущелье Ветров.
+#M08D06S03P01    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t31.ogg]Ты волен выбирать, но знай: горные врата не откроются, пока мы не перебьём всех гноллов.
+
+#M08D07S02P01    [M8Dryad][Normal][Missions\SOUND\MISSION08\m08_t32.ogg]Врата открыты! Ты можешь идти дальше.
+
+#M08HINT1P01     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t01.ogg]Интересно, как выглядит этот Оракул?
+#M08HINT1P02     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t02.ogg]Отец рассказывал мне, что когда-то один из них обитал в руинах Скребунов, но потом орки уничтожили его.
+#M08HINT1P03     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t03.ogg]Никто не ведает, откуда взялись эти создания, но все знают, что они - сама древность... 
+
+#M08HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t25.ogg]Два новых заклинания! Кажется, из воина я невольно становлюсь магом:
+#M08HINT2P02     [Elhant][Suprised][Missions\SOUND\MISSION08\m08_t26.ogg]Теперь главное - не превратиться в бородатого зануду вроде этих друидов...
+
+#M08HINT3P01     [Elhant][Normal][Missions\SOUND\MISSION08\m08_t33.ogg]Горы кажутся всё более сумрачными и таинственными. Оракул... возможно он где-то рядом? 
+                                                           

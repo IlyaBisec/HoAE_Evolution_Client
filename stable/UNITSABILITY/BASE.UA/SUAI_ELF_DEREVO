@@ -1,0 +1,14 @@
+<ua_SingleUnitAI>
+ <Name>suAI_Elf_derevo</Name>
+ <CastingRadius>300</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aTreeOfLife</RefName>
+   </UA>
+   <MinTargetAmount>5</MinTargetAmount>
+   <CastingDelay>1</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

@@ -1,0 +1,26 @@
+<NewAbility>
+ <Name>UA_Sneg</Name>
+ <System>true</System>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>1</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <Permanent>true</Permanent>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <UnlimitDuration>true</UnlimitDuration>
+   <Place>Target units</Place>
+   <ResetPeriod>200000</ResetPeriod>
+   <Effect>
+    <ModelID>Models\Effects\MagicCard\Sneg\Sneg.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>

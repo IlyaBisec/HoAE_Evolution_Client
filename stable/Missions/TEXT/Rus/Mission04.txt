@@ -1,0 +1,74 @@
+#M04D02S01P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t15.ogg]Старик, мне надо поговорить с друидами. Как мне добраться до них?
+#M04D02S02P01    [M4DruidKey][Normal][Missions\SOUND\MISSION04\m04_t16.ogg]О чем ты хочешь с ними говорить?
+#M04D02S03P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t17.ogg]Ты что не знаешь - на нас напала нежить!
+#M04D02S03P02    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t18.ogg]Враги используют магию, и нам не справиться с ними силой обычного оружия.
+#M04D02S04P01    [M4DruidKey][Sadness][Missions\SOUND\MISSION04\m04_t19.ogg]Ключ от Врат был у меня, но однажды его похитили!
+#M04D02S04P02    [M4DruidKey][Normal][Missions\SOUND\MISSION04\m04_t20.ogg]Я слишком стар и слаб, чтобы искать его в лесу.
+#M04D02S04P03    [M4DruidKey][Normal][Missions\SOUND\MISSION04\m04_t21.ogg]Если хочешь попасть к друидам - найди ключ, следопыт.
+
+#M04D03S03P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t34.ogg]Кто ты и как смог миновать стражей Врат?
+#M04D03S04P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t35.ogg]Мое имя Эльхант, я следопыт. Нежить теснит нас, и войско Монфора отступает.
+#M04D03S04P02    [Elhant][Angry][Missions\SOUND\MISSION04\m04_t36.ogg]Враги владеют могущественной магией, и мы не можем справиться с ними лишь силой оружия.
+#M04D03S04P03    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t37.ogg]Вы должны оказать нам помощь.
+#M04D03S05P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t38.ogg]Друидов просят, а не указывают им, что делать. Мы знаем, что тьма сгущается над Атлансом.
+#M04D03S05P02    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t39.ogg]Знай и ты, следопыт, что осквернена даже наша роща, ибо враг пробрался и сюда.
+#M04D04S01P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t40.ogg]У опушки поселился могильщик-трупоед. Тлен расползается от него, убивая всё живое вокруг.
+#M04D04S01P02    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t41.ogg]Уничтожь могильщика, и тогда мы поможем вам.
+#M04D04S02P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t42.ogg]У меня нет времени на это!
+#M04D04S02P02    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t43.ogg]Если вы могущественные чародеи, то почему сами не справитесь с трупоедом?
+#M04D04S03P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t44.ogg]Наша магия бессильна против порождения Праха. 
+#M04D04S04P01    [Elhant][Angry][Missions\SOUND\MISSION04\m04_t45.ogg]Ну что ж... если это единственная возможность заставить вас помочь лесному народу, я убью трупоеда.
+#M04D04S04P02    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t46.ogg]Где он?
+#M04D04S05P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t47.ogg]Вот магические врата, через которые ты сможешь попасть к обиталищу могильщика и вернуться.
+#M04D04S05P02    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t48.ogg]Я обучу тебя заклинанию, которое призывает лесных дриад. Они помогут тебе в схватке.
+
+#M04D05S02P01    [Elhant][Suprised][Missions\SOUND\MISSION04\m04_t52.ogg]Трупоед мёртв. Выполни и ты своё обещание.
+#M04D05S03P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t53.ogg]Мы научим тебя призывать небесный свет, следопыт.
+#M04D05S03P02    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t54.ogg]Нежить любит тьму и страшится света, и заклинание поможет в сражении с ней.
+#M04D05S03P03    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t55.ogg]Но этого недостаточно, чтобы победить врагов. Вам нужна помощь пегасов.
+#M04D05S04P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t56.ogg]Где мне найти их?
+#M04D05S05P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t57.ogg]Они обитают на островах посреди большого озера, что лежит к востоку отсюда.
+#M04D05S07P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t58.ogg]Чтобы путешествие не было слишком долгим, я открою портал, через него ты попадёшь в рыбацкую деревушку на берегу.
+#M04D05S09P01    [M4High_Druid][Normal][Missions\SOUND\MISSION04\m04_t59.ogg]Местные жители дадут тебе лодку, на которой ты доберёшься до островов.
+
+#M04D06S01P01    [M4DruidControl][Despair][Missions\SOUND\MISSION04\m04_t29.ogg]Они вышли из повиновения, я не могу больше управлять ими!
+#M04D06S01P02    [M4DruidControl][Despair][Missions\SOUND\MISSION04\m04_t30.ogg]Воин, помоги уничтожить тварей!
+
+#M04D07S01P01    [M4DruidControl][Gladness][Missions\SOUND\MISSION04\m04_t31.ogg]Благодарю тебя, воин. Возьми этот лук - пусть он поможет тебе в боях.
+
+#M04D08S01P01    [M4Ent][Normal][Missions\SOUND\MISSION04\m04_t12.ogg]Стой! Дальше пройдет только тот, кто владеет ключом.
+#M04D08S02P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t13.ogg]Но мне необходимо поговорить с друидами!
+#M04D08S03P01    [M4Ent][Normal][Missions\SOUND\MISSION04\m04_t14.ogg]Без ключа тебе не попасть в Рощу!
+
+#M04D09S02P01    [Elhant][Normal][Missions\SOUND\MISSION04\m04_t24.ogg]Вот он! Отпирайте Врата!
+#M04D09S03P01    [M4Ent][Normal][Missions\SOUND\MISSION04\m04_t25.ogg]Что ж, проходи, эльф.
+
+#M04D10S01P01    [M4DruidAcid][Fear][Missions\SOUND\MISSION04\m04_t01.ogg]Воин, будь осторожен! Я едва спасся от крыс, что расплодились в лесу.
+#M04D10S01P02    [M4DruidAcid][Fear][Missions\SOUND\MISSION04\m04_t02.ogg]Теперь они нападают целыми полчищами!
+#M04D10S01P03    [M4DruidAcid][Fear][Missions\SOUND\MISSION04\m04_t03.ogg]Прими это заклинание: оно поможет справиться с тварями.
+
+#M04D11S01P01    [M4ShopKeeper][Normal][Missions\SOUND\MISSION04\m04_t08.ogg]Наконец-то я вижу достойного покупателя!
+#M04D11S01P02    [M4ShopKeeper][Normal][Missions\SOUND\MISSION04\m04_t09.ogg]Взгляни, воин: среди прочих товаров у меня есть магический ключ - я выменял его у гоблинов!
+#M04D11S03P03    [M4ShopKeeper][Normal][Missions\SOUND\MISSION04\m04_t10.ogg]Стоит он недёшево, но я могу обменять его на... скажем, перчатки молотобойца.
+#M04D11S03P04    [M4ShopKeeper][Normal][Missions\SOUND\MISSION04\m04_t11.ogg]Я видел такие у одного из орков, живущих на север отсюда.
+
+#M04D12S01P01    [Elhant][Suprised][Missions\SOUND\MISSION04\m04_t26.ogg]Я добыл перчатки и готов обменять их на ключ.
+#M04D12S02P01    [M4ShopKeeper][Gladness][Missions\SOUND\MISSION04\m04_t27.ogg]Наконец-то! Что ж, уговор есть уговор. Возьми свой ключ.
+
+#M04HINT1P01     [Elhant][Angry][Missions\SOUND\MISSION04\m04_t04.ogg]Нет, я всё же не люблю магию. Я воин, и моё оружие - меч и лук!
+#M04HINT1P02     [Elhant][Suprised][Missions\SOUND\MISSION04\m04_t05.ogg]Впрочем, заклинание может пригодиться: крыс стало слишком много, вдруг я не справлюсь со всеми обычным оружием?
+
+#M04HINT2P01     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t06.ogg]В землях моей родины нет троллей, хотя отец рассказывал мне о них.
+#M04HINT2P02     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t07.ogg]Придётся изучить всех обитающих в Атлансе тварей, если я хочу покончить с нежитью.
+
+#M04HINT3P01     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t22.ogg]Здешние эльфы считают нас, южан, дикарями, смотрят на нас свысока...
+#M04HINT3P02     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t23.ogg]Что ж, я докажу, что во всём превосхожу их! Я сам спасу наш народ от нежити!
+
+#M04HINT4P01     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t28.ogg]А вот этих тварей я уже встречал! Тупые, злобные и сильные... зато боятся магии.
+
+#M04HINT5P01     [Elhant][Angry][Missions\SOUND\MISSION04\m04_t32.ogg]Недолюбливаю я друидов, эти самодовольные старики считают себя самыми умными, а нас, воинов, презирают:
+#M04HINT5P02     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t33.ogg]Только не им, а мне удастся изгнать нежить с острова!
+
+#M04HINT6P01     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t49.ogg]С каждым днём нежити всё больше! Новые твари, и твари опасные...
+#M04HINT6P02     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t50.ogg]Кто же повелевает ими? Не может быть, чтобы они вдруг сами полезли из-под земли!
+#M04HINT6P03     [Elhant][Normal][Missions\SOUND\MISSION04\m04_t51.ogg]Знать бы, где скрывается корень зла...

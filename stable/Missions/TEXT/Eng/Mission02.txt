@@ -1,0 +1,72 @@
+#M02D01S01    [M2Druid][Normal][Missions\SOUND\MISSION02\m02_t02.ogg]I've heard that the chief had ordered you to gather the retreated soldiers at the Fortress of Hardstone. 
+#M02D01S02    [M2Druid][Normal][Missions\SOUND\MISSION02\m02_t03.ogg]Accept this spell, Elhant. It will be of great aid to you.
+#M02D01S03    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t04.ogg]Magic - is the destiny of druids. I'm a warrior, not a wizard.
+#M02D01S04    [M2Druid][Normal][Missions\SOUND\MISSION02\m02_t05.ogg]Magic - is a ferocious weapon in skilful hands, and now it's not the time to abandon weapons.
+#M02D01S05    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t06.ogg]I hope you're right and I hope that this spell will prove useful...
+#M02D02S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t10.ogg]Warriors! The City of Dawn has fallen, but the battle hasn't been lost! Follow me, let your swords open the skulls of the undead!
+#M02D02S02    [M2Commander1][Normal][Missions\SOUND\MISSION02\m02_t11.ogg]We go, ranger! The power of the forest is with us!
+#M02D03S01P01    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t12.ogg]Listen Ranger, can you aid us?
+#M02D03S01P02    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t13.ogg]Yesterday my wife and the other women went to the western forest to gather berries. They have not since returned.
+#M02D03S01P03    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t14.ogg]I fear to imagine their fate - there are so many of the undead and dark creatures in our forests...
+#M02D03S01P04    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t15.ogg]I beg you, rescue my wife!
+#M02D03S02    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t16.ogg]Can't you take care of your family yourself?
+#M02D03S03    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t17.ogg]I'm no warrior. The depths of the forest swarm with the beasts from beneath... I beg you, help me!
+#M02D03S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t18.ogg]Very well. I'll do what I can.
+#M02D04S02P1    [Elhant][Sadness][Missions\SOUND\MISSION02\m02_t25.ogg]I saw your wife... or what was left of her. She had been turned by the necromancers. 
+#M02D04S02P2    [Elhant][Sadness][Missions\SOUND\MISSION02\m02_t26.ogg]I had to... release her...
+#M02D04S03    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t27.ogg]Arrggghh! May the necromancers be cursed... For eternity!
+#M02D04S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t28.ogg]I swear vengeance for your wife and other elves fallen from the hands of the servants of the death.
+#M02D04S05    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t29.ogg]Take... take this. It should help you on your journey...
+#M02D05S01    [M2Hunter][Sadness][Missions\SOUND\MISSION02\m02_t24.ogg]Ranger, have you found her? Tell me, have you?..
+#M02D06S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t19.ogg]The dark sorcerers are turning our dead women into zombies! Death to our enemies! Death!
+#M02D07S01P1    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t30.ogg]Hail, warriors! Hail! In the name of Chief Monfor, I order you to follow me!
+#M02D07S01P2    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t31.ogg]There is an elven force gathering in the valley. Let us make haste.
+#M02D07S02P1    [M2Commander2][Normal][Missions\SOUND\MISSION02\m02_t32.ogg]Ranger. We cannot.
+#M02D07S02P2    [M2Commander2][Normal][Missions\SOUND\MISSION02\m02_t33.ogg]The goblins's camp is to the south of this settlement. They may attack us again.
+#M02D07S02P3    [M2Commander2][Normal][Missions\SOUND\MISSION02\m02_t34.ogg]If we leave the settlement, goblins will surely attack! It will turn out deadly for the residents here!
+#M02D07S03P1    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t35.ogg]You're right. We can't leave the local residents without protection. 
+#M02D07S03P2    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t36.ogg]Stay here, Commander. Let you warriors defend the village. I will eliminate the goblins hordes and return victorious!
+#M02D08S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t39.ogg]Innocent blood will be spilled by goblins no more! Let's get back to the settlement.
+#M02D09S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t40.ogg]The goblins are dead! Dead! The settlement is safe.
+#M02D09S02    [M2Commander2][Normal][Missions\SOUND\MISSION02\m02_t41.ogg]Good news! Warriors! From now on we will obey the orders of this ranger.
+#M02D10S01    [M2Dweller][Despair][Missions\SOUND\MISSION02\m02_t50.ogg]Undead!  We're attacked by the undead! Help!
+#M02D10S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t51.ogg]Aye! Warriors! Attack!
+#M02D11S01    [M2Commander3][Normal][Missions\SOUND\MISSION02\m02_t52.ogg]Our thanks, Ranger. We won't be able to cope without your help.
+#M02D11S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t53.ogg]By the authority of Chief Monfor, you must follow  me. We are gathering an army to give fight to he undead.
+#M02D11S03P1    [M2Commander3][Normal][Missions\SOUND\MISSION02\m02_t54.ogg]Gladly! But... there are only few of us left here. The majority went to Hardstone to help the fairies.
+#M02D11S03P2    [M2Commander3][Normal][Missions\SOUND\MISSION02\m02_t55.ogg]There were centaurs among them -  they are the born warriors... But no one has returned...
+#M02D11S03P3    [M2Commander3][Normal][Missions\SOUND\MISSION02\m02_t56.ogg]Instead of our brothers, the horde of undead came from that side...
+#M02D11S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t57.ogg]My duty - is to gather all survivors. Come, to Hardstone!
+#M02D12S01    [M2Centaur][Angry][Missions\SOUND\MISSION02\m02_t58.ogg]The undead! Cut them down! Trample them! Bloody your hooves!
+#M02D12S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t59.ogg]The centaurs are fighting the undead! We have to help them! Attack! Attack!
+#M02D13S01P1    [M2Centaur][Normal][Missions\SOUND\MISSION02\m02_t60.ogg]Though we would have coped by ourselves, nevertheless thanks for your help, elf!
+#M02D13S01P2    [M2Centaur][Normal][Missions\SOUND\MISSION02\m02_t61.ogg]There is bad news: while we where repulsing the cursed undead, the wizards have dragged the fairies to the old cemetery.
+#M02D13S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t62.ogg]Then we must pursue them!
+#M02D13S03P1    [M2Centaur][Normal][Missions\SOUND\MISSION02\m02_t63.ogg]We'll be able to trample them down if we use Spidery Path. 
+#M02D13S03P2    [M2Centaur][Normal][Missions\SOUND\MISSION02\m02_t64.ogg]It is shorter and there are ghouls on the main road... Spiders are the lesser evil. 
+#M02D13S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t65.ogg]Then let's move!
+#M02D14S01P1    [M2Forester][Normal][Missions\SOUND\MISSION02\m02_t47.ogg]I'm glad to see you, Ranger! I have also run through the forest with a bow in my time.
+#M02D14S01P2    [M2Forester][Normal][Missions\SOUND\MISSION02\m02_t48.ogg]But that was a long time ago... I'm old and want to pass my skill to someone else.
+#M02D14S01P3    [M2Forester][Normal][Missions\SOUND\MISSION02\m02_t49.ogg]With the aid of this aura, you and your archers will hit the targets with great ease.
+#M02D15S01    [Elhant][Normal][Missions\SOUND\MISSION02\M02D15S01.ogg]Гоблины атакуют поселок! Нужно защитить жителей!
+#M02D16S01    [M2Soldier][Normal][Missions\SOUND\MISSION02\m02_t69.ogg]We'll go with you, ranger!
+#M02D17S01    [M2Soldier][Normal][Missions\SOUND\MISSION02\m02_t72.ogg]Thank you, Ranger. We'll go wherever you lead us
+#M02D18S01    [M2Soldier][Normal][Missions\SOUND\MISSION02\m02_t71.ogg]Yes! We will escort you to Hardstone!
+#M02D19S01    [M2Soldier][Normal][Missions\SOUND\MISSION02\m02_t70.ogg]Of course, we will follow you!
+#M02D20S01    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t09.ogg]I've never seen tracks like these before! What kind of alien creature could have left them?
+#M02D21S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t07.ogg]What's wrong with these beasts?
+#M02D21S02    [Elhant][Angry][Missions\SOUND\MISSION02\m02_t08.ogg]I feel weak from his bite, my head is spinning... There must have been poison on his teeth.
+#M02D22S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t20.ogg]Goblins are evil, evil things.
+#M02D22S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t21.ogg]There are more of them to the south of Atlans. I had a chance to learn their habits well.
+#M02D22S03    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t22.ogg]Each pack has a leader - he can be distinguished from the others by the clothes he wears. 
+#M02D22S04    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t23.ogg]If he is killed, the others will scatter in panic.
+#M02D23S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t37.ogg]A creature like that won't be easy to kill... They're called minotaurs... I remember the story of the druid wanderer.
+#M02D23S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t38.ogg]Minotaurs have great strength, they can't be allowed to approach into melee.
+#M02D24S01    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t42.ogg]Here it is - a source of magical substances.
+#M02D24S02    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t43.ogg]The creation of druids, which allows any wandering mage to replenish his magic powers!
+#M02D24S03    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t44.ogg]And since I also possess a spell... These sources can be of great use to me.
+#M02D25S01    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t45.ogg]The sacred stones fill us with the vitality power.
+#M02D25S02    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t46.ogg]Endurance and experience may be one thing, but the aid of magic comes very handy.
+#M02D26S01    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t66.ogg]A centaur's temper is impetuous and uncontrolled - sometimes they seem to be wild animals to me.
+#M02D26S02    [Elhant][Suprised][Missions\SOUND\MISSION02\m02_t67.ogg]They are loyal friends though and are sure to stand on our side in the battle with the undead... 
+#M02D26S03    [Elhant][Normal][Missions\SOUND\MISSION02\m02_t68.ogg]Especially if I - the best warrior of the South - will lead them!

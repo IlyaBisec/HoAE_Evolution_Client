@@ -1,0 +1,57 @@
+<VitButton>
+ <State>1</State>
+ <FontPassive>SmallWhiteFont</FontPassive>
+ <FontOver>SmallWhiteFont</FontOver>
+ <Align>Left</Align>
+ <OneSprited>true</OneSprited>
+ <GP_File>Interf3\ingame</GP_File>
+ <v_Actions>
+  <va_SP_UpgBut>
+   <Name>Прт: апгрейд кнопка</Name>
+  </va_SP_UpgBut>
+ </v_Actions>
+ <ChildDialogs>
+  <GPPicture>
+   <FileID>Interf3\icons</FileID>
+   <SpriteID>68</SpriteID>
+   <ScaleX>1.000000</ScaleX>
+   <ScaleY>1.000000</ScaleY>
+   <v_Actions>
+    <va_SP_UpgPicture>
+     <Name>Прт: апгрейд картинка</Name>
+    </va_SP_UpgPicture>
+   </v_Actions>
+   <x>6</x>
+   <y>6</y>
+   <Width>49</Width>
+   <Height>49</Height>
+   <ScaleX>1.000000</ScaleX>
+   <ScaleY>1.000000</ScaleY>
+  </GPPicture>
+  <ProgressBar>
+   <Message></Message>
+   <BackGP_File>Interf3\elements\progress</BackGP_File>
+   <BackSprite>1</BackSprite>
+   <ProgressGP_File>Interf3\elements\progress</ProgressGP_File>
+   <ProgressSprite>0</ProgressSprite>
+   <ProgressColor>FFFFFF00</ProgressColor>
+   <v_Actions>
+    <va_SP_UpgStageLine>
+     <Name>Прт: апгрейд линия</Name>
+    </va_SP_UpgStageLine>
+   </v_Actions>
+   <x>60</x>
+   <y>57</y>
+   <Width>56</Width>
+   <Height>7</Height>
+   <EnableTransform>true</EnableTransform>
+   <Angle>-90.000000</Angle>
+  </ProgressBar>
+ </ChildDialogs>
+ <x>205</x>
+ <y>534</y>
+ <Width>63</Width>
+ <Height>64</Height>
+ <DeepColor>true</DeepColor>
+ <Source>Dialogs\v\Upgrade.VitButton.xml</Source>
+</VitButton>

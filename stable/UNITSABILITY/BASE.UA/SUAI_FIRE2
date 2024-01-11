@@ -1,0 +1,14 @@
+<ua_SingleUnitAI>
+ <Name>suAI_fire2</Name>
+ <CastingRadius>200</CastingRadius>
+ <Abilities>
+  <suAI_Ability>
+   <UA>
+    <ClassName>NewAbility</ClassName>
+    <RefName>MC_aFireball_2</RefName>
+   </UA>
+   <MinTargetAmount>4</MinTargetAmount>
+   <CastingDelay>1</CastingDelay>
+  </suAI_Ability>
+ </Abilities>
+</ua_SingleUnitAI>

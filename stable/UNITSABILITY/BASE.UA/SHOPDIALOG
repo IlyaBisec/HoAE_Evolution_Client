@@ -1,0 +1,31 @@
+<NewMagazine>
+ <ShopCategory>Dialog</ShopCategory>
+ <Name>ShopDialog</Name>
+ <FileID>interf3\</FileID>
+ <SpriteID>-1</SpriteID>
+ <FileID_Char>interf3\</FileID_Char>
+ <FileID_Inv>interf3\</FileID_Inv>
+ <EffectFileID>interf3\</EffectFileID>
+ <EffectSpriteID>-1</EffectSpriteID>
+ <HintName>#HintBuyVillage.NAME</HintName>
+ <Hint>#HintBuyVillage</Hint>
+ <Type>Magazine</Type>
+ <System>true</System>
+ <GroundMD>
+  <UnitType>IteIPot(IT)</UnitType>
+ </GroundMD>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+</NewMagazine>

@@ -1,0 +1,79 @@
+NAME MonUSph
+ICON U_FrnOf17
+ICONEX 0 0 interf3\UnitPortrets\Monster_back 0
+ICONANM 0 0 interf3\UnitPortrets\Monster_back 1 48 1
+ICONANM 0 0 interf3\UnitPortrets\Monster 2 2 0
+!STAND          1 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_attack1.C2M
+ADDHDIR #STAND 0 128
+*REST        5 50 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_stand1.C2M 128 0.0 0.41 100 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_stand2.C2M 128 0.0 1.0  100 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_stand3.C2M 128 0.0 1.0  45 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_stand4.C2M 128 0.0 1.0  40 0.6  Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_stand5.C2M 128 0.0 1.0 
+!MOTION_L      36 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_walk1.C2M
+ADDHDIR #MOTION_L 0 128
+!PSTAND        1  0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_attack1.C2M
+ADDHDIR #PSTAND 0 128 
+!ATTACK        36 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_attack1.C2M
+ADDHDIR #ATTACK 0 128
+!DEATH        77 0.6  Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_death1.C2M
+ADDHDIR #DEATH 0 128
+!CASTPREPARE   36 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_attack1.C2M
+ADDHDIR #CASTPREPARE 0 128
+!CASTDIRECT    36 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_attack1.C2M
+ADDHDIR #CASTDIRECT 0 128
+/!TALK        100 0.6 Models\Units\MonUSph\MonUSphM.C2M Models\Units\MonUSph\MonUSphA_death2.C2M
+/ADDHDIR #TALK 0 128
+GEOMETRY 1 14 35
+SPEEDSCALE 200
+DAMAGE   0 50
+LIFE     1000
+RECTANGLE 0 2 70 100
+ATTACK_RADIUS 0 0 100
+ATTACK_PAUSE 0 0
+SEARCH_ENEMY_RADIUS 500
+DET_RADIUS 0 0 7000
+MATHERIAL 1 BODY
+CANKILL 3 BODY BUILDING WOOD 
+PRICE 2 FOOD 200 COAL 500
+WEAPONKIND 0 magical
+WEAPON 0 UW_Splash30
+BUILDSTAGES 3600
+VISION 1
+STANDGROUND
+INFO 0 28
+VES 30
+MOTIONSTYLE SINGLESTEP
+ROTATE 12
+MOVEBREAK #MOTION_L
+BREAKANIMATION #REST
+BREAKANIMATION #PSTAND
+BREAKANIMATION #STAND
+ADDSHOTRADIUS 30
+PROTECTION 4 chopping 100 magical 0 piercing 100 crushing 100
+SETACTIVEPOINT0 #ATTACK 11
+CANSTORM
+EXPA 450
+COLLISION 32
+SELTYPE SelBig 1 1
+KILLERAWARD             GOLD 200
+KILLERAWARDRANDOM       GOLD 50
+LOWCOLLISION
+ZPOINTS 25 25
+CYLINDER 35 60
+CANTCAPTURE
+USAGE COSTLY
+UNITRADIUS 32
+NO_HUNGRY
+SOUND 5 #DEATH death_sphinx
+SOUND 8 #MOTION_L giant_step
+SOUNDFRAME2 #MOTION_L 26
+!TEMP1  1 36 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP1 0 0 0 1 0
+SOUND 16 #TEMP1 giant_step
+SOUNDFRAME2 #TEMP1 34
+SOUND 11 #ATTACK hit_sphinx
+!TEMP  1 36 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP 0 0 0 1 0
+SOUND2 8 #TEMP attack_sphinx 10
+ShadowScaleX 2.0
+ShadowScaleY 1.5
+NIKAKIXMAM
+TFACTOR FF6F6F6F
+[END]

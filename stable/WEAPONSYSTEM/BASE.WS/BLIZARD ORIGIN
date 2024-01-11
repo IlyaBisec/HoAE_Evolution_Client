@@ -1,0 +1,27 @@
+<WeaponModificator>
+ <Name>Blizard origin</Name>
+ <WPL>
+  <WeaponProcess>
+   <Event>
+    <True></True>
+   </Event>
+   <WeaponModificators>
+    <DrawOne>
+     <Anim>
+      <Scale>1.400000</Scale>
+     </Anim>
+    </DrawOne>
+   </WeaponModificators>
+  </WeaponProcess>
+  <WeaponProcess>
+   <WeaponModificators>
+    <MakeDamage>
+     <InRadius>300</InRadius>
+     <MaxUnits>20</MaxUnits>
+     <DamageBuilding>true</DamageBuilding>
+    </MakeDamage>
+    <SelfMurder></SelfMurder>
+   </WeaponModificators>
+  </WeaponProcess>
+ </WPL>
+</WeaponModificator>

@@ -1,0 +1,39 @@
+<NewAbility>
+ <Name>MC_aHolySpot</Name>
+ <Visible>false</Visible>
+ <FileID>Interf3\abil</FileID>
+ <SpriteID>11</SpriteID>
+ <EffectFileID>Interf3\abil</EffectFileID>
+ <EffectSpriteID>11</EffectSpriteID>
+ <HintName>#SPELL_CELESTIALLIGHT.NAME</HintName>
+ <Hint>#SPELL_CELESTIALLIGHT</Hint>
+ <CastingShotAmount>
+  <Value>
+   <Op>
+    <NumericalConst></NumericalConst>
+   </Op>
+  </Value>
+ </CastingShotAmount>
+ <EffectDuration>
+  <Value>
+   <Op>
+    <NumericalConst>
+     <Value>
+      <Value>5000</Value>
+     </Value>
+    </NumericalConst>
+   </Op>
+  </Value>
+ </EffectDuration>
+ <VisualEffects>
+  <uat_VisualEffect>
+   <StartTime>500</StartTime>
+   <UnlimitDuration>true</UnlimitDuration>
+   <Place>Area center</Place>
+   <Effect>
+    <Scale>4.000000</Scale>
+    <ModelID>Models\Effects\MagicCard\Insects\Insects_eTarget.c2m</ModelID>
+   </Effect>
+  </uat_VisualEffect>
+ </VisualEffects>
+</NewAbility>
