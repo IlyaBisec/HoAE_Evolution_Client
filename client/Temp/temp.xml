@@ -1,1 +1,668 @@
-<></>
+<>
+ <138 BuildingChars>
+  <Scale>1.562500</Scale>
+  <Ability>
+   <AblName>
+    <AbilityName>Bonus Sunduk</AbilityName>
+    <ItemDrop>0</ItemDrop>
+   </AblName>
+   <AblName>
+    <AbilityName>Boots3</AbilityName>
+   </AblName>
+  </Ability>
+ </138 BuildingChars>
+ <590 BuildingChars>
+  <Ability>
+   <AblName>
+    <AbilityName>Money50</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+ </590 BuildingChars>
+ <704 BuildingChars>
+  <Scale>1.226563</Scale>
+ </704 BuildingChars>
+ <131806 BuildingChars>
+  <Scale>1.484375</Scale>
+  <Ability>
+   <AblName>
+    <AbilityName>Money20</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+ </131806 BuildingChars>
+ <227044 BuildingChars>
+  <Scale>1.433594</Scale>
+ </227044 BuildingChars>
+ <227335 UnitChars>
+  <Ability>
+   <AblName></AblName>
+   <AblName></AblName>
+   <AblName>
+    <AbilityName>Bottle9</AbilityName>
+   </AblName>
+  </Ability>
+ </227335 UnitChars>
+ <227367 UnitChars>
+  <Ability>
+   <AblName></AblName>
+   <AblName>
+    <AbilityName>Bottle8</AbilityName>
+    <ItemDrop>10</ItemDrop>
+   </AblName>
+  </Ability>
+ </227367 UnitChars>
+ <548 BuildingChars>
+  <Scale>1.484375</Scale>
+ </548 BuildingChars>
+ <131989 BuildingChars>
+  <TFactor>FF8B8B8B</TFactor>
+ </131989 BuildingChars>
+ <133889 BuildingChars>
+  <Scale>0.730469</Scale>
+ </133889 BuildingChars>
+ <152246 BuildingChars>
+  <Scale>1.011719</Scale>
+  <TFactor>FFB3D2BE</TFactor>
+ </152246 BuildingChars>
+ <212724 BuildingChars>
+  <Scale>1.636719</Scale>
+  <ArtCap[i]>0</ArtCap[i]>
+  <ArtCap[i]>0</ArtCap[i]>
+ </212724 BuildingChars>
+ <51 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </51 UnitChars>
+ <52 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </52 UnitChars>
+ <53 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </53 UnitChars>
+ <54 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </54 UnitChars>
+ <227207 BuildingChars>
+  <Scale>1.246094</Scale>
+  <TFactor>FF978C73</TFactor>
+ </227207 BuildingChars>
+ <227211 BuildingChars>
+  <TFactor>FF848484</TFactor>
+ </227211 BuildingChars>
+ <227213 BuildingChars>
+  <Scale>1.269531</Scale>
+  <Ability>
+   <AblName>
+    <AbilityName>Money20</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+  <TFactor>FF978C73</TFactor>
+ </227213 BuildingChars>
+ <499 UnitChars>
+  <Ability>
+   <AblName></AblName>
+   <AblName>
+    <AbilityName>HA_AtHomeDruids</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+   <AblName>
+    <AbilityName>HA_aHeroLight</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+ </499 UnitChars>
+ <6 BuildingChars>
+  <Scale>1.093750</Scale>
+  <Ability>
+   <AblName>
+    <AbilityName>BottleHP50</AbilityName>
+    <ItemDrop>0</ItemDrop>
+    <PicSprite>148</PicSprite>
+   </AblName>
+   <AblName>
+    <AbilityName>BottleHP100</AbilityName>
+    <ItemDrop>0</ItemDrop>
+   </AblName>
+   <AblName>
+    <AbilityName>BottleDM2</AbilityName>
+    <ItemDrop>0</ItemDrop>
+   </AblName>
+   <AblName>
+    <AbilityName>BottleDM5</AbilityName>
+    <ItemDrop>0</ItemDrop>
+   </AblName>
+  </Ability>
+  <CanBeCaptured>false</CanBeCaptured>
+  <Immortal>false</Immortal>
+ </6 BuildingChars>
+ <13 UnitChars>
+  <Scale>1.003906</Scale>
+ </13 UnitChars>
+ <707 BuildingChars>
+  <Scale>1.617188</Scale>
+ </707 BuildingChars>
+ <708 BuildingChars>
+  <TFactor>FF929292</TFactor>
+ </708 BuildingChars>
+ <718 BuildingChars>
+  <Scale>1.171875</Scale>
+ </718 BuildingChars>
+ <723 BuildingChars>
+  <TFactor>FFA2966A</TFactor>
+ </723 BuildingChars>
+ <724 BuildingChars>
+  <Scale>1.515625</Scale>
+ </724 BuildingChars>
+ <47976 BuildingChars>
+  <Scale>0.503906</Scale>
+ </47976 BuildingChars>
+ <36 UnitChars>
+  <Ability>
+   <AblName></AblName>
+   <AblName></AblName>
+  </Ability>
+ </36 UnitChars>
+ <41 UnitChars>
+  <SearchEnemyRadius>1</SearchEnemyRadius>
+  <AttackTypes>
+   <OneAttStateInfo>
+    <Damage>5</Damage>
+   </OneAttStateInfo>
+  </AttackTypes>
+ </41 UnitChars>
+ <43 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </43 UnitChars>
+ <44 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </44 UnitChars>
+ <45 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </45 UnitChars>
+ <46 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </46 UnitChars>
+ <47 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </47 UnitChars>
+ <48 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </48 UnitChars>
+ <55 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </55 UnitChars>
+ <56 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </56 UnitChars>
+ <705 BuildingChars>
+  <Scale>1.253906</Scale>
+ </705 BuildingChars>
+ <706 BuildingChars>
+  <Scale>1.484375</Scale>
+ </706 BuildingChars>
+ <226993 BuildingChars>
+  <Scale>1.804688</Scale>
+ </226993 BuildingChars>
+ <227258 BuildingChars>
+  <Protection0>0</Protection0>
+  <Protection1>0</Protection1>
+  <Protection3>0</Protection3>
+ </227258 BuildingChars>
+ <48094 BuildingChars>
+  <Scale>0.507813</Scale>
+ </48094 BuildingChars>
+ <684 BuildingChars>
+  <Scale>0.843750</Scale>
+ </684 BuildingChars>
+ <687 BuildingChars>
+  <Ability>
+   <AblName>
+    <AbilityName>Money50</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+   <AblName>
+    <AbilityName>BottleDM5</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+ </687 BuildingChars>
+ <559 BuildingChars>
+  <Scale>2.027344</Scale>
+ </559 BuildingChars>
+ <563 BuildingChars>
+  <Scale>1.492188</Scale>
+ </563 BuildingChars>
+ <564 BuildingChars>
+  <Scale>3.023438</Scale>
+ </564 BuildingChars>
+ <582 BuildingChars>
+  <Ability>
+   <AblName>
+    <AbilityName>Bonus Sunduk</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+   <AblName>
+    <AbilityName>Bottle16</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+  <TFactor>FFEA91B5</TFactor>
+ </582 BuildingChars>
+ <583 BuildingChars>
+  <Ability>
+   <AblName>
+    <AbilityName>Money20</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+ </583 BuildingChars>
+ <227451 UnitChars>
+  <UnitMD>(CAMP)\(UNITS)\DRUUGRL</UnitMD>
+  <Message>(CAMP)\(UNITS)\DRUUGRL.MD.HINT</Message>
+  <LongMessage>(CAMP)\(UNITS)\DRUUGRL.MD.HINT</LongMessage>
+ </227451 UnitChars>
+ <146 BuildingChars>
+  <Ability>
+   <AblName>
+    <AbilityName>Bonus Sunduk</AbilityName>
+    <ItemDrop>0</ItemDrop>
+   </AblName>
+   <AblName>
+    <AbilityName>Bottle6</AbilityName>
+   </AblName>
+  </Ability>
+ </146 BuildingChars>
+ <227045 BuildingChars>
+  <Scale>0.730469</Scale>
+  <TFactor>FF898989</TFactor>
+ </227045 BuildingChars>
+ <227065 BuildingChars>
+  <Scale>1.261719</Scale>
+  <Ability>
+   <AblName>
+    <AbilityName>Bonus Sunduk</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+   <AblName>
+    <AbilityName>Medalion2</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+  <CanBeCaptured>true</CanBeCaptured>
+ </227065 BuildingChars>
+ <227122 BuildingChars>
+  <Scale>1.507813</Scale>
+ </227122 BuildingChars>
+ <523 BuildingChars>
+  <Scale>2.117188</Scale>
+ </523 BuildingChars>
+ <525 BuildingChars>
+  <Scale>2.031250</Scale>
+ </525 BuildingChars>
+ <526 BuildingChars>
+  <Scale>1.578125</Scale>
+ </526 BuildingChars>
+ <545 BuildingChars>
+  <Scale>2.007813</Scale>
+ </545 BuildingChars>
+ <550 BuildingChars>
+  <Scale>1.546875</Scale>
+ </550 BuildingChars>
+ <551 BuildingChars>
+  <Scale>1.457031</Scale>
+ </551 BuildingChars>
+ <49 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </49 UnitChars>
+ <50 UnitChars>
+  <SearchEnemyRadius>100</SearchEnemyRadius>
+  <VisionRange>1</VisionRange>
+ </50 UnitChars>
+ <522 BuildingChars>
+  <Scale>2.011719</Scale>
+ </522 BuildingChars>
+ <518 BuildingChars>
+  <Scale>2.640625</Scale>
+  <TFactor>FF596C98</TFactor>
+ </518 BuildingChars>
+ <521 BuildingChars>
+  <Scale>1.589844</Scale>
+ </521 BuildingChars>
+ <682 BuildingChars>
+  <Ability>
+   <AblName>
+    <AbilityName>Money100</AbilityName>
+    <ItemDrop>10</ItemDrop>
+    <CommonRoomStartParam>0</CommonRoomStartParam>
+    <Name></Name>
+    <PicFile>icons</PicFile>
+    <PicSprite>0</PicSprite>
+    <Hint></Hint>
+    <DeleteAfterUse>false</DeleteAfterUse>
+    <be_Process>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_Process>
+    <be_LeftClick>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_LeftClick>
+    <be_EnterDialog>
+     <CallingFunctionName></CallingFunctionName>
+     <fCreateParamList></fCreateParamList>
+     <InArgList></InArgList>
+     <Name></Name>
+    </be_EnterDialog>
+   </AblName>
+  </Ability>
+ </682 BuildingChars>
+ <683 BuildingChars>
+  <Scale>2.011719</Scale>
+ </683 BuildingChars>
+</>

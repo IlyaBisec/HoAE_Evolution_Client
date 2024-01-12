@@ -86,7 +86,7 @@
  <AllowFormationsStatesProcessing>false</AllowFormationsStatesProcessing>
  <ShowWayOnRoad>false</ShowWayOnRoad>
  <ShowFPS>true</ShowFPS>
- <HintDebugMode>false</HintDebugMode>
+ <HintDebugMode>true</HintDebugMode>
  <StartMode>Perspective</StartMode>
  <ShadowQuality>0</ShadowQuality>
  <AnimQuality>0</AnimQuality>
