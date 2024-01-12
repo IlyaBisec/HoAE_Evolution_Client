@@ -510,9 +510,9 @@
   </Ability>
  </583 BuildingChars>
  <227451 UnitChars>
-  <UnitMD>(CAMP)\(UNITS)\DRUUGRL</UnitMD>
-  <Message>(CAMP)\(UNITS)\DRUUGRL.MD.HINT</Message>
-  <LongMessage>(CAMP)\(UNITS)\DRUUGRL.MD.HINT</LongMessage>
+  <UnitMD>(UNITS)\\DRUUGRL</UnitMD>
+  <Message>(UNITS)\\DRUUGRL.MD.HINT</Message>
+  <LongMessage>(UNITS)\\DRUUGRL.MD.HINT</LongMessage>
  </227451 UnitChars>
  <146 BuildingChars>
   <Ability>
