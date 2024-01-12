@@ -140,6 +140,7 @@
       </Op>
      </Value>
     </Operand>
+    <MinValue>0</MinValue>
    </Operand>
   </mod_ManaMax>
  </Modificators>
