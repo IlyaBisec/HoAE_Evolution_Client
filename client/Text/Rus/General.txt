@@ -430,5 +430,5 @@ CSNORS Не достаточно ресурсов для стрельбы
 #ChatAlly Сообщение для союзников :
 #ChatTitle Удерживайте CTRL для отправки сообщения только союзникам
 
-#COPYRIGHTS2 Heroes of Annihilated Empires Remaster \ RoS and Reborn team, TheBlackHunter.
-#COPYRIGHTS1 Heroes of Annihilated Empires Remaster \ RoS and Reborn team, TheBlackHunter.
+#COPYRIGHTS2 Heroes of Annihilated Empires Evolution \ RoS and Reborn Team.
+#COPYRIGHTS1 Heroes of Annihilated Empires Evolution \ RoS and Reborn Team.
