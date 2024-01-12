@@ -99,6 +99,7 @@
       </Op>
      </Value>
     </Operand>
+    <MinValue>1</MinValue>
    </Operand>
   </mod_LifeMax>
   <mod_ManaMax>
@@ -114,6 +115,7 @@
       </Op>
      </Value>
     </Operand>
+    <MinValue>0</MinValue>
    </Operand>
   </mod_ManaMax>
   <mod_Vision>

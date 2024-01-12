@@ -43,6 +43,7 @@
       </Op>
      </Value>
     </Operand>
+    <MinValue>0</MinValue>
    </Operand>
   </mod_ManaMax>
   <mod_LifeMax>
@@ -59,6 +60,7 @@
       </Op>
      </Value>
     </Operand>
+    <MinValue>1</MinValue>
    </Operand>
   </mod_LifeMax>
  </Modificators>

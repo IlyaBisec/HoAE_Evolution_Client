@@ -1,4 +1,11 @@
 <cvi_PlayerData>
- <CurAkaID>-1</CurAkaID>
+ <Aka>
+  <cvi_SinglePlayerData>
+   <NDoneMission>
+    <e0>0</e0>
+   </NDoneMission>
+   <PlayerName>Игрок</PlayerName>
+  </cvi_SinglePlayerData>
+ </Aka>
  <PlayerNick>Igrok</PlayerNick>
 </cvi_PlayerData>

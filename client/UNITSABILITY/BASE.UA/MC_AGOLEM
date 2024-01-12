@@ -173,6 +173,7 @@
       </Op>
      </Value>
     </Operand>
+    <MinValue>1</MinValue>
    </Operand>
   </mod_LifeMax>
  </Modificators>
