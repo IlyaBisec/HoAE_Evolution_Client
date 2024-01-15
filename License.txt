@@ -1,8 +1,9 @@
-HoAE Evolution, Ilya '-Sadochok-' Borisov, modification to the game Heroes of Annihilation Empires. 
+(c) HoAE Evolution, Ilya '-Sadochok-' Borisov, modification to the game Heroes of Annihilation Empires. 
 
 You can create any modifications based on the mod by following the following rules: 
 
-	- Specifying this license file; 
+	- Specifying this license file(copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software); 
 	- Specifying the authorship of the mod by the HoAE Evolution Team; 
 	- Distribution on a non-commercial basis.
 	
