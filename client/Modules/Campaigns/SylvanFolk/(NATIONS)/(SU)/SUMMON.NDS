@@ -1,0 +1,36 @@
+[MEMBERS]
+SumUBan(SU) SumUBan
+SumUDae(SU) SumUDae
+SumUDrc(SU) SumUDrc
+SumUHar(SU) SumUHar
+SumUMaE(SU) SumUMaE
+SumURat(SU) SumURat
+SumURatS(SU) SumURatS
+SumURid(SU) SumURid
+
+[FIXED_PRODUCE]
+[UNITLOCK]
+[CANSETDEST]
+         
+[ENABLED]
+
+[UPGRADE]
+[UPGRADEPLACE]
+[UPGRADEENABLE]
+[DISABLED_UPGRADES]
+[AUTOUPGRADE]
+[PRIVATE]
+[ACCESSCONTROL]
+[COUNTRY]
+SUMMON 9
+#Units
+SumURat(SU)
+SumURatS(SU)
+SumUDrc(SU)
+SumURid(SU)
+SumUDae(SU)
+SumUBan(SU)
+SumUMaE(SU)
+SumUHar(SU)
+
+[END]

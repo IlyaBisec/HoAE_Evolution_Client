@@ -1,0 +1,32 @@
+[MEMBERS]
+UdeUGrN(UD)   UdeUGrN
+UdeUGra(UD)   UdeUGra
+UdeUGho(UD)   UdeUGho
+UdeUBon(UD)   UdeUBon
+UdeUBan(UD)   UdeUBan
+UndBCa1{UD)   UndBCa1
+UndBCa2{UD)   UndBCa2
+UndBCa3{UD)   UndBCa3
+UndBCa4{UD)   UndBCa4
+Ud1UGra(UD)   Ud1UGra
+[ENABLED]
+UdeUGra(UD)
+UdeUGho(UD)
+UdeUBon(UD)
+UdeUBan(UD)
+[COUNTRY]
+UDEADS 13
+#new 
+UdeUGrN(UD)
+#units
+UdeUGra(UD)
+UdeUGho(UD)
+UdeUBon(UD)
+UdeUBan(UD)
+Ud1UGra(UD)
+#catapults
+UndBCa1{UD)
+UndBCa2{UD) 
+UndBCa3{UD) 
+UndBCa4{UD)
+[END]

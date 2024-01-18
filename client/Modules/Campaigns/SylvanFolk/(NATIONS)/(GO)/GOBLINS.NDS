@@ -1,0 +1,42 @@
+[MEMBERS]
+GobUChi(GO)   GobUChi
+GobUGob(GO)   GobUGob
+GobUSha(GO)   GobUSha
+GobUWar(GO)   GobUWar
+GobBAlt(GO)   GobBAlt
+GobBFir(GO)   GobBFir
+GobBGa1(GO)   GobBGa1
+GobBGa2(GO)   GobBGa2
+GobBHut(GO)   GobBHut
+GobBSha(GO)   GobBSha
+GobBSol(GO)   GobBSol
+Go01Sha(GO)   Go01Sha
+GoM1Sha(MI) GoM1Sha
+GoM1Chi(MI) GoM1Chi
+[FIXED_PRODUCE]
+
+[ENABLED]
+GobUGob(GO)
+GobUSha(GO)
+GobUWar(GO)
+GobUChi(GO)
+
+[COUNTRY]
+GOBLINS 16
+#units
+GobUChi(GO)
+GobUGob(GO)
+GobUSha(GO)
+GobUWar(GO)
+#Buildings
+GobBAlt(GO)
+GobBFir(GO)
+GobBGa1(GO)
+GobBGa2(GO)
+GobBHut(GO)
+GobBSha(GO)
+GobBSol(GO)
+#Missions
+GoM1Sha(MI)
+GoM1Chi(MI)
+[END]

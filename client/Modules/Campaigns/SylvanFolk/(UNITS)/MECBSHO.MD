@@ -1,0 +1,58 @@
+NAME MecBSho
+
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+
+ICONEX 0 0 interf3\PortretsBuilding\MchStrel 0
+ICONANM 0 0 interf3\PortretsBuilding\MchStrel 1 153 1
+
+LOCATION -0 -0 800 800                       
+!STANDLO      1 0.42 Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m
+!BUILDLO_0    1 0.42 Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m
+!BUILDLO_1    1 0.42 Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m
+!BUILDLO_2    1 0.42 Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m
+!BUILDLO_3    1 0.42 Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m Models\Bld\MECH\Strelbishe3\512x512\Strelbishe3.c2m
+MOVEXY #STANDLO   -75 5
+MOVEXY #BUILDLO_0 -75 5
+MOVEXY #BUILDLO_1 -75 5
+MOVEXY #BUILDLO_2 -75 5
+MOVEXY #BUILDLO_3 -75 5
+BORNPOINTS3 5  20 -47 4   52 -27 4    52 0 4   0 40 4   0 135 0
+ADDHDIR #STANDLO 0 160
+ADDHDIR #BUILDLO_0 0 160
+ADDHDIR #BUILDLO_1 0 160
+ADDHDIR #BUILDLO_2 0 160
+ADDHDIR #BUILDLO_3 0 160
+GEOMETRY 1 199 32
+LIFE     5500
+PRICE 2 STONE 300 COAL 350
+COSTPERCENT 200
+BUILDSTAGES 25
+PROTECTION 3 piercing 15 magical 0 chopping 15
+MATHERIAL 1 BUILDING
+RECTANGLE    0 100 140 100
+EXPLMEDIA BUILDING 5
+BUILDBAR -13 0 13 0
+VISION 0
+ROUNDLOCK 6
+3DBARS 1 -40 0 50 50 70
+ADDSHOTRADIUS 125
+SELTYPE SelBigBuilding 1.6 1.6
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_mechanic
+DEATH_SOUND building_death
+CYLINDER 70 100
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+MFARM 50
+ShadowScaleX 2.3
+ShadowScaleY 1.0
+TFACTOR FF919191
+[END]

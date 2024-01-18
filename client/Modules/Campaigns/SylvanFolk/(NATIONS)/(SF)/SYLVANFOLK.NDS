@@ -1,0 +1,1133 @@
+[MEMBERS]
+// SYLVANFOLK.NDS
+
+// Decorations
+house2(SF) house2
+Refugies_Camp_0061(SF) Refugies_Camp_0061
+Refugies_Camp_0022(SF) Refugies_Camp_0022
+Refugies_Camp_0021(SF) Refugies_Camp_0021
+NUArchway000(SF) NUArchway000
+NUArchway001(SF) NUArchway001
+NUArchway002(SF) NUArchway002
+NUArchway003(SF) NUArchway003
+NUArchway004(SF) NUArchway004
+NUArchway007(SF) NUArchway007
+NUArchway008(SF) NUArchway008
+NUArchway009(SF) NUArchway009
+NUArchway010(SF) NUArchway010
+NUArchway011(SF) NUArchway011
+NUArchway012(SF) NUArchway012
+NUArchway013(SF) NUArchway013
+NUArchway014(SF) NUArchway014
+NUArchway015(SF) NUArchway015
+NUCrypt001(SF) NUCrypt001
+NUCrypt002(SF) NUCrypt002
+NUGrave001(SF) NUGrave001
+NUGrave002(SF) NUGrave002
+NUGrave003(SF) NUGrave003
+NUGrave004(SF) NUGrave004
+NUGrave005(SF) NUGrave005
+NUGrave006(SF) NUGrave006
+NUGrave007(SF) NUGrave007
+NUGrave008(SF) NUGrave008
+NUGrave009(SF) NUGrave009
+NUGrave010(SF) NUGrave010
+NUShrine001(SF) NUShrine001
+NUShrine002(SF) NUShrine002
+NUTower001(SF) NUTower001
+NUTower002(SF) NUTower002
+NUTower003(SF) NUTower003
+NUWell001(SF) NUWell001
+Sol_Column_001(SF) Sol_Column_001
+Sol_Column_0021(SF) Sol_Column_0021
+Sol_Column_0022(SF) Sol_Column_0022
+Sol_Column_003(SF) Sol_Column_003
+Sol_Column_004(SF) Sol_Column_004
+Sol_Column_006(SF) Sol_Column_006
+Sol_Column_007(SF) Sol_Column_007
+Sol_Column_008(SF) Sol_Column_008
+Sol_Sphinx_001(SF) Sol_Sphinx_001
+Sol_Sphinx_002(SF) Sol_Sphinx_002
+Sol_Sphinx_003(SF) Sol_Sphinx_003
+Sol_Sphinx_004(SF) Sol_Sphinx_004
+Sol_Stairs_001(SF) Sol_Stairs_001
+Sol_Stairs_002(SF) Sol_Stairs_002
+Sol_Stairs_003(SF) Sol_Stairs_003
+SpiderDenNecro(SF) SpiderDenNecro
+SpiderTerrain(SF) SpiderTerrain
+SpiderTerrain2(SF) SpiderTerrain2
+EffSkyBox1(SF) EffSkyBox1 
+Sol_Adobe_001(SF) Sol_Adobe_001
+Sol_Adobe_002(SF) Sol_Adobe_002
+Sol_Adobe_003(SF) Sol_Adobe_003
+Sol_Adobe_004(SF) Sol_Adobe_004
+Sol_Barracs_002(SF) Sol_Barracs_002
+Sol_Barracs_003(SF) Sol_Barracs_003
+Sol_Shipyard_001(SF) Sol_Shipyard_001
+Sol_Shipyard_003(SF) Sol_Shipyard_003
+Sol_Tample_001(SF) Sol_Tample_001
+Sol_Tample_003(SF) Sol_Tample_003
+Sol_Tower_001(SF) Sol_Tower_001
+ElvenTowerCrushed001(SF) ElvenTowerCrushed001
+ElveTowerCrushed002(SF) ElveTowerCrushed002
+Ruins0011(SF) Ruins0011
+Ruins0012(SF) Ruins0012
+Ruins0013(SF) Ruins0013
+Ruins0014(SF) Ruins0014
+Ruins0015(SF) Ruins0015
+Ruins0016(SF) Ruins0016
+Ruins0021(SF) Ruins0021
+Ruins0022(SF) Ruins0022
+Ruins0023(SF) Ruins0023
+Ruins0024(SF) Ruins0024
+Ruins0031(SF) Ruins0031
+Ruins0032(SF) Ruins0032
+Ruins0033(SF) Ruins0033
+Ruins0034(SF) Ruins0034
+Ruins0041(SF) Ruins0041
+Ruins0042(SF) Ruins0042
+Ruins0043(SF) Ruins0043
+Ruins0051(SF) Ruins0051
+Ruins0052(SF) Ruins0052
+Ruins0053(SF) Ruins0053
+Ruins0054(SF) Ruins0054
+RuinsElvenCityCrushed006(SF) RuinsElvenCityCrushed006
+RuinsElvenCityCrushed0062(SF) RuinsElvenCityCrushed0062
+RuinsElvenCityCrushed008(SF) RuinsElvenCityCrushed008
+RuinsElvenCityCrushed0091(SF) RuinsElvenCityCrushed0091
+RuinsElvenCityCrushed0092(SF) RuinsElvenCityCrushed0092
+RuinsElvenCityCrushed010(SF) RuinsElvenCityCrushed010
+RuinsElvenCityCrushed011(SF) RuinsElvenCityCrushed011
+RuinsElvenCityCrushed012(SF) RuinsElvenCityCrushed012
+Sol_Adobe_001(SF) Sol_Adobe_001
+1Puits_gauche_R(SF) 1Puits_gauche_R
+1Puits_right_R(SF) 1Puits_right_R
+2Puits_plein_L(SF) 2Puits_plein_L
+2Puits_plein_R(SF) 2Puits_plein_R
+3Puits_gauche_R(SF) 3Puits_gauche_R
+Altar_necro_attack_R(SF) Altar_necro_attack_R
+Altar_necro_defence_R(SF) Altar_necro_defence_R
+Artf_Seller_house(SF) Artf_Seller_house
+Barrels_A_001(SF) Barrels_A_001
+BlendmenHut001(SF) BlendmenHut001
+BlendmenHut002(SF) BlendmenHut002
+BlendmenHut003(SF) BlendmenHut003
+CaveHouse001(SF) CaveHouse001
+CaveHouse002(SF) CaveHouse002
+CaveHouse003(SF) CaveHouse003
+CaveHouse004(SF) CaveHouse004
+CaveHouse007(SF) CaveHouse007
+CaveHouse008(SF) CaveHouse008
+CaveHouse009(SF) CaveHouse009
+CaveHouse010(SF) CaveHouse010
+CaveHouse013(SF) CaveHouse013
+CaveHouse014(SF) CaveHouse014
+CaveHouse017(SF) CaveHouse017
+CaveHouse024(SF) CaveHouse024
+CaveHouse025(SF) CaveHouse025
+CaveHouse026(SF) CaveHouse026
+CaveHouse028(SF) CaveHouse028
+CaveHouse029(SF) CaveHouse029
+CaveHouse030(SF) CaveHouse030
+CaveHouse031(SF) CaveHouse031
+CaveHouse032(SF) CaveHouse032
+Elven_Hut_001(SF) Elven_Hut_001
+Elven_Hut_002(SF) Elven_Hut_002
+Elven_Hut_003(SF) Elven_Hut_003
+Garpies(SF) Garpies
+Gate_001(SF) Gate_001
+Grave_001(SF) Grave_001
+Hideout_002(SF) Hideout_002
+Hideout_003(SF) Hideout_003
+Hollow_Trunk_001(SF) Hollow_Trunk_001
+Kobold_Camp_Dweller_Hut_2(SF) Kobold_Camp_Dweller_Hut_2
+Kobold_Camp_Shaman_Lair_Map(SF) Kobold_Camp_Shaman_Lair_Map
+Kobold_Camp_Warchif_Adobe_Map(SF) Kobold_Camp_Warchif_Adobe_Map
+Kobold_Camp_Warrior_Pit(SF) Kobold_Camp_Warrior_Pit
+Kobold_Camp_Warrior_Quater(SF) Kobold_Camp_Warrior_Quater
+Kobold_Camp_Watching_Tower(SF) Kobold_Camp_Watching_Tower
+Kobold_Totem_001(SF) Kobold_Totem_001
+Kobold_Totem_002(SF) Kobold_Totem_002
+Kobold_Totem_003(SF) Kobold_Totem_003
+Kobold_Totem_004(SF) Kobold_Totem_004
+Large_Teleporter_001(SF) Large_Teleporter_001
+Large_Teleporter_002(SF) Large_Teleporter_002
+Lighthouse_001(SF) Lighthouse_001
+livre_necro_droit_R(SF) livre_necro_droit_R
+livre_necro_gauche_R(SF) livre_necro_gauche_R
+Necro_Tavern_001(SF) Necro_Tavern_001
+NecroTower001(SF) NecroTower001
+ResourseMerchant(SF) ResourseMerchant
+ScoarchedHut001(SF) ScoarchedHut001
+ScoarchedHut002(SF) ScoarchedHut002
+shipyard(SF) shipyard
+Shipyard001(SF) Shipyard001
+Small_Teleporter_001(SF) Small_Teleporter_001
+Small_Teleporter_002(SF) Small_Teleporter_002
+TOur_Vent_droit_R(SF) TOur_Vent_droit_R
+TOur_Vent_R(SF) TOur_Vent_R
+troll_house(SF) troll_house
+Wagon_A_001(SF) Wagon_A_001
+Wagon_A_002(SF) Wagon_A_002
+Wagon_B_001(SF) Wagon_B_001
+Wagon_B_002(SF) Wagon_B_002
+Well_A_001(SF)  Well_A_001
+Well_B_001(SF) Well_B_001
+Well_C_001(SF) Well_C_001
+Wheelbarrow_A_001(SF) Wheelbarrow_A_001
+Wheelbarrow_A_002(SF) Wheelbarrow_A_002
+
+// Blindmans
+BliUBli(SF) BliUBli
+BliUChi(SF) BliUChi
+
+// Draconides
+DrcUChi(SF)  DrcUChi
+DrcUDra(SF)  DrcUDra
+DrcUWar(SF)  DrcUWar
+Drc1aChi(SF)  Drc1aChi
+Drc1aWar(SF)  Drc1aWar
+DrcUChiZ(SF)  DrcUChiZ
+
+// Devils
+DevUDae(SF)  DevUDae
+DevUDev(SF)  DevUDev
+DevUHel(SF)  DevUHel
+DevULes(SF)  UdeUImp
+Dev1Hel(SF)  Dev1Hel
+
+// Dragons
+DraUDrB(SF)    DraUDrB
+DraUDrG(SF)    DraUDrG
+DraUDrR(SF)    DraUDrR
+DraUDrR1(SF)    DraUDrR1
+DraUZZZ(SF)    DraUZZZ
+
+// PLAYBLE NATIONS
+// Druids
+DruHFat(SF) DruHFat
+DruHTan(SF) DruHTan
+DruHAma(SF) DruHAma
+DruHArc(SF) DruHArc
+DruHDru(SF) DruHDru
+DruHArs(SF) DruHArs
+DruSBo1(SF) DruSBo1
+DruSBo2(SF) DruSBo2
+DruSBo20(SF) DruSBo20
+DruSSai(SF) DruSSai
+DruUArc(SF) DruUArc
+DruUCen(SF) DruUCen
+DruUDru(SF) DruUDru
+DruUDry(SF) DruUDry
+DruUFai(SF) DruUFai
+DruUGri(SF) DruUGri
+DruUPeg(SF) DruUPeg
+DruUPeg2(SF) DruUPeg2
+DruUPik(SF) DruUPik
+DruUTre(SF) DruUTre
+DruUUni(SF) DruUUni
+DruBElf(SF) DruBElf
+DruBAca(SF) DruBAca
+DruBAlt(SF) DruBAlt
+DruBAlt2(SF) DruBAlt2
+DruBCen(SF) DruBCen
+DruBGri(SF) DruBGri
+DruBPeg(SF) DruBPeg
+DruBShi(SF) DruBShi
+DruBSto(SF) DruBSto
+DruBTow(SF) DruBTow
+DruBTre(SF) DruBTre
+DruBCry(SF) DruBCry
+DruBOre(SF) DruBOre
+DruBCry1(SF) DruBCry1
+DruBCry2(SF) DruBCry2
+DruBCry3(SF) DruBCry3
+DruBCry4(SF) DruBCry4
+DruBCry5(SF) DruBCry5
+DruBCry6(SF) DruBCry6
+DruBOre1(SF) DruBOre1
+DruBOre2(SF) DruBOre2
+DruBOre3(SF) DruBOre3
+DruBOre4(SF) DruBOre4
+DruBOre5(SF) DruBOre5
+DruBOre6(SF) DruBOre6
+DruBHou(SF) DruBHou
+DruBHal(SF) DruBHal
+DruBApl(SF) DruBApl
+DruBWal(SF) DruBWal
+DruBTww(SF) DruBTww
+DruBGat(SF) DruBGat
+DruBBas(SF) DruBBas
+DruHElh(SF) DruHElh
+DruBTo1(SF) DruBTo1
+DruBTo2(SF) DruBTo2
+DruBTo3(SF) DruBTo3
+Tower_Big(SF) Tower_Big
+DruHWar(SF) DruHWar
+DruUNC1(SF) DruUNC1
+DruUNC2(SF) DruUNC2
+DruUNC3(SF) DruUNC3
+DruUNM1(SF) DruUNM1
+DruUNM2(SF) DruUNM2
+DruUNM3(SF) DruUNM3
+DruUNW1(SF) DruUNW1
+DruUNW2(SF) DruUNW2
+DruUNW3(SF) DruUNW3
+MisBCo1(SF) MisBCo1
+MisBCo2(SF) MisBCo2
+DruBWalM(SF) DruBWalMis
+DruBTwwM(SF) DruBTwwMis
+DruBGatM(SF) DruBGatMis
+DruBBasM(SF) DruBBasMis
+DruSBo10(SF) DruSBo10
+DruHLana(SF) DruHLana
+DrM4Dru(SF) DrM4Dru
+SumUBan(SF) SumUBan
+SumUDae(SF) SumUDae
+SumUDrc(SF) SumUDrc
+SumUHar(SF) SumUHar
+SumUMaE(SF) SumUMaE
+SumURat(SF) SumURat
+SumURid(SF) SumURid
+
+[FIXED_PRODUCE]
+DruUFai(SF)     16
+DruBHal(SF)     0 0 A
+DruBHou(SF)     0 1 A
+DruBApl(SF)     1 0 A
+DruBCry(SF)     1 1 A
+DruBOre(SF)     1 3 A
+
+DruBElf(SF)     2 0 A
+DruBAca(SF)     2 1 A
+
+DruBCen(SF)     3 0 A
+DruBSto(SF)     3 1 A
+
+DruBPeg(SF)     4 1 A
+DruBShi(SF)     4 0 A
+
+DruBGri(SF)     5 1 A
+DruBTre(SF)     5 0 A
+
+DruBTow(SF)     6 0 A
+DruBWal(SF)     6 1 A
+
+DruBAlt(SF)     7 0 A
+
+DruBBas(SF)     1
+DruBGat(SF)     2 0 A
+
+DruBHal(SF)      2
+DruUFai(SF)     0 0 A
+DruUDry(SF)     1 0 A
+
+DruBElf(SF)      2
+DruUArc(SF)     0 0 A     
+DruUPik(SF)     1 0 A
+
+DruBCen(SF)      1
+DruUCen(SF)     0 0 A
+
+DruBTre(SF)      2
+DruUTre(SF)     0 0 A
+DruUUni(SF)     1 0 A
+
+DruBSto(SF)      1
+DruUDru(SF)     0 0 A
+
+DruBGri(SF)      1
+DruUGri(SF)     0 0 A
+DruUDru(SF)     0 0 A
+
+DruBPeg(SF)      1
+DruUPeg(SF)     0 0 A
+DruUGri(SF)     0 0 A
+DruUDru(SF)     0 0 A
+
+DruBAlt(SF)      7
+SumUBan(SF)      0 0 A
+SumUDae(SF)      1 0 A
+SumUDrc(SF)      2 0 A
+SumUHar(SF)      3 0 A
+SumUMaE(SF)      4 0 A
+SumURat(SF)      5 0 A
+SumURid(SF)      6 0 A
+
+DruBShi(SF)      3
+DruSBo1(SF)      0 0 A
+DruSBo2(SF)      1 0 A
+DruSSai(SF)      2 0 A
+
+
+[UNITLOCK]
+DruHArc(SF) 1 DruHArc(SF) 
+DruBAlt(SF) 1 DruBAlt(SF)
+
+[CANSETDEST]
+DruBPeg(SF)      
+DruBElf(SF)      
+DruBCen(SF)      
+DruBAca(SF)      
+DruBAlt(SF)      
+DruBShi(SF)      
+DruBTre(SF)      
+DruBSto(SF)      
+DruBGri(SF)      
+DruBHal(SF)
+DruBHou(SF)
+
+
+[ENABLED]
+BliUBli(SF)
+BliUChi(SF)
+
+DrcUChi(SF)
+DrcUDra(SF)
+DrcUWar(SF)
+
+DevUDae(SF)
+DevUDev(SF)
+DevUHel(SF)
+DevULes(SF)
+
+DruSBo1(SF)
+DruSBo2(SF)
+DruSSai(SF)
+DruBWal(SF)
+DruBTww(SF)
+DruBGat(SF)
+DruBBas(SF)
+DruUArc(SF)
+DruUDry(SF)
+DruUDru(SF)
+DruUFai(SF)
+DruUCen(SF)
+DruUPik(SF)
+DruUPeg(SF)
+DruUPeg2(SF)
+DruUTre(SF)
+DruUGri(SF)
+DruUUni(SF)
+DruBPeg(SF)
+DruBElf(SF)
+DruBCen(SF)
+DruBAca(SF)
+DruBAlt(SF)
+DruBAlt2(SF)
+DruBShi(SF)
+DruBTre(SF)
+DruBTow(SF)
+DruBSto(SF)
+DruBGri(SF)
+DruBHal(SF)
+DruHArc(SF)
+DruBHou(SF) 
+DruBCry(SF)
+DruBHou(SF)
+DruBApl(SF)
+DruBOre(SF)
+SumUBan(SF)
+SumUDae(SF)
+SumUDrc(SF)
+SumUHar(SF)
+SumUMaE(SF)
+SumURat(SF)
+SumURid(SF)
+
+
+[UPGRADE]
+DruUPik(SF)A PICKMAN_A01 #POSITION 1 2 #LEVEL 2 DruUPik(SF)ATTACK1 #COST 1 GOLD 100 #TIME 500
+        DAMAGE WEAPONKIND piercing DruUPik(SF) +1
+DruUPik(SF)D PICKMAN_D01 #POSITION 1 3 #LEVEL 2 DruUPik(SF)SHIELD1 #COST 1 GOLD 100 #TIME 500
+	PROTECTION GRP 4 piercing crushing chopping magical DruUPik(SF) +1
+
+
+SUPER(SF)1 SUPERUPG01 #POSITION 2 3 #LEVEL 2 SUPER(SF)1 #COST 2 COAL 420 IRON 420 #TIME 1000
+        DAMAGE WEAPONKIND crushing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAM(SF)1 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND magical GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAC(SF)1 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND chopping GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAP(SF)1 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND piercing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAD(SF)1 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        PROTECTION GRP 4 piercing crushing chopping magical GRP 37 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruBElf(SF) DruBAca(SF) DruBAlt(SF) DruBCen(SF) DruBGri(SF) DruBPeg(SF) DruBShi(SF) DruBSto(SF) DruBTow(SF) DruBTre(SF) DruBCry(SF) DruBOre(SF) DruBCry(SF) DruBHou(SF) DruBHal(SF) DruBApl(SF) DruBWal(SF) DruBTww(SF) DruBGat(SF) DruBBas(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAS(SF)1 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        SPEED GRP 13 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) 107% 
+
+SUPER(SF)2 SUPERUPG02 #POSITION 2 3 #LEVEL 3 SUPER(SF)1 #COST 2 COAL 840 IRON 840 #TIME 1000
+        DAMAGE WEAPONKIND crushing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAM(SF)2 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND magical GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAC(SF)2 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND chopping GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAP(SF)2 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND piercing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAD(SF)2 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        PROTECTION GRP 4 piercing crushing chopping magical GRP 37 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruBElf(SF) DruBAca(SF) DruBAlt(SF) DruBCen(SF) DruBGri(SF) DruBPeg(SF) DruBShi(SF) DruBSto(SF) DruBTow(SF) DruBTre(SF) DruBCry(SF) DruBOre(SF) DruBCry(SF) DruBHou(SF) DruBHal(SF) DruBApl(SF) DruBWal(SF) DruBTww(SF) DruBGat(SF) DruBBas(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAS(SF)2 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        SPEED GRP 13 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) 107% 
+
+SUPER(SF)3 SUPERUPG03 #POSITION 2 3 #LEVEL 4 SUPER(SF)1 #COST 2 COAL 1260 IRON 1260 #TIME 1000
+        DAMAGE WEAPONKIND crushing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAM(SF)3 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND magical GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAC(SF)3 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND chopping GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAP(SF)3 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND piercing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAD(SF)3 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        PROTECTION GRP 4 piercing crushing chopping magical GRP 37 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruBElf(SF) DruBAca(SF) DruBAlt(SF) DruBCen(SF) DruBGri(SF) DruBPeg(SF) DruBShi(SF) DruBSto(SF) DruBTow(SF) DruBTre(SF) DruBCry(SF) DruBOre(SF) DruBCry(SF) DruBHou(SF) DruBHal(SF) DruBApl(SF) DruBWal(SF) DruBTww(SF) DruBGat(SF) DruBBas(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAS(SF)3 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        SPEED GRP 13 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) 107% 
+
+SUPER(SF)4 SUPERUPG04 #POSITION 2 3 #LEVEL 5 SUPER(SF)1 #COST 2 COAL 1680 IRON 1680 #TIME 1000
+        DAMAGE WEAPONKIND crushing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAM(SF)4 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND magical GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAC(SF)4 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND chopping GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAP(SF)4 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND piercing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAD(SF)4 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        PROTECTION GRP 4 piercing crushing chopping magical GRP 37 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruBElf(SF) DruBAca(SF) DruBAlt(SF) DruBCen(SF) DruBGri(SF) DruBPeg(SF) DruBShi(SF) DruBSto(SF) DruBTow(SF) DruBTre(SF) DruBCry(SF) DruBOre(SF) DruBCry(SF) DruBHou(SF) DruBHal(SF) DruBApl(SF) DruBWal(SF) DruBTww(SF) DruBGat(SF) DruBBas(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAS(SF)4 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        SPEED GRP 13 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) 107% 
+
+SUPER(SF)5 SUPERUPG05 #POSITION 2 3 #LEVEL 6 SUPER(SF)1 #COST 2 COAL 2100 IRON 2100 #TIME 1000
+        DAMAGE WEAPONKIND crushing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAM(SF)5 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND magical GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAC(SF)5 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND chopping GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAP(SF)5 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        DAMAGE WEAPONKIND piercing GRP 17 DruUArc(SF) DruUCen(SF) DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAD(SF)5 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        PROTECTION GRP 4 piercing crushing chopping magical GRP 37 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruBElf(SF) DruBAca(SF) DruBAlt(SF) DruBCen(SF) DruBGri(SF) DruBPeg(SF) DruBShi(SF) DruBSto(SF) DruBTow(SF) DruBTre(SF) DruBCry(SF) DruBOre(SF) DruBCry(SF) DruBHou(SF) DruBHal(SF) DruBApl(SF) DruBWal(SF) DruBTww(SF) DruBGat(SF) DruBBas(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) +1
+SAS(SF)5 SUPER1 #POSITION 1 4 #LEVEL 2 SUPER(SF)1 #COST 1 COAL 0 #TIME 1000
+        SPEED GRP 13 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF) DruSBo1(SF) DruSBo2(SF) DruSSai(SF) 107% 
+
+DruUArc(SF)ATTACK1 LUTHNIK_A01 #POSITION 0 2 #LEVEL 2 DruUArc(SF)ATTACK1 #COST 1 IRON 200 #TIME 3000
+        DAMAGE WEAPONKIND piercing DruUArc(SF) +2
+DruUArc(SF)ATTACK2 LUTHNIK_A02 #POSITION 0 2 #LEVEL 3 DruUArc(SF)ATTACK2 #COST 1 IRON 1100 #TIME 3500
+        DAMAGE WEAPONKIND piercing DruUArc(SF) +2
+DruUArc(SF)ATTACK3 LUTHNIK_A03 #POSITION 0 2 #LEVEL 4 DruUArc(SF)ATTACK3 #COST 1 IRON 1500 #TIME 4000
+        DAMAGE WEAPONKIND piercing DruUArc(SF) +3
+DruUArc(SF)SHIELD1 LUTHNIK_D01 #POSITION 0 3 #LEVEL 2 DruUArc(SF)SHIELD1 #COST 1 FOOD 500 #TIME 400
+	PROTECTION GRP 4 piercing crushing chopping magical DruUArc(SF) +1
+DruUArc(SF)SHIELD2 LUTHNIK_D02 #POSITION 0 3 #LEVEL 3 DruUArc(SF)SHIELD2 #COST 1 FOOD 1000 #TIME 400
+	PROTECTION GRP 4 piercing crushing chopping magical DruUArc(SF) +2
+DruUArc(SF)SHIELD3 LUTHNIK_D03 #POSITION 0 3 #LEVEL 4 DruUArc(SF)SHIELD3 #COST 1 FOOD 1800 #TIME 400
+	PROTECTION GRP 4 piercing crushing chopping magical DruUArc(SF) +3
+
+DruUPik(SF)ATTACK1 PICKMAN_A01 #POSITION 1 2 #LEVEL 2 DruUPik(SF)ATTACK1 #COST 1 FOOD 400 #TIME 2000
+        DAMAGE WEAPONKIND piercing DruUPik(SF) +5
+DruUPik(SF)ATTACK2 PICKMAN_A02 #POSITION 1 2 #LEVEL 3 DruUPik(SF)ATTACK2 #COST 1 FOOD 900 #TIME 2500
+        DAMAGE WEAPONKIND piercing DruUPik(SF) +5
+DruUPik(SF)ATTACK3 PICKMAN_A03 #POSITION 1 2 #LEVEL 4 DruUPik(SF)ATTACK3 #COST 1 FOOD 2000 #TIME 3000
+        DAMAGE WEAPONKIND piercing DruUPik(SF) +5
+DruUPik(SF)SHIELD1 PICKMAN_D01 #POSITION 1 3 #LEVEL 2 DruUPik(SF)SHIELD1 #COST 1 IRON 350 #TIME 1500
+	PROTECTION GRP 4 piercing crushing chopping magical DruUPik(SF) +1
+DruUPik(SF)SHIELD2 PICKMAN_D02 #POSITION 1 3 #LEVEL 3 DruUPik(SF)SHIELD2 #COST 1 IRON 800 #TIME 2500
+	PROTECTION GRP 4 piercing crushing chopping magical DruUPik(SF) +2
+DruUPik(SF)SHIELD3 PICKMAN_D03 #POSITION 1 3 #LEVEL 4 DruUPik(SF)SHIELD3 #COST 1 IRON 1200 #TIME 3000
+	PROTECTION GRP 4 piercing crushing chopping magical DruUPik(SF) +3
+
+DruUCen(SF)ATTACK1 CENTAUR_A01 #POSITION 0 2 #LEVEL 2 DruUCen(SF)ATTACK1 #COST 1 COAL 200 #TIME 1500
+        DAMAGE WEAPONKIND crushing DruUCen(SF) +1
+DruUCen(SF)ATTACK2 CENTAUR_A02 #POSITION 0 2 #LEVEL 3 DruUCen(SF)ATTACK2 #COST 1 COAL 500 #TIME 2000
+        DAMAGE WEAPONKIND crushing DruUCen(SF) +2
+DruUCen(SF)ATTACK3 CENTAUR_A03 #POSITION 0 2 #LEVEL 4 DruUCen(SF)ATTACK3 #COST 1 COAL 2300 #TIME 2500
+        DAMAGE WEAPONKIND crushing DruUCen(SF) +3
+DruUCen(SF)SHIELD1 CENTAUR_D01 #POSITION 0 3 #LEVEL 2 DruUCen(SF)SHIELD1 #COST 1 COAL 950 #TIME 1000
+	PROTECTION GRP 4 piercing crushing chopping magical DruUCen(SF) +2
+DruUCen(SF)SHIELD2 CENTAUR_D02 #POSITION 0 3 #LEVEL 3 DruUCen(SF)SHIELD2 #COST 1 COAL 1350 #TIME 2000
+	PROTECTION GRP 4 piercing crushing chopping magical DruUCen(SF) +2
+DruUCen(SF)SHIELD3 CENTAUR_D03 #POSITION 0 3 #LEVEL 4 DruUCen(SF)SHIELD3 #COST 1 COAL 3450 #TIME 2500
+	PROTECTION GRP 4 piercing crushing chopping magical DruUCen(SF) +2
+
+DruUDry(SF)ATTACK1 DRIADA_A01 #POSITION 1 2 #LEVEL 2 DruUDry(SF)ATTACK1 #COST 1 COAL 100 #TIME 1000
+        DAMAGE WEAPONKIND crushing DruUDry(SF) +2
+DruUDry(SF)ATTACK2 DRIADA_A02 #POSITION 1 2 #LEVEL 3 DruUDry(SF)ATTACK2 #COST 1 COAL 500 #TIME 2000
+        DAMAGE WEAPONKIND crushing DruUDry(SF) +4
+DruUDry(SF)ATTACK3 DRIADA_A03 #POSITION 1 2 #LEVEL 4 DruUDry(SF)ATTACK3 #COST 1 COAL 1500 #TIME 3000
+        DAMAGE WEAPONKIND crushing DruUDry(SF) +8
+DruUDry(SF)SHIELD1 DRIADA_D01 #POSITION 1 3 #LEVEL 2 DruUDry(SF)SHIELD1 #COST 1 COAL 500 #TIME 500
+	PROTECTION GRP 4 piercing crushing chopping magical DruUDry(SF) +2
+DruUDry(SF)SHIELD2 DRIADA_D02 #POSITION 1 3 #LEVEL 3 DruUDry(SF)SHIELD2 #COST 1 COAL 1100 #TIME 1000
+	PROTECTION GRP 4 piercing crushing chopping magical DruUDry(SF) +3
+DruUDry(SF)SHIELD3 DRIADA_D03 #POSITION 1 3 #LEVEL 4 DruUDry(SF)SHIELD3 #COST 1 COAL 1600 #TIME 2000
+	PROTECTION GRP 4 piercing crushing chopping magical DruUDry(SF) +4
+
+DruBCry(SF)INSIDE DRUBCRY(UN)INSIDE_01 #POSITION 0 3 #LEVEL 2 DruBCry(SF)INSIDE #COST 2 IRON 350 COAL 300 #TIME 500
+        CHANGEMD DruBCry1(SF)
+DruBCry(SF)INSIDE3 DRUBCRY(UN)INSIDE_02  #POSITION 0 3 #LEVEL 3 DruBCry(SF)INSIDE #COST 2 IRON 600 COAL 600 #TIME 500
+        CHANGEMD DruBCry2(SF)
+DruBCry(SF)INSIDE4 DRUBCRY(UN)INSIDE_03  #POSITION 0 3 #LEVEL 4 DruBCry(SF)INSIDE #COST 2 WOOD 2300 COAL 1450 #TIME 500
+        CHANGEMD DruBCry3(SF)
+DruBCry(SF)INSIDE5 DRUBCRY(UN)INSIDE_04  #POSITION 0 3 #LEVEL 5 DruBCry(SF)INSIDE #COST 2 WOOD 4400 COAL 3000 #TIME 500
+        CHANGEMD DruBCry4(SF)
+DruBCry(SF)INSIDE6 DRUBCRY(UN)INSIDE_05  #POSITION 0 3 #LEVEL 6 DruBCry(SF)INSIDE #COST 2 WOOD 10200 COAL 7000 #TIME 500
+        CHANGEMD DruBCry5(SF)
+DruBCry(SF)INSIDE7 DRUBCRY(UN)INSIDE_06  #POSITION 0 3 #LEVEL 7 DruBCry(SF)INSIDE #COST 1 COAL 20800 #TIME 500
+        CHANGEMD DruBCry6(SF)
+
+DruBOre(SF)INSIDE DRUBCRY(UN)INSIDE_01  #POSITION 0 3 #LEVEL 2 DruBCry(SF)INSIDE #COST 2 WOOD 300 IRON 400 #TIME 500
+        CHANGEMD DruBOre1(SF)
+DruBOre(SF)INSIDE3 DRUBCRY(UN)INSIDE_02  #POSITION 0 3 #LEVEL 3 DruBCry(SF)INSIDE #COST 2 IRON 475 COAL 1050 #TIME 500
+        CHANGEMD DruBOre2(SF)
+DruBOre(SF)INSIDE4 DRUBCRY(UN)INSIDE_03  #POSITION 0 3 #LEVEL 4 DruBCry(SF)INSIDE #COST 2 IRON 2160 COAL 1900 #TIME 500
+        CHANGEMD DruBOre3(SF)
+DruBOre(SF)INSIDE5 DRUBCRY(UN)INSIDE_04  #POSITION 0 3 #LEVEL 5 DruBCry(SF)INSIDE #COST 2 IRON 5150 COAL 5000 #TIME 500
+        CHANGEMD DruBOre4(SF)
+DruBOre(SF)INSIDE6 DRUBCRY(UN)INSIDE_05  #POSITION 0 3 #LEVEL 6 DruBCry(SF)INSIDE #COST 2 IRON 15200 COAL 10000 #TIME 500
+        CHANGEMD DruBOre5(SF)
+DruBOre(SF)INSIDE7 DRUBCRY(UN)INSIDE_06  #POSITION 0 3 #LEVEL 7 DruBCry(SF)INSIDE #COST 2 IRON 40000 COAL 23000 #TIME 500
+        CHANGEMD DruBOre6(SF)
+
+DruBTow(SF)P1 DRUBTOW(SF)P1  #POSITION 0 3 #LEVEL 2 DruBTow(SF)P1 #COST 1 COAL 250 #TIME 1000
+        CHANGEMD DruBTo1(SF)
+DruBTow(SF)P2 DRUBTOW(SF)P2  #POSITION 1 3 #LEVEL 2 DruBTow(SF)P2 #COST 1 COAL 150 #TIME 1000
+        CHANGEMD DruBTo2(SF)
+DruBTow(SF)P3 DRUBTOW(SF)P3  #POSITION 2 3 #LEVEL 2 DruBTow(SF)P3 #COST 1 WOOD 900 #TIME 1000
+        CHANGEMD DruBTo3(SF)
+
+DruUTre(SF)SHIELD1 DRUUTRE(SF)SHIELD1  #POSITION 0 3 #LEVEL 4 DruUTre(SF)SHIELD1 #COST 1 COAL 3000 #TIME 2000
+	PROTECTION GRP 4 piercing crushing chopping magical GRP 2 DruUTre(SF) DruUUni(SF) +5
+DruSShp(SF)P DRUSSHP(SF)P  #POSITION 0 3 #LEVEL 2 DruSShp(SF)P #COST 2 FOOD 1000 COAL 500  #TIME 2000
+        COST GRP 1  DruSBo1(SF) GRP 1 WOOD -0%
+
+
+DruUAll(SF)H DRUUALL(SF)H  #POSITION 0 2 #LEVEL 2 DruUAll(SF)H #COST 1 FOOD 100 #TIME 300
+	HEALING GRP 10 DruUArc(SF) DruUCen(SF)  DruUDru(SF) DruUDry(SF) DruUFai(SF) DruUGri(SF) DruUPeg(SF) DruUPik(SF) DruUTre(SF) DruUUni(SF)  +50
+DruBAll(SF)D1 DRUBALL(SF)D1 #POSITION 0 3 #LEVEL 2 DruBAll(SF)D1 #COST 1 WOOD 6200 #TIME 3000
+	PROTECTION GRP 4 piercing crushing chopping magical GRP 23 DruBElf(SF) DruBAca(SF) DruBAlt(SF) DruBCen(SF) DruBGri(SF) DruBPeg(SF) DruBShi(SF) DruBSto(SF) DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) DruBTre(SF) DruBCry(SF) DruBOre(SF) DruBCry(SF) DruBHou(SF) DruBHal(SF) DruBApl(SF) DruBWal(SF) DruBTww(SF) DruBGat(SF) DruBBas(SF)  +5
+DruBTow(SF)A1 DRUBTOW(SF)A1 #POSITION 1 2 #LEVEL 2 DruBTow(SF)A1 #COST 1 FOOD 3000 #TIME 3000
+        DAMAGE WEAPONKIND magical GRP 4 DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) +2
+DruBTow(SF)L DRUBTOW(SF)L  #POSITION 1 3 #LEVEL 2 DruBTow(SF)L #COST 1 IRON 2000  #TIME 3000
+        LIFE GRP 4 DruBTow(SF) DruBTo1(SF) DruBTo2(SF) DruBTo3(SF) +65%
+DruUFai(SF)A1 DRUUFAI(SF)A1 #POSITION 2 2 #LEVEL 2 DruUFai(SF)A1 #COST 1 COAL 450 #TIME 2000
+        DAMAGE WEAPONKIND magical DruUFai(SF) +3
+DruUFai(SF)S DRUUFAI(SF)S  #POSITION 2 3 #LEVEL 2 DruUFai(SF)S #COST 2 COAL 250 IRON 200 #TIME 1000
+        SPEED GRP 1 DruUFai(SF) +50%
+DruBFai(SF)W DRUBFAI(SF)W  #POSITION 3 2 #LEVEL 2 DruBFai(SF)W #COST 2 FOOD 900 COAL 500  #TIME 1000
+        EFFECT_WOOD  +50%
+DruUCen(SF)C DRUUCEN(SF)C  #POSITION 3 3 #LEVEL 2 DruUCen(SF)C #COST 1 COAL 550 #TIME 3000
+	COST GRP 1 DruUCen(SF) GRP 2 FOOD -35% IRON -35%
+DruSShp(SF)R DRUSSHP(SF)R  #POSITION 4 2 #LEVEL 2 DruSShp(SF)R #COST 2 FOOD 1000 COAL 800  #TIME 2500
+        ATTRANGE ATTINDEX 0 GRP 2 DruSBo1(SF) DruSBo2(SF) +40%
+DruSShp(SF)C DRUSSHP(SF)C  #POSITION 4 3 #LEVEL 2 DruSShp(SF)C #COST 2 FOOD 1500 COAL 800  #TIME 2500
+        COST GRP 2  DruSBo1(SF) DruSBo2(SF) GRP 4 WOOD -35% IRON -35% GOLD -35% COAL -35%
+DruUDru(SF)ATTACK1 DRUIDUPG01 #POSITION 0 2 #LEVEL 2 DruUDru(SF)ATTACK1 #COST 1 COAL 750 #TIME 1500
+        DAMAGE WEAPONKIND magical DruUDru(SF) +2
+
+
+
+[UPGRADEPLACE]
+DruBSto(SF) 1
+DruUDru(SF)ATTACK1
+
+DruBElf(SF) 12
+DruUArc(SF)ATTACK1
+DruUArc(SF)ATTACK2
+DruUArc(SF)ATTACK3
+DruUArc(SF)SHIELD1
+DruUArc(SF)SHIELD2
+DruUArc(SF)SHIELD3
+
+DruUPik(SF)ATTACK1
+DruUPik(SF)ATTACK2
+DruUPik(SF)ATTACK3
+DruUPik(SF)SHIELD1
+DruUPik(SF)SHIELD2
+DruUPik(SF)SHIELD3
+
+DruBCen(SF) 6
+DruUCen(SF)ATTACK1
+DruUCen(SF)ATTACK2
+DruUCen(SF)ATTACK3
+DruUCen(SF)SHIELD1
+DruUCen(SF)SHIELD2
+DruUCen(SF)SHIELD3
+
+DruBHal(SF) 11
+DruUDry(SF)ATTACK1
+DruUDry(SF)ATTACK2
+DruUDry(SF)ATTACK3
+DruUDry(SF)SHIELD1
+DruUDry(SF)SHIELD2
+DruUDry(SF)SHIELD3
+SUPER(SF)1
+SUPER(SF)2
+SUPER(SF)3
+SUPER(SF)4
+SUPER(SF)5
+
+DruBOre(SF) 1 
+DruBOre(SF)INSIDE
+DruBOre1(SF) 1
+DruBOre(SF)INSIDE3
+DruBOre2(SF) 1
+DruBOre(SF)INSIDE4
+DruBOre3(SF) 1
+DruBOre(SF)INSIDE5
+DruBOre4(SF) 1
+DruBOre(SF)INSIDE6
+DruBOre5(SF) 1
+DruBOre(SF)INSIDE7
+
+DruBCry(SF) 1 
+DruBCry(SF)INSIDE
+DruBCry1(SF) 1
+DruBCry(SF)INSIDE3
+DruBCry2(SF) 1
+DruBCry(SF)INSIDE4
+DruBCry3(SF) 1
+DruBCry(SF)INSIDE5
+DruBCry4(SF) 1
+DruBCry(SF)INSIDE6
+DruBCry5(SF) 1
+DruBCry(SF)INSIDE7
+
+
+DruBAca(SF) 10
+DruBTow(SF)A1
+DruBAll(SF)D1
+DruUFai(SF)A1
+DruUFai(SF)S 
+DruBTow(SF)L 
+DruUCen(SF)C 
+DruUAll(SF)H 
+DruBFai(SF)W
+DruSShp(SF)R
+DruSShp(SF)C
+DruBShi(SF) 1
+DruSShp(SF)P
+
+DruBTow(SF) 3
+DruBTow(SF)P1
+DruBTow(SF)P2
+DruBTow(SF)P3
+
+DruBTre(SF) 1
+DruUTre(SF)SHIELD1
+
+[UPGRADEENABLE]
+DruUDru(SF)ATTACK1
+DruUTre(SF)SHIELD1
+DruUPik(SF)ATTACK1
+DruUPik(SF)SHIELD1
+DruUArc(SF)ATTACK1
+DruUArc(SF)SHIELD1
+DruUCen(SF)ATTACK1
+DruUCen(SF)SHIELD1
+DruUDry(SF)ATTACK1
+DruUDry(SF)SHIELD1
+DruBOre(SF)INSIDE
+DruBCry(SF)INSIDE
+DruBTow(SF)A1
+DruBAll(SF)D1
+DruBAll(SF)D1
+DruUFai(SF)A1
+DruUFai(SF)S 
+DruBTow(SF)L 
+DruUCen(SF)C 
+DruUAll(SF)H
+DruBTow(SF)P1
+DruBTow(SF)P2
+DruBTow(SF)P3
+DruBFai(SF)W
+DruSShp(SF)R
+DruSShp(SF)C
+DruSShp(SF)P
+SUPER(SF)1
+DruUPik(SF)A
+DruUPik(SF)D
+[UPGRADELINKS]
+DruUPik(SF)A 1 DruUPik(SF)A
+DruUPik(SF)D 1 DruUPik(SF)D
+
+SUPER(SF)1 1 SUPER(SF)2
+SUPER(SF)2 1 SUPER(SF)3
+SUPER(SF)3 1 SUPER(SF)4
+SUPER(SF)4 1 SUPER(SF)5
+
+DruUPik(SF)ATTACK1 1 DruUPik(SF)ATTACK2
+DruUPik(SF)ATTACK2 1 DruUPik(SF)ATTACK3
+DruUPik(SF)SHIELD1 1 DruUPik(SF)SHIELD2
+DruUPik(SF)SHIELD2 1 DruUPik(SF)SHIELD3
+
+DruUArc(SF)ATTACK1 1 DruUArc(SF)ATTACK2
+DruUArc(SF)ATTACK2 1 DruUArc(SF)ATTACK3
+DruUArc(SF)SHIELD1 1 DruUArc(SF)SHIELD2
+DruUArc(SF)SHIELD2 1 DruUArc(SF)SHIELD3
+
+DruUDry(SF)ATTACK1 1 DruUDry(SF)ATTACK2
+DruUDry(SF)ATTACK2 1 DruUDry(SF)ATTACK3
+DruUDry(SF)SHIELD1 1 DruUDry(SF)SHIELD2
+DruUDry(SF)SHIELD2 1 DruUDry(SF)SHIELD3
+
+DruUCen(SF)ATTACK1 1 DruUCen(SF)ATTACK2
+DruUCen(SF)ATTACK2 1 DruUCen(SF)ATTACK3
+DruUCen(SF)SHIELD1 1 DruUCen(SF)SHIELD2
+DruUCen(SF)SHIELD2 1 DruUCen(SF)SHIELD3
+
+DruBOre(SF)INSIDE 1 DruBOre(SF)INSIDE3
+DruBOre(SF)INSIDE3 1 DruBOre(SF)INSIDE4
+DruBOre(SF)INSIDE4 1 DruBOre(SF)INSIDE5
+DruBOre(SF)INSIDE5 1 DruBOre(SF)INSIDE6
+DruBOre(SF)INSIDE6 1 DruBOre(SF)INSIDE7
+
+DruBCry(SF)INSIDE 1 DruBCry(SF)INSIDE3
+DruBCry(SF)INSIDE3 1 DruBCry(SF)INSIDE4
+DruBCry(SF)INSIDE4 1 DruBCry(SF)INSIDE5
+DruBCry(SF)INSIDE5 1 DruBCry(SF)INSIDE6
+DruBCry(SF)INSIDE6 1 DruBCry(SF)INSIDE7
+
+DruUAll(SF)H 1 DruUAll(SF)H
+[DISABLED_UPGRADES]
+[AUTOUPGRADE]
+SUPER(SF)1 5 
+SAM(SF)1
+SAC(SF)1
+SAP(SF)1
+SAD(SF)1
+SAS(SF)1
+SUPER(SF)2 5 
+SAM(SF)2
+SAC(SF)2
+SAP(SF)2
+SAD(SF)2
+SAS(SF)2
+SUPER(SF)3 5 
+SAM(SF)3
+SAC(SF)3
+SAP(SF)3
+SAD(SF)3
+SAS(SF)3
+SUPER(SF)4 5 
+SAM(SF)4
+SAC(SF)4
+SAP(SF)4
+SAD(SF)4
+SAS(SF)4
+SUPER(SF)5 5 
+SAM(SF)5
+SAC(SF)5
+SAP(SF)5
+SAD(SF)5
+SAS(SF)5
+
+[PRIVATE]
+DruBCry(SF)INSIDE 
+DruBCry(SF)INSIDE3 
+DruBCry(SF)INSIDE4 
+DruBCry(SF)INSIDE5 
+DruBCry(SF)INSIDE6 
+DruBCry(SF)INSIDE7 
+DruBOre(SF)INSIDE 
+DruBOre(SF)INSIDE3 
+DruBOre(SF)INSIDE4 
+DruBOre(SF)INSIDE5 
+DruBOre(SF)INSIDE6 
+DruBOre(SF)INSIDE7 
+DruBTow(SF)P1
+DruBTow(SF)P2
+DruBTow(SF)P3
+
+[ACCESSCONTROL]
+DruBElf(SF)    1 DruBHal(SF)                
+DruBTow(SF)    1 DruBHal(SF)
+DruBWal(SF)    1 DruBHal(SF)                
+DruBCen(SF)    1 DruBHal(SF)
+DruBPeg(SF)    1 DruBSto(SF)
+DruBAca(SF)    1 DruBHal(SF)
+DruBAlt(SF)    1 DruBHal(SF)
+DruBTre(SF)    1 DruBAca(SF)
+DruBSto(SF)    1 DruBAca(SF)
+DruBGri(SF)    1 DruBAca(SF)
+DruBHou(SF)    1 DruBAca(SF)
+DruBCry(SF)    1 DruBHal(SF) 
+DruBApl(SF)      1 DruBHal(SF)
+//DruBCry(SF)INSIDE 1 DruBAca(SF)
+//DruBOre(SF)INSIDE 1 DruBAca(SF)
+DruBShi(SF)    1 DruBHal(SF)
+DruUPeg(SF)    1 DruBAca(SF)
+DruUGri(SF)    1 DruBAca(SF)
+DruUDru(SF)    1 DruBAca(SF)
+DruUTre(SF)    1 DruBAca(SF)
+DruUUni(SF)    1 DruBAca(SF)
+DruBAlt(SF)    1 DruBHal(SF)
+
+
+[COUNTRY]
+SF 267
+#UNITS
+#Blindmans
+BliUBli(SF)
+BliUChi(SF)
+#Draconides
+DrcUChi(SF)
+DrcUDra(SF)
+DrcUWar(SF)
+Drc1aChi(SF)
+Drc1aWar(SF)
+DrcUChiZ(SF)
+#Devils
+DevUDae(SF)
+DevUDev(SF)
+DevUHel(SF)
+DevULes(SF)
+Dev1Hel(SF)
+#Dragons
+DraUDrB(SF)
+DraUDrG(SF)
+DraUDrR(SF)
+DraUDrR1(SF)
+DraUZZZ(SF)
+#PLAYBLE_NATIONS
+#Druids
+#heroes
+DruHAma(SF)
+DruHArc(SF)
+DruHDru(SF)
+#units
+DruUFai(SF)
+DruUDry(SF)
+DruUArc(SF)
+DruUPik(SF)
+DruUDru(SF)
+DruUCen(SF)
+DruUUni(SF)
+DruUTre(SF)
+DruUPeg(SF)
+DruUPeg2(SF)
+DruUGri(SF)
+#for_missions
+DruHElh(SF)
+DruHArs(SF)
+Tower_Big(SF)
+DruHTan(SF)
+DruHWar(SF)
+MisBCo1(SF)
+MisBCo2(SF)
+DruHFat(SF)
+DruHLana(SF)
+DrM4Dru(SF)
+#buildings
+DruBAlt(SF)
+DruBAlt2(SF)
+DruBElf(SF)
+DruBAca(SF)
+DruBCen(SF)
+DruBGri(SF)
+DruBPeg(SF)
+DruBShi(SF)
+DruBSto(SF)
+DruBTow(SF)
+DruBTre(SF)
+DruBOre(SF)
+DruBHal(SF)
+DruBCry(SF)
+DruBHou(SF)
+DruBApl(SF)
+#ships
+DruSBo1(SF)
+DruSBo2(SF)
+DruSSai(SF)
+DruSBo10(SF)
+DruSBo20(SF)
+#civilian
+DruUNC1(SF)
+DruUNC2(SF)
+DruUNC3(SF)
+DruUNM1(SF)
+DruUNM2(SF)
+DruUNM3(SF)
+DruUNW1(SF)
+DruUNW2(SF)
+DruUNW3(SF)
+#temp
+DruBWal(SF)
+DruBTww(SF)
+DruBGat(SF)
+DruBBas(SF)
+DruBWalM(SF)
+DruBTwwM(SF)
+DruBGatM(SF)
+DruBBasM(SF)
+#DECORATIONS
+house2(SF)
+Refugies_Camp_0061(SF)
+Refugies_Camp_0022(SF)
+Refugies_Camp_0021(SF)
+NUArchway000(SF)
+NUArchway001(SF)
+NUArchway002(SF)
+NUArchway003(SF)
+NUArchway004(SF)
+NUArchway007(SF)
+NUArchway008(SF)
+NUArchway009(SF)
+NUArchway010(SF)
+NUArchway011(SF)
+NUArchway012(SF)
+NUArchway013(SF)
+NUArchway014(SF)
+NUArchway015(SF)
+NUCrypt001(SF)
+NUCrypt002(SF)
+NUGrave001(SF)
+NUGrave002(SF)
+NUGrave003(SF)
+NUGrave004(SF)
+NUGrave005(SF)
+NUGrave006(SF)
+NUGrave007(SF)
+NUGrave008(SF)
+NUGrave009(SF)
+NUGrave010(SF)
+NUShrine001(SF)
+NUShrine002(SF)
+NUTower001(SF)
+NUTower002(SF)
+NUTower003(SF)
+NUWell001(SF)
+Sol_Column_001(SF)
+Sol_Column_0021(SF)
+Sol_Column_0022(SF)
+Sol_Column_003(SF)
+Sol_Column_004(SF)
+Sol_Column_006(SF)
+Sol_Column_007(SF)
+Sol_Column_008(SF)
+Sol_Sphinx_001(SF)
+Sol_Sphinx_002(SF)
+Sol_Sphinx_003(SF)
+Sol_Sphinx_004(SF)
+Sol_Stairs_001(SF)
+Sol_Stairs_002(SF)
+Sol_Stairs_003(SF)
+SpiderDenNecro(SF)
+SpiderTerrain(SF)
+SpiderTerrain2(SF)
+Sol_Adobe_001(SF)
+Sol_Adobe_002(SF)
+Sol_Adobe_003(SF)
+Sol_Adobe_004(SF)
+Sol_Barracs_002(SF)
+Sol_Barracs_003(SF)
+Sol_Shipyard_001(SF)
+Sol_Shipyard_003(SF)
+Sol_Tample_001(SF)
+Sol_Tample_003(SF)
+Sol_Tower_001(SF)
+ElvenTowerCrushed001(SF)
+ElveTowerCrushed002(SF)
+Ruins0011(SF)
+Ruins0012(SF)
+Ruins0013(SF)
+Ruins0014(SF)
+Ruins0015(SF)
+Ruins0016(SF)
+Ruins0021(SF)
+Ruins0022(SF)
+Ruins0023(SF)
+Ruins0024(SF)
+Ruins0031(SF)
+Ruins0032(SF)
+Ruins0033(SF)
+Ruins0034(SF)
+Ruins0041(SF)
+Ruins0042(SF)
+Ruins0043(SF)
+Ruins0051(SF)
+Ruins0052(SF)
+Ruins0053(SF)
+Ruins0054(SF)
+RuinsElvenCityCrushed006(SF)
+RuinsElvenCityCrushed0062(SF)
+RuinsElvenCityCrushed008(SF)
+RuinsElvenCityCrushed0091(SF)
+RuinsElvenCityCrushed0092(SF)
+RuinsElvenCityCrushed010(SF)
+RuinsElvenCityCrushed011(SF)
+RuinsElvenCityCrushed012(SF)
+Sol_Adobe_001(SF)
+1Puits_gauche_R(SF)
+1Puits_right_R(SF)
+2Puits_plein_L(SF)
+2Puits_plein_R(SF)
+3Puits_gauche_R(SF)
+Barrels_A_001(SF)
+BlendmenHut001(SF)
+BlendmenHut002(SF)
+BlendmenHut003(SF)
+CaveHouse001(SF)
+CaveHouse002(SF)
+CaveHouse003(SF)
+CaveHouse004(SF)
+CaveHouse007(SF)
+CaveHouse008(SF)
+CaveHouse009(SF)
+CaveHouse010(SF)
+CaveHouse013(SF)
+CaveHouse014(SF)
+CaveHouse017(SF)
+CaveHouse024(SF)
+CaveHouse025(SF)
+CaveHouse026(SF)
+CaveHouse028(SF)
+CaveHouse029(SF)
+CaveHouse030(SF)
+CaveHouse031(SF)
+CaveHouse032(SF)
+Elven_Hut_001(SF)
+Elven_Hut_002(SF)
+Elven_Hut_003(SF)
+Garpies(SF)
+Gate_001(SF)
+Grave_001(SF)
+Hideout_002(SF)
+Hideout_003(SF)
+Hollow_Trunk_001(SF)
+Kobold_Camp_Dweller_Hut_2(SF)
+Kobold_Camp_Shaman_Lair_Map(SF)
+Kobold_Camp_Warchif_Adobe_Map(SF)
+Kobold_Camp_Warrior_Pit(SF)
+Kobold_Camp_Warrior_Quater(SF)
+Kobold_Camp_Watching_Tower(SF)
+Kobold_Totem_001(SF)
+Kobold_Totem_002(SF)
+Kobold_Totem_003(SF)
+Kobold_Totem_004(SF)
+Large_Teleporter_001(SF)
+Large_Teleporter_002(SF)
+Lighthouse_001(SF)
+livre_necro_droit_R(SF)
+livre_necro_gauche_R(SF)
+Necro_Tavern_001(SF)
+NecroTower001(SF)
+ResourseMerchant(SF)
+ScoarchedHut001(SF)
+ScoarchedHut002(SF)
+shipyard(SF)
+Shipyard001(SF)
+Small_Teleporter_001(SF)
+Small_Teleporter_002(SF)
+TOur_Vent_droit_R(SF)
+TOur_Vent_R(SF)
+troll_house(SF)
+Wagon_A_001(SF)
+Wagon_A_002(SF)
+Wagon_B_001(SF)
+Wagon_B_002(SF)
+Well_A_001(SF)
+Well_B_001(SF)
+Well_C_001(SF)
+Wheelbarrow_A_001(SF)
+Wheelbarrow_A_002(SF)
+#SKYBOX
+EffSkyBox1(SF)
+[END]

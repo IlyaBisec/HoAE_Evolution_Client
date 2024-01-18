@@ -1,0 +1,66 @@
+NAME IceBHou
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+
+ICONEX 0 0 interf3\PortretsBuilding\IceCob 0
+ICONANM 0 0 interf3\PortretsBuilding\IceCob 1 95 1
+
+LOCATION -0 -0 800 800
+!STANDLO      1 1.077 Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m
+!BUILDLO_0    1 1.077 Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m
+!BUILDLO_1    1 1.077 Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m
+!BUILDLO_2    1 1.077 Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m
+!BUILDLO_3    1 1.077 Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m Models\Bld\ICE\House_Cobalds\1024x512\House_Cobalds.c2m
+MOVEXY #STANDLO   30 20
+MOVEXY #BUILDLO_0 30 20
+MOVEXY #BUILDLO_1 30 20
+MOVEXY #BUILDLO_2 30 20
+MOVEXY #BUILDLO_3 30 20
+ADDHDIR #STANDLO -5 160
+ADDHDIR #BUILDLO_0 -5 160
+ADDHDIR #BUILDLO_1 -5 160
+ADDHDIR #BUILDLO_2 -5 160
+ADDHDIR #BUILDLO_3 -5 160
+BORNPOINTS3 2 0 -15 0 180 165 0
+GEOMETRY 1 199 32
+LIFE     11000
+PRICE 3 STONE 200 WOOD 200 COAL 200
+BUILDSTAGES 25
+PROTECTION 3 piercing 15 magical 0 chopping 15
+RECTANGLE    -10 60 220 130
+MATHERIAL 1 BUILDING
+EXPLMEDIA BUILDING 5
+BUILDBAR    -20 0 20 0
+3DBARS 1 -140 5 140 140 90
+INFO 3 8
+COSTPERCENT 300
+VISION 0
+MFARM 75
+ADDSHOTRADIUS 215
+ROUNDLOCK 12
+RESOURCEBASE 6 WOOD STONE #R8 IRON COAL GOLD
+ABILITY IceLand
+SELTYPE SelBigBuilding 3.2 3.2
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+ABILITY BuildStage_Ice
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_ice
+DEATH_SOUND building_death
+UPG_SOUND upgrade_ice
+CYLINDER 135 100
+TFACTOR FF9A96A9
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 1.8
+ShadowScaleY 2.7
+!TEMP 180 1.0 Models\Effects\MagicCard\Sneg\Sneg.c2m Models\Effects\MagicCard\Sneg\Sneg.c2m
+MOVEXY  #TEMP 0 0
+ADDHDIR #TEMP 0 160
+ANMEXT #STANDLO #TEMP 0 0 0 1.0 2000
+[END]
