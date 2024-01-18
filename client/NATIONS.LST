@@ -1,6 +1,7 @@
 1
-SF SF Modules\Campaign\SylvanFolk\(nations)\(SF)\SYLVANFOLK.NDS #TX 9 10 (SF)(SF)
+SF SylvanFolk Modules\Campaigns\SylvanFolk\(nations)\(SF)\SYLVANFOLK.NDS #TX 9 10 (SF)(SF)
 
 // при указании пути в первый раз отобразилось нация с тегом "#BB"
 // Это дает возможность вынести все в один файл и заменить всю компанию,
 // через редактор, если бы блять было параллельное чтение контейнеров nds
+//
