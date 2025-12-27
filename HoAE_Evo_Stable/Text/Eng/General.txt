@@ -445,5 +445,5 @@ CSNORS Not enough resources for shooting
 #ChatAlly Message to allies :
 #ChatTitle Hold CTRL to send a message only to allies 
 
-#COPYRIGHTS2 Heroes of Annihilated Empires Remaster \ RoS and Reborn team, TheBlackHunter.
-#COPYRIGHTS1 Heroes of Annihilated Empires Remaster \ RoS and Reborn team, TheBlackHunter.
+#COPYRIGHTS2 Heroes of Annihilated Empires Evolution
+#COPYRIGHTS1 Heroes of Annihilated Empires Evolution
