@@ -40,7 +40,7 @@ SolHPro(SO)
 SolUScZ(SO)
 
 [COUNTRY]
-SOL 23
+SOLS 23
 #heroes
 SolHArc(SO)
 SolHGla(SO)
