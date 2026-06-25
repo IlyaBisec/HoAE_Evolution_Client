@@ -842,7 +842,7 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>giant_step</GroupName>
-   <Volume>0.676603</Volume>
+   <Volume>0.486603</Volume>
    <DangerousSound>true</DangerousSound>
    <List>
     <OneSound>
@@ -2292,7 +2292,7 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>M_Firestorm_Loop</GroupName>
-   <Volume>0.636478</Volume>
+   <Volume>0.236478</Volume>
    <PanningDegree>0.199686</PanningDegree>
    <DistanceFadeDegree>0.131840</DistanceFadeDegree>
    <List>
@@ -4138,73 +4138,6 @@
     </OneSound>
     <OneSound>
      <WaveFile>Sound\units\Loshad\Unicorn_hit.wav</WaveFile>
-    </OneSound>
-   </List>
-  </SoundsGroup>
-  <SoundsGroup>
-   <GroupName>move_goblins</GroupName>
-   <Volume>0.159119</Volume>
-   <Usage>UseGroupSounds</Usage>
-   <GroupSoundID>Group2</GroupSoundID>
-   <List>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_1.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_2.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_3.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_4.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_4.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_3.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_2.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_1.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_1.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_2.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_3.wav</WaveFile>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\units\human_step_4.wav</WaveFile>
-    </OneSound>
-   </List>
-  </SoundsGroup>
-  <SoundsGroup>
-   <GroupName>move_goblins_small</GroupName>
-   <Volume>0.262893</Volume>
-   <Usage>UseLikeGroupSound</Usage>
-   <GroupSoundID>Group2</GroupSoundID>
-   <GroupSoundStartFrequency>20</GroupSoundStartFrequency>
-   <GroupSoundEndFrequency>40</GroupSoundEndFrequency>
-   <Usage>UseLikeGroupSound</Usage>
-   <List>
-    <OneSound>
-     <WaveFile>Sound\battle\temp\goblin_group\indscrm1.wav</WaveFile>
-     <Looped>true</Looped>
-     <StartSharpness>0.028302</StartSharpness>
-     <EndSharpness>0.055031</EndSharpness>
-    </OneSound>
-    <OneSound>
-     <WaveFile>Sound\battle\temp\goblin_group\indscrm1.wav</WaveFile>
-     <Looped>true</Looped>
-     <StartSharpness>0.025157</StartSharpness>
-     <EndSharpness>0.067610</EndSharpness>
     </OneSound>
    </List>
   </SoundsGroup>
@@ -8621,7 +8554,7 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>fire_banshi</GroupName>
-   <Volume>0.527171</Volume>
+   <Volume>0.387171</Volume>
    <DangerousSound>true</DangerousSound>
    <List>
     <OneSound>
@@ -9065,7 +8998,7 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>attack_cleric</GroupName>
-   <Volume>0.550704</Volume>
+   <Volume>0.450704</Volume>
    <List>
     <OneSound>
      <WaveFile>Sound\Units\SolCleric\SolMage_spell.wav</WaveFile>
@@ -9487,26 +9420,26 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>shoot_solpriest</GroupName>
-   <Volume>0.550000</Volume>
+   <Volume>0.350000</Volume>
    <DangerousSound>true</DangerousSound>
    <List>
     <OneSound>
-     <WaveFile>Sound\Spells\Spell_4.wav</WaveFile>
+     <WaveFile>Sound\Units\SolCleric\SolCleric_spell.wav</WaveFile>
     </OneSound>
     <OneSound>
-     <WaveFile>Sound\Spells\Spell_4.wav</WaveFile>
+     <WaveFile>Sound\Units\SolCleric\SolCleric_spell.wav</WaveFile>
     </OneSound>
     <OneSound>
-     <WaveFile>Sound\Spells\Spell_4.wav</WaveFile>
+     <WaveFile>Sound\Units\SolCleric\SolCleric_spell.wav</WaveFile>
     </OneSound>
     <OneSound>
-     <WaveFile>Sound\Spells\Spell_4.wav</WaveFile>
+     <WaveFile>Sound\Units\SolCleric\SolCleric_spell.wav</WaveFile>
     </OneSound>
     <OneSound>
-     <WaveFile>Sound\Spells\Spell_4.wav</WaveFile>
+     <WaveFile>Sound\Units\SolCleric\SolCleric_spell.wav</WaveFile>
     </OneSound>
     <OneSound>
-     <WaveFile>Sound\Spells\Spell_4.wav</WaveFile>
+     <WaveFile>Sound\Units\SolCleric\SolCleric_spell.wav</WaveFile>
     </OneSound>
    </List>
   </SoundsGroup>
@@ -9619,7 +9552,7 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>building_ready_undead</GroupName>
-   <Volume>0.505031</Volume>
+   <Volume>0.355031</Volume>
    <PanningDegree>0.000000</PanningDegree>
    <List>
     <OneSound>
@@ -9807,7 +9740,7 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>resource_wood_mechanic</GroupName>
-   <Volume>0.761006</Volume>
+   <Volume>0.461006</Volume>
    <DangerousSound>true</DangerousSound>
    <List>
     <OneSound>
@@ -10515,7 +10448,7 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>portal_caster</GroupName>
-   <Volume>0.001572</Volume>
+   <Volume>0.000572</Volume>
    <List>
     <OneSound>
      <WaveFile>Sound\portal\portal_1.wav</WaveFile>
@@ -10524,13 +10457,55 @@
   </SoundsGroup>
   <SoundsGroup>
    <GroupName>portal_target</GroupName>
-   <Volume>0.764151</Volume>
+   <Volume>0.464151</Volume>
    <List>
     <OneSound>
      <WaveFile>Sound\portal\portal_2.wav</WaveFile>
      <Looped>true</Looped>
      <StartSharpness>0.179245</StartSharpness>
      <EndSharpness>0.501572</EndSharpness>
+    </OneSound>
+   </List>
+  </SoundsGroup>
+  <SoundsGroup>
+   <GroupName>upgrade_sol</GroupName>
+   <Volume>1.9</Volume>
+   <PanningDegree>0.000000</PanningDegree>
+   <DistanceFadeDegree>0.498428</DistanceFadeDegree>
+   <List>
+    <OneSound>
+     <WaveFile>Sound\upgrades\Sol_upg.wav</WaveFile>
+    </OneSound>
+	<OneSound>
+     <WaveFile>Sound\upgrades\Sol_upg.wav</WaveFile>
+    </OneSound>
+	<OneSound>
+     <WaveFile>Sound\upgrades\Sol_upg.wav</WaveFile>
+    </OneSound>
+	<OneSound>
+     <WaveFile>Sound\upgrades\Sol_upg.wav</WaveFile>
+    </OneSound>
+   </List>
+  </SoundsGroup>
+    <SoundsGroup>
+   <GroupName>building_ready_sol</GroupName>
+   <Volume>0.9</Volume>
+   <PanningDegree>0.000000</PanningDegree>
+   <List>
+    <OneSound>
+     <WaveFile>Sound\buildings\Building_sol.wav</WaveFile>
+    </OneSound>
+    <OneSound>
+     <WaveFile>Sound\buildings\Building_sol.wav</WaveFile>
+    </OneSound>
+    <OneSound>
+     <WaveFile>Sound\buildings\Building_sol.wav</WaveFile>
+    </OneSound>
+    <OneSound>
+     <WaveFile>Sound\buildings\Building_sol.wav</WaveFile>
+    </OneSound>
+    <OneSound>
+     <WaveFile>Sound\buildings\Building_sol.wav</WaveFile>
     </OneSound>
    </List>
   </SoundsGroup>

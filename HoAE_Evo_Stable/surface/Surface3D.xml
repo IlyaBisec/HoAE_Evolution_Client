@@ -3,7 +3,7 @@
   <PenRadius>0.783019</PenRadius>
   <PenWidth>0.000978</PenWidth>
   <ActionType>Set</ActionType>
-  <CurrentLayer>Neytral</CurrentLayer>
+  <CurrentLayer>Water</CurrentLayer>
  </Maps>
  <Size>12500</Size>
  <Relief>
@@ -2571,7 +2571,6 @@
       <Scale>1.646977</Scale>
       <Center>0.502242</Center>
       <Contrast>2.729243</Contrast>
-      <Mapping>Vertical</Mapping>
      </TexturesMixing>
      <Textures>
       <OneTexturePair>
@@ -4203,6 +4202,7 @@
  </Texturing>
  <DontGenerateRelief>true</DontGenerateRelief>
  <ReCreateMinimap>true</ReCreateMinimap>
+ <OptimizeSurface>true</OptimizeSurface>
  <ShapeOfBound>
   <Scale>4.893724</Scale>
   <Center>0.504484</Center>

@@ -193,4 +193,20 @@
    </OneAmbientSound>
   </AmbientSounds>
  </am_SoundTrigger>
+ <am_SoundTrigger>
+  <Condition>
+   <am_AND>
+    <AND>
+     <am_CheckLandType>
+      <LandType>Solo</LandType>
+     </am_CheckLandType>
+    </AND>
+   </am_AND>
+  </Condition>
+  <AmbientSounds>
+   <OneAmbientSound>
+    <SoundID>ambient_pustunya</SoundID>
+   </OneAmbientSound>
+  </AmbientSounds>
+ </am_SoundTrigger>
 </ClassArray.am_SoundTrigger>
