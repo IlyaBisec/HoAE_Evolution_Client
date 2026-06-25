@@ -1,0 +1,64 @@
+NAME SolBOr7
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+
+ICONEX 0 0 interf3\PortretsBuilding\MchOre 0
+ICONANM 0 0 interf3\PortretsBuilding\MchOre 1 61 1
+
+LOCATION -0 -0 800 800
+!STANDLO      1 0.45 Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m
+!BUILDLO_0    1 0.45 Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m
+!BUILDLO_1    1 0.45 Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m
+!BUILDLO_2    1 0.45 Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m
+!BUILDLO_3    1 0.45 Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m Models\Bld\SOL\Ore_Field_Mine\512x512\Ore_Field_Mine.c2m
+MOVEXY #STANDLO   85 -5
+MOVEXY #BUILDLO_0 85 -5
+MOVEXY #BUILDLO_1 85 -5
+MOVEXY #BUILDLO_2 85 -5
+MOVEXY #BUILDLO_3 85 -5
+BORNPOINTS3 2 60 10 3 145 100 3
+ADDHDIR #STANDLO 0 160
+ADDHDIR #BUILDLO_0 0 160
+ADDHDIR #BUILDLO_1 0 160
+ADDHDIR #BUILDLO_2 0 160
+ADDHDIR #BUILDLO_3 0 160
+GEOMETRY 1 199 32
+LIFE     20000
+PRICE 1 WOOD 100
+BUILDSTAGES 50
+PROTECTION 4 piercing 15 magical 6 chopping 15 crushing 6
+MATHERIAL 1 BUILDING
+RECTANGLE    0 100 100 100
+EXPLMEDIA BUILDING 5
+VISION 4
+3DBARS 1 -80 0 50 50 50
+PEASANTABSORBER 55
+PRODUCER        1 IRON 0 1
+USAGE MINE
+RESSUBST
+ROUNDLOCK 7
+INVITEMASK 1
+ADDSHOTRADIUS 165
+BUILDBAR -2 0 2 0
+SELTYPE SelBigBuilding 1.1 1.1
+ABILITY BuildStage
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_sol
+DEATH_SOUND building_death
+UPG_SOUND upgrade_sol
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+!TEMP4 10 1.5 Models\key_color\key_druid1.c2m Models\key_color\key_druid1.c2m
+ANMEXT #STANDLO #TEMP4 40 0 160 0.9 2000
+CYLINDER 60 50
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.0
+ShadowScaleY 1.9
+TFACTOR FF919191
+[END]

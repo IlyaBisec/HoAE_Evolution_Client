@@ -1,0 +1,65 @@
+NAME SolBCr3
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+
+ICONEX 0 0 interf3\PortretsBuilding\MchCry 0
+ICONANM 0 0 interf3\PortretsBuilding\MchCry 1 72 1
+
+LOCATION -0 -0 800 800
+!STANDLO      1 0.5 Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m
+!BUILDLO_0    1 0.5 Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m
+!BUILDLO_1    1 0.5 Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m
+!BUILDLO_2    1 0.5 Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m
+!BUILDLO_3    1 0.5 Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m Models\Bld\SOL\Cristal_Mine\512x512\Cristal_Mine.c2m
+MOVEXY #STANDLO   5 70
+MOVEXY #BUILDLO_0 5 70
+MOVEXY #BUILDLO_1 5 70
+MOVEXY #BUILDLO_2 5 70
+MOVEXY #BUILDLO_3 5 70
+BORNPOINTS3 2 -40 20 0 100 140 0
+CONCENTRATOR3 2 100 140 0 -40 20 0
+ADDHDIR #STANDLO 0 160
+ADDHDIR #BUILDLO_0 0 160
+ADDHDIR #BUILDLO_1 0 160
+ADDHDIR #BUILDLO_2 0 160
+ADDHDIR #BUILDLO_3 0 160
+GEOMETRY 1 199 32
+LIFE     6500
+PRICE 1 WOOD 100
+BUILDSTAGES 50
+PROTECTION 4 piercing 15 magical 2 chopping 15 crushing 2
+MATHERIAL 1 BUILDING
+RECTANGLE    0 100 100 100
+EXPLMEDIA BUILDING 5
+VISION 4
+3DBARS 1 -80 0 50 50 50
+PEASANTABSORBER 12
+PRODUCER        1 COAL 0 1
+USAGE MINE
+RESSUBST
+ROUNDLOCK 7
+INVITEMASK 1
+ADDSHOTRADIUS 165
+BUILDBAR -2 0 2 0
+SELTYPE SelBigBuilding 1.1 1.1
+ABILITY BuildStage
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_sol
+DEATH_SOUND building_death
+UPG_SOUND upgrade_sol
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+!TEMP4 10 1.5 Models\key_color\key_druid1.c2m Models\key_color\key_druid1.c2m
+ANMEXT #STANDLO #TEMP4 0 0 160 0.9 2000
+CYLINDER 70 50
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.0
+ShadowScaleY 1.9
+TFACTOR FF919191
+[END]

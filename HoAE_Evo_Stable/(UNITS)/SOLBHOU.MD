@@ -1,0 +1,71 @@
+NAME SolBHou
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+ICONEX 0 0 interf3\UnitPortrets\Sol_back 0
+ICONANM 0 0 interf3\UnitPortrets\Sol_back 1 35 1
+ICONANM 0 0 interf3\PortretsBuilding\SolBuildings 2 2 0
+LOCATION -0 -0 800 800
+!STANDLO      1 0.46 Models\Bld\New\house01\512x512\house01.c2m Models\Bld\New\house01\512x512\house01.c2m
+!BUILDLO_0    1 0.46 Models\Bld\New\house01\512x512\house01.c2m Models\Bld\New\house01\512x512\house01.c2m
+!BUILDLO_1    1 0.46 Models\Bld\New\house01\512x512\house01.c2m Models\Bld\New\house01\512x512\house01.c2m
+!BUILDLO_2    1 0.46 Models\Bld\New\house01\512x512\house01.c2m Models\Bld\New\house01\512x512\house01.c2m
+!BUILDLO_3    1 0.46 Models\Bld\New\house01\512x512\house01.c2m Models\Bld\New\house01\512x512\house01.c2m
+MOVEXY #STANDLO    20 10
+MOVEXY #BUILDLO_0  20 10
+MOVEXY #BUILDLO_1  20 10
+MOVEXY #BUILDLO_2  20 10
+MOVEXY #BUILDLO_3  20 10
+ADDHDIR #STANDLO 0 160
+ADDHDIR #BUILDLO_0 0 160
+ADDHDIR #BUILDLO_1 0 160
+ADDHDIR #BUILDLO_2 0 160
+ADDHDIR #BUILDLO_3 0 160
+BORNPOINTS3 2 0 0 0 100 80 0
+GEOMETRY 1 199 32
+LIFE     3000
+PRICE 2 WOOD 250 STONE 150
+COSTPERCENT 150
+BUILDSTAGES 25
+BUILDHOTKEY		Z
+PROTECTION 3 piercing 15 magical 0 chopping 15
+MATHERIAL 1 BUILDING
+RECTANGLE    0 0 30 30
+EXPLMEDIA BUILDING 5
+BUILDBAR -8 0 8 0
+VISION 3
+ROUNDLOCK 5
+3DBARS 1 -40 0 50 50 70
+ADDSHOTRADIUS 125
+SELTYPE SelBigBuilding 1.6 1.6
+EXPA 100
+KILLERAWARD             GOLD 46
+KILLERAWARDRANDOM       GOLD 15
+SELECT_SOUND interface_click
+BORN_SOUND building_ready_sol
+DEATH_SOUND building_death_small_1
+CYLINDER 30 120
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+MFARM 25
+ABILITY BuildStage_Sol
+ABILITY UA_aBildDegen_Sol
+!TEMP 180 1.0 Models\Effects\Buildings\pipe_smoke.c2m Models\Effects\Buildings\pipe_smoke.c2m
+MOVEXY  #TEMP 0 0
+ADDHDIR #TEMP 0 160
+ANMEXT #STANDLO #TEMP 116 16 202 1.4 2000
+!TEMP4 10 1.5 Models\key_color\key_druid1.c2m Models\key_color\key_druid1.c2m
+ANMEXT #STANDLO #TEMP4 0 0 230 0.9 2000
+ShadowScaleX 2.3
+ShadowScaleY 1.0
+TFACTOR FFA0A0A0
+!TEMP 1000 2.0 Models\Effects\Reborn\RebSpells\Smerch\DustSmerchSBezp.c2m
+MOVEXY  #TEMP 15 10
+ANMEXT #BUILDLO #TEMP  0 0 0 1.0 5000
+ANMEXT #BUILDLO_0 #TEMP  0 0 0 1.0 5000
+ANMEXT #BUILDLO_1 #TEMP  0 0 0 1.0 5000
+ANMEXT #BUILDLO_2 #TEMP  0 0 0 1.0 5000
+[END]
