@@ -1,0 +1,12 @@
+<>
+ <Pattern0>
+  true
+  <Texture>textures\pens\rock-bump.tga</Texture>
+  <Enabled></Enabled>
+ </Pattern0>
+ <Pattern1>
+  true
+  <Texture>textures\pens\rock.tga</Texture>
+  <Enabled></Enabled>
+ </Pattern1>
+</>
