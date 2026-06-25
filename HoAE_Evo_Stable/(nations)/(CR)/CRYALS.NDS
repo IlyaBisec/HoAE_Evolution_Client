@@ -560,7 +560,7 @@ IceBGol(IC)INSIDE6
 IceBGol(IC)INSIDE7
 
 [COUNTRY]
-ICE 32
+CRYALS 32
 #heroes
 IceHArc(IC)
 IceHBar(IC)
