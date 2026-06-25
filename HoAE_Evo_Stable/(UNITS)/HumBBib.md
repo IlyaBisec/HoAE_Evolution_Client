@@ -1,0 +1,49 @@
+NAME HumBBib
+
+ICON U_FrnOf17
+/ICONEX 0 0 interf3\InGame\druids_buildings 8
+ICONEX 0 0 interf3\PortretsBuilding\DruBSto 0
+ICONANM 0 0 interf3\PortretsBuilding\DruBSto 1 96 1
+BUILDING
+SETANMPARAM -0 -0 1 0              
+LOCATION -0 -0 800 800
+!STANDLO      1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
+!BUILDLO_0    1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
+!BUILDLO_1    1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
+!BUILDLO_2    1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
+!BUILDLO_3    1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
+ADDHDIR #STANDLO   0 160
+ADDHDIR #BUILDLO_0 0 160
+ADDHDIR #BUILDLO_1 0 160
+ADDHDIR #BUILDLO_2 0 160
+ADDHDIR #BUILDLO_3 0 160
+BORNPOINTS3 2  0 0 5 100 100 0
+GEOMETRY 1 199 32
+LIFE 3000
+PROTECTION 3 piercing 15 magical 0 chopping 15
+PRICE 3 WOOD 100 STONE 100 COAL 500
+COSTPERCENT 300
+BUILDSTAGES 150
+MATHERIAL 1 BUILDING
+RECTANGLE    0 100 170 110
+EXPLMEDIA BUILDING 5
+BUILDBAR -12 0 12 0
+VISION 0
+ROUNDLOCK 6.5
+3DBARS 6 -80 -35 20 30 80 -5 -45 40 20 70 50 -10 25 25 70 -80 20 45 20 70 50 20 20 20 70 5 40 15 15 40
+ADDSHOTRADIUS 140
+SELTYPE SelBigBuilding 1.5 1.5
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+CYLINDER 85 100
+FORMFACTOR 256
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.0
+ShadowScaleY 3.4
+ARTPLACE 2 1
+[END]

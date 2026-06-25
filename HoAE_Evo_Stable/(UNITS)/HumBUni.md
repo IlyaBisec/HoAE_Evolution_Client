@@ -1,0 +1,51 @@
+NAME HumBUni
+
+ICON U_FrnOf17
+ICONEX 0 0 interf3\PortretsBuilding\DruBAca 0
+ICONANM 0 0 interf3\PortretsBuilding\DruBAca 1 94 1
+BUILDING
+SETANMPARAM -0 -0 1 0
+LOCATION -0 -0 800 800
+!STANDLO      1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
+!BUILDLO_0    1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
+!BUILDLO_1    1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
+!BUILDLO_2    1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
+!BUILDLO_3    1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
+MOVEXY #STANDLO   -30 0
+MOVEXY #BUILDLO_0 -30 0
+MOVEXY #BUILDLO_1 -30 0
+MOVEXY #BUILDLO_2 -30 0
+MOVEXY #BUILDLO_3 -30 0
+ADDHDIR #STANDLO -3 160
+ADDHDIR #BUILDLO_0 -3 160
+ADDHDIR #BUILDLO_1 -3 160
+ADDHDIR #BUILDLO_2 -3 160
+ADDHDIR #BUILDLO_3 -3 160
+GEOMETRY 1 199 32
+LIFE     3000
+PRICE 5 WOOD 500 STONE 500 IRON 200 COAL 200 GOLD 200
+BUILDSTAGES 65
+COSTPERCENT 300
+MATHERIAL 1 BUILDING
+RECTANGLE    0 100 150 210
+EXPLMEDIA BUILDING 5
+BUILDBAR -14 0 14 0
+VISION 0
+ROUNDLOCK 7
+3DBARS 2 -60 0 45 60 165 20 -12 30 40 225
+ADDSHOTRADIUS 140
+PROTECTION 3 piercing 15 magical 0 chopping 15
+SELTYPE SelBigBuilding 1.4 1.4
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+CYLINDER 50 180
+FORMFACTOR 480
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.3
+ShadowScaleY 1.0
+[END]

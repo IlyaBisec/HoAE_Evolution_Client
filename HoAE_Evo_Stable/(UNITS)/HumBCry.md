@@ -1,0 +1,58 @@
+NAME HumBCry
+ICON U_FrnOf17
+BUILDING
+SETANMPARAM -0 -0 1 0
+
+ICONEX 0 0 interf3\PortretsBuilding\MchCry 0
+ICONANM 0 0 interf3\PortretsBuilding\MchCry 1 72 1
+LOCATION -0 -0 800 800
+!STANDLO      1 0.4 Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m
+!BUILDLO_0    1 0.4 Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m
+!BUILDLO_1    1 0.4 Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m
+!BUILDLO_2    1 0.4 Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m
+!BUILDLO_3    1 0.4 Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m Models\Bld\Humans\Mine_Cryst\1024x512\Mine_Cryst.c2m
+BUILDPOINTS 1 1 1                            
+MOVEXY #STANDLO   0 0
+MOVEXY #BUILDLO_0 0 0
+MOVEXY #BUILDLO_1 0 0
+MOVEXY #BUILDLO_2 0 0
+MOVEXY #BUILDLO_3 0 0
+BORNPOINTS3 2 -40 20 0 100 140 0
+ADDHDIR #STANDLO 0 32
+ADDHDIR #BUILDLO_0 0 32
+ADDHDIR #BUILDLO_1 0 32
+ADDHDIR #BUILDLO_2 0 32
+ADDHDIR #BUILDLO_3 0 32
+GEOMETRY 1 199 32
+LIFE     3000
+PRICE 2 WOOD 50 STONE 50
+BUILDSTAGES 50
+PROTECTION 3 piercing 15 magical 0 chopping 15
+MATHERIAL 1 BUILDING
+RECTANGLE    0 100 100 100
+EXPLMEDIA BUILDING 5
+VISION 0
+3DBARS 1 -80 0 50 50 50
+PEASANTABSORBER 5
+PRODUCER        1 COAL 0 1
+USAGE MINE
+RESSUBST
+ROUNDLOCK 6
+INVITEMASK 1
+ADDSHOTRADIUS 165
+BUILDBAR -1 0 1 0
+SELTYPE SelBigBuilding 1.1 1.1
+EXPA 500
+KILLERAWARD             GOLD 111
+KILLERAWARDRANDOM       GOLD 27
+SPLITCLUSTERS #STANDLO 500 15 1 1 0
+CYLINDER 70 50
+ABILITY UA_DamagedBuilding
+ABILITY UA_DamagedBuilding2
+ABILITY UA_DamagedBuilding3
+ABILITY UA_DestroyBuilding
+ShadowScaleX 2.0
+ShadowScaleY 1.9
+!TEMP 50 1.00 Models\Bld\Humans\AO\HumBCryM.c2m Models\Bld\Humans\AO\HumBCryA.c2m
+ANMEXT #STANDLO #TEMP 0 0 0 1.0 10000
+[END]
