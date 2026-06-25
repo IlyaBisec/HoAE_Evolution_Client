@@ -1,5 +1,3 @@
-<UnitModificatorConditionArray>
- <umc_Summon>
-  <Not>false</Not>
- </umc_Summon>
-</UnitModificatorConditionArray>
+<AllTools>
+ <SubSection></SubSection>
+</AllTools>

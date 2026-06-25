@@ -5,6 +5,7 @@
     <e0>0</e0>
    </NDoneMission>
    <PlayerName>Игрок</PlayerName>
+   <CampMessageCheck>true</CampMessageCheck>
   </cvi_SinglePlayerData>
  </Aka>
  <PlayerNick>Igrok</PlayerNick>
