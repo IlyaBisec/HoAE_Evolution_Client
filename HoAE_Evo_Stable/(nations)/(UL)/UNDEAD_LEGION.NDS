@@ -834,7 +834,7 @@ UndUDrB(UN)    1 UndBLi3(UN)
 UndBLi2(UN)A   1 UndBLi3(UN)
 
 [COUNTRY]
-UNDEADS 60
+UNDEAD_LEGION 60
 #heroes
 UndHKni(UN)
 UndHLic(UN)
