@@ -18,6 +18,7 @@ DruUGri(DR) DruUGri
 DruUPeg(DR) DruUPeg
 DruUPeg2(DR) DruUPeg2
 DruUPik(DR) DruUPik
+DruUPi2(DR) DruUPi2				   
 DruUTre(DR) DruUTre
 DruUUni(DR) DruUUni
 DruBElf(DR) DruBElf
@@ -116,9 +117,10 @@ DruBHal(DR)      2
 DruUFai(DR)     0 0 A
 DruUDry(DR)     1 0 A
 
-DruBElf(DR)      2
+DruBElf(DR)      3
 DruUArc(DR)     0 0 A     
 DruUPik(DR)     1 0 A
+DruUPi2(DR)	    2 0 A				 
 
 DruBCen(DR)      1
 DruUCen(DR)     0 0 A
@@ -184,6 +186,7 @@ DruUDru(DR)
 DruUFai(DR)
 DruUCen(DR)
 DruUPik(DR)
+DruUPi2(DR)		   
 DruUPeg(DR)
 DruUPeg2(DR)
 DruUTre(DR)
@@ -422,6 +425,12 @@ DruUPik(DR)SHIELD1
 DruUPik(DR)SHIELD2
 DruUPik(DR)SHIELD3
 
+				  
+				  
+				  
+				  
+				  
+					  
 DruBCen(DR) 6
 DruUCen(DR)ATTACK1
 DruUCen(DR)ATTACK2
@@ -474,6 +483,7 @@ DruBAca(DR) 10
 DruBTow(DR)A1
 DruBAll(DR)D1
 DruUFai(DR)A1
+			
 DruUFai(DR)S 
 DruBTow(DR)L 
 DruUCen(DR)C 
@@ -497,6 +507,8 @@ DruUDru(DR)ATTACK1
 DruUTre(DR)SHIELD1
 DruUPik(DR)ATTACK1
 DruUPik(DR)SHIELD1
+				  
+						
 DruUArc(DR)ATTACK1
 DruUArc(DR)SHIELD1
 DruUCen(DR)ATTACK1
@@ -512,6 +524,7 @@ DruUFai(DR)A1
 DruUFai(DR)S 
 DruBTow(DR)L 
 DruUCen(DR)C 
+					
 DruUAll(DR)H
 DruBTow(DR)P1
 DruBTow(DR)P2
@@ -537,6 +550,10 @@ DruUPik(DR)ATTACK2 1 DruUPik(DR)ATTACK3
 DruUPik(DR)SHIELD1 1 DruUPik(DR)SHIELD2
 DruUPik(DR)SHIELD2 1 DruUPik(DR)SHIELD3
 
+									   
+									   
+									   
+																												  
 DruUArc(DR)ATTACK1 1 DruUArc(DR)ATTACK2
 DruUArc(DR)ATTACK2 1 DruUArc(DR)ATTACK3
 DruUArc(DR)SHIELD1 1 DruUArc(DR)SHIELD2
@@ -639,7 +656,7 @@ DruUTre(DR)    1 DruBAca(DR)
 DruUUni(DR)    1 DruBAca(DR)
 DruBAlt(DR)    1 DruBHal(DR)
 [COUNTRY]
-DRUIDS 69
+SYLVAN_FOLK 70
 #heroes
 DruHAma(DR)
 DruHArc(DR)
@@ -649,6 +666,7 @@ DruUFai(DR)
 DruUDry(DR)
 DruUArc(DR)
 DruUPik(DR)
+DruUPi2(DR)			
 DruUDru(DR)
 DruUCen(DR)
 DruUUni(DR)
