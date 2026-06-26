@@ -1,6 +1,6 @@
-handlers: 178463
-ptrs: 178461
-memused: 47038272
+handlers: 318867
+ptrs: 316893
+memused: 91074864
 memtotal: 1010827264
 CheckMemoryIntegrityEx: done
 mem info: done

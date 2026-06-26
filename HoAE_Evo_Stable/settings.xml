@@ -59,7 +59,7 @@
   <RelativeVideoToSoundVolume>1.000000</RelativeVideoToSoundVolume>
  </SVOpt>
  <RoomParams>
-  <GameSpeed>#mpopt_MarvellousFast</GameSpeed>
+  <GameSpeed>#mpopt_Normal</GameSpeed>
   <HeroLives>#mpopt_Lives3</HeroLives>
   <GameType>#mpopt_UntilDie</GameType>
   <StartRes>#mpopt_res_1000</StartRes>

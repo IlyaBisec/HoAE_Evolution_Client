@@ -3,12 +3,12 @@
   <PenRadius>0.783019</PenRadius>
   <PenWidth>0.000978</PenWidth>
   <ActionType>Set</ActionType>
-  <CurrentLayer>Water</CurrentLayer>
+  <CurrentLayer>HighMountains</CurrentLayer>
  </Maps>
  <Size>12500</Size>
  <Relief>
   <OneSurfaceType>
-   <BasicHeight>50</BasicHeight>
+   <BasicHeight>5</BasicHeight>
    <SurfaceRules>
     <OneSurfaceRule>
      <Description>Terra hills</Description>
@@ -4204,8 +4204,9 @@
  <ReCreateMinimap>true</ReCreateMinimap>
  <OptimizeSurface>true</OptimizeSurface>
  <ShapeOfBound>
-  <Scale>4.893724</Scale>
-  <Center>0.504484</Center>
-  <Contrast>1.539595</Contrast>
+  <Scale>9.655374</Scale>
+  <Center>0.950920</Center>
+  <Contrast>1.230015</Contrast>
+  <Type>Power2</Type>
  </ShapeOfBound>
 </SurfaceGenerator>
