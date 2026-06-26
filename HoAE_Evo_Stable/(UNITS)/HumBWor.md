@@ -6,11 +6,11 @@ SETANMPARAM -0 -0 1 0
 ICONEX 0 0 interf3\PortretsBuilding\UndDepo 0
 ICONANM 0 0 interf3\PortretsBuilding\UndDepo 1 72 1
 LOCATION -0 -0 800 800
-!STANDLO      1 0.5 Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m
-!BUILDLO_0    1 0.5 Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m
-!BUILDLO_1    1 0.5 Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m
-!BUILDLO_2    1 0.5 Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m
-!BUILDLO_3    1 0.5 Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m Models\Bld\Humans\masterskaya\1024x512\masterskaya.c2m
+!STANDLO      1 0.5 Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m
+!BUILDLO_0    1 0.5 Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m
+!BUILDLO_1    1 0.5 Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m
+!BUILDLO_2    1 0.5 Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m
+!BUILDLO_3    1 0.5 Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m Models\Bld\Kingdom\masterskaya\1024x512\masterskaya.c2m
 MOVEXY #STANDLO   -30 0
 MOVEXY #BUILDLO_0 -30 0
 MOVEXY #BUILDLO_1 -30 0

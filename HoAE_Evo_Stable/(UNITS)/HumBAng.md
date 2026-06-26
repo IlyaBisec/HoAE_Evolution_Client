@@ -7,11 +7,11 @@ ICONANM 0 0 interf3\PortretsBuilding\DruBGref 1 41 1
 BUILDING
 SETANMPARAM -0 -0 1 0              
 LOCATION -0 -0 800 800                     
-!STANDLO      1 0.5 Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m
-!BUILDLO_0    1 0.5 Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m
-!BUILDLO_1    1 0.5 Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m
-!BUILDLO_2    1 0.5 Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m
-!BUILDLO_3    1 0.5 Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Humans\Angel_Altar\1024x512\Angel_Altar.c2m
+!STANDLO      1 0.5 Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m
+!BUILDLO_0    1 0.5 Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m
+!BUILDLO_1    1 0.5 Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m
+!BUILDLO_2    1 0.5 Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m
+!BUILDLO_3    1 0.5 Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m Models\Bld\Kingdom\Angel_Altar\1024x512\Angel_Altar.c2m
 MOVEXY #STANDLO   -20 -30
 MOVEXY #BUILDLO_0 -20 -30
 MOVEXY #BUILDLO_1 -20 -30

@@ -7,11 +7,11 @@ ICONANM 0 0 interf3\PortretsBuilding\DruBPort 1 70 1
 BUILDING
 SETANMPARAM -0 -0 1 0              
 LOCATION -0 -0 800 800
-!STANDLO      1 0.5 Models\Bld\Humans\port\1024x512\port.c2m Models\Bld\Humans\port\1024x512\port.c2m
-!BUILDLO_0    1 0.5 Models\Bld\Humans\port\1024x512\port.c2m Models\Bld\Humans\port\1024x512\port.c2m
-!BUILDLO_1    1 0.5 Models\Bld\Humans\port\1024x512\port.c2m Models\Bld\Humans\port\1024x512\port.c2m
-!BUILDLO_2    1 0.5 Models\Bld\Humans\port\1024x512\port.c2m Models\Bld\Humans\port\1024x512\port.c2m
-!BUILDLO_3    1 0.5 Models\Bld\Humans\port\1024x512\port.c2m Models\Bld\Humans\port\1024x512\port.c2m
+!STANDLO      1 0.5 Models\Bld\Kingdom\port\1024x512\port.c2m Models\Bld\Kingdom\port\1024x512\port.c2m
+!BUILDLO_0    1 0.5 Models\Bld\Kingdom\port\1024x512\port.c2m Models\Bld\Kingdom\port\1024x512\port.c2m
+!BUILDLO_1    1 0.5 Models\Bld\Kingdom\port\1024x512\port.c2m Models\Bld\Kingdom\port\1024x512\port.c2m
+!BUILDLO_2    1 0.5 Models\Bld\Kingdom\port\1024x512\port.c2m Models\Bld\Kingdom\port\1024x512\port.c2m
+!BUILDLO_3    1 0.5 Models\Bld\Kingdom\port\1024x512\port.c2m Models\Bld\Kingdom\port\1024x512\port.c2m
 MOVEXY #STANDLO   0 0
 MOVEXY #BUILDLO_0 0 0
 MOVEXY #BUILDLO_1 0 0

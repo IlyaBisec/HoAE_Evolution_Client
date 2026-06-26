@@ -6,11 +6,11 @@ SETANMPARAM -0 -0 1 0
 ICONEX 0 0 interf3\PortretsBuilding\MchGold 0
 ICONANM 0 0 interf3\PortretsBuilding\MchGold 1 108 1
 LOCATION -0 -0 800 800
-!STANDLO      1 0.4 Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m
-!BUILDLO_0    1 0.4 Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m
-!BUILDLO_1    1 0.4 Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m
-!BUILDLO_2    1 0.4 Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m
-!BUILDLO_3    1 0.4 Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Humans\Mine_Gold5\1024x512\Mine_Gold5.c2m
+!STANDLO      1 0.4 Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m
+!BUILDLO_0    1 0.4 Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m
+!BUILDLO_1    1 0.4 Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m
+!BUILDLO_2    1 0.4 Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m
+!BUILDLO_3    1 0.4 Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m Models\Bld\Kingdom\Mine_Gold5\1024x512\Mine_Gold5.c2m
 MOVEXY #STANDLO   0 0
 MOVEXY #BUILDLO_0 0 0
 MOVEXY #BUILDLO_1 0 0
@@ -53,6 +53,6 @@ ABILITY UA_DestroyBuilding
 ShadowScaleX 2.0
 ShadowScaleY 1.9
 MessageProduce #MecMine
-!TEMP 50 1.00 Models\Bld\Humans\AO\HumBGolM.c2m Models\Bld\Humans\AO\HumBGolA.c2m
+!TEMP 50 1.00 Models\Bld\Kingdom\AO\HumBGolM.c2m Models\Bld\Kingdom\AO\HumBGolA.c2m
 ANMEXT #STANDLO #TEMP 0 0 0 1.0 10000
 [END]

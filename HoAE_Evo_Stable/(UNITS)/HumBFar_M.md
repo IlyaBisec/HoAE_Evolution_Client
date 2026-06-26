@@ -6,11 +6,11 @@ LOCATION -0 -0 800 800
 
 ICONEX 0 0 interf3\PortretsBuilding\MchFarm 0
 ICONANM 0 0 interf3\PortretsBuilding\MchFarm 1 108 1
-!STANDLO      1 0.35 Models\Bld\Humans\Farm\1024x512\Farm.c2m Models\Bld\Humans\Farm\1024x512\Farm.c2m
-!BUILDLO_0    1 0.35 Models\Bld\Humans\Farm\1024x512\Farm.c2m Models\Bld\Humans\Farm\1024x512\Farm.c2m
-!BUILDLO_1    1 0.35 Models\Bld\Humans\Farm\1024x512\Farm.c2m Models\Bld\Humans\Farm\1024x512\Farm.c2m
-!BUILDLO_2    1 0.35 Models\Bld\Humans\Farm\1024x512\Farm.c2m Models\Bld\Humans\Farm\1024x512\Farm.c2m
-!BUILDLO_3    1 0.35 Models\Bld\Humans\Farm\1024x512\Farm.c2m Models\Bld\Humans\Farm\1024x512\Farm.c2m
+!STANDLO      1 0.35 Models\Bld\Kingdom\Farm\1024x512\Farm.c2m Models\Bld\Kingdom\Farm\1024x512\Farm.c2m
+!BUILDLO_0    1 0.35 Models\Bld\Kingdom\Farm\1024x512\Farm.c2m Models\Bld\Kingdom\Farm\1024x512\Farm.c2m
+!BUILDLO_1    1 0.35 Models\Bld\Kingdom\Farm\1024x512\Farm.c2m Models\Bld\Kingdom\Farm\1024x512\Farm.c2m
+!BUILDLO_2    1 0.35 Models\Bld\Kingdom\Farm\1024x512\Farm.c2m Models\Bld\Kingdom\Farm\1024x512\Farm.c2m
+!BUILDLO_3    1 0.35 Models\Bld\Kingdom\Farm\1024x512\Farm.c2m Models\Bld\Kingdom\Farm\1024x512\Farm.c2m
 MOVEXY #STANDLO   -30 65
 MOVEXY #BUILDLO_0 -30 65
 MOVEXY #BUILDLO_1 -30 65

@@ -6,11 +6,11 @@ ICONANM 0 0 interf3\PortretsBuilding\DruBAca 1 94 1
 BUILDING
 SETANMPARAM -0 -0 1 0
 LOCATION -0 -0 800 800
-!STANDLO      1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
-!BUILDLO_0    1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
-!BUILDLO_1    1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
-!BUILDLO_2    1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
-!BUILDLO_3    1 0.4 Models\Bld\Humans\University3\1024x512\University3.c2m Models\Bld\Humans\University3\1024x512\University3.c2m
+!STANDLO      1 0.4 Models\Bld\Kingdom\University3\1024x512\University3.c2m Models\Bld\Kingdom\University3\1024x512\University3.c2m
+!BUILDLO_0    1 0.4 Models\Bld\Kingdom\University3\1024x512\University3.c2m Models\Bld\Kingdom\University3\1024x512\University3.c2m
+!BUILDLO_1    1 0.4 Models\Bld\Kingdom\University3\1024x512\University3.c2m Models\Bld\Kingdom\University3\1024x512\University3.c2m
+!BUILDLO_2    1 0.4 Models\Bld\Kingdom\University3\1024x512\University3.c2m Models\Bld\Kingdom\University3\1024x512\University3.c2m
+!BUILDLO_3    1 0.4 Models\Bld\Kingdom\University3\1024x512\University3.c2m Models\Bld\Kingdom\University3\1024x512\University3.c2m
 MOVEXY #STANDLO   -30 0
 MOVEXY #BUILDLO_0 -30 0
 MOVEXY #BUILDLO_1 -30 0

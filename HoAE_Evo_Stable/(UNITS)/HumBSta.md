@@ -8,11 +8,11 @@ ICONANM 0 0 interf3\PortretsBuilding\DruBCen 1 177 1
 BUILDING
 SETANMPARAM -0 -0 1 0              
 LOCATION -0 -0 800 800
-!STANDLO      1 0.4 Models\Bld\Humans\StableR8\1024x512\StableR8.c2m Models\Bld\Humans\StableR8\1024x512\StableR8.c2m
-!BUILDLO_0    1 0.4 Models\Bld\Humans\StableR8\1024x512\StableR8.c2m Models\Bld\Humans\StableR8\1024x512\StableR8.c2m
-!BUILDLO_1    1 0.4 Models\Bld\Humans\StableR8\1024x512\StableR8.c2m Models\Bld\Humans\StableR8\1024x512\StableR8.c2m
-!BUILDLO_2    1 0.4 Models\Bld\Humans\StableR8\1024x512\StableR8.c2m Models\Bld\Humans\StableR8\1024x512\StableR8.c2m
-!BUILDLO_3    1 0.4 Models\Bld\Humans\StableR8\1024x512\StableR8.c2m Models\Bld\Humans\StableR8\1024x512\StableR8.c2m
+!STANDLO      1 0.4 Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m
+!BUILDLO_0    1 0.4 Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m
+!BUILDLO_1    1 0.4 Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m
+!BUILDLO_2    1 0.4 Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m
+!BUILDLO_3    1 0.4 Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m Models\Bld\Kingdom\StableR8\1024x512\StableR8.c2m
 MOVEXY #STANDLO   0 0
 MOVEXY #BUILDLO_0 0 0
 MOVEXY #BUILDLO_1 0 0

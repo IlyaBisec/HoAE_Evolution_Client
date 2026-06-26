@@ -6,11 +6,11 @@ SETANMPARAM -0 -0 1 0
 ICONEX 0 0 interf3\PortretsBuilding\MchAlh 0
 ICONANM 0 0 interf3\PortretsBuilding\MchAlh 1 59 1
 LOCATION -0 -0 800 800
-!STANDLO      1 0.4 Models\Bld\Humans\Bazar\1024x512\Bazar.c2m Models\Bld\Humans\Bazar\1024x512\Bazar.c2m
-!BUILDLO_0    1 0.4 Models\Bld\Humans\Bazar\1024x512\Bazar.c2m Models\Bld\Humans\Bazar\1024x512\Bazar.c2m
-!BUILDLO_1    1 0.4 Models\Bld\Humans\Bazar\1024x512\Bazar.c2m Models\Bld\Humans\Bazar\1024x512\Bazar.c2m
-!BUILDLO_2    1 0.4 Models\Bld\Humans\Bazar\1024x512\Bazar.c2m Models\Bld\Humans\Bazar\1024x512\Bazar.c2m
-!BUILDLO_3    1 0.4 Models\Bld\Humans\Bazar\1024x512\Bazar.c2m Models\Bld\Humans\Bazar\1024x512\Bazar.c2m
+!STANDLO      1 0.4 Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m
+!BUILDLO_0    1 0.4 Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m
+!BUILDLO_1    1 0.4 Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m
+!BUILDLO_2    1 0.4 Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m
+!BUILDLO_3    1 0.4 Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m Models\Bld\Kingdom\Bazar\1024x512\Bazar.c2m
 MOVEXY #STANDLO   0 0
 MOVEXY #BUILDLO_0 0 0
 MOVEXY #BUILDLO_1 0 0

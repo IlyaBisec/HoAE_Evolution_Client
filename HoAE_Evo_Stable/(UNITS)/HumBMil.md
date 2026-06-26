@@ -7,11 +7,11 @@ ICONANM 0 0 interf3\PortretsBuilding\DruBApl 1 60 1
 BUILDING
 SETANMPARAM -0 -0 1 0              
 LOCATION -0 -0 800 800
-!STANDLO      1 0.35 Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m
-!BUILDLO_0    1 0.35 Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m
-!BUILDLO_1    1 0.35 Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m
-!BUILDLO_2    1 0.35 Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m
-!BUILDLO_3    1 0.35 Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m Models\Bld\Humans\Mill_House\1024x512\Mill_House.c2m
+!STANDLO      1 0.35 Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m
+!BUILDLO_0    1 0.35 Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m
+!BUILDLO_1    1 0.35 Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m
+!BUILDLO_2    1 0.35 Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m
+!BUILDLO_3    1 0.35 Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m Models\Bld\Kingdom\Mill_House\1024x512\Mill_House.c2m
 ADDHDIR #STANDLO 0 96
 ADDHDIR #BUILDLO_0 0 96
 ADDHDIR #BUILDLO_1 0 96
@@ -45,7 +45,7 @@ ShadowScaleX 2.3
 ShadowScaleY 1.0
 ShadowSet 7
 COSTPERCENT 300
-!TEMP 50 1.00 Models\Bld\Humans\AO\HumBMilM.c2m Models\Bld\Humans\AO\HumBMilA.c2m
+!TEMP 50 1.00 Models\Bld\Kingdom\AO\HumBMilM.c2m Models\Bld\Kingdom\AO\HumBMilA.c2m
 ANMEXT #STANDLO #TEMP 0 0 0 1.0 10000
 MASSSPRITES -240 0 D000 240 0 D000 -180 0 D000 -180 60 D000 -180 -60 D000 180 0 D000 180 60 D000 180 -60 D000 -120 -60 D000 -120 60 D000 -120 -120 D000 -120 120 D000 120 -60 D000 120 60 D000 120 -120 D000 120 120 D000 -60 -120 D000 -60 120 D000 -60 -180 D000 -60 180 D000 60 -120 D000 60 120 D000 60 -180 D000 60 180 D000 0 -180 D000 0 180 D000 0 -240 D000 0 240 D000
 [END]

@@ -1,0 +1,205 @@
+NAME DruHAmaF
+
+ICON U_FrnOf17
+/ICON3D Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_stand2.C2M 5000 1.2 -0.1 0.7 0  
+ICONEX 0 0 interf3\UnitPortrets\amazonka_back 0
+ICONSET 3 0 0 interf3\UnitPortrets\amazonka1 0 135 1
+ICONSET 1 0 0 interf3\UnitPortrets\amazonka2 0 92 1
+
+!STAND          1 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_stand1.C2M
+ADDHDIR #STAND 0 128
+!REST          60 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_stand2.C2M
+ADDHDIR #REST 0 128
+!REST          70 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_stand1.C2M
+ADDHDIR #REST 0 128
+!MOTION_L      20 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_walk1.C2M
+ADDHDIR #MOTION_L 0 128
+!MOTION_R      40 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_run1.C2M
+ADDHDIR #MOTION_R 0 128
+SOUND 15 #MOTION_R move_humanoids
+SOUNDFRAME2 #MOTION_R 35
+!PSTAND        1  0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_attack1.C2M
+ADDHDIR #PSTAND 0 128 
+!ATTACK        50 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_attack1.C2M
+ADDHDIR #ATTACK 0 128
+SETACTIVEPOINT0 #ATTACK 9
+SOUND 9 #ATTACK hit_hamazonka
+SOUNDFRAME2 #ATTACK 25
+!TEMP  1 50 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP 0 0 0 1 0
+SOUND 7 #TEMP stroke_hamazonka
+SOUNDFRAME2 #TEMP 18
+!ATTACK        45 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_attack2.C2M
+ADDHDIR #ATTACK 0 128
+SETACTIVEPOINT0 #ATTACK 13
+SOUND 11 #ATTACK hit_hamazonka
+SOUNDFRAME2 #ATTACK 23
+!TEMP  1 45 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP 0 0 0 1 0
+SOUND 7 #TEMP stroke_hamazonka
+SOUNDFRAME2 #TEMP 18
+!ATTACK        55 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_attack3.C2M
+ADDHDIR #ATTACK 0 128
+SETACTIVEPOINT0 #ATTACK 13
+SOUND 9 #ATTACK hit_hamazonka
+SOUNDFRAME2 #ATTACK 25
+!TEMP  1 55 models\empty\empty.c2m models\empty\emptya.c2m
+ANMEXT #ATTACK #TEMP 0 0 0 1 0
+SOUND 7 #TEMP stroke_hamazonka
+SOUNDFRAME2 #TEMP 18
+!DEATH         40 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_death1.C2M
+ADDHDIR #DEATH 0 128
+!DEATH         50 0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_death2.C2M
+ADDHDIR #DEATH 0 128
+!CASTPREPARE   80  0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_spell1.C2M
+ADDHDIR #CASTPREPARE 0 128
+!CASTDIRECT    40  0.36 Models\Units\DruHAma\DruHAmaM.C2M Models\Units\DruHAma\DruHAmaA_spell2.C2M
+ADDHDIR #CASTDIRECT 0 128
+BREAKANIMATION #CASTDIRECT
+SETHOTFRAME2 #CASTPREPARE 74 15 95 0
+SETHOTFRAME2 #CASTDIRECT 21 15 95 0
+ROTATE 32
+GEOMETRY 1 40 60
+SPEEDSCALE 100//110//83
+DAMAGE   0 14
+LIFE     450
+RECTANGLE 0 0 30 75
+ATTACK_RADIUS 0 0 70
+ATTACK_PAUSE 0 0
+SEARCH_ENEMY_RADIUS 250
+DET_RADIUS 0 0 8000
+MATHERIAL 1 BODY
+CANKILL 4 BODY BUILDING WOOD FLY
+ATTMASK 0 4 BODY BUILDING WOOD FLY
+PRICE 1 FOOD 100
+WEAPONKIND 0 chopping
+WEAPON 0 UW_Splash40
+BUILDSTAGES 100
+VISION 6
+STANDGROUND
+VES 30
+MOTIONSTYLE SINGLESTEP
+MOVEBREAK #MOTION_L
+MOVEBREAK #CASTDIRECT
+MOVEBREAK #CASTPREPARE
+BREAKANIMATION #REST
+BREAKANIMATION #PSTAND
+BREAKANIMATION #STAND
+BREAKANIMATION #ATTACK
+BREAKAFTERFRAME #ATTACK 1
+ADDSHOTRADIUS 32
+PROTECTION 4 chopping 5 magical 0 piercing 5 crushing 7
+UNITRADIUS 16
+ZPOINTS 40 40
+SETACTIVEPOINT0 #ATTACK 20
+ABILITY DruidHeroSingleFAST
+ABILITY Start_Debaff
+ABILITY MC_aSummonPeasants_Druid
+ABILITY Start_DruHAma
+ABILITY Treasure_Weapon_1
+ABILITY Medalion0
+ABILITY HeroAuraThorn
+ABILITY HeroAuraHeroizm
+ABILITY MagicCardMagicSemena1
+ABILITY MC_aTrap
+ABILITY HeroAura_aRun_F
+COLLISION 16
+SELTYPE SelHero1 1 1
+//ABILITY MC_aDesease
+//ABILITY MC_aAirSupport
+//ABILITY MC_aTreeOfLife
+//ABILITY MC_aGhostlyPrison
+//ABILITY MC_aSummonDjin
+//ABILITY MC_aWallOfRoots
+//ABILITY MC_aCallOfNature
+//ABILITY MC_aSummons
+//ABILITY MC_aRoamFires
+//ABILITY MC_aLightningStorm
+//ABILITY MC_aFireStorm
+//ABILITY MC_aStatueOfRage
+//ABILITY MC_aDryUp
+//ABILITY MC_aTornado
+//ABILITY MC_aHurricane
+//ABILITY MC_aStorm
+//ABILITY MC_aAcidWave
+//ABILITY MC_aWhiteMagic_Heal
+//ABILITY MC_aStoneFist
+//ABILITY MagicCardMagicSemena1
+//ABILITY MC_aDecay
+//ABILITY MC_aUnsummon
+//ABILITY MC_aStealLife
+//ABILITY MC_aRuneOfFire
+//ABILITY MC_aFireRing
+//ABILITY MC_aNecromancy
+//ABILITY MC_aHolyLight
+//ABILITY MC_aMagmaBall
+//ABILITY MagicCardFreeze1
+//ABILITY MC_aAbsorbMagic
+//ABILITY MC_aStatueOfRage
+//ABILITY MC_aTrap
+//ABILITY MC_aAuraOfFire
+//ABILITY MC_aIllusion
+//ABILITY MC_aPolymorph
+//ABILITY MagicCardStatueOfRage
+//ABILITY MagicCardLightningEye
+//ABILITY MagicCardSwarmOfInsects
+//ABILITY MagicCardInvisibility
+//ABILITY MagicCardFireBall1
+//ABILITY MC_aAcid
+//ABILITY MC_aRiseOfUndeads
+//ABILITY MagicCardMagicSemena1
+//ABILITY MagicCardFear
+//ABILITY MC_aPolymorph
+//ABILITY MagicCardStatueOfRage
+//ABILITY MagicCardIllusion
+//ABILITY MagicCardFlashToStone
+//ABILITY MagicCardVortex
+//ABILITY MagicCardDeathTrick
+//ABILITY MagicCardGolem
+//ABILITY MagicCardEarthquake1
+
+ABILITY HA_AtHomeDruids
+ABILITY Bottle20
+ABILITY Bottle8
+ABILITY HA_MeleeRegen
+ABILITY HA_AttSpeed+10
+ABILITY HA_aHeroLight
+ABILITY HA_Regen-3
+ABILITY HA_Mana-50
+ABILITY HA_Mana-50
+
+CANSTORM
+VISITORMASK 1
+PLACEINTRANSPORT 25
+LOWCOLLISION
+
+ACTIVEBONE Models\Units\DruHAma\DruHAmaM.C2M weapon1
+ACTIVEBONE Models\Units\DruHAma\DruHAmaM.C2M weapon2
+ACTIVEBONE Models\Units\DruHAma\DruHAmaM.C2M head1
+ACTIVEBONE Models\Units\DruHAma\DruHAmaM.C2M body1
+DAMAGEONBUILDINGMULTIPLICATOR 10
+COLUMN 6
+CYLINDER 20 50
+SOUND 5 #DEATH death_amazonka
+SOUND 9 #MOTION_L move_humanoids
+SOUNDFRAME2 #MOTION_L 19
+EMOTICON Normal G\EMOTICONS\EMOTICONS 4
+EMOTICON Angry G\EMOTICONS\EMOTICONS 4
+EMOTICON Gladness G\EMOTICONS\EMOTICOS 4
+EMOTICON Defiance G\EMOTICONS\EMOTICONS 4
+EMOTICON Pride G\EMOTICONS\EMOTICONS 4
+EMOTICON Sadness G\EMOTICONS\EMOTICONS 4
+EMOTICON Despair G\EMOTICONS\EMOTICONS 4
+//ABILITYOPT1 MC_aTreeOfLife
+//ABILITYOPT2 MC_aChillArrow
+//ABILITYOPT1 DruHArcWeapon1
+//ABILITYOPT2 DruHArcWeaponMelee1
+EXPA 10
+KILLERAWARD             GOLD 20
+NO_HUNGRY
+INCORPOREAL
+PortretHeroFile Interf3\heroesPictures\Lana_Amazonka
+SelPrio 5
+NIKAKIXMAM
+TFACTOR FF6E6E6E
+[END]

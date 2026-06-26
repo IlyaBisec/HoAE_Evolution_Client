@@ -6,11 +6,11 @@ ICONEX 0 0 interf3\PortretsBuilding\MchStor 0
 ICONANM 0 0 interf3\PortretsBuilding\MchStor 1 153 1
 
 LOCATION -0 -0 800 800
-!STANDLO      1 0.44 Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m
-!BUILDLO_0    1 0.44 Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m
-!BUILDLO_1    1 0.44 Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m
-!BUILDLO_2    1 0.44 Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m
-!BUILDLO_3    1 0.44 Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Humans\Knd_sklad\1024x512\Knd_sklad.c2m
+!STANDLO      1 0.44 Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m
+!BUILDLO_0    1 0.44 Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m
+!BUILDLO_1    1 0.44 Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m
+!BUILDLO_2    1 0.44 Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m
+!BUILDLO_3    1 0.44 Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m Models\Bld\Kingdom\Knd_sklad\1024x512\Knd_sklad.c2m
 MOVEXY #STANDLO   0 20 
 MOVEXY #BUILDLO_0 0 20 
 MOVEXY #BUILDLO_1 0 20 

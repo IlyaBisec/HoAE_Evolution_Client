@@ -7,11 +7,11 @@ ICONANM 0 0 interf3\PortretsBuilding\DruBSto 1 96 1
 BUILDING
 SETANMPARAM -0 -0 1 0              
 LOCATION -0 -0 800 800
-!STANDLO      1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
-!BUILDLO_0    1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
-!BUILDLO_1    1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
-!BUILDLO_2    1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
-!BUILDLO_3    1 0.35 Models\Bld\Humans\Library\1024x512\Library.c2m Models\Bld\Humans\Library\1024x512\Library.c2m
+!STANDLO      1 0.35 Models\Bld\Kingdom\Library\1024x512\Library.c2m Models\Bld\Kingdom\Library\1024x512\Library.c2m
+!BUILDLO_0    1 0.35 Models\Bld\Kingdom\Library\1024x512\Library.c2m Models\Bld\Kingdom\Library\1024x512\Library.c2m
+!BUILDLO_1    1 0.35 Models\Bld\Kingdom\Library\1024x512\Library.c2m Models\Bld\Kingdom\Library\1024x512\Library.c2m
+!BUILDLO_2    1 0.35 Models\Bld\Kingdom\Library\1024x512\Library.c2m Models\Bld\Kingdom\Library\1024x512\Library.c2m
+!BUILDLO_3    1 0.35 Models\Bld\Kingdom\Library\1024x512\Library.c2m Models\Bld\Kingdom\Library\1024x512\Library.c2m
 ADDHDIR #STANDLO   0 160
 ADDHDIR #BUILDLO_0 0 160
 ADDHDIR #BUILDLO_1 0 160
