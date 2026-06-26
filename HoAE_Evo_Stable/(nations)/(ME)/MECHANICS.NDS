@@ -3,6 +3,9 @@ MecUArc(ME) MecUArc
 MecHArt(ME) MecHArt
 MecHEnf(ME) MecHEnf
 MecHGeo(ME) MecHGeo
+MecHArtF(ME) MecHArtF
+MecHEnfF(ME) MecHEnfF
+MecHGeoF(ME) MecHGeoF					 				 
 MecSIro(ME) MecSIro
 MecSTri(ME) MecSTri
 MecSTra(ME) MecSTra
@@ -11,6 +14,7 @@ MecUGoG(ME) MecUGoG
 MecUGoI(ME) MecUGoI
 MecUGoS(ME) MecUGoS
 MecUMac(ME) MecUMac
+MecUMot(ME) MecUMot				   
 MecURif(ME) MecURif
 MecUSky(ME) MecUSky
 MecUZep(ME) MecUZep
@@ -31,6 +35,7 @@ MecBSto(ME) MecBSto
 MecBToC(ME) MecBToC
 MecBTow(ME) MecBTow
 MecBTowU(ME) MecBTowU
+MecBTo2(ME) MecBTo2
 MecBGol(ME) MecBGol
 MecBOre(ME) MecBOre
 MecBCry(ME) MecBCry
@@ -62,6 +67,9 @@ MecBWal(ME) MecBWal
 MecBTww(ME) MecBTww
 MecBGat(ME) MecBGat
 MecBBas(ME) MecBBas
+MecBLab(ME) MecBLab
+MecUWar(ME) MecUWar
+MecUEnc(ME) MecUEnc			   
 SumUBan(ME) SumUBan
 SumUDae(ME) SumUDae
 SumUDrc(ME) SumUDrc
@@ -75,25 +83,34 @@ SumURid(ME) SumURid
 MecBHou(ME)  1
 MecUDww(ME)  0 0 A
 
-MecUDww(ME)  17
+MecUDww(ME)  19
 MecBHou(ME)  0 0 A
+MecBBla(ME)  1 0 A
+MecBSho(ME)  2 0 A
+MecBGoG(ME)  3 0 A
+MecBLab(ME)  4 0 A
+MecBBoi(ME)  5 0 A
+MecBAir(ME)  6 0 A
+MecBShi(ME)  7 0 A
+MecBAlt(ME)  8 0 A
+
 MecBSto(ME)  0 1 A
-MecBFar(ME)  2 1 A
+				  
 MecBGol(ME)  1 1 A
 MecBOre(ME)  1 4 A
 MecBCry(ME)  1 4 A
 
-MecBSho(ME)  1 0 A
+MecBFar(ME)  2 1 A
 MecBAca(ME)  3 1 A
-MecBGoG(ME)  2 0 A
-MecBBoi(ME)  3 0 A
-MecBAir(ME)  4 0 A
-MecBShi(ME)  5 0 A
+				  
+				  
+				  
+				  
 MecBTow(ME)  4 1 A
 MecBToC(ME)  5 1 A
-MecBMin(ME)  6 0 A
+				  
 MecBWal(ME)  6 1 A
-MecBAlt(ME)  7 0 A
+MecBMin(ME)  7 1 A
 
 MecBSho(ME)  1
 MecURif(ME)  0 0 A
@@ -102,9 +119,10 @@ MecBAir(ME)  2
 MecUSky(ME)  0 0 A
 MecUZep(ME)  1 0 A
 
-MecBBoi(ME)  2
-MecUCan(ME)  0 0 A
+MecBBoi(ME)  3
+MecUMot(ME)  0 0 A
 MecUMac(ME)  1 0 A
+MecUCan(ME)  2 0 A
 
 MecBGoG(ME)  1
 MecUGoG(ME)  0 0 A
@@ -124,7 +142,13 @@ MecSTri(ME)  0 0 A
 MecSTra(ME)  2 0 A
 
 MecBBas(ME)  1
-MecBGat(ME)  2 0 A
+MecBGat(ME)  0 0 A
+
+MecBLab(ME)  1
+MecUEnc(ME)  0 0 A
+
+MecBBla(ME)  1
+MecUWar(ME)  0 0 A
 
 MecBAlt(ME)  7
 SumUBan(ME)  0 0 A
@@ -662,6 +686,7 @@ MecUGoG(ME)
 MecUGoI(ME)
 MecUGoS(ME)
 MecUMac(ME)
+MecUMot(ME)	   
 MecURif(ME)
 MecUSky(ME)
 MecUZep(ME)
@@ -690,6 +715,8 @@ MecBWal(ME)
 MecBTww(ME)
 MecBGat(ME)
 MecBBas(ME)
+MecUWar(ME)
+MecUEnc(ME)	   
 SumUBan(ME)
 SumUDae(ME)
 SumUDrc(ME)
@@ -705,7 +732,7 @@ MecBGol(ME)    1 MecBHou(ME)
 MecBCry(ME)    1 MecBHou(ME)
 MecBOre(ME)    1 MecBHou(ME)
 MecBSho(ME)    1 MecBHou(ME)
-MecBShi(ME)    1 MecBSto(ME)
+MecBShi(ME)    1 MecBHou(ME)
 MecBAca(ME)    1 MecBSho(ME)
 MecBAlt(ME)    2 MecBAir(ME)
                  MecBAca(ME)
@@ -726,7 +753,7 @@ MecBAlt(ME)    1 MecBHou(ME)
 [UNITLOCK]
 MecBAlt(ME) 1 MecBAlt(ME)
 [COUNTRY]
-MECHANICS 45
+MECHANICS 48
 #heroes
 MecHArt(ME)
 MecHEnf(ME)
@@ -739,8 +766,11 @@ MecUGoS(ME)
 MecUGoI(ME)
 MecUCan(ME)
 MecUMac(ME)
+MecUMot(ME)	   
 MecUSky(ME)
 MecUZep(ME)
+MecUWar(ME)
+MecUEnc(ME)	   
 #ships
 MecSIro(ME)
 MecSTri(ME)
