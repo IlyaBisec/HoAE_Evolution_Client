@@ -24,6 +24,7 @@ UndUWeH(UN) UndUWeH
 UndUWeW(UN) UndUWeW
 UndUZom(UN) UndUZom
 UndUGol(UN) UndUGol
+UndUBon(UN) UndUBon
 UndBAlt(UN) UndBAlt
 UndBCem(UN) UndBCem
 UndBCe2(UN) UndBCe2
@@ -834,7 +835,7 @@ UndUDrB(UN)    1 UndBLi3(UN)
 UndBLi2(UN)A   1 UndBLi3(UN)
 
 [COUNTRY]
-UNDEAD_LEGION 60
+UNDEAD_LEGION 61
 #heroes
 UndHKni(UN)
 UndHLic(UN)
@@ -855,7 +856,7 @@ UndUVam(UN)
 UndUWeH(UN)
 UndUWeW(UN)
 UndUZom(UN)
-UndUGol(UN)
+UndUBon(UN)
 #ships
 UndSGal(UN)
 UndSGho(UN)
@@ -886,6 +887,7 @@ UndBCe2(UN)
 UndUSk2(UN)
 UndHNec(UN)
 UndUZo1(UN)
+UndUGol(UN)
 #temp
 UndBWal(UN)
 UndBTww(UN)
